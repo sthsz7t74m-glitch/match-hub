@@ -11,13 +11,29 @@ async function loadTransfers(){
   renderTransfers();
 }
 
+function escapeTransferText(value=''){
+  return String(value).replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+}
+
+function transferDate(value){
+  if(!value)return'';
+  const date=new Date(value);
+  return Number.isNaN(date.getTime())?'':date.toLocaleString('ja-JP',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'});
+}
+
 function renderTransfers(){
   const list=document.querySelector('#transferList');
   const updated=document.querySelector('#transferUpdated');
   if(!list||!updated)return;
-  updated.textContent=transferData.updatedAt?`更新 ${new Date(transferData.updatedAt).toLocaleString('ja-JP',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'})}`:'';
+  updated.textContent=transferData.updatedAt?`更新 ${transferDate(transferData.updatedAt)}`:'';
   const items=(transferData.items||[]).filter(item=>transferFilter==='all'||item.status===transferFilter);
-  list.innerHTML=items.length?items.map(item=>`<article class="transfer-card"><div class="transfer-card-head"><span class="transfer-status ${item.status}">${item.status==='confirmed'?'移籍確定':'移籍の噂'}</span><span class="transfer-date">${item.date||''}</span></div><div class="transfer-player">${item.player}</div><div class="transfer-route"><div class="transfer-club">${item.from||'未定'}</div><div class="transfer-arrow">→</div><div class="transfer-club">${item.to||'未定'}</div></div>${item.source?`<div class="transfer-source">情報源：${item.source}</div>`:''}</article>`).join(''):'<div class="transfer-empty"><strong>現在表示できる移籍情報はありません</strong><p>情報源を接続後、確定情報と噂を分けて表示します。</p></div>';
+  list.innerHTML=items.length?items.map(item=>{
+    const title=escapeTransferText(item.player||item.title||'移籍ニュース');
+    const summary=escapeTransferText(item.summary||'');
+    const source=escapeTransferText(item.source||'情報源');
+    const url=/^https?:\/\//.test(item.url||'')?item.url:'';
+    return `<article class="transfer-card"><div class="transfer-card-head"><span class="transfer-status ${item.status}">${item.status==='confirmed'?'確定報道':'移籍の噂'}</span><span class="transfer-date">${transferDate(item.date)}</span></div><div class="transfer-player">${title}</div>${item.from||item.to?`<div class="transfer-route"><div class="transfer-club">${escapeTransferText(item.from||'未定')}</div><div class="transfer-arrow">→</div><div class="transfer-club">${escapeTransferText(item.to||'未定')}</div></div>`:''}${summary?`<p class="transfer-summary">${summary}</p>`:''}<div class="transfer-source">${url?`<a href="${url}" target="_blank" rel="noopener noreferrer">${source}で記事を開く ↗</a>`:`情報源：${source}`}</div></article>`;
+  }).join(''):'<div class="transfer-empty"><strong>現在表示できる移籍情報はありません</strong><p>ニュースの自動更新後に表示されます。</p></div>';
 }
 
 function openTransferView(){
