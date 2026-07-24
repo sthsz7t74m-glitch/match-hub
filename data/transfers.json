@@ -1,4 +1,249 @@
 {
-  "updatedAt": null,
-  "items": []
+  "updatedAt": "2026-07-24T11:02:55.891Z",
+  "source": "BBC Sport Football RSS",
+  "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
+  "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cp9eyz14y7jo?at_medium=RSS&at_campaign=rss",
+      "status": "confirmed",
+      "player": "Chelsea agree deal to sign Palace defender Lacroix",
+      "from": "",
+      "to": "",
+      "summary": "Chelsea agree deal to sign France defender Maxence Lacroix from Crystal Palace after two impressive seasons.",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cp9eyz14y7jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-24T09:14:32.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cr593z81lqno?at_medium=RSS&at_campaign=rss",
+      "status": "confirmed",
+      "player": "Newcastle seal £34m move for Monaco's Bamba",
+      "from": "",
+      "to": "",
+      "summary": "Newcastle United have signed Monaco midfielder Aladji Bamba for a fee which could rise to £34m.",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cr593z81lqno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-24T09:30:06.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cly5d2n2879o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Kane set for talks with Bayern Munich over new deal",
+      "from": "",
+      "to": "",
+      "summary": "Harry Kane is set to begin talks over a new Bayern Munich contract, with Barcelona and various Saudi Arabian clubs reportedly interested in the England captain.",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cly5d2n2879o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-24T09:38:26.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cpq8lpj530po?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Arsenal set to make £70m bid for Newcastle's Guimaraes",
+      "from": "",
+      "to": "",
+      "summary": "Arsenal are set to make a £70m offer for Newcastle captain Bruno Guimaraes.",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cpq8lpj530po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-23T16:56:18.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cedjnz7wxy6o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Man Utd handed Tchouameni boost - Friday's gossip",
+      "from": "",
+      "to": "",
+      "summary": "Real Madrid open to selling Aurelien Tchouameni to Manchester United, Arsenal eye John Stones and Ezri Konsa, Chelsea favourites for Kerim Alajbegovic, Yan Diomande back on radar of Premier League clubs and Daizen Maeda set for Ipswich Town move.",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cedjnz7wxy6o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-24T09:47:15.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/czjle91ry39o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Man Utd bring in Leicester goalkeeper Leitzig",
+      "from": "",
+      "to": "",
+      "summary": "Manchester United sign goalkeeper Janina Leitzig from Leicester City for an undisclosed fee.",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/czjle91ry39o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-24T08:07:20.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cn0nypykzr7o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Modric, 40, signs new AC Milan deal",
+      "from": "",
+      "to": "",
+      "summary": "AC Milan midfielder Luka Modric - who turns 41 in September - signs a one-year contract extension at the club.",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cn0nypykzr7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-23T17:48:56.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cp8xk0x902do?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Arsenal sign Greece forward Tzolis for £34m",
+      "from": "",
+      "to": "",
+      "summary": "Arsenal sign \"extremely versatile attacking player\" Christos Tzolis from Club Brugge for £34m.",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cp8xk0x902do?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-23T14:32:50.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c1eyjvzeg8qo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Anderson's journey to England star and  Man City record signing",
+      "from": "",
+      "to": "",
+      "summary": "Elliot Anderson was a key part of England's World Cup side and is now Manchester City's record signing.",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c1eyjvzeg8qo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-23T17:16:34.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/clyl7eve9ddo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Leeds in talks to sign Man City keeper Trafford",
+      "from": "",
+      "to": "",
+      "summary": "Leeds United are in discussions with Manchester City to sign goalkeeper James Trafford.",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/clyl7eve9ddo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-23T11:56:17.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c1d1g6k51l7o?at_medium=RSS&at_campaign=rss",
+      "status": "confirmed",
+      "player": "Garnacho joins Villa on loan from Chelsea",
+      "from": "",
+      "to": "",
+      "summary": "Aston Villa sign Chelsea winger Alejandro Garnacho in a loan deal that will become permanent \"if certain criteria are met\".",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c1d1g6k51l7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-23T14:22:21.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c79gdrwx4veo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Hull City owner 'disturbed' by transfer claims",
+      "from": "",
+      "to": "",
+      "summary": "Hull City owner Acun Ilicali says he is \"disturbed\" by claims of the club being rejected by transfer targets and, in an unusual move, attempted to clarify the situation.",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c79gdrwx4veo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-23T12:15:10.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c1j1gk23jj4o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Anderson gets Man City move he craved as £116m deal done",
+      "from": "",
+      "to": "",
+      "summary": "Manchester City confirm the arrival of Elliot Anderson on a five-year deal, as the England player is tipped to become a \"complete midfielder\" at his new club.",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c1j1gk23jj4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-23T16:01:00.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cy8enwn2xq4o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Chelsea sign £117m Rogers - what will he bring?",
+      "from": "",
+      "to": "",
+      "summary": "Chelsea's £117m move for Aston Villa midfielder Morgan Rogers is a genuine transfer window shock - so how did they do it and what does it mean for the rest of the squad?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cy8enwn2xq4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-21T20:57:20.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c3vy76rvk06o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "All done deals in July 2026",
+      "from": "",
+      "to": "",
+      "summary": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c3vy76rvk06o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-24T10:43:34.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c62971key06o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "'Celtic close on Hogh' as Maeda & Danilo near exits - gossip",
+      "from": "",
+      "to": "",
+      "summary": "Bodo/Glimt's Kasper Hogh is reportedly close to joining Celtic with Daizen Maeda poised to complete his switch to Ipswich Town and Rangers' Danilo pictured arriving in Brazil to complete a loan move.",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c62971key06o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-24T06:37:55.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cvgjd1rr3ryo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Who has your Premiership club brought in & let go this summer?",
+      "from": "",
+      "to": "",
+      "summary": "Your one-stop shop for all the ins and outs in the Scottish Premiership during the  2026 summer transfer window.",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvgjd1rr3ryo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-23T12:46:23.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/czjle91ry39o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Man Utd bring in Leicester goalkeeper Leitzig",
+      "from": "",
+      "to": "",
+      "summary": "Manchester United sign goalkeeper Janina Leitzig from Leicester City for an undisclosed fee.",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/czjle91ry39o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-24T08:07:20.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cn4nmjwl8j1o?at_medium=RSS&at_campaign=rss",
+      "status": "confirmed",
+      "player": "Codina on why she joined West Ham project",
+      "from": "",
+      "to": "",
+      "summary": "Laia Codina won trophies and found a \"new family\" during her three-year spell at Arsenal - but she was ready for a change with West Ham.",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cn4nmjwl8j1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-23T13:22:48.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c1m15jpvm13o?at_medium=RSS&at_campaign=rss",
+      "status": "confirmed",
+      "player": "Goalkeeper Startup joins WSL newcomers Birmingham",
+      "from": "",
+      "to": "",
+      "summary": "Birmingham City have signed goalkeeper Katie Startup following her exit from Manchester City when her contract expired.",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c1m15jpvm13o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-23T14:00:06.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cz7dq8wrzwjo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Arsenal sign Spain goalkeeper Rodriguez on free",
+      "from": "",
+      "to": "",
+      "summary": "Arsenal bring in Spain goalkeeper Misa Rodriguez on a free transfer - the Women's Super League side's sixth signing of the summer.",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cz7dq8wrzwjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-22T08:57:48.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cr49lgg014ko?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Newcastle closing in on Liverpool forward Kiernan",
+      "from": "",
+      "to": "",
+      "summary": "Newcastle United are in advanced talks to sign Republic of Ireland forward Leanne Kiernan from Liverpool.",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cr49lgg014ko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-22T06:47:34.000Z"
+    }
+  ]
 }
