@@ -1,5 +1,2 @@
-const CACHE='match-hub-v067';
-const ASSETS=['./','./index.html','./styles.css','./detail.css','./v05.css','./v051.css','./transfers.css','./v064.css','./v065.css','./v067.css','./app.js','./transfers.js','./v064.js','./v065.js','./v067.js','./manifest.webmanifest','./data/football.json','./data/transfers.json'];
-self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS))));
-self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key))))));
-self.addEventListener('fetch',event=>{const request=event.request;if(request.method!=='GET')return;event.respondWith(fetch(request).then(response=>{const copy=response.clone();caches.open(CACHE).then(cache=>cache.put(request,copy));return response}).catch(()=>caches.match(request).then(r=>r||caches.match('./index.html'))));});
+self.addEventListener('install',()=>self.skipWaiting());
+self.addEventListener('activate',event=>{event.waitUntil((async()=>{const keys=await caches.keys();await Promise.all(keys.map(key=>caches.delete(key)));await self.registration.unregister();await self.clients.claim();const clients=await self.clients.matchAll({type:'window'});for(const client of clients)client.navigate(client.url);})());});
