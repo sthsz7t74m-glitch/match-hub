@@ -68,7 +68,11 @@ function renderFavorites(){
   $('#favoriteTeams').innerHTML=ids.map(id=>{const t=getTeam(id);if(!t)return'';const next=fixturesFor(id).find(f=>new Date(f.date)>new Date()&&!isFinished(f));return `<article class="team-card"><div class="team-row"><img class="team-logo" src="${t.logo}" alt=""><div class="team-meta"><div class="team-name">${teamName(t)} <span class="inline-rank">${getRank(id)?getRank(id)+'位':'開幕前'}</span></div><div class="english-name">${t.name}</div></div><div class="team-actions"><button class="mini-button" data-primary-id="${id}">★ 最推し</button><button class="mini-button danger" data-remove-id="${id}">解除</button></div></div>${next?matchCard(next):'<p class="empty compact-empty">次戦未定</p>'}</article>`}).join('')||'<p class="empty">ほかのお気に入りはまだありません</p>';
 }
 function renderSchedule(){
-  const now=new Date(),end=new Date(now);if(state.range==='today')end.setHours(23,59,59,999);if(state.range==='week')end.setDate(now.getDate()+7);if(state.range==='month')end.setMonth(now.getMonth()+1);
+  const now=new Date();
+  let end;
+  if(state.range==='today')end=new Date(now.getFullYear(),now.getMonth(),now.getDate(),23,59,59,999);
+  if(state.range==='week'){end=new Date(now);end.setDate(now.getDate()+7);}
+  if(state.range==='month')end=new Date(now.getFullYear(),now.getMonth()+1,0,23,59,59,999);
   let list=state.data.fixtures.filter(f=>(state.favorites.includes(f.home.id)||state.favorites.includes(f.away.id))&&new Date(f.date)>=new Date(now.getTime()-8*3600000)&&new Date(f.date)<=end);
   list.sort((a,b)=>statusOrder(a)-statusOrder(b)||new Date(a.date)-new Date(b.date));
   $('#scheduleList').innerHTML=list.map(matchCard).join('')||'<p class="empty">この期間の試合はありません</p>';
