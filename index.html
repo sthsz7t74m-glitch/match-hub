@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#111827">
+  <meta name="description" content="5大リーグの推しクラブ日程と順位をまとめて確認できるMatch Hub">
   <title>Match Hub</title>
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="stylesheet" href="./styles.css">
@@ -12,7 +13,7 @@
   <header class="topbar">
     <div>
       <p class="eyebrow">FOOTBALL SCHEDULE</p>
-      <h1>Match Hub</h1>
+      <h1>Match Hub <span class="version">v0.2</span></h1>
     </div>
     <button id="themeButton" class="icon-button" aria-label="テーマ切替">◐</button>
   </header>
@@ -26,10 +27,8 @@
     <section id="onboarding" class="panel hidden">
       <p class="step">STEP 1 / 1</p>
       <h2>最推しクラブを選ぼう</h2>
-      <p class="muted">あとから好きなだけ追加できます。</p>
-      <div class="search-row">
-        <input id="teamSearch" type="search" placeholder="チーム名を検索">
-      </div>
+      <p class="muted">5大リーグから1クラブ選択。あとから好きなだけ追加できます。</p>
+      <div class="search-row"><input id="teamSearch" type="search" placeholder="チーム名を検索"></div>
       <div id="leagueFilters" class="chips"></div>
       <div id="teamPicker" class="team-grid"></div>
     </section>
@@ -43,12 +42,10 @@
       </div>
       <div id="favoriteTeams" class="stack"></div>
 
-      <div class="section-heading">
-        <h2>試合日程</h2>
-      </div>
+      <div class="section-heading"><h2>試合日程</h2></div>
       <div class="tabs" role="tablist">
-        <button class="tab active" data-range="today">今日</button>
-        <button class="tab" data-range="week">今週</button>
+        <button class="tab" data-range="today">今日</button>
+        <button class="tab active" data-range="week">今週</button>
         <button class="tab" data-range="month">今月</button>
       </div>
       <div id="scheduleList" class="stack"></div>
@@ -61,18 +58,17 @@
     </section>
 
     <section id="searchView" class="hidden panel">
-      <h2>チーム検索</h2>
+      <div class="section-heading compact"><h2>チーム検索</h2><span id="favoriteCount" class="count-badge"></span></div>
       <input id="globalTeamSearch" type="search" placeholder="日本語・英語で検索">
+      <div id="globalLeagueFilters" class="chips"></div>
       <div id="globalTeamResults" class="team-grid"></div>
     </section>
 
     <section id="settingsView" class="hidden panel">
       <h2>設定</h2>
-      <label class="setting-row">
-        <span>ダークモード</span>
-        <input id="darkModeToggle" type="checkbox">
-      </label>
-      <p class="muted">お気に入りや表示設定は、この端末内に保存されます。</p>
+      <label class="setting-row"><span>ダークモード</span><input id="darkModeToggle" type="checkbox"></label>
+      <button id="resetButton" class="danger-button">お気に入り設定をリセット</button>
+      <p class="muted settings-note">お気に入りや表示設定は、この端末内に保存されます。</p>
     </section>
   </main>
 
