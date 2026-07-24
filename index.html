@@ -8,12 +8,13 @@
   <title>Match Hub</title>
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./detail.css">
 </head>
 <body>
   <header class="topbar">
     <div>
       <p class="eyebrow">FOOTBALL SCHEDULE</p>
-      <h1>Match Hub <span class="version">v0.3</span></h1>
+      <h1>Match Hub <span class="version">v0.4</span></h1>
     </div>
     <button id="themeButton" class="icon-button" aria-label="テーマ切替">◐</button>
   </header>
@@ -28,59 +29,39 @@
       <p class="step">STEP 1 / 1</p>
       <h2>最推しクラブを選ぼう</h2>
       <p class="muted">5大リーグから1クラブ選択。あとから好きなだけ追加できます。</p>
-      <div class="search-row">
-        <input id="teamSearch" type="search" placeholder="カタカナ・英語でチーム名を検索">
-      </div>
+      <div class="search-row"><input id="teamSearch" type="search" placeholder="カタカナ・英語でチーム名を検索"></div>
       <div id="leagueFilters" class="chips"></div>
       <div id="teamPicker" class="team-grid"></div>
     </section>
 
     <section id="homeView" class="hidden">
       <section id="favoriteHero" class="hero"></section>
-
-      <div class="section-heading">
-        <div>
-          <h2>お気に入りクラブ</h2>
-          <p id="favoriteCount" class="muted"></p>
-        </div>
-        <button id="addTeamButton" class="text-button">＋ 追加</button>
-      </div>
+      <div class="section-heading"><div><h2>お気に入りクラブ</h2><p id="favoriteCount" class="muted"></p></div><button id="addTeamButton" class="text-button">＋ 追加</button></div>
       <div id="favoriteTeams" class="stack"></div>
-
-      <div class="section-heading">
-        <h2>試合日程</h2>
-      </div>
-      <div class="tabs" role="tablist">
-        <button class="tab" data-range="today">今日</button>
-        <button class="tab active" data-range="week">今週</button>
-        <button class="tab" data-range="month">今月</button>
-      </div>
+      <div class="section-heading"><h2>試合日程</h2></div>
+      <div class="tabs" role="tablist"><button class="tab" data-range="today">今日</button><button class="tab active" data-range="week">今週</button><button class="tab" data-range="month">今月</button></div>
       <div id="scheduleList" class="stack"></div>
     </section>
 
-    <section id="standingsView" class="hidden panel">
-      <h2>順位表</h2>
-      <p class="muted">お気に入りクラブは強調表示されます。</p>
-      <div id="standingsTabs" class="chips spaced-chips"></div>
-      <div id="standingsTable"></div>
+    <section id="teamDetailView" class="hidden">
+      <button id="detailBackButton" class="back-button">← 戻る</button>
+      <section id="detailHeader" class="detail-header"></section>
+      <section class="panel detail-panel">
+        <div class="section-heading compact"><div><h2>今シーズンの試合</h2><p id="detailMatchCount" class="muted"></p></div></div>
+        <div id="detailFilters" class="chips detail-filters">
+          <button class="chip active" data-detail-filter="all">すべて</button>
+          <button class="chip" data-detail-filter="home">ホーム</button>
+          <button class="chip" data-detail-filter="away">アウェイ</button>
+          <button class="chip" data-detail-filter="upcoming">今後</button>
+          <button class="chip" data-detail-filter="finished">結果</button>
+        </div>
+        <div id="detailMatchList" class="stack detail-match-list"></div>
+      </section>
     </section>
 
-    <section id="searchView" class="hidden panel">
-      <h2>チーム検索</h2>
-      <input id="globalTeamSearch" type="search" placeholder="カタカナ・英語・略称で検索">
-      <div id="globalLeagueFilters" class="chips"></div>
-      <div id="globalTeamResults" class="team-grid"></div>
-    </section>
-
-    <section id="settingsView" class="hidden panel">
-      <h2>設定</h2>
-      <label class="setting-row">
-        <span>ダークモード</span>
-        <input id="darkModeToggle" type="checkbox">
-      </label>
-      <button id="resetButton" class="danger-button">お気に入り設定をリセット</button>
-      <p class="muted settings-note">お気に入りや表示設定は、この端末内に保存されます。試合データは毎日自動更新されます。</p>
-    </section>
+    <section id="standingsView" class="hidden panel"><h2>順位表</h2><p class="muted">お気に入りクラブは強調表示されます。</p><div id="standingsTabs" class="chips spaced-chips"></div><div id="standingsTable"></div></section>
+    <section id="searchView" class="hidden panel"><h2>チーム検索</h2><input id="globalTeamSearch" type="search" placeholder="カタカナ・英語・略称で検索"><div id="globalLeagueFilters" class="chips"></div><div id="globalTeamResults" class="team-grid"></div></section>
+    <section id="settingsView" class="hidden panel"><h2>設定</h2><label class="setting-row"><span>ダークモード</span><input id="darkModeToggle" type="checkbox"></label><button id="resetButton" class="danger-button">お気に入り設定をリセット</button><p class="muted settings-note">お気に入りや表示設定は、この端末内に保存されます。試合データは毎日自動更新されます。</p></section>
   </main>
 
   <nav class="bottom-nav" aria-label="メインメニュー">
@@ -91,11 +72,7 @@
     <button class="nav-item" data-view="settings">⚙<span>設定</span></button>
   </nav>
 
-  <dialog id="scoreDialog">
-    <div id="scoreDialogBody"></div>
-    <button id="closeScoreDialog" class="primary-button">閉じる</button>
-  </dialog>
-
+  <dialog id="scoreDialog"><div id="scoreDialogBody"></div><button id="closeScoreDialog" class="primary-button">閉じる</button></dialog>
   <script src="./app.js" defer></script>
 </body>
 </html>
