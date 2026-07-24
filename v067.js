@@ -4,7 +4,7 @@ function setupHomeV067(){
   const overview=document.querySelector('#dailyOverview');
   const hero=document.querySelector('#favoriteHero');
   if(home&&live&&overview&&hero){
-    home.insertBefore(live,home.firstChild);
+    if(home.firstElementChild!==live)home.insertBefore(live,home.firstChild);
     if(hero.nextElementSibling!==overview)home.insertBefore(overview,hero.nextSibling);
   }
   const calendar=document.querySelector('.calendar-panel');
@@ -26,4 +26,5 @@ function setupHomeV067(){
   }
 }
 document.addEventListener('click',event=>{const button=event.target.closest('[data-home-jump]');if(!button)return;if(button.dataset.homeJump==='schedule'){document.querySelector('#scheduleList')?.scrollIntoView({behavior:'smooth',block:'start'});}else{const calendar=document.querySelector('.calendar-panel');calendar?.classList.remove('is-collapsed');const toggle=calendar?.querySelector('.calendar-collapse-button');if(toggle){toggle.textContent='カレンダーを閉じる';toggle.setAttribute('aria-expanded','true');}calendar?.scrollIntoView({behavior:'smooth',block:'start'});}},true);
-const observer=new MutationObserver(setupHomeV067);observer.observe(document.body,{childList:true,subtree:true});queueMicrotask(setupHomeV067);
+function startHomeSetup(){setupHomeV067();setTimeout(setupHomeV067,300);setTimeout(setupHomeV067,1200);}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',startHomeSetup,{once:true});else startHomeSetup();
