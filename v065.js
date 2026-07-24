@@ -7,13 +7,13 @@ function renderCalendarV065(){
   for(let i=0;i<first.getDay();i++)html+='<button class="calendar-day blank" disabled></button>';
   for(let day=1;day<=last.getDate();day++){
     const date=new Date(y,m,day),k=dayKey(date),count=map[k]?.length||0,selected=state.calendarSelected===k,today=k===dayKey(new Date());
-    html+=`<button class="calendar-day ${count?'has-match':''} ${selected?'selected':''} ${today?'today':''}" data-calendar-day="${k}" aria-label="${m+1}月${day}日${count?`、試合${count}件`:''}"><span>${day}</span>${count?'<i aria-hidden="true">⚽</i>':''}</button>`;
+    html+=`<button class="calendar-day ${count?'has-match':''} ${selected?'selected':''} ${today?'today':''}" data-calendar-day="${k}" aria-label="${m+1}月${day}日${count?`、試合${count}件`:''}"><span>${day}</span>${count?`<i aria-hidden="true">${count}</i>`:''}</button>`;
   }
   $('#calendarGrid').innerHTML=html;
   const selectedList=state.calendarSelected?(map[state.calendarSelected]||[]):[];
   const selectedDate=state.calendarSelected?new Date(`${state.calendarSelected}T00:00:00`):null;
   const heading=selectedDate?`<div class="calendar-selected-head"><strong>${selectedDate.toLocaleDateString('ja-JP',{month:'numeric',day:'numeric',weekday:'short'})}</strong><span>${selectedList.length}試合</span></div>`:'';
-  $('#calendarMatches').innerHTML=state.calendarSelected?`${heading}${selectedList.map(f=>matchCard(f,{rich:true})).join('')||'<p class="empty compact-empty">この日の試合はありません</p>'}`:'<div class="calendar-guide"><strong>⚽の日をタップ</strong><span>お気に入りクラブの試合だけ表示します</span></div>';
+  $('#calendarMatches').innerHTML=state.calendarSelected?`${heading}${selectedList.map(f=>matchCard(f,{rich:true})).join('')||'<p class="empty compact-empty">この日の試合はありません</p>'}`:'<div class="calendar-guide"><strong>試合数のある日をタップ</strong><span>お気に入りクラブの試合だけ表示します</span></div>';
 }
 
 renderCalendar=renderCalendarV065;
