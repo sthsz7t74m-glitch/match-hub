@@ -11,11 +11,11 @@ const leagues=[
   {id:78,name:'Bundesliga',ja:'ブンデスリーガ',color:'#dc2626'},
   {id:61,name:'Ligue 1',ja:'リーグ・アン',color:'#0891b2'}
 ];
-const now=new Date();
-const season=now.getUTCMonth()<6?now.getUTCFullYear()-1:now.getUTCFullYear();
-const iso=d=>d.toISOString().slice(0,10);
-const from=new Date(now);from.setUTCDate(from.getUTCDate()-35);
-const to=new Date(now);to.setUTCDate(to.getUTCDate()+150);
+
+// API-Football's free plan currently allows historical seasons only.
+// Keep this configurable so a paid plan can switch to the current season
+// by adding API_FOOTBALL_SEASON as a repository variable.
+const season=Number(process.env.API_FOOTBALL_SEASON||2024);
 
 async function request(path){
   const response=await fetch(`${API}${path}`,{headers:{'x-apisports-key':key}});
@@ -27,10 +27,10 @@ async function request(path){
 
 const teams=[];const fixtures=[];const standings=[];
 for(const league of leagues){
-  console.log(`Fetching ${league.name}`);
+  console.log(`Fetching ${league.name} (${season})`);
   const [teamResponse,fixtureResponse,standingResponse]=await Promise.all([
     request(`/teams?league=${league.id}&season=${season}`),
-    request(`/fixtures?league=${league.id}&season=${season}&from=${iso(from)}&to=${iso(to)}&timezone=Asia%2FTokyo`),
+    request(`/fixtures?league=${league.id}&season=${season}&timezone=Asia%2FTokyo`),
     request(`/standings?league=${league.id}&season=${season}`)
   ]);
   for(const item of teamResponse){
@@ -49,7 +49,15 @@ for(const league of leagues){
   standings.push({leagueId:league.id,leagueName:league.name,leagueNameJa:league.ja,rows:table.map(r=>({rank:r.rank,team:r.team,played:r.all.played,win:r.all.win,draw:r.all.draw,lose:r.all.lose,goalsDiff:r.goalsDiff,points:r.points,form:r.form||''}))});
 }
 
-const output={updatedAt:new Date().toISOString(),season,leagues,teams,fixtures:fixtures.sort((a,b)=>new Date(a.date)-new Date(b.date)),standings};
+const output={
+  updatedAt:new Date().toISOString(),
+  season,
+  dataMode:season===2024?'historical-free-plan':'configured-season',
+  leagues,
+  teams,
+  fixtures:fixtures.sort((a,b)=>new Date(a.date)-new Date(b.date)),
+  standings
+};
 await fs.mkdir('data',{recursive:true});
 await fs.writeFile('data/football.json',JSON.stringify(output,null,2)+'\n');
-console.log(`Saved ${teams.length} teams and ${fixtures.length} fixtures.`);
+console.log(`Saved ${teams.length} teams and ${fixtures.length} fixtures for season ${season}.`);
