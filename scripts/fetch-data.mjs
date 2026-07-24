@@ -1,78 +1,135 @@
 import fs from 'node:fs/promises';
 
-const API='https://v3.football.api-sports.io';
-const key=process.env.API_FOOTBALL_KEY;
-if(!key)throw new Error('API_FOOTBALL_KEY is not configured');
+const API = 'https://api.football-data.org/v4';
+const token = process.env.FOOTBALL_DATA_TOKEN;
+if (!token) throw new Error('FOOTBALL_DATA_TOKEN is not configured');
 
-const leagues=[
-  {id:39,name:'Premier League',ja:'プレミアリーグ',color:'#7c3aed'},
-  {id:140,name:'La Liga',ja:'ラ・リーガ',color:'#f97316'},
-  {id:135,name:'Serie A',ja:'セリエA',color:'#2563eb'},
-  {id:78,name:'Bundesliga',ja:'ブンデスリーガ',color:'#dc2626'},
-  {id:61,name:'Ligue 1',ja:'リーグ・アン',color:'#0891b2'}
+const leagues = [
+  { code: 'PL', id: 39, name: 'Premier League', ja: 'プレミアリーグ', color: '#7c3aed' },
+  { code: 'PD', id: 140, name: 'Primera Division', ja: 'ラ・リーガ', color: '#f97316' },
+  { code: 'SA', id: 135, name: 'Serie A', ja: 'セリエA', color: '#2563eb' },
+  { code: 'BL1', id: 78, name: 'Bundesliga', ja: 'ブンデスリーガ', color: '#dc2626' },
+  { code: 'FL1', id: 61, name: 'Ligue 1', ja: 'リーグ・アン', color: '#0891b2' }
 ];
 
-// API-Football's free plan currently allows historical seasons only.
-// A paid plan can switch seasons by adding API_FOOTBALL_SEASON as a repository variable.
-const season=Number(process.env.API_FOOTBALL_SEASON||2024);
-const sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
-let lastRequestAt=0;
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
-async function request(path,attempt=1){
-  // Free subscriptions have a strict per-minute request limit.
-  // Keep calls at least seven seconds apart to remain below it.
-  const wait=Math.max(0,7000-(Date.now()-lastRequestAt));
-  if(wait)await sleep(wait);
-  lastRequestAt=Date.now();
+async function request(path, attempt = 0) {
+  const response = await fetch(`${API}${path}`, {
+    headers: { 'X-Auth-Token': token }
+  });
 
-  const response=await fetch(`${API}${path}`,{headers:{'x-apisports-key':key}});
-  if(!response.ok)throw new Error(`${path}: HTTP ${response.status}`);
-  const json=await response.json();
-  const errors=json.errors||{};
-
-  if(errors.rateLimit&&attempt<=2){
-    console.warn(`Rate limit reached. Waiting 65 seconds before retry ${attempt}/2...`);
-    await sleep(65000);
-    return request(path,attempt+1);
+  if (response.status === 429 && attempt < 2) {
+    const waitMs = Number(response.headers.get('retry-after') || 60) * 1000;
+    console.log(`Rate limited. Waiting ${Math.ceil(waitMs / 1000)} seconds...`);
+    await sleep(waitMs);
+    return request(path, attempt + 1);
   }
-  if(Object.keys(errors).length)throw new Error(`${path}: ${JSON.stringify(errors)}`);
-  return json.response||[];
+
+  if (!response.ok) {
+    const body = await response.text();
+    throw new Error(`${path}: HTTP ${response.status} ${body}`);
+  }
+
+  const json = await response.json();
+  await sleep(6500);
+  return json;
 }
 
-const teams=[];const fixtures=[];const standings=[];
-for(const league of leagues){
-  console.log(`Fetching ${league.name} (${season})`);
+const teams = [];
+const fixtures = [];
+const standings = [];
+let season = null;
 
-  // Run sequentially: Promise.all caused the free plan's per-minute limit to be exceeded.
-  const teamResponse=await request(`/teams?league=${league.id}&season=${season}`);
-  const fixtureResponse=await request(`/fixtures?league=${league.id}&season=${season}&timezone=Asia%2FTokyo`);
-  const standingResponse=await request(`/standings?league=${league.id}&season=${season}`);
+for (const league of leagues) {
+  console.log(`Fetching ${league.name}`);
 
-  for(const item of teamResponse){
-    teams.push({id:item.team.id,name:item.team.name,logo:item.team.logo,leagueId:league.id,color:league.color,venue:item.venue?.name||''});
-  }
-  for(const item of fixtureResponse){
-    fixtures.push({
-      id:item.fixture.id,date:item.fixture.date,status:item.fixture.status.short,elapsed:item.fixture.status.elapsed,
-      competition:item.league.name,competitionJa:league.ja,leagueId:league.id,round:item.league.round,
-      venue:item.fixture.venue?.name||'',home:{id:item.teams.home.id,name:item.teams.home.name,logo:item.teams.home.logo},
-      away:{id:item.teams.away.id,name:item.teams.away.name,logo:item.teams.away.logo},goals:item.goals,score:item.score,
-      events:item.events||[]
+  const teamResponse = await request(`/competitions/${league.code}/teams`);
+  const matchResponse = await request(`/competitions/${league.code}/matches`);
+  const standingResponse = await request(`/competitions/${league.code}/standings`);
+
+  season ||= teamResponse.season?.startDate?.slice(0, 4) || null;
+
+  for (const team of teamResponse.teams || []) {
+    teams.push({
+      id: team.id,
+      name: team.name,
+      shortName: team.shortName || team.name,
+      tla: team.tla || '',
+      logo: team.crest || '',
+      leagueId: league.id,
+      leagueCode: league.code,
+      color: league.color,
+      venue: team.venue || ''
     });
   }
-  const table=standingResponse[0]?.league?.standings?.[0]||[];
-  standings.push({leagueId:league.id,leagueName:league.name,leagueNameJa:league.ja,rows:table.map(r=>({rank:r.rank,team:r.team,played:r.all.played,win:r.all.win,draw:r.all.draw,lose:r.all.lose,goalsDiff:r.goalsDiff,points:r.points,form:r.form||''}))});
+
+  for (const match of matchResponse.matches || []) {
+    fixtures.push({
+      id: match.id,
+      date: match.utcDate,
+      status: match.status,
+      elapsed: null,
+      competition: match.competition?.name || league.name,
+      competitionJa: league.ja,
+      leagueId: league.id,
+      leagueCode: league.code,
+      round: match.matchday ? `第${match.matchday}節` : (match.stage || ''),
+      venue: '',
+      home: {
+        id: match.homeTeam.id,
+        name: match.homeTeam.name,
+        logo: match.homeTeam.crest || ''
+      },
+      away: {
+        id: match.awayTeam.id,
+        name: match.awayTeam.name,
+        logo: match.awayTeam.crest || ''
+      },
+      goals: {
+        home: match.score?.fullTime?.home ?? null,
+        away: match.score?.fullTime?.away ?? null
+      },
+      score: match.score || {},
+      events: []
+    });
+  }
+
+  const total = (standingResponse.standings || []).find(item => item.type === 'TOTAL');
+  standings.push({
+    leagueId: league.id,
+    leagueCode: league.code,
+    leagueName: league.name,
+    leagueNameJa: league.ja,
+    rows: (total?.table || []).map(row => ({
+      rank: row.position,
+      team: {
+        id: row.team.id,
+        name: row.team.name,
+        logo: row.team.crest || ''
+      },
+      played: row.playedGames,
+      win: row.won,
+      draw: row.draw,
+      lose: row.lost,
+      goalsDiff: row.goalDifference,
+      points: row.points,
+      form: row.form || ''
+    }))
+  });
 }
 
-const output={
-  updatedAt:new Date().toISOString(),
+const output = {
+  updatedAt: new Date().toISOString(),
   season,
-  dataMode:season===2024?'historical-free-plan':'configured-season',
+  dataSource: 'football-data.org',
+  dataMode: 'current-free-plan',
   leagues,
   teams,
-  fixtures:fixtures.sort((a,b)=>new Date(a.date)-new Date(b.date)),
+  fixtures: fixtures.sort((a, b) => new Date(a.date) - new Date(b.date)),
   standings
 };
-await fs.mkdir('data',{recursive:true});
-await fs.writeFile('data/football.json',JSON.stringify(output,null,2)+'\n');
-console.log(`Saved ${teams.length} teams and ${fixtures.length} fixtures for season ${season}.`);
+
+await fs.mkdir('data', { recursive: true });
+await fs.writeFile('data/football.json', `${JSON.stringify(output, null, 2)}\n`);
+console.log(`Saved ${teams.length} teams and ${fixtures.length} fixtures.`);
