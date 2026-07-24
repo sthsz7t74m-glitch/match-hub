@@ -1,4 +1,4 @@
-const CACHE='match-hub-v4';
+const CACHE='match-hub-v4-1';
 const ASSETS=['./','./index.html','./styles.css','./detail.css','./app.js','./manifest.webmanifest','./data/football.json'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS))));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key))))));
