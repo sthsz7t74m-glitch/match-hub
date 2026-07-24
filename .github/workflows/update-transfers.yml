@@ -1,0 +1,38 @@
+name: Update transfer news
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 */3 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/fetch-transfers.mjs'
+      - 'package.json'
+      - '.github/workflows/update-transfers.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: transfer-news
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Fetch BBC transfer news
+        run: npm run update-transfers
+      - name: Commit updated transfer data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/transfers.json
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: update transfer news"
+          git push
