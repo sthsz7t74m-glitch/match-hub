@@ -9,12 +9,13 @@
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="stylesheet" href="./styles.css">
   <link rel="stylesheet" href="./detail.css">
+  <link rel="stylesheet" href="./v05.css">
 </head>
 <body>
   <header class="topbar">
     <div>
       <p class="eyebrow">FOOTBALL SCHEDULE</p>
-      <h1>Match Hub <span class="version">v0.4.1</span></h1>
+      <h1>Match Hub <span class="version">v0.5</span></h1>
     </div>
     <button id="themeButton" class="icon-button" aria-label="テーマ切替">◐</button>
   </header>
@@ -35,6 +36,10 @@
     </section>
 
     <section id="homeView" class="hidden">
+      <section id="liveSection" class="hidden live-section">
+        <div class="live-heading"><span class="live-dot"></span><div><p class="eyebrow">LIVE NOW</p><h2>ライブ中の試合</h2></div></div>
+        <div id="liveMatches" class="stack"></div>
+      </section>
       <section id="favoriteHero" class="hero"></section>
       <div class="section-heading"><div><h2>お気に入りクラブ</h2><p id="favoriteCount" class="muted"></p></div><button id="addTeamButton" class="text-button">＋ 追加</button></div>
       <div id="favoriteTeams" class="stack"></div>
