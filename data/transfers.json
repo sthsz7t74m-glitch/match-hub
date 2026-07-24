@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T17:59:25.542Z",
+  "updatedAt": "2026-07-24T21:50:15.779Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -80,6 +80,21 @@
       "date": "2026-07-20T16:32:51.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cdx7qq6nkddo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Real Madrid confident of signing Rodri  - Saturday's gossip",
+      "titleJa": "移籍情報：Real Madrid confident of signing Rodri  - Saturday's gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Real Madrid confident of signing Rodri  - Saturday's gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Real Madrid confident of signing Rodri  - Saturday's gossip",
+      "summary": "Real Madrid are confident they will sign Rodri from Man City, Arsenal eye player-plus-cash deal for Atletico striker Julian Alvarez, while Roma are keen on Fulham winger Oscar Bobb, plus more.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cdx7qq6nkddo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-24T20:37:28.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/czjle30y29xo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Van Bommel appointed Belgium head coach",
@@ -140,21 +155,6 @@
       "date": "2026-07-24T15:33:06.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cn0nypykzr7o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Modric, 40, signs new AC Milan deal",
-      "titleJa": "移籍情報：Modric, 40, signs new AC Milan deal",
-      "from": "",
-      "to": "",
-      "summaryJa": "Modric, 40, signs new AC Milan deal移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Modric, 40, signs new AC Milan deal",
-      "summary": "AC Milan midfielder Luka Modric - who turns 41 in September - signs a one-year contract extension at the club.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cn0nypykzr7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-23T17:48:56.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/ceqej9rnngro?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Former Brighton keeper Baggaley",
@@ -168,6 +168,36 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ceqej9rnngro?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-24T14:00:11.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c1eyjvzeg8qo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Anderson's journey to England star and  Man City record signing",
+      "titleJa": "移籍情報：Anderson's journey to England star and  Man City record signing",
+      "from": "",
+      "to": "",
+      "summaryJa": "Anderson's journey to England star and  Man City record signing移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Anderson's journey to England star and  Man City record signing",
+      "summary": "Elliot Anderson was a key part of England's World Cup side and is now Manchester City's record signing.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c1eyjvzeg8qo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-23T17:16:34.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cn0nypykzr7o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Modric, 40, signs new AC Milan deal",
+      "titleJa": "移籍情報：Modric, 40, signs new AC Milan deal",
+      "from": "",
+      "to": "",
+      "summaryJa": "Modric, 40, signs new AC Milan deal移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Modric, 40, signs new AC Milan deal",
+      "summary": "AC Milan midfielder Luka Modric - who turns 41 in September - signs a one-year contract extension at the club.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cn0nypykzr7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-23T17:48:56.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/czjle91ry39o?at_medium=RSS&at_campaign=rss",
@@ -215,21 +245,6 @@
       "date": "2026-07-23T11:56:17.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cedjnz7wxy6o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Man Utd handed Tchouameni boost - Friday's gossip",
-      "titleJa": "移籍情報：Man Utd handed Tchouameni boost - Friday's gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Man Utd handed Tchouameni boost - Friday's gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Man Utd handed Tchouameni boost - Friday's gossip",
-      "summary": "Real Madrid open to selling Aurelien Tchouameni to Manchester United, Arsenal eye John Stones and Ezri Konsa, Chelsea favourites for Kerim Alajbegovic, Yan Diomande back on radar of Premier League clubs and Daizen Maeda set for Ipswich Town move.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cedjnz7wxy6o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-24T09:47:15.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cvg0723e0jko?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Garnacho, Rogers and two clubs trying to balance the books",
@@ -273,21 +288,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c62971key06o?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-24T06:37:55.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cvgjd1rr3ryo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Who has your Premiership club brought in & let go this summer?",
-      "titleJa": "移籍情報：Who has your Premiership club brought in & let go this summer?",
-      "from": "",
-      "to": "",
-      "summaryJa": "Who has your Premiership club brought in & let go this summer?移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Who has your Premiership club brought in & let go this summer?",
-      "summary": "Your one-stop shop for all the ins and outs in the Scottish Premiership during the  2026 summer transfer window.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvgjd1rr3ryo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-24T16:10:40.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cn4nmjwl8j1o?at_medium=RSS&at_campaign=rss",
