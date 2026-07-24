@@ -1,4 +1,4 @@
-const CACHE='match-hub-v065';
+const CACHE='match-hub-v066';
 const ASSETS=['./','./index.html','./styles.css','./detail.css','./v05.css','./v051.css','./transfers.css','./v064.css','./v065.css','./app.js','./transfers.js','./v064.js','./v065.js','./manifest.webmanifest','./data/football.json','./data/transfers.json'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS))));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key))))));
