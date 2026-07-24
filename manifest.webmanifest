@@ -1,0 +1,11 @@
+{
+  "name":"Match Hub",
+  "short_name":"Match Hub",
+  "description":"5大リーグのお気に入りクラブの日程・結果・順位をまとめて確認",
+  "start_url":"./",
+  "scope":"./",
+  "display":"standalone",
+  "background_color":"#0b1220",
+  "theme_color":"#111827",
+  "icons":[]
+}
