@@ -13,26 +13,41 @@ const leagues=[
 ];
 
 // API-Football's free plan currently allows historical seasons only.
-// Keep this configurable so a paid plan can switch to the current season
-// by adding API_FOOTBALL_SEASON as a repository variable.
+// A paid plan can switch seasons by adding API_FOOTBALL_SEASON as a repository variable.
 const season=Number(process.env.API_FOOTBALL_SEASON||2024);
+const sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
+let lastRequestAt=0;
 
-async function request(path){
+async function request(path,attempt=1){
+  // Free subscriptions have a strict per-minute request limit.
+  // Keep calls at least seven seconds apart to remain below it.
+  const wait=Math.max(0,7000-(Date.now()-lastRequestAt));
+  if(wait)await sleep(wait);
+  lastRequestAt=Date.now();
+
   const response=await fetch(`${API}${path}`,{headers:{'x-apisports-key':key}});
   if(!response.ok)throw new Error(`${path}: HTTP ${response.status}`);
   const json=await response.json();
-  if(json.errors&&Object.keys(json.errors).length)throw new Error(`${path}: ${JSON.stringify(json.errors)}`);
+  const errors=json.errors||{};
+
+  if(errors.rateLimit&&attempt<=2){
+    console.warn(`Rate limit reached. Waiting 65 seconds before retry ${attempt}/2...`);
+    await sleep(65000);
+    return request(path,attempt+1);
+  }
+  if(Object.keys(errors).length)throw new Error(`${path}: ${JSON.stringify(errors)}`);
   return json.response||[];
 }
 
 const teams=[];const fixtures=[];const standings=[];
 for(const league of leagues){
   console.log(`Fetching ${league.name} (${season})`);
-  const [teamResponse,fixtureResponse,standingResponse]=await Promise.all([
-    request(`/teams?league=${league.id}&season=${season}`),
-    request(`/fixtures?league=${league.id}&season=${season}&timezone=Asia%2FTokyo`),
-    request(`/standings?league=${league.id}&season=${season}`)
-  ]);
+
+  // Run sequentially: Promise.all caused the free plan's per-minute limit to be exceeded.
+  const teamResponse=await request(`/teams?league=${league.id}&season=${season}`);
+  const fixtureResponse=await request(`/fixtures?league=${league.id}&season=${season}&timezone=Asia%2FTokyo`);
+  const standingResponse=await request(`/standings?league=${league.id}&season=${season}`);
+
   for(const item of teamResponse){
     teams.push({id:item.team.id,name:item.team.name,logo:item.team.logo,leagueId:league.id,color:league.color,venue:item.venue?.name||''});
   }
