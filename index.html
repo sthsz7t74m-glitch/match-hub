@@ -11,19 +11,19 @@
     if ('caches' in window) caches.keys().then(keys=>Promise.all(keys.map(key=>caches.delete(key)))).catch(()=>{});
   </script>
   <link rel="manifest" href="./manifest.webmanifest">
-  <link rel="stylesheet" href="./styles.css?v=080">
-  <link rel="stylesheet" href="./detail.css?v=080">
-  <link rel="stylesheet" href="./v05.css?v=080">
-  <link rel="stylesheet" href="./v051.css?v=080">
-  <link rel="stylesheet" href="./transfers.css?v=080">
-  <link rel="stylesheet" href="./v064.css?v=080">
-  <link rel="stylesheet" href="./v065.css?v=080">
-  <link rel="stylesheet" href="./v070.css?v=080">
-  <link rel="stylesheet" href="./v072.css?v=080">
-  <link rel="stylesheet" href="./v080.css?v=080">
+  <link rel="stylesheet" href="./styles.css?v=081">
+  <link rel="stylesheet" href="./detail.css?v=081">
+  <link rel="stylesheet" href="./v05.css?v=081">
+  <link rel="stylesheet" href="./v051.css?v=081">
+  <link rel="stylesheet" href="./transfers.css?v=081">
+  <link rel="stylesheet" href="./v064.css?v=081">
+  <link rel="stylesheet" href="./v065.css?v=081">
+  <link rel="stylesheet" href="./v070.css?v=081">
+  <link rel="stylesheet" href="./v072.css?v=081">
+  <link rel="stylesheet" href="./v080.css?v=081">
 </head>
 <body>
-  <header class="topbar"><div><p class="eyebrow">FOOTBALL SCHEDULE</p><h1>Match Hub <span class="version">v0.8.0</span></h1></div><button id="themeButton" class="icon-button" aria-label="テーマ切替">◐</button></header>
+  <header class="topbar"><div><p class="eyebrow">FOOTBALL SCHEDULE</p><h1>Match Hub <span class="version">v0.8.1</span></h1></div><button id="themeButton" class="icon-button" aria-label="テーマ切替">◐</button></header>
   <main>
     <section id="statusArea" class="status-card"><span id="updateStatus">データを確認中…</span><button id="refreshButton" class="text-button">最新情報に更新</button></section>
     <section id="onboarding" class="panel hidden"><p class="step">STEP 1 / 1</p><h2>最推しクラブを選ぼう</h2><p class="muted">5大リーグから1クラブ選択。あとから好きなだけ追加できます。</p><div class="search-row"><input id="teamSearch" type="search" placeholder="カタカナ・英語でチーム名を検索"></div><div id="leagueFilters" class="chips"></div><div id="teamPicker" class="team-grid"></div></section>
@@ -44,13 +44,14 @@
   </main>
   <nav class="bottom-nav six-items" aria-label="メインメニュー"><button class="nav-item active" data-view="home">⌂<span>ホーム</span></button><button class="nav-item" data-view="schedule">▤<span>日程</span></button><button class="nav-item" data-view="standings">≡<span>順位表</span></button><button class="nav-item" data-view="search">⌕<span>検索</span></button><button class="nav-item" data-view="transfers">↔<span>移籍</span></button><button class="nav-item" data-view="settings">⚙<span>設定</span></button></nav>
   <dialog id="scoreDialog"><div id="scoreDialogBody"></div><button id="closeScoreDialog" class="primary-button">閉じる</button></dialog>
-  <script src="./app.js?v=080" defer></script>
-  <script src="./jp-teams.js?v=080" defer></script>
-  <script src="./transfers.js?v=080" defer></script>
-  <script src="./v064.js?v=080" defer></script>
-  <script src="./v065.js?v=080" defer></script>
-  <script src="./v072.js?v=080" defer></script>
-  <script src="./v074.js?v=080" defer></script>
-  <script src="./v080.js?v=080" defer></script>
+  <script src="./app.js?v=081" defer></script>
+  <script src="./jp-teams.js?v=081" defer></script>
+  <script src="./transfers.js?v=081" defer></script>
+  <script src="./v064.js?v=081" defer></script>
+  <script src="./v065.js?v=081" defer></script>
+  <script src="./v072.js?v=081" defer></script>
+  <script src="./v074.js?v=081" defer></script>
+  <script src="./v080.js?v=081" defer></script>
+  <script src="./v081.js?v=081" defer></script>
 </body>
 </html>
