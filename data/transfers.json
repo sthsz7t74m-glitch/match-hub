@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T16:11:30.154Z",
+  "updatedAt": "2026-07-25T21:31:44.500Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -35,19 +35,34 @@
       "date": "2026-07-25T07:35:48.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cdx7qq6nkddo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Real Madrid confident of signing Rodri  - Saturday's gossip",
-      "titleJa": "移籍情報：Real Madrid confident of signing Rodri  - Saturday's gossip",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c5yw2wqxvjwo?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Arsenal plot shock Vinicius Jr move - Sunday's gossip",
+      "titleJa": "移籍情報：Arsenal plot shock Vinicius Jr move - Sunday's gossip",
       "from": "",
       "to": "",
-      "summaryJa": "Real Madrid confident of signing Rodri  - Saturday's gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Real Madrid confident of signing Rodri  - Saturday's gossip",
-      "summary": "Real Madrid are confident they will sign Rodri from Man City, Arsenal eye player-plus-cash deal for Atletico striker Julian Alvarez, while Roma are keen on Fulham winger Oscar Bobb, plus more.",
+      "summaryJa": "Arsenal plot shock Vinicius Jr move - Sunday's gossip移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Arsenal plot shock Vinicius Jr move - Sunday's gossip",
+      "summary": "Arsenal explore move for Vinicius Jr, Inter Milan interested in Cristian Romero and Real Madrid bid for Yan Diomande rejected, plus more.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cdx7qq6nkddo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-24T20:37:28.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5yw2wqxvjwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-25T21:21:03.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cwymjrm0xlwo?at_medium=RSS&at_campaign=rss",
+      "status": "agreed",
+      "player": "Bodo/Glimt's Hogh to have Celtic medical within 24 hours",
+      "titleJa": "移籍情報：Bodo/Glimt's Hogh to have Celtic medical within 24 hours",
+      "from": "",
+      "to": "",
+      "summaryJa": "Bodo/Glimt's Hogh to have Celtic medical within 24 hours移る可能性について、合意段階の報道です。",
+      "originalTitle": "Bodo/Glimt's Hogh to have Celtic medical within 24 hours",
+      "summary": "Bodo/Glimt striker Kasper Hogh is due to have a medical with Celtic in the next 24 hours, the Scottish champions' manager, Martin O'Neill, reveals.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwymjrm0xlwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-25T18:07:42.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/cgmkv3j3yv0o?at_medium=RSS&at_campaign=rss",
@@ -125,21 +140,6 @@
       "date": "2026-07-24T19:29:18.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c36dw0nwexxo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Rodri to have back surgery but Maresca brushes off transfer speculation",
-      "titleJa": "移籍情報：Rodri to have back surgery but Maresca brushes off transfer speculation",
-      "from": "",
-      "to": "",
-      "summaryJa": "Rodri to have back surgery but Maresca brushes off transfer speculation移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Rodri to have back surgery but Maresca brushes off transfer speculation",
-      "summary": "World Cup winner Rodri is to have back surgery, says new Manchester City boss Enzo Maresca.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c36dw0nwexxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-24T14:24:53.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/czjle30y29xo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Van Bommel appointed Belgium head coach",
@@ -153,6 +153,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/czjle30y29xo?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-24T13:26:45.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c36dw0nwexxo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Rodri to have back surgery but Maresca brushes off transfer speculation",
+      "titleJa": "移籍情報：Rodri to have back surgery but Maresca brushes off transfer speculation",
+      "from": "",
+      "to": "",
+      "summaryJa": "Rodri to have back surgery but Maresca brushes off transfer speculation移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Rodri to have back surgery but Maresca brushes off transfer speculation",
+      "summary": "World Cup winner Rodri is to have back surgery, says new Manchester City boss Enzo Maresca.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c36dw0nwexxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-24T14:24:53.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cq6dy718z2vo?at_medium=RSS&at_campaign=rss",
@@ -227,7 +242,7 @@
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c3vy76rvk06o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-25T13:59:05.000Z"
+      "date": "2026-07-25T19:47:36.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cx2dgkg5rq0o?at_medium=RSS&at_campaign=rss",
@@ -260,34 +275,19 @@
       "date": "2026-07-25T07:44:51.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cy8m33l3kk3o?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/cvgjd1rr3ryo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Hearts sign Mendy for potential Forest Green record fee",
-      "titleJa": "移籍情報：Hearts sign Mendy for potential Forest Green record fee",
+      "player": "Who has your Premiership club brought in & let go this summer?",
+      "titleJa": "移籍情報：Who has your Premiership club brought in & let go this summer?",
       "from": "",
       "to": "",
-      "summaryJa": "Hearts sign Mendy for potential Forest Green record fee移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Hearts sign Mendy for potential Forest Green record fee",
-      "summary": "Forest Green Rovers sell midfielder Laurent Mendy to Heart of Midlothian for what the National League outfit say could be a club record fee of nearly £1m \"if all targets are met\".",
+      "summaryJa": "Who has your Premiership club brought in & let go this summer?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Who has your Premiership club brought in & let go this summer?",
+      "summary": "Your one-stop shop for all the ins and outs in the Scottish Premiership during the  2026 summer transfer window.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cy8m33l3kk3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-24T15:33:06.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c80n5mnvkyjo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Devlin opens up on 'too stressful' Hearts exit for Rangers",
-      "titleJa": "移籍情報：Devlin opens up on 'too stressful' Hearts exit for Rangers",
-      "from": "",
-      "to": "",
-      "summaryJa": "Devlin opens up on 'too stressful' Hearts exit for Rangers移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Devlin opens up on 'too stressful' Hearts exit for Rangers",
-      "summary": "Cammy Devlin says it was \"too stressful\" to head to the World Cup with his club future still to be decided - although the extra time taken did lead to a move to Rangers.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c80n5mnvkyjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-24T11:00:59.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvgjd1rr3ryo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-25T19:42:50.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/ceqej9rnngro?at_medium=RSS&at_campaign=rss",
