@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-07-24T21:50:15.779Z",
+  "updatedAt": "2026-07-25T07:36:14.064Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c36dw0nwexxo?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/cevmx0y88vwo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Rodri to have back surgery but Maresca brushes off transfer speculation",
-      "titleJa": "移籍情報：Rodri to have back surgery but Maresca brushes off transfer speculation",
+      "player": "West Ham winger Summerville",
+      "titleJa": "West Ham winger Summerville、Al-Hilalへ加入",
       "from": "",
-      "to": "",
-      "summaryJa": "Rodri to have back surgery but Maresca brushes off transfer speculation移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Rodri to have back surgery but Maresca brushes off transfer speculation",
-      "summary": "World Cup winner Rodri is to have back surgery, says new Manchester City boss Enzo Maresca.",
-      "parsed": false,
+      "to": "Al-Hilal",
+      "summaryJa": "West Ham winger SummervilleがAl-Hilalへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "West Ham winger Summerville joins Al-Hilal",
+      "summary": "West Ham confirm the sale of Netherlands winger Crysencio Summerville to Saudi club Al-Hilal.",
+      "parsed": true,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c36dw0nwexxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-24T14:24:53.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/cevmx0y88vwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-24T19:29:18.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cp9eyz14y7jo?at_medium=RSS&at_campaign=rss",
@@ -78,6 +78,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cgmkv3j3yv0o?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-20T16:32:51.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c36dw0nwexxo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Rodri to have back surgery but Maresca brushes off transfer speculation",
+      "titleJa": "移籍情報：Rodri to have back surgery but Maresca brushes off transfer speculation",
+      "from": "",
+      "to": "",
+      "summaryJa": "Rodri to have back surgery but Maresca brushes off transfer speculation移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Rodri to have back surgery but Maresca brushes off transfer speculation",
+      "summary": "World Cup winner Rodri is to have back surgery, says new Manchester City boss Enzo Maresca.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c36dw0nwexxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-24T14:24:53.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cdx7qq6nkddo?at_medium=RSS&at_campaign=rss",
@@ -213,36 +228,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/czjle91ry39o?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-24T08:07:20.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cpq8lpj530po?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Arsenal set to make £70m bid for Newcastle's Guimaraes",
-      "titleJa": "移籍情報：Arsenal set to make £70m bid for Newcastle's Guimaraes",
-      "from": "",
-      "to": "",
-      "summaryJa": "Arsenal set to make £70m bid for Newcastle's Guimaraes移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Arsenal set to make £70m bid for Newcastle's Guimaraes",
-      "summary": "Arsenal are set to make a £70m offer for Newcastle captain Bruno Guimaraes.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cpq8lpj530po?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-23T16:56:18.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/clyl7eve9ddo?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Man City keeper Trafford",
-      "titleJa": "Leeds、Man City keeper Trafford獲得へ交渉中",
-      "from": "",
-      "to": "Leeds",
-      "summaryJa": "Man City keeper TraffordがLeedsへ移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Leeds in talks to sign Man City keeper Trafford",
-      "summary": "Leeds United are in discussions with Manchester City to sign goalkeeper James Trafford.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/clyl7eve9ddo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-23T11:56:17.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cvg0723e0jko?at_medium=RSS&at_campaign=rss",
