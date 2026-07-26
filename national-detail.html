@@ -6,15 +6,15 @@
   <meta name="theme-color" content="#111827">
   <meta name="description" content="代表チームの概要・日程・大会・戦績を確認するページ">
   <title>代表詳細 | Sports Hub</title>
-  <link rel="stylesheet" href="./assets/css/core.css?v=223">
-  <link rel="stylesheet" href="./national-detail.css?v=223">
+  <link rel="stylesheet" href="./assets/css/core.css?v=230">
+  <link rel="stylesheet" href="./national-detail.css?v=230">
 </head>
 <body>
   <header class="app-topbar">
     <a class="app-icon-button" href="./national.html" aria-label="各国代表へ戻る">←</a>
     <div class="app-title-block">
       <p class="eyebrow">NATIONAL TEAM</p>
-      <h1 id="pageTitle">代表詳細 <span class="version">v2.2.3</span></h1>
+      <h1 id="pageTitle">代表詳細 <span class="version">v2.3.0</span></h1>
     </div>
     <button id="themeButton" class="app-icon-button" type="button" aria-label="テーマ切替">◐</button>
   </header>
@@ -39,28 +39,30 @@
 
     <section id="overviewPanel" class="tab-panel">
       <article class="app-panel data-card">
-        <div class="section-heading"><div><h2>次の試合</h2><p class="muted">API接続後に自動表示します</p></div><span class="status-pill">準備中</span></div>
-        <div class="empty-state"><span>📅</span><strong>試合データ未接続</strong><p>日程取得基盤を次の工程で追加します。</p></div>
+        <div class="section-heading"><div><h2>次の試合</h2><p class="muted">共通データサービスから自動表示</p></div><span class="status-pill">DATA READY</span></div>
+        <div id="nextMatchContent"><div class="empty-state"><span>📅</span><strong>日程を確認中</strong><p>データを読み込んでいます。</p></div></div>
       </article>
       <div class="summary-grid">
-        <article class="app-panel summary-card"><span>今日</span><strong>—</strong><small>試合</small></article>
-        <article class="app-panel summary-card"><span>今週</span><strong>—</strong><small>試合</small></article>
-        <article class="app-panel summary-card"><span>今月</span><strong>—</strong><small>試合</small></article>
+        <article class="app-panel summary-card"><span>今後</span><strong id="upcomingCount">0</strong><small>試合</small></article>
+        <article class="app-panel summary-card"><span>終了</span><strong id="finishedCount">0</strong><small>試合</small></article>
+        <article class="app-panel summary-card"><span>合計</span><strong id="totalCount">0</strong><small>試合</small></article>
       </div>
       <article class="app-panel data-card">
-        <div class="section-heading"><div><h2>FIFAランキング</h2><p class="muted">更新日と順位変動に対応予定</p></div></div>
-        <div class="ranking-placeholder"><strong>— 位</strong><span>ランキングデータ未接続</span></div>
+        <div class="section-heading"><div><h2>FIFAランキング</h2><p class="muted">公式データ接続後に表示します</p></div></div>
+        <div class="ranking-placeholder"><strong>— 位</strong><span>未確認の順位は表示しません</span></div>
       </article>
     </section>
 
-    <section id="matchesPanel" class="tab-panel hidden"><article class="app-panel data-card"><h2>試合日程</h2><div class="empty-state"><span>⚽</span><strong>日程を取得する準備中</strong><p>代表別・大会別の絞り込みに対応予定です。</p></div></article></section>
+    <section id="matchesPanel" class="tab-panel hidden"><article class="app-panel data-card"><h2>試合日程</h2><div id="matchesList"><div class="empty-state"><span>⚽</span><strong>日程を確認中</strong><p>データを読み込んでいます。</p></div></div></article></section>
     <section id="competitionsPanel" class="tab-panel hidden"><article class="app-panel data-card"><h2>参加大会</h2><div class="competition-list"><div>🏆 ワールドカップ・予選</div><div>🌏 大陸選手権</div><div>🤝 国際親善試合</div></div></article></section>
-    <section id="formPanel" class="tab-panel hidden"><article class="app-panel data-card"><h2>最近の戦績</h2><div class="empty-state"><span>📊</span><strong>戦績データ未接続</strong><p>直近試合と勝敗推移を表示予定です。</p></div></article></section>
+    <section id="formPanel" class="tab-panel hidden"><article class="app-panel data-card"><h2>最近の戦績</h2><div class="empty-state"><span>📊</span><strong>戦績データ未接続</strong><p>終了済み試合から自動集計する予定です。</p></div></article></section>
 
     <button id="favoriteButton" class="primary-action" type="button">☆ 推し代表に登録</button>
   </main>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <script src="./assets/js/core.js?v=223" defer></script>
-  <script src="./national-detail.js?v=223" defer></script>
+  <script src="./assets/js/core.js?v=230" defer></script>
+  <script src="./assets/js/national-data.js?v=230" defer></script>
+  <script src="./assets/js/national-service.js?v=230" defer></script>
+  <script src="./national-detail.js?v=230" defer></script>
 </body>
 </html>
