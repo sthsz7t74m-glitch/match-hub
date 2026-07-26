@@ -28,17 +28,27 @@ function toggleFavorite(id){
   return next.includes(id);
 }
 function openDetail(id){location.href=`./national-detail.html?team=${encodeURIComponent(id)}`;}
-function teamName(id){return SportsHubNational.find(id)?.name||id;}
-function formatDate(value){return new Intl.DateTimeFormat('ja-JP',{month:'numeric',day:'numeric',weekday:'short',hour:'2-digit',minute:'2-digit'}).format(new Date(value));}
+function teamName(id,fallback=''){return SportsHubNational.find(id)?.name||fallback||id;}
 function dateKey(value){const d=new Date(value);return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;}
 function emptyState(title,text,icon='🌍'){return `<div class="empty-state"><span>${icon}</span><strong>${title}</strong><p>${text}</p></div>`;}
 
 function matchCard(match){
   const finished=match.status==='finished';
-  const score=finished&&match.homeScore!==null?`${match.homeScore} - ${match.awayScore}`:'VS';
+  const live=match.status==='in_play';
+  const score=finished||live?`${match.homeScore??'-'} - ${match.awayScore??'-'}`:'VS';
   const home=SportsHubNational.find(match.home);
   const away=SportsHubNational.find(match.away);
-  return `<article class="match-summary"><div class="match-meta"><span>${formatDate(match.kickoff)}</span><span>${match.competition||'代表戦'}</span></div><div class="match-teams"><span class="match-team"><b>${home?.flag||'🏳️'}</b><strong>${teamName(match.home)}</strong></span><em>${score}</em><span class="match-team away"><strong>${teamName(match.away)}</strong><b>${away?.flag||'🏳️'}</b></span></div>${match.round||match.stage?`<small>${match.round||match.stage}</small>`:''}</article>`;
+  return SportsHubComponents.matchCard({
+    match,
+    date:match.kickoff,
+    timeText:finished?'試合終了':live?'LIVE':'',
+    scoreText:score,
+    competition:match.competition||'代表戦',
+    stage:match.round||match.stage||'',
+    venue:match.venue||'',
+    home:{name:teamName(match.home,match.homeName),flag:home?.flag||'🏳️'},
+    away:{name:teamName(match.away,match.awayName),flag:away?.flag||'🏳️'}
+  });
 }
 function teamCard(country){
   const selected=isFavorite(country.id);
@@ -62,7 +72,6 @@ function renderFavorites(){
   document.querySelector('#homeFavoriteStatus').textContent=`${teams.length}代表`;
   document.querySelector('#favoriteTeamCount').textContent=`${teams.length}代表`;
   favoriteGrid.innerHTML=teams.map(teamCard).join('')||emptyState('お気に入りがありません','代表一覧の☆から複数登録できます。','☆');
-
   const favoriteMatches=nationalMatches.filter(match=>ids.includes(match.home)||ids.includes(match.away));
   const upcoming=SportsHubNationalService.upcoming(favoriteMatches);
   document.querySelector('#favoriteNextMatches').innerHTML=upcoming.slice(0,5).map(matchCard).join('')||emptyState('次戦データがありません','お気に入りを登録するか、次回更新をお待ちください。','📅');
@@ -88,19 +97,12 @@ function renderCalendar(){
   const year=calendarCursor.getFullYear();
   const month=calendarCursor.getMonth();
   document.querySelector('#calendarTitle').textContent=`${year}年${month+1}月`;
-  const first=new Date(year,month,1);
-  const last=new Date(year,month+1,0);
+  const first=new Date(year,month,1);const last=new Date(year,month+1,0);
   const matchDays=new Set(nationalMatches.filter(match=>{const d=new Date(match.kickoff);return d.getFullYear()===year&&d.getMonth()===month;}).map(match=>dateKey(match.kickoff)));
-  const cells=[];
-  ['日','月','火','水','木','金','土'].forEach(day=>cells.push(`<div class="calendar-weekday">${day}</div>`));
+  const cells=[];['日','月','火','水','木','金','土'].forEach(day=>cells.push(`<div class="calendar-weekday">${day}</div>`));
   for(let i=0;i<first.getDay();i++)cells.push('<span></span>');
-  for(let day=1;day<=last.getDate();day++){
-    const key=`${year}-${String(month+1).padStart(2,'0')}-${String(day).padStart(2,'0')}`;
-    const has=matchDays.has(key);
-    cells.push(`<button class="calendar-day${has?' has-match':''}${selectedDate===key?' selected':''}" type="button" data-date="${key}"><span>${day}</span>${has?'<small>●</small>':''}</button>`);
-  }
-  document.querySelector('#matchCalendar').innerHTML=cells.join('');
-  renderSchedule();
+  for(let day=1;day<=last.getDate();day++){const key=`${year}-${String(month+1).padStart(2,'0')}-${String(day).padStart(2,'0')}`;const has=matchDays.has(key);cells.push(`<button class="calendar-day${has?' has-match':''}${selectedDate===key?' selected':''}" type="button" data-date="${key}"><span>${day}</span>${has?'<small>●</small>':''}</button>`);}
+  document.querySelector('#matchCalendar').innerHTML=cells.join('');renderSchedule();
 }
 function renderSchedule(){
   const ordered=[...nationalMatches].sort((a,b)=>new Date(a.kickoff)-new Date(b.kickoff));
@@ -110,25 +112,14 @@ function renderSchedule(){
 }
 function renderAll(){renderFilters();renderCountries();renderFavorites();renderMatches();renderCalendar();}
 async function loadMatchData(){
-  try{
-    const payload=await SportsHubNationalService.loadPayload();
-    nationalMatches=payload.matches||[];
-    document.querySelector('#nationalUpdatedAt').textContent=payload.updatedAt?`最終更新 ${new Date(payload.updatedAt).toLocaleString('ja-JP')}`:'更新データ未生成';
-    renderAll();
-  }catch(error){
-    document.querySelector('#nationalUpdatedAt').textContent='代表戦データを準備中';
-    console.warn('National data unavailable',error);
-  }
+  try{const payload=await SportsHubNationalService.loadPayload();nationalMatches=payload.matches||[];document.querySelector('#nationalUpdatedAt').textContent=payload.updatedAt?`最終更新 ${new Date(payload.updatedAt).toLocaleString('ja-JP')}`:'更新データ未生成';renderAll();}
+  catch(error){document.querySelector('#nationalUpdatedAt').textContent='代表戦データを準備中';console.warn('National data unavailable',error);}
 }
 
 tabs.addEventListener('click',event=>{const button=event.target.closest('[data-page]');if(button)renderTabs(button.dataset.page);});
 document.addEventListener('click',event=>{const jump=event.target.closest('[data-page-jump]');if(jump)renderTabs(jump.dataset.pageJump);});
 filters.addEventListener('click',event=>{const button=event.target.closest('[data-region]');if(!button)return;activeRegion=button.dataset.region;renderFilters();renderCountries();});
-function handleTeamGridClick(event){
-  const favoriteButton=event.target.closest('[data-favorite-country]');
-  if(favoriteButton){const country=SportsHubNational.find(favoriteButton.dataset.favoriteCountry);const added=toggleFavorite(country.id);SportsHub.toast(`${country.name}代表を${added?'登録':'解除'}しました`);renderCountries();renderFavorites();return;}
-  const openButton=event.target.closest('[data-open-country]');if(openButton)openDetail(openButton.dataset.openCountry);
-}
+function handleTeamGridClick(event){const favoriteButton=event.target.closest('[data-favorite-country]');if(favoriteButton){const country=SportsHubNational.find(favoriteButton.dataset.favoriteCountry);const added=toggleFavorite(country.id);SportsHub.toast(`${country.name}代表を${added?'登録':'解除'}しました`);renderCountries();renderFavorites();return;}const openButton=event.target.closest('[data-open-country]');if(openButton)openDetail(openButton.dataset.openCountry);}
 grid.addEventListener('click',handleTeamGridClick);favoriteGrid.addEventListener('click',handleTeamGridClick);
 search.addEventListener('input',()=>{query=search.value;renderCountries();});
 document.querySelector('#matchCalendar').addEventListener('click',event=>{const button=event.target.closest('[data-date]');if(!button)return;selectedDate=selectedDate===button.dataset.date?'':button.dataset.date;renderCalendar();});
