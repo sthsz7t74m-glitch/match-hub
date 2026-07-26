@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#111827">
   <meta name="description" content="Sports Hub - 欧州サッカー、各国代表、Jリーグ、MLBをひとつにまとめるスポーツポータル">
   <title>Sports Hub</title>
-  <link rel="stylesheet" href="./sports-home.css?v=200">
+  <link rel="stylesheet" href="./sports-home.css?v=210">
 </head>
 <body>
   <div class="background-orb orb-one"></div>
@@ -15,7 +15,7 @@
   <header class="hub-header">
     <div>
       <p class="eyebrow">YOUR SPORTS, ONE PLACE</p>
-      <h1>Sports Hub <span class="version">v2.0.0</span></h1>
+      <h1>Sports Hub <span class="version">v2.1.0</span></h1>
       <p class="lead">好きなスポーツを、ひとつの場所で。</p>
     </div>
     <button id="themeButton" class="theme-button" type="button" aria-label="テーマ切替">◐</button>
@@ -26,7 +26,7 @@
       <div>
         <p class="eyebrow">SPORTS DASHBOARD</p>
         <h2 id="heroTitle">今日は何を見る？</h2>
-        <p>まずは欧州5大リーグから。各国代表、Jリーグ、MLBも順次追加予定です。</p>
+        <p>欧州5大リーグと各国代表が利用可能。Jリーグ、MLBも順次追加します。</p>
       </div>
       <div class="hero-ball" aria-hidden="true">🏟</div>
     </section>
@@ -35,34 +35,25 @@
       <a class="sport-card enabled" href="./index.html" data-sport="europe">
         <div class="sport-icon" aria-hidden="true">⚽</div>
         <div class="sport-copy">
-          <div class="sport-title-row">
-            <h2>欧州5大リーグ</h2>
-            <span class="status live">利用可能</span>
-          </div>
+          <div class="sport-title-row"><h2>欧州5大リーグ</h2><span class="status live">利用可能</span></div>
           <p>プレミア、ラ・リーガ、セリエA、ブンデス、リーグ・アン</p>
           <span class="open-label">Match Hubを開く <span aria-hidden="true">→</span></span>
         </div>
       </a>
 
-      <button class="sport-card coming-soon" type="button" data-sport="national" aria-describedby="nationalStatus">
+      <a class="sport-card enabled" href="./national.html" data-sport="national">
         <div class="sport-icon" aria-hidden="true">🌍</div>
         <div class="sport-copy">
-          <div class="sport-title-row">
-            <h2>各国代表</h2>
-            <span class="status soon">準備中</span>
-          </div>
-          <p>代表戦日程、FIFAランキング、大会情報をまとめて表示</p>
-          <span id="nationalStatus" class="open-label">近日追加予定</span>
+          <div class="sport-title-row"><h2>各国代表</h2><span class="status live">NEW</span></div>
+          <p>推し代表の登録、代表戦、大会情報の入口</p>
+          <span class="open-label">National Hubを開く <span aria-hidden="true">→</span></span>
         </div>
-      </button>
+      </a>
 
       <button class="sport-card coming-soon" type="button" data-sport="jleague" aria-describedby="jleagueStatus">
         <div class="sport-icon" aria-hidden="true">🇯🇵</div>
         <div class="sport-copy">
-          <div class="sport-title-row">
-            <h2>Jリーグ</h2>
-            <span class="status soon">準備中</span>
-          </div>
+          <div class="sport-title-row"><h2>Jリーグ</h2><span class="status soon">準備中</span></div>
           <p>J1・J2・J3の日程、順位、推しクラブをひとつに</p>
           <span id="jleagueStatus" class="open-label">近日追加予定</span>
         </div>
@@ -71,10 +62,7 @@
       <button class="sport-card coming-soon" type="button" data-sport="mlb" aria-describedby="mlbStatus">
         <div class="sport-icon" aria-hidden="true">⚾</div>
         <div class="sport-copy">
-          <div class="sport-title-row">
-            <h2>MLB</h2>
-            <span class="status soon">準備中</span>
-          </div>
+          <div class="sport-title-row"><h2>MLB</h2><span class="status soon">準備中</span></div>
           <p>試合日程、順位、日本人選手の情報を見やすく整理</p>
           <span id="mlbStatus" class="open-label">近日追加予定</span>
         </div>
@@ -85,6 +73,6 @@
   </main>
 
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <script src="./sports-home.js?v=200" defer></script>
+  <script src="./sports-home.js?v=210" defer></script>
 </body>
 </html>
