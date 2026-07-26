@@ -6,61 +6,39 @@
   <meta name="theme-color" content="#07111f">
   <meta name="description" content="各国代表の日程・大会・お気に入りをまとめるNational Hub">
   <title>National Hub | Sports Hub</title>
-  <link rel="stylesheet" href="./assets/css/core.css?v=230">
-  <link rel="stylesheet" href="./national.css?v=230">
+  <link rel="stylesheet" href="./assets/css/core.css?v=270">
+  <link rel="stylesheet" href="./national.css?v=270">
 </head>
 <body>
   <header class="app-header">
     <a class="back-link" href="./sports-home.html" aria-label="Sports Hubへ戻る">←</a>
-    <div class="app-header__title">
-      <p class="eyebrow">NATIONAL TEAMS</p>
-      <h1>各国代表 <span class="version">v2.3.0</span></h1>
-    </div>
+    <div class="app-header__title"><p class="eyebrow">NATIONAL TEAMS</p><h1>各国代表 <span class="version">v2.7.0</span></h1></div>
     <button id="themeButton" class="icon-button" type="button" aria-label="テーマ切替">◐</button>
   </header>
-
   <main class="page">
     <section id="favoriteHero" class="hero" tabindex="0" role="link" aria-label="推し代表の詳細を開く">
-      <div>
-        <p class="eyebrow">YOUR NATIONAL TEAM</p>
-        <h2 id="favoriteTitle">推し代表を選ぼう</h2>
-        <p id="favoriteDescription">好きな国を登録すると、この画面の先頭に固定されます。</p>
-        <span id="heroOpenLabel" class="hero-open hidden">詳細を見る →</span>
-      </div>
+      <div><p class="eyebrow">YOUR NATIONAL TEAM</p><h2 id="favoriteTitle">推し代表を選ぼう</h2><p id="favoriteDescription">好きな国を登録すると、次戦を先頭に表示します。</p><span id="heroOpenLabel" class="hero-open hidden">詳細を見る →</span></div>
       <div id="favoriteFlag" class="hero-flag" aria-hidden="true">🌍</div>
     </section>
-
     <section class="panel">
-      <div class="section-heading">
-        <div><h2>代表を探す</h2><p class="muted">国名・英語名で検索。カードで詳細、☆で推し登録。</p></div>
-        <button id="clearFavorite" class="text-button hidden" type="button">登録解除</button>
-      </div>
+      <div class="section-heading"><div><h2>代表を探す</h2><p class="muted">国名・英語名で検索。カードで詳細、☆で推し登録。</p></div><button id="clearFavorite" class="text-button hidden" type="button">登録解除</button></div>
       <input id="countrySearch" class="search-input" type="search" placeholder="例：日本 / Japan">
-      <div id="regionFilters" class="chips"></div>
-      <div id="countryGrid" class="country-grid"></div>
+      <div id="regionFilters" class="chips"></div><div id="countryGrid" class="country-grid"></div>
     </section>
-
     <section class="panel">
-      <div class="section-heading"><div><h2>代表戦</h2><p class="muted">共通データサービスを通して日程を読み込む構成に移行しました。</p></div><span class="status">接続準備完了</span></div>
-      <div class="empty-state"><span>📅</span><strong>日程データの受け皿を追加</strong><p>APIや自動生成JSONを差し替えるだけで一覧・詳細へ反映できます。</p></div>
+      <div class="section-heading"><div><h2>推し代表の次戦</h2><p id="nationalUpdatedAt" class="muted">実データを読み込んでいます</p></div><span class="status">LIVE DATA</span></div>
+      <div id="favoriteMatch"><div class="empty-state"><span>📅</span><strong>データを確認中</strong><p>まもなく表示します。</p></div></div>
     </section>
-
     <section class="panel">
-      <div class="section-heading"><div><h2>大会</h2><p class="muted">代表戦を大会別に整理する予定です。</p></div></div>
-      <div class="competition-grid">
-        <article><span>🏆</span><h3>ワールドカップ</h3><p>本大会・予選</p></article>
-        <article><span>🌏</span><h3>大陸選手権</h3><p>各地域の主要大会</p></article>
-        <article><span>🤝</span><h3>国際親善試合</h3><p>親善試合・強化試合</p></article>
-        <article><span>📊</span><h3>ランキング</h3><p>ランキング表示予定</p></article>
-      </div>
+      <div class="section-heading"><div><h2>世界の代表戦</h2><p class="muted">取得できた大会の日程・結果を時系列で表示</p></div><span id="nationalMatchCount" class="status">0試合</span></div>
+      <div id="nationalMatches" class="match-data-list"><div class="empty-state"><span>🌍</span><strong>代表戦データを確認中</strong><p>自動更新JSONを読み込んでいます。</p></div></div>
     </section>
-
-    <p class="refactor-note">代表メタデータを共通ファイルへ分離し、一覧と詳細の重複定義を解消しました。</p>
+    <section class="panel"><div class="section-heading"><div><h2>大会</h2><p class="muted">取得元で利用可能な国際大会を自動表示します。</p></div></div><div id="competitionSummary" class="competition-grid"></div></section>
   </main>
-
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <script src="./assets/js/core.js?v=230" defer></script>
-  <script src="./assets/js/national-data.js?v=230" defer></script>
-  <script src="./national.js?v=230" defer></script>
+  <script src="./assets/js/core.js?v=270" defer></script>
+  <script src="./assets/js/national-data.js?v=270" defer></script>
+  <script src="./assets/js/national-service.js?v=270" defer></script>
+  <script src="./national.js?v=270" defer></script>
 </body>
 </html>
