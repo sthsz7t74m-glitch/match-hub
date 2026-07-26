@@ -15,30 +15,35 @@ window.FootballCore=window.FootballCore||{};
     static set(root,title,description=''){if(root)root.innerHTML=this.render(title,description);}
   }
 
-  const required={
+  class FavoriteService{
+    constructor(options={}){
+      const Repository=Repositories.FavoriteRepository;
+      const Service=Services.FavoriteService;
+      if(!Repository)throw new Error('FootballRepositories.FavoriteRepository is unavailable');
+      const repository=options instanceof Repository?options:new Repository(options);
+      this.service=Service?new Service(repository):null;
+      this.repository=repository;
+    }
+    list(){return this.service?this.service.list():this.repository.list();}
+    has(id){return this.service?this.service.has(id):this.repository.has(id);}
+    add(id){return this.service?this.service.add(id):(this.repository.add(id),true);}
+    remove(id){return this.service?this.service.remove(id):(this.repository.remove(id),false);}
+    toggle(id){return this.service?this.service.toggle(id):(this.has(id)?this.remove(id):this.add(id));}
+    clear(){return this.service?this.service.clear():this.repository.clear();}
+  }
+
+  Object.assign(ns,{
     JsonRepository:Repositories.JsonRepository,
     StorageRepository:Repositories.StorageRepository,
     FavoriteRepository:Repositories.FavoriteRepository,
     SettingsRepository:Repositories.SettingsRepository,
-    FavoriteService:Services.FavoriteService,
+    FavoriteService,
     MatchModel:Services.MatchModel,
     MatchService:Services.MatchService,
     SearchService:Services.SearchService,
-    StandingService:Services.StandingService
-  };
-
-  Object.entries(required).forEach(([name,value])=>{if(value)ns[name]=value;});
-  Object.assign(ns,{PageTabs,EmptyState,escapeHtml});
-
-  if(!ns.FavoriteService&&ns.FavoriteRepository){
-    ns.FavoriteService=class{
-      constructor(options={}){this.repository=options instanceof ns.FavoriteRepository?options:new ns.FavoriteRepository(options);}
-      list(){return this.repository.list();}
-      has(id){return this.repository.has(id);}
-      add(id){this.repository.add(id);return true;}
-      remove(id){this.repository.remove(id);return false;}
-      toggle(id){return this.has(id)?this.remove(id):this.add(id);}
-      clear(){this.repository.clear();}
-    };
-  }
+    StandingService:Services.StandingService,
+    PageTabs,
+    EmptyState,
+    escapeHtml
+  });
 })(window.FootballCore);
