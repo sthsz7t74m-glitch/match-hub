@@ -6,15 +6,15 @@
   <meta name="theme-color" content="#07111f">
   <meta name="description" content="各国代表の日程・大会・お気に入りをまとめるNational Hub">
   <title>National Hub | Sports Hub</title>
-  <link rel="stylesheet" href="./assets/css/core.css?v=223">
-  <link rel="stylesheet" href="./national.css?v=223">
+  <link rel="stylesheet" href="./assets/css/core.css?v=230">
+  <link rel="stylesheet" href="./national.css?v=230">
 </head>
 <body>
   <header class="app-header">
     <a class="back-link" href="./sports-home.html" aria-label="Sports Hubへ戻る">←</a>
     <div class="app-header__title">
       <p class="eyebrow">NATIONAL TEAMS</p>
-      <h1>各国代表 <span class="version">v2.2.3</span></h1>
+      <h1>各国代表 <span class="version">v2.3.0</span></h1>
     </div>
     <button id="themeButton" class="icon-button" type="button" aria-label="テーマ切替">◐</button>
   </header>
@@ -41,8 +41,8 @@
     </section>
 
     <section class="panel">
-      <div class="section-heading"><div><h2>代表戦</h2><p class="muted">代表詳細ページからチーム別画面を確認できます。</p></div><span class="status">基盤追加</span></div>
-      <div class="empty-state"><span>📅</span><strong>代表詳細ページを追加しました</strong><p>次の工程で日程APIとランキングデータを接続します。</p></div>
+      <div class="section-heading"><div><h2>代表戦</h2><p class="muted">共通データサービスを通して日程を読み込む構成に移行しました。</p></div><span class="status">接続準備完了</span></div>
+      <div class="empty-state"><span>📅</span><strong>日程データの受け皿を追加</strong><p>APIや自動生成JSONを差し替えるだけで一覧・詳細へ反映できます。</p></div>
     </section>
 
     <section class="panel">
@@ -55,11 +55,12 @@
       </div>
     </section>
 
-    <p class="refactor-note">代表一覧と代表詳細でテーマ・保存・トースト・カード基盤を共有しています。</p>
+    <p class="refactor-note">代表メタデータを共通ファイルへ分離し、一覧と詳細の重複定義を解消しました。</p>
   </main>
 
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <script src="./assets/js/core.js?v=223" defer></script>
-  <script src="./national.js?v=223" defer></script>
+  <script src="./assets/js/core.js?v=230" defer></script>
+  <script src="./assets/js/national-data.js?v=230" defer></script>
+  <script src="./national.js?v=230" defer></script>
 </body>
 </html>
