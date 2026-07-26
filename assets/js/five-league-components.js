@@ -58,15 +58,18 @@
     document.querySelectorAll('#calendarGrid [data-calendar-day]').forEach(button=>{
       const date=button.dataset.calendarDay;
       const fixtures=(data.fixtures||[]).filter(fixture=>dayKey(fixture.date)===date&&(favorites.has(Number(fixture.home?.id))||favorites.has(Number(fixture.away?.id))));
-      button.classList.toggle('calendar-day--favorite',fixtures.length>0);
       const primaryMatch=fixtures.some(fixture=>Number(fixture.home?.id)===primary||Number(fixture.away?.id)===primary);
-      button.classList.toggle('calendar-day--primary',primaryMatch);
-      button.querySelector('.calendar-favorite-marks')?.remove();
-      if(!fixtures.length)return;
       const teamIds=[];
       fixtures.forEach(fixture=>{
         [fixture.home,fixture.away].forEach(team=>{if(favorites.has(Number(team?.id))&&!teamIds.includes(Number(team.id)))teamIds.push(Number(team.id));});
       });
+      const signature=`${fixtures.length}|${primaryMatch?'1':'0'}|${teamIds.slice(0,3).join(',')}`;
+      if(button.dataset.favoriteSignature===signature)return;
+      button.dataset.favoriteSignature=signature;
+      button.classList.toggle('calendar-day--favorite',fixtures.length>0);
+      button.classList.toggle('calendar-day--primary',primaryMatch);
+      button.querySelector('.calendar-favorite-marks')?.remove();
+      if(!fixtures.length){button.removeAttribute('title');return;}
       const marks=document.createElement('small');
       marks.className='calendar-favorite-marks';
       teamIds.slice(0,3).forEach(id=>{
