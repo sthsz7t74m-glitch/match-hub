@@ -5,6 +5,17 @@ window.FootballUI=window.FootballUI||{};
   const dayKey=value=>{const model=Core.MatchModel?new Core.MatchModel({date:value}):null;if(model?.dateKey)return model.dateKey;const d=new Date(value);return Number.isNaN(d.getTime())?'':`${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;};
   const favoriteList=key=>Core.FavoriteService?new Core.FavoriteService({key}).list():(()=>{try{return JSON.parse(localStorage.getItem(key)||'[]');}catch{return[];}})();
   const jClubTeamIds={'fc-tokyo':'3384','tokyo-verdy':'3393','machida':'22167','yokohama-fm':'7116','kashima':'7115','mito':'131701','urawa':'3385','chiba':'7111','kashiwa':'7476','kawasaki':'7112','shimizu':'7104','nagoya':'7108','kyoto':'21361','gamba':'7102','cerezo':'7109','kobe':'7477','okayama':'22522','hiroshima':'7114','fukuoka':'7107','nagasaki':'19001'};
+  const shellConfigs={
+    jleague:{eyebrow:'JAPAN PROFESSIONAL FOOTBALL',title:'Jリーグ',version:'v3.0.6',back:'./sports-home.html',nav:[['home','⌂','ホーム'],['schedule','▤','日程'],['standings','≡','順位'],['clubs','⌕','クラブ'],['favorites','★','推し','favoriteCountBadge']]},
+    national:{eyebrow:'NATIONAL TEAMS',title:'各国代表',version:'v3.1.4',back:'./sports-home.html',nav:[['home','⌂','ホーム'],['schedule','▤','日程'],['teams','⌕','代表'],['competitions','🏆','大会'],['favorites','★','推し','favoriteCountBadge']]}
+  };
+
+  class FootballShell{
+    constructor(page=document.body.dataset.hub){this.page=page;this.config=shellConfigs[page];}
+    renderHeader(){const root=document.querySelector('.topbar');if(!root||!this.config)return;root.innerHTML=`<div style="display:flex;align-items:center;gap:10px"><a class="back-link" href="${this.config.back}" aria-label="Sports Hubへ戻る">←</a><div><p class="eyebrow">${this.config.eyebrow}</p><h1>${this.config.title} <span class="version">${this.config.version}</span></h1></div></div><div class="topbar__actions"><button id="themeButton" class="icon-button" type="button" aria-label="テーマ切替">◐</button></div>`;}
+    renderNavigation(){const root=document.querySelector('#pageTabs');if(!root||!this.config)return;root.innerHTML=this.config.nav.map(([page,icon,label,badge],index)=>`<button class="nav-item hub-nav__item${index===0?' active':''}" data-page="${page}" type="button">${icon}<span>${label}${badge?` <b id="${badge}">0</b>`:''}</span></button>`).join('');root.setAttribute('aria-label',`${this.config.title}メニュー`);new BottomNavigation(root).normalize();}
+    render(){this.renderHeader();this.renderNavigation();}
+  }
 
   class FootballCalendar{
     constructor({root,title,prev,next,today=null,getMatches,getFavorites,getPrimary,getDate,getTeamVisual,onSelect}){Object.assign(this,{root,title,prev,next,today,getMatches,getFavorites,getPrimary,getDate,getTeamVisual,onSelect});this.cursor=new Date();this.selected='';this.bound=false;}
@@ -23,12 +34,13 @@ window.FootballUI=window.FootballUI||{};
   class FootballPageAdapter{
     constructor(){this.page=document.body.dataset.hub||this.detect();this.repositories={five:new Core.JsonRepository('./data/football.json'),jleague:new Core.JsonRepository('./data/jleague.json'),national:new Core.JsonRepository('./data/national-matches.json')};}
     detect(){if(document.querySelector('#calendarGrid'))return'five';if(document.querySelector('#jUpdated'))return'jleague';return'national';}
-    async start(){new BottomNavigation(document.querySelector('.bottom-nav')).normalize();if(this.page==='five')return this.startFive();if(this.page==='jleague')return this.startJLeague();return this.startNational();}
+    async start(){new FootballShell(this.page).render();if(this.page==='five')return this.startFive();if(this.page==='jleague')return this.startJLeague();return this.startNational();}
     register(calendar){ns.calendars=ns.calendars||{};ns.calendars[this.page]=calendar;calendar.render();return calendar;}
     startFive(){return this.repositories.five.get().then(data=>this.register(new FootballCalendar({root:document.querySelector('#calendarGrid'),title:document.querySelector('#calendarTitle'),prev:document.querySelector('#calendarPrev'),next:document.querySelector('#calendarNext'),today:document.querySelector('#calendarToday'),getMatches:()=>data.fixtures||[],getFavorites:()=>favoriteList('matchHubFavorites'),getPrimary:()=>localStorage.getItem('matchHubPrimary')||'',getDate:m=>m.date,getTeamVisual:id=>{const t=(data.teams||[]).find(x=>String(x.id)===String(id));return{logo:t?.logo,label:'★'};}})));}
     startJLeague(){return this.repositories.jleague.get().then(data=>this.register(new FootballCalendar({root:document.querySelector('#matchCalendar'),title:document.querySelector('#calendarTitle'),prev:document.querySelector('#calendarPrev'),next:document.querySelector('#calendarNext'),getMatches:()=>data.matches||[],getFavorites:()=>favoriteList('sportsHubFavoriteJClubs').map(id=>jClubTeamIds[id]||id),getPrimary:()=>'',getDate:m=>m.date,getTeamVisual:id=>{const team=(data.teams||[]).find(t=>String(t.id)===String(id));return{logo:team?.logo,label:window.SportsHubJLeague?.find?.(Object.keys(jClubTeamIds).find(key=>jClubTeamIds[key]===String(id))||String(id))?.mark||'●'};}})));}
     startNational(){return this.repositories.national.get().then(data=>this.register(new FootballCalendar({root:document.querySelector('#matchCalendar'),title:document.querySelector('#calendarTitle'),prev:document.querySelector('#calendarPrev'),next:document.querySelector('#calendarNext'),getMatches:()=>data.matches||[],getFavorites:()=>favoriteList('sportsHubFavoriteNationals'),getPrimary:()=>'',getDate:m=>m.kickoff,getTeamVisual:id=>({label:window.SportsHubNational?.find?.(id)?.flag||'●'})})));}
   }
 
-  ns.FootballCalendar=FootballCalendar;ns.BottomNavigation=BottomNavigation;ns.FootballPageAdapter=FootballPageAdapter;document.addEventListener('DOMContentLoaded',()=>new FootballPageAdapter().start().catch(error=>console.warn('Shared football UI unavailable',error)));
+  Object.assign(ns,{FootballCalendar,BottomNavigation,FootballShell,FootballPageAdapter});
+  document.addEventListener('DOMContentLoaded',()=>new FootballPageAdapter().start().catch(error=>console.warn('Shared football UI unavailable',error)));
 })(window.FootballUI);
