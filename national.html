@@ -6,45 +6,23 @@
   <meta name="theme-color" content="#07111f">
   <meta name="description" content="各国代表の日程、カレンダー、大会、お気に入りをまとめるNational Hub">
   <title>National Hub | Sports Hub</title>
-  <link rel="stylesheet" href="./assets/css/core.css?v=303">
-  <link rel="stylesheet" href="./national.css?v=303">
+  <link rel="stylesheet" href="./assets/css/core.css?v=304">
+  <link rel="stylesheet" href="./assets/css/match-components.css?v=304">
+  <link rel="stylesheet" href="./national.css?v=304">
 </head>
 <body>
-<header class="app-header"><a class="back-link" href="./sports-home.html" aria-label="Sports Hubへ戻る">←</a><div class="app-header__title"><p class="eyebrow">NATIONAL TEAMS</p><h1>各国代表 <span class="version">v3.0.3</span></h1></div><button id="themeButton" class="icon-button" type="button" aria-label="テーマ切替">◐</button></header>
+<header class="app-header"><a class="back-link" href="./sports-home.html" aria-label="Sports Hubへ戻る">←</a><div class="app-header__title"><p class="eyebrow">NATIONAL TEAMS</p><h1>各国代表 <span class="version">v3.0.4</span></h1></div><button id="themeButton" class="icon-button" type="button" aria-label="テーマ切替">◐</button></header>
 <nav id="pageTabs" class="hub-nav" aria-label="各国代表メニュー">
-  <button class="hub-nav__item active" data-page="home" type="button">ホーム</button>
-  <button class="hub-nav__item" data-page="schedule" type="button">日程</button>
-  <button class="hub-nav__item" data-page="teams" type="button">代表</button>
-  <button class="hub-nav__item" data-page="competitions" type="button">大会</button>
-  <button class="hub-nav__item" data-page="favorites" type="button">お気に入り <span id="favoriteCountBadge">0</span></button>
+  <button class="hub-nav__item active" data-page="home" type="button">ホーム</button><button class="hub-nav__item" data-page="schedule" type="button">日程</button><button class="hub-nav__item" data-page="teams" type="button">代表</button><button class="hub-nav__item" data-page="competitions" type="button">大会</button><button class="hub-nav__item" data-page="favorites" type="button">お気に入り <span id="favoriteCountBadge">0</span></button>
 </nav>
 <main class="page national-page">
   <section class="national-hero panel"><div><p class="eyebrow">NATIONAL HUB</p><h2>世界の代表戦をひとつの画面で</h2><p class="muted">アジア・欧州・南米・北中米・アフリカ・オセアニアの代表を検索して、複数お気に入りや日程をまとめて確認できます。</p><small id="nationalUpdatedAt" class="data-updated">ESPNデータを読み込んでいます</small></div><div class="hero-globe" aria-hidden="true">🌍</div></section>
-
-  <div id="page-home" class="page-view active">
-    <section class="panel"><div class="section-heading"><div><h2>お気に入りの次戦</h2><p class="muted">登録した代表の試合を優先表示</p></div><span id="homeFavoriteStatus" class="status">0代表</span></div><div id="favoriteNextMatches" class="match-data-list"></div></section>
-    <section class="panel"><div class="section-heading"><div><h2>今日・直近の代表戦</h2><p class="muted">世界の代表戦を時系列で表示</p></div><span id="nationalMatchCount" class="status">0試合</span></div><div id="nationalMatches" class="match-data-list"></div></section>
-    <section class="panel"><div class="section-heading"><div><h2>大会</h2><p class="muted">開催中・取得可能な大会</p></div><button class="text-button" type="button" data-page-jump="competitions">すべて見る</button></div><div id="homeCompetitionSummary" class="competition-grid"></div></section>
-  </div>
-
-  <div id="page-schedule" class="page-view">
-    <section class="panel"><div class="calendar-head"><button id="calendarPrev" class="icon-button" type="button">‹</button><div><p class="eyebrow">MATCH CALENDAR</p><h2 id="calendarTitle">カレンダー</h2></div><button id="calendarNext" class="icon-button" type="button">›</button></div><div id="matchCalendar" class="match-calendar"></div><p class="calendar-help muted">日付を押すと、その日の代表戦だけ表示します。</p></section>
-    <section class="panel"><div class="section-heading"><div><h2 id="scheduleTitle">試合日程</h2><p class="muted">日付を選択して絞り込み</p></div><button id="clearDateFilter" class="text-button" type="button">全日程</button></div><div id="scheduleMatches" class="match-data-list"></div></section>
-  </div>
-
-  <div id="page-teams" class="page-view">
-    <section class="panel"><div class="section-heading"><div><h2>代表を探す</h2><p class="muted">国名・英語名で検索</p></div><span id="countryCount" class="status">0代表</span></div><input id="countrySearch" class="search-input" type="search" placeholder="例：日本 / Japan"><div id="regionFilters" class="chips"></div><div id="countryGrid" class="country-grid"></div></section>
-  </div>
-
-  <div id="page-competitions" class="page-view">
-    <section class="panel"><div class="section-heading"><div><h2>大会一覧</h2><p class="muted">ESPNから取得できた国際大会</p></div><span class="status">ESPN</span></div><div id="competitionSummary" class="competition-grid"></div></section>
-  </div>
-
-  <div id="page-favorites" class="page-view">
-    <section class="panel"><div class="section-heading"><div><h2>お気に入り代表</h2><p class="muted">複数の代表をまとめて管理</p></div><span id="favoriteTeamCount" class="status">0代表</span></div><div id="favoriteCountryGrid" class="country-grid"></div></section>
-    <section class="panel"><div class="section-heading"><div><h2>お気に入りの試合</h2><p class="muted">登録した代表の今後の日程</p></div></div><div id="favoriteMatches" class="match-data-list"></div></section>
-  </div>
+  <div id="page-home" class="page-view active"><section class="panel"><div class="section-heading"><div><h2>お気に入りの次戦</h2><p class="muted">登録した代表の試合を優先表示</p></div><span id="homeFavoriteStatus" class="status">0代表</span></div><div id="favoriteNextMatches" class="match-data-list"></div></section><section class="panel"><div class="section-heading"><div><h2>今日・直近の代表戦</h2><p class="muted">世界の代表戦を時系列で表示</p></div><span id="nationalMatchCount" class="status">0試合</span></div><div id="nationalMatches" class="match-data-list"></div></section><section class="panel"><div class="section-heading"><div><h2>大会</h2><p class="muted">開催中・取得可能な大会</p></div><button class="text-button" type="button" data-page-jump="competitions">すべて見る</button></div><div id="homeCompetitionSummary" class="competition-grid"></div></section></div>
+  <div id="page-schedule" class="page-view"><section class="panel"><div class="calendar-head"><button id="calendarPrev" class="icon-button" type="button">‹</button><div><p class="eyebrow">MATCH CALENDAR</p><h2 id="calendarTitle">カレンダー</h2></div><button id="calendarNext" class="icon-button" type="button">›</button></div><div id="matchCalendar" class="match-calendar"></div><p class="calendar-help muted">日付を押すと、その日の代表戦だけ表示します。</p></section><section class="panel"><div class="section-heading"><div><h2 id="scheduleTitle">試合日程</h2><p class="muted">日付を選択して絞り込み</p></div><button id="clearDateFilter" class="text-button" type="button">全日程</button></div><div id="scheduleMatches" class="match-data-list"></div></section></div>
+  <div id="page-teams" class="page-view"><section class="panel"><div class="section-heading"><div><h2>代表を探す</h2><p class="muted">国名・英語名で検索</p></div><span id="countryCount" class="status">0代表</span></div><input id="countrySearch" class="search-input" type="search" placeholder="例：日本 / Japan"><div id="regionFilters" class="chips"></div><div id="countryGrid" class="country-grid"></div></section></div>
+  <div id="page-competitions" class="page-view"><section class="panel"><div class="section-heading"><div><h2>大会一覧</h2><p class="muted">ESPNから取得できた国際大会</p></div><span class="status">ESPN</span></div><div id="competitionSummary" class="competition-grid"></div></section></div>
+  <div id="page-favorites" class="page-view"><section class="panel"><div class="section-heading"><div><h2>お気に入り代表</h2><p class="muted">複数の代表をまとめて管理</p></div><span id="favoriteTeamCount" class="status">0代表</span></div><div id="favoriteCountryGrid" class="country-grid"></div></section><section class="panel"><div class="section-heading"><div><h2>お気に入りの試合</h2><p class="muted">登録した代表の今後の日程</p></div></div><div id="favoriteMatches" class="match-data-list"></div></section></div>
 </main>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script src="./assets/js/core.js?v=303" defer></script><script src="./assets/js/national-data.js?v=303" defer></script><script src="./assets/js/national-service.js?v=303" defer></script><script src="./national.js?v=303" defer></script>
+<script src="./assets/js/core.js?v=304" defer></script><script src="./assets/js/match-components.js?v=304" defer></script><script src="./assets/js/national-data.js?v=304" defer></script><script src="./assets/js/national-service.js?v=304" defer></script><script src="./national.js?v=304" defer></script>
 </body></html>
