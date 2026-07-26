@@ -6,11 +6,11 @@
   <meta name="theme-color" content="#07111f">
   <meta name="description" content="各国代表の日程、カレンダー、大会、お気に入りをまとめるNational Hub">
   <title>National Hub | Sports Hub</title>
-  <link rel="stylesheet" href="./assets/css/core.css?v=300">
-  <link rel="stylesheet" href="./national.css?v=300">
+  <link rel="stylesheet" href="./assets/css/core.css?v=301">
+  <link rel="stylesheet" href="./national.css?v=301">
 </head>
 <body>
-<header class="app-header"><a class="back-link" href="./sports-home.html" aria-label="Sports Hubへ戻る">←</a><div class="app-header__title"><p class="eyebrow">NATIONAL TEAMS</p><h1>各国代表 <span class="version">v3.0.0</span></h1></div><button id="themeButton" class="icon-button" type="button" aria-label="テーマ切替">◐</button></header>
+<header class="app-header"><a class="back-link" href="./sports-home.html" aria-label="Sports Hubへ戻る">←</a><div class="app-header__title"><p class="eyebrow">NATIONAL TEAMS</p><h1>各国代表 <span class="version">v3.0.1</span></h1></div><button id="themeButton" class="icon-button" type="button" aria-label="テーマ切替">◐</button></header>
 <nav id="pageTabs" class="hub-nav" aria-label="各国代表メニュー">
   <button class="hub-nav__item active" data-page="home" type="button">ホーム</button>
   <button class="hub-nav__item" data-page="schedule" type="button">日程</button>
@@ -19,7 +19,7 @@
   <button class="hub-nav__item" data-page="favorites" type="button">お気に入り <span id="favoriteCountBadge">0</span></button>
 </nav>
 <main class="page national-page">
-  <section class="national-hero panel"><div><p class="eyebrow">NATIONAL HUB</p><h2>世界の代表戦をひとつの画面で</h2><p class="muted">複数のお気に入り、試合日程、カレンダー、大会情報を五大リーグ版と同じ操作感でまとめます。</p><small id="nationalUpdatedAt" class="data-updated">実データを読み込んでいます</small></div><div class="hero-globe" aria-hidden="true">🌍</div></section>
+  <section class="national-hero panel"><div><p class="eyebrow">NATIONAL HUB</p><h2>世界の代表戦をひとつの画面で</h2><p class="muted">アジア・欧州・南米・北中米・アフリカ・オセアニアの代表を検索して、複数お気に入りや日程をまとめて確認できます。</p><small id="nationalUpdatedAt" class="data-updated">実データを読み込んでいます</small></div><div class="hero-globe" aria-hidden="true">🌍</div></section>
 
   <div id="page-home" class="page-view active">
     <section class="panel"><div class="section-heading"><div><h2>お気に入りの次戦</h2><p class="muted">登録した代表の試合を優先表示</p></div><span id="homeFavoriteStatus" class="status">0代表</span></div><div id="favoriteNextMatches" class="match-data-list"></div></section>
@@ -46,5 +46,5 @@
   </div>
 </main>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script src="./assets/js/core.js?v=300" defer></script><script src="./assets/js/national-data.js?v=300" defer></script><script src="./assets/js/national-service.js?v=300" defer></script><script src="./national.js?v=300" defer></script>
+<script src="./assets/js/core.js?v=301" defer></script><script src="./assets/js/national-data.js?v=301" defer></script><script src="./assets/js/national-service.js?v=301" defer></script><script src="./national.js?v=301" defer></script>
 </body></html>
