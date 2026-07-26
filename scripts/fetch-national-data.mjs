@@ -1,14 +1,27 @@
 import fs from 'node:fs/promises';
 
-const API='https://api.football-data.org/v4';
-const token=process.env.FOOTBALL_DATA_TOKEN;
-if(!token)throw new Error('FOOTBALL_DATA_TOKEN is not configured');
+const ESPN='https://site.api.espn.com/apis/site/v2/sports/soccer';
+const now=new Date();
+const currentYear=now.getUTCFullYear();
+const years=[currentYear-2,currentYear-1,currentYear,currentYear+1];
 
-const preferredNames={
-  WC:'FIFAワールドカップ',EC:'UEFA欧州選手権',UNL:'UEFAネーションズリーグ',
-  CA:'コパ・アメリカ',QCAF:'W杯アフリカ予選',QAFC:'W杯アジア予選',
-  AFCON:'アフリカネーションズカップ',AFC:'AFCアジアカップ',GC:'CONCACAFゴールドカップ'
-};
+const competitions=[
+  {code:'fifa.world',nameJa:'FIFAワールドカップ'},
+  {code:'fifa.worldq.uefa',nameJa:'W杯欧州予選'},
+  {code:'fifa.worldq.conmebol',nameJa:'W杯南米予選'},
+  {code:'fifa.worldq.concacaf',nameJa:'W杯北中米予選'},
+  {code:'fifa.worldq.afc',nameJa:'W杯アジア予選'},
+  {code:'fifa.worldq.caf',nameJa:'W杯アフリカ予選'},
+  {code:'uefa.euro',nameJa:'UEFA欧州選手権'},
+  {code:'uefa.nations',nameJa:'UEFAネーションズリーグ'},
+  {code:'conmebol.copa_america',nameJa:'コパ・アメリカ'},
+  {code:'concacaf.gold',nameJa:'CONCACAFゴールドカップ'},
+  {code:'afc.asian.cup',nameJa:'AFCアジアカップ'},
+  {code:'caf.nations',nameJa:'アフリカネーションズカップ'},
+  {code:'fifa.friendly',nameJa:'国際親善試合'},
+  {code:'fifa.confederations',nameJa:'FIFAコンフェデレーションズカップ'},
+  {code:'fifa.olympics',nameJa:'オリンピック男子サッカー'}
+];
 
 const aliases={
   japan:['japan'],korea:['south korea','korea republic','republic of korea','korea'],australia:['australia'],
@@ -40,76 +53,82 @@ function teamId(name){
   }
   return slug(value);
 }
-function competitionName(item){
-  if(preferredNames[item.code])return preferredNames[item.code];
-  const name=item.name||'';
-  return name
-    .replace(/WC Qualification/gi,'W杯予選')
-    .replace(/World Cup/gi,'ワールドカップ')
-    .replace(/European Championship/gi,'UEFA欧州選手権')
-    .replace(/Nations League/gi,'ネーションズリーグ')
-    .replace(/Copa America/gi,'コパ・アメリカ')
-    .replace(/Africa Cup/gi,'アフリカネーションズカップ')
-    .replace(/Asian Cup/gi,'AFCアジアカップ');
-}
-function isNationalCompetition(item){
-  const value=normalize(`${item.name||''} ${item.code||''}`);
-  return [
-    'world cup','wc qualification','qualification afc','qualification caf','qualification concacaf','qualification conmebol','qualification uefa',
-    'european championship','nations league','copa america','africa cup','asian cup','gold cup','confederations cup','friendlies'
-  ].some(keyword=>value.includes(keyword));
-}
-async function request(path){
-  const response=await fetch(`${API}${path}`,{headers:{'X-Auth-Token':token}});
+
+async function requestJson(url){
+  const response=await fetch(url,{headers:{'User-Agent':'match-hub/1.0'}});
   if(!response.ok)throw new Error(`HTTP ${response.status}`);
   return response.json();
 }
-const sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 
-const catalogue=await request('/competitions');
-const competitions=(catalogue.competitions||[]).filter(isNationalCompetition);
-console.log(`Found ${competitions.length} national competitions in catalogue.`);
+function statusOf(event={}){
+  if(event.status?.type?.completed)return 'finished';
+  const state=event.status?.type?.state;
+  if(state==='in')return 'in_play';
+  if(state==='pre')return 'scheduled';
+  return String(state||'scheduled').toLowerCase();
+}
 
 const matches=[];
 const loaded=[];
 const skipped=[];
+
 for(const competition of competitions){
-  try{
-    const payload=await request(`/competitions/${competition.id}/matches`);
-    const competitionLabel=competitionName(competition);
-    for(const match of payload.matches||[]){
-      const homeName=match.homeTeam?.name||match.homeTeam?.shortName||'';
-      const awayName=match.awayTeam?.name||match.awayTeam?.shortName||'';
-      if(!homeName||!awayName)continue;
-      matches.push({
-        id:`${competition.id}-${match.id}`,
-        kickoff:match.utcDate,
-        status:match.status==='FINISHED'?'finished':String(match.status||'scheduled').toLowerCase(),
-        competition:competitionLabel,
-        competitionCode:competition.code||'',
-        stage:match.stage||'',
-        round:match.matchday?`第${match.matchday}節`:(match.group||''),
-        home:teamId(homeName),away:teamId(awayName),homeName,awayName,
-        homeScore:match.score?.fullTime?.home??null,awayScore:match.score?.fullTime?.away??null
-      });
+  let competitionCount=0;
+  for(const year of years){
+    const dates=`${year}0101-${year}1231`;
+    const url=`${ESPN}/${competition.code}/scoreboard?dates=${dates}&limit=1000`;
+    try{
+      const payload=await requestJson(url);
+      const events=payload.events||[];
+      for(const event of events){
+        const contest=event.competitions?.[0];
+        if(!contest)continue;
+        const homeCompetitor=(contest.competitors||[]).find(item=>item.homeAway==='home');
+        const awayCompetitor=(contest.competitors||[]).find(item=>item.homeAway==='away');
+        const homeName=homeCompetitor?.team?.displayName||homeCompetitor?.team?.name||homeCompetitor?.team?.shortDisplayName||'';
+        const awayName=awayCompetitor?.team?.displayName||awayCompetitor?.team?.name||awayCompetitor?.team?.shortDisplayName||'';
+        if(!homeName||!awayName)continue;
+        matches.push({
+          id:`${competition.code}-${event.id}`,
+          kickoff:event.date,
+          status:statusOf(event),
+          competition:event.league?.name||payload.leagues?.[0]?.name||competition.nameJa,
+          competitionCode:competition.code,
+          stage:event.season?.type?.name||event.season?.slug||'',
+          round:contest.type?.text||event.week?.text||'',
+          home:teamId(homeName),
+          away:teamId(awayName),
+          homeName,
+          awayName,
+          homeScore:homeCompetitor?.score===''||homeCompetitor?.score==null?null:Number(homeCompetitor.score),
+          awayScore:awayCompetitor?.score===''||awayCompetitor?.score==null?null:Number(awayCompetitor.score),
+          venue:contest.venue?.fullName||'',
+          source:'ESPN'
+        });
+      }
+      competitionCount+=events.length;
+    }catch(error){
+      skipped.push({code:competition.code,year,reason:error.message});
+      console.warn(`Skip ${competition.code} ${year}: ${error.message}`);
     }
-    loaded.push({code:competition.code||String(competition.id),name:competitionLabel,count:(payload.matches||[]).length});
-  }catch(error){
-    skipped.push({code:competition.code||String(competition.id),name:competition.name||'',reason:error.message});
-    console.warn(`Skip ${competition.code||competition.id}: ${error.message}`);
   }
-  await sleep(6500);
+  if(competitionCount>0)loaded.push({code:competition.code,name:competition.nameJa,count:competitionCount});
 }
 
-const unique=[...new Map(matches.map(match=>[match.id,match])).values()].sort((a,b)=>new Date(a.kickoff)-new Date(b.kickoff));
+const unique=[...new Map(matches.map(match=>[match.id,match])).values()]
+  .sort((a,b)=>new Date(a.kickoff)-new Date(b.kickoff));
+
 const output={
   updatedAt:new Date().toISOString(),
-  source:'football-data.org multi-competition',
+  source:'ESPN multi-competition adapter',
   competitionCount:loaded.length,
   competitions:loaded,
   skippedCompetitions:skipped,
+  dateYears:years,
   matches:unique
 };
+
 await fs.mkdir('data',{recursive:true});
 await fs.writeFile('data/national-matches.json',`${JSON.stringify(output,null,2)}\n`);
-console.log(`Saved ${unique.length} national matches from ${loaded.length} competitions.`);
+console.log(`Saved ${unique.length} national matches from ${loaded.length} ESPN competitions.`);
+if(skipped.length)console.warn(`${skipped.length} ESPN requests were skipped.`);
