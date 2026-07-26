@@ -22,6 +22,29 @@ const teamNames={
   '7476':'柏レイソル','3393':'東京ヴェルディ','131701':'水戸ホーリーホック'
 };
 
+const clubTeamIds={
+  'fc-tokyo':'3384',
+  'tokyo-verdy':'3393',
+  'machida':'22167',
+  'yokohama-fm':'7116',
+  'kashima':'7115',
+  'mito':'131701',
+  'urawa':'3385',
+  'chiba':'7111',
+  'kashiwa':'7476',
+  'kawasaki':'7112',
+  'shimizu':'7104',
+  'nagoya':'7108',
+  'kyoto':'21361',
+  'gamba':'7102',
+  'cerezo':'7109',
+  'kobe':'7477',
+  'okayama':'22522',
+  'hiroshima':'7114',
+  'fukuoka':'7107',
+  'nagasaki':'19001'
+};
+
 function displayTeamName(team){
   return teamNames[String(team?.id)]||team?.shortName||team?.name||'未定';
 }
@@ -51,19 +74,32 @@ function getAllLiveTeams(){
   return [...unique.values()];
 }
 
+function teamAliases(team){
+  return [team?.name,team?.shortName,team?.displayName,displayTeamName(team)]
+    .filter(Boolean)
+    .map(normalizeName)
+    .filter(Boolean);
+}
+
 function findLiveTeam(club){
-  const target=normalizeName(club.name);
   const teams=getAllLiveTeams();
+  const mappedId=clubTeamIds[club.id];
+  if(mappedId){
+    const byId=teams.find(team=>String(team.id||team.uid||'')===mappedId);
+    if(byId)return byId;
+  }
+
+  const target=normalizeName(club.name);
   const sameLeague=teams.filter(team=>!team.league||team.league===club.league);
   const pool=sameLeague.length?sameLeague:teams;
-  return pool.find(team=>[
-    team.name,team.shortName,team.displayName,displayTeamName(team)
-  ].filter(Boolean).some(name=>{
-    const normalized=normalizeName(name);
-    return normalized===target||normalized.includes(target)||target.includes(normalized);
-  }))||teams.find(team=>[
-    team.name,team.shortName,team.displayName,displayTeamName(team)
-  ].filter(Boolean).some(name=>normalizeName(name)===target));
+
+  const exact=pool.find(team=>teamAliases(team).includes(target));
+  if(exact)return exact;
+
+  const partialMatches=pool.filter(team=>teamAliases(team).some(alias=>
+    target.length>=5&&alias.length>=5&&(alias.includes(target)||target.includes(alias))
+  ));
+  return partialMatches.length===1?partialMatches[0]:null;
 }
 
 function renderTabs(){
