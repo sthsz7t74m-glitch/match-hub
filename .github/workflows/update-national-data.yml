@@ -16,7 +16,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: national-team-data
+  group: match-hub-data-writes
   cancel-in-progress: false
 
 jobs:
@@ -25,6 +25,8 @@ jobs:
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
@@ -33,11 +35,12 @@ jobs:
       - name: Show fetch summary
         run: |
           node -e "const d=require('./data/national-matches.json'); console.log({source:d.source, competitions:d.competitionCount, matches:d.matches?.length, skipped:d.skippedCompetitions?.length})"
-      - name: Commit updated national data
+      - name: Commit and push national data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/national-matches.json
           git diff --cached --quiet && exit 0
           git commit -m "chore: update national team data"
-          git push
+          git pull --rebase origin main
+          git push origin HEAD:main
