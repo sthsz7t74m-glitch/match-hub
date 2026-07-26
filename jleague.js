@@ -27,28 +27,43 @@ function displayTeamName(team){
 }
 
 function normalizeName(value=''){
-  return value.toLowerCase()
-    .replace(/[・\.．\-ー\s]/g,'')
-    .replace(/fc/g,'')
-    .replace(/f\.c\./g,'')
+  return String(value).toLowerCase()
+    .replace(/f\.c\.|fc/g,'')
+    .replace(/[・･\.．\-ー\s]/g,'')
     .replace(/ユナイテッド/g,'')
     .replace(/1969/g,'')
-    .replace(/fmarinos|fマリノス/g,'マリノス');
+    .replace(/fmarinos|fマリノス/g,'マリノス')
+    .replace(/sanfrecce|sanfreece/g,'サンフレッチェ')
+    .replace(/avispa/g,'アビスパ')
+    .replace(/vvaren/g,'vファーレン');
+}
+
+function getAllLiveTeams(){
+  if(!liveData)return [];
+  const candidates=[...(liveData.teams||[])];
+  (liveData.matches||[]).forEach(match=>candidates.push(match.home,match.away));
+  (liveData.standings||[]).forEach(row=>candidates.push(row.team));
+  const unique=new Map();
+  candidates.filter(Boolean).forEach(team=>{
+    const key=String(team.id||team.uid||team.name||team.shortName||'');
+    if(key&&!unique.has(key))unique.set(key,team);
+  });
+  return [...unique.values()];
 }
 
 function findLiveTeam(club){
-  const teams=liveData?.teams||[];
   const target=normalizeName(club.name);
-  return teams.find(team=>team.league===club.league&&[
-    team.name,team.shortName,displayTeamName(team)
-  ].some(name=>{
+  const teams=getAllLiveTeams();
+  const sameLeague=teams.filter(team=>!team.league||team.league===club.league);
+  const pool=sameLeague.length?sameLeague:teams;
+  return pool.find(team=>[
+    team.name,team.shortName,team.displayName,displayTeamName(team)
+  ].filter(Boolean).some(name=>{
     const normalized=normalizeName(name);
     return normalized===target||normalized.includes(target)||target.includes(normalized);
-  }));
-}
-
-function logoImage(url,name,className='club-emblem'){
-  return url?`<img class="${className}" src="${url}" alt="${name}のエンブレム" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><span class="club-mark-fallback" hidden>`:'';
+  }))||teams.find(team=>[
+    team.name,team.shortName,team.displayName,displayTeamName(team)
+  ].filter(Boolean).some(name=>normalizeName(name)===target));
 }
 
 function renderTabs(){
@@ -85,7 +100,7 @@ function matchCard(match){
   const live=['IN_PLAY','PAUSED','LIVE'].includes(match.status);
   const score=done||live?`${match.score?.home??'-'} - ${match.score?.away??'-'}`:'未開始';
   const time=done?'試合終了':live?'LIVE':date.toLocaleTimeString('ja-JP',{hour:'2-digit',minute:'2-digit'});
-  return `<article class="j-match-card"><div class="j-match-meta"><span>${date.toLocaleDateString('ja-JP',{month:'numeric',day:'numeric',weekday:'short'})} ${time}</span><span>${formatStage(match)}</span></div><div class="j-match-teams">${teamCell(match.home)}<strong class="j-match-score">${score}</strong>${teamCell(match.away)}</div>${match.venue?`<small class="muted">${match.venue}</small>`:''}</article>`;
+  return `<article class="j-match-card"><div class="j-match-meta"><span>${date.toLocaleDateString('ja-JP',{month:'numeric',day:'numeric',weekday:'short'})} ${time}</span><span>${formatStage(match)}</span></div><div class="j-match-teams">${teamCell(match.home)}<strong class="j-match-score">${score}</strong>${teamCell(match.away)}</div>${match.venue?`<small class="j-match-venue muted">${match.venue}</small>`:''}</article>`;
 }
 
 function renderMatches(data){
@@ -94,8 +109,8 @@ function renderMatches(data){
   const finished=sorted.filter(match=>match.status==='FINISHED'&&new Date(match.date).getTime()<=now).slice(-4);
   const upcoming=sorted.filter(match=>match.status!=='FINISHED'&&new Date(match.date).getTime()>=now).slice(0,8);
   const sections=[];
-  if(finished.length)sections.push(`<div class="j-match-section"><p class="eyebrow">直近結果</p>${finished.map(matchCard).join('')}</div>`);
-  if(upcoming.length)sections.push(`<div class="j-match-section"><p class="eyebrow">今後の日程</p>${upcoming.map(matchCard).join('')}</div>`);
+  if(finished.length)sections.push(`<div class="j-match-section"><p class="eyebrow">直近結果</p><div class="j-match-cards">${finished.map(matchCard).join('')}</div></div>`);
+  if(upcoming.length)sections.push(`<div class="j-match-section"><p class="eyebrow">今後の日程</p><div class="j-match-cards">${upcoming.map(matchCard).join('')}</div></div>`);
   matchCountNode.textContent=`${finished.length+upcoming.length}試合`;
   matchesNode.innerHTML=sections.join('')||'<div class="empty-state"><strong>表示できる試合がありません</strong><p>次回更新後に自動表示されます。</p></div>';
 }
