@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T12:47:04.660Z",
+  "updatedAt": "2026-07-26T18:44:59.813Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -35,19 +35,19 @@
       "date": "2026-07-25T18:07:42.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cx2dgkg5rq0o?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/videos/cgmkv3j3yv0o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Japan forward Maeda",
-      "titleJa": "Ipswich、CelticからJapan forward Maedaを獲得",
-      "from": "Celtic",
-      "to": "Ipswich",
-      "summaryJa": "Japan forward MaedaがCelticからIpswichへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Ipswich sign Japan forward Maeda from Celtic",
-      "summary": "Ipswich Town sign Japan forward Daizen Maeda from Celtic on a contract until summer 2029.",
-      "parsed": true,
+      "player": "'I'm proud of it' - Keegan looks back on career highlights and legacy",
+      "titleJa": "移籍情報：'I'm proud of it' - Keegan looks back on career highlights and legacy",
+      "from": "",
+      "to": "",
+      "summaryJa": "'I'm proud of it' - Keegan looks back on career highlights and legacy移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "'I'm proud of it' - Keegan looks back on career highlights and legacy",
+      "summary": "Kevin Keegan talks to Football Focus' Dan Walker in 2018 about some of the standout moments from his career - from winning World Player of the Year twice, to managing England and the iconic \"I would love it\" remark from the 1995–96 season.",
+      "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx2dgkg5rq0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-25T12:20:37.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/videos/cgmkv3j3yv0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-20T16:32:51.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c39e1789j8po?at_medium=RSS&at_campaign=rss",
@@ -65,19 +65,19 @@
       "date": "2026-07-25T07:35:48.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/videos/cgmkv3j3yv0o?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/cx2dgkg5rq0o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "'I'm proud of it' - Keegan looks back on career highlights and legacy",
-      "titleJa": "移籍情報：'I'm proud of it' - Keegan looks back on career highlights and legacy",
-      "from": "",
-      "to": "",
-      "summaryJa": "'I'm proud of it' - Keegan looks back on career highlights and legacy移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "'I'm proud of it' - Keegan looks back on career highlights and legacy",
-      "summary": "Kevin Keegan talks to Football Focus' Dan Walker in 2018 about some of the standout moments from his career - from winning World Player of the Year twice, to managing England and the iconic \"I would love it\" remark from the 1995–96 season.",
-      "parsed": false,
+      "player": "Japan forward Maeda",
+      "titleJa": "Ipswich、CelticからJapan forward Maedaを獲得",
+      "from": "Celtic",
+      "to": "Ipswich",
+      "summaryJa": "Japan forward MaedaがCelticからIpswichへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Ipswich sign Japan forward Maeda from Celtic",
+      "summary": "Ipswich Town sign Japan forward Daizen Maeda from Celtic on a contract until summer 2029.",
+      "parsed": true,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cgmkv3j3yv0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-20T16:32:51.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx2dgkg5rq0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-25T12:20:37.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c0m7w21v2rzo?at_medium=RSS&at_campaign=rss",
@@ -153,36 +153,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/czjle30y29xo?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-24T13:26:45.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c36dw0nwexxo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Rodri to have back surgery but Maresca brushes off transfer speculation",
-      "titleJa": "移籍情報：Rodri to have back surgery but Maresca brushes off transfer speculation",
-      "from": "",
-      "to": "",
-      "summaryJa": "Rodri to have back surgery but Maresca brushes off transfer speculation移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Rodri to have back surgery but Maresca brushes off transfer speculation",
-      "summary": "World Cup winner Rodri is to have back surgery, says new Manchester City boss Enzo Maresca.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c36dw0nwexxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-24T14:24:53.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cq6dy718z2vo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Palace want teenage Brest defender Le Guen",
-      "titleJa": "移籍情報：Palace want teenage Brest defender Le Guen",
-      "from": "",
-      "to": "",
-      "summaryJa": "Palace want teenage Brest defender Le Guen移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Palace want teenage Brest defender Le Guen",
-      "summary": "Crystal Palace are interested in signing 19-year-old Brest centre-back Raphael le Guen.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq6dy718z2vo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-24T17:20:04.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cn4nmjwl8j1o?at_medium=RSS&at_campaign=rss",
