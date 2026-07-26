@@ -1,0 +1,14 @@
+{
+  "updatedAt": "2026-07-26T08:36:49.717Z",
+  "dataSource": "football-data.org",
+  "competitionCode": "JJL",
+  "season": null,
+  "availability": {
+    "teams": false,
+    "matches": false,
+    "standings": false
+  },
+  "teams": [],
+  "matches": [],
+  "standings": []
+}
