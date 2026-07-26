@@ -1,0 +1,20 @@
+:root{--football-radius:18px;--football-gap:8px;--football-nav-height:74px}
+.football-calendar,.calendar-grid,.match-calendar{display:grid!important;grid-template-columns:repeat(7,minmax(0,1fr))!important;gap:var(--football-gap)!important;margin-top:10px!important}
+.football-calendar__day{position:relative;display:grid;place-items:center;align-content:center;gap:4px;aspect-ratio:1/1;min-width:0;min-height:0;padding:4px;border:1px solid var(--border,#263244);border-radius:14px;background:color-mix(in srgb,var(--panel,#0e1a29) 74%,transparent);color:var(--text,#f8fafc);font:inherit;overflow:hidden}
+.football-calendar__day.is-blank{visibility:hidden}
+.football-calendar__day>span{font-weight:700;font-size:.95rem;line-height:1}
+.football-calendar__day>b{position:absolute;top:4px;right:5px;display:grid;place-items:center;min-width:18px;height:18px;padding:0 5px;border-radius:999px;background:var(--accent,#7c3aed);color:#fff;font-size:.62rem;line-height:1}
+.football-calendar__day>small{display:flex;align-items:center;justify-content:center;gap:2px;max-width:100%;height:16px}
+.football-calendar__day>small img{width:15px;height:15px;object-fit:contain}
+.football-calendar__day>small span{font-size:.7rem}
+.football-calendar__day.has-match{border-color:color-mix(in srgb,var(--accent,#7c3aed) 55%,var(--border,#263244));background:color-mix(in srgb,var(--accent,#7c3aed) 10%,var(--panel,#0e1a29))}
+.football-calendar__day.has-favorite{box-shadow:inset 0 -4px 0 var(--accent,#7c3aed)}
+.football-calendar__day.has-primary{box-shadow:inset 0 0 0 2px #f59e0b,inset 0 -4px 0 #f59e0b}
+.football-calendar__day.is-selected{background:var(--accent,#7c3aed);border-color:var(--accent,#7c3aed);color:#fff}
+.football-calendar__day.is-today:after{content:"";position:absolute;left:7px;top:7px;width:5px;height:5px;border-radius:50%;background:#38bdf8}
+.bottom-nav{position:fixed!important;left:50%!important;right:auto!important;bottom:0!important;z-index:100!important;transform:translateX(-50%)!important;display:grid!important;grid-template-columns:repeat(var(--nav-count,5),minmax(0,1fr))!important;width:min(860px,100%)!important;min-height:var(--football-nav-height)!important;padding:7px 6px calc(7px + env(safe-area-inset-bottom))!important;border-top:1px solid var(--border,#263244)!important;background:color-mix(in srgb,var(--bg,#07111f) 96%,transparent)!important;backdrop-filter:blur(18px)!important}
+.bottom-nav .nav-item{display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;gap:3px!important;min-width:0!important;min-height:54px!important;margin:0!important;padding:5px 2px!important;border:0!important;border-radius:14px!important;background:transparent!important;color:var(--muted,#94a3b8)!important;font:inherit!important;line-height:1!important;overflow:hidden!important}
+.bottom-nav .nav-item span{display:block!important;width:100%!important;font-size:.66rem!important;line-height:1.1!important;white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important;text-align:center!important}
+.bottom-nav .nav-item.active{background:var(--panel,#0e1a29)!important;color:var(--text,#f8fafc)!important;box-shadow:inset 0 0 0 1px var(--border,#263244)!important}
+body{padding-bottom:calc(var(--football-nav-height) + env(safe-area-inset-bottom) + 10px)!important}
+@media(max-width:480px){:root{--football-gap:5px}.football-calendar__day{border-radius:11px;padding:2px}.football-calendar__day>span{font-size:.86rem}.football-calendar__day>b{top:3px;right:3px;min-width:16px;height:16px;font-size:.55rem}.football-calendar__day>small img{width:13px;height:13px}.bottom-nav .nav-item span{font-size:.58rem}}
