@@ -6,21 +6,21 @@ const currentYear=now.getUTCFullYear();
 const years=[currentYear-2,currentYear-1,currentYear,currentYear+1];
 
 const competitions=[
-  {code:'fifa.world',nameJa:'FIFAワールドカップ'},
-  {code:'fifa.worldq.uefa',nameJa:'W杯欧州予選'},
-  {code:'fifa.worldq.conmebol',nameJa:'W杯南米予選'},
-  {code:'fifa.worldq.concacaf',nameJa:'W杯北中米予選'},
-  {code:'fifa.worldq.afc',nameJa:'W杯アジア予選'},
-  {code:'fifa.worldq.caf',nameJa:'W杯アフリカ予選'},
-  {code:'uefa.euro',nameJa:'UEFA欧州選手権'},
-  {code:'uefa.nations',nameJa:'UEFAネーションズリーグ'},
-  {code:'conmebol.copa_america',nameJa:'コパ・アメリカ'},
-  {code:'concacaf.gold',nameJa:'CONCACAFゴールドカップ'},
-  {code:'afc.asian.cup',nameJa:'AFCアジアカップ'},
-  {code:'caf.nations',nameJa:'アフリカネーションズカップ'},
-  {code:'fifa.friendly',nameJa:'国際親善試合'},
-  {code:'fifa.confederations',nameJa:'FIFAコンフェデレーションズカップ'},
-  {code:'fifa.olympics',nameJa:'オリンピック男子サッカー'}
+  {nameJa:'FIFAワールドカップ',codes:['fifa.world']},
+  {nameJa:'W杯欧州予選',codes:['fifa.worldq.uefa']},
+  {nameJa:'W杯南米予選',codes:['fifa.worldq.conmebol']},
+  {nameJa:'W杯北中米予選',codes:['fifa.worldq.concacaf']},
+  {nameJa:'W杯アジア予選',codes:['fifa.worldq.afc']},
+  {nameJa:'W杯アフリカ予選',codes:['fifa.worldq.caf']},
+  {nameJa:'W杯オセアニア予選',codes:['fifa.worldq.ofc']},
+  {nameJa:'UEFA欧州選手権',codes:['uefa.euro']},
+  {nameJa:'UEFAネーションズリーグ',codes:['uefa.nations']},
+  {nameJa:'コパ・アメリカ',codes:['conmebol.copa_america','conmebol.america']},
+  {nameJa:'CONCACAFゴールドカップ',codes:['concacaf.gold']},
+  {nameJa:'AFCアジアカップ',codes:['afc.asian.cup','afc.asian']},
+  {nameJa:'アフリカネーションズカップ',codes:['caf.nations']},
+  {nameJa:'国際親善試合',codes:['fifa.friendly']},
+  {nameJa:'オリンピック男子サッカー',codes:['fifa.olympics','olympics-mens-soccer']}
 ];
 
 const aliases={
@@ -55,7 +55,7 @@ function teamId(name){
 }
 
 async function requestJson(url){
-  const response=await fetch(url,{headers:{'User-Agent':'match-hub/1.0'}});
+  const response=await fetch(url,{headers:{'User-Agent':'Mozilla/5.0 match-hub/1.0','Accept':'application/json'}});
   if(!response.ok)throw new Error(`HTTP ${response.status}`);
   return response.json();
 }
@@ -68,51 +68,71 @@ function statusOf(event={}){
   return String(state||'scheduled').toLowerCase();
 }
 
+function monthRanges(year){
+  return Array.from({length:12},(_,index)=>{
+    const month=String(index+1).padStart(2,'0');
+    const lastDay=new Date(Date.UTC(year,index+1,0)).getUTCDate();
+    return `${year}${month}01-${year}${month}${String(lastDay).padStart(2,'0')}`;
+  });
+}
+
+function normalizeEvent(event,competition,code){
+  const contest=event.competitions?.[0];
+  if(!contest)return null;
+  const homeCompetitor=(contest.competitors||[]).find(item=>item.homeAway==='home');
+  const awayCompetitor=(contest.competitors||[]).find(item=>item.homeAway==='away');
+  const homeName=homeCompetitor?.team?.displayName||homeCompetitor?.team?.name||homeCompetitor?.team?.shortDisplayName||'';
+  const awayName=awayCompetitor?.team?.displayName||awayCompetitor?.team?.name||awayCompetitor?.team?.shortDisplayName||'';
+  if(!homeName||!awayName)return null;
+  return {
+    id:`${code}-${event.id}`,
+    kickoff:event.date,
+    status:statusOf(event),
+    competition:event.league?.name||competition.nameJa,
+    competitionCode:code,
+    stage:event.season?.type?.name||event.season?.slug||'',
+    round:contest.type?.text||event.week?.text||'',
+    home:teamId(homeName),away:teamId(awayName),homeName,awayName,
+    homeScore:homeCompetitor?.score===''||homeCompetitor?.score==null?null:Number(homeCompetitor.score),
+    awayScore:awayCompetitor?.score===''||awayCompetitor?.score==null?null:Number(awayCompetitor.score),
+    venue:contest.venue?.fullName||'',
+    source:'ESPN'
+  };
+}
+
 const matches=[];
 const loaded=[];
 const skipped=[];
 
 for(const competition of competitions){
+  let selectedCode='';
   let competitionCount=0;
-  for(const year of years){
-    const dates=`${year}0101-${year}1231`;
-    const url=`${ESPN}/${competition.code}/scoreboard?dates=${dates}&limit=1000`;
-    try{
-      const payload=await requestJson(url);
-      const events=payload.events||[];
-      for(const event of events){
-        const contest=event.competitions?.[0];
-        if(!contest)continue;
-        const homeCompetitor=(contest.competitors||[]).find(item=>item.homeAway==='home');
-        const awayCompetitor=(contest.competitors||[]).find(item=>item.homeAway==='away');
-        const homeName=homeCompetitor?.team?.displayName||homeCompetitor?.team?.name||homeCompetitor?.team?.shortDisplayName||'';
-        const awayName=awayCompetitor?.team?.displayName||awayCompetitor?.team?.name||awayCompetitor?.team?.shortDisplayName||'';
-        if(!homeName||!awayName)continue;
-        matches.push({
-          id:`${competition.code}-${event.id}`,
-          kickoff:event.date,
-          status:statusOf(event),
-          competition:event.league?.name||payload.leagues?.[0]?.name||competition.nameJa,
-          competitionCode:competition.code,
-          stage:event.season?.type?.name||event.season?.slug||'',
-          round:contest.type?.text||event.week?.text||'',
-          home:teamId(homeName),
-          away:teamId(awayName),
-          homeName,
-          awayName,
-          homeScore:homeCompetitor?.score===''||homeCompetitor?.score==null?null:Number(homeCompetitor.score),
-          awayScore:awayCompetitor?.score===''||awayCompetitor?.score==null?null:Number(awayCompetitor.score),
-          venue:contest.venue?.fullName||'',
-          source:'ESPN'
-        });
+  for(const code of competition.codes){
+    let codeCount=0;
+    for(const year of years){
+      for(const dates of monthRanges(year)){
+        const url=`${ESPN}/${code}/scoreboard?dates=${dates}&limit=1000`;
+        try{
+          const payload=await requestJson(url);
+          const events=payload.events||[];
+          for(const event of events){
+            const normalizedEvent=normalizeEvent(event,competition,code);
+            if(normalizedEvent)matches.push(normalizedEvent);
+          }
+          codeCount+=events.length;
+        }catch(error){
+          skipped.push({code,dates,reason:error.message});
+        }
       }
-      competitionCount+=events.length;
-    }catch(error){
-      skipped.push({code:competition.code,year,reason:error.message});
-      console.warn(`Skip ${competition.code} ${year}: ${error.message}`);
+    }
+    if(codeCount>0){
+      selectedCode=code;
+      competitionCount=codeCount;
+      break;
     }
   }
-  if(competitionCount>0)loaded.push({code:competition.code,name:competition.nameJa,count:competitionCount});
+  if(competitionCount>0)loaded.push({code:selectedCode,name:competition.nameJa,count:competitionCount});
+  else console.warn(`No ESPN events found for ${competition.nameJa}`);
 }
 
 const unique=[...new Map(matches.map(match=>[match.id,match])).values()]
@@ -120,15 +140,16 @@ const unique=[...new Map(matches.map(match=>[match.id,match])).values()]
 
 const output={
   updatedAt:new Date().toISOString(),
-  source:'ESPN multi-competition adapter',
+  source:'ESPN multi-competition monthly adapter',
   competitionCount:loaded.length,
   competitions:loaded,
   skippedCompetitions:skipped,
   dateYears:years,
+  requestCount:competitions.reduce((sum,item)=>sum+item.codes.length*years.length*12,0),
   matches:unique
 };
 
 await fs.mkdir('data',{recursive:true});
 await fs.writeFile('data/national-matches.json',`${JSON.stringify(output,null,2)}\n`);
 console.log(`Saved ${unique.length} national matches from ${loaded.length} ESPN competitions.`);
-if(skipped.length)console.warn(`${skipped.length} ESPN requests were skipped.`);
+console.log(loaded);
