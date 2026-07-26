@@ -30,25 +30,37 @@ const title=document.querySelector('#favoriteTitle');
 const description=document.querySelector('#favoriteDescription');
 const flag=document.querySelector('#favoriteFlag');
 const clearButton=document.querySelector('#clearFavorite');
+const hero=document.querySelector('#favoriteHero');
+const heroOpenLabel=document.querySelector('#heroOpenLabel');
 const favorite=()=>countries.find(country=>country.id===SportsHub.storage.get(favoriteKey));
+const openDetail=id=>{location.href=`./national-detail.html?team=${encodeURIComponent(id)}`;};
 function renderHero(){
   const selected=favorite();
   title.textContent=selected?`${selected.name}代表`:'推し代表を選ぼう';
   description.textContent=selected?`${selected.en}を推し代表に登録中`:'好きな国を登録すると、この画面の先頭に固定されます。';
   flag.textContent=selected?.flag||'🌍';
   clearButton.classList.toggle('hidden',!selected);
+  heroOpenLabel.classList.toggle('hidden',!selected);
+  hero.classList.toggle('has-favorite',Boolean(selected));
 }
 function renderFilters(){filters.innerHTML=regions.map(([id,label])=>`<button class="chip${activeRegion===id?' active':''}" type="button" data-region="${id}">${label}</button>`).join('');}
 function renderCountries(){
   const selected=favorite();
   const normalized=query.trim().toLowerCase();
   const visible=countries.filter(country=>(activeRegion==='all'||country.region===activeRegion)&&(!normalized||country.name.includes(query.trim())||country.en.toLowerCase().includes(normalized)));
-  grid.innerHTML=visible.map(country=>`<button class="country-card${selected?.id===country.id?' selected':''}" type="button" data-country="${country.id}"><span class="flag">${country.flag}</span><span class="country-copy"><strong>${country.name}</strong><small>${country.en}</small></span><span class="favorite-mark" aria-hidden="true">${selected?.id===country.id?'★':'☆'}</span></button>`).join('')||'<div class="empty-state"><strong>該当する代表がありません</strong><p>検索条件を変えてみてください。</p></div>';
+  grid.innerHTML=visible.map(country=>`<article class="country-card${selected?.id===country.id?' selected':''}" data-country="${country.id}"><span class="flag" aria-hidden="true">${country.flag}</span><button class="country-copy" type="button" data-open-country="${country.id}"><strong>${country.name}</strong><small>${country.en}</small></button><button class="favorite-button${selected?.id===country.id?' active':''}" type="button" data-favorite-country="${country.id}" aria-label="${country.name}代表を推し登録">${selected?.id===country.id?'★':'☆'}</button></article>`).join('')||'<div class="empty-state"><strong>該当する代表がありません</strong><p>検索条件を変えてみてください。</p></div>';
 }
 function render(){renderHero();renderFilters();renderCountries();}
 filters.addEventListener('click',event=>{const button=event.target.closest('[data-region]');if(!button)return;activeRegion=button.dataset.region;renderFilters();renderCountries();});
-grid.addEventListener('click',event=>{const button=event.target.closest('[data-country]');if(!button)return;const country=countries.find(item=>item.id===button.dataset.country);SportsHub.storage.set(favoriteKey,country.id);render();SportsHub.toast(`${country.name}代表を登録しました`);});
+grid.addEventListener('click',event=>{
+  const favoriteButton=event.target.closest('[data-favorite-country]');
+  if(favoriteButton){const country=countries.find(item=>item.id===favoriteButton.dataset.favoriteCountry);const current=SportsHub.storage.get(favoriteKey);if(current===country.id){SportsHub.storage.remove(favoriteKey);SportsHub.toast('推し代表を解除しました');}else{SportsHub.storage.set(favoriteKey,country.id);SportsHub.toast(`${country.name}代表を登録しました`);}render();return;}
+  const openButton=event.target.closest('[data-open-country]');
+  if(openButton)openDetail(openButton.dataset.openCountry);
+});
+hero.addEventListener('click',()=>{const selected=favorite();if(selected)openDetail(selected.id);});
+hero.addEventListener('keydown',event=>{if((event.key==='Enter'||event.key===' ')&&favorite()){event.preventDefault();openDetail(favorite().id);}});
 search.addEventListener('input',()=>{query=search.value;renderCountries();});
-clearButton.addEventListener('click',()=>{SportsHub.storage.remove(favoriteKey);render();SportsHub.toast('推し代表を解除しました');});
+clearButton.addEventListener('click',event=>{event.stopPropagation();SportsHub.storage.remove(favoriteKey);render();SportsHub.toast('推し代表を解除しました');});
 SportsHub.applyTheme();
 render();
