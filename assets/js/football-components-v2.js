@@ -10,6 +10,8 @@ window.FootballUI=window.FootballUI||{};
     national:{eyebrow:'NATIONAL TEAMS',title:'各国代表',version:'v3.1.4',back:'./sports-home.html',nav:[['home','⌂','ホーム'],['schedule','▤','日程'],['teams','⌕','代表'],['competitions','🏆','大会'],['favorites','★','推し','favoriteCountBadge']]}
   };
 
+  class BottomNavigation{constructor(root){this.root=root;}normalize(){if(!this.root)return;const items=[...this.root.querySelectorAll('.nav-item')];this.root.style.setProperty('--nav-count',items.length);items.forEach(item=>{const label=item.querySelector('span');if(label)item.setAttribute('aria-label',label.textContent.trim());});}}
+
   class FootballShell{
     constructor(page=document.body.dataset.hub){this.page=page;this.config=shellConfigs[page];}
     renderHeader(){const root=document.querySelector('.topbar');if(!root||!this.config)return;root.innerHTML=`<div style="display:flex;align-items:center;gap:10px"><a class="back-link" href="${this.config.back}" aria-label="Sports Hubへ戻る">←</a><div><p class="eyebrow">${this.config.eyebrow}</p><h1>${this.config.title} <span class="version">${this.config.version}</span></h1></div></div><div class="topbar__actions"><button id="themeButton" class="icon-button" type="button" aria-label="テーマ切替">◐</button></div>`;}
@@ -29,12 +31,10 @@ window.FootballUI=window.FootballUI||{};
     render(){if(!this.root)return;this.bind();const y=this.cursor.getFullYear(),m=this.cursor.getMonth();if(this.title)this.title.textContent=`${y}年${m+1}月`;const favorites=new Set((this.getFavorites?.()||[]).map(String)),primary=String(this.getPrimary?.()||''),matches=this.getMatches?.()||[],map=new Map();matches.forEach(match=>{const key=dayKey(this.getDate(match));if(!key)return;if(!map.has(key))map.set(key,[]);map.get(key).push(match);});const first=new Date(y,m,1),last=new Date(y,m+1,0),todayKey=dayKey(new Date()),cells=[];for(let i=0;i<first.getDay();i++)cells.push('<button class="football-calendar__day is-blank" type="button" disabled></button>');for(let day=1;day<=last.getDate();day++){const key=`${y}-${pad(m+1)}-${pad(day)}`,items=map.get(key)||[],favoriteIds=[];items.forEach(item=>[item.home,item.away].forEach(team=>{const id=String(team?.id??team??'');if(favorites.has(id)&&!favoriteIds.includes(id))favoriteIds.push(id);}));const primaryMatch=primary&&favoriteIds.includes(primary),marks=favoriteIds.slice(0,2).map(id=>{const v=this.getTeamVisual?.(id)||{};return v.logo?`<img src="${v.logo}" alt="">`:`<span>${v.label||'★'}</span>`;}).join(''),classes=['football-calendar__day',items.length?'has-match':'',favoriteIds.length?'has-favorite':'',primaryMatch?'has-primary':'',this.selected===key?'is-selected':'',todayKey===key?'is-today':''].filter(Boolean).join(' ');cells.push(`<button class="${classes}" data-calendar-day="${key}" data-date="${key}" type="button"><span>${day}</span>${items.length?`<b>${items.length}</b>`:''}${marks?`<small>${marks}</small>`:''}</button>`);}this.root.innerHTML=cells.join('');}
   }
 
-  class BottomNavigation{constructor(root){this.root=root;}normalize(){if(!this.root)return;const items=[...this.root.querySelectorAll('.nav-item')];this.root.style.setProperty('--nav-count',items.length);items.forEach(item=>{const label=item.querySelector('span');if(label)item.setAttribute('aria-label',label.textContent.trim());});}}
-
   class FootballPageAdapter{
     constructor(){this.page=document.body.dataset.hub||this.detect();this.repositories={five:new Core.JsonRepository('./data/football.json'),jleague:new Core.JsonRepository('./data/jleague.json'),national:new Core.JsonRepository('./data/national-matches.json')};}
     detect(){if(document.querySelector('#calendarGrid'))return'five';if(document.querySelector('#jUpdated'))return'jleague';return'national';}
-    async start(){new FootballShell(this.page).render();if(this.page==='five')return this.startFive();if(this.page==='jleague')return this.startJLeague();return this.startNational();}
+    async start(){if(this.page==='five')return this.startFive();if(this.page==='jleague')return this.startJLeague();return this.startNational();}
     register(calendar){ns.calendars=ns.calendars||{};ns.calendars[this.page]=calendar;calendar.render();return calendar;}
     startFive(){return this.repositories.five.get().then(data=>this.register(new FootballCalendar({root:document.querySelector('#calendarGrid'),title:document.querySelector('#calendarTitle'),prev:document.querySelector('#calendarPrev'),next:document.querySelector('#calendarNext'),today:document.querySelector('#calendarToday'),getMatches:()=>data.fixtures||[],getFavorites:()=>favoriteList('matchHubFavorites'),getPrimary:()=>localStorage.getItem('matchHubPrimary')||'',getDate:m=>m.date,getTeamVisual:id=>{const t=(data.teams||[]).find(x=>String(x.id)===String(id));return{logo:t?.logo,label:'★'};}})));}
     startJLeague(){return this.repositories.jleague.get().then(data=>this.register(new FootballCalendar({root:document.querySelector('#matchCalendar'),title:document.querySelector('#calendarTitle'),prev:document.querySelector('#calendarPrev'),next:document.querySelector('#calendarNext'),getMatches:()=>data.matches||[],getFavorites:()=>favoriteList('sportsHubFavoriteJClubs').map(id=>jClubTeamIds[id]||id),getPrimary:()=>'',getDate:m=>m.date,getTeamVisual:id=>{const team=(data.teams||[]).find(t=>String(t.id)===String(id));return{logo:team?.logo,label:window.SportsHubJLeague?.find?.(Object.keys(jClubTeamIds).find(key=>jClubTeamIds[key]===String(id))||String(id))?.mark||'●'};}})));}
@@ -42,5 +42,6 @@ window.FootballUI=window.FootballUI||{};
   }
 
   Object.assign(ns,{FootballCalendar,BottomNavigation,FootballShell,FootballPageAdapter});
+  new FootballShell(document.body.dataset.hub).render();
   document.addEventListener('DOMContentLoaded',()=>new FootballPageAdapter().start().catch(error=>console.warn('Shared football UI unavailable',error)));
 })(window.FootballUI);
