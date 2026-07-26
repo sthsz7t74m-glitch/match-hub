@@ -13,6 +13,18 @@ const updatedNode=document.querySelector('#jUpdated');
 const favorite=()=>SportsHub.storage.get(favoriteKey);
 const openDetail=id=>{location.href=`./jleague-detail.html?club=${encodeURIComponent(id)}`;};
 
+const teamNames={
+  '21361':'京都サンガF.C.','7477':'ヴィッセル神戸','19001':'V・ファーレン長崎','7114':'サンフレッチェ広島',
+  '7116':'横浜F・マリノス','22167':'FC町田ゼルビア','7111':'ジェフユナイテッド千葉','3385':'浦和レッズ',
+  '3384':'FC東京','7115':'鹿島アントラーズ','7109':'セレッソ大阪','7102':'ガンバ大阪','7107':'アビスパ福岡',
+  '22522':'ファジアーノ岡山','7108':'名古屋グランパス','7104':'清水エスパルス','7112':'川崎フロンターレ',
+  '7476':'柏レイソル','3393':'東京ヴェルディ','131701':'水戸ホーリーホック'
+};
+
+function displayTeamName(team){
+  return teamNames[String(team?.id)]||team?.shortName||team?.name||'未定';
+}
+
 function renderTabs(){
   tabs.innerHTML=leagues.map(([id,label])=>`<button class="chip${activeLeague===id?' active':''}" type="button" data-league="${id}">${label}</button>`).join('');
 }
@@ -26,25 +38,47 @@ function renderClubs(){
 }
 
 function teamCell(team){
-  return `<span class="j-team">${team.logo?`<img src="${team.logo}" alt="">`:''}<strong>${team.shortName||team.name}</strong></span>`;
+  return `<span class="j-team">${team?.logo?`<img src="${team.logo}" alt="" loading="lazy">`:''}<strong>${displayTeamName(team)}</strong></span>`;
+}
+
+function formatStage(match){
+  if(match.matchday)return `第${match.matchday}節`;
+  const labels={
+    'regular-season':'リーグ戦','championship':'優勝決定戦','placement-playoffs':'順位決定戦',
+    '2026-j1-100-year-vision-league':'百年構想リーグ'
+  };
+  return labels[match.stage]||match.round||'';
+}
+
+function matchCard(match){
+  const date=new Date(match.date);
+  const done=match.status==='FINISHED';
+  const live=['IN_PLAY','PAUSED','LIVE'].includes(match.status);
+  const score=done||live?`${match.score?.home??'-'} - ${match.score?.away??'-'}`:'未開始';
+  const time=done?'試合終了':live?'LIVE':date.toLocaleTimeString('ja-JP',{hour:'2-digit',minute:'2-digit'});
+  return `<article class="j-match-card"><div class="j-match-meta"><span>${date.toLocaleDateString('ja-JP',{month:'numeric',day:'numeric',weekday:'short'})} ${time}</span><span>${formatStage(match)}</span></div><div class="j-match-teams">${teamCell(match.home)}<strong class="j-match-score">${score}</strong>${teamCell(match.away)}</div>${match.venue?`<small class="muted">${match.venue}</small>`:''}</article>`;
 }
 
 function renderMatches(data){
   const now=Date.now();
-  const finished=(data.matches||[]).filter(match=>match.status==='FINISHED'&&new Date(match.date).getTime()<=now).slice(-4);
-  const upcoming=(data.matches||[]).filter(match=>match.status!=='FINISHED'&&new Date(match.date).getTime()>=now).slice(0,8);
-  const list=[...finished,...upcoming];
-  matchCountNode.textContent=`${list.length}試合`;
-  matchesNode.innerHTML=list.map(match=>{
-    const date=new Date(match.date);
-    const done=match.status==='FINISHED';
-    const center=done?`${match.score.home??'-'} - ${match.score.away??'-'}`:date.toLocaleTimeString('ja-JP',{hour:'2-digit',minute:'2-digit'});
-    return `<article class="j-match-card"><div class="j-match-meta"><span>${date.toLocaleDateString('ja-JP',{month:'numeric',day:'numeric',weekday:'short'})}</span><span>${match.matchday?`第${match.matchday}節`:match.stage||''}</span></div><div class="j-match-teams">${teamCell(match.home)}<strong class="j-match-score">${center}</strong>${teamCell(match.away)}</div></article>`;
-  }).join('')||'<div class="empty-state"><strong>表示できる試合がありません</strong><p>次回更新後に自動表示されます。</p></div>';
+  const sorted=[...(data.matches||[])].sort((a,b)=>new Date(a.date)-new Date(b.date));
+  const finished=sorted.filter(match=>match.status==='FINISHED'&&new Date(match.date).getTime()<=now).slice(-4);
+  const upcoming=sorted.filter(match=>match.status!=='FINISHED'&&new Date(match.date).getTime()>=now).slice(0,8);
+  const sections=[];
+  if(finished.length)sections.push(`<div class="j-match-section"><p class="eyebrow">直近結果</p>${finished.map(matchCard).join('')}</div>`);
+  if(upcoming.length)sections.push(`<div class="j-match-section"><p class="eyebrow">今後の日程</p>${upcoming.map(matchCard).join('')}</div>`);
+  matchCountNode.textContent=`${finished.length+upcoming.length}試合`;
+  matchesNode.innerHTML=sections.join('')||'<div class="empty-state"><strong>表示できる試合がありません</strong><p>次回更新後に自動表示されます。</p></div>';
 }
 
 function renderStandings(data){
-  standingsNode.innerHTML=(data.standings||[]).map(row=>`<div class="j-standing-row"><strong>${row.rank}</strong><span class="j-standing-team">${row.team.logo?`<img src="${row.team.logo}" alt="">`:''}${row.team.shortName||row.team.name}</span><span>${row.played}試合</span><b>${row.points}</b><small>${row.goalsDiff>0?'+':''}${row.goalsDiff}</small></div>`).join('')||'<div class="empty-state"><strong>順位データがありません</strong><p>シーズン開始後に表示されます。</p></div>';
+  const rows=[...(data.standings||[])].sort((a,b)=>(a.rank??999)-(b.rank??999));
+  standingsNode.innerHTML=rows.map(row=>{
+    const played=row.played??row.gamesPlayed??'-';
+    const points=row.points??'-';
+    const diff=row.goalsDiff??row.goalDifference??0;
+    return `<div class="j-standing-row"><strong>${row.rank??'-'}</strong><span class="j-standing-team">${row.team?.logo?`<img src="${row.team.logo}" alt="" loading="lazy">`:''}${displayTeamName(row.team)}</span><span>${played}試合</span><b>${points}</b><small>${Number(diff)>0?'+':''}${diff}</small></div>`;
+  }).join('')||'<div class="empty-state"><strong>順位データがありません</strong><p>シーズン開始後に表示されます。</p></div>';
 }
 
 async function loadLiveData(){
@@ -53,7 +87,7 @@ async function loadLiveData(){
     if(!response.ok)throw new Error(`HTTP ${response.status}`);
     const data=await response.json();
     const updated=new Date(data.updatedAt);
-    updatedNode.textContent=`最終更新 ${updated.toLocaleString('ja-JP',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'})}・${data.dataSource||'football-data.org'}`;
+    updatedNode.textContent=`最終更新 ${updated.toLocaleString('ja-JP',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'})}・${data.dataSource||'公開データ'}`;
     renderMatches(data);
     renderStandings(data);
   }catch(error){
