@@ -51,6 +51,15 @@ window.SportsHubComponents=window.SportsHubComponents||{};
     </article>`;
   };
 
+  class MatchCardRenderer{
+    constructor({normalize=match=>match,decorate=()=>({})}={}){this.normalize=normalize;this.decorate=decorate;}
+    render(match){const normalized=this.normalize(match)||{};return components.matchCard({...normalized,...this.decorate(match,normalized)});}
+    renderMany(matches=[]){return matches.map(match=>this.render(match)).join('');}
+  }
+
+  components.MatchCardRenderer=MatchCardRenderer;
+  components.createMatchCardRenderer=options=>new MatchCardRenderer(options);
+
   components.calendarDay=function calendarDay(options={}){
     const classes=['calendar-day',options.hasMatch?'has-match':'',options.favorite?'calendar-day--favorite':'',options.primary?'calendar-day--primary':'',options.selected?'selected':'',options.today?'today':''].filter(Boolean).join(' ');
     const marks=(options.marks||[]).slice(0,3).map(mark=>mark.logo?`<img src="${escapeHtml(mark.logo)}" alt="">`:`<span>${escapeHtml(mark.label||'★')}</span>`).join('');
