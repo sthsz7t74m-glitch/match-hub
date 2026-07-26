@@ -1,0 +1,9 @@
+const favoriteKey='sportsHubFavoriteJClub';
+const params=new URLSearchParams(location.search);
+const fallback=SportsHub.storage.get(favoriteKey,'urawa');
+const club=SportsHubJLeague.find(params.get('club')||fallback)||SportsHubJLeague.clubs[0];
+function renderClub(){document.title=`${club.name} | Sports Hub`;document.querySelector('#pageTitle').childNodes[0].nodeValue=`${club.name} `;document.querySelector('#clubLeague').textContent=SportsHubJLeague.leagueNames[club.league];document.querySelector('#clubName').textContent=club.name;document.querySelector('#clubMeta').textContent=`${club.area}・${SportsHubJLeague.leagueNames[club.league]}`;document.querySelector('#clubStadium').textContent=club.stadium;document.querySelector('#clubMark').textContent=club.mark;syncFavorite();}
+function syncFavorite(){const button=document.querySelector('#favoriteButton');const active=SportsHub.storage.get(favoriteKey)===club.id;button.classList.toggle('is-favorite',active);button.textContent=active?'★ お気に入り登録中':'☆ お気に入りに登録';}
+document.querySelector('.detail-tabs').addEventListener('click',event=>{const button=event.target.closest('[data-tab]');if(!button)return;document.querySelectorAll('.detail-tab').forEach(tab=>tab.classList.toggle('active',tab===button));document.querySelectorAll('.tab-panel').forEach(panel=>panel.classList.add('hidden'));document.querySelector(`#${button.dataset.tab}Panel`)?.classList.remove('hidden');});
+document.querySelector('#favoriteButton').addEventListener('click',()=>{if(SportsHub.storage.get(favoriteKey)===club.id){SportsHub.storage.remove(favoriteKey);SportsHub.toast('お気に入りを解除しました');}else{SportsHub.storage.set(favoriteKey,club.id);SportsHub.toast(`${club.name}をお気に入りに登録しました`);}syncFavorite();});
+SportsHub.applyTheme();renderClub();
