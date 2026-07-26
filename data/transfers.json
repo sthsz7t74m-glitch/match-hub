@@ -1,9 +1,39 @@
 {
-  "updatedAt": "2026-07-25T21:31:44.500Z",
+  "updatedAt": "2026-07-26T07:53:56.312Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c5yw2wqxvjwo?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Arsenal explore Vinicius Jr move - Sunday's gossip",
+      "titleJa": "移籍情報：Arsenal explore Vinicius Jr move - Sunday's gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Arsenal explore Vinicius Jr move - Sunday's gossip移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Arsenal explore Vinicius Jr move - Sunday's gossip",
+      "summary": "Arsenal explore move for Vinicius Jr, Inter Milan interested in Cristian Romero and Real Madrid bid for Yan Diomande rejected, plus more.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5yw2wqxvjwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-25T21:21:03.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cwymjrm0xlwo?at_medium=RSS&at_campaign=rss",
+      "status": "agreed",
+      "player": "Bodo/Glimt's Hogh to have Celtic medical within 24 hours",
+      "titleJa": "移籍情報：Bodo/Glimt's Hogh to have Celtic medical within 24 hours",
+      "from": "",
+      "to": "",
+      "summaryJa": "Bodo/Glimt's Hogh to have Celtic medical within 24 hours移る可能性について、合意段階の報道です。",
+      "originalTitle": "Bodo/Glimt's Hogh to have Celtic medical within 24 hours",
+      "summary": "Bodo/Glimt striker Kasper Hogh is due to have a medical with Celtic in the next 24 hours, the Scottish champions' manager, Martin O'Neill, reveals.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwymjrm0xlwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-25T18:07:42.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cx2dgkg5rq0o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -35,36 +65,6 @@
       "date": "2026-07-25T07:35:48.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c5yw2wqxvjwo?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Arsenal plot shock Vinicius Jr move - Sunday's gossip",
-      "titleJa": "移籍情報：Arsenal plot shock Vinicius Jr move - Sunday's gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Arsenal plot shock Vinicius Jr move - Sunday's gossip移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Arsenal plot shock Vinicius Jr move - Sunday's gossip",
-      "summary": "Arsenal explore move for Vinicius Jr, Inter Milan interested in Cristian Romero and Real Madrid bid for Yan Diomande rejected, plus more.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5yw2wqxvjwo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-25T21:21:03.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cwymjrm0xlwo?at_medium=RSS&at_campaign=rss",
-      "status": "agreed",
-      "player": "Bodo/Glimt's Hogh to have Celtic medical within 24 hours",
-      "titleJa": "移籍情報：Bodo/Glimt's Hogh to have Celtic medical within 24 hours",
-      "from": "",
-      "to": "",
-      "summaryJa": "Bodo/Glimt's Hogh to have Celtic medical within 24 hours移る可能性について、合意段階の報道です。",
-      "originalTitle": "Bodo/Glimt's Hogh to have Celtic medical within 24 hours",
-      "summary": "Bodo/Glimt striker Kasper Hogh is due to have a medical with Celtic in the next 24 hours, the Scottish champions' manager, Martin O'Neill, reveals.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwymjrm0xlwo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-25T18:07:42.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/videos/cgmkv3j3yv0o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "'I'm proud of it' - Keegan looks back on career highlights and legacy",
@@ -78,21 +78,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cgmkv3j3yv0o?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-20T16:32:51.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cr593z81lqno?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "Newcastle seal £34m move for Monaco's Bamba",
-      "titleJa": "移籍情報：Newcastle seal £34m move for Monaco's Bamba",
-      "from": "",
-      "to": "",
-      "summaryJa": "Newcastle seal £34m move for Monaco's Bamba移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "Newcastle seal £34m move for Monaco's Bamba",
-      "summary": "Newcastle United have signed Monaco midfielder Aladji Bamba for a fee which could rise to £34m.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cr593z81lqno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-24T09:30:06.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c0m7w21v2rzo?at_medium=RSS&at_campaign=rss",
@@ -123,6 +108,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cly5d2n2879o?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-24T09:38:26.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cr593z81lqno?at_medium=RSS&at_campaign=rss",
+      "status": "official",
+      "player": "Newcastle seal £34m move for Monaco's Bamba",
+      "titleJa": "移籍情報：Newcastle seal £34m move for Monaco's Bamba",
+      "from": "",
+      "to": "",
+      "summaryJa": "Newcastle seal £34m move for Monaco's Bamba移る可能性について、正式発表段階の報道です。",
+      "originalTitle": "Newcastle seal £34m move for Monaco's Bamba",
+      "summary": "Newcastle United have signed Monaco midfielder Aladji Bamba for a fee which could rise to £34m.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cr593z81lqno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-24T09:30:06.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cevmx0y88vwo?at_medium=RSS&at_campaign=rss",
@@ -185,21 +185,6 @@
       "date": "2026-07-24T17:20:04.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cp9eyz14y7jo?at_medium=RSS&at_campaign=rss",
-      "status": "agreed",
-      "player": "Lacroix",
-      "titleJa": "チェルシー、クリスタル・パレスのLacroix獲得で合意",
-      "from": "クリスタル・パレス",
-      "to": "チェルシー",
-      "summaryJa": "Lacroixがクリスタル・パレスからチェルシーへ移る可能性について、合意段階の報道です。",
-      "originalTitle": "Chelsea agree deal to sign Palace defender Lacroix",
-      "summary": "Chelsea agree deal to sign France defender Maxence Lacroix from Crystal Palace after two impressive seasons.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cp9eyz14y7jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-24T09:14:32.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cn4nmjwl8j1o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Codina on why she",
@@ -245,6 +230,21 @@
       "date": "2026-07-25T19:47:36.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/ckg41gzx0qko?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Horkas to",
+      "titleJa": "Horkas to、Hogh at Celtic - gossipへ加入",
+      "from": "",
+      "to": "Hogh at Celtic - gossip",
+      "summaryJa": "Horkas toがHogh at Celtic - gossipへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Horkas to join Hogh at Celtic - gossip",
+      "summary": "Celtic to pay record fee for striker and closing in on Croatian goalkeeper from Spanish second tier...",
+      "parsed": true,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckg41gzx0qko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-26T07:39:52.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cx2dgkg5rq0o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Maeda completes switch from Celtic to Ipswich",
@@ -258,21 +258,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cx2dgkg5rq0o?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-25T12:20:37.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cd695gqx376o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Celtic eye Cancellieri as Maeda replacement - gossip",
-      "titleJa": "移籍情報：Celtic eye Cancellieri as Maeda replacement - gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Celtic eye Cancellieri as Maeda replacement - gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Celtic eye Cancellieri as Maeda replacement - gossip",
-      "summary": "Celtic consider move for Serie A winger as former Rangers captain has talks with MLS club...",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cd695gqx376o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-25T07:44:51.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cvgjd1rr3ryo?at_medium=RSS&at_campaign=rss",
