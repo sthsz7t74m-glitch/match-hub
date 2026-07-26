@@ -1,0 +1,43 @@
+name: Update national team data
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/fetch-national-data.mjs'
+      - 'package.json'
+      - '.github/workflows/update-national-data.yml'
+  schedule:
+    - cron: '37 2 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: national-team-data
+  cancel-in-progress: false
+
+jobs:
+  update-national:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Fetch ESPN national team data
+        run: npm run update-national
+      - name: Show fetch summary
+        run: |
+          node -e "const d=require('./data/national-matches.json'); console.log({source:d.source, competitions:d.competitionCount, matches:d.matches?.length, skipped:d.skippedCompetitions?.length})"
+      - name: Commit updated national data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/national-matches.json
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: update national team data"
+          git push
