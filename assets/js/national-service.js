@@ -2,13 +2,19 @@ window.SportsHubNationalService={
   endpoint:'./data/national-matches.json',
   async loadPayload(){
     try{
-      const response=await fetch(`${this.endpoint}?v=270`,{cache:'no-store'});
+      const response=await fetch(`${this.endpoint}?v=${Date.now()}`,{cache:'no-store'});
       if(!response.ok)throw new Error(`HTTP ${response.status}`);
       const payload=await response.json();
-      return {updatedAt:payload.updatedAt||null,source:payload.source||'',matches:Array.isArray(payload.matches)?payload.matches:[]};
+      return {
+        updatedAt:payload.updatedAt||null,
+        source:payload.source||'',
+        competitionCount:payload.competitionCount||0,
+        competitions:Array.isArray(payload.competitions)?payload.competitions:[],
+        matches:Array.isArray(payload.matches)?payload.matches:[]
+      };
     }catch(error){
       console.warn('National match data unavailable:',error);
-      return {updatedAt:null,source:'',matches:[]};
+      return {updatedAt:null,source:'',competitionCount:0,competitions:[],matches:[]};
     }
   },
   async load(){return (await this.loadPayload()).matches;},
