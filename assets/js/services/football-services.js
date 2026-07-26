@@ -4,7 +4,12 @@ window.FootballServices=window.FootballServices||{};
   const unique=values=>[...new Set(asArray(values).map(String).filter(Boolean))];
 
   class FavoriteService{
-    constructor(repository){this.repository=repository;}
+    constructor(repositoryOrOptions={}){
+      const FavoriteRepository=window.FootballRepositories?.FavoriteRepository;
+      this.repository=repositoryOrOptions?.list&&repositoryOrOptions?.replace
+        ?repositoryOrOptions
+        :new FavoriteRepository(repositoryOrOptions);
+    }
     list(){return this.repository.list();}
     has(id){return this.repository.has(id);}
     add(id){this.repository.add(id);this.emit(id,true);return true;}
