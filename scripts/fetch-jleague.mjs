@@ -1,82 +1,116 @@
 import fs from 'node:fs/promises';
 
-const API='https://api.football-data.org/v4';
-const token=process.env.FOOTBALL_DATA_TOKEN;
-if(!token)throw new Error('FOOTBALL_DATA_TOKEN is not configured');
+const ESPN_SCOREBOARD='https://site.api.espn.com/apis/site/v2/sports/soccer/jpn.1/scoreboard';
+const ESPN_STANDINGS='https://site.api.espn.com/apis/v2/sports/soccer/jpn.1/standings';
 
-const sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
-async function request(path,attempt=0){
-  const response=await fetch(`${API}${path}`,{headers:{'X-Auth-Token':token}});
-  if(response.status===429&&attempt<2){
-    const waitMs=Number(response.headers.get('retry-after')||60)*1000;
-    await sleep(waitMs);
-    return request(path,attempt+1);
-  }
-  if(!response.ok)throw new Error(`${path}: HTTP ${response.status} ${await response.text()}`);
-  const json=await response.json();
-  await sleep(6500);
-  return json;
+const season=new Date().getUTCFullYear();
+const dateRange=`${season}0101-${season}1231`;
+
+async function requestJson(url){
+  const response=await fetch(url,{headers:{'User-Agent':'match-hub/1.0'}});
+  if(!response.ok)throw new Error(`${url}: HTTP ${response.status} ${await response.text()}`);
+  return response.json();
 }
 
-async function optionalRequest(path,fallback){
-  try{return await request(path);}
-  catch(error){
-    console.warn(`Skip restricted J League endpoint: ${error.message}`);
-    return fallback;
-  }
-}
+const teamMap=new Map();
+const rememberTeam=competitor=>{
+  const team=competitor?.team||{};
+  const id=String(team.id||team.uid||team.slug||team.abbreviation||team.displayName||'');
+  if(!id)return null;
+  if(!teamMap.has(id))teamMap.set(id,{
+    id,
+    name:team.displayName||team.name||team.shortDisplayName||'名称未定',
+    shortName:team.shortDisplayName||team.name||team.displayName||'名称未定',
+    tla:team.abbreviation||'',
+    logo:team.logo||team.logos?.[0]?.href||'',
+    venue:'',
+    area:'Japan'
+  });
+  return id;
+};
 
-const competition='JJL';
-const teamResponse=await optionalRequest(`/competitions/${competition}/teams`,{teams:[],season:null});
-const matchResponse=await optionalRequest(`/competitions/${competition}/matches`,{matches:[],competition:{currentSeason:null}});
-const standingResponse=await optionalRequest(`/competitions/${competition}/standings`,{standings:[]});
+let matches=[];
+let standings=[];
+const availability={teams:false,matches:false,standings:false};
+const errors=[];
 
-const teams=(teamResponse.teams||[]).map(team=>({
-  id:team.id,
-  name:team.name,
-  shortName:team.shortName||team.name,
-  tla:team.tla||'',
-  logo:team.crest||'',
-  venue:team.venue||'',
-  area:team.area?.name||'Japan'
-}));
+try{
+  const payload=await requestJson(`${ESPN_SCOREBOARD}?dates=${dateRange}&limit=1000`);
+  matches=(payload.events||[]).flatMap(event=>{
+    const competition=event.competitions?.[0];
+    if(!competition)return [];
+    const homeCompetitor=(competition.competitors||[]).find(item=>item.homeAway==='home');
+    const awayCompetitor=(competition.competitors||[]).find(item=>item.homeAway==='away');
+    const homeId=rememberTeam(homeCompetitor);
+    const awayId=rememberTeam(awayCompetitor);
+    if(!homeId||!awayId)return [];
+    const completed=Boolean(event.status?.type?.completed);
+    return [{
+      id:String(event.id),
+      date:event.date,
+      status:completed?'FINISHED':(event.status?.type?.state==='in'?'IN_PLAY':'SCHEDULED'),
+      matchday:event.week?.number||null,
+      stage:event.season?.type?.name||event.season?.slug||'',
+      competition:event.league?.name||payload.leagues?.[0]?.name||'J1 League',
+      home:{...teamMap.get(homeId)},
+      away:{...teamMap.get(awayId)},
+      score:{
+        home:homeCompetitor?.score===''||homeCompetitor?.score==null?null:Number(homeCompetitor.score),
+        away:awayCompetitor?.score===''||awayCompetitor?.score==null?null:Number(awayCompetitor.score)
+      },
+      venue:competition.venue?.fullName||'',
+      round:competition.type?.text||event.week?.text||''
+    }];
+  }).sort((a,b)=>new Date(a.date)-new Date(b.date));
+  availability.matches=matches.length>0;
+  availability.teams=teamMap.size>0;
+}catch(error){errors.push(`scoreboard: ${error.message}`);}
 
-const matches=(matchResponse.matches||[]).map(match=>({
-  id:match.id,
-  date:match.utcDate,
-  status:match.status,
-  matchday:match.matchday||null,
-  stage:match.stage||null,
-  competition:match.competition?.name||'J. League',
-  home:{id:match.homeTeam.id,name:match.homeTeam.name,shortName:match.homeTeam.shortName||match.homeTeam.name,logo:match.homeTeam.crest||''},
-  away:{id:match.awayTeam.id,name:match.awayTeam.name,shortName:match.awayTeam.shortName||match.awayTeam.name,logo:match.awayTeam.crest||''},
-  score:{home:match.score?.fullTime?.home??null,away:match.score?.fullTime?.away??null}
-})).sort((a,b)=>new Date(a.date)-new Date(b.date));
-
-const total=(standingResponse.standings||[]).find(item=>item.type==='TOTAL');
-const standings=(total?.table||[]).map(row=>({
-  rank:row.position,
-  team:{id:row.team.id,name:row.team.name,shortName:row.team.shortName||row.team.name,logo:row.team.crest||''},
-  played:row.playedGames,
-  win:row.won,
-  draw:row.draw,
-  lose:row.lost,
-  goalsDiff:row.goalDifference,
-  points:row.points,
-  form:row.form||''
-}));
+try{
+  const payload=await requestJson(ESPN_STANDINGS);
+  const entries=payload.children?.[0]?.standings?.entries||payload.standings?.entries||[];
+  standings=entries.map((entry,index)=>{
+    const team=entry.team||{};
+    const id=String(team.id||team.uid||team.slug||team.abbreviation||team.displayName||index);
+    if(!teamMap.has(id))teamMap.set(id,{
+      id,
+      name:team.displayName||team.name||'名称未定',
+      shortName:team.shortDisplayName||team.name||team.displayName||'名称未定',
+      tla:team.abbreviation||'',
+      logo:team.logo||team.logos?.[0]?.href||'',
+      venue:'',
+      area:'Japan'
+    });
+    const stats=Object.fromEntries((entry.stats||[]).map(stat=>[stat.name,stat.value??stat.displayValue]));
+    return {
+      rank:Number(stats.rank||entry.rank||index+1),
+      team:{...teamMap.get(id)},
+      played:Number(stats.gamesPlayed||stats.games||0),
+      win:Number(stats.wins||0),
+      draw:Number(stats.ties||stats.draws||0),
+      lose:Number(stats.losses||0),
+      goalsDiff:Number(stats.pointDifferential||stats.goalDifference||0),
+      points:Number(stats.points||0),
+      form:''
+    };
+  }).sort((a,b)=>a.rank-b.rank);
+  availability.standings=standings.length>0;
+  availability.teams=teamMap.size>0;
+}catch(error){errors.push(`standings: ${error.message}`);}
 
 const output={
   updatedAt:new Date().toISOString(),
-  dataSource:'football-data.org',
-  competitionCode:competition,
-  season:teamResponse.season||matchResponse.competition?.currentSeason||null,
-  availability:{teams:teams.length>0,matches:matches.length>0,standings:standings.length>0},
-  teams,
+  dataSource:'ESPN multi-source adapter',
+  competitionCode:'jpn.1',
+  season,
+  availability,
+  errors,
+  teams:[...teamMap.values()],
   matches,
   standings
 };
 
 await fs.mkdir('data',{recursive:true});
 await fs.writeFile('data/jleague.json',`${JSON.stringify(output,null,2)}\n`);
-console.log(`Saved ${teams.length} J League teams, ${matches.length} matches and ${standings.length} standing rows.`);
+console.log(`Saved ${output.teams.length} J League teams, ${matches.length} matches and ${standings.length} standing rows.`);
+if(errors.length)console.warn(errors.join('\n'));
