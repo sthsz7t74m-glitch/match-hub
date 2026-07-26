@@ -1,0 +1,15 @@
+.match-card{display:grid;gap:12px;padding:14px;border:1px solid var(--border,#263244);border-radius:16px;background:var(--panel,#0e1a29)}
+.match-card+.match-card{margin-top:10px}
+.match-card--penalties{box-shadow:inset 3px 0 0 #f59e0b}
+.match-card__meta,.match-card__footer{display:flex;justify-content:space-between;gap:10px;color:var(--muted,#94a3b8);font-size:.78rem}
+.match-card__body{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:12px}
+.match-card__team{display:flex;align-items:center;gap:8px;min-width:0}
+.match-card__team--away{justify-content:flex-end;text-align:right;flex-direction:row-reverse}
+.match-card__team strong{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.match-card__badge,.match-card__fallback{width:30px;height:30px;object-fit:contain;display:grid;place-items:center;flex:0 0 auto;font-size:1.25rem}
+.match-card__score{display:grid;justify-items:center;gap:4px;min-width:74px}
+.match-card__score>strong{font-size:1.12rem;white-space:nowrap}
+.match-card__decision{display:inline-flex;padding:3px 7px;border-radius:999px;background:rgba(148,163,184,.14);font-size:.68rem;white-space:nowrap}
+.match-card--penalties .match-card__decision{background:rgba(245,158,11,.16);color:#f59e0b;font-weight:700}
+.match-card__footer{border-top:1px solid var(--border,#263244);padding-top:10px}
+@media(max-width:560px){.match-card{padding:12px}.match-card__body{gap:7px}.match-card__badge,.match-card__fallback{width:25px;height:25px}.match-card__team strong{font-size:.82rem}.match-card__score{min-width:62px}.match-card__score>strong{font-size:1rem}.match-card__meta,.match-card__footer{font-size:.7rem}}
