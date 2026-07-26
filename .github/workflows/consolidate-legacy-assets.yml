@@ -1,4 +1,4 @@
-name: Consolidate legacy assets
+name: Consolidate football UI assets
 
 on:
   workflow_dispatch:
@@ -25,19 +25,21 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
-      - name: Build consolidated assets
+      - name: Build page bundles
         run: node scripts/consolidate-legacy-assets.mjs
-      - name: Verify references
+      - name: Verify consolidated assets
         run: |
-          test -f legacy-features.css
-          test -f legacy-features.js
-          ! grep -Eq 'v0(5|51|64|65|70|72|80|90)|v10[0-3]' index.html
+          test -f assets/css/five-league-page.css
+          test -f assets/js/five-league-page.js
+          grep -q 'assets/css/five-league-page.css' index.html
+          grep -q 'assets/js/five-league-page.js' index.html
+          ! grep -Eq '(v05|v051|v064|v065|v070|v072|v074|v080|v081|v090|v100|v101|v102|v103)\.(css|js)' index.html
       - name: Commit consolidated assets
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
           git diff --cached --quiet && exit 0
-          git commit -m "refactor: consolidate legacy CSS and JS assets"
+          git commit -m "refactor: consolidate five-league CSS and JS"
           git pull --rebase origin main
           git push origin HEAD:main
