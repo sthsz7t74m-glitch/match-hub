@@ -1,12 +1,13 @@
 {
   "name":"match-hub",
-  "version":"0.6.1",
+  "version":"0.6.2",
   "private":true,
   "type":"module",
   "scripts":{
     "update-data":"node scripts/fetch-data.mjs",
+    "update-jleague":"node scripts/fetch-jleague.mjs",
     "update-transfers":"node scripts/fetch-transfers.mjs",
-    "update-all":"npm run update-data && npm run update-transfers"
+    "update-all":"npm run update-data && npm run update-jleague && npm run update-transfers"
   },
   "engines":{"node":">=20"}
 }
