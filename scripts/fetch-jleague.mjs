@@ -18,12 +18,18 @@ async function request(path,attempt=0){
   return json;
 }
 
+async function optionalRequest(path,fallback){
+  try{return await request(path);}
+  catch(error){
+    console.warn(`Skip restricted J League endpoint: ${error.message}`);
+    return fallback;
+  }
+}
+
 const competition='JJL';
-const [teamResponse,matchResponse,standingResponse]=await Promise.all([
-  request(`/competitions/${competition}/teams`),
-  request(`/competitions/${competition}/matches`),
-  request(`/competitions/${competition}/standings`)
-]);
+const teamResponse=await optionalRequest(`/competitions/${competition}/teams`,{teams:[],season:null});
+const matchResponse=await optionalRequest(`/competitions/${competition}/matches`,{matches:[],competition:{currentSeason:null}});
+const standingResponse=await optionalRequest(`/competitions/${competition}/standings`,{standings:[]});
 
 const teams=(teamResponse.teams||[]).map(team=>({
   id:team.id,
@@ -65,6 +71,7 @@ const output={
   dataSource:'football-data.org',
   competitionCode:competition,
   season:teamResponse.season||matchResponse.competition?.currentSeason||null,
+  availability:{teams:teams.length>0,matches:matches.length>0,standings:standings.length>0},
   teams,
   matches,
   standings
