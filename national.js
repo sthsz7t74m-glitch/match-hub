@@ -1,45 +1,21 @@
 const {teams:countries,regions}=SportsHubNational;
 const favoriteKey='sportsHubFavoriteNational';
-let activeRegion='all';
-let query='';
-const grid=document.querySelector('#countryGrid');
-const filters=document.querySelector('#regionFilters');
-const search=document.querySelector('#countrySearch');
-const title=document.querySelector('#favoriteTitle');
-const description=document.querySelector('#favoriteDescription');
-const flag=document.querySelector('#favoriteFlag');
-const clearButton=document.querySelector('#clearFavorite');
-const hero=document.querySelector('#favoriteHero');
-const heroOpenLabel=document.querySelector('#heroOpenLabel');
+let activeRegion='all';let query='';let nationalMatches=[];
+const grid=document.querySelector('#countryGrid');const filters=document.querySelector('#regionFilters');const search=document.querySelector('#countrySearch');
+const title=document.querySelector('#favoriteTitle');const description=document.querySelector('#favoriteDescription');const flag=document.querySelector('#favoriteFlag');
+const clearButton=document.querySelector('#clearFavorite');const hero=document.querySelector('#favoriteHero');const heroOpenLabel=document.querySelector('#heroOpenLabel');
 const favorite=()=>SportsHubNational.find(SportsHub.storage.get(favoriteKey));
 const openDetail=id=>{location.href=`./national-detail.html?team=${encodeURIComponent(id)}`;};
-function renderHero(){
-  const selected=favorite();
-  title.textContent=selected?`${selected.name}代表`:'推し代表を選ぼう';
-  description.textContent=selected?`${selected.en}を推し代表に登録中`:'好きな国を登録すると、この画面の先頭に固定されます。';
-  flag.textContent=selected?.flag||'🌍';
-  clearButton.classList.toggle('hidden',!selected);
-  heroOpenLabel.classList.toggle('hidden',!selected);
-  hero.classList.toggle('has-favorite',Boolean(selected));
-}
+const teamName=id=>SportsHubNational.find(id)?.name||id;
+const formatDate=value=>new Intl.DateTimeFormat('ja-JP',{month:'numeric',day:'numeric',weekday:'short',hour:'2-digit',minute:'2-digit'}).format(new Date(value));
+function matchCard(match){const finished=match.status==='finished';const score=finished&&match.homeScore!==null?`${match.homeScore} - ${match.awayScore}`:'VS';return `<article class="match-summary"><span>${formatDate(match.kickoff)}・${match.competition||'代表戦'}</span><strong>${teamName(match.home)} ${score} ${teamName(match.away)}</strong><small>${match.round||match.stage||''}</small></article>`;}
+function renderHero(){const selected=favorite();const next=selected?SportsHubNationalService.upcoming(SportsHubNationalService.forTeam(nationalMatches,selected.id))[0]:null;title.textContent=selected?`${selected.name}代表`:'推し代表を選ぼう';description.textContent=selected?(next?`次戦 ${formatDate(next.kickoff)}・${teamName(next.home)} vs ${teamName(next.away)}`:`${selected.en}を推し代表に登録中`):'好きな国を登録すると、次戦を先頭に表示します。';flag.textContent=selected?.flag||'🌍';clearButton.classList.toggle('hidden',!selected);heroOpenLabel.classList.toggle('hidden',!selected);hero.classList.toggle('has-favorite',Boolean(selected));}
 function renderFilters(){filters.innerHTML=regions.map(([id,label])=>`<button class="chip${activeRegion===id?' active':''}" type="button" data-region="${id}">${label}</button>`).join('');}
-function renderCountries(){
-  const selected=favorite();
-  const normalized=query.trim().toLowerCase();
-  const visible=countries.filter(country=>(activeRegion==='all'||country.region===activeRegion)&&(!normalized||country.name.includes(query.trim())||country.en.toLowerCase().includes(normalized)));
-  grid.innerHTML=visible.map(country=>`<article class="country-card${selected?.id===country.id?' selected':''}" data-country="${country.id}"><span class="flag" aria-hidden="true">${country.flag}</span><button class="country-copy" type="button" data-open-country="${country.id}"><strong>${country.name}</strong><small>${country.en}</small></button><button class="favorite-button${selected?.id===country.id?' active':''}" type="button" data-favorite-country="${country.id}" aria-label="${country.name}代表を推し登録">${selected?.id===country.id?'★':'☆'}</button></article>`).join('')||'<div class="empty-state"><strong>該当する代表がありません</strong><p>検索条件を変えてみてください。</p></div>';
-}
-function render(){renderHero();renderFilters();renderCountries();}
+function renderCountries(){const selected=favorite();const normalized=query.trim().toLowerCase();const visible=countries.filter(country=>(activeRegion==='all'||country.region===activeRegion)&&(!normalized||country.name.includes(query.trim())||country.en.toLowerCase().includes(normalized)));grid.innerHTML=visible.map(country=>`<article class="country-card${selected?.id===country.id?' selected':''}" data-country="${country.id}"><span class="flag" aria-hidden="true">${country.flag}</span><button class="country-copy" type="button" data-open-country="${country.id}"><strong>${country.name}</strong><small>${country.en}</small></button><button class="favorite-button${selected?.id===country.id?' active':''}" type="button" data-favorite-country="${country.id}" aria-label="${country.name}代表を推し登録">${selected?.id===country.id?'★':'☆'}</button></article>`).join('')||'<div class="empty-state"><strong>該当する代表がありません</strong><p>検索条件を変えてみてください。</p></div>';}
+function renderMatchData(){const selected=favorite();const favoriteMatches=selected?SportsHubNationalService.forTeam(nationalMatches,selected.id):[];const next=SportsHubNationalService.upcoming(favoriteMatches)[0];document.querySelector('#favoriteMatch').innerHTML=next?matchCard(next):'<div class="empty-state"><span>📅</span><strong>次戦データはありません</strong><p>推し代表を選ぶか、次回更新をお待ちください。</p></div>';const ordered=[...nationalMatches].sort((a,b)=>new Date(a.kickoff)-new Date(b.kickoff));document.querySelector('#nationalMatchCount').textContent=`${ordered.length}試合`;document.querySelector('#nationalMatches').innerHTML=ordered.length?ordered.slice(0,30).map(matchCard).join(''):'<div class="empty-state"><span>🌍</span><strong>取得できる代表戦がありません</strong><p>GitHub Actionsの更新後に自動表示されます。</p></div>';const counts={};for(const match of ordered)counts[match.competition]=(counts[match.competition]||0)+1;document.querySelector('#competitionSummary').innerHTML=Object.entries(counts).map(([name,count])=>`<article><span>🏆</span><h3>${name}</h3><p>${count}試合</p></article>`).join('')||'<article><span>📡</span><h3>データ待機中</h3><p>利用可能な大会を取得します</p></article>';}
+function render(){renderHero();renderFilters();renderCountries();renderMatchData();}
+async function loadMatchData(){const payload=await SportsHubNationalService.loadPayload();nationalMatches=payload.matches;document.querySelector('#nationalUpdatedAt').textContent=payload.updatedAt?`最終更新 ${new Date(payload.updatedAt).toLocaleString('ja-JP')}`:'更新データ未生成';render();}
 filters.addEventListener('click',event=>{const button=event.target.closest('[data-region]');if(!button)return;activeRegion=button.dataset.region;renderFilters();renderCountries();});
-grid.addEventListener('click',event=>{
-  const favoriteButton=event.target.closest('[data-favorite-country]');
-  if(favoriteButton){const country=SportsHubNational.find(favoriteButton.dataset.favoriteCountry);const current=SportsHub.storage.get(favoriteKey);if(current===country.id){SportsHub.storage.remove(favoriteKey);SportsHub.toast('推し代表を解除しました');}else{SportsHub.storage.set(favoriteKey,country.id);SportsHub.toast(`${country.name}代表を登録しました`);}render();return;}
-  const openButton=event.target.closest('[data-open-country]');
-  if(openButton)openDetail(openButton.dataset.openCountry);
-});
-hero.addEventListener('click',()=>{const selected=favorite();if(selected)openDetail(selected.id);});
-hero.addEventListener('keydown',event=>{if((event.key==='Enter'||event.key===' ')&&favorite()){event.preventDefault();openDetail(favorite().id);}});
-search.addEventListener('input',()=>{query=search.value;renderCountries();});
-clearButton.addEventListener('click',event=>{event.stopPropagation();SportsHub.storage.remove(favoriteKey);render();SportsHub.toast('推し代表を解除しました');});
-SportsHub.applyTheme();
-render();
+grid.addEventListener('click',event=>{const favoriteButton=event.target.closest('[data-favorite-country]');if(favoriteButton){const country=SportsHubNational.find(favoriteButton.dataset.favoriteCountry);const current=SportsHub.storage.get(favoriteKey);if(current===country.id){SportsHub.storage.remove(favoriteKey);SportsHub.toast('推し代表を解除しました');}else{SportsHub.storage.set(favoriteKey,country.id);SportsHub.toast(`${country.name}代表を登録しました`);}render();return;}const openButton=event.target.closest('[data-open-country]');if(openButton)openDetail(openButton.dataset.openCountry);});
+hero.addEventListener('click',()=>{const selected=favorite();if(selected)openDetail(selected.id);});hero.addEventListener('keydown',event=>{if((event.key==='Enter'||event.key===' ')&&favorite()){event.preventDefault();openDetail(favorite().id);}});search.addEventListener('input',()=>{query=search.value;renderCountries();});clearButton.addEventListener('click',event=>{event.stopPropagation();SportsHub.storage.remove(favoriteKey);render();SportsHub.toast('推し代表を解除しました');});
+SportsHub.applyTheme();render();loadMatchData();
