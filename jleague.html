@@ -4,20 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#07111f">
-  <meta name="description" content="J1の日程、結果、順位、お気に入りクラブをまとめるJ League Hub">
+  <meta name="description" content="J1・J2・J3の日程、結果、順位、お気に入りクラブをまとめるJ League Hub">
   <title>J League Hub | Sports Hub</title>
-  <link rel="stylesheet" href="./assets/css/core.css?v=271">
-  <link rel="stylesheet" href="./jleague.css?v=271">
+  <link rel="stylesheet" href="./assets/css/core.css?v=280">
+  <link rel="stylesheet" href="./jleague.css?v=280">
 </head>
 <body>
-<header class="app-header"><a class="back-link" href="./sports-home.html" aria-label="Sports Hubへ戻る">←</a><div class="app-header__title"><p class="eyebrow">JAPAN PROFESSIONAL FOOTBALL</p><h1>Jリーグ <span class="version">v2.7.1</span></h1></div><button id="themeButton" class="icon-button" type="button" aria-label="テーマ切替">◐</button></header>
+<header class="app-header"><a class="back-link" href="./sports-home.html" aria-label="Sports Hubへ戻る">←</a><div class="app-header__title"><p class="eyebrow">JAPAN PROFESSIONAL FOOTBALL</p><h1>Jリーグ <span class="version">v2.8.0</span></h1></div><button id="themeButton" class="icon-button" type="button" aria-label="テーマ切替">◐</button></header>
 <main class="page">
-<section class="j-hero panel"><div><p class="eyebrow">J LEAGUE HUB</p><h2>推しクラブをもっと近くに</h2><p class="muted">複数の公開データソースから、Jリーグの日程・結果・順位を毎日更新します。</p><small id="jUpdated" class="data-updated">データを確認中…</small></div><div class="j-mark" aria-hidden="true">🇯🇵</div></section>
-<section class="panel"><div class="section-heading"><div><h2>リーグを選ぶ</h2><p class="muted">クラブ一覧の表示対象を切り替えます</p></div></div><div id="leagueTabs" class="chips" aria-label="Jリーグカテゴリー"></div></section>
+<section class="j-hero panel"><div><p class="eyebrow">J LEAGUE HUB</p><h2>推しクラブをもっと近くに</h2><p class="muted">J1・J2・J3の全60クラブと、公開データから取得した日程・結果・順位・エンブレムを表示します。</p><small id="jUpdated" class="data-updated">データを確認中…</small></div><div class="j-mark" aria-hidden="true">🇯🇵</div></section>
+<section class="panel"><div class="section-heading"><div><h2>リーグを選ぶ</h2><p class="muted">J1・J2・J3を切り替えます</p></div></div><div id="leagueTabs" class="chips" aria-label="Jリーグカテゴリー"></div></section>
 <section class="panel"><div class="section-heading"><div><h2>クラブを探す</h2><p class="muted">クラブ名・地域名で検索</p></div><span id="clubCount" class="status">0クラブ</span></div><input id="clubSearch" class="search-input" type="search" placeholder="例：東京 / 横浜 / 浦和"><div id="clubGrid" class="club-grid"></div></section>
-<section class="panel"><div class="section-heading"><div><h2>直近結果・今後の日程</h2><p class="muted">終了した直近4試合と、次の8試合を表示</p></div><span id="matchCount" class="status">取得中</span></div><div id="jleagueMatches" class="j-match-list"><div class="empty-state"><strong>試合データを取得中…</strong></div></div></section>
-<section class="panel"><div class="section-heading"><div><h2>J1順位表</h2><p class="muted">勝点・試合数・得失点差を表示</p></div><span class="status">実データ</span></div><div id="jleagueStandings" class="j-standings"><div class="empty-state"><strong>順位データを取得中…</strong></div></div></section>
+<section class="panel"><div class="section-heading"><div><h2>直近結果・今後の日程</h2><p class="muted">選択中リーグの直近4試合と次の8試合</p></div><span id="matchCount" class="status">取得中</span></div><div id="jleagueMatches" class="j-match-list"><div class="empty-state"><strong>試合データを取得中…</strong></div></div></section>
+<section class="panel"><div class="section-heading"><div><h2>順位表</h2><p class="muted">選択中リーグの勝点・試合数・得失点差</p></div><span class="status">実データ</span></div><div id="jleagueStandings" class="j-standings"><div class="empty-state"><strong>順位データを取得中…</strong></div></div></section>
 </main>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script src="./assets/js/core.js?v=271" defer></script><script src="./assets/js/jleague-data.js?v=271" defer></script><script src="./jleague.js?v=271" defer></script>
+<script src="./assets/js/core.js?v=280" defer></script><script src="./assets/js/jleague-data.js?v=280" defer></script><script src="./jleague.js?v=280" defer></script>
 </body></html>
