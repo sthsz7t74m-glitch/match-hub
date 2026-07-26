@@ -6,32 +6,33 @@
   <meta name="theme-color" content="#07111f">
   <meta name="description" content="各国代表の日程・大会・お気に入りをまとめるNational Hub">
   <title>National Hub | Sports Hub</title>
-  <link rel="stylesheet" href="./assets/css/core.css?v=220">
-  <link rel="stylesheet" href="./national.css?v=220">
+  <link rel="stylesheet" href="./assets/css/core.css?v=223">
+  <link rel="stylesheet" href="./national.css?v=223">
 </head>
 <body>
   <header class="app-header">
     <a class="back-link" href="./sports-home.html" aria-label="Sports Hubへ戻る">←</a>
     <div class="app-header__title">
       <p class="eyebrow">NATIONAL TEAMS</p>
-      <h1>各国代表 <span class="version">v2.2.0</span></h1>
+      <h1>各国代表 <span class="version">v2.2.3</span></h1>
     </div>
     <button id="themeButton" class="icon-button" type="button" aria-label="テーマ切替">◐</button>
   </header>
 
   <main class="page">
-    <section class="hero">
+    <section id="favoriteHero" class="hero" tabindex="0" role="link" aria-label="推し代表の詳細を開く">
       <div>
         <p class="eyebrow">YOUR NATIONAL TEAM</p>
         <h2 id="favoriteTitle">推し代表を選ぼう</h2>
         <p id="favoriteDescription">好きな国を登録すると、この画面の先頭に固定されます。</p>
+        <span id="heroOpenLabel" class="hero-open hidden">詳細を見る →</span>
       </div>
       <div id="favoriteFlag" class="hero-flag" aria-hidden="true">🌍</div>
     </section>
 
     <section class="panel">
       <div class="section-heading">
-        <div><h2>代表を探す</h2><p class="muted">国名・英語名で検索</p></div>
+        <div><h2>代表を探す</h2><p class="muted">国名・英語名で検索。カードで詳細、☆で推し登録。</p></div>
         <button id="clearFavorite" class="text-button hidden" type="button">登録解除</button>
       </div>
       <input id="countrySearch" class="search-input" type="search" placeholder="例：日本 / Japan">
@@ -40,8 +41,8 @@
     </section>
 
     <section class="panel">
-      <div class="section-heading"><div><h2>代表戦</h2><p class="muted">試合データ接続後、ここに日程と結果を表示します。</p></div><span class="status">準備中</span></div>
-      <div class="empty-state"><span>📅</span><strong>日程データ接続準備中</strong><p>推し代表を選ぶ機能から先に使えます。</p></div>
+      <div class="section-heading"><div><h2>代表戦</h2><p class="muted">代表詳細ページからチーム別画面を確認できます。</p></div><span class="status">基盤追加</span></div>
+      <div class="empty-state"><span>📅</span><strong>代表詳細ページを追加しました</strong><p>次の工程で日程APIとランキングデータを接続します。</p></div>
     </section>
 
     <section class="panel">
@@ -54,11 +55,11 @@
       </div>
     </section>
 
-    <p class="refactor-note">共通テーマ・ヘッダー・カード・検索UIをSports Hub基盤へ統合しました。</p>
+    <p class="refactor-note">代表一覧と代表詳細でテーマ・保存・トースト・カード基盤を共有しています。</p>
   </main>
 
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <script src="./assets/js/core.js?v=220" defer></script>
-  <script src="./national.js?v=220" defer></script>
+  <script src="./assets/js/core.js?v=223" defer></script>
+  <script src="./national.js?v=223" defer></script>
 </body>
 </html>
