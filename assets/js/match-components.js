@@ -59,39 +59,22 @@ window.SportsHubComponents = window.SportsHubComponents || {};
       const fallbackText = team.fallback || team.badge || team.flag || team.abbreviation || this.fallback;
       const fallback = `<span class="${this.slotClass('fallback')}" aria-hidden="true"${team.logo ? ' hidden' : ''}>${escapeHtml(fallbackText)}</span>`;
       if (!team.logo) return fallback;
-
       return `<img class="${this.slotClass('badge')}" src="${escapeHtml(team.logo)}" alt="" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false">${fallback}`;
     }
 
-    normalizeInteraction(source = {}, {
-      kind = 'element',
-      id = null,
-      side = '',
-      defaultLabel = '詳細を見る'
-    } = {}) {
+    normalizeInteraction(source = {}, { kind = 'element', id = null, side = '', defaultLabel = '詳細を見る' } = {}) {
       const detail = source.detail && typeof source.detail === 'object' ? source.detail : {};
-      const attributes = {
-        ...(source.attributes || {}),
-        ...(detail.attributes || {})
-      };
+      const attributes = { ...(source.attributes || {}), ...(detail.attributes || {}) };
       const href = detail.href || source.href || '';
       const action = detail.action || source.action || '';
       const explicitInteractive = detail.interactive ?? source.interactive;
       const hasDataAction = Object.keys(attributes).some(key => key.startsWith('data-'));
       const interactive = explicitInteractive !== false && Boolean(href || action || explicitInteractive || hasDataAction);
 
-      if (action && !attributes[`data-sports-${kind}-action`]) {
-        attributes[`data-sports-${kind}-action`] = action;
-      }
-      if (interactive && id !== undefined && id !== null && id !== '' && !attributes[`data-sports-${kind}-id`]) {
-        attributes[`data-sports-${kind}-id`] = String(id);
-      }
-      if (interactive && side && !attributes[`data-sports-${kind}-side`]) {
-        attributes[`data-sports-${kind}-side`] = side;
-      }
-      if (interactive && !attributes['aria-label']) {
-        attributes['aria-label'] = detail.ariaLabel || source.ariaLabel || defaultLabel;
-      }
+      if (action && !attributes[`data-sports-${kind}-action`]) attributes[`data-sports-${kind}-action`] = action;
+      if (interactive && id !== undefined && id !== null && id !== '' && !attributes[`data-sports-${kind}-id`]) attributes[`data-sports-${kind}-id`] = String(id);
+      if (interactive && side && !attributes[`data-sports-${kind}-side`]) attributes[`data-sports-${kind}-side`] = side;
+      if (interactive && !attributes['aria-label']) attributes['aria-label'] = detail.ariaLabel || source.ariaLabel || defaultLabel;
 
       if (href) {
         attributes.href = href;
@@ -99,22 +82,15 @@ window.SportsHubComponents = window.SportsHubComponents || {};
         if (attributes.target === '_blank' && !attributes.rel) attributes.rel = 'noopener noreferrer';
         return { tag: 'a', attributes, interactive: true };
       }
-
       if (interactive) {
         attributes.type = attributes.type || 'button';
         return { tag: 'button', attributes, interactive: true };
       }
-
       return { tag: 'div', attributes: {}, interactive: false };
     }
 
     normalizeTeamInteraction(team = {}, side = 'left', name = '') {
-      return this.normalizeInteraction(team, {
-        kind: 'team',
-        id: team.id,
-        side,
-        defaultLabel: `${name}の詳細を見る`
-      });
+      return this.normalizeInteraction(team, { kind: 'team', id: team.id, side, defaultLabel: `${name}の詳細を見る` });
     }
 
     renderTeam(team = {}, side = 'left') {
@@ -124,16 +100,8 @@ window.SportsHubComponents = window.SportsHubComponents || {};
       const interaction = this.normalizeTeamInteraction(team, side, name);
       const customClass = interaction.attributes.class || '';
       delete interaction.attributes.class;
-      const classes = this.slotClass(
-        'team',
-        `sports-event-card__team--${side}`,
-        interaction.interactive && 'sports-event-card__team--interactive',
-        this.legacy.team,
-        sideLegacy,
-        customClass
-      );
+      const classes = this.slotClass('team', `sports-event-card__team--${side}`, interaction.interactive && 'sports-event-card__team--interactive', this.legacy.team, sideLegacy, customClass);
       const tag = interaction.interactive ? interaction.tag : 'span';
-
       return `<${tag} class="${classes}"${renderAttributes(interaction.attributes)}>
         ${this.renderBadge(team)}
         <span class="${this.slotClass('team-copy')}">
@@ -154,21 +122,11 @@ window.SportsHubComponents = window.SportsHubComponents || {};
 
     renderCenter(center = {}) {
       const secondaryClass = center.variant ? `sports-event-card__secondary--${center.variant}` : '';
-      const interaction = this.normalizeInteraction(center, {
-        kind: 'center',
-        id: center.id,
-        defaultLabel: center.ariaLabel || '試合情報を見る'
-      });
+      const interaction = this.normalizeInteraction(center, { kind: 'center', id: center.id, defaultLabel: center.ariaLabel || '試合情報を見る' });
       const customClass = interaction.attributes.class || '';
       delete interaction.attributes.class;
-      const classes = this.slotClass(
-        'center',
-        this.legacy.center,
-        interaction.interactive && 'sports-event-card__center--interactive',
-        customClass
-      );
+      const classes = this.slotClass('center', this.legacy.center, interaction.interactive && 'sports-event-card__center--interactive', customClass);
       const tag = interaction.interactive ? interaction.tag : 'div';
-
       return `<${tag} class="${classes}"${renderAttributes(interaction.attributes)}>
         <strong>${escapeHtml(center.primary ?? 'VS')}</strong>
         ${center.secondary ? `<small class="${this.slotClass('secondary', this.legacy.secondary, secondaryClass)}">${escapeHtml(center.secondary)}</small>` : ''}
@@ -183,14 +141,7 @@ window.SportsHubComponents = window.SportsHubComponents || {};
 
     render(options = {}) {
       const model = this.normalize(options) || {};
-      const classes = classNames(
-        'sports-event-card',
-        `sports-event-card--${this.sport}`,
-        this.legacy.root,
-        model.className,
-        model.classes
-      );
-
+      const classes = classNames('sports-event-card', `sports-event-card--${this.sport}`, this.legacy.root, model.className, model.classes);
       return `<article class="${classes}"${renderAttributes(model.attributes)}>
         ${this.renderMeta(model.meta)}
         <div class="${this.slotClass('body', this.legacy.body)}">
@@ -204,37 +155,22 @@ window.SportsHubComponents = window.SportsHubComponents || {};
   }
 
   const SOCCER_LEGACY_CLASSES = Object.freeze({
-    root: 'match-card',
-    meta: 'match-card__meta',
-    body: 'match-card__body',
-    team: 'match-card__team',
-    teamLeft: 'match-card__team--home match-card__team--left',
-    teamRight: 'match-card__team--away match-card__team--right',
-    badge: 'match-card__badge',
-    fallback: 'match-card__fallback',
-    center: 'match-card__score',
-    secondary: 'match-card__decision',
-    footer: 'match-card__footer'
+    root: 'match-card', meta: 'match-card__meta', body: 'match-card__body', team: 'match-card__team',
+    teamLeft: 'match-card__team--home match-card__team--left', teamRight: 'match-card__team--away match-card__team--right',
+    badge: 'match-card__badge', fallback: 'match-card__fallback', center: 'match-card__score',
+    secondary: 'match-card__decision', footer: 'match-card__footer'
   });
 
   class SoccerMatchCard extends SportsEventCard {
-    constructor() {
-      super({ sport: 'soccer', fallback: '⚽', legacy: SOCCER_LEGACY_CLASSES });
-    }
+    constructor() { super({ sport: 'soccer', fallback: '⚽', legacy: SOCCER_LEGACY_CLASSES }); }
 
     normalize(options = {}) {
       const match = options.match || {};
       const date = new Date(options.date || match.kickoff || match.date);
       const validDate = !Number.isNaN(date.getTime());
-      const dateText = options.dateText || (validDate
-        ? date.toLocaleDateString('ja-JP', { month: 'numeric', day: 'numeric', weekday: 'short' })
-        : '日時未定');
-      const timeText = options.timeText || statusLabel(match) || (validDate
-        ? date.toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' })
-        : '');
-      const decision = options.decisionText === false
-        ? ''
-        : options.decisionText ?? decisionLabel(match);
+      const dateText = options.dateText || (validDate ? date.toLocaleDateString('ja-JP', { month: 'numeric', day: 'numeric', weekday: 'short' }) : '日時未定');
+      const timeText = options.timeText || statusLabel(match) || (validDate ? date.toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' }) : '');
+      const decision = options.decisionText === false ? '' : options.decisionText ?? decisionLabel(match);
       const status = String(match.status || '').toLowerCase();
       const live = ['in_play', 'in-play', 'live', 'paused'].includes(status);
       const final = ['finished', 'final'].includes(status);
@@ -243,20 +179,10 @@ window.SportsHubComponents = window.SportsHubComponents || {};
       const stage = options.stage || match.round || match.stage || '';
       const venue = options.venue || match.venue || '';
       const centerOptions = options.center || {};
-
       return {
-        className: classNames(
-          options.className,
-          live && 'is-live match-card--live',
-          final && 'is-final',
-          unavailable && 'is-unavailable match-card--unavailable',
-          decision.includes('PK') && 'sports-event-card--penalties match-card--penalties'
-        ),
+        className: classNames(options.className, live && 'is-live match-card--live', final && 'is-final', unavailable && 'is-unavailable match-card--unavailable', decision.includes('PK') && 'sports-event-card--penalties match-card--penalties'),
         attributes: options.attributes,
-        meta: {
-          left: [dateText, timeText].filter(Boolean).join(' '),
-          right: competition || stage
-        },
+        meta: { left: [dateText, timeText].filter(Boolean).join(' '), right: competition || stage },
         leftTeam: options.home || match.home || {},
         rightTeam: options.away || match.away || {},
         center: {
@@ -271,9 +197,7 @@ window.SportsHubComponents = window.SportsHubComponents || {};
   }
 
   class BaseballGameCard extends SportsEventCard {
-    constructor() {
-      super({ sport: 'baseball', fallback: '⚾' });
-    }
+    constructor() { super({ sport: 'baseball', fallback: '⚾' }); }
 
     normalize(options = {}) {
       const game = options.game || {};
@@ -284,15 +208,8 @@ window.SportsHubComponents = window.SportsHubComponents || {};
       const competition = options.competition || game.gameTypeName || 'MLB';
       const gameNumber = Number(options.gameNumber ?? game.gameNumber ?? 1);
       const centerOptions = options.center || {};
-
       return {
-        className: classNames(
-          options.className,
-          live && 'is-live',
-          final && 'is-final',
-          favorite && 'is-favorite',
-          unavailable && 'is-unavailable'
-        ),
+        className: classNames(options.className, live && 'is-live', final && 'is-final', favorite && 'is-favorite', unavailable && 'is-unavailable'),
         attributes: options.attributes,
         meta: {
           left: options.dateText || '',
@@ -304,7 +221,7 @@ window.SportsHubComponents = window.SportsHubComponents || {};
         center: {
           ...centerOptions,
           primary: centerOptions.primary ?? options.scoreText ?? 'VS',
-          secondary: centerOptions.secondary ?? options.statusText || '',
+          secondary: (centerOptions.secondary ?? options.statusText) || '',
           variant: centerOptions.variant ?? 'status'
         },
         footer: [options.venue || '', options.detail || options.series || '']
@@ -319,27 +236,19 @@ window.SportsHubComponents = window.SportsHubComponents || {};
       this.normalize = normalize;
       this.decorate = decorate;
     }
-
     render(event, context = {}) {
       const normalized = this.normalize(event, context) || {};
       return this.card.render({ ...normalized, ...this.decorate(event, normalized, context) });
     }
-
-    renderMany(events = [], context = {}) {
-      return events.map(event => this.render(event, context)).join('');
-    }
+    renderMany(events = [], context = {}) { return events.map(event => this.render(event, context)).join(''); }
   }
 
   class SoccerMatchCardRenderer extends SportsEventCardRenderer {
-    constructor(options = {}) {
-      super({ ...options, card: options.card || new SoccerMatchCard() });
-    }
+    constructor(options = {}) { super({ ...options, card: options.card || new SoccerMatchCard() }); }
   }
 
   class BaseballGameCardRenderer extends SportsEventCardRenderer {
-    constructor(options = {}) {
-      super({ ...options, card: options.card || new BaseballGameCard() });
-    }
+    constructor(options = {}) { super({ ...options, card: options.card || new BaseballGameCard() }); }
   }
 
   class SportsEventDialog {
@@ -373,9 +282,7 @@ window.SportsHubComponents = window.SportsHubComponents || {};
       if (!this.root || this.bound) return this;
       this.bound = true;
       this.root.addEventListener('click', event => {
-        if (event.target === this.root || event.target.closest('[data-sports-event-dialog-close]')) {
-          this.close();
-        }
+        if (event.target === this.root || event.target.closest('[data-sports-event-dialog-close]')) this.close();
       });
       return this;
     }
@@ -401,7 +308,6 @@ window.SportsHubComponents = window.SportsHubComponents || {};
           return `<article><span>${escapeHtml(label || '')}</span><strong>${escapeHtml(value || '')}</strong></article>`;
         })
         .join('');
-
       return `<header class="sports-event-dialog__header">
           <p class="eyebrow">${escapeHtml(data.eyebrow || 'MATCH DETAIL')}</p>
           <h2>${escapeHtml(data.title || '試合情報')}</h2>
@@ -427,10 +333,7 @@ window.SportsHubComponents = window.SportsHubComponents || {};
       this.root.showModal();
       return true;
     }
-
-    close() {
-      if (this.root?.open) this.root.close();
-    }
+    close() { if (this.root?.open) this.root.close(); }
   }
 
   const soccerCard = new SoccerMatchCard();
@@ -454,14 +357,7 @@ window.SportsHubComponents = window.SportsHubComponents || {};
     createBaseballGameCardRenderer: options => new BaseballGameCardRenderer(options),
     createEventDialog: options => new SportsEventDialog(options),
     calendarDay(options = {}) {
-      const classes = classNames(
-        'calendar-day',
-        options.hasMatch && 'has-match',
-        options.favorite && 'calendar-day--favorite',
-        options.primary && 'calendar-day--primary',
-        options.selected && 'selected',
-        options.today && 'today'
-      );
+      const classes = classNames('calendar-day', options.hasMatch && 'has-match', options.favorite && 'calendar-day--favorite', options.primary && 'calendar-day--primary', options.selected && 'selected', options.today && 'today');
       const marks = (options.marks || []).slice(0, 3).map(mark => mark.logo
         ? `<img src="${escapeHtml(mark.logo)}" alt="">`
         : `<span>${escapeHtml(mark.label || '★')}</span>`
