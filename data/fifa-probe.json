@@ -1,206 +1,262 @@
 {
-  "probedAt": "2026-07-27T14:42:59.265Z",
-  "page": {
-    "url": "https://vod.fifa.com/en/fifa-world-ranking/men",
-    "bytes": 220285,
-    "configPath": "$.props.pageProps.pageData.ranking",
-    "lastUpdateDate": "2026-07-20T08:37:28.979Z",
-    "nextUpdateDate": "2026-10-07T12:00:00.000Z",
-    "currentDates": [
-      {
-        "id": "FRS_Male_Football_20260611",
-        "iso": "2026-07-20T08:37:28.979Z",
-        "dateText": "20 July",
-        "matchWindowEndDate": "2026-07-20"
-      },
-      {
-        "id": "FRS_Male_Football_20260401",
-        "iso": "2026-06-11T10:00:59.636Z",
-        "dateText": "11 June",
-        "matchWindowEndDate": "2026-06-11"
-      },
-      {
-        "id": "FRS_Male_Football_20260119",
-        "iso": "2026-04-01T11:55:29.435Z",
-        "dateText": "01 April",
-        "matchWindowEndDate": "2026-04-01"
-      },
-      {
-        "id": "FRS_Male_Football_20251219",
-        "iso": "2026-01-19T17:11:57.976Z",
-        "dateText": "19 January",
-        "matchWindowEndDate": "2026-01-19"
-      },
-      {
-        "id": "FRS_Male_Football_20251119",
-        "iso": "2025-12-22T11:00:00.000Z",
-        "dateText": "22 December",
-        "matchWindowEndDate": "2025-12-22"
-      },
-      {
-        "id": "FRS_Male_Football_20251015",
-        "iso": "2025-11-19T15:41:06.511Z",
-        "dateText": "19 November",
-        "matchWindowEndDate": "2025-11-19"
-      },
-      {
-        "id": "FRS_Male_Football_20250910",
-        "iso": "2025-10-17T11:51:46.672Z",
-        "dateText": "17 October",
-        "matchWindowEndDate": "2025-10-17"
-      },
-      {
-        "id": "id14870",
-        "iso": "2025-09-18T00:00:00.000Z",
-        "dateText": "18 September",
-        "matchWindowEndDate": "2025-09-18"
+  "probedAt": "2026-07-27T14:44:40.367Z",
+  "page": "https://vod.fifa.com/en/fifa-world-ranking/men",
+  "pageBytes": 220285,
+  "scriptCount": 61,
+  "scriptUrls": [
+    "https://vod.fifa.com/_next/static/chunks/polyfills-42372ed130431b0a.js",
+    "https://www.tiktok.com/embed.js",
+    "https://www.instagram.com/embed.js",
+    "https://vod.fifa.com/_next/static/chunks/3509.3b985dd57906ea7a.js",
+    "https://vod.fifa.com/_next/static/chunks/5c0b189e.02866eca81c22365.js",
+    "https://vod.fifa.com/_next/static/chunks/9690-c7d301e68c39baee.js",
+    "https://vod.fifa.com/_next/static/chunks/8020-91771616b2ae9ee2.js",
+    "https://vod.fifa.com/_next/static/chunks/8811-d0165f0a96ee14fa.js",
+    "https://vod.fifa.com/_next/static/chunks/4122.8e3d14bc23406ed3.js",
+    "https://vod.fifa.com/_next/static/chunks/425.0d7a7eba7e7c4626.js",
+    "https://vod.fifa.com/_next/static/chunks/5060.b08f64a6b1d3f93b.js",
+    "https://vod.fifa.com/_next/static/chunks/6007.b316f3d27a1e23a4.js",
+    "https://vod.fifa.com/_next/static/chunks/4852.b90bc6b9ecf810fb.js",
+    "https://vod.fifa.com/_next/static/chunks/4483-c3dc48d54432d3f7.js",
+    "https://vod.fifa.com/_next/static/chunks/61-917c7b21a574f9ab.js",
+    "https://vod.fifa.com/_next/static/chunks/1664.a43f800e86ca585b.js",
+    "https://vod.fifa.com/_next/static/chunks/9565.cd8b91c0b04a708a.js",
+    "https://vod.fifa.com/_next/static/chunks/ed5e68e1.ad98746447a63540.js",
+    "https://vod.fifa.com/_next/static/chunks/8764-fb7e4b7b8d2adabd.js",
+    "https://vod.fifa.com/_next/static/chunks/7618-92ac282035b0b140.js",
+    "https://vod.fifa.com/_next/static/chunks/3705-b3fdcb75650e031f.js",
+    "https://vod.fifa.com/_next/static/chunks/2467-9b4ef0df9cce5084.js",
+    "https://vod.fifa.com/_next/static/chunks/3292-e1181c6af3761b1d.js",
+    "https://vod.fifa.com/_next/static/chunks/4146-e4766b3d6c5de2e1.js",
+    "https://vod.fifa.com/_next/static/chunks/8616-35a34ffbd92c36ff.js",
+    "https://vod.fifa.com/_next/static/chunks/763-ffbeaf96b9b5cb45.js",
+    "https://vod.fifa.com/_next/static/chunks/6066-477eea8cea6a43a0.js",
+    "https://vod.fifa.com/_next/static/chunks/9283-af44b9c529cda7d4.js",
+    "https://vod.fifa.com/_next/static/chunks/2084-ce17fc6c7713e18e.js",
+    "https://vod.fifa.com/_next/static/chunks/2075-b392eecb6ea01f34.js",
+    "https://vod.fifa.com/_next/static/chunks/9122-82f256324c1d2757.js",
+    "https://vod.fifa.com/_next/static/chunks/4509-5ef0fdaab2e728e0.js",
+    "https://vod.fifa.com/_next/static/chunks/5173-34e0d6a69e73cb98.js",
+    "https://vod.fifa.com/_next/static/chunks/7578-3541d5c98c31bd8c.js",
+    "https://vod.fifa.com/_next/static/chunks/7066.d3091952307024ab.js",
+    "https://vod.fifa.com/_next/static/chunks/2891.a8b4863edebefd7e.js",
+    "https://vod.fifa.com/_next/static/chunks/7800.64d09a6a6b39ef0e.js",
+    "https://vod.fifa.com/_next/static/chunks/2902.f63281b2cebff549.js",
+    "https://vod.fifa.com/_next/static/chunks/5168.79ea877b460d9002.js",
+    "https://vod.fifa.com/_next/static/chunks/585.8b3700fa9e9099aa.js",
+    "https://vod.fifa.com/_next/static/chunks/6569-a7cb7486c1c2e833.js",
+    "https://vod.fifa.com/_next/static/chunks/970.e0ccb581ae3fe15d.js",
+    "https://vod.fifa.com/_next/static/chunks/8559.6d3ffd3ef2c3bf09.js",
+    "https://vod.fifa.com/_next/static/chunks/4170.0d6f0f095bdc7828.js",
+    "https://vod.fifa.com/_next/static/chunks/1351.48d8d9be3059e243.js",
+    "https://vod.fifa.com/_next/static/chunks/2329.6a7c88b623925a0d.js",
+    "https://vod.fifa.com/_next/static/chunks/8459.8b96c605b3d0fa38.js",
+    "https://vod.fifa.com/_next/static/chunks/8022.11a9ba619864284b.js",
+    "https://vod.fifa.com/_next/static/chunks/6364.de9e8e6e2d247a57.js",
+    "https://vod.fifa.com/_next/static/chunks/8569.0a438051ce3a1d08.js",
+    "https://vod.fifa.com/_next/static/chunks/8517.ab83f5eb183a9f4b.js",
+    "https://vod.fifa.com/_next/static/chunks/7511.159ad4154bcfbc54.js",
+    "https://vod.fifa.com/_next/static/chunks/webpack-35f11b1f56f663a0.js",
+    "https://vod.fifa.com/_next/static/chunks/framework-a71af9b1c76f668e.js",
+    "https://vod.fifa.com/_next/static/chunks/main-d7b8b9ec94b4d556.js",
+    "https://vod.fifa.com/_next/static/chunks/pages/_app-d6f030a2b80b3604.js",
+    "https://vod.fifa.com/_next/static/chunks/461-3f880927af183e6d.js",
+    "https://vod.fifa.com/_next/static/chunks/pages/fifa-world-ranking/%5B...country%5D-4db5c35dc443e715.js",
+    "https://vod.fifa.com/_next/static/TdzGh7ssDL24idhfroO6B/_buildManifest.js",
+    "https://vod.fifa.com/_next/static/TdzGh7ssDL24idhfroO6B/_ssgManifest.js",
+    "https://vod.fifa.com/V7FTJE0zUdHlYNgIpOYnoxkw/1YYSbXJD9Dcrtrru/IXh6AQ/bC/V3MG0rUmUB"
+  ],
+  "htmlUrls": [
+    "https://digitalhub.fifa.com/transform/b30cba7f-ad08-410d-b569-2235bdfd547b/letterbox_cocacolaranking_men&quot;,&quot;src&quot;:&quot;https://digitalhub.fifa.com/transform/b30cba7f-ad08-410d-b569-2235bdfd547b/letterbox_cocacolaranking_men&quot;,&quot;width&quot;:1280,&quot;height&quot;:320,&quot;title&quot;:&quot;letterbox_cocacolaranking_men&quot;,&quot;alt&quot;:&quot;letterbox_cocacolaranking_men&quot;,&quot;caption&quot;:null,&quot;focalPosX&quot;:208,&quot;focalPosY&quot;:243,&quot;colorize&quot;:null,&quot;extension&quot;:[&quot;svg&quot;],&quot;tags&quot;:{&quot;sourceIds&quot;:[]},&quot;displayTitle&quot;:false},&quot;locale&quot;:&quot;en&quot;,&quot;recordType&quot;:&quot;rankingTemplate&quot;,&quot;placementTags&quot;:[&quot;Men&#x27;s",
+    "https://digitalhub.fifa.com/transform/b30cba7f-ad08-410d-b569-2235bdfd547b/letterbox_cocacolaranking_men",
+    "https://digitalhub.fifa.com/transform/b30cba7f-ad08-410d-b569-2235bdfd547b/letterbox_cocacolaranking_men",
+    "https://inside.fifa.com/en/fifa-rankings",
+    "https://inside.fifa.com/en/fifa-rankings",
+    "https://digitalhub.fifa.com/transform/b30cba7f-ad08-410d-b569-2235bdfd547b/letterbox_cocacolaranking_men?io=transform:fill,aspectratio:4x1,width:500,width:500&amp;quality=70)",
+    "https://digitalhub.fifa.com/transform/b30cba7f-ad08-410d-b569-2235bdfd547b/letterbox_cocacolaranking_men?io=transform:fill,aspectratio:4x1,width:1024&amp;quality=60)",
+    "https://digitalhub.fifa.com/transform/b30cba7f-ad08-410d-b569-2235bdfd547b/letterbox_cocacolaranking_men?io=transform:fill,aspectratio:4x1,width:1280&amp;quality=100)",
+    "https://digitalhub.fifa.com/transform/b30cba7f-ad08-410d-b569-2235bdfd547b/letterbox_cocacolaranking_men?io=transform:fill,aspectratio:4x1,width:1440&amp;quality=100)",
+    "https://digitalhub.fifa.com/transform/b30cba7f-ad08-410d-b569-2235bdfd547b/letterbox_cocacolaranking_men?io=transform:fill,aspectratio:4x1,width:1940&amp;quality=100)",
+    "https://inside.fifa.com/en/fifa-rankings",
+    "https://inside.fifa.com/womens-football",
+    "https://inside.fifa.com/advancing-football",
+    "https://inside.fifa.com/legal/football-tribunal",
+    "https://inside.fifa.com/campaigns/football-unites-the-world",
+    "https://inside.fifa.com/campaigns/world-football-week",
+    "https://api.fifa.com/api/v3/picture/confederations-sq-2/AFC",
+    "https://api.fifa.com/api/v3/picture/confederations-sq-2/CAF",
+    "https://api.fifa.com/api/v3/picture/confederations-sq-2/CONCACAF",
+    "https://api.fifa.com/api/v3/picture/confederations-sq-2/CONMEBOL",
+    "https://api.fifa.com/api/v3/picture/confederations-sq-2/OFC",
+    "https://api.fifa.com/api/v3/picture/confederations-sq-2/UEFA",
+    "https://inside.fifa.com/fifa-world-ranking/men?dateId=FRS_Male_Football_20260401).",
+    "https://api.fifa.com/api/v3/picture/flags-sq-3/ESP",
+    "https://api.fifa.com/api/v3/picture/flags-sq-3/NOR",
+    "https://api.fifa.com/api/v3/picture/flags-sq-3/ESP",
+    "https://api.fifa.com/api/v3/picture/flags-sq-3/MAR",
+    "https://api.fifa.com/api/v3/picture/flags-sq-3/TUN",
+    "https://api.fifa.com/api/v3/picture/flags-sq-2/PAN",
+    "https://digitalhub.fifa.com/transform/b30cba7f-ad08-410d-b569-2235bdfd547b/letterbox_cocacolaranking_men",
+    "https://digitalhub.fifa.com/transform/b30cba7f-ad08-410d-b569-2235bdfd547b/letterbox_cocacolaranking_men",
+    "https://digitalhub.fifa.com/transform/df4fa3b4-448a-477d-bd29-cf9999c5a7c7/FIFA-Coca-Cola-Men-s-World-Ranking-explainer",
+    "https://digitalhub.fifa.com/transform/df4fa3b4-448a-477d-bd29-cf9999c5a7c7/FIFA-Coca-Cola-Men-s-World-Ranking-explainer",
+    "https://inside.fifa.com/fifa-world-ranking/news",
+    "https://www.inside.fifa.com/news/spain-top-mens-world-rankings-after-second-world-cup",
+    "https://www.inside.fifa.com/news/argentina-reclaim-top-spot-mens-world-ranking-fifa-coca-cola",
+    "https://www.inside.fifa.com/news/france-1st-fifa-coca-cola-world-ranking-april-2026",
+    "https://www.inside.fifa.com/news/fifa-coca-cola-world-rankings-live-real-time-updates-men-women",
+    "https://digitalhub.fifa.com/transform/6e61fa93-614d-4d37-b577-89a232d69e58/FIFA-FIFA-Rankings-graphic",
+    "https://www.inside.fifa.com/news/coca-cola-december-2025-rank-spain-top-morocco-arab-cup-win",
+    "https://www.inside.fifa.com/news/coca-cola-mens-world-ranking-november-2025-brazil-spain",
+    "https://www.inside.fifa.com/news/coca-cola-mens-world-ranking-october-2025-argentina-germany",
+    "https://www.inside.fifa.com/news/coca-cola-mens-world-ranking-september-2025-spain-top",
+    "https://www.inside.fifa.com/news/coca-cola-mens-world-ranking-july-2025-argentina-top-croatia",
+    "https://www.inside.fifa.com/news/paraguay-fifaranking-worldcup-dream-development-efforts-pay-off",
+    "https://inside.fifa.com/news/coca-cola-mens-world-ranking-spain-2nd-april-2025",
+    "https://inside.fifa.com/news/coca-cola-mens-world-ranking-argentina-no-1-angola-rise",
+    "https://digitalhub.fifa.com/transform/b30cba7f-ad08-410d-b569-2235bdfd547b/letterbox_cocacolaranking_men",
+    "https://digitalhub.fifa.com/transform/b30cba7f-ad08-410d-b569-2235bdfd547b/letterbox_cocacolaranking_men",
+    "https://digitalhub.fifa.com/transform/b30cba7f-ad08-410d-b569-2235bdfd547b/letterbox_cocacolaranking_men",
+    "https://digitalhub.fifa.com/transform/b30cba7f-ad08-410d-b569-2235bdfd547b/letterbox_cocacolaranking_men"
+  ],
+  "findings": [
+    {
+      "url": "https://vod.fifa.com/_next/static/chunks/5168.79ea877b460d9002.js",
+      "bytes": 1073509,
+      "matched": {
+        "liveRanking": [
+          "_bottomRow__giVlP\"};let ru=({match:e,liveMatch:r,broadcasters:a,ranking:o,countryName:i,labels:t,hasHeader:n=!1,timeZone:c=Intl.DateTimeFormat().resolvedOptions().timeZone,contextualElement:m,variant:f=y.Z.SMALL,className:b,theme:w,playedMatchDate:S,linkToMatch:x,locale:C,isWorldLiveRanking:z,onMatchCardClick:A,isHomeTeamUnknown:L=!1,isAwayTeamUnknown:M=!1,isInternational:_=!0})=>{var X,H,R,D,P,W,j,Y,N,E,G,q,O,I,Q,Z,U,J,K,V,$,ee;let er=f===y.Z.WIDE,ea=r?r.MatchStatus:e.MatchStatus,eo=((e,r)=>{let a=r?r.MatchStatus:e.MatchStatus;return a===d.Live||a===d.Played})(e,r"
+        ]
       }
-    ]
-  },
-  "apiResults": [
-    {
-      "dateId": "FRS_Male_Football_20260611",
-      "iso": "2026-07-20T08:37:28.979Z",
-      "dateText": "20 July",
-      "url": "https://vod.fifa.com/api/ranking-overview?locale=en&dateId=FRS_Male_Football_20260611",
-      "status": 200,
-      "contentType": "application/json; charset=utf-8",
-      "bytes": 15,
-      "count": 0,
-      "top": [],
-      "preview": "{\"rankings\":[]}"
     },
     {
-      "dateId": "FRS_Male_Football_20260611",
-      "iso": "2026-07-20T08:37:28.979Z",
-      "dateText": "20 July",
-      "url": "https://inside.fifa.com/api/ranking-overview?locale=en&dateId=FRS_Male_Football_20260611",
-      "status": 200,
-      "contentType": "application/json; charset=utf-8",
-      "bytes": 15,
-      "count": 0,
-      "top": [],
-      "preview": "{\"rankings\":[]}"
+      "url": "https://vod.fifa.com/_next/static/chunks/1351.48d8d9be3059e243.js",
+      "bytes": 98505,
+      "matched": {
+        "fifa-world-ranking": [
+          ".relativeUrl.includes(t)&&\"en\"!==t?\"/\"+t+e.relativeUrl:e.relativeUrl;if(e&&\"url\"in e&&e.url)return null==e?void 0:e.url;if(i(e)){var n;return null!==(n=e.fallbackUrl)&&void 0!==n?n:\"\"}return console.warn(\"Unable to create URL\",{item:e}),\"\"},o=e=>\"/associations/\".concat(e),l=e=>\"/fifa-world-ranking/\".concat(e),a=(e,t)=>\"\".concat(\"en\"===t?\"\":\"/\".concat(t),\"/news/\").concat(e),c=(e,t)=>\"\".concat(\"en\"===t?\"\":\"/\".concat(t),\"/media-releases/\").concat(e)},67693:function(e,t,n){\"use strict\";n.d(t,{Ce:function(){return l},OC:function(){return r},wO:function(){return i}});let i=e=>{"
+        ]
+      }
     },
     {
-      "dateId": "FRS_Male_Football_20260611",
-      "iso": "2026-07-20T08:37:28.979Z",
-      "dateText": "20 July",
-      "url": "https://rusecure.fifa.com/api/ranking-overview?locale=en&dateId=FRS_Male_Football_20260611",
-      "status": 200,
-      "contentType": "application/json; charset=utf-8",
-      "bytes": 15,
-      "count": 0,
-      "top": [],
-      "preview": "{\"rankings\":[]}"
+      "url": "https://vod.fifa.com/_next/static/chunks/4170.0d6f0f095bdc7828.js",
+      "bytes": 291565,
+      "matched": {
+        "ranking-overview": [
+          "\"Points\"},locale:t}),cursor:{stroke:c.u.NIGHT,strokeWidth:2,strokeDasharray:7}},lineChartTheme:{legendColorPalette:[c.u.BLUE]},connectNulls:!0})]},l)}},13901:function(e,a,t){\"use strict\";t.d(a,{GA:function(){return n},LY:function(){return i},ap:function(){return l}});let n=\"/api/ranking-overview\",l=\"/api/get-match-window-matches\",i=\"-1_all\"},11516:function(e,a,t){\"use strict\";var n,l;t.d(a,{d:function(){return n}}),(l=n||(n={})).Football=\"football\",l.Futsal=\"futsal\",l.Unknown=\"unknown\"},56655:function(e,a,t){\"use strict\";t.d(a,{T:function(){return d}});var n=t(85893),l="
+        ],
+        "rankingItem": [
+          "g(l):(console.warn(\"No rankings returned by fdcp\",{result:l,locale:a}),[])}function g(e){var a,t;return null!==(t=null===(a=e.Results)||void 0===a?void 0:a.reduce((e,a)=>{if((null==a?void 0:a.TeamName)&&a.IdCountry&&a.ConfederationName){var t,n;let l=(0,u.Io)(a.TeamName);e.push({rankingItem:{idTeam:a.IdTeam,rank:a.Rank,flag:(0,u.B3)(a.IdCountry,d.S.Square,d.N.Two,null!=l?l:\"\"),name:null!=l?l:\"\",totalPoints:null!==(t=a.TotalPoints)&&void 0!==t?t:0,active:!1,previousRank:a.PrevRank,countryURL:(0,C.h2)(a.IdCountry),countryCode:a.IdCountry},previousPoints:null!==(n=a.P",
+          "?[v,m,p,g]:[v,m,g]:c!==d.B9.Full?[v,m,g]:a===o.Uo.lg||a===o.Uo.xl?[v,m,h,p,g]:a===o.Uo.md?[v,m,p,g]:[v,m,g]}},34858:function(e,a,t){\"use strict\";t.d(a,{F:function(){return l},h:function(){return i}});var n=t(61253);let l=e=>(e||[]).map(e=>{var a,t,l,i,o;return{idTeam:null!==(a=e.rankingItem.idTeam)&&void 0!==a?a:void 0,rank:null!==(t=e.rankingItem.rank)&&void 0!==t?t:void 0,flag:(0,n.b)(e.rankingItem.flag),name:e.rankingItem.name,totalPoints:e.rankingItem.totalPoints,previousPoints:e.previousPoints,active:null!==(l=e.rankingItem.active)&&void 0!==l?l:void 0,previou",
+          "o.Uo.xl?[v,m,h,p,g]:a===o.Uo.md?[v,m,p,g]:[v,m,g]}},34858:function(e,a,t){\"use strict\";t.d(a,{F:function(){return l},h:function(){return i}});var n=t(61253);let l=e=>(e||[]).map(e=>{var a,t,l,i,o;return{idTeam:null!==(a=e.rankingItem.idTeam)&&void 0!==a?a:void 0,rank:null!==(t=e.rankingItem.rank)&&void 0!==t?t:void 0,flag:(0,n.b)(e.rankingItem.flag),name:e.rankingItem.name,totalPoints:e.rankingItem.totalPoints,previousPoints:e.previousPoints,active:null!==(l=e.rankingItem.active)&&void 0!==l?l:void 0,previousRank:null!==(i=e.rankingItem.previousRank)&&void 0!==i?i:",
+          "858:function(e,a,t){\"use strict\";t.d(a,{F:function(){return l},h:function(){return i}});var n=t(61253);let l=e=>(e||[]).map(e=>{var a,t,l,i,o;return{idTeam:null!==(a=e.rankingItem.idTeam)&&void 0!==a?a:void 0,rank:null!==(t=e.rankingItem.rank)&&void 0!==t?t:void 0,flag:(0,n.b)(e.rankingItem.flag),name:e.rankingItem.name,totalPoints:e.rankingItem.totalPoints,previousPoints:e.previousPoints,active:null!==(l=e.rankingItem.active)&&void 0!==l?l:void 0,previousRank:null!==(i=e.rankingItem.previousRank)&&void 0!==i?i:void 0,countryURL:e.rankingItem.countryURL,countryCode",
+          "strict\";t.d(a,{F:function(){return l},h:function(){return i}});var n=t(61253);let l=e=>(e||[]).map(e=>{var a,t,l,i,o;return{idTeam:null!==(a=e.rankingItem.idTeam)&&void 0!==a?a:void 0,rank:null!==(t=e.rankingItem.rank)&&void 0!==t?t:void 0,flag:(0,n.b)(e.rankingItem.flag),name:e.rankingItem.name,totalPoints:e.rankingItem.totalPoints,previousPoints:e.previousPoints,active:null!==(l=e.rankingItem.active)&&void 0!==l?l:void 0,previousRank:null!==(i=e.rankingItem.previousRank)&&void 0!==i?i:void 0,countryURL:e.rankingItem.countryURL,countryCode:null!==(o=e.rankingItem.",
+          "urn l},h:function(){return i}});var n=t(61253);let l=e=>(e||[]).map(e=>{var a,t,l,i,o;return{idTeam:null!==(a=e.rankingItem.idTeam)&&void 0!==a?a:void 0,rank:null!==(t=e.rankingItem.rank)&&void 0!==t?t:void 0,flag:(0,n.b)(e.rankingItem.flag),name:e.rankingItem.name,totalPoints:e.rankingItem.totalPoints,previousPoints:e.previousPoints,active:null!==(l=e.rankingItem.active)&&void 0!==l?l:void 0,previousRank:null!==(i=e.rankingItem.previousRank)&&void 0!==i?i:void 0,countryURL:e.rankingItem.countryURL,countryCode:null!==(o=e.rankingItem.countryCode)&&void 0!==o?o:void",
+          " a,t,l,i,o;return{idTeam:null!==(a=e.rankingItem.idTeam)&&void 0!==a?a:void 0,rank:null!==(t=e.rankingItem.rank)&&void 0!==t?t:void 0,flag:(0,n.b)(e.rankingItem.flag),name:e.rankingItem.name,totalPoints:e.rankingItem.totalPoints,previousPoints:e.previousPoints,active:null!==(l=e.rankingItem.active)&&void 0!==l?l:void 0,previousRank:null!==(i=e.rankingItem.previousRank)&&void 0!==i?i:void 0,countryURL:e.rankingItem.countryURL,countryCode:null!==(o=e.rankingItem.countryCode)&&void 0!==o?o:void 0,tag:e.tag,pointsDifference:Math.round((e.rankingItem.totalPoints-e.previ",
+          "=a?a:void 0,rank:null!==(t=e.rankingItem.rank)&&void 0!==t?t:void 0,flag:(0,n.b)(e.rankingItem.flag),name:e.rankingItem.name,totalPoints:e.rankingItem.totalPoints,previousPoints:e.previousPoints,active:null!==(l=e.rankingItem.active)&&void 0!==l?l:void 0,previousRank:null!==(i=e.rankingItem.previousRank)&&void 0!==i?i:void 0,countryURL:e.rankingItem.countryURL,countryCode:null!==(o=e.rankingItem.countryCode)&&void 0!==o?o:void 0,tag:e.tag,pointsDifference:Math.round((e.rankingItem.totalPoints-e.previousPoints+Number.EPSILON)*100)/100,nextUpdateDate:e.nextUpdateDate"
+        ],
+        "liveRanking": [
+          ",a,t){\"use strict\";t.d(a,{m:function(){return i}});var n=t(85893),l=t(28645);let i=e=>{let{match:a,liveMatch:t,className:i,variant:o,countryName:r,timeZone:s,labels:d,hasHeader:c,broadcasters:u,ranking:C,contextualElement:v,theme:m,playedMatchDate:h,linkToMatch:p,locale:g,isWorldLiveRanking:f,onMatchCardClick:b,isHomeTeamUnknown:k,isAwayTeamUnknown:L,isInternational:w}=e;return(0,n.jsx)(l.k,{match:a,liveMatch:t,className:i,variant:o,countryName:r,timeZone:s,labels:d,hasHeader:c,broadcasters:u,ranking:C,contextualElement:v,theme:m,playedMatchDate:h,linkToMatch:p,loc",
+          "dClick:b,isHomeTeamUnknown:k,isAwayTeamUnknown:L,isInternational:w}=e;return(0,n.jsx)(l.k,{match:a,liveMatch:t,className:i,variant:o,countryName:r,timeZone:s,labels:d,hasHeader:c,broadcasters:u,ranking:C,contextualElement:v,theme:m,playedMatchDate:h,linkToMatch:p,locale:g,isWorldLiveRanking:f,onMatchCardClick:b,isHomeTeamUnknown:k,isAwayTeamUnknown:L,isInternational:w})}},79328:function(e,a,t){\"use strict\";t.d(a,{RQ:function(){return d},Dz:function(){return u},BX:function(){return s},jH:function(){return v},Gt:function(){return C}}),(n=l||(l={}))[n.Played=0]=\"Playe",
+          ":return h.M.MEN}},x=e=>{var a,t,o,h,k;let{rankingListLabels:x,footballType:y,dates:M,resolvedWindow:H,title:S,countryCode:T,isUnranked:j,gender:D,onLoadingChange:R,hidePrimaryDisclaimer:N=!1,mode:P=m.B9.Full,lastUpdateDate:F,nextUpdateDate:I,pollingInterval:A}=e,{rankingMode:W=C.LiveRankingMode.Highlight,window:E}=null!=H?H:{},{locale:V=\"en\"}=(0,i.useRouter)(),{isLoading:Z,rankingData:U,matchWindowResults:B}=(0,v.p6)({rankingMode:W,dates:M,footballType:y,gender:D,countryCode:T,pollingInterval:A});(0,l.useEffect)(()=>{null==R||R(Z)},[Z,R]);let O=(0,b.t)({rankingMode",
+          ",l.useEffect)(()=>{null==R||R(Z)},[Z,R]);let O=(0,b.t)({rankingMode:W,rankingData:U,matchWindow:B,rankingListLabels:x,gender:_(D),windowFromDate:null==E?void 0:E.dateFrom,windowToDate:null==E?void 0:E.dateTo,countryCode:T,displayMode:P}),G=(0,l.useCallback)(()=>{switch(W){case C.LiveRankingMode.Live:return(0,n.jsxs)(n.Fragment,{children:[!N&&x.liveRankingDisclaimerLabel?(0,n.jsx)(\"div\",{className:L().primaryDisclaimerContainer,children:(0,n.jsx)(w.ZP,{className:L().paragraph,children:x.liveRankingDisclaimerLabel})}):null,(0,n.jsx)(\"div\",{className:L().badgeWrapperL",
+          "e:W,rankingData:U,matchWindow:B,rankingListLabels:x,gender:_(D),windowFromDate:null==E?void 0:E.dateFrom,windowToDate:null==E?void 0:E.dateTo,countryCode:T,displayMode:P}),G=(0,l.useCallback)(()=>{switch(W){case C.LiveRankingMode.Live:return(0,n.jsxs)(n.Fragment,{children:[!N&&x.liveRankingDisclaimerLabel?(0,n.jsx)(\"div\",{className:L().primaryDisclaimerContainer,children:(0,n.jsx)(w.ZP,{className:L().paragraph,children:x.liveRankingDisclaimerLabel})}):null,(0,n.jsx)(\"div\",{className:L().badgeWrapperLive,children:(0,n.jsx)(u.C,{label:x.liveRankingLiveLabel||\"Live\",l",
+          "ntryCode:T,displayMode:P}),G=(0,l.useCallback)(()=>{switch(W){case C.LiveRankingMode.Live:return(0,n.jsxs)(n.Fragment,{children:[!N&&x.liveRankingDisclaimerLabel?(0,n.jsx)(\"div\",{className:L().primaryDisclaimerContainer,children:(0,n.jsx)(w.ZP,{className:L().paragraph,children:x.liveRankingDisclaimerLabel})}):null,(0,n.jsx)(\"div\",{className:L().badgeWrapperLive,children:(0,n.jsx)(u.C,{label:x.liveRankingLiveLabel||\"Live\",live:!0,hasBackground:!0})})]});case C.LiveRankingMode.Preview:return(0,n.jsx)(\"div\",{className:L().badgeWrapper,children:(0,n.jsx)(u.C,{label:x.r",
+          "t,{children:[!N&&x.liveRankingDisclaimerLabel?(0,n.jsx)(\"div\",{className:L().primaryDisclaimerContainer,children:(0,n.jsx)(w.ZP,{className:L().paragraph,children:x.liveRankingDisclaimerLabel})}):null,(0,n.jsx)(\"div\",{className:L().badgeWrapperLive,children:(0,n.jsx)(u.C,{label:x.liveRankingLiveLabel||\"Live\",live:!0,hasBackground:!0})})]});case C.LiveRankingMode.Preview:return(0,n.jsx)(\"div\",{className:L().badgeWrapper,children:(0,n.jsx)(u.C,{label:x.rankingOpeningSoon||\"Ranking window opening soon\"})});case C.LiveRankingMode.Highlight:return(0,n.jsx)(\"div\",{classNa",
+          "Name:L().primaryDisclaimerContainer,children:(0,n.jsx)(w.ZP,{className:L().paragraph,children:x.liveRankingDisclaimerLabel})}):null,(0,n.jsx)(\"div\",{className:L().badgeWrapperLive,children:(0,n.jsx)(u.C,{label:x.liveRankingLiveLabel||\"Live\",live:!0,hasBackground:!0})})]});case C.LiveRankingMode.Preview:return(0,n.jsx)(\"div\",{className:L().badgeWrapper,children:(0,n.jsx)(u.C,{label:x.rankingOpeningSoon||\"Ranking window opening soon\"})});case C.LiveRankingMode.Highlight:return(0,n.jsx)(\"div\",{className:L().badgeWrapperHighlight,children:(0,n.jsx)(u.C,{label:x.matchWi"
+        ],
+        "live-ranking": [
+          "Button__Oba9A\",nextMatchesDate:\"international-ranking-window_nextMatchesDate__wBdrC\",kickoffDayLabel:\"international-ranking-window_kickoffDayLabel__v_tG7\",tooltipWrapper:\"international-ranking-window_tooltipWrapper__bcLS8\"}},89814:function(e){e.exports={dataGridOptionsContainer:\"live-ranking-mobile-filter_dataGridOptionsContainer__hSXc_\",newFilterButtonMobile:\"live-ranking-mobile-filter_newFilterButtonMobile__TudCs\",searchInput:\"live-ranking-mobile-filter_searchInput__nZSM6\",activeFiltersCount:\"live-ranking-mobile-filter_activeFiltersCount__7cHml\",clearButton:\"live-",
+          "\",kickoffDayLabel:\"international-ranking-window_kickoffDayLabel__v_tG7\",tooltipWrapper:\"international-ranking-window_tooltipWrapper__bcLS8\"}},89814:function(e){e.exports={dataGridOptionsContainer:\"live-ranking-mobile-filter_dataGridOptionsContainer__hSXc_\",newFilterButtonMobile:\"live-ranking-mobile-filter_newFilterButtonMobile__TudCs\",searchInput:\"live-ranking-mobile-filter_searchInput__nZSM6\",activeFiltersCount:\"live-ranking-mobile-filter_activeFiltersCount__7cHml\",clearButton:\"live-ranking-mobile-filter_clearButton__LIRhQ\",filterSeparator:\"live-ranking-mobile-filt",
+          "\",tooltipWrapper:\"international-ranking-window_tooltipWrapper__bcLS8\"}},89814:function(e){e.exports={dataGridOptionsContainer:\"live-ranking-mobile-filter_dataGridOptionsContainer__hSXc_\",newFilterButtonMobile:\"live-ranking-mobile-filter_newFilterButtonMobile__TudCs\",searchInput:\"live-ranking-mobile-filter_searchInput__nZSM6\",activeFiltersCount:\"live-ranking-mobile-filter_activeFiltersCount__7cHml\",clearButton:\"live-ranking-mobile-filter_clearButton__LIRhQ\",filterSeparator:\"live-ranking-mobile-filter_filterSeparator__Igo0o\",filterBlock:\"live-ranking-mobile-filter_fil",
+          "8\"}},89814:function(e){e.exports={dataGridOptionsContainer:\"live-ranking-mobile-filter_dataGridOptionsContainer__hSXc_\",newFilterButtonMobile:\"live-ranking-mobile-filter_newFilterButtonMobile__TudCs\",searchInput:\"live-ranking-mobile-filter_searchInput__nZSM6\",activeFiltersCount:\"live-ranking-mobile-filter_activeFiltersCount__7cHml\",clearButton:\"live-ranking-mobile-filter_clearButton__LIRhQ\",filterSeparator:\"live-ranking-mobile-filter_filterSeparator__Igo0o\",filterBlock:\"live-ranking-mobile-filter_filterBlock__k7Acn\",filtersSection:\"live-ranking-mobile-filter_filters",
+          "nking-mobile-filter_dataGridOptionsContainer__hSXc_\",newFilterButtonMobile:\"live-ranking-mobile-filter_newFilterButtonMobile__TudCs\",searchInput:\"live-ranking-mobile-filter_searchInput__nZSM6\",activeFiltersCount:\"live-ranking-mobile-filter_activeFiltersCount__7cHml\",clearButton:\"live-ranking-mobile-filter_clearButton__LIRhQ\",filterSeparator:\"live-ranking-mobile-filter_filterSeparator__Igo0o\",filterBlock:\"live-ranking-mobile-filter_filterBlock__k7Acn\",filtersSection:\"live-ranking-mobile-filter_filtersSection__Zw_g2\"}},83774:function(e){e.exports={rankingWindowContain",
+          "ttonMobile:\"live-ranking-mobile-filter_newFilterButtonMobile__TudCs\",searchInput:\"live-ranking-mobile-filter_searchInput__nZSM6\",activeFiltersCount:\"live-ranking-mobile-filter_activeFiltersCount__7cHml\",clearButton:\"live-ranking-mobile-filter_clearButton__LIRhQ\",filterSeparator:\"live-ranking-mobile-filter_filterSeparator__Igo0o\",filterBlock:\"live-ranking-mobile-filter_filterBlock__k7Acn\",filtersSection:\"live-ranking-mobile-filter_filtersSection__Zw_g2\"}},83774:function(e){e.exports={rankingWindowContainer:\"live-world-ranking-table_rankingWindowContainer__aNmlo\",info",
+          "dCs\",searchInput:\"live-ranking-mobile-filter_searchInput__nZSM6\",activeFiltersCount:\"live-ranking-mobile-filter_activeFiltersCount__7cHml\",clearButton:\"live-ranking-mobile-filter_clearButton__LIRhQ\",filterSeparator:\"live-ranking-mobile-filter_filterSeparator__Igo0o\",filterBlock:\"live-ranking-mobile-filter_filterBlock__k7Acn\",filtersSection:\"live-ranking-mobile-filter_filtersSection__Zw_g2\"}},83774:function(e){e.exports={rankingWindowContainer:\"live-world-ranking-table_rankingWindowContainer__aNmlo\",infoAndFiltersWrapper:\"live-world-ranking-table_infoAndFiltersWrappe",
+          "\",activeFiltersCount:\"live-ranking-mobile-filter_activeFiltersCount__7cHml\",clearButton:\"live-ranking-mobile-filter_clearButton__LIRhQ\",filterSeparator:\"live-ranking-mobile-filter_filterSeparator__Igo0o\",filterBlock:\"live-ranking-mobile-filter_filterBlock__k7Acn\",filtersSection:\"live-ranking-mobile-filter_filtersSection__Zw_g2\"}},83774:function(e){e.exports={rankingWindowContainer:\"live-world-ranking-table_rankingWindowContainer__aNmlo\",infoAndFiltersWrapper:\"live-world-ranking-table_infoAndFiltersWrapper__94rh8\",updateDates:\"live-world-ranking-table_updateDates__VK"
+        ],
+        "fifa-world-ranking": [
+          "astUpdateDate:null==c?void 0:c.lastUpdateDate,nextUpdateDate:null==c?void 0:c.nextUpdateDate,isUnranked:!1,countryCode:r,gender:Q.Y0.Male,footballType:ep.d.Football,pollingInterval:c.pollingInterval}),(0,v.jsx)(ac.W,{className:av().fullRankingButton,variant:au.L.Secondary,link:\"/fifa-world-ranking/men\",children:null==d?void 0:d.fullMensRankingLabel})]}):null,p?(0,v.jsxs)(\"div\",{className:av().panel,children:[(0,v.jsx)(eQ.T,{title:null!==(i=null==d?void 0:d.womensLabel)&&void 0!==i?i:\"Women's\",rankingListLabels:s.rankingListLabels,dates:null!==(o=null==u?void 0:u.dates)&&v",
+          "tUpdateDate:null==u?void 0:u.lastUpdateDate,nextUpdateDate:null==u?void 0:u.nextUpdateDate,isUnranked:!1,countryCode:r,gender:Q.Y0.Female,footballType:ep.d.Football,pollingInterval:u.pollingInterval}),(0,v.jsx)(ac.W,{className:av().fullRankingButton,variant:au.L.Secondary,link:\"/fifa-world-ranking/women\",children:null==d?void 0:d.fullWomensRankingLabel})]}):null]})]}):null}let aw={[M.P.Live]:3,[M.P.Preview]:2,[M.P.Highlight]:1};function a_(e){return e&&aw[e]||0}function ax(){for(var e,a=arguments.length,t=Array(a),n=0;n<a;n++)t[n]=arguments[n];let l=M.P.Highlight;for(let ",
+          "tp=t(89559),tg=t.n(tp);function tf(e){let{gender:a,locale:t,showAllRows:n,hasMoreRows:l,isDark:i,rankingListLabels:o,onToggleRows:r}=e,s=(0,U.S)(),{width:d}=(0,A.$z)(),c=d<=W.nf.sm,u=s?m.FCDSIconType.ArrowLeft:m.FCDSIconType.ArrowRight,C=a===Q.Y0.Male?\"men\":\"women\",h=\"\".concat(\"/fifa-world-ranking\",\"/\").concat(C),g=a===Q.Y0.Male?o.mensRankingUrlText:o.womensRankingUrlText,f=a===Q.Y0.Male?o.unrankedMenDescriptionLabel||o.unrankedDescriptionLabel:o.unrankedWomenDescriptionLabel||o.unrankedDescriptionLabel,b=c?z.Z.Secondary:z.Z.Tertiary,k=p()(tg().fullRankingButton,{[tg().da",
+          "=(o=e.rankingItem.countryCode)&&void 0!==o?o:void 0,tag:e.tag,pointsDifference:Math.round((e.rankingItem.totalPoints-e.previousPoints+Number.EPSILON)*100)/100,nextUpdateDate:e.nextUpdateDate,lastUpdateDate:e.lastUpdateDate}}),i=(e,a,t)=>{if(e)return\"\".concat(t?\"/\".concat(t):\"\",\"/fifa-world-ranking/\").concat(e).concat(a?\"?gender=\".concat(a):\"\")}},67496:function(e,a,t){\"use strict\";t.d(a,{Cx:function(){return s},G5:function(){return d},L2:function(){return v},TZ:function(){return h},bc:function(){return C},fo:function(){return m},nW:function(){return u}});var n=t(30061),l=t"
+        ],
+        "lastUpdateDate": [
+          "me:{defaultBackgroundColor:\"var(--fcds-white)\",borderColor:\"var(--fcds-light-grey)\"},onOptionSelected:(e,a)=>(null==a?void 0:a[0])&&P({id:a[0],text:a[0]})}),(0,n.jsx)(h.D,{labels:p,currentlyQualifiedHighlighted:x,isAnyClubQualified:W})]}),labels:{lastUpdateLabel:null==p?void 0:p.lastUpdateDateLabel,showAllRowsLabel:null==p?void 0:p.showAllLabel,showLessRowsLabel:(null==p?void 0:p.showLessLabel)||\"Show less\",searchAllPlaceholderLabel:null==p?void 0:p.searchLabel},dateUpdate:{lastDateUpdate:(0,m.p6)(null!=o?o:void 0,m.SQ,j)},DataGridFiltersPanelProps:{appliedFiltersVisi",
+          "_=e=>{switch(e){case g.Y0.Female:return h.M.WOMEN;case g.Y0.Male:default:return h.M.MEN}},x=e=>{var a,t,o,h,k;let{rankingListLabels:x,footballType:y,dates:M,resolvedWindow:H,title:S,countryCode:T,isUnranked:j,gender:D,onLoadingChange:R,hidePrimaryDisclaimer:N=!1,mode:P=m.B9.Full,lastUpdateDate:F,nextUpdateDate:I,pollingInterval:A}=e,{rankingMode:W=C.LiveRankingMode.Highlight,window:E}=null!=H?H:{},{locale:V=\"en\"}=(0,i.useRouter)(),{isLoading:Z,rankingData:U,matchWindowResults:B}=(0,v.p6)({rankingMode:W,dates:M,footballType:y,gender:D,countryCode:T,pollingInterval:A});",
+          "Limit:5,onTableDataUpdate:e=>{var a;let t=\"desc\"===e.sortDirection?\"descending\":\"ascending\";p.N.track(\"asset_click\",{asset_type:\"InsideRankingSort\",asset_name:\"Sort by \".concat(null!==(a=e.sortColumn)&&void 0!==a?a:\"\",\" \").concat(t),click_action:\"Asset Click\"})}}),(0,n.jsx)(f.Z,{lastUpdateDate:F,nextUpdateDate:I,displayMode:m.B9.Summary,locale:V,labels:x,className:L().updateDates})]})]})})}},16142:function(e,a,t){\"use strict\";t.d(a,{e:function(){return u}});var n=t(85893),l=t(93967),i=t.n(l),o=t(71631),r=t(8837),s=t(63549),d=t(83437),c=t.n(d);let u=e=>{var a,t;let{cel",
+          "(60908),y=t(8837);let M=e=>{switch(e){case o.Y0.Female:return d.M.WOMEN;case o.Y0.Male:default:return d.M.MEN}},H=e=>{let{gender:a,rankingListLabels:t,footballType:d,headerLogo:m,boldCards:p,redirectButton:H,hasDarkBackground:S=!1,dates:T,resolvedWindow:j,displayMode:D=u.B9.Full,lastUpdateDate:R,nextUpdateDate:N,rowLimit:P=10,hidePrimaryDisclaimer:F=!1,pollingInterval:I}=e,{rankingMode:A=c.LiveRankingMode.Highlight,isOpen:W,window:E}=j,{locale:V=\"en\"}=(0,l.useRouter)(),Z=D===u.B9.Full||D===u.B9.Embedded,U=e=>{var a;let t=\"desc\"===e.sortDirection?\"descending\":\"ascendin",
+          "thDates,children:(0,n.jsx)(\"div\",{className:g().tableWrapper,children:B?(0,n.jsx)(\"div\",{className:g().loadingWrapper,children:(0,n.jsx)(r.C,{color:S?w.u.WHITE:void 0})}):(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(s.iA,{tableData:K,rowLimit:P,onTableDataUpdate:U}),(0,n.jsx)(x.Z,{lastUpdateDate:R,nextUpdateDate:N,displayMode:u.B9.Summary,locale:V,labels:t,className:h()(g().updateDates,S&&g().inverted),hasDarkBackground:S})]})})})})}):B?(0,n.jsx)(\"div\",{className:g().loadingWrapper,children:(0,n.jsx)(r.C,{color:S?w.u.WHITE:void 0})}):(0,n.jsxs)(n.Fragment,{children:[(0,",
+          "h()(g().updateDates,S&&g().inverted),hasDarkBackground:S})]})})})})}):B?(0,n.jsx)(\"div\",{className:g().loadingWrapper,children:(0,n.jsx)(r.C,{color:S?w.u.WHITE:void 0})}):(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(s.iA,{tableData:K,rowLimit:P,onTableDataUpdate:U}),(0,n.jsx)(x.Z,{lastUpdateDate:R,nextUpdateDate:N,displayMode:u.B9.Summary,locale:V,labels:t,className:h()(g().updateDates,S&&g().inverted),hasDarkBackground:S})]}),H&&(0,n.jsx)(\"div\",{className:g().additionalBtn,children:(0,n.jsx)(f.W,{...H,inverted:S})})]})})}},60908:function(e,a,t){\"use strict\";t.d(a,{Z:fu",
+          "}},60908:function(e,a,t){\"use strict\";t.d(a,{Z:function(){return m}});var n=t(85893),l=t(67294),i=t(93967),o=t.n(i),r=t(30760),s=t(24406),d=t(32583),c=t(74086),u=t(43062),C=t.n(u);let v=()=>(0,n.jsx)(r.FCDSIcon,{type:r.FCDSIconType.Clock,className:C().justUpdatedIcon}),m=e=>{let{lastUpdateDate:a,nextUpdateDate:t,displayMode:i=s.B9.Full,locale:r,labels:u,className:m,hasDarkBackground:h=!1}=e,[p,g]=(0,l.useMemo)(()=>[a?(0,c.p6)(a,c.O2,r):\"\",!!a&&2>(0,c.VS)(new Date,new Date(a))],[a,r]),f=(0,l.useMemo)(()=>{if(t){var e;return null!==(e=(0,d.j)(new Date(t),{dayLabel:u.day",
+          "nk,flag:(0,u.B3)(a.IdCountry,d.S.Square,d.N.Two,null!=l?l:\"\"),name:null!=l?l:\"\",totalPoints:null!==(t=a.TotalPoints)&&void 0!==t?t:0,active:!1,previousRank:a.PrevRank,countryURL:(0,C.h2)(a.IdCountry),countryCode:a.IdCountry},previousPoints:null!==(n=a.PrevPoints)&&void 0!==n?n:0,lastUpdateDate:\"\",nextUpdateDate:\"\",tag:{id:a.ConfederationName,text:a.ConfederationName}})}return e},[]))&&void 0!==t?t:[]}var f=t(21105),b=t(73018),k=t(34858),L=t(67496),w=t(73399),_=t(75829),x=t(89824);let y=\"LiveRanking\",M=e=>{var a,t,d,c,u,C;let h=(0,n.useRouter)(),[p,g]=(0,l.useState)(!1"
+        ]
+      }
     },
     {
-      "dateId": "FRS_Male_Football_20260401",
-      "iso": "2026-06-11T10:00:59.636Z",
-      "dateText": "11 June",
-      "url": "https://vod.fifa.com/api/ranking-overview?locale=en&dateId=FRS_Male_Football_20260401",
-      "status": 200,
-      "contentType": "application/json; charset=utf-8",
-      "bytes": 15,
-      "count": 0,
-      "top": [],
-      "preview": "{\"rankings\":[]}"
+      "url": "https://vod.fifa.com/_next/static/chunks/8569.0a438051ce3a1d08.js",
+      "bytes": 12680,
+      "matched": {
+        "fifa-world-ranking": [
+          ".relativeUrl.includes(o)&&\"en\"!==o?\"/\"+o+t.relativeUrl:t.relativeUrl;if(t&&\"url\"in t&&t.url)return null==t?void 0:t.url;if(n(t)){var e;return null!==(e=t.fallbackUrl)&&void 0!==e?e:\"\"}return console.warn(\"Unable to create URL\",{item:t}),\"\"},i=t=>\"/associations/\".concat(t),c=t=>\"/fifa-world-ranking/\".concat(t),a=(t,o)=>\"\".concat(\"en\"===o?\"\":\"/\".concat(o),\"/news/\").concat(t),l=(t,o)=>\"\".concat(\"en\"===o?\"\":\"/\".concat(o),\"/media-releases/\").concat(t)},40768:function(t){t.exports={dropup:\"ff-dropdown-with-router_dropup__hxvkJ\",dropupButton:\"ff-dropdown-with-router_dropupButton"
+        ]
+      }
     },
     {
-      "dateId": "FRS_Male_Football_20260401",
-      "iso": "2026-06-11T10:00:59.636Z",
-      "dateText": "11 June",
-      "url": "https://inside.fifa.com/api/ranking-overview?locale=en&dateId=FRS_Male_Football_20260401",
-      "status": 200,
-      "contentType": "application/json; charset=utf-8",
-      "bytes": 15,
-      "count": 0,
-      "top": [],
-      "preview": "{\"rankings\":[]}"
+      "url": "https://vod.fifa.com/_next/static/chunks/8022.11a9ba619864284b.js",
+      "bytes": 36169,
+      "matched": {
+        "ranking-overview": [
+          "vigationContainer:\"tab-navigation_tabNavigationContainer__Dpdgx\",title:\"tab-navigation_title___Ub8a\",desktopNavContainer:\"tab-navigation_desktopNavContainer__8vCdM\",mobileNavContainer:\"tab-navigation_mobileNavContainer__vN6im\"}},91111:function(e){e.exports={heroWithTableWrapper:\"ranking-overview-template_heroWithTableWrapper___xoyi\"}},58139:function(e,a,t){\"use strict\";t.d(a,{Rq:function(){return i}});let l=e=>\"object\"==typeof e&&\"function\"==typeof e.then,n=[],i=(e,a,t)=>(function(e,a=null,t=!1,i={}){for(let l of(null===a&&(a=[e]),n))if(function(e,a,t=(e,a)=>e===a){if(e"
+        ],
+        "rankingItem": [
+          "a))}):(0,l.jsx)(l.Fragment,{}),i&&(0,l.jsx)(\"div\",{className:R().additionalDescription,children:i})]})]})};var P=t(56655),S=t(7),F=t(71964),I=t(13901),A=t(11516),H=t(87066),M=t(67693),O=t(79254),B=t(61253);let V=e=>(e.rankings||[]).map(e=>{var a,t,l,n,i;return{idTeam:null!==(a=e.rankingItem.idTeam)&&void 0!==a?a:void 0,rank:null!==(t=e.rankingItem.rank)&&void 0!==t?t:void 0,flag:(0,B.b)(e.rankingItem.flag),name:e.rankingItem.name,totalPoints:e.rankingItem.totalPoints,previousPoints:e.previousPoints,active:null!==(l=e.rankingItem.active)&&void 0!==l?l:void 0,previou",
+          "me:R().additionalDescription,children:i})]})]})};var P=t(56655),S=t(7),F=t(71964),I=t(13901),A=t(11516),H=t(87066),M=t(67693),O=t(79254),B=t(61253);let V=e=>(e.rankings||[]).map(e=>{var a,t,l,n,i;return{idTeam:null!==(a=e.rankingItem.idTeam)&&void 0!==a?a:void 0,rank:null!==(t=e.rankingItem.rank)&&void 0!==t?t:void 0,flag:(0,B.b)(e.rankingItem.flag),name:e.rankingItem.name,totalPoints:e.rankingItem.totalPoints,previousPoints:e.previousPoints,active:null!==(l=e.rankingItem.active)&&void 0!==l?l:void 0,previousRank:null!==(n=e.rankingItem.previousRank)&&void 0!==n?n:",
+          "=t(56655),S=t(7),F=t(71964),I=t(13901),A=t(11516),H=t(87066),M=t(67693),O=t(79254),B=t(61253);let V=e=>(e.rankings||[]).map(e=>{var a,t,l,n,i;return{idTeam:null!==(a=e.rankingItem.idTeam)&&void 0!==a?a:void 0,rank:null!==(t=e.rankingItem.rank)&&void 0!==t?t:void 0,flag:(0,B.b)(e.rankingItem.flag),name:e.rankingItem.name,totalPoints:e.rankingItem.totalPoints,previousPoints:e.previousPoints,active:null!==(l=e.rankingItem.active)&&void 0!==l?l:void 0,previousRank:null!==(n=e.rankingItem.previousRank)&&void 0!==n?n:void 0,countryURL:e.rankingItem.countryURL,countryCode",
+          "4),I=t(13901),A=t(11516),H=t(87066),M=t(67693),O=t(79254),B=t(61253);let V=e=>(e.rankings||[]).map(e=>{var a,t,l,n,i;return{idTeam:null!==(a=e.rankingItem.idTeam)&&void 0!==a?a:void 0,rank:null!==(t=e.rankingItem.rank)&&void 0!==t?t:void 0,flag:(0,B.b)(e.rankingItem.flag),name:e.rankingItem.name,totalPoints:e.rankingItem.totalPoints,previousPoints:e.previousPoints,active:null!==(l=e.rankingItem.active)&&void 0!==l?l:void 0,previousRank:null!==(n=e.rankingItem.previousRank)&&void 0!==n?n:void 0,countryURL:e.rankingItem.countryURL,countryCode:null!==(i=e.rankingItem.",
+          "066),M=t(67693),O=t(79254),B=t(61253);let V=e=>(e.rankings||[]).map(e=>{var a,t,l,n,i;return{idTeam:null!==(a=e.rankingItem.idTeam)&&void 0!==a?a:void 0,rank:null!==(t=e.rankingItem.rank)&&void 0!==t?t:void 0,flag:(0,B.b)(e.rankingItem.flag),name:e.rankingItem.name,totalPoints:e.rankingItem.totalPoints,previousPoints:e.previousPoints,active:null!==(l=e.rankingItem.active)&&void 0!==l?l:void 0,previousRank:null!==(n=e.rankingItem.previousRank)&&void 0!==n?n:void 0,countryURL:e.rankingItem.countryURL,countryCode:null!==(i=e.rankingItem.countryCode)&&void 0!==i?i:void",
+          " a,t,l,n,i;return{idTeam:null!==(a=e.rankingItem.idTeam)&&void 0!==a?a:void 0,rank:null!==(t=e.rankingItem.rank)&&void 0!==t?t:void 0,flag:(0,B.b)(e.rankingItem.flag),name:e.rankingItem.name,totalPoints:e.rankingItem.totalPoints,previousPoints:e.previousPoints,active:null!==(l=e.rankingItem.active)&&void 0!==l?l:void 0,previousRank:null!==(n=e.rankingItem.previousRank)&&void 0!==n?n:void 0,countryURL:e.rankingItem.countryURL,countryCode:null!==(i=e.rankingItem.countryCode)&&void 0!==i?i:void 0,tag:e.tag,pointsDifference:Math.round((e.rankingItem.totalPoints-e.previ",
+          "=a?a:void 0,rank:null!==(t=e.rankingItem.rank)&&void 0!==t?t:void 0,flag:(0,B.b)(e.rankingItem.flag),name:e.rankingItem.name,totalPoints:e.rankingItem.totalPoints,previousPoints:e.previousPoints,active:null!==(l=e.rankingItem.active)&&void 0!==l?l:void 0,previousRank:null!==(n=e.rankingItem.previousRank)&&void 0!==n?n:void 0,countryURL:e.rankingItem.countryURL,countryCode:null!==(i=e.rankingItem.countryCode)&&void 0!==i?i:void 0,tag:e.tag,pointsDifference:Math.round((e.rankingItem.totalPoints-e.previousPoints+Number.EPSILON)*100)/100,nextUpdateDate:e.nextUpdateDate",
+          ":void 0,flag:(0,B.b)(e.rankingItem.flag),name:e.rankingItem.name,totalPoints:e.rankingItem.totalPoints,previousPoints:e.previousPoints,active:null!==(l=e.rankingItem.active)&&void 0!==l?l:void 0,previousRank:null!==(n=e.rankingItem.previousRank)&&void 0!==n?n:void 0,countryURL:e.rankingItem.countryURL,countryCode:null!==(i=e.rankingItem.countryCode)&&void 0!==i?i:void 0,tag:e.tag,pointsDifference:Math.round((e.rankingItem.totalPoints-e.previousPoints+Number.EPSILON)*100)/100,nextUpdateDate:e.nextUpdateDate,lastUpdateDate:e.lastUpdateDate}});var G=t(6916),W=t(24225)"
+        ],
+        "liveRanking": [
+          "4170)).then(e=>e.LiveWorldRankingTable),{loadableGenerated:{webpack:()=>[74170]}}),ei=e=>{let{asPath:a,locale:t}=(0,v.useRouter)();(0,o.useEffect)(()=>{(0,K.Y8)({locale:t,url:a},window.digitalData,Z.UX.ListRanking,Z.Ub.ScreenView)},[]);let n=(0,s.aj)({breakpoint:r.YR.md}),{useNewLiveRankingTable:i}=e,{ref:p,inView:g}=(0,d.YD)({triggerOnce:!0,fallbackInView:!0}),{ref:m,inView:_}=(0,d.YD)({triggerOnce:!0,fallbackInView:!0}),h=e.sectionCard&&_&&(0,l.jsx)(\"div\",{className:\"container\",children:(0,l.jsx)(\"div\",{className:\"ff-my-64\",children:(0,l.jsx)(el,{...e.sectionCard"
+        ],
+        "ranking-overview-template": [
+          "vigationContainer:\"tab-navigation_tabNavigationContainer__Dpdgx\",title:\"tab-navigation_title___Ub8a\",desktopNavContainer:\"tab-navigation_desktopNavContainer__8vCdM\",mobileNavContainer:\"tab-navigation_mobileNavContainer__vN6im\"}},91111:function(e){e.exports={heroWithTableWrapper:\"ranking-overview-template_heroWithTableWrapper___xoyi\"}},58139:function(e,a,t){\"use strict\";t.d(a,{Rq:function(){return i}});let l=e=>\"object\"==typeof e&&\"function\"==typeof e.then,n=[],i=(e,a,t)=>(function(e,a=null,t=!1,i={}){for(let l of(null===a&&(a=[e]),n))if(function(e,a,t=(e,a)=>e===a){if(e===a)retu"
+        ],
+        "lastUpdateDate": [
+          "ion(e,a,t){\"use strict\";t.d(a,{P:function(){return m}});var l=t(85893),n=t(11163),i=t(67294),o=t(93967),r=t.n(o),s=t(11109),d=t(37648),c=t(74086),u=t(8837),b=t(32583),v=t(37220),p=t.n(v),g=t(89824);let m=e=>{var a,t,o,v,m;let _=(0,n.useRouter)().locale,[h,k]=(0,i.useMemo)(()=>[e.lastUpdateDate?(0,c.p6)(e.lastUpdateDate,c.O2,_):void 0,e.lastUpdateDate?2>(0,c.VS)(new Date,new Date(e.lastUpdateDate)):void 0],[e.lastUpdateDate,_]),L=(0,i.useMemo)(()=>{if(e.nextUpdateDate){var a,t,l,n;return null!==(n=(0,b.j)(new Date(e.nextUpdateDate),{dayLabel:(null===(a=e.rankingListLab",
+          "d(a,{P:function(){return m}});var l=t(85893),n=t(11163),i=t(67294),o=t(93967),r=t.n(o),s=t(11109),d=t(37648),c=t(74086),u=t(8837),b=t(32583),v=t(37220),p=t.n(v),g=t(89824);let m=e=>{var a,t,o,v,m;let _=(0,n.useRouter)().locale,[h,k]=(0,i.useMemo)(()=>[e.lastUpdateDate?(0,c.p6)(e.lastUpdateDate,c.O2,_):void 0,e.lastUpdateDate?2>(0,c.VS)(new Date,new Date(e.lastUpdateDate)):void 0],[e.lastUpdateDate,_]),L=(0,i.useMemo)(()=>{if(e.nextUpdateDate){var a,t,l,n;return null!==(n=(0,b.j)(new Date(e.nextUpdateDate),{dayLabel:(null===(a=e.rankingListLabels)||void 0===a?void 0:a.",
+          "r l=t(85893),n=t(11163),i=t(67294),o=t(93967),r=t.n(o),s=t(11109),d=t(37648),c=t(74086),u=t(8837),b=t(32583),v=t(37220),p=t.n(v),g=t(89824);let m=e=>{var a,t,o,v,m;let _=(0,n.useRouter)().locale,[h,k]=(0,i.useMemo)(()=>[e.lastUpdateDate?(0,c.p6)(e.lastUpdateDate,c.O2,_):void 0,e.lastUpdateDate?2>(0,c.VS)(new Date,new Date(e.lastUpdateDate)):void 0],[e.lastUpdateDate,_]),L=(0,i.useMemo)(()=>{if(e.nextUpdateDate){var a,t,l,n;return null!==(n=(0,b.j)(new Date(e.nextUpdateDate),{dayLabel:(null===(a=e.rankingListLabels)||void 0===a?void 0:a.dayLabel)||\"day\",daysLabel:(null",
+          "r=t.n(o),s=t(11109),d=t(37648),c=t(74086),u=t(8837),b=t(32583),v=t(37220),p=t.n(v),g=t(89824);let m=e=>{var a,t,o,v,m;let _=(0,n.useRouter)().locale,[h,k]=(0,i.useMemo)(()=>[e.lastUpdateDate?(0,c.p6)(e.lastUpdateDate,c.O2,_):void 0,e.lastUpdateDate?2>(0,c.VS)(new Date,new Date(e.lastUpdateDate)):void 0],[e.lastUpdateDate,_]),L=(0,i.useMemo)(()=>{if(e.nextUpdateDate){var a,t,l,n;return null!==(n=(0,b.j)(new Date(e.nextUpdateDate),{dayLabel:(null===(a=e.rankingListLabels)||void 0===a?void 0:a.dayLabel)||\"day\",daysLabel:(null===(t=e.rankingListLabels)||void 0===t?void 0:",
+          "8),c=t(74086),u=t(8837),b=t(32583),v=t(37220),p=t.n(v),g=t(89824);let m=e=>{var a,t,o,v,m;let _=(0,n.useRouter)().locale,[h,k]=(0,i.useMemo)(()=>[e.lastUpdateDate?(0,c.p6)(e.lastUpdateDate,c.O2,_):void 0,e.lastUpdateDate?2>(0,c.VS)(new Date,new Date(e.lastUpdateDate)):void 0],[e.lastUpdateDate,_]),L=(0,i.useMemo)(()=>{if(e.nextUpdateDate){var a,t,l,n;return null!==(n=(0,b.j)(new Date(e.nextUpdateDate),{dayLabel:(null===(a=e.rankingListLabels)||void 0===a?void 0:a.dayLabel)||\"day\",daysLabel:(null===(t=e.rankingListLabels)||void 0===t?void 0:t.daysLabel)||\"days\",locale:",
+          "previousRank)&&void 0!==n?n:void 0,countryURL:e.rankingItem.countryURL,countryCode:null!==(i=e.rankingItem.countryCode)&&void 0!==i?i:void 0,tag:e.tag,pointsDifference:Math.round((e.rankingItem.totalPoints-e.previousPoints+Number.EPSILON)*100)/100,nextUpdateDate:e.nextUpdateDate,lastUpdateDate:e.lastUpdateDate}});var G=t(6916),W=t(24225);let U=e=>{var a,t,l,n,i,r,s;let d=(0,v.useRouter)(),[c,u]=(0,o.useState)(!1),[b,p]=(0,o.useState)([]),[g,m]=(0,o.useState)(null===(t=e.dates)||void 0===t?void 0:null===(a=t[0])||void 0===a?void 0:a.year),[_,h]=(0,o.useState)((null===(",
+          "id 0!==n?n:void 0,countryURL:e.rankingItem.countryURL,countryCode:null!==(i=e.rankingItem.countryCode)&&void 0!==i?i:void 0,tag:e.tag,pointsDifference:Math.round((e.rankingItem.totalPoints-e.previousPoints+Number.EPSILON)*100)/100,nextUpdateDate:e.nextUpdateDate,lastUpdateDate:e.lastUpdateDate}});var G=t(6916),W=t(24225);let U=e=>{var a,t,l,n,i,r,s;let d=(0,v.useRouter)(),[c,u]=(0,o.useState)(!1),[b,p]=(0,o.useState)([]),[g,m]=(0,o.useState)(null===(t=e.dates)||void 0===t?void 0:null===(a=t[0])||void 0===a?void 0:a.year),[_,h]=(0,o.useState)((null===(l=d.query)||void ",
+          "els.unrankedDescriptionLabel)&&void 0!==n?n:\"\",labels:{showMore:null!==(i=e.rankingListLabels.noticeShowMoreLabel)&&void 0!==i?i:void 0,showLess:null!==(o=e.rankingListLabels.noticeShowLessLabel)&&void 0!==o?o:void 0}})}):(0,l.jsx)(l.Fragment,{})},nextUpdateDate:e.nextUpdateDate,lastUpdateDate:e.lastUpdateDate,rankingListLabels:e.rankingListLabels,disableOptionsSection:!0,lazyLoadedRows:!0,liveWorldRankingFiltersPanelProps:{showFilters:!0,activeFiltersCount:x,labels:{filterBtnLabel:e.rankingListLabels.filterBtnLabel||void 0,resetFiltersLabel:e.rankingListLabels.resetF"
+        ]
+      }
     },
     {
-      "dateId": "FRS_Male_Football_20260401",
-      "iso": "2026-06-11T10:00:59.636Z",
-      "dateText": "11 June",
-      "url": "https://rusecure.fifa.com/api/ranking-overview?locale=en&dateId=FRS_Male_Football_20260401",
-      "status": 200,
-      "contentType": "application/json; charset=utf-8",
-      "bytes": 15,
-      "count": 0,
-      "top": [],
-      "preview": "{\"rankings\":[]}"
+      "url": "https://vod.fifa.com/_next/static/chunks/pages/fifa-world-ranking/%5B...country%5D-4db5c35dc443e715.js",
+      "bytes": 398,
+      "matched": {
+        "fifa-world-ranking": [
+          "(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[5695],{64253:function(n,u,_){(window.__NEXT_P=window.__NEXT_P||[]).push([\"/fifa-world-ranking/[...country]\",function(){return _(93442)}])},93442:function(n,u,_){\"use strict\";_.r(u),_.d(u,{__N_SSP:function(){return r}});var t=_(10461),r=!0;u.default=t.T3}},function(n){n.O(0,[461,2888,9774,179],function(){return n(n.s=64253)}),_N_E=n.O()}]);"
+        ]
+      }
     },
     {
-      "dateId": "FRS_Male_Football_20260119",
-      "iso": "2026-04-01T11:55:29.435Z",
-      "dateText": "01 April",
-      "url": "https://vod.fifa.com/api/ranking-overview?locale=en&dateId=FRS_Male_Football_20260119",
-      "status": 200,
-      "contentType": "application/json; charset=utf-8",
-      "bytes": 15,
-      "count": 0,
-      "top": [],
-      "preview": "{\"rankings\":[]}"
-    },
-    {
-      "dateId": "FRS_Male_Football_20260119",
-      "iso": "2026-04-01T11:55:29.435Z",
-      "dateText": "01 April",
-      "url": "https://inside.fifa.com/api/ranking-overview?locale=en&dateId=FRS_Male_Football_20260119",
-      "status": 200,
-      "contentType": "application/json; charset=utf-8",
-      "bytes": 15,
-      "count": 0,
-      "top": [],
-      "preview": "{\"rankings\":[]}"
-    },
-    {
-      "dateId": "FRS_Male_Football_20260119",
-      "iso": "2026-04-01T11:55:29.435Z",
-      "dateText": "01 April",
-      "url": "https://rusecure.fifa.com/api/ranking-overview?locale=en&dateId=FRS_Male_Football_20260119",
-      "status": 200,
-      "contentType": "application/json; charset=utf-8",
-      "bytes": 15,
-      "count": 0,
-      "top": [],
-      "preview": "{\"rankings\":[]}"
-    },
-    {
-      "dateId": "FRS_Male_Football_20251219",
-      "iso": "2026-01-19T17:11:57.976Z",
-      "dateText": "19 January",
-      "url": "https://vod.fifa.com/api/ranking-overview?locale=en&dateId=FRS_Male_Football_20251219",
-      "status": 200,
-      "contentType": "application/json; charset=utf-8",
-      "bytes": 15,
-      "count": 0,
-      "top": [],
-      "preview": "{\"rankings\":[]}"
-    },
-    {
-      "dateId": "FRS_Male_Football_20251219",
-      "iso": "2026-01-19T17:11:57.976Z",
-      "dateText": "19 January",
-      "url": "https://inside.fifa.com/api/ranking-overview?locale=en&dateId=FRS_Male_Football_20251219",
-      "status": 200,
-      "contentType": "application/json; charset=utf-8",
-      "bytes": 15,
-      "count": 0,
-      "top": [],
-      "preview": "{\"rankings\":[]}"
-    },
-    {
-      "dateId": "FRS_Male_Football_20251219",
-      "iso": "2026-01-19T17:11:57.976Z",
-      "dateText": "19 January",
-      "url": "https://rusecure.fifa.com/api/ranking-overview?locale=en&dateId=FRS_Male_Football_20251219",
-      "status": 200,
-      "contentType": "application/json; charset=utf-8",
-      "bytes": 15,
-      "count": 0,
-      "top": [],
-      "preview": "{\"rankings\":[]}"
+      "url": "https://vod.fifa.com/_next/static/TdzGh7ssDL24idhfroO6B/_buildManifest.js",
+      "bytes": 5166,
+      "matched": {
+        "fifa-world-ranking": [
+          "/:id*\"}],beforeFiles:[],fallback:[]},\"/\":[a,\"static/chunks/pages/index-f379cbf8db1c919b.js\"],\"/_error\":[e,t,i,\"static/chunks/6569-a7cb7486c1c2e833.js\",c,\"static/chunks/9989-9315a58353d94c16.js\",\"static/css/f11a6607e33e7f71.css\",\"static/chunks/pages/_error-0b8d0e269c0f69ad.js\"],\"/fifa-world-ranking/[...country]\":[a,\"static/chunks/pages/fifa-world-ranking/[...country]-4db5c35dc443e715.js\"],\"/graphql\":[n,i,c,\"static/chunks/pages/graphql-6d49e83807b8ae97.js\"],\"/login\":[\"static/chunks/pages/login-f5160dcb6c04ab70.js\"],\"/logout\":[\"static/chunks/pages/logout-1ba3f58b91a27f92.js\"",
+          "s/pages/index-f379cbf8db1c919b.js\"],\"/_error\":[e,t,i,\"static/chunks/6569-a7cb7486c1c2e833.js\",c,\"static/chunks/9989-9315a58353d94c16.js\",\"static/css/f11a6607e33e7f71.css\",\"static/chunks/pages/_error-0b8d0e269c0f69ad.js\"],\"/fifa-world-ranking/[...country]\":[a,\"static/chunks/pages/fifa-world-ranking/[...country]-4db5c35dc443e715.js\"],\"/graphql\":[n,i,c,\"static/chunks/pages/graphql-6d49e83807b8ae97.js\"],\"/login\":[\"static/chunks/pages/login-f5160dcb6c04ab70.js\"],\"/logout\":[\"static/chunks/pages/logout-1ba3f58b91a27f92.js\"],\"/profile\":[\"static/chunks/fec483df-f802d7414f79cc0f.js",
+          "temaps/videos/[index]\":[\"static/chunks/pages/sitemaps/videos/[index]-e99314bb80c82565.js\"],\"/test/cdn\":[\"static/chunks/pages/test/cdn-561e1dfc5f7c6d18.js\"],\"/[...landing-pages]\":[a,\"static/chunks/pages/[...landing-pages]-1ec608f1eda28bb2.js\"],sortedPages:[\"/\",\"/_app\",\"/_error\",\"/fifa-world-ranking/[...country]\",\"/graphql\",\"/login\",\"/logout\",\"/profile\",\"/search-results\",\"/sitemaps/articles/[index]\",\"/sitemaps/auto-pages/[index]\",\"/sitemaps/blogs/[index]\",\"/sitemaps/media-releases/[index]\",\"/sitemaps/pages/[index]\",\"/sitemaps/sitemapindex\",\"/sitemaps/videos/[index]\",\"/test/"
+        ]
+      }
     }
-  ]
+  ],
+  "errors": []
 }
