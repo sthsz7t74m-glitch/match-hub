@@ -3,9 +3,11 @@ window.MLBApp = window.MLBApp || {};
 (function initializeMlbController(namespace) {
   const Core = window.FootballCore;
   const Data = window.MLBData;
-  const Api = window.MLBService;
   const UI = window.SportsUI || window.FootballUI;
   const View = window.MLBView;
+  const StoreModule = window.MLBStore;
+  const RepositoryModule = window.MLBRepository;
+  const Registry = window.SportsHubRegistry;
 
   const NODE_SELECTORS = Object.freeze({
     updated: '#mlbUpdated',
@@ -33,41 +35,54 @@ window.MLBApp = window.MLBApp || {};
     favoriteGames: '#favoriteGames'
   });
 
-  const createState = () => ({
-    season: Api.currentSeason(),
-    teams: [...Data.FALLBACK_TEAMS],
-    games: [],
-    standings: [],
-    players: null,
-    playersLoading: false,
-    selectedDate: '',
-    teamFilter: 'all',
-    standingFilter: 'all',
-    teamQuery: '',
-    errors: [],
-    loaded: false
-  });
-
   const collectNodes = root => Object.fromEntries(
     Object.entries(NODE_SELECTORS).map(([key, selector]) => [key, root.querySelector(selector)])
   );
 
+  const createStateFacade = store => new Proxy({}, {
+    get: (_, property) => store.state[property],
+    has: (_, property) => property in store.state,
+    ownKeys: () => Reflect.ownKeys(store.state),
+    getOwnPropertyDescriptor: () => ({ enumerable: true, configurable: true })
+  });
+
   class MLBController {
-    constructor({ root = document } = {}) {
+    constructor({ root = document, repository = null, store = null } = {}) {
+      if (!Core || !Data || !UI || !View || !StoreModule || !RepositoryModule) {
+        throw new Error('MLB application dependencies are unavailable');
+      }
+
       this.root = root;
-      this.state = createState();
+      this.pageConfig = Registry?.get?.('mlb') || null;
+      this.repository = repository || new RepositoryModule.MLBHubRepository();
+      this.store = store || new StoreModule.MLBHubStore({
+        season: this.repository.currentSeason(),
+        teams: this.repository.fallbackTeams()
+      });
+      this.state = createStateFacade(this.store);
       this.nodes = collectNodes(root);
-      this.favoriteService = new Core.FavoriteService({ key: 'sportsHubFavoriteMlbTeams' });
+      this.favoriteService = new Core.FavoriteService({
+        key: this.pageConfig?.favoriteStorageKey || 'sportsHubFavoriteMlbTeams'
+      });
       this.pageTabs = new Core.PageTabs({ root: root.querySelector('#pageTabs') });
       this.bound = false;
-      this.view = null;
-      this.calendar = this.createCalendar();
+      this.calendar = null;
       this.view = new View.MLBHubView({
         state: this.state,
         nodes: this.nodes,
         favoriteService: this.favoriteService,
         getCalendar: () => this.calendar
       });
+      this.calendar = this.createCalendar();
+      this.unsubscribeStore = this.store.subscribe(change => this.handleStoreChange(change));
+      this.handlers = {
+        documentClick: event => this.handleDocumentClick(event),
+        teamFilter: event => this.handleTeamFilter(event),
+        standingFilter: event => this.handleStandingFilter(event),
+        teamSearch: () => this.store.setTeamQuery(this.nodes.teamSearch?.value || ''),
+        clearDate: () => this.calendar.clearSelection(),
+        refresh: () => this.refresh()
+      };
     }
 
     favoriteIds() {
@@ -79,9 +94,10 @@ window.MLBApp = window.MLBApp || {};
     }
 
     createCalendar() {
-      const filterStorageKey = 'footballCalendarFavoriteOnly:mlb';
+      const calendarConfig = this.pageConfig?.calendar || {};
+      const filterStorageKey = calendarConfig.filterStorageKey || 'footballCalendarFavoriteOnly:mlb';
       if (localStorage.getItem(filterStorageKey) === null) {
-        localStorage.setItem(filterStorageKey, 'false');
+        localStorage.setItem(filterStorageKey, String(calendarConfig.defaultFavoriteOnly ?? false));
       }
 
       const CalendarClass = UI.SportsCalendar || UI.FootballCalendar;
@@ -90,6 +106,7 @@ window.MLBApp = window.MLBApp || {};
       const calendar = new CalendarClass({
         page: 'mlb',
         filterStorageKey,
+        defaultFavoriteOnly: calendarConfig.defaultFavoriteOnly ?? false,
         root: this.root.querySelector('#matchCalendar'),
         title: this.root.querySelector('#calendarTitle'),
         prev: this.root.querySelector('#calendarPrev'),
@@ -105,15 +122,38 @@ window.MLBApp = window.MLBApp || {};
             label: team?.abbreviation || '⚾'
           };
         },
-        onSelect: date => {
-          this.state.selectedDate = date;
-          this.view?.renderSchedule();
-        }
+        onSelect: date => this.store.setSelectedDate(date)
       });
 
       UI.calendars = UI.calendars || {};
       UI.calendars.mlb = calendar;
       return calendar;
+    }
+
+    handleStoreChange(change) {
+      if (!this.view) return;
+
+      switch (change.reason) {
+        case 'selected-date':
+          this.view.renderSchedule();
+          break;
+        case 'team-filter':
+        case 'team-query':
+          this.view.renderTeams();
+          break;
+        case 'standing-filter':
+          this.view.renderStandings();
+          break;
+        case 'players-loading':
+        case 'players-loaded':
+        case 'players-error':
+          this.view.renderPlayers();
+          break;
+        case 'hub-loaded':
+        default:
+          this.view.renderAll();
+          break;
+      }
     }
 
     handlePageChange(page) {
@@ -141,16 +181,12 @@ window.MLBApp = window.MLBApp || {};
 
     handleTeamFilter(event) {
       const button = event.target.closest('[data-team-filter]');
-      if (!button) return;
-      this.state.teamFilter = button.dataset.teamFilter;
-      this.view.renderTeams();
+      if (button) this.store.setTeamFilter(button.dataset.teamFilter);
     }
 
     handleStandingFilter(event) {
       const button = event.target.closest('[data-standing-filter]');
-      if (!button) return;
-      this.state.standingFilter = button.dataset.standingFilter;
-      this.view.renderStandings();
+      if (button) this.store.setStandingFilter(button.dataset.standingFilter);
     }
 
     bind() {
@@ -158,41 +194,56 @@ window.MLBApp = window.MLBApp || {};
       this.bound = true;
 
       this.pageTabs.bind(page => this.handlePageChange(page));
-      document.addEventListener('click', event => this.handleDocumentClick(event));
-      this.nodes.teamFilters?.addEventListener('click', event => this.handleTeamFilter(event));
-      this.nodes.standingFilters?.addEventListener('click', event => this.handleStandingFilter(event));
-      this.nodes.teamSearch?.addEventListener('input', () => {
-        this.state.teamQuery = this.nodes.teamSearch.value;
-        this.view.renderTeams();
-      });
-      this.nodes.clearDate?.addEventListener('click', () => this.calendar.clearSelection());
-      this.nodes.refresh?.addEventListener('click', async () => {
-        await this.loadHub({ fresh: true });
-        if (this.state.players) await this.loadPlayers({ fresh: true });
-      });
-
+      document.addEventListener('click', this.handlers.documentClick);
+      this.nodes.teamFilters?.addEventListener('click', this.handlers.teamFilter);
+      this.nodes.standingFilters?.addEventListener('click', this.handlers.standingFilter);
+      this.nodes.teamSearch?.addEventListener('input', this.handlers.teamSearch);
+      this.nodes.clearDate?.addEventListener('click', this.handlers.clearDate);
+      this.nodes.refresh?.addEventListener('click', this.handlers.refresh);
       return this;
+    }
+
+    destroy() {
+      if (!this.bound) return;
+      document.removeEventListener('click', this.handlers.documentClick);
+      this.nodes.teamFilters?.removeEventListener('click', this.handlers.teamFilter);
+      this.nodes.standingFilters?.removeEventListener('click', this.handlers.standingFilter);
+      this.nodes.teamSearch?.removeEventListener('input', this.handlers.teamSearch);
+      this.nodes.clearDate?.removeEventListener('click', this.handlers.clearDate);
+      this.nodes.refresh?.removeEventListener('click', this.handlers.refresh);
+      this.unsubscribeStore?.();
+      this.bound = false;
     }
 
     async loadPlayers({ fresh = false } = {}) {
       if (this.state.playersLoading || this.state.players && !fresh) return;
 
-      this.state.playersLoading = true;
-      this.view.renderPlayers();
-
+      this.store.setPlayersLoading(true);
       try {
-        this.state.players = await Api.loadJapanesePlayers({
+        const players = await this.repository.loadPlayers({
           season: this.state.season,
           fresh
         });
+        this.store.setPlayers(players);
       } catch (error) {
         console.warn('Japanese MLB players unavailable:', error);
-        this.state.players = [];
+        this.store.setPlayers([], 'players-error');
         window.SportsHub?.toast?.('日本人選手データを取得できませんでした', 2600);
-      } finally {
-        this.state.playersLoading = false;
-        this.view.renderPlayers();
       }
+    }
+
+    updateStatus(payload, fresh) {
+      if (!this.nodes.updated) return;
+
+      const updated = new Date(payload.updatedAt).toLocaleString('ja-JP', {
+        month: 'numeric',
+        day: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit'
+      });
+      this.nodes.updated.textContent = payload.errors.length
+        ? `最終更新 ${updated}・一部データ取得待ち`
+        : fresh ? `更新完了 ${updated}` : `最終更新 ${updated}`;
     }
 
     async loadHub({ fresh = false } = {}) {
@@ -202,45 +253,32 @@ window.MLBApp = window.MLBApp || {};
           : 'MLBデータを読み込んでいます…';
       }
       if (this.nodes.refresh) this.nodes.refresh.disabled = true;
-      if (fresh) Api.clearCache();
 
       try {
-        const payload = await Api.loadHub({
+        const payload = await this.repository.loadHub({
           season: this.state.season,
           fresh
         });
-
-        this.state.season = payload.season;
-        this.state.teams = Array.isArray(payload.teams) && payload.teams.length
-          ? payload.teams
-          : [...Data.FALLBACK_TEAMS];
-        this.state.games = Array.isArray(payload.games) ? payload.games : [];
-        this.state.standings = Array.isArray(payload.standings) ? payload.standings : [];
-        this.state.errors = Array.isArray(payload.errors) ? payload.errors : [];
-        this.state.loaded = true;
-
-        const updated = new Date(payload.updatedAt).toLocaleString('ja-JP', {
-          month: 'numeric',
-          day: 'numeric',
-          hour: '2-digit',
-          minute: '2-digit'
+        this.store.replaceHubData(payload, {
+          fallbackTeams: this.repository.fallbackTeams()
         });
-
-        if (this.nodes.updated) {
-          this.nodes.updated.textContent = this.state.errors.length
-            ? `最終更新 ${updated}・一部データ取得待ち`
-            : `最終更新 ${updated}`;
-        }
-
-        this.view.renderAll();
+        this.updateStatus(payload, fresh);
       } catch (error) {
-        console.warn('MLB Hub data unavailable:', error);
-        if (this.nodes.updated) this.nodes.updated.textContent = 'MLBデータを取得できませんでした';
+        console.warn('MLB Hub repository failed:', error);
+        const fallback = this.repository.fallbackHub(this.state.season, error);
+        this.store.replaceHubData(fallback, {
+          fallbackTeams: this.repository.fallbackTeams()
+        });
+        this.updateStatus(fallback, fresh);
         window.SportsHub?.toast?.('MLBデータを取得できませんでした', 2600);
-        this.view.renderAll();
       } finally {
         if (this.nodes.refresh) this.nodes.refresh.disabled = false;
       }
+    }
+
+    async refresh() {
+      await this.loadHub({ fresh: true });
+      if (this.state.players) await this.loadPlayers({ fresh: true });
     }
 
     start() {
@@ -255,8 +293,8 @@ window.MLBApp = window.MLBApp || {};
 
   Object.assign(namespace, {
     NODE_SELECTORS,
-    createState,
     collectNodes,
+    createStateFacade,
     MLBController,
     start(options) {
       if (namespace.instance) return namespace.instance;
