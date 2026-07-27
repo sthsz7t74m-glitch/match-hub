@@ -57,9 +57,11 @@ window.FootballAdapters = window.FootballAdapters || {};
       return {
         updatedAt: payload.updatedAt || '',
         dataSource: payload.dataSource || '',
+        sourceDetails: payload.sourceDetails || {},
         season: payload.season || null,
         availability: payload.availability || {},
         leaguesAvailability: payload.leaguesAvailability || {},
+        counts: payload.counts || {},
         errors: asArray(payload.errors)
       };
     }
