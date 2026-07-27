@@ -2,35 +2,40 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#111827">
-  <meta name="description" content="代表チームの概要・日程・大会・戦績を確認するページ">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="代表チームのFIFAランキング、日程、大会、戦績を確認するページ">
   <title>代表詳細 | Sports Hub</title>
-  <link rel="stylesheet" href="./assets/css/core.css?v=230">
-  <link rel="stylesheet" href="./national-detail.css?v=230">
+  <link rel="stylesheet" href="./assets/css/core.css?v=311">
+  <link rel="stylesheet" href="./assets/css/match-components.css?v=8">
+  <link rel="stylesheet" href="./assets/css/sports-event-interactions.css?v=1">
+  <link rel="stylesheet" href="./national-detail.css?v=240">
 </head>
-<body>
-  <header class="app-topbar">
-    <a class="app-icon-button" href="./national.html" aria-label="各国代表へ戻る">←</a>
-    <div class="app-title-block">
+<body class="national-detail-page">
+  <header class="app-header national-detail-header">
+    <a class="back-link" href="./national.html" aria-label="各国代表へ戻る">←</a>
+    <div class="app-header__title">
       <p class="eyebrow">NATIONAL TEAM</p>
-      <h1 id="pageTitle">代表詳細 <span class="version">v2.3.0</span></h1>
+      <h1><span id="headerTeamName">代表詳細</span> <span class="version">v2.4.0</span></h1>
     </div>
-    <button id="themeButton" class="app-icon-button" type="button" aria-label="テーマ切替">◐</button>
+    <button id="themeButton" class="icon-button" type="button" aria-label="テーマ切替">◐</button>
   </header>
 
   <main class="detail-main">
-    <section class="team-hero app-panel">
-      <div>
+    <section class="team-hero panel">
+      <div class="team-hero__copy">
         <p class="eyebrow">TEAM PROFILE</p>
         <h2 id="teamName">代表を選択してください</h2>
         <p id="teamEnglish" class="muted">各国代表ページからチームを選択できます。</p>
-        <span id="teamRegion" class="region-badge">—</span>
+        <div class="team-hero__badges">
+          <span id="teamRegion" class="region-badge">—</span>
+          <span id="heroRanking" class="ranking-badge is-loading">FIFA順位 読込中</span>
+        </div>
       </div>
       <div id="teamFlag" class="detail-flag" aria-hidden="true">🌍</div>
     </section>
 
-    <nav class="detail-tabs app-panel" aria-label="代表詳細メニュー">
+    <nav class="detail-tabs panel" aria-label="代表詳細メニュー">
       <button class="detail-tab active" type="button" data-tab="overview">概要</button>
       <button class="detail-tab" type="button" data-tab="matches">試合日程</button>
       <button class="detail-tab" type="button" data-tab="competitions">大会</button>
@@ -38,31 +43,94 @@
     </nav>
 
     <section id="overviewPanel" class="tab-panel">
-      <article class="app-panel data-card">
-        <div class="section-heading"><div><h2>次の試合</h2><p class="muted">共通データサービスから自動表示</p></div><span class="status-pill">DATA READY</span></div>
-        <div id="nextMatchContent"><div class="empty-state"><span>📅</span><strong>日程を確認中</strong><p>データを読み込んでいます。</p></div></div>
+      <article class="panel data-card next-match-card">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">NEXT MATCH</p>
+            <h2>次の試合</h2>
+            <p class="muted">日時・対戦相手・FIFA順位を表示</p>
+          </div>
+          <span id="nextMatchStatus" class="status-pill">取得中</span>
+        </div>
+        <div id="nextMatchContent" class="detail-match-list">
+          <div class="empty-state"><span>📅</span><strong>日程を確認中</strong><p>データを読み込んでいます。</p></div>
+        </div>
       </article>
+
       <div class="summary-grid">
-        <article class="app-panel summary-card"><span>今後</span><strong id="upcomingCount">0</strong><small>試合</small></article>
-        <article class="app-panel summary-card"><span>終了</span><strong id="finishedCount">0</strong><small>試合</small></article>
-        <article class="app-panel summary-card"><span>合計</span><strong id="totalCount">0</strong><small>試合</small></article>
+        <article class="panel summary-card"><span>今後</span><strong id="upcomingCount">0</strong><small>試合</small></article>
+        <article class="panel summary-card"><span>終了</span><strong id="finishedCount">0</strong><small>試合</small></article>
+        <article class="panel summary-card"><span>合計</span><strong id="totalCount">0</strong><small>試合</small></article>
       </div>
-      <article class="app-panel data-card">
-        <div class="section-heading"><div><h2>FIFAランキング</h2><p class="muted">公式データ接続後に表示します</p></div></div>
-        <div class="ranking-placeholder"><strong>— 位</strong><span>未確認の順位は表示しません</span></div>
+
+      <article class="panel data-card ranking-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">FIFA / COCA-COLA</p>
+            <h2>FIFAランキング</h2>
+            <p id="rankingUpdated" class="muted">公式ランキングを読み込んでいます</p>
+          </div>
+          <span id="rankingMovement" class="ranking-movement">—</span>
+        </div>
+        <div id="rankingContent" class="ranking-card is-loading">
+          <div class="ranking-card__position"><span>FIFA</span><strong>—<small>位</small></strong></div>
+          <div class="ranking-card__meta"><span>ポイント</span><strong>—</strong><small>公式データを確認中</small></div>
+        </div>
       </article>
     </section>
 
-    <section id="matchesPanel" class="tab-panel hidden"><article class="app-panel data-card"><h2>試合日程</h2><div id="matchesList"><div class="empty-state"><span>⚽</span><strong>日程を確認中</strong><p>データを読み込んでいます。</p></div></div></article></section>
-    <section id="competitionsPanel" class="tab-panel hidden"><article class="app-panel data-card"><h2>参加大会</h2><div class="competition-list"><div>🏆 ワールドカップ・予選</div><div>🌏 大陸選手権</div><div>🤝 国際親善試合</div></div></article></section>
-    <section id="formPanel" class="tab-panel hidden"><article class="app-panel data-card"><h2>最近の戦績</h2><div class="empty-state"><span>📊</span><strong>戦績データ未接続</strong><p>終了済み試合から自動集計する予定です。</p></div></article></section>
+    <section id="matchesPanel" class="tab-panel hidden">
+      <article class="panel data-card">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">MATCH SCHEDULE</p>
+            <h2>試合日程</h2>
+            <p class="muted">中央のスコア／VSを押すと試合情報を表示</p>
+          </div>
+          <span id="matchesCount" class="status-pill">0試合</span>
+        </div>
+        <div id="matchFilters" class="match-filter-row" role="group" aria-label="試合日程の絞り込み">
+          <button class="match-filter active" type="button" data-match-filter="all">すべて</button>
+          <button class="match-filter" type="button" data-match-filter="upcoming">今後</button>
+          <button class="match-filter" type="button" data-match-filter="finished">結果</button>
+        </div>
+        <div id="matchesList" class="detail-match-list">
+          <div class="empty-state"><span>⚽</span><strong>日程を確認中</strong><p>データを読み込んでいます。</p></div>
+        </div>
+      </article>
+    </section>
+
+    <section id="competitionsPanel" class="tab-panel hidden">
+      <article class="panel data-card">
+        <div class="section-heading">
+          <div><p class="eyebrow">COMPETITIONS</p><h2>参加大会</h2><p class="muted">取得済み試合から自動集計</p></div>
+          <span id="competitionCount" class="status-pill">0大会</span>
+        </div>
+        <div id="competitionList" class="competition-list"></div>
+      </article>
+    </section>
+
+    <section id="formPanel" class="tab-panel hidden">
+      <article class="panel data-card">
+        <div class="section-heading">
+          <div><p class="eyebrow">RECENT FORM</p><h2>最近の戦績</h2><p class="muted">直近5試合を新しい順に表示</p></div>
+          <span id="formSummary" class="status-pill">データ待ち</span>
+        </div>
+        <div id="formStrip" class="form-strip" aria-label="直近5試合の結果"></div>
+        <div id="formMatches" class="detail-match-list"></div>
+      </article>
+    </section>
 
     <button id="favoriteButton" class="primary-action" type="button">☆ 推し代表に登録</button>
   </main>
+
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <script src="./assets/js/core.js?v=230" defer></script>
-  <script src="./assets/js/national-data.js?v=230" defer></script>
-  <script src="./assets/js/national-service.js?v=230" defer></script>
-  <script src="./national-detail.js?v=230" defer></script>
+
+  <script src="./assets/js/core.js?v=311" defer></script>
+  <script src="./assets/js/services/sports-ranking-services.js?v=2" defer></script>
+  <script src="./assets/js/match-components.js?v=8" defer></script>
+  <script src="./assets/js/national-data.js?v=312" defer></script>
+  <script src="./assets/js/national-service.js?v=312" defer></script>
+  <script src="./national-detail.js?v=240" defer></script>
 </body>
 </html>
