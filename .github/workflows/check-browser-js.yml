@@ -5,9 +5,16 @@ on:
   push:
     paths:
       - 'assets/js/match-components.js'
+      - 'assets/js/ui/football-shell.js'
+      - 'assets/js/ui/sports-registry.js'
+      - 'assets/js/jleague-data.js'
+      - 'assets/js/adapters/football-adapters.js'
       - 'national.js'
       - 'national-detail.js'
+      - 'jleague.js'
       - 'jleague-detail.js'
+      - 'scripts/fetch-jleague.mjs'
+      - 'scripts/merge-jleague-schedules.mjs'
       - '.github/workflows/check-browser-js.yml'
 
 permissions:
@@ -20,7 +27,7 @@ concurrency:
 jobs:
   syntax:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -28,16 +35,27 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
 
-      - name: Check shared sports card engine
-        run: node --check assets/js/match-components.js
+      - name: Check shared sports foundation
+        run: |
+          node --check assets/js/match-components.js
+          node --check assets/js/ui/football-shell.js
+          node --check assets/js/ui/sports-registry.js
+          node --check assets/js/jleague-data.js
+          node --check assets/js/adapters/football-adapters.js
 
       - name: Check National Hub
-        run: node --check national.js
+        run: |
+          node --check national.js
+          node --check national-detail.js
 
-      - name: Check national team detail
-        run: node --check national-detail.js
+      - name: Check J League Hub
+        run: |
+          node --check jleague.js
+          node --check jleague-detail.js
 
-      - name: Check J League club detail
-        run: node --check jleague-detail.js
+      - name: Check J League data pipeline
+        run: |
+          node --check scripts/fetch-jleague.mjs
+          node --check scripts/merge-jleague-schedules.mjs
