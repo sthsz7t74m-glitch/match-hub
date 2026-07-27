@@ -4,11 +4,25 @@ window.MLBService = window.MLBService || {};
   const Data = window.MLBData || {};
   const API_ROOT = 'https://statsapi.mlb.com/api/v1';
   const DEFAULT_TTL = 15 * 60 * 1000;
+  const DEFAULT_RETRIES = 2;
   const memoryCache = new Map();
+  const pendingRequests = new Map();
 
   const asArray = value => (Array.isArray(value) ? value : []);
   const currentSeason = () => new Date().getFullYear();
-  const dateText = (season, month, day) => `${season}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+  const pad = value => String(value).padStart(2, '0');
+  const dateText = (season, month, day) => `${season}-${pad(month)}-${pad(day)}`;
+  const dateTextFromDate = value => {
+    const date = value instanceof Date ? value : new Date(value);
+    if (Number.isNaN(date.getTime())) return '';
+    return `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}`;
+  };
+  const addDays = (value, days) => {
+    const date = value instanceof Date ? new Date(value) : new Date(value);
+    date.setDate(date.getDate() + Number(days || 0));
+    return date;
+  };
+  const wait = delay => new Promise(resolve => setTimeout(resolve, delay));
 
   const createUrl = (path, params = {}) => {
     const url = new URL(`${API_ROOT}${path}`);
@@ -37,7 +51,26 @@ window.MLBService = window.MLBService || {};
     try {
       sessionStorage.setItem(sessionKey(url), JSON.stringify(cached));
     } catch {
-      // Full-season schedules may exceed storage quota. Memory cache is enough for this visit.
+      // A full-season schedule can exceed storage quota; memory cache still works for this visit.
+    }
+  };
+
+  const fetchJson = async (url, { timeout, cache }) => {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), timeout);
+
+    try {
+      const response = await fetch(url, {
+        cache,
+        signal: controller.signal
+      });
+      if (!response.ok) throw new Error(`MLB Stats API HTTP ${response.status}`);
+      return await response.json();
+    } catch (error) {
+      if (error?.name === 'AbortError') throw new Error('MLB Stats API timeout');
+      throw error;
+    } finally {
+      clearTimeout(timer);
     }
   };
 
@@ -45,40 +78,55 @@ window.MLBService = window.MLBService || {};
     const {
       fresh = false,
       ttl = DEFAULT_TTL,
-      timeout = 18000
+      timeout = 15000,
+      retries = DEFAULT_RETRIES,
+      retryDelay = 700,
+      allowStale = true
     } = options;
 
     const url = createUrl(path, params).toString();
-    const memory = memoryCache.get(url);
-    if (!fresh && memory && Date.now() - memory.savedAt < ttl) return memory.value;
+    const pendingKey = `${fresh ? 'fresh' : 'cached'}:${url}`;
+    if (pendingRequests.has(pendingKey)) return pendingRequests.get(pendingKey);
 
-    if (!fresh) {
-      const saved = readStored(url);
-      if (saved && Date.now() - saved.savedAt < ttl) {
-        memoryCache.set(url, saved);
-        return saved.value;
+    const task = (async () => {
+      const memory = memoryCache.get(url);
+      const stored = readStored(url);
+      const stale = memory || stored;
+
+      if (!fresh && memory && Date.now() - memory.savedAt < ttl) return memory.value;
+      if (!fresh && stored && Date.now() - stored.savedAt < ttl) {
+        memoryCache.set(url, stored);
+        return stored.value;
       }
-    }
 
-    const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), timeout);
+      let lastError = null;
+      for (let attempt = 0; attempt <= retries; attempt += 1) {
+        try {
+          const value = await fetchJson(url, {
+            timeout,
+            cache: fresh ? 'no-store' : 'default'
+          });
+          store(url, { savedAt: Date.now(), value });
+          return value;
+        } catch (error) {
+          lastError = error;
+          if (attempt < retries) await wait(retryDelay * (attempt + 1));
+        }
+      }
 
-    try {
-      const response = await fetch(url, {
-        cache: fresh ? 'no-store' : 'default',
-        signal: controller.signal
-      });
-      if (!response.ok) throw new Error(`MLB Stats API HTTP ${response.status}`);
+      if (allowStale && stale?.value) {
+        console.warn('MLB Stats API unavailable; using stale response:', lastError);
+        memoryCache.set(url, stale);
+        return stale.value;
+      }
 
-      const value = await response.json();
-      store(url, { savedAt: Date.now(), value });
-      return value;
-    } catch (error) {
-      if (error?.name === 'AbortError') throw new Error('MLB Stats API timeout');
-      throw error;
-    } finally {
-      clearTimeout(timer);
-    }
+      throw lastError || new Error('MLB Stats API request failed');
+    })().finally(() => {
+      pendingRequests.delete(pendingKey);
+    });
+
+    pendingRequests.set(pendingKey, task);
+    return task;
   }
 
   const normalizeTeam = team => {
@@ -94,8 +142,17 @@ window.MLBService = window.MLBService || {};
       abbreviation: team.abbreviation || team.teamCode?.toUpperCase() || '',
       leagueId,
       divisionId,
-      league: Data.LEAGUES?.[leagueId] || { id: leagueId, code: '', name: team.league?.name || '' },
-      division: Data.DIVISIONS?.[divisionId] || { id: divisionId, leagueId, code: '', name: team.division?.name || '' },
+      league: Data.LEAGUES?.[leagueId] || {
+        id: leagueId,
+        code: '',
+        name: team.league?.name || ''
+      },
+      division: Data.DIVISIONS?.[divisionId] || {
+        id: divisionId,
+        leagueId,
+        code: '',
+        name: team.division?.name || ''
+      },
       venue: team.venue?.name || '',
       logo: Data.teamLogo?.(id) || ''
     };
@@ -174,7 +231,11 @@ window.MLBService = window.MLBService || {};
         code: record.division?.nameShort || record.division?.name || '',
         name: record.division?.name || ''
       },
-      league: Data.LEAGUES?.[leagueId] || { id: leagueId, code: '', name: record.league?.name || '' },
+      league: Data.LEAGUES?.[leagueId] || {
+        id: leagueId,
+        code: '',
+        name: record.league?.name || ''
+      },
       rows: asArray(record.teamRecords)
         .map(normalizeStandingRow)
         .sort((a, b) => a.rank - b.rank || Number(b.pct) - Number(a.pct))
@@ -213,16 +274,30 @@ window.MLBService = window.MLBService || {};
     }
   }
 
+  const scheduleRange = options => {
+    if (options.startDate && options.endDate) {
+      return { startDate: options.startDate, endDate: options.endDate };
+    }
+
+    const today = new Date();
+    return {
+      startDate: dateTextFromDate(addDays(today, -(options.pastDays ?? 14))),
+      endDate: dateTextFromDate(addDays(today, options.futureDays ?? 90))
+    };
+  };
+
   async function loadSchedule(options = {}) {
-    const season = options.season || currentSeason();
+    const range = scheduleRange(options);
     const payload = await request('/schedule', {
       sportId: 1,
-      startDate: dateText(season, 3, 1),
-      endDate: dateText(season, 11, 30)
+      startDate: range.startDate,
+      endDate: range.endDate,
+      hydrate: options.hydrate === false ? '' : 'linescore,probablePitcher'
     }, {
       ...options,
-      ttl: options.ttl ?? 10 * 60 * 1000,
-      timeout: options.timeout || 25000
+      ttl: options.ttl ?? 5 * 60 * 1000,
+      timeout: options.timeout || 14000,
+      retries: options.retries ?? 1
     });
 
     return asArray(payload.dates)
@@ -232,13 +307,31 @@ window.MLBService = window.MLBService || {};
       .sort((a, b) => new Date(a.date) - new Date(b.date));
   }
 
+  async function loadSeasonSchedule(options = {}) {
+    const season = options.season || currentSeason();
+    return loadSchedule({
+      ...options,
+      season,
+      startDate: options.startDate || dateText(season, 3, 1),
+      endDate: options.endDate || dateText(season, 11, 30),
+      hydrate: false,
+      ttl: options.ttl ?? 6 * 60 * 60 * 1000,
+      timeout: options.timeout || 22000,
+      retries: options.retries ?? 1
+    });
+  }
+
   async function loadStandings(options = {}) {
     const season = options.season || currentSeason();
     const payload = await request('/standings', {
       leagueId: '103,104',
       season,
       standingsTypes: 'regularSeason'
-    }, options);
+    }, {
+      ...options,
+      timeout: options.timeout || 12000,
+      retries: options.retries ?? 1
+    });
     return normalizeStandings(payload);
   }
 
@@ -247,7 +340,8 @@ window.MLBService = window.MLBService || {};
     const payload = await request('/sports/1/players', { season }, {
       ...options,
       ttl: options.ttl ?? 60 * 60 * 1000,
-      timeout: options.timeout || 25000
+      timeout: options.timeout || 18000,
+      retries: options.retries ?? 1
     });
 
     return asArray(payload.people || payload.players)
@@ -281,10 +375,13 @@ window.MLBService = window.MLBService || {};
 
   Object.assign(namespace, {
     API_ROOT,
+    DEFAULT_TTL,
+    DEFAULT_RETRIES,
     currentSeason,
     request,
     loadTeams,
     loadSchedule,
+    loadSeasonSchedule,
     loadStandings,
     loadJapanesePlayers,
     loadHub,
@@ -292,8 +389,12 @@ window.MLBService = window.MLBService || {};
     normalizeGame,
     normalizeStandings,
     normalizePlayer,
+    dateText,
+    dateTextFromDate,
+    addDays,
     clearCache() {
       memoryCache.clear();
+      pendingRequests.clear();
       try {
         Object.keys(sessionStorage)
           .filter(key => key.startsWith('mlb-api:'))
