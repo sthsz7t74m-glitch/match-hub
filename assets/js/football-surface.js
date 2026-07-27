@@ -5,7 +5,7 @@ window.FootballSurface = window.FootballSurface || {};
     five: {
       title: 'Match Hub',
       eyebrow: 'FOOTBALL SCHEDULE',
-      version: 'v1.0.7',
+      version: 'v1.0.8',
       backLabel: 'Sports Hubへ戻る'
     },
     jleague: {
@@ -18,20 +18,29 @@ window.FootballSurface = window.FootballSurface || {};
     }
   };
 
-  const normalizeCalendarDay = element => {
-    if (!element?.classList?.contains('calendar-day')) return;
+  const loadScript = source => new Promise((resolve, reject) => {
+    const existing = [...document.scripts].find(script => script.src.includes(source.split('?')[0]));
+    if (existing) {
+      if (existing.dataset.loaded === 'true' || existing.readyState === 'complete') resolve(existing);
+      else existing.addEventListener('load', () => resolve(existing), { once: true });
+      return;
+    }
 
-    element.classList.add('football-calendar__day');
-    element.classList.toggle('is-blank', element.classList.contains('blank'));
-    element.classList.toggle('is-selected', element.classList.contains('selected'));
-    element.classList.toggle('is-today', element.classList.contains('today'));
-  };
+    const script = document.createElement('script');
+    script.src = source;
+    script.dataset.loaded = 'false';
+    script.addEventListener('load', () => {
+      script.dataset.loaded = 'true';
+      resolve(script);
+    }, { once: true });
+    script.addEventListener('error', () => reject(new Error(`Failed to load ${source}`)), { once: true });
+    document.head.appendChild(script);
+  });
 
   class FootballSurfaceEnhancer {
     constructor(page = document.body.dataset.hub) {
       this.page = page;
       this.config = PAGE_CONFIGS[page] || {};
-      this.calendarObserver = null;
     }
 
     enhanceBody() {
@@ -44,32 +53,30 @@ window.FootballSurface = window.FootballSurface || {};
       if (!header) return;
 
       header.classList.add('football-hub__header');
+      if (this.page !== 'five') return;
 
-      if (this.page === 'five') {
-        const titleGroup = header.firstElementChild;
-        if (titleGroup) {
-          titleGroup.classList.add('football-title-group');
+      const titleGroup = header.firstElementChild;
+      if (!titleGroup) return;
 
-          if (!titleGroup.querySelector('.back-link')) {
-            const back = document.createElement('a');
-            back.className = 'back-link';
-            back.href = './sports-home.html';
-            back.setAttribute('aria-label', this.config.backLabel || 'Sports Hubへ戻る');
-            back.textContent = '←';
-            titleGroup.prepend(back);
-          }
-
-          const eyebrow = titleGroup.querySelector('.eyebrow');
-          if (eyebrow && this.config.eyebrow) eyebrow.textContent = this.config.eyebrow;
-
-          const heading = titleGroup.querySelector('h1');
-          if (heading) {
-            const version = heading.querySelector('.version');
-            heading.childNodes[0].textContent = `${this.config.title || 'Match Hub'} `;
-            if (version && this.config.version) version.textContent = this.config.version;
-          }
-        }
+      titleGroup.classList.add('football-title-group');
+      if (!titleGroup.querySelector('.back-link')) {
+        const back = document.createElement('a');
+        back.className = 'back-link';
+        back.href = './sports-home.html';
+        back.setAttribute('aria-label', this.config.backLabel || 'Sports Hubへ戻る');
+        back.textContent = '←';
+        titleGroup.prepend(back);
       }
+
+      const eyebrow = titleGroup.querySelector('.eyebrow');
+      if (eyebrow && this.config.eyebrow) eyebrow.textContent = this.config.eyebrow;
+
+      const heading = titleGroup.querySelector('h1');
+      if (!heading) return;
+
+      const version = heading.querySelector('.version');
+      heading.childNodes[0].textContent = `${this.config.title || 'Match Hub'} `;
+      if (version && this.config.version) version.textContent = this.config.version;
     }
 
     enhanceNavigation() {
@@ -79,30 +86,22 @@ window.FootballSurface = window.FootballSurface || {};
       if (!nav.id) nav.id = 'pageTabs';
       const items = [...nav.querySelectorAll('.nav-item')];
       nav.style.setProperty('--nav-count', items.length);
-
       items.forEach(item => item.classList.add('hub-nav__item'));
       window.FootballUI?.BottomNavigation && new window.FootballUI.BottomNavigation(nav).normalize();
     }
 
-    enhanceCalendar() {
-      const root = document.querySelector('#calendarGrid, #matchCalendar');
-      if (!root) return;
+    async connectSharedCalendar() {
+      if (this.page !== 'five') return;
 
-      root.classList.add('football-calendar');
-      [...root.children].forEach(normalizeCalendarDay);
-
-      this.calendarObserver?.disconnect();
-      this.calendarObserver = new MutationObserver(() => {
-        [...root.children].forEach(normalizeCalendarDay);
-      });
-      this.calendarObserver.observe(root, { childList: true, subtree: false });
+      await loadScript('./assets/js/ui/football-calendar.js?v=3');
+      await loadScript('./assets/js/ui/match-hub-calendar.js?v=1');
     }
 
-    start() {
+    async start() {
       this.enhanceBody();
       this.enhanceHeader();
       this.enhanceNavigation();
-      this.enhanceCalendar();
+      await this.connectSharedCalendar();
       return this;
     }
   }
@@ -110,12 +109,14 @@ window.FootballSurface = window.FootballSurface || {};
   Object.assign(namespace, {
     PAGE_CONFIGS,
     FootballSurfaceEnhancer,
+    loadScript,
     start(page) {
       return new FootballSurfaceEnhancer(page).start();
     }
   });
 
   document.addEventListener('DOMContentLoaded', () => {
-    namespace.start(document.body.dataset.hub);
+    namespace.start(document.body.dataset.hub)
+      .catch(error => console.warn('Football surface unavailable', error));
   });
 })(window.FootballSurface);
