@@ -2,31 +2,31 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
   <meta name="theme-color" content="#07111f">
   <meta name="description" content="Sports Hub - 欧州サッカー、各国代表、Jリーグ、MLBをひとつにまとめるスポーツポータル">
   <title>Sports Hub</title>
-  <link rel="stylesheet" href="./assets/css/core.css?v=240">
-  <link rel="stylesheet" href="./sports-home.css?v=240">
+  <link rel="stylesheet" href="./assets/css/core.css?v=250">
+  <link rel="stylesheet" href="./sports-home.css?v=250">
 </head>
 <body>
   <div class="background-orb orb-one"></div><div class="background-orb orb-two"></div>
   <header class="hub-header">
-    <div><p class="eyebrow">YOUR SPORTS, ONE PLACE</p><h1>Sports Hub <span class="version">v2.4.0</span></h1><p class="lead">好きなスポーツを、ひとつの場所で。</p></div>
+    <div><p class="eyebrow">YOUR SPORTS, ONE PLACE</p><h1>Sports Hub <span class="version">v2.5.0</span></h1><p class="lead">好きなスポーツを、ひとつの場所で。</p></div>
     <button id="themeButton" class="theme-button" type="button" aria-label="テーマ切替">◐</button>
   </header>
   <main class="hub-main">
-    <section class="hero-card" aria-labelledby="heroTitle"><div><p class="eyebrow">SPORTS DASHBOARD</p><h2 id="heroTitle">今日は何を見る？</h2><p>欧州5大リーグ、各国代表、Jリーグが利用可能。MLBも順次追加します。</p></div><div class="hero-ball" aria-hidden="true">🏟</div></section>
+    <section class="hero-card" aria-labelledby="heroTitle"><div><p class="eyebrow">SPORTS DASHBOARD</p><h2 id="heroTitle">今日は何を見る？</h2><p>欧州5大リーグ、各国代表、Jリーグ、MLBを同じ操作感で確認できます。</p></div><div class="hero-ball" aria-hidden="true">🏟</div></section>
     <section class="sport-grid" aria-label="スポーツ一覧">
       <a class="sport-card enabled" href="./index.html"><div class="sport-icon">⚽</div><div class="sport-copy"><div class="sport-title-row"><h2>欧州5大リーグ</h2><span class="status live">利用可能</span></div><p>プレミア、ラ・リーガ、セリエA、ブンデス、リーグ・アン</p><span class="open-label">Match Hubを開く →</span></div></a>
       <a class="sport-card enabled" href="./national.html"><div class="sport-icon">🌍</div><div class="sport-copy"><div class="sport-title-row"><h2>各国代表</h2><span class="status live">利用可能</span></div><p>推し代表、代表詳細、日程データ基盤</p><span class="open-label">National Hubを開く →</span></div></a>
-      <a class="sport-card enabled" href="./jleague.html"><div class="sport-icon">🇯🇵</div><div class="sport-copy"><div class="sport-title-row"><h2>Jリーグ</h2><span class="status live">NEW</span></div><p>J1・J2・J3の切替、クラブ検索、お気に入り登録</p><span class="open-label">J League Hubを開く →</span></div></a>
-      <button class="sport-card coming-soon" type="button" data-sport="mlb"><div class="sport-icon">⚾</div><div class="sport-copy"><div class="sport-title-row"><h2>MLB</h2><span class="status soon">準備中</span></div><p>試合日程、順位、日本人選手の情報を見やすく整理</p><span class="open-label">近日追加予定</span></div></button>
+      <a class="sport-card enabled" href="./jleague.html"><div class="sport-icon">🇯🇵</div><div class="sport-copy"><div class="sport-title-row"><h2>Jリーグ</h2><span class="status live">利用可能</span></div><p>J1・J2・J3の切替、クラブ検索、お気に入り登録</p><span class="open-label">J League Hubを開く →</span></div></a>
+      <a class="sport-card enabled" href="./mlb.html"><div class="sport-icon">⚾</div><div class="sport-copy"><div class="sport-title-row"><h2>MLB</h2><span class="status live">NEW</span></div><p>日程、カレンダー、地区順位、全30球団、日本人選手</p><span class="open-label">MLB Hubを開く →</span></div></a>
     </section>
-    <p class="hub-note">共通テーマ・保存・通知基盤を各ページで共有しています。</p>
+    <p class="hub-note">共通ヘッダー・カレンダー・メニュー・テーマ・保存基盤を各ページで共有しています。</p>
   </main>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <script src="./assets/js/core.js?v=240" defer></script>
-  <script src="./sports-home.js?v=240" defer></script>
+  <script src="./assets/js/core.js?v=250" defer></script>
+  <script src="./sports-home.js?v=250" defer></script>
 </body>
 </html>
