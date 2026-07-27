@@ -7,6 +7,7 @@ on:
       - main
     paths:
       - 'scripts/fetch-jleague.mjs'
+      - 'assets/js/jleague-data.js'
       - 'package.json'
       - '.github/workflows/update-jleague-data.yml'
   schedule:
@@ -22,7 +23,7 @@ concurrency:
 jobs:
   update-jleague:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
@@ -30,11 +31,27 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
-      - name: Fetch ESPN J League data
+      - name: Validate J League fetcher
+        run: |
+          node --check scripts/fetch-jleague.mjs
+          node --check assets/js/jleague-data.js
+      - name: Fetch ESPN and official J League data
         run: npm run update-jleague
       - name: Show fetch summary
         run: |
-          node -e "const d=require('./data/jleague.json'); console.log({source:d.dataSource, teams:d.teams?.length, matches:d.matches?.length, standings:d.standings?.length, errors:d.errors?.length})"
+          node - <<'NODE'
+          const data = require('./data/jleague.json');
+          console.log({
+            source: data.dataSource,
+            season: data.season,
+            teams: data.counts?.teams,
+            matches: data.counts?.matches,
+            standings: data.counts?.standings,
+            officialLogos: data.counts?.officialLogos,
+            officialVenues: data.counts?.officialVenues,
+            errors: data.errors?.length
+          });
+          NODE
       - name: Commit and push J League data
         run: |
           git config user.name "github-actions[bot]"
