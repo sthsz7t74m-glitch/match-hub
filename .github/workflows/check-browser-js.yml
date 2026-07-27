@@ -7,6 +7,7 @@ on:
       - 'assets/js/match-components.js'
       - 'national.js'
       - 'national-detail.js'
+      - 'jleague-detail.js'
       - '.github/workflows/check-browser-js.yml'
 
 permissions:
@@ -37,3 +38,6 @@ jobs:
 
       - name: Check national team detail
         run: node --check national-detail.js
+
+      - name: Check J League club detail
+        run: node --check jleague-detail.js
