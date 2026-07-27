@@ -1,0 +1,39 @@
+name: Check browser JavaScript
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'assets/js/match-components.js'
+      - 'national.js'
+      - 'national-detail.js'
+      - '.github/workflows/check-browser-js.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: browser-js-syntax
+  cancel-in-progress: true
+
+jobs:
+  syntax:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Check shared sports card engine
+        run: node --check assets/js/match-components.js
+
+      - name: Check National Hub
+        run: node --check national.js
+
+      - name: Check national team detail
+        run: node --check national-detail.js
