@@ -13,7 +13,7 @@ const pageUrls = [
 const headers = {
   Accept: 'application/json,text/html;q=0.9,*/*;q=0.8',
   'Accept-Language': 'en-US,en;q=0.9',
-  'User-Agent': 'Mozilla/5.0 (compatible; MatchHubFifaProbe/1.1)'
+  'User-Agent': 'Mozilla/5.0 (compatible; MatchHubFifaProbe/1.2)'
 };
 
 const text = value => String(value ?? '').trim();
@@ -60,13 +60,20 @@ function inspectPage(raw) {
     ids.push({ id: match[0], context: contextAround(decoded, match.index) });
   }
 
-  const apiContexts = [...decoded.matchAll(/ranking-overview/gi)].slice(0, 10).map(match => contextAround(decoded, match.index, 240));
+  const apiContexts = [...decoded.matchAll(/ranking-overview/gi)].slice(0, 20).map(match => contextAround(decoded, match.index, 260));
+  const rankingContexts = [
+    ...decoded.matchAll(/"rankings"\s*:/gi),
+    ...decoded.matchAll(/"rankingItem"\s*:/gi),
+    ...decoded.matchAll(/currentRank/gi)
+  ].slice(0, 30).map(match => contextAround(decoded, match.index, 320));
   const officialMatches = [
     ...decoded.matchAll(/(?:Last official update|Just updated)\s*:\s*([^<\n]{1,100})/gi),
     ...decoded.matchAll(/lastOfficialUpdate.{0,120}/gi)
   ].slice(0, 20).map(match => match[0].replace(/\s+/g, ' '));
   const scripts = [...raw.matchAll(/<script([^>]*)>([\s\S]*?)<\/script>/gi)];
-  const jsonFindings = [];
+  const jsonIds = [];
+  const rankingArrays = [];
+  const rankingObjects = [];
 
   for (let index = 0; index < scripts.length; index += 1) {
     const body = scripts[index][2].trim();
@@ -74,19 +81,45 @@ function inspectPage(raw) {
     try {
       const parsed = JSON.parse(body);
       walk(parsed, (node, nodePath) => {
-        if (jsonFindings.length >= 100) return;
         const nodeId = text(node?.id || node?.dateId);
         const nodeLabel = text(node?.text || node?.label || node?.date || node?.name);
-        if (/^id\d+$/.test(nodeId)) {
-          jsonFindings.push({ script: index, path: nodePath, id: nodeId, label: nodeLabel, keys: Object.keys(node).slice(0, 20) });
+        if (/^id\d+$/.test(nodeId) && jsonIds.length < 120) {
+          jsonIds.push({ script: index, path: nodePath, id: nodeId, label: nodeLabel, keys: Object.keys(node).slice(0, 20), iso: node.iso || '', dateText: node.dateText || '' });
         }
-        if (Array.isArray(node) && node.length >= 50) {
+
+        if (Array.isArray(node) && node.length >= 10 && rankingArrays.length < 80) {
           const sample = node[0];
           if (sample && typeof sample === 'object') {
             const keys = Object.keys(sample);
-            if (keys.some(key => /rank|team|country|point/i.test(key))) {
-              jsonFindings.push({ script: index, path: nodePath, arrayLength: node.length, sampleKeys: keys.slice(0, 30), sample });
+            const nestedKeys = Object.values(sample)
+              .filter(value => value && typeof value === 'object' && !Array.isArray(value))
+              .flatMap(value => Object.keys(value));
+            if ([...keys, ...nestedKeys].some(key => /rank|team|country|point|flag/i.test(key))) {
+              rankingArrays.push({
+                script: index,
+                path: nodePath,
+                arrayLength: node.length,
+                sampleKeys: keys.slice(0, 30),
+                sampleNestedKeys: nestedKeys.slice(0, 40),
+                sample
+              });
             }
+          }
+        }
+
+        if (!Array.isArray(node) && rankingObjects.length < 100) {
+          const keys = Object.keys(node);
+          const interesting = keys.filter(key => /rank|standing|country|team|date/i.test(key));
+          if (interesting.length && /rank/i.test(`${nodePath} ${interesting.join(' ')}`)) {
+            rankingObjects.push({
+              script: index,
+              path: nodePath,
+              keys: keys.slice(0, 40),
+              summary: Object.fromEntries(interesting.slice(0, 15).map(key => {
+                const value = node[key];
+                return [key, Array.isArray(value) ? `array:${value.length}` : typeof value === 'object' ? `object:${Object.keys(value || {}).slice(0, 10).join(',')}` : String(value).slice(0, 160)];
+              }))
+            });
           }
         }
       });
@@ -98,11 +131,14 @@ function inspectPage(raw) {
   return {
     bytes: raw.length,
     idCount: ids.length,
-    ids: ids.slice(0, 100),
+    ids: ids.slice(0, 30),
     apiContexts,
+    rankingContexts,
     officialMatches,
     scriptCount: scripts.length,
-    jsonFindings
+    jsonIds,
+    rankingArrays,
+    rankingObjects
   };
 }
 
