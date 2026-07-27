@@ -118,6 +118,7 @@ window.FootballUI = sharedBootstrapUI;
 
     register(calendar) {
       namespace.calendars = namespace.calendars || {};
+      namespace.calendars[this.page]?.destroy?.();
       namespace.calendars[this.page] = calendar;
       calendar.render();
       return calendar;
@@ -127,8 +128,11 @@ window.FootballUI = sharedBootstrapUI;
       if (!this.pageConfig) throw new Error(`Unknown sports page: ${this.page}`);
       const adapter = window.FootballAdapters.create(this.page);
       const data = await adapter.load();
-      const CalendarClass = namespace.SportsCalendar || namespace.FootballCalendar;
-      return this.register(new CalendarClass(this.getCalendarConfig(data)));
+      const options = this.getCalendarConfig(data);
+      const calendar = namespace.createCalendar
+        ? namespace.createCalendar(options)
+        : new (namespace.SportsCalendar || namespace.FootballCalendar)(options);
+      return this.register(calendar);
     }
   }
 
