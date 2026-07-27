@@ -16,53 +16,10 @@
   background: var(--accent, #7c3aed);
 }
 
-.mlb-game-card.is-favorite {
+.sports-event-card--baseball.is-favorite {
   border-color: color-mix(in srgb, var(--accent, #7c3aed) 48%, var(--border, #263244));
-  background:
-    linear-gradient(145deg, color-mix(in srgb, var(--accent, #7c3aed) 8%, var(--mlb-surface)), var(--mlb-surface));
 }
 
-.mlb-game-card.is-favorite:not(.is-live) {
+.sports-event-card--baseball.is-favorite:not(.is-live) {
   box-shadow: inset 3px 0 0 color-mix(in srgb, var(--accent, #7c3aed) 78%, transparent);
-}
-
-.mlb-game-meta__right {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 7px;
-  min-width: 0;
-  text-align: right;
-}
-
-.mlb-game-meta__right > span {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.mlb-favorite-game-badge {
-  flex: 0 0 auto;
-  display: inline-grid;
-  place-items: center;
-  min-height: 20px;
-  padding: 0 7px;
-  border-radius: 999px;
-  background: color-mix(in srgb, var(--accent, #7c3aed) 20%, transparent);
-  color: color-mix(in srgb, var(--accent, #7c3aed) 72%, white);
-  font-size: .62rem;
-  font-weight: 850;
-  line-height: 1;
-}
-
-@media (max-width: 440px) {
-  .mlb-game-meta__right {
-    gap: 5px;
-  }
-
-  .mlb-favorite-game-badge {
-    min-height: 18px;
-    padding-inline: 6px;
-    font-size: .56rem;
-  }
 }
