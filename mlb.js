@@ -1,6 +1,7 @@
 const MlbCore = window.FootballCore;
 const MlbData = window.MLBData;
 const MlbApi = window.MLBService;
+const MlbDomain = window.MLBDomain;
 const MlbUI = window.SportsUI || window.FootballUI;
 
 const $ = selector => document.querySelector(selector);
@@ -9,6 +10,19 @@ const empty = (title, description = '') => MlbCore.EmptyState.render(title, desc
 
 const favoriteService = new MlbCore.FavoriteService({ key: 'sportsHubFavoriteMlbTeams' });
 const pageTabs = new MlbCore.PageTabs({ root: $('#pageTabs') });
+
+const TEAM_FILTERS = Object.freeze([
+  ['all', 'すべて'],
+  ['103', 'ア・リーグ'],
+  ['104', 'ナ・リーグ'],
+  ['favorites', '推しのみ']
+]);
+
+const STANDING_FILTERS = Object.freeze([
+  ['all', 'すべて'],
+  ['103', 'ア・リーグ'],
+  ['104', 'ナ・リーグ']
+]);
 
 const state = {
   season: MlbApi.currentSeason(),
@@ -51,54 +65,79 @@ const nodes = {
   favoriteGames: $('#favoriteGames')
 };
 
-const dayKey = value => MlbUI.dayKey(value);
+const now = () => Date.now();
 const favoriteIds = () => favoriteService.list();
+const favoriteSet = () => MlbDomain.favoriteSet(favoriteIds());
 const isFavorite = id => favoriteService.has(String(id));
 const teamById = id => state.teams.find(team => String(team.id) === String(id));
-const now = () => Date.now();
+const favoriteTeams = ids => ids.map(teamById).filter(Boolean);
 
-const isFinal = game => String(game.status).toLowerCase() === 'final' || ['F', 'O'].includes(game.statusCode);
-const isLive = game => String(game.status).toLowerCase() === 'live' || ['I', 'M'].includes(game.statusCode);
-const isUpcoming = game => !isFinal(game) && new Date(game.date).getTime() >= now() - 4 * 60 * 60 * 1000;
-
-const logoMarkup = (team, className = '') => {
+function logoMarkup(team, className = '') {
   const abbreviation = escapeHtml(team?.abbreviation || team?.name?.slice(0, 2) || 'MLB');
-  return `<img class="${className}" src="${escapeHtml(team?.logo || '')}" alt="" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><span class="mlb-team-logo-fallback" hidden>${abbreviation}</span>`;
-};
+  const fallback = `<span class="mlb-team-logo-fallback">${abbreviation}</span>`;
+  if (!team?.logo) return fallback;
 
-const formatDate = value => {
+  return `<img class="${className}" src="${escapeHtml(team.logo)}" alt="" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><span class="mlb-team-logo-fallback" hidden>${abbreviation}</span>`;
+}
+
+function formatDate(value) {
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) return '日時未定';
-  return `${date.toLocaleDateString('ja-JP', { month: 'numeric', day: 'numeric', weekday: 'short' })} ${date.toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' })}`;
-};
 
-const liveStatus = game => {
+  return `${date.toLocaleDateString('ja-JP', {
+    month: 'numeric',
+    day: 'numeric',
+    weekday: 'short'
+  })} ${date.toLocaleTimeString('ja-JP', {
+    hour: '2-digit',
+    minute: '2-digit'
+  })}`;
+}
+
+function liveStatus(game) {
   const inningNumber = game.inningOrdinal || (game.inning ? `${game.inning}回` : '');
-  const side = { Top: '表', Bottom: '裏', Middle: '回間', End: '終了' }[game.inningState] || game.inningState || '';
-  return [inningNumber, side].filter(Boolean).join(' ') || game.detailedStatus || 'LIVE';
-};
+  const side = {
+    Top: '表',
+    Bottom: '裏',
+    Middle: '回間',
+    End: '終了'
+  }[game.inningState] || game.inningState || '';
 
-const statusText = game => {
-  if (isLive(game)) return liveStatus(game);
-  if (isFinal(game)) return '試合終了';
+  return [inningNumber, side].filter(Boolean).join(' ') || game.detailedStatus || 'LIVE';
+}
+
+function statusText(game) {
+  if (MlbDomain.isLive(game)) return liveStatus(game);
+  if (MlbDomain.isFinal(game)) return '試合終了';
   if (/postponed/i.test(game.detailedStatus)) return '延期';
   if (/cancelled/i.test(game.detailedStatus)) return '中止';
   return game.detailedStatus || '試合前';
-};
+}
 
-function gameCard(game) {
-  const showScore = isFinal(game) || isLive(game) || game.home.score !== null || game.away.score !== null;
+function gameCard(game, favorites = favoriteSet()) {
+  const final = MlbDomain.isFinal(game);
+  const live = MlbDomain.isLive(game);
+  const favorite = MlbDomain.involvesFavorite(game, favorites);
+  const showScore = final || live || game.home.score !== null || game.away.score !== null;
   const score = showScore ? `${game.away.score ?? '-'} - ${game.home.score ?? '-'}` : 'VS';
   const probable = [
     game.probablePitchers?.away ? `A: ${game.probablePitchers.away}` : '',
     game.probablePitchers?.home ? `H: ${game.probablePitchers.home}` : ''
   ].filter(Boolean).join(' / ');
-  const classes = ['mlb-game-card', isLive(game) && 'is-live', isFinal(game) && 'is-final'].filter(Boolean).join(' ');
+  const classes = [
+    'mlb-game-card',
+    live && 'is-live',
+    final && 'is-final',
+    favorite && 'is-favorite'
+  ].filter(Boolean).join(' ');
 
   return `<article class="${classes}" data-game-id="${escapeHtml(game.id)}">
     <div class="mlb-game-meta">
       <span>${escapeHtml(formatDate(game.date))}</span>
-      <span>${escapeHtml(game.gameTypeName)}${game.gameNumber > 1 ? `・第${game.gameNumber}試合` : ''}</span>
+      <span class="mlb-game-meta__right">
+        ${favorite ? '<b class="mlb-favorite-game-badge">推し</b>' : ''}
+        <span>${escapeHtml(game.gameTypeName)}${game.gameNumber > 1 ? `・第${game.gameNumber}試合` : ''}</span>
+      </span>
     </div>
     <div class="mlb-matchup">
       <div class="mlb-game-team is-away">
@@ -118,55 +157,91 @@ function gameCard(game) {
   </article>`;
 }
 
-function renderGameList(root, games, title, description = '') {
+function renderGameList(root, games, options = {}) {
   if (!root) return;
-  root.innerHTML = games.length ? games.map(gameCard).join('') : empty(title, description);
-}
 
-function favoriteGames() {
-  const ids = new Set(favoriteIds());
-  return state.games.filter(game => ids.has(String(game.home.id)) || ids.has(String(game.away.id)));
+  const {
+    emptyTitle = '表示できる試合がありません',
+    emptyDescription = '',
+    prioritizeFavorites = false,
+    limit = null
+  } = options;
+  const favorites = favoriteSet();
+  let visible = [...games];
+
+  if (prioritizeFavorites) {
+    visible = MlbDomain.prioritizeFavorites(visible, favorites);
+  }
+  if (typeof limit === 'number') {
+    visible = visible.slice(0, limit);
+  }
+
+  root.innerHTML = visible.length
+    ? visible.map(game => gameCard(game, favorites)).join('')
+    : empty(emptyTitle, emptyDescription);
 }
 
 function renderToday() {
-  const today = dayKey(new Date());
-  const games = state.games.filter(game => dayKey(game.date) === today);
-  nodes.todayCount.textContent = `${games.length}試合`;
-  renderGameList(nodes.todayGames, games, '今日の試合はありません', '日程がある日は自動で表示されます。');
+  const games = MlbDomain.todayGames(state.games);
+  const favorites = favoriteSet();
+  const favoriteCount = games.filter(game => MlbDomain.involvesFavorite(game, favorites)).length;
+
+  nodes.todayCount.textContent = favoriteCount
+    ? `${games.length}試合・推し${favoriteCount}`
+    : `${games.length}試合`;
+
+  renderGameList(nodes.todayGames, games, {
+    prioritizeFavorites: true,
+    emptyTitle: '今日の試合はありません',
+    emptyDescription: '日程がある日は自動で表示されます。'
+  });
 }
 
-function renderFavoriteGames() {
+function renderFavorites() {
   const ids = favoriteIds();
-  const teams = ids.map(teamById).filter(Boolean);
-  const upcoming = favoriteGames().filter(isUpcoming).sort((a, b) => new Date(a.date) - new Date(b.date));
+  const teams = favoriteTeams(ids);
+  const upcoming = MlbDomain.upcomingFavoriteGames(state.games, ids, now());
+  const hasTeams = teams.length > 0;
 
   nodes.homeFavoriteStatus.textContent = `${teams.length}球団`;
   nodes.favoriteBadge.textContent = teams.length;
   nodes.favoriteTeamCount.textContent = `${teams.length}球団`;
-  renderGameList(nodes.favoriteNextGames, upcoming.slice(0, 5), '推し球団が未登録です', '球団一覧の☆から登録できます。');
-  renderGameList(nodes.favoriteGames, upcoming.slice(0, 30), '今後の試合はありません', '次の試合が決まると自動表示されます。');
-  nodes.favoriteTeamGrid.innerHTML = teams.length ? teams.map(teamCard).join('') : empty('推し球団がありません', '球団一覧から複数登録できます。');
+
+  renderGameList(nodes.favoriteNextGames, upcoming, {
+    limit: 5,
+    emptyTitle: hasTeams ? '推し球団の次戦はありません' : '推し球団が未登録です',
+    emptyDescription: hasTeams ? '次の試合が決まると自動表示されます。' : '球団一覧の☆から登録できます。'
+  });
+
+  renderGameList(nodes.favoriteGames, upcoming, {
+    limit: 30,
+    emptyTitle: hasTeams ? '今後の試合はありません' : '推し球団がありません',
+    emptyDescription: hasTeams ? '次の試合が決まると自動表示されます。' : '球団一覧から複数登録できます。'
+  });
+
+  nodes.favoriteTeamGrid.innerHTML = hasTeams
+    ? teams.map(teamCard).join('')
+    : empty('推し球団がありません', '球団一覧から複数登録できます。');
 }
 
 function renderSummary() {
-  const live = state.games.filter(isLive).length;
-  const final = state.games.filter(isFinal).length;
-  const upcoming = state.games.filter(isUpcoming).length;
   const cards = [
     ['シーズン', state.season, '年度'],
     ['登録球団', state.teams.length, '球団'],
-    ['LIVE', live, '試合'],
-    ['終了', final, '試合'],
-    ['今後', upcoming, '試合'],
+    ['LIVE', state.games.filter(MlbDomain.isLive).length, '試合'],
+    ['終了', state.games.filter(MlbDomain.isFinal).length, '試合'],
+    ['今後', state.games.filter(game => MlbDomain.isUpcoming(game, now())).length, '試合'],
     ['推し', favoriteIds().length, '球団']
   ];
 
-  nodes.summary.innerHTML = cards.map(([label, value, suffix]) => `<article class="mlb-summary-card"><span>${label}</span><strong>${value}</strong><small>${suffix}</small></article>`).join('');
+  nodes.summary.innerHTML = cards
+    .map(([label, value, suffix]) => `<article class="mlb-summary-card"><span>${label}</span><strong>${value}</strong><small>${suffix}</small></article>`)
+    .join('');
 }
 
-function standingSection(group, { limit = null, compact = false } = {}) {
+function standingSection(group, options = {}) {
+  const { limit = null, compact = false, favorites = favoriteSet() } = options;
   const rows = typeof limit === 'number' ? group.rows.slice(0, limit) : group.rows;
-  const favorites = new Set(favoriteIds());
   const body = rows.map(row => `<div class="mlb-standing-row${favorites.has(String(row.team.id)) ? ' is-favorite' : ''}">
     <strong>${row.rank || '-'}</strong>
     <span class="mlb-standing-team">${logoMarkup(row.team)}<span>${escapeHtml(row.team.name)}</span></span>
@@ -181,26 +256,32 @@ function standingSection(group, { limit = null, compact = false } = {}) {
 }
 
 function renderStandings() {
-  const filters = [
-    ['all', 'すべて'],
-    ['103', 'ア・リーグ'],
-    ['104', 'ナ・リーグ']
-  ];
-  nodes.standingFilters.innerHTML = filters.map(([id, label]) => `<button class="mlb-filter-button${state.standingFilter === id ? ' active' : ''}" type="button" data-standing-filter="${id}">${label}</button>`).join('');
+  nodes.standingFilters.innerHTML = STANDING_FILTERS
+    .map(([id, label]) => `<button class="mlb-filter-button${state.standingFilter === id ? ' active' : ''}" type="button" data-standing-filter="${id}">${label}</button>`)
+    .join('');
 
-  const groups = state.standings.filter(group => state.standingFilter === 'all' || String(group.leagueId) === state.standingFilter);
-  nodes.standings.innerHTML = groups.length ? groups.map(group => standingSection(group)).join('') : empty('順位データを取得できません', 'シーズン開始後に表示されます。');
-  nodes.homeStandings.innerHTML = state.standings.length ? state.standings.map(group => standingSection(group, { limit: 1, compact: true })).join('') : empty('順位データを準備中です');
+  const favorites = favoriteSet();
+  const groups = state.standings.filter(group =>
+    state.standingFilter === 'all' || String(group.leagueId) === state.standingFilter
+  );
+
+  nodes.standings.innerHTML = groups.length
+    ? groups.map(group => standingSection(group, { favorites })).join('')
+    : empty('順位データを取得できません', 'シーズン開始後に表示されます。');
+
+  nodes.homeStandings.innerHTML = state.standings.length
+    ? state.standings.map(group => standingSection(group, {
+      limit: 1,
+      compact: true,
+      favorites
+    })).join('')
+    : empty('順位データを準備中です');
 }
 
 function renderTeamFilters() {
-  const filters = [
-    ['all', 'すべて'],
-    ['103', 'ア・リーグ'],
-    ['104', 'ナ・リーグ'],
-    ['favorites', '推しのみ']
-  ];
-  nodes.teamFilters.innerHTML = filters.map(([id, label]) => `<button class="mlb-filter-button${state.teamFilter === id ? ' active' : ''}" type="button" data-team-filter="${id}">${label}</button>`).join('');
+  nodes.teamFilters.innerHTML = TEAM_FILTERS
+    .map(([id, label]) => `<button class="mlb-filter-button${state.teamFilter === id ? ' active' : ''}" type="button" data-team-filter="${id}">${label}</button>`)
+    .join('');
 }
 
 function teamCard(team) {
@@ -214,12 +295,16 @@ function teamCard(team) {
 
 function visibleTeams() {
   const query = state.teamQuery.trim().toLocaleLowerCase('ja');
+  const favorites = favoriteSet();
+
   return state.teams.filter(team => {
     const filterMatch = state.teamFilter === 'all'
-      || state.teamFilter === 'favorites' && isFavorite(team.id)
+      || state.teamFilter === 'favorites' && favorites.has(String(team.id))
       || String(team.leagueId) === state.teamFilter;
+
     if (!filterMatch) return false;
     if (!query) return true;
+
     return [team.name, team.en, team.abbreviation]
       .filter(Boolean)
       .some(value => String(value).toLocaleLowerCase('ja').includes(query));
@@ -230,7 +315,9 @@ function renderTeams() {
   renderTeamFilters();
   const teams = visibleTeams();
   nodes.teamCount.textContent = `${teams.length}球団`;
-  nodes.teamGrid.innerHTML = teams.length ? teams.map(teamCard).join('') : empty('該当する球団がありません', '検索条件を変更してください。');
+  nodes.teamGrid.innerHTML = teams.length
+    ? teams.map(teamCard).join('')
+    : empty('該当する球団がありません', '検索条件を変更してください。');
 }
 
 function playerCard(player) {
@@ -249,33 +336,40 @@ function renderPlayers() {
   }
 
   if (!state.players) return;
+
   nodes.playerStatus.textContent = `${state.players.length}選手`;
-  nodes.players.innerHTML = state.players.length ? state.players.map(playerCard).join('') : empty('日本人選手を取得できませんでした', 'MLBの登録情報が更新されると自動反映されます。');
+  nodes.players.innerHTML = state.players.length
+    ? state.players.map(playerCard).join('')
+    : empty('日本人選手を取得できませんでした', 'MLBの登録情報が更新されると自動反映されます。');
 }
 
 function renderSchedule() {
   const visible = state.selectedDate
     ? calendar.matchesOnDate(state.selectedDate)
     : calendar.getVisibleMatches(state.games)
-      .filter(game => new Date(game.date).getTime() >= now() - 12 * 60 * 60 * 1000)
+      .filter(game => MlbDomain.gameTime(game) >= now() - 12 * 60 * 60 * 1000)
       .slice(0, 40);
 
   nodes.scheduleTitle.textContent = state.selectedDate
     ? `${Number(state.selectedDate.slice(5, 7))}月${Number(state.selectedDate.slice(8, 10))}日の試合`
     : calendar.favoriteOnly ? '推し球団の今後の日程' : '今後の試合日程';
 
-  renderGameList(
-    nodes.scheduleGames,
-    visible,
-    calendar.favoriteOnly ? '推し球団の試合がありません' : '表示できる試合がありません',
-    calendar.favoriteOnly ? '推しのみをOFFにするか、球団を登録してください。' : '別の日付を選択してください。'
-  );
+  renderGameList(nodes.scheduleGames, visible, {
+    emptyTitle: calendar.favoriteOnly ? '推し球団の試合がありません' : '表示できる試合がありません',
+    emptyDescription: calendar.favoriteOnly
+      ? '推しのみをOFFにするか、球団を登録してください。'
+      : '別の日付を選択してください。'
+  });
+}
+
+function renderHome() {
+  renderFavorites();
+  renderToday();
+  renderSummary();
 }
 
 function renderAll() {
-  renderToday();
-  renderFavoriteGames();
-  renderSummary();
+  renderHome();
   renderStandings();
   renderTeams();
   renderPlayers();
@@ -283,12 +377,27 @@ function renderAll() {
   renderSchedule();
 }
 
+function renderFavoriteDependentViews() {
+  renderFavorites();
+  renderToday();
+  renderSummary();
+  renderStandings();
+  renderTeams();
+  calendar.render();
+  renderSchedule();
+}
+
 async function loadPlayers({ fresh = false } = {}) {
   if (state.playersLoading || state.players && !fresh) return;
+
   state.playersLoading = true;
   renderPlayers();
+
   try {
-    state.players = await MlbApi.loadJapanesePlayers({ season: state.season, fresh });
+    state.players = await MlbApi.loadJapanesePlayers({
+      season: state.season,
+      fresh
+    });
   } catch (error) {
     console.warn('Japanese MLB players unavailable:', error);
     state.players = [];
@@ -300,13 +409,19 @@ async function loadPlayers({ fresh = false } = {}) {
 }
 
 async function loadHub({ fresh = false } = {}) {
-  nodes.updated.textContent = fresh ? 'MLBデータを更新しています…' : 'MLBデータを読み込んでいます…';
+  nodes.updated.textContent = fresh
+    ? 'MLBデータを更新しています…'
+    : 'MLBデータを読み込んでいます…';
   nodes.refresh.disabled = true;
 
   if (fresh) MlbApi.clearCache();
 
   try {
-    const payload = await MlbApi.loadHub({ season: state.season, fresh });
+    const payload = await MlbApi.loadHub({
+      season: state.season,
+      fresh
+    });
+
     state.season = payload.season;
     state.teams = payload.teams.length ? payload.teams : [...MlbData.FALLBACK_TEAMS];
     state.games = payload.games;
@@ -314,8 +429,16 @@ async function loadHub({ fresh = false } = {}) {
     state.errors = payload.errors;
     state.loaded = true;
 
-    const updated = new Date(payload.updatedAt).toLocaleString('ja-JP', { month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
-    nodes.updated.textContent = state.errors.length ? `最終更新 ${updated}・一部データ取得待ち` : `最終更新 ${updated}`;
+    const updated = new Date(payload.updatedAt).toLocaleString('ja-JP', {
+      month: 'numeric',
+      day: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit'
+    });
+    nodes.updated.textContent = state.errors.length
+      ? `最終更新 ${updated}・一部データ取得待ち`
+      : `最終更新 ${updated}`;
+
     renderAll();
   } catch (error) {
     console.warn('MLB Hub data unavailable:', error);
@@ -328,7 +451,9 @@ async function loadHub({ fresh = false } = {}) {
 }
 
 const calendarFilterKey = 'footballCalendarFavoriteOnly:mlb';
-if (localStorage.getItem(calendarFilterKey) === null) localStorage.setItem(calendarFilterKey, 'false');
+if (localStorage.getItem(calendarFilterKey) === null) {
+  localStorage.setItem(calendarFilterKey, 'false');
+}
 
 const CalendarClass = MlbUI.SportsCalendar || MlbUI.FootballCalendar;
 const calendar = new CalendarClass({
@@ -344,7 +469,10 @@ const calendar = new CalendarClass({
   getDate: game => game.date,
   getTeamVisual: id => {
     const team = teamById(id);
-    return { logo: team?.logo || MlbData.teamLogo(id), label: team?.abbreviation || '⚾' };
+    return {
+      logo: team?.logo || MlbData.teamLogo(id),
+      label: team?.abbreviation || '⚾'
+    };
   },
   onSelect: date => {
     state.selectedDate = date;
@@ -355,67 +483,55 @@ const calendar = new CalendarClass({
 MlbUI.calendars = MlbUI.calendars || {};
 MlbUI.calendars.mlb = calendar;
 
-pageTabs.bind(page => {
+function handlePageChange(page) {
   if (page === 'players') loadPlayers();
   window.scrollTo({ top: 0, behavior: 'smooth' });
-});
+}
 
-document.addEventListener('click', event => {
+function handleDocumentClick(event) {
   const jump = event.target.closest('[data-page-jump]');
   if (jump) {
     pageTabs.show(jump.dataset.pageJump);
     window.scrollTo({ top: 0, behavior: 'smooth' });
+    return;
   }
 
   const favoriteButton = event.target.closest('[data-favorite-team]');
-  if (favoriteButton) {
-    const id = favoriteButton.dataset.favoriteTeam;
-    const team = teamById(id);
-    const added = favoriteService.toggle(id);
-    SportsHub.toast(`${team?.name || '球団'}を推し球団から${added ? '追加' : '解除'}しました`);
-    renderFavoriteGames();
-    renderSummary();
-    renderStandings();
-    renderTeams();
-    calendar.render();
-    renderSchedule();
-  }
-});
+  if (!favoriteButton) return;
 
-nodes.teamFilters.addEventListener('click', event => {
+  const id = favoriteButton.dataset.favoriteTeam;
+  const team = teamById(id);
+  const added = favoriteService.toggle(id);
+  SportsHub.toast(`${team?.name || '球団'}を推し球団から${added ? '追加' : '解除'}しました`);
+  renderFavoriteDependentViews();
+}
+
+function handleTeamFilter(event) {
   const button = event.target.closest('[data-team-filter]');
   if (!button) return;
   state.teamFilter = button.dataset.teamFilter;
   renderTeams();
-});
+}
 
-nodes.standingFilters.addEventListener('click', event => {
+function handleStandingFilter(event) {
   const button = event.target.closest('[data-standing-filter]');
   if (!button) return;
   state.standingFilter = button.dataset.standingFilter;
   renderStandings();
-});
+}
 
+pageTabs.bind(handlePageChange);
+document.addEventListener('click', handleDocumentClick);
+nodes.teamFilters.addEventListener('click', handleTeamFilter);
+nodes.standingFilters.addEventListener('click', handleStandingFilter);
 nodes.teamSearch.addEventListener('input', () => {
   state.teamQuery = nodes.teamSearch.value;
   renderTeams();
 });
-
-nodes.clearDate.addEventListener('click', () => {
-  state.selectedDate = '';
-  calendar.clearSelection();
-  renderSchedule();
-});
-
+nodes.clearDate.addEventListener('click', () => calendar.clearSelection());
 nodes.refresh.addEventListener('click', async () => {
   await loadHub({ fresh: true });
   if (state.players) await loadPlayers({ fresh: true });
-});
-
-document.addEventListener('football:calendar-select', event => {
-  if (event.detail.calendar !== calendar) return;
-  state.selectedDate = event.detail.date;
-  renderSchedule();
 });
 
 SportsHub.applyTheme();
