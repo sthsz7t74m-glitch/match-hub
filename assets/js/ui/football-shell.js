@@ -1,4 +1,5 @@
 window.FootballUI = window.FootballUI || {};
+window.SportsUI = window.FootballUI;
 
 (function initializeFootballShell(namespace) {
   const installZoomLock = () => {
@@ -44,12 +45,7 @@ window.FootballUI = window.FootballUI || {};
   installZoomLock();
   if (namespace.FootballShell) return;
 
-  const navItem = (target, icon, label, badgeId = '') => ({
-    target,
-    icon,
-    label,
-    badgeId
-  });
+  const navItem = (target, icon, label, badgeId = '') => ({ target, icon, label, badgeId });
 
   const shellConfigs = {
     five: {
@@ -94,6 +90,21 @@ window.FootballUI = window.FootballUI || {};
         navItem('competitions', 'trophy', '大会'),
         navItem('favorites', 'star', '推し', 'favoriteCountBadge')
       ]
+    },
+    mlb: {
+      eyebrow: 'MAJOR LEAGUE BASEBALL',
+      title: 'MLB',
+      version: 'v1.0.0',
+      back: './sports-home.html',
+      navAttribute: 'page',
+      nav: [
+        navItem('home', 'home', 'ホーム'),
+        navItem('schedule', 'calendar', '日程'),
+        navItem('standings', 'ranking', '順位'),
+        navItem('teams', 'teams', '球団'),
+        navItem('players', 'player', '日本人'),
+        navItem('favorites', 'star', '推し', 'favoriteCountBadge')
+      ]
     }
   };
 
@@ -105,40 +116,28 @@ window.FootballUI = window.FootballUI || {};
     transfer: '<path d="M7 7h11l-3-3M18 7l-3 3"/><path d="M17 17H6l3 3M6 17l3-3"/>',
     settings: '<circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.88l.06.06-2.83 2.83-.06-.06A1.7 1.7 0 0 0 15 19.4a1.7 1.7 0 0 0-1 .6 1.7 1.7 0 0 0-.4 1.1V21h-4v-.1A1.7 1.7 0 0 0 8.6 19.4a1.7 1.7 0 0 0-1.88.34l-.06.06-2.83-2.83.06-.06A1.7 1.7 0 0 0 4.6 15a1.7 1.7 0 0 0-.6-1 1.7 1.7 0 0 0-1.1-.4H3v-4h.1A1.7 1.7 0 0 0 4.6 8.6a1.7 1.7 0 0 0-.34-1.88l-.06-.06 2.83-2.83.06.06A1.7 1.7 0 0 0 9 4.6a1.7 1.7 0 0 0 1-.6 1.7 1.7 0 0 0 .4-1.1V3h4v.1A1.7 1.7 0 0 0 15.4 4.6a1.7 1.7 0 0 0 1.88-.34l.06-.06 2.83 2.83-.06.06A1.7 1.7 0 0 0 19.4 9c.38.3.6.66.6 1.1v.1h1v4h-.1A1.7 1.7 0 0 0 19.4 15Z"/>',
     teams: '<circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M14 15.2c.9-.8 2-1.2 3.2-1.2 2.7 0 4.8 2.2 4.8 4.8V20"/>',
+    player: '<circle cx="12" cy="8" r="4"/><path d="M5 21c0-4 3.1-7 7-7s7 3 7 7"/><path d="M16.5 4.5 20 2M18.5 6.5 22 4"/>',
     star: '<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9L12 3Z"/>',
     trophy: '<path d="M8 4h8v5a4 4 0 0 1-8 0V4Z"/><path d="M8 6H4v1a4 4 0 0 0 4 4M16 6h4v1a4 4 0 0 1-4 4M12 13v4M8 21h8M9 17h6"/>'
   };
 
-  const renderIcon = name => `
-    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-      ${iconPaths[name] || iconPaths.home}
-    </svg>`;
+  const renderIcon = name => `<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">${iconPaths[name] || iconPaths.home}</svg>`;
 
   const renderNavigationItem = (item, index, attribute) => `
-    <button
-      class="nav-item football-nav__item${index === 0 ? ' active' : ''}"
-      data-${attribute}="${item.target}"
-      type="button"
-    >
+    <button class="nav-item football-nav__item${index === 0 ? ' active' : ''}" data-${attribute}="${item.target}" type="button">
       <span class="football-nav__indicator" aria-hidden="true">
         <span class="football-nav__icon">${renderIcon(item.icon)}</span>
       </span>
-      <span class="football-nav__label">
-        ${item.label}${item.badgeId ? ` <b class="football-nav__badge" id="${item.badgeId}">0</b>` : ''}
-      </span>
+      <span class="football-nav__label">${item.label}${item.badgeId ? ` <b class="football-nav__badge" id="${item.badgeId}">0</b>` : ''}</span>
     </button>`;
 
   class BottomNavigation {
-    constructor(root) {
-      this.root = root;
-    }
+    constructor(root) { this.root = root; }
 
     normalize() {
       if (!this.root) return;
-
       const items = [...this.root.querySelectorAll('.football-nav__item')];
       this.root.style.setProperty('--nav-count', items.length);
-
       items.forEach(item => {
         const label = item.querySelector('.football-nav__label');
         if (label) item.setAttribute('aria-label', label.textContent.trim());
@@ -155,35 +154,24 @@ window.FootballUI = window.FootballUI || {};
     renderHeader() {
       const root = document.querySelector('.topbar');
       if (!root || !this.config) return;
-
       root.innerHTML = `
         <div class="football-header__identity">
           <a class="back-link" href="${this.config.back}" aria-label="Sports Hubへ戻る">←</a>
           <div class="football-header__copy">
             <p class="eyebrow">${this.config.eyebrow}</p>
-            <div class="football-header__title-row">
-              <h1>${this.config.title}</h1>
-              <span class="version">${this.config.version}</span>
-            </div>
+            <div class="football-header__title-row"><h1>${this.config.title}</h1><span class="version">${this.config.version}</span></div>
           </div>
         </div>
-        <div class="topbar__actions">
-          <button id="themeButton" class="icon-button" type="button" aria-label="テーマ切替">◐</button>
-        </div>`;
-
+        <div class="topbar__actions"><button id="themeButton" class="icon-button" type="button" aria-label="テーマ切替">◐</button></div>`;
       root.dataset.shellPage = this.page;
     }
 
     renderNavigation() {
       const root = document.querySelector('#pageTabs');
       if (!root || !this.config) return;
-
       const attribute = this.config.navAttribute || 'page';
       root.classList.add('football-nav');
-      root.innerHTML = this.config.nav
-        .map((item, index) => renderNavigationItem(item, index, attribute))
-        .join('');
-
+      root.innerHTML = this.config.nav.map((item, index) => renderNavigationItem(item, index, attribute)).join('');
       root.setAttribute('aria-label', `${this.config.title}メニュー`);
       root.dataset.navigationType = attribute;
       new BottomNavigation(root).normalize();
@@ -201,6 +189,7 @@ window.FootballUI = window.FootballUI || {};
     installZoomLock,
     BottomNavigation,
     FootballShell,
+    SportsShell: FootballShell,
     shellConfigs,
     iconPaths,
     renderIcon,
