@@ -1,5 +1,6 @@
 const { teams: countries, regions } = SportsHubNational;
-const Core = window.FootballCore;
+const Core = window.SportsCore || window.FootballCore;
+const UI = window.SportsUI || window.FootballUI;
 const favoriteService = new Core.FavoriteService({ key: 'sportsHubFavoriteNationals', legacyKey: 'sportsHubFavoriteNational' });
 const pageTabs = new Core.PageTabs({ root: document.querySelector('#pageTabs') });
 const dataAdapter = new FootballAdapters.NationalAdapter();
@@ -14,6 +15,9 @@ const search = document.querySelector('#countrySearch');
 const grid = document.querySelector('#countryGrid');
 const favoriteGrid = document.querySelector('#favoriteCountryGrid');
 const empty = (title, text = '') => Core.EmptyState.render(title, text);
+const scheduleEmpty = (title, description = '') => Core.SportsScheduleEmptyState.render({ title, description, className: 'national-empty-state' });
+const favoritesEmpty = (title, description = '') => Core.SportsFavoritesEmptyState.render({ title, description, className: 'national-empty-state' });
+const dataEmpty = (title, description = '') => Core.SportsDataEmptyState.render({ title, description, className: 'national-empty-state' });
 const favoriteIds = () => favoriteService.list();
 const isFavorite = id => favoriteService.has(id);
 const openDetail = id => { location.href = `./national-detail.html?team=${encodeURIComponent(id)}`; };
@@ -71,11 +75,11 @@ function renderFavorites() {
   document.querySelector('#favoriteCountBadge').textContent = teams.length;
   document.querySelector('#homeFavoriteStatus').textContent = `${teams.length}代表`;
   document.querySelector('#favoriteTeamCount').textContent = `${teams.length}代表`;
-  favoriteGrid.innerHTML = teams.map(teamCard).join('') || empty('お気に入りがありません', '代表一覧の☆から複数登録できます。');
+  favoriteGrid.innerHTML = teams.map(teamCard).join('') || favoritesEmpty('お気に入りがありません', '代表一覧の☆から複数登録できます。');
 
   const upcoming = new Core.MatchService(favoriteMatchList()).upcoming();
-  document.querySelector('#favoriteNextMatches').innerHTML = matchRenderer.renderMany(upcoming.slice(0, 5)) || empty('次戦データがありません', 'お気に入りを登録するか、次回更新をお待ちください。');
-  document.querySelector('#favoriteMatches').innerHTML = matchRenderer.renderMany(upcoming.slice(0, 20)) || empty('今後の試合がありません', '更新後に自動表示されます。');
+  document.querySelector('#favoriteNextMatches').innerHTML = matchRenderer.renderMany(upcoming.slice(0, 5)) || scheduleEmpty('次戦データがありません', 'お気に入りを登録するか、次回更新をお待ちください。');
+  document.querySelector('#favoriteMatches').innerHTML = matchRenderer.renderMany(upcoming.slice(0, 20)) || scheduleEmpty('今後の試合がありません', '更新後に自動表示されます。');
 }
 
 function competitionCards(limit) {
@@ -93,13 +97,13 @@ function renderMatches() {
   const ordered = [...nationalMatches].sort((a, b) => new Date(a.kickoff) - new Date(b.kickoff));
   const recent = ordered.filter(match => new Date(match.kickoff).getTime() >= Date.now() - 259200000).slice(0, 12);
   document.querySelector('#nationalMatchCount').textContent = `${recent.length}試合`;
-  document.querySelector('#nationalMatches').innerHTML = matchRenderer.renderMany(recent) || empty('表示できる代表戦がありません', '次回更新後に自動表示されます。');
+  document.querySelector('#nationalMatches').innerHTML = matchRenderer.renderMany(recent) || dataEmpty('表示できる代表戦がありません', '次回更新後に自動表示されます。');
   document.querySelector('#homeCompetitionSummary').innerHTML = competitionCards(4);
   document.querySelector('#competitionSummary').innerHTML = competitionCards();
 }
 
 function calendarMatches() {
-  const calendar = window.FootballUI?.calendars?.national;
+  const calendar = UI?.calendars?.national;
   return calendar?.favoriteOnly ? favoriteMatchList() : nationalMatches;
 }
 
@@ -107,8 +111,8 @@ function renderSchedule() {
   const ordered = [...calendarMatches()].sort((a, b) => new Date(a.kickoff) - new Date(b.kickoff));
   const visible = selectedDate ? ordered.filter(match => dateKey(match.kickoff) === selectedDate) : ordered;
   document.querySelector('#scheduleTitle').textContent = selectedDate ? `${Number(selectedDate.slice(5, 7))}月${Number(selectedDate.slice(8, 10))}日の試合` : '試合日程';
-  const favoriteOnly = window.FootballUI?.calendars?.national?.favoriteOnly;
-  document.querySelector('#scheduleMatches').innerHTML = matchRenderer.renderMany(visible.slice(0, 40)) || empty(favoriteOnly ? 'この日に推しの試合はありません' : 'この日の試合はありません', '別の日付を選択してください。');
+  const favoriteOnly = UI?.calendars?.national?.favoriteOnly;
+  document.querySelector('#scheduleMatches').innerHTML = matchRenderer.renderMany(visible.slice(0, 40)) || scheduleEmpty(favoriteOnly ? 'この日に推しの試合はありません' : 'この日の試合はありません', '別の日付を選択してください。');
 }
 
 function renderAll() {
@@ -155,7 +159,7 @@ function handleTeamGridClick(event) {
     SportsHub.toast(`${country.name}代表を${added ? '登録' : '解除'}しました`);
     renderCountries();
     renderFavorites();
-    window.FootballUI?.calendars?.national?.render();
+    UI?.calendars?.national?.render();
     return;
   }
   const openButton = event.target.closest('[data-open-country]');
@@ -164,12 +168,12 @@ function handleTeamGridClick(event) {
 grid.addEventListener('click', handleTeamGridClick);
 favoriteGrid.addEventListener('click', handleTeamGridClick);
 search.addEventListener('input', () => { query = search.value; renderCountries(); });
-document.addEventListener('football:calendar-select', event => {
-  if (event.detail.calendar !== window.FootballUI?.calendars?.national) return;
+document.addEventListener('sports:calendar-select', event => {
+  if (event.detail.calendar !== UI?.calendars?.national) return;
   selectedDate = event.detail.date;
   renderSchedule();
 });
-document.querySelector('#clearDateFilter').addEventListener('click', () => window.FootballUI?.calendars?.national?.clearSelection());
+document.querySelector('#clearDateFilter').addEventListener('click', () => UI?.calendars?.national?.clearSelection());
 SportsHub.applyTheme();
 pageTabs.show('home');
 renderAll();
