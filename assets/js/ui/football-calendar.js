@@ -1,9 +1,12 @@
-window.FootballUI = window.FootballUI || {};
+const sharedCalendarUI = window.SportsUI || window.FootballUI || {};
+window.SportsUI = sharedCalendarUI;
+window.FootballUI = sharedCalendarUI;
 
-(function initializeFootballCalendar(namespace) {
-  if (namespace.FootballCalendar) return;
+(function initializeSportsCalendar(namespace) {
+  if (namespace.SportsCalendar) return;
 
   const Core = window.FootballCore || {};
+  const registry = window.SportsHubRegistry;
   const pad = value => String(value).padStart(2, '0');
 
   const dayKey = value => {
@@ -28,13 +31,24 @@ window.FootballUI = window.FootballUI || {};
     return ids;
   };
 
-  class FootballCalendar {
-    constructor(options) {
+  class SportsCalendar {
+    constructor(options = {}) {
       Object.assign(this, options);
       this.today = options.today || null;
-      this.page = options.page || document.body.dataset.hub || 'football';
-      this.filterStorageKey = options.filterStorageKey || `footballCalendarFavoriteOnly:${this.page}`;
-      this.favoriteOnly = localStorage.getItem(this.filterStorageKey) !== 'false';
+      this.page = options.page || document.body.dataset.hub || 'sports';
+
+      const pageConfig = registry?.get?.(this.page);
+      this.filterStorageKey = options.filterStorageKey
+        || pageConfig?.calendar?.filterStorageKey
+        || `footballCalendarFavoriteOnly:${this.page}`;
+      const defaultFavoriteOnly = options.defaultFavoriteOnly
+        ?? pageConfig?.calendar?.defaultFavoriteOnly
+        ?? true;
+      const storedFavoriteOnly = localStorage.getItem(this.filterStorageKey);
+      this.favoriteOnly = storedFavoriteOnly === null
+        ? Boolean(defaultFavoriteOnly)
+        : storedFavoriteOnly !== 'false';
+
       this.cursor = new Date();
       this.selected = '';
       this.bound = false;
@@ -110,10 +124,16 @@ window.FootballUI = window.FootballUI || {};
     }
 
     emit(reason = 'select') {
-      this.onSelect?.(this.selected, { favoriteOnly: this.favoriteOnly, reason, calendar: this });
-      document.dispatchEvent(new CustomEvent('football:calendar-select', {
-        detail: { date: this.selected, favoriteOnly: this.favoriteOnly, reason, calendar: this }
-      }));
+      const detail = {
+        date: this.selected,
+        favoriteOnly: this.favoriteOnly,
+        reason,
+        calendar: this
+      };
+
+      this.onSelect?.(this.selected, detail);
+      document.dispatchEvent(new CustomEvent('sports:calendar-select', { detail }));
+      document.dispatchEvent(new CustomEvent('football:calendar-select', { detail }));
     }
 
     select(date = '') {
@@ -122,13 +142,25 @@ window.FootballUI = window.FootballUI || {};
       this.render();
     }
 
-    clearSelection() { this.select(''); }
-    goToday() { this.cursor = new Date(); this.select(dayKey(new Date())); }
-    shift(delta) { this.cursor = new Date(this.cursor.getFullYear(), this.cursor.getMonth() + delta, 1); this.select(''); }
+    clearSelection() {
+      this.select('');
+    }
+
+    goToday() {
+      this.cursor = new Date();
+      this.select(dayKey(new Date()));
+    }
+
+    shift(delta) {
+      this.cursor = new Date(this.cursor.getFullYear(), this.cursor.getMonth() + delta, 1);
+      this.select('');
+    }
 
     setCursor(value) {
       const date = new Date(value);
-      if (!Number.isNaN(date.getTime())) this.cursor = new Date(date.getFullYear(), date.getMonth(), 1);
+      if (!Number.isNaN(date.getTime())) {
+        this.cursor = new Date(date.getFullYear(), date.getMonth(), 1);
+      }
       this.render();
     }
 
@@ -180,15 +212,34 @@ window.FootballUI = window.FootballUI || {};
       const firstDay = new Date(year, month, 1);
       const lastDay = new Date(year, month + 1, 0);
       const todayKey = dayKey(new Date());
-      const cells = Array.from({ length: firstDay.getDay() }, () => '<button class="football-calendar__day is-blank" type="button" disabled></button>');
+      const cells = Array.from(
+        { length: firstDay.getDay() },
+        () => '<button class="football-calendar__day is-blank" type="button" disabled></button>'
+      );
 
       for (let day = 1; day <= lastDay.getDate(); day += 1) {
         const key = `${year}-${pad(month + 1)}-${pad(day)}`;
-        cells.push(this.buildDayCell({ day, key, matches: matchesByDate.get(key) || [], favorites, primary, todayKey }));
+        cells.push(this.buildDayCell({
+          day,
+          key,
+          matches: matchesByDate.get(key) || [],
+          favorites,
+          primary,
+          todayKey
+        }));
       }
+
       this.root.innerHTML = cells.join('');
     }
   }
 
-  Object.assign(namespace, { FootballCalendar, dayKey, teamId, isFavoriteMatch, favoriteMatches, collectFavoriteTeamIds });
-})(window.FootballUI);
+  Object.assign(namespace, {
+    SportsCalendar,
+    FootballCalendar: SportsCalendar,
+    dayKey,
+    teamId,
+    isFavoriteMatch,
+    favoriteMatches,
+    collectFavoriteTeamIds
+  });
+})(sharedCalendarUI);
