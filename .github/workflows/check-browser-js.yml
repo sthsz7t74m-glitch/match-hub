@@ -7,6 +7,7 @@ on:
       - 'assets/js/match-components.js'
       - 'assets/js/ui/football-shell.js'
       - 'assets/js/ui/sports-registry.js'
+      - 'assets/js/ui/detail-back-bootstrap.js'
       - 'assets/js/jleague-data.js'
       - 'assets/js/adapters/football-adapters.js'
       - 'national.js'
@@ -42,6 +43,7 @@ jobs:
           node --check assets/js/match-components.js
           node --check assets/js/ui/football-shell.js
           node --check assets/js/ui/sports-registry.js
+          node --check assets/js/ui/detail-back-bootstrap.js
           node --check assets/js/jleague-data.js
           node --check assets/js/adapters/football-adapters.js
 
