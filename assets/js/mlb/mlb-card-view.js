@@ -20,6 +20,15 @@ window.MLBView = window.MLBView || {};
       });
     }
 
+    teamInteraction(team = {}) {
+      if (team.id === undefined || team.id === null) return {};
+      return {
+        id: String(team.id),
+        attributes: { 'data-open-mlb-team': String(team.id) },
+        ariaLabel: `${team.name || team.en || '球団'}の詳細を見る`
+      };
+    }
+
     baseballCardOptions(game, favorites = this.favoriteSet()) {
       const home = game.home || {};
       const away = game.away || {};
@@ -46,11 +55,13 @@ window.MLBView = window.MLBView || {};
         statusText: this.statusText(game),
         away: {
           ...away,
+          ...this.teamInteraction(away),
           subtitle: away.en || '',
           fallback: away.abbreviation || 'A'
         },
         home: {
           ...home,
+          ...this.teamInteraction(home),
           subtitle: home.en || '',
           fallback: home.abbreviation || 'H'
         },
