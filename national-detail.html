@@ -45,16 +45,10 @@
     <section id="overviewPanel" class="tab-panel">
       <article class="panel data-card next-match-card">
         <div class="section-heading">
-          <div>
-            <p class="eyebrow">NEXT MATCH</p>
-            <h2>次の試合</h2>
-            <p class="muted">日時・対戦相手・FIFA順位を表示</p>
-          </div>
+          <div><p class="eyebrow">NEXT MATCH</p><h2>次の試合</h2><p class="muted">日時・対戦相手・FIFA順位を表示</p></div>
           <span id="nextMatchStatus" class="status-pill">取得中</span>
         </div>
-        <div id="nextMatchContent" class="detail-match-list">
-          <div class="empty-state"><span>📅</span><strong>日程を確認中</strong><p>データを読み込んでいます。</p></div>
-        </div>
+        <div id="nextMatchContent" class="detail-match-list"><div class="empty-state"><span>📅</span><strong>日程を確認中</strong><p>データを読み込んでいます。</p></div></div>
       </article>
 
       <div class="summary-grid">
@@ -65,11 +59,7 @@
 
       <article class="panel data-card ranking-section">
         <div class="section-heading">
-          <div>
-            <p class="eyebrow">FIFA / COCA-COLA</p>
-            <h2>FIFAランキング</h2>
-            <p id="rankingUpdated" class="muted">公式ランキングを読み込んでいます</p>
-          </div>
+          <div><p class="eyebrow">FIFA / COCA-COLA</p><h2>FIFAランキング</h2><p id="rankingUpdated" class="muted">公式ランキングを読み込んでいます</p></div>
           <span id="rankingMovement" class="ranking-movement">—</span>
         </div>
         <div id="rankingContent" class="ranking-card is-loading">
@@ -82,11 +72,7 @@
     <section id="matchesPanel" class="tab-panel hidden">
       <article class="panel data-card">
         <div class="section-heading">
-          <div>
-            <p class="eyebrow">MATCH SCHEDULE</p>
-            <h2>試合日程</h2>
-            <p class="muted">中央のスコア／VSを押すと試合情報を表示</p>
-          </div>
+          <div><p class="eyebrow">MATCH SCHEDULE</p><h2>試合日程</h2><p class="muted">中央のスコア／VSを押すと試合情報を表示</p></div>
           <span id="matchesCount" class="status-pill">0試合</span>
         </div>
         <div id="matchFilters" class="match-filter-row" role="group" aria-label="試合日程の絞り込み">
@@ -94,28 +80,20 @@
           <button class="match-filter" type="button" data-match-filter="upcoming">今後</button>
           <button class="match-filter" type="button" data-match-filter="finished">結果</button>
         </div>
-        <div id="matchesList" class="detail-match-list">
-          <div class="empty-state"><span>⚽</span><strong>日程を確認中</strong><p>データを読み込んでいます。</p></div>
-        </div>
+        <div id="matchesList" class="detail-match-list"><div class="empty-state"><span>⚽</span><strong>日程を確認中</strong><p>データを読み込んでいます。</p></div></div>
       </article>
     </section>
 
     <section id="competitionsPanel" class="tab-panel hidden">
       <article class="panel data-card">
-        <div class="section-heading">
-          <div><p class="eyebrow">COMPETITIONS</p><h2>参加大会</h2><p class="muted">取得済み試合から自動集計</p></div>
-          <span id="competitionCount" class="status-pill">0大会</span>
-        </div>
+        <div class="section-heading"><div><p class="eyebrow">COMPETITIONS</p><h2>参加大会</h2><p class="muted">取得済み試合から自動集計</p></div><span id="competitionCount" class="status-pill">0大会</span></div>
         <div id="competitionList" class="competition-list"></div>
       </article>
     </section>
 
     <section id="formPanel" class="tab-panel hidden">
       <article class="panel data-card">
-        <div class="section-heading">
-          <div><p class="eyebrow">RECENT FORM</p><h2>最近の戦績</h2><p class="muted">直近5試合を新しい順に表示</p></div>
-          <span id="formSummary" class="status-pill">データ待ち</span>
-        </div>
+        <div class="section-heading"><div><p class="eyebrow">RECENT FORM</p><h2>最近の戦績</h2><p class="muted">直近5試合を新しい順に表示</p></div><span id="formSummary" class="status-pill">データ待ち</span></div>
         <div id="formStrip" class="form-strip" aria-label="直近5試合の結果"></div>
         <div id="formMatches" class="detail-match-list"></div>
       </article>
@@ -125,10 +103,9 @@
   </main>
 
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-
   <script src="./assets/js/core.js?v=311" defer></script>
   <script src="./assets/js/services/sports-ranking-services.js?v=2" defer></script>
-  <script src="./assets/js/match-components.js?v=8" defer></script>
+  <script src="./assets/js/match-components.js?v=9" defer></script>
   <script src="./assets/js/national-data.js?v=312" defer></script>
   <script src="./assets/js/national-service.js?v=312" defer></script>
   <script src="./national-detail.js?v=240" defer></script>
