@@ -3,8 +3,8 @@ window.MLBService = window.MLBService || {};
 (function initializeMlbService(namespace) {
   const Data = window.MLBData || {};
   const API_ROOT = 'https://statsapi.mlb.com/api/v1';
-  const memoryCache = new Map();
   const DEFAULT_TTL = 15 * 60 * 1000;
+  const memoryCache = new Map();
 
   const asArray = value => (Array.isArray(value) ? value : []);
   const currentSeason = () => new Date().getFullYear();
@@ -19,38 +19,44 @@ window.MLBService = window.MLBService || {};
     return url;
   };
 
-  const readSessionCache = key => {
+  const sessionKey = url => `mlb-api:${url}`;
+
+  const readStored = url => {
     try {
-      const raw = sessionStorage.getItem(`mlb-api:${key}`);
+      const raw = sessionStorage.getItem(sessionKey(url));
       if (!raw) return null;
-      const cached = JSON.parse(raw);
-      return cached && typeof cached.savedAt === 'number' ? cached : null;
+      const value = JSON.parse(raw);
+      return value && typeof value.savedAt === 'number' ? value : null;
     } catch {
       return null;
     }
   };
 
-  const writeSessionCache = (key, value) => {
+  const store = (url, cached) => {
+    memoryCache.set(url, cached);
     try {
-      sessionStorage.setItem(`mlb-api:${key}`, JSON.stringify({ savedAt: Date.now(), value }));
+      sessionStorage.setItem(sessionKey(url), JSON.stringify(cached));
     } catch {
-      // Large schedule responses can exceed the browser quota. Memory cache remains available.
+      // Full-season schedules may exceed storage quota. Memory cache is enough for this visit.
     }
   };
 
   async function request(path, params = {}, options = {}) {
-    const { fresh = false, ttl = DEFAULT_TTL, timeout = 18000 } = options;
-    const url = createUrl(path, params);
-    const key = url.toString();
-    const memory = memoryCache.get(key);
+    const {
+      fresh = false,
+      ttl = DEFAULT_TTL,
+      timeout = 18000
+    } = options;
 
+    const url = createUrl(path, params).toString();
+    const memory = memoryCache.get(url);
     if (!fresh && memory && Date.now() - memory.savedAt < ttl) return memory.value;
 
     if (!fresh) {
-      const stored = readSessionCache(key);
-      if (stored && Date.now() - stored.savedAt < ttl) {
-        memoryCache.set(key, stored);
-        return stored.value;
+      const saved = readStored(url);
+      if (saved && Date.now() - saved.savedAt < ttl) {
+        memoryCache.set(url, saved);
+        return saved.value;
       }
     }
 
@@ -62,20 +68,21 @@ window.MLBService = window.MLBService || {};
         cache: fresh ? 'no-store' : 'default',
         signal: controller.signal
       });
-
       if (!response.ok) throw new Error(`MLB Stats API HTTP ${response.status}`);
+
       const value = await response.json();
-      const cached = { savedAt: Date.now(), value };
-      memoryCache.set(key, cached);
-      writeSessionCache(key, value);
+      store(url, { savedAt: Date.now(), value });
       return value;
+    } catch (error) {
+      if (error?.name === 'AbortError') throw new Error('MLB Stats API timeout');
+      throw error;
     } finally {
       clearTimeout(timer);
     }
   }
 
   const normalizeTeam = team => {
-    const id = String(team.id);
+    const id = String(team.id || '');
     const leagueId = Number(team.league?.id || 0);
     const divisionId = Number(team.division?.id || 0);
     const en = team.name || team.clubName || `Team ${id}`;
@@ -102,8 +109,9 @@ window.MLBService = window.MLBService || {};
       id,
       name: Data.teamName?.(id, en) || en,
       en,
+      abbreviation: team.abbreviation || '',
       logo: Data.teamLogo?.(id) || '',
-      score: Number.isFinite(value?.score) ? value.score : value?.score ?? null,
+      score: value?.score ?? null,
       winner: Boolean(value?.isWinner)
     };
   };
@@ -113,7 +121,7 @@ window.MLBService = window.MLBService || {};
     date: game.gameDate,
     gameType: game.gameType || 'R',
     gameTypeName: Data.gameTypeName?.(game.gameType) || 'MLB',
-    gameNumber: game.gameNumber || 1,
+    gameNumber: Number(game.gameNumber || 1),
     doubleHeader: game.doubleHeader || 'N',
     status: game.status?.abstractGameState || '',
     detailedStatus: game.status?.detailedState || '',
@@ -140,6 +148,7 @@ window.MLBService = window.MLBService || {};
         id,
         name: Data.teamName?.(id, en) || en,
         en,
+        abbreviation: '',
         logo: Data.teamLogo?.(id) || ''
       },
       gamesPlayed: Number(row.gamesPlayed || 0),
@@ -168,9 +177,9 @@ window.MLBService = window.MLBService || {};
       league: Data.LEAGUES?.[leagueId] || { id: leagueId, code: '', name: record.league?.name || '' },
       rows: asArray(record.teamRecords)
         .map(normalizeStandingRow)
-        .sort((a, b) => a.rank - b.rank || b.pct.localeCompare(a.pct))
+        .sort((a, b) => a.rank - b.rank || Number(b.pct) - Number(a.pct))
     };
-  });
+  }).sort((a, b) => a.leagueId - b.leagueId || a.divisionId - b.divisionId);
 
   const normalizePlayer = person => {
     const teamId = String(person.currentTeam?.id || '');
@@ -194,8 +203,7 @@ window.MLBService = window.MLBService || {};
     try {
       const payload = await request('/teams', {
         sportId: 1,
-        season: options.season || currentSeason(),
-        hydrate: 'venue,league,division'
+        season: options.season || currentSeason()
       }, options);
       const teams = asArray(payload.teams).map(normalizeTeam).filter(team => team.id);
       return teams.length ? teams : [...(Data.FALLBACK_TEAMS || [])];
@@ -209,10 +217,13 @@ window.MLBService = window.MLBService || {};
     const season = options.season || currentSeason();
     const payload = await request('/schedule', {
       sportId: 1,
-      startDate: dateText(season, 2, 1),
-      endDate: dateText(season, 11, 30),
-      hydrate: 'linescore,probablePitcher'
-    }, { ...options, ttl: options.ttl ?? 10 * 60 * 1000, timeout: options.timeout || 25000 });
+      startDate: dateText(season, 3, 1),
+      endDate: dateText(season, 11, 30)
+    }, {
+      ...options,
+      ttl: options.ttl ?? 10 * 60 * 1000,
+      timeout: options.timeout || 25000
+    });
 
     return asArray(payload.dates)
       .flatMap(date => asArray(date.games))
@@ -226,21 +237,22 @@ window.MLBService = window.MLBService || {};
     const payload = await request('/standings', {
       leagueId: '103,104',
       season,
-      standingsTypes: 'regularSeason',
-      hydrate: 'team,division'
+      standingsTypes: 'regularSeason'
     }, options);
     return normalizeStandings(payload);
   }
 
   async function loadJapanesePlayers(options = {}) {
     const season = options.season || currentSeason();
-    const payload = await request('/sports/1/players', {
-      season,
-      hydrate: 'currentTeam'
-    }, { ...options, ttl: options.ttl ?? 60 * 60 * 1000, timeout: options.timeout || 25000 });
+    const payload = await request('/sports/1/players', { season }, {
+      ...options,
+      ttl: options.ttl ?? 60 * 60 * 1000,
+      timeout: options.timeout || 25000
+    });
 
-    return asArray(payload.people)
+    return asArray(payload.people || payload.players)
       .filter(person => String(person.birthCountry || '').toLowerCase() === 'japan')
+      .filter(person => person.active !== false)
       .map(normalizePlayer)
       .filter(player => player.name)
       .sort((a, b) => a.teamName.localeCompare(b.teamName, 'ja') || a.name.localeCompare(b.name, 'ja'));
@@ -255,17 +267,15 @@ window.MLBService = window.MLBService || {};
     ]);
 
     const [teamsResult, gamesResult, standingsResult] = results;
-    const errors = results
-      .filter(result => result.status === 'rejected')
-      .map(result => result.reason?.message || String(result.reason));
-
     return {
       season,
       updatedAt: new Date().toISOString(),
       teams: teamsResult.status === 'fulfilled' ? teamsResult.value : [...(Data.FALLBACK_TEAMS || [])],
       games: gamesResult.status === 'fulfilled' ? gamesResult.value : [],
       standings: standingsResult.status === 'fulfilled' ? standingsResult.value : [],
-      errors
+      errors: results
+        .filter(result => result.status === 'rejected')
+        .map(result => result.reason?.message || String(result.reason))
     };
   }
 
