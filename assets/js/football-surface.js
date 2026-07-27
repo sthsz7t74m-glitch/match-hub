@@ -5,7 +5,7 @@ window.FootballSurface = window.FootballSurface || {};
     five: {
       title: 'Match Hub',
       eyebrow: 'FOOTBALL SCHEDULE',
-      version: 'v1.0.8',
+      version: 'v1.0.9',
       backLabel: 'Sports Hubへ戻る'
     },
     jleague: {
@@ -19,10 +19,15 @@ window.FootballSurface = window.FootballSurface || {};
   };
 
   const loadScript = source => new Promise((resolve, reject) => {
-    const existing = [...document.scripts].find(script => script.src.includes(source.split('?')[0]));
+    const path = source.split('?')[0];
+    const existing = [...document.scripts].find(script => script.src.includes(path));
+
     if (existing) {
-      if (existing.dataset.loaded === 'true' || existing.readyState === 'complete') resolve(existing);
-      else existing.addEventListener('load', () => resolve(existing), { once: true });
+      if (existing.dataset.loaded === 'true' || existing.readyState === 'complete') {
+        resolve(existing);
+      } else {
+        existing.addEventListener('load', () => resolve(existing), { once: true });
+      }
       return;
     }
 
@@ -90,10 +95,11 @@ window.FootballSurface = window.FootballSurface || {};
       window.FootballUI?.BottomNavigation && new window.FootballUI.BottomNavigation(nav).normalize();
     }
 
-    async connectSharedCalendar() {
+    async connectSharedBehavior() {
+      await loadScript('./assets/js/ui/football-navigation.js?v=1');
       if (this.page !== 'five') return;
 
-      await loadScript('./assets/js/ui/football-calendar.js?v=3');
+      await loadScript('./assets/js/ui/football-calendar.js?v=4');
       await loadScript('./assets/js/ui/match-hub-calendar.js?v=1');
     }
 
@@ -101,7 +107,7 @@ window.FootballSurface = window.FootballSurface || {};
       this.enhanceBody();
       this.enhanceHeader();
       this.enhanceNavigation();
-      await this.connectSharedCalendar();
+      await this.connectSharedBehavior();
       return this;
     }
   }
