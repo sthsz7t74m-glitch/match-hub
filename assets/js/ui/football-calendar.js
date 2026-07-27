@@ -16,12 +16,20 @@ window.FootballUI = window.FootballUI || {};
       : `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}`;
   };
 
+  const teamId = team => String(team?.id ?? team ?? '');
+
+  const isFavoriteMatch = (match, favorites) =>
+    favorites.has(teamId(match.home)) || favorites.has(teamId(match.away));
+
+  const favoriteMatches = (matches, favorites) =>
+    matches.filter(match => isFavoriteMatch(match, favorites));
+
   const collectFavoriteTeamIds = (matches, favorites) => {
     const ids = [];
 
-    matches.forEach(match => {
+    favoriteMatches(matches, favorites).forEach(match => {
       [match.home, match.away].forEach(team => {
-        const id = String(team?.id ?? team ?? '');
+        const id = teamId(team);
         if (favorites.has(id) && !ids.includes(id)) ids.push(id);
       });
     });
@@ -99,11 +107,12 @@ window.FootballUI = window.FootballUI || {};
     }
 
     buildDayCell({ day, key, matches, favorites, primary, todayKey }) {
-      const favoriteIds = collectFavoriteTeamIds(matches, favorites);
+      const relatedMatches = favoriteMatches(matches, favorites);
+      const favoriteIds = collectFavoriteTeamIds(relatedMatches, favorites);
       const marks = this.buildTeamMarks(favoriteIds);
       const classes = [
         'football-calendar__day',
-        matches.length && 'has-match',
+        relatedMatches.length && 'has-match',
         favoriteIds.length && 'has-favorite',
         primary && favoriteIds.includes(primary) && 'has-primary',
         this.selected === key && 'is-selected',
@@ -114,7 +123,7 @@ window.FootballUI = window.FootballUI || {};
         <button class="${classes}" data-calendar-day="${key}" data-date="${key}" type="button">
           <span class="football-calendar__date">${day}</span>
           <small class="football-calendar__marks">${marks}</small>
-          ${matches.length ? `<b class="football-calendar__count" aria-label="${matches.length}試合">${matches.length}</b>` : ''}
+          ${relatedMatches.length ? `<b class="football-calendar__count" aria-label="お気に入り関連${relatedMatches.length}試合">${relatedMatches.length}</b>` : ''}
         </button>`;
     }
 
@@ -164,6 +173,9 @@ window.FootballUI = window.FootballUI || {};
   Object.assign(namespace, {
     FootballCalendar,
     dayKey,
+    teamId,
+    isFavoriteMatch,
+    favoriteMatches,
     collectFavoriteTeamIds
   });
 })(window.FootballUI);
