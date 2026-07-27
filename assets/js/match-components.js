@@ -236,11 +236,16 @@ window.SportsHubComponents = window.SportsHubComponents || {};
       this.normalize = normalize;
       this.decorate = decorate;
     }
+
     render(event, context = {}) {
-      const normalized = this.normalize(event, context) || {};
-      return this.card.render({ ...normalized, ...this.decorate(event, normalized, context) });
+      const source = event?.raw && typeof event.raw === 'object' ? event.raw : event;
+      const normalized = this.normalize(source, { ...context, model: source === event ? null : event }) || {};
+      return this.card.render({ ...normalized, ...this.decorate(source, normalized, context) });
     }
-    renderMany(events = [], context = {}) { return events.map(event => this.render(event, context)).join(''); }
+
+    renderMany(events = [], context = {}) {
+      return events.map(event => this.render(event, context)).join('');
+    }
   }
 
   class SoccerMatchCardRenderer extends SportsEventCardRenderer {
@@ -333,7 +338,10 @@ window.SportsHubComponents = window.SportsHubComponents || {};
       this.root.showModal();
       return true;
     }
-    close() { if (this.root?.open) this.root.close(); }
+
+    close() {
+      if (this.root?.open) this.root.close();
+    }
   }
 
   const soccerCard = new SoccerMatchCard();
@@ -364,6 +372,6 @@ window.SportsHubComponents = window.SportsHubComponents || {};
       ).join('');
       return `<button class="${classes}" data-calendar-day="${escapeHtml(options.dateKey || '')}" type="button"${options.disabled ? ' disabled' : ''}><span>${escapeHtml(options.day || '')}</span>${options.count ? `<i>${escapeHtml(options.count)}</i>` : ''}${marks ? `<small class="calendar-favorite-marks">${marks}</small>` : ''}</button>`;
     },
-    MATCH_CARD_VERSION: 5
+    MATCH_CARD_VERSION: 6
   });
 })(window.SportsHubComponents);
