@@ -1,0 +1,72 @@
+name: Update MLB data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/10 * * * *'
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/update-mlb-data.yml'
+      - 'scripts/update-mlb-data.mjs'
+      - 'assets/js/mlb/mlb-data.js'
+      - 'assets/js/mlb/mlb-service.js'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-mlb-data
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Read previous published dataset
+        shell: bash
+        run: |
+          git fetch origin mlb-data:refs/remotes/origin/mlb-data || true
+          git show origin/mlb-data:mlb-hub.json > /tmp/mlb-existing.json 2>/dev/null || true
+
+      - name: Generate MLB dataset
+        env:
+          MLB_OUTPUT: /tmp/mlb-hub.json
+          MLB_EXISTING_FILE: /tmp/mlb-existing.json
+        run: node scripts/update-mlb-data.mjs
+
+      - name: Skip unchanged dataset
+        id: changes
+        shell: bash
+        run: |
+          if [ -s /tmp/mlb-existing.json ] && cmp -s /tmp/mlb-existing.json /tmp/mlb-hub.json; then
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+          else
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Publish to data branch
+        if: steps.changes.outputs.changed == 'true'
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git checkout --orphan mlb-data-publish
+          git rm -rf .
+          cp /tmp/mlb-hub.json mlb-hub.json
+          git add mlb-hub.json
+          git commit -m 'data: update MLB dataset'
+          git push --force origin HEAD:mlb-data
