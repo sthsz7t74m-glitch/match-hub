@@ -5,7 +5,7 @@ window.FootballUI = sharedBootstrapUI;
 (function initializeSportsBootstrap(namespace) {
   if (namespace.SportsPageAdapter) return;
 
-  const Core = window.FootballCore || {};
+  const Core = window.SportsCore || window.FootballCore || {};
   const registry = window.SportsHubRegistry;
   const jClubTeamIds = {
     'fc-tokyo': '3384',
@@ -85,8 +85,9 @@ window.FootballUI = sharedBootstrapUI;
     }
   };
 
-  class SportsPageAdapter {
+  class SportsPageAdapter extends (Core.SportsComponent || class {}) {
     constructor(page = document.body.dataset.hub) {
+      super({ root: document.body });
       this.page = page || this.detect();
       this.pageConfig = CALENDAR_PAGE_CONFIGS[this.page];
       this.registryConfig = registry?.get?.(this.page) || null;
@@ -100,7 +101,6 @@ window.FootballUI = sharedBootstrapUI;
 
     getCalendarConfig(data) {
       if (!this.pageConfig) throw new Error(`Unknown sports page: ${this.page}`);
-
       return {
         ...commonElements(),
         page: this.page,
@@ -148,8 +148,9 @@ window.FootballUI = sharedBootstrapUI;
   });
 
   namespace.bootstrap = function bootstrapSportsUI() {
-    const ShellClass = namespace.SportsShell || namespace.FootballShell;
-    new ShellClass(document.body.dataset.hub).render();
+    const page = document.body.dataset.hub;
+    if (!namespace.shell || namespace.shell.page !== page) namespace.renderShell?.(page);
+    else namespace.shell.render?.();
 
     if (document.readyState === 'loading') {
       document.addEventListener('DOMContentLoaded', startAdapters, { once: true });
