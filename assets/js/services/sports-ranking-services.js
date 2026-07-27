@@ -17,7 +17,9 @@ window.SportsRankings = window.SportsRankings || {};
   const FIFA_NAME_ALIASES = Object.freeze({
     korea: 'Korea Republic',
     'south korea': 'Korea Republic',
-    'north korea': 'Korea DPR',
+    'north korea': 'DPR Korea',
+    'korea dpr': 'DPR Korea',
+    'dpr korea': 'DPR Korea',
     iran: 'IR Iran',
     china: 'China PR',
     taiwan: 'Chinese Taipei',
@@ -40,12 +42,14 @@ window.SportsRankings = window.SportsRankings || {};
     bolivia: 'Bolivia',
     syria: 'Syria',
     vietnam: 'Vietnam',
+    brunei: 'Brunei Darussalam',
     'brunei darussalam': 'Brunei Darussalam',
     'timor leste': 'Timor-Leste',
-    'eswatini': 'Eswatini',
-    'swaziland': 'Eswatini',
+    'east timor': 'Timor-Leste',
+    eswatini: 'Eswatini',
+    swaziland: 'Eswatini',
     'the gambia': 'Gambia',
-    'gambia': 'Gambia'
+    gambia: 'Gambia'
   });
 
   class SportsRankingEntry {
