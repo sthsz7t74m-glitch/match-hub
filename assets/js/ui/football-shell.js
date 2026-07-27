@@ -4,11 +4,27 @@ window.FootballUI = window.FootballUI || {};
   if (namespace.FootballShell) return;
 
   const shellConfigs = {
+    five: {
+      eyebrow: 'FOOTBALL SCHEDULE',
+      title: 'Match Hub',
+      version: 'v1.1.0',
+      back: './sports-home.html',
+      navAttribute: 'view',
+      nav: [
+        ['home', '⌂', 'ホーム'],
+        ['schedule', '▤', '日程'],
+        ['standings', '≡', '順位表'],
+        ['search', '⌕', '検索'],
+        ['transfers', '↔', '移籍'],
+        ['settings', '⚙', '設定']
+      ]
+    },
     jleague: {
       eyebrow: 'JAPAN PROFESSIONAL FOOTBALL',
       title: 'Jリーグ',
-      version: 'v3.1.1',
+      version: 'v3.1.2',
       back: './sports-home.html',
+      navAttribute: 'page',
       nav: [
         ['home', '⌂', 'ホーム'],
         ['schedule', '▤', '日程'],
@@ -20,8 +36,9 @@ window.FootballUI = window.FootballUI || {};
     national: {
       eyebrow: 'NATIONAL TEAMS',
       title: '各国代表',
-      version: 'v3.1.9',
+      version: 'v3.2.0',
       back: './sports-home.html',
+      navAttribute: 'page',
       nav: [
         ['home', '⌂', 'ホーム'],
         ['schedule', '▤', '日程'],
@@ -47,22 +64,12 @@ window.FootballUI = window.FootballUI || {};
         const label = item.querySelector('span');
         if (label) item.setAttribute('aria-label', label.textContent.trim());
       });
-
-      if (this.root.dataset.repeatTapBound === 'true') return;
-      this.root.dataset.repeatTapBound = 'true';
-      this.root.addEventListener('click', event => {
-        const item = event.target.closest('.nav-item');
-        if (!item || !this.root.contains(item) || !item.classList.contains('active')) return;
-
-        event.preventDefault();
-        event.stopImmediatePropagation();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      }, true);
     }
   }
 
   class FootballShell {
     constructor(page = document.body.dataset.hub) {
+      this.page = page;
       this.config = shellConfigs[page];
     }
 
@@ -70,30 +77,59 @@ window.FootballUI = window.FootballUI || {};
       const root = document.querySelector('.topbar');
       if (!root || !this.config) return;
 
-      root.innerHTML = `<div style="display:flex;align-items:center;gap:10px"><a class="back-link" href="${this.config.back}" aria-label="Sports Hubへ戻る">←</a><div><p class="eyebrow">${this.config.eyebrow}</p><h1>${this.config.title} <span class="version">${this.config.version}</span></h1></div></div><div class="topbar__actions"><button id="themeButton" class="icon-button" type="button" aria-label="テーマ切替">◐</button></div>`;
+      root.innerHTML = `
+        <div class="football-header__identity">
+          <a class="back-link" href="${this.config.back}" aria-label="Sports Hubへ戻る">←</a>
+          <div class="football-header__copy">
+            <p class="eyebrow">${this.config.eyebrow}</p>
+            <div class="football-header__title-row">
+              <h1>${this.config.title}</h1>
+              <span class="version">${this.config.version}</span>
+            </div>
+          </div>
+        </div>
+        <div class="topbar__actions">
+          <button id="themeButton" class="icon-button" type="button" aria-label="テーマ切替">◐</button>
+        </div>`;
+
+      root.dataset.shellPage = this.page;
     }
 
     renderNavigation() {
       const root = document.querySelector('#pageTabs');
       if (!root || !this.config) return;
 
+      const attribute = this.config.navAttribute || 'page';
       root.innerHTML = this.config.nav
-        .map(([page, icon, label, badge], index) => `<button class="nav-item hub-nav__item${index === 0 ? ' active' : ''}" data-page="${page}" type="button">${icon}<span>${label}${badge ? ` <b id="${badge}">0</b>` : ''}</span></button>`)
+        .map(([target, icon, label, badge], index) => `
+          <button class="nav-item hub-nav__item${index === 0 ? ' active' : ''}" data-${attribute}="${target}" type="button">
+            ${icon}<span>${label}${badge ? ` <b id="${badge}">0</b>` : ''}</span>
+          </button>`)
         .join('');
 
       root.setAttribute('aria-label', `${this.config.title}メニュー`);
+      root.dataset.navigationType = attribute;
       new BottomNavigation(root).normalize();
     }
 
     render() {
+      if (!this.config) return this;
       this.renderHeader();
       this.renderNavigation();
+      return this;
     }
   }
 
   Object.assign(namespace, {
     BottomNavigation,
     FootballShell,
-    shellConfigs
+    shellConfigs,
+    renderShell(page = document.body.dataset.hub) {
+      const shell = new FootballShell(page).render();
+      namespace.shell = shell;
+      return shell;
+    }
   });
+
+  namespace.renderShell(document.body.dataset.hub);
 })(window.FootballUI);
