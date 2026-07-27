@@ -6,7 +6,7 @@ on:
     - cron: '17 */6 * * *'
   push:
     paths:
-      - 'scripts/update-fifa-rankings.mjs'
+      - 'scripts/update-fifa-rankings-v2.mjs'
       - '.github/workflows/update-fifa-rankings.yml'
 
 permissions:
@@ -35,7 +35,7 @@ jobs:
         shell: bash
         run: |
           set -o pipefail
-          node scripts/update-fifa-rankings.mjs 2>&1 | tee data/fifa-ranking-update.log
+          node scripts/update-fifa-rankings-v2.mjs 2>&1 | tee data/fifa-ranking-update.log
 
       - name: Commit ranking changes
         run: |
