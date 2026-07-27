@@ -59,9 +59,15 @@ window.MLBSync = window.MLBSync || {};
     scheduleRetry() {
       if (!this.started) return;
       clearTimeout(this.retryTimer);
-      const delay = this.retryDelays[Math.min(this.retryIndex, this.retryDelays.length - 1)];
+
+      if (this.retryIndex >= this.retryDelays.length) {
+        this.emit('retry-exhausted', { intervalMs: this.intervalMs });
+        return;
+      }
+
+      const delay = this.retryDelays[this.retryIndex];
       this.retryIndex += 1;
-      this.emit('retry-scheduled', { delay });
+      this.emit('retry-scheduled', { delay, attempt: this.retryIndex });
       this.retryTimer = setTimeout(() => {
         void this.refresh({ fresh: true, reason: 'retry' });
       }, delay);
@@ -123,7 +129,11 @@ window.MLBSync = window.MLBSync || {};
             fresh
           });
           if (games.length) {
-            this.store.setGames(games, 'season-games-loaded');
+            if (typeof this.store.mergeGames === 'function') {
+              this.store.mergeGames(games, 'season-games-loaded');
+            } else {
+              this.store.setGames(games, 'season-games-loaded');
+            }
             this.lastFullScheduleAt = Date.now();
             this.emit('season-ready', { games });
           }
@@ -140,6 +150,7 @@ window.MLBSync = window.MLBSync || {};
     }
 
     handleOnline() {
+      this.clearRetry();
       void this.refresh({ fresh: true, reason: 'online' });
     }
 
@@ -156,6 +167,7 @@ window.MLBSync = window.MLBSync || {};
       window.addEventListener('online', this.handleOnline);
       document.addEventListener('visibilitychange', this.handleVisibility);
       this.intervalTimer = setInterval(() => {
+        this.clearRetry();
         void this.refresh({ fresh: false, reason: 'interval' });
       }, this.intervalMs);
       void this.refresh({ fresh: false, reason: 'initial' });
