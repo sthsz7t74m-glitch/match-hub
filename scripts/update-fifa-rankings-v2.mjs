@@ -7,15 +7,11 @@ const PAGE_URLS = [
   'https://inside.fifa.com/fifa-world-ranking/men',
   'https://football-technology.fifa.com/fifa-world-ranking'
 ];
-const API_BASES = [
-  'https://vod.fifa.com/api/ranking-overview',
-  'https://inside.fifa.com/api/ranking-overview',
-  'https://rusecure.fifa.com/api/ranking-overview'
-];
+const FDCP_BASE = 'https://api.fifa.com/api/v3';
 const HEADERS = {
   Accept: 'application/json,text/html;q=0.9,*/*;q=0.8',
   'Accept-Language': 'en-US,en;q=0.9',
-  'User-Agent': 'Mozilla/5.0 (compatible; MatchHubRankingBot/2.0; +https://github.com/sthsz7t74m-glitch/match-hub)'
+  'User-Agent': 'Mozilla/5.0 (compatible; MatchHubRankingBot/2.1; +https://github.com/sthsz7t74m-glitch/match-hub)'
 };
 
 const text = value => String(value ?? '').trim();
@@ -99,86 +95,46 @@ function latestRankingDate(config) {
   return entries[0];
 }
 
-function flagCodeFrom(value) {
-  const match = text(value).match(/\/([A-Z]{3})(?:\?|$)/i);
-  return match ? match[1].toUpperCase() : '';
-}
+function normalizeFdcpRow(row) {
+  const rank = number(row?.Rank);
+  const name = text(row?.TeamName);
+  const code = text(row?.IdCountry).toUpperCase();
+  if (!rank || !name || !code) return null;
 
-function normalizeRankingRow(row) {
-  const item = row?.rankingItem || row?.ranking || row?.team || row || {};
-  const rank = number(item.rank ?? row?.rank);
-  const name = text(item.name ?? item.teamName ?? item.countryName ?? row?.name);
-  if (!rank || !name) return null;
-
-  const previousRank = number(
-    item.previousRank
-      ?? item.previousRanking
-      ?? item.lastRank
-      ?? row?.previousRank
-      ?? row?.previous_rank
-  );
-  const points = number(item.totalPoints ?? item.points ?? row?.totalPoints ?? row?.points);
-  const flag = text(item.flag?.src ?? item.flagUrl ?? row?.flag?.src ?? row?.flagUrl);
-  const code = text(
-    item.countryCode
-      ?? item.country?.code
-      ?? item.code
-      ?? item.teamCode
-      ?? item.abbreviation
-      ?? row?.countryCode
-      ?? flagCodeFrom(flag)
-  ).toUpperCase();
-  const confederation = text(
-    row?.tag?.text
-      ?? row?.confederation
-      ?? item.confederation
-      ?? item.confederationName
-  );
-
+  const previousRank = number(row?.PrevRank);
+  const points = number(row?.TotalPoints);
   return {
     rank,
     previousRank,
     movement: previousRank ? previousRank - rank : 0,
     points,
+    previousPoints: number(row?.PrevPoints),
     code,
     name,
-    confederation,
-    flag
+    confederation: text(row?.ConfederationName),
+    flag: `${FDCP_BASE}/picture/flags-sq-2/${encodeURIComponent(code)}`,
+    teamId: text(row?.IdTeam)
   };
 }
 
-function rankingRowsFrom(payload) {
-  const rowCandidates = [
-    payload?.rankings,
-    payload?.items,
-    payload?.data?.rankings,
-    payload?.data?.items,
-    payload?.ranking?.rankings,
-    payload?.pageData?.ranking?.rankings
-  ];
+async function fetchRanking(scheduleId) {
+  const parameters = new URLSearchParams({
+    rankingScheduleId: scheduleId,
+    count: '500',
+    language: 'en'
+  });
+  const url = `${FDCP_BASE}/fifarankings/rankings/rankingsbyschedule?${parameters}`;
+  const { body } = await fetchText(url, 30000);
+  const payload = JSON.parse(body);
+  const rankings = asArray(payload?.Results)
+    .map(normalizeFdcpRow)
+    .filter(Boolean)
+    .sort((left, right) => left.rank - right.rank);
 
-  for (const rows of rowCandidates) {
-    const normalized = asArray(rows).map(normalizeRankingRow).filter(Boolean);
-    if (normalized.length >= 50) return normalized.sort((left, right) => left.rank - right.rank);
+  if (rankings.length < 50) {
+    throw new Error(`Official FDCP returned only ${rankings.length} ranking rows`);
   }
-  return [];
-}
-
-async function fetchRanking(dateId) {
-  const errors = [];
-  for (const base of API_BASES) {
-    const url = `${base}?locale=en&dateId=${encodeURIComponent(dateId)}`;
-    try {
-      const { body } = await fetchText(url, 25000);
-      const payload = JSON.parse(body);
-      const rankings = rankingRowsFrom(payload);
-      if (rankings.length < 50) throw new Error(`Only ${rankings.length} ranking rows`);
-      return { url, rankings };
-    } catch (error) {
-      errors.push(`${url}: ${error.message}`);
-    }
-  }
-  throw new Error(`Current FIFA ranking payload unavailable: ${errors.join(' | ')}`);
+  return { url, rankings };
 }
 
 function signature(value) {
@@ -205,7 +161,7 @@ for (const url of PAGE_URLS) {
   try {
     const result = await fetchText(url);
     const config = findRankingConfig(result.body);
-    page = { url: result.response.url || url, body: result.body };
+    page = { url: result.response.url || url };
     rankingConfig = config;
     break;
   } catch (error) {
