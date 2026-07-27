@@ -11,7 +11,7 @@ const FDCP_BASE = 'https://api.fifa.com/api/v3';
 const HEADERS = {
   Accept: 'application/json,text/html;q=0.9,*/*;q=0.8',
   'Accept-Language': 'en-US,en;q=0.9',
-  'User-Agent': 'Mozilla/5.0 (compatible; MatchHubRankingBot/2.1; +https://github.com/sthsz7t74m-glitch/match-hub)'
+  'User-Agent': 'Mozilla/5.0 (compatible; MatchHubRankingBot/2.2; +https://github.com/sthsz7t74m-glitch/match-hub)'
 };
 
 const text = value => String(value ?? '').trim();
@@ -95,9 +95,20 @@ function latestRankingDate(config) {
   return entries[0];
 }
 
+function localizedDescription(value, preferredLocales = ['en-GB', 'en-US', 'en']) {
+  if (typeof value === 'string') return text(value);
+  const entries = asArray(value);
+  for (const locale of preferredLocales) {
+    const found = entries.find(entry => text(entry?.Locale).toLowerCase() === locale.toLowerCase());
+    const description = text(found?.Description);
+    if (description) return description;
+  }
+  return text(entries.find(entry => text(entry?.Description))?.Description);
+}
+
 function normalizeFdcpRow(row) {
   const rank = number(row?.Rank);
-  const name = text(row?.TeamName);
+  const name = localizedDescription(row?.TeamName);
   const code = text(row?.IdCountry).toUpperCase();
   if (!rank || !name || !code) return null;
 
@@ -106,7 +117,9 @@ function normalizeFdcpRow(row) {
   return {
     rank,
     previousRank,
-    movement: previousRank ? previousRank - rank : 0,
+    movement: Number.isFinite(Number(row?.RankingMovement))
+      ? Number(row.RankingMovement)
+      : previousRank ? previousRank - rank : 0,
     points,
     previousPoints: number(row?.PrevPoints),
     code,
