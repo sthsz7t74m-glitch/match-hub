@@ -77,6 +77,10 @@ window.MLBStore = window.MLBStore || {};
       }, 'hub-loaded');
     }
 
+    setGames(games, reason = 'games-loaded') {
+      return this.update({ games: asArray(games) }, reason);
+    }
+
     setPlayersLoading(loading) {
       return this.update({ playersLoading: Boolean(loading) }, 'players-loading');
     }
