@@ -4,7 +4,7 @@ const CHUNK_URL = 'https://vod.fifa.com/_next/static/chunks/4170.0d6f0f095bdc782
 const HEADERS = {
   Accept: '*/*',
   'Accept-Language': 'en-US,en;q=0.9',
-  'User-Agent': 'Mozilla/5.0 (compatible; MatchHubFifaProbe/4.0)'
+  'User-Agent': 'Mozilla/5.0 (compatible; MatchHubFifaProbe/5.0)'
 };
 
 async function get(url, timeout = 30000) {
@@ -19,68 +19,39 @@ async function get(url, timeout = 30000) {
   }
 }
 
-function snippets(source, needle, { limit = 20, radius = 700 } = {}) {
-  const results = [];
-  const lower = source.toLowerCase();
-  const search = needle.toLowerCase();
-  let offset = 0;
-  while (results.length < limit) {
-    const index = lower.indexOf(search, offset);
-    if (index < 0) break;
-    results.push(source.slice(Math.max(0, index - radius), Math.min(source.length, index + search.length + radius)));
-    offset = index + search.length;
-  }
-  return results;
+function moduleSource(source, moduleId, maxLength = 30000) {
+  const marker = `${moduleId}:function`;
+  const start = source.indexOf(marker);
+  if (start < 0) return '';
+  const next = source.slice(start + marker.length).search(/},\d+:function\(/);
+  const end = next < 0 ? Math.min(source.length, start + maxLength) : start + marker.length + next + 1;
+  return source.slice(start, Math.min(end, start + maxLength));
 }
 
-function stringLiterals(source) {
-  const values = [];
-  const seen = new Set();
-  const pattern = /(["'`])((?:\\.|(?!\1)[^\\]){1,300})\1/g;
-  let match;
-  while ((match = pattern.exec(source))) {
-    const value = match[2];
-    if (!/(?:\/api\/|https?:|ranking|fdcp|match-window|live)/i.test(value)) continue;
-    const decoded = value.replace(/\\\//g, '/').replace(/\\"/g, '"');
-    if (seen.has(decoded)) continue;
-    seen.add(decoded);
-    values.push(decoded);
-  }
-  return values.slice(0, 500);
+function context(source, needle, radius = 3500) {
+  const index = source.indexOf(needle);
+  if (index < 0) return '';
+  return source.slice(Math.max(0, index - radius), Math.min(source.length, index + needle.length + radius));
 }
 
 const result = await get(CHUNK_URL);
 const body = result.body;
-const targets = [
-  '13901:function',
-  'p6:function',
-  'p6:',
-  'No rankings returned by fdcp',
-  'fdcp',
-  '/api/ranking-overview',
-  '/api/get-match-window-matches',
-  'FRS_Male_Football',
-  'rankingMode',
-  'rankingData',
-  'Results',
-  'IdCountry',
-  'TotalPoints',
-  'PrevRank',
-  'pollingInterval',
-  'useSWR',
-  'fetch('
-];
-
-const contexts = Object.fromEntries(targets.map(target => [target, snippets(body, target)]).filter(([, values]) => values.length));
-const moduleIds = [...body.matchAll(/(\d+):function\([^)]*\)\{"use strict";[^}]{0,800}?p6:function/g)].map(match => match[1]);
-const apiStrings = stringLiterals(body);
+const modules = Object.fromEntries(['14019', '2226', '2219', '73355', '13901'].map(id => [id, moduleSource(body, id)]));
+const contexts = Object.fromEntries([
+  'getAllCountriesRankingByScheduleNew',
+  'getAllCountriesRankingLive',
+  'get-international-ranking-window',
+  'get-rankings',
+  'scheduleIdForEndDate',
+  'rankingType',
+  'fdcpUrl'
+].map(needle => [needle, context(body, needle)]));
 
 await mkdir('data', { recursive: true });
 await writeFile('data/fifa-probe.json', `${JSON.stringify({
   probedAt: new Date().toISOString(),
   chunkUrl: result.response.url,
   bytes: body.length,
-  moduleIds,
-  apiStrings,
+  modules,
   contexts
 }, null, 2)}\n`, 'utf8');
