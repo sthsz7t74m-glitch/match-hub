@@ -4,20 +4,23 @@ import path from 'node:path';
 const OUTPUT_PATH = process.env.FIFA_RANKING_OUTPUT || 'data/fifa-rankings.json';
 const OVERRIDE_DATE_ID = process.env.FIFA_DATE_ID || '';
 const PAGE_URLS = [
+  'https://vod.fifa.com/en/fifa-world-ranking/men',
   'https://inside.fifa.com/fifa-world-ranking/men',
   'https://www.fifa.com/fifa-world-ranking/men',
   'https://rusecure.fifa.com/fifa-world-ranking/men'
 ];
 const API_BASES = [
-  'https://www.fifa.com/api/ranking-overview',
+  'https://vod.fifa.com/api/ranking-overview',
   'https://inside.fifa.com/api/ranking-overview',
+  'https://www.fifa.com/api/ranking-overview',
   'https://rusecure.fifa.com/api/ranking-overview'
 ];
 const REQUEST_HEADERS = {
   Accept: 'application/json,text/html;q=0.9,*/*;q=0.8',
   'Accept-Language': 'en-US,en;q=0.9',
-  'User-Agent': 'Mozilla/5.0 (compatible; MatchHubRankingBot/1.0; +https://github.com/sthsz7t74m-glitch/match-hub)'
+  'User-Agent': 'Mozilla/5.0 (compatible; MatchHubRankingBot/1.1; +https://github.com/sthsz7t74m-glitch/match-hub)'
 };
+const ONE_DAY = 24 * 60 * 60 * 1000;
 
 const asArray = value => (Array.isArray(value) ? value : []);
 const text = value => String(value ?? '').trim();
@@ -70,10 +73,25 @@ function walkJson(value, visit) {
   else Object.values(value).forEach(item => walkJson(item, visit));
 }
 
+function cleanDateLabel(label) {
+  return text(label)
+    .replace(/Sept\b/i, 'Sep')
+    .replace(/\([^)]*\)/g, ' ')
+    .replace(/^(?:last|next|just)\s+(?:official\s+)?(?:update|updated)\s*:?\s*/i, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 function parseDateLabel(label) {
-  const normalized = text(label).replace(/Sept\b/i, 'Sep');
+  const normalized = cleanDateLabel(label);
   const timestamp = Date.parse(normalized);
   return Number.isNaN(timestamp) ? 0 : timestamp;
+}
+
+function sameOfficialDay(left, right) {
+  const leftTimestamp = parseDateLabel(left);
+  const rightTimestamp = parseDateLabel(right);
+  return Boolean(leftTimestamp && rightTimestamp && Math.abs(leftTimestamp - rightTimestamp) < ONE_DAY);
 }
 
 function extractPageMetadata(html) {
@@ -89,7 +107,7 @@ function extractPageMetadata(html) {
     const current = candidates.get(id);
     const timestamp = parseDateLabel(label);
     if (!current || timestamp > current.timestamp) {
-      candidates.set(id, { id, label: text(label), timestamp });
+      candidates.set(id, { id, label: cleanDateLabel(label), timestamp });
     }
   };
 
@@ -123,9 +141,20 @@ function extractPageMetadata(html) {
 
   for (const id of decoded.match(/id\d+/g) || []) addCandidate(id);
 
-  const officialDateMatch = decoded.match(/Last official update:\s*([^<\n]+)/i)
-    || decoded.match(/lastOfficialUpdate["']?\s*[:=]\s*["']([^"']+)/i);
-  const officialDate = text(officialDateMatch?.[1]).replace(/\s+/g, ' ');
+  const officialDatePatterns = [
+    /Last official update:\s*([^<\n]+)/i,
+    /Just updated:\s*([^<\n]+)/i,
+    /lastOfficialUpdate["']?\s*[:=]\s*["']([^"']+)/i,
+    /"lastOfficialUpdate"\s*:\s*"([^"]+)"/i
+  ];
+  let officialDate = '';
+  for (const pattern of officialDatePatterns) {
+    const result = decoded.match(pattern);
+    if (result?.[1]) {
+      officialDate = cleanDateLabel(result[1]);
+      break;
+    }
+  }
 
   return {
     officialDate,
@@ -201,40 +230,8 @@ function rankingRowsFrom(payload) {
   return [];
 }
 
-async function fetchRankingPayload(dateCandidates) {
-  const attempts = [];
-  const queries = [];
-  if (OVERRIDE_DATE_ID) queries.push({ id: OVERRIDE_DATE_ID, label: '' });
-  queries.push({ id: '', label: '' });
-  queries.push(...dateCandidates.slice(0, 20));
-
-  const seen = new Set();
-  for (const candidate of queries) {
-    for (const base of API_BASES) {
-      const key = `${base}:${candidate.id}`;
-      if (seen.has(key)) continue;
-      seen.add(key);
-      const url = `${base}?locale=en${candidate.id ? `&dateId=${encodeURIComponent(candidate.id)}` : ''}`;
-
-      try {
-        const response = await fetchResponse(url);
-        const payload = await response.json();
-        const rankings = rankingRowsFrom(payload);
-        if (rankings.length >= 50) {
-          return { payload, rankings, dateId: candidate.id, dateLabel: candidate.label, url };
-        }
-        attempts.push(`${url}: ${rankings.length} rows`);
-      } catch (error) {
-        attempts.push(`${url}: ${error.message}`);
-      }
-    }
-  }
-
-  throw new Error(`FIFA ranking API unavailable: ${attempts.slice(-12).join(' | ')}`);
-}
-
 function payloadDate(payload, fallback = '') {
-  return text(
+  return cleanDateLabel(
     payload?.rankingDate?.text
       ?? payload?.rankingDate
       ?? payload?.date?.text
@@ -243,6 +240,72 @@ function payloadDate(payload, fallback = '') {
       ?? payload?.lastOfficialUpdate
       ?? fallback
   );
+}
+
+async function fetchRankingPayload(dateCandidates, targetOfficialDate = '') {
+  const attempts = [];
+  const successful = [];
+  const queries = [];
+  if (OVERRIDE_DATE_ID) queries.push({ id: OVERRIDE_DATE_ID, label: '' });
+  queries.push({ id: '', label: targetOfficialDate });
+  queries.push(...dateCandidates.slice(0, 80));
+
+  const seenCandidates = new Set();
+  for (const candidate of queries) {
+    const candidateKey = candidate.id || '__latest__';
+    if (seenCandidates.has(candidateKey)) continue;
+    seenCandidates.add(candidateKey);
+
+    let candidateSucceeded = false;
+    for (const base of API_BASES) {
+      const url = `${base}?locale=en${candidate.id ? `&dateId=${encodeURIComponent(candidate.id)}` : ''}`;
+
+      try {
+        const response = await fetchResponse(url);
+        const payload = await response.json();
+        const rankings = rankingRowsFrom(payload);
+        if (rankings.length < 50) {
+          attempts.push(`${url}: ${rankings.length} rows`);
+          continue;
+        }
+
+        const officialDate = payloadDate(payload, candidate.label);
+        const result = {
+          payload,
+          rankings,
+          dateId: candidate.id,
+          dateLabel: candidate.label,
+          officialDate,
+          timestamp: parseDateLabel(officialDate) || candidate.timestamp || 0,
+          url
+        };
+        successful.push(result);
+        candidateSucceeded = true;
+
+        if (targetOfficialDate && sameOfficialDay(officialDate, targetOfficialDate)) {
+          return result;
+        }
+        break;
+      } catch (error) {
+        attempts.push(`${url}: ${error.message}`);
+      }
+    }
+
+    if (!candidateSucceeded && targetOfficialDate && candidate.timestamp && candidate.timestamp < parseDateLabel(targetOfficialDate) - ONE_DAY) {
+      // Labelled candidates are sorted newest first. Once they are older than the
+      // official page date, the remaining labelled entries cannot be the target.
+      continue;
+    }
+  }
+
+  if (successful.length) {
+    return successful.sort((left, right) =>
+      right.timestamp - left.timestamp
+      || Number(right.dateId.slice(2) || 0) - Number(left.dateId.slice(2) || 0)
+    )[0];
+  }
+
+  throw new Error(`FIFA ranking API unavailable: ${attempts.slice(-16).join(' | ')}`);
 }
 
 function signature(value) {
@@ -265,13 +328,21 @@ const existing = await readJson(OUTPUT_PATH, { rankings: [] });
 try {
   const page = await fetchPage();
   const metadata = extractPageMetadata(page.html);
-  const result = await fetchRankingPayload(metadata.candidates);
-  const officialDate = payloadDate(result.payload, result.dateLabel || metadata.officialDate) || null;
+  const result = await fetchRankingPayload(metadata.candidates, metadata.officialDate);
+  const officialDate = result.officialDate || result.dateLabel || metadata.officialDate || null;
+  const pageDate = parseDateLabel(metadata.officialDate);
+  const payloadTimestamp = parseDateLabel(officialDate);
+
+  if (pageDate && (!payloadTimestamp || payloadTimestamp < pageDate - ONE_DAY)) {
+    throw new Error(`Latest payload is stale: page=${metadata.officialDate}, payload=${officialDate || 'unknown'}`);
+  }
+
   const output = {
     schemaVersion: 1,
     source: "FIFA/Coca-Cola Men's World Ranking",
-    sourceUrl: 'https://inside.fifa.com/fifa-world-ranking/men',
+    sourceUrl: page.url || 'https://vod.fifa.com/en/fifa-world-ranking/men',
     apiUrl: result.url,
+    fetchedAt: new Date().toISOString(),
     officialDate,
     dateId: result.dateId || '',
     rankingCount: result.rankings.length,
@@ -279,10 +350,10 @@ try {
   };
 
   if (signature(existing) === signature(output)) {
-    console.log(`FIFA ranking unchanged (${result.rankings.length} teams).`);
+    console.log(`FIFA ranking unchanged (${result.rankings.length} teams, ${officialDate || 'date unknown'}).`);
   } else {
     await writeFile(path.resolve(OUTPUT_PATH), `${JSON.stringify(output, null, 2)}\n`, 'utf8');
-    console.log(`Updated ${result.rankings.length} FIFA rankings at ${OUTPUT_PATH}.`);
+    console.log(`Updated ${result.rankings.length} FIFA rankings for ${officialDate || 'unknown date'} at ${OUTPUT_PATH}.`);
   }
 } catch (error) {
   if (asArray(existing?.rankings).length >= 50) {
