@@ -63,34 +63,39 @@ window.SportsHubComponents = window.SportsHubComponents || {};
       return `<img class="${this.slotClass('badge')}" src="${escapeHtml(team.logo)}" alt="" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false">${fallback}`;
     }
 
-    normalizeTeamInteraction(team = {}, side = 'left', name = '') {
-      const detail = team.detail && typeof team.detail === 'object' ? team.detail : {};
+    normalizeInteraction(source = {}, {
+      kind = 'element',
+      id = null,
+      side = '',
+      defaultLabel = '詳細を見る'
+    } = {}) {
+      const detail = source.detail && typeof source.detail === 'object' ? source.detail : {};
       const attributes = {
-        ...(team.attributes || {}),
+        ...(source.attributes || {}),
         ...(detail.attributes || {})
       };
-      const href = detail.href || team.href || '';
-      const action = detail.action || team.action || '';
-      const explicitInteractive = detail.interactive ?? team.interactive;
+      const href = detail.href || source.href || '';
+      const action = detail.action || source.action || '';
+      const explicitInteractive = detail.interactive ?? source.interactive;
       const hasDataAction = Object.keys(attributes).some(key => key.startsWith('data-'));
       const interactive = explicitInteractive !== false && Boolean(href || action || explicitInteractive || hasDataAction);
 
-      if (action && !attributes['data-sports-team-action']) {
-        attributes['data-sports-team-action'] = action;
+      if (action && !attributes[`data-sports-${kind}-action`]) {
+        attributes[`data-sports-${kind}-action`] = action;
       }
-      if (interactive && team.id !== undefined && team.id !== null && !attributes['data-sports-team-id']) {
-        attributes['data-sports-team-id'] = String(team.id);
+      if (interactive && id !== undefined && id !== null && id !== '' && !attributes[`data-sports-${kind}-id`]) {
+        attributes[`data-sports-${kind}-id`] = String(id);
       }
-      if (interactive && !attributes['data-sports-team-side']) {
-        attributes['data-sports-team-side'] = side;
+      if (interactive && side && !attributes[`data-sports-${kind}-side`]) {
+        attributes[`data-sports-${kind}-side`] = side;
       }
       if (interactive && !attributes['aria-label']) {
-        attributes['aria-label'] = detail.ariaLabel || team.ariaLabel || `${name}の詳細を見る`;
+        attributes['aria-label'] = detail.ariaLabel || source.ariaLabel || defaultLabel;
       }
 
       if (href) {
         attributes.href = href;
-        if (detail.target || team.target) attributes.target = detail.target || team.target;
+        if (detail.target || source.target) attributes.target = detail.target || source.target;
         if (attributes.target === '_blank' && !attributes.rel) attributes.rel = 'noopener noreferrer';
         return { tag: 'a', attributes, interactive: true };
       }
@@ -100,7 +105,16 @@ window.SportsHubComponents = window.SportsHubComponents || {};
         return { tag: 'button', attributes, interactive: true };
       }
 
-      return { tag: 'span', attributes: {}, interactive: false };
+      return { tag: 'div', attributes: {}, interactive: false };
+    }
+
+    normalizeTeamInteraction(team = {}, side = 'left', name = '') {
+      return this.normalizeInteraction(team, {
+        kind: 'team',
+        id: team.id,
+        side,
+        defaultLabel: `${name}の詳細を見る`
+      });
     }
 
     renderTeam(team = {}, side = 'left') {
@@ -118,7 +132,7 @@ window.SportsHubComponents = window.SportsHubComponents || {};
         sideLegacy,
         customClass
       );
-      const tag = interaction.tag;
+      const tag = interaction.interactive ? interaction.tag : 'span';
 
       return `<${tag} class="${classes}"${renderAttributes(interaction.attributes)}>
         ${this.renderBadge(team)}
@@ -140,10 +154,25 @@ window.SportsHubComponents = window.SportsHubComponents || {};
 
     renderCenter(center = {}) {
       const secondaryClass = center.variant ? `sports-event-card__secondary--${center.variant}` : '';
-      return `<div class="${this.slotClass('center', this.legacy.center)}">
+      const interaction = this.normalizeInteraction(center, {
+        kind: 'center',
+        id: center.id,
+        defaultLabel: center.ariaLabel || '試合情報を見る'
+      });
+      const customClass = interaction.attributes.class || '';
+      delete interaction.attributes.class;
+      const classes = this.slotClass(
+        'center',
+        this.legacy.center,
+        interaction.interactive && 'sports-event-card__center--interactive',
+        customClass
+      );
+      const tag = interaction.interactive ? interaction.tag : 'div';
+
+      return `<${tag} class="${classes}"${renderAttributes(interaction.attributes)}>
         <strong>${escapeHtml(center.primary ?? 'VS')}</strong>
         ${center.secondary ? `<small class="${this.slotClass('secondary', this.legacy.secondary, secondaryClass)}">${escapeHtml(center.secondary)}</small>` : ''}
-      </div>`;
+      </${tag}>`;
     }
 
     renderFooter(items = []) {
@@ -213,6 +242,7 @@ window.SportsHubComponents = window.SportsHubComponents || {};
       const competition = options.competition || match.competition || '';
       const stage = options.stage || match.round || match.stage || '';
       const venue = options.venue || match.venue || '';
+      const centerOptions = options.center || {};
 
       return {
         className: classNames(
@@ -230,9 +260,10 @@ window.SportsHubComponents = window.SportsHubComponents || {};
         leftTeam: options.home || match.home || {},
         rightTeam: options.away || match.away || {},
         center: {
-          primary: options.scoreText ?? match.scoreText ?? 'VS',
-          secondary: decision,
-          variant: decision ? 'decision' : ''
+          ...centerOptions,
+          primary: centerOptions.primary ?? options.scoreText ?? match.scoreText ?? 'VS',
+          secondary: centerOptions.secondary ?? decision,
+          variant: centerOptions.variant ?? (decision ? 'decision' : '')
         },
         footer: [stage, venue]
       };
@@ -252,6 +283,7 @@ window.SportsHubComponents = window.SportsHubComponents || {};
       const unavailable = Boolean(options.unavailable);
       const competition = options.competition || game.gameTypeName || 'MLB';
       const gameNumber = Number(options.gameNumber ?? game.gameNumber ?? 1);
+      const centerOptions = options.center || {};
 
       return {
         className: classNames(
@@ -270,9 +302,10 @@ window.SportsHubComponents = window.SportsHubComponents || {};
         leftTeam: options.away || game.away || {},
         rightTeam: options.home || game.home || {},
         center: {
-          primary: options.scoreText ?? 'VS',
-          secondary: options.statusText || '',
-          variant: 'status'
+          ...centerOptions,
+          primary: centerOptions.primary ?? options.scoreText ?? 'VS',
+          secondary: centerOptions.secondary ?? options.statusText || '',
+          variant: centerOptions.variant ?? 'status'
         },
         footer: [options.venue || '', options.detail || options.series || '']
       };
@@ -309,6 +342,97 @@ window.SportsHubComponents = window.SportsHubComponents || {};
     }
   }
 
+  class SportsEventDialog {
+    constructor({ id = 'sportsEventDialog', className = '' } = {}) {
+      this.id = id;
+      this.className = className;
+      this.root = null;
+      this.body = null;
+      this.bound = false;
+      this.ensure();
+      this.bind();
+    }
+
+    ensure() {
+      this.root = document.getElementById(this.id);
+      if (!this.root) {
+        this.root = document.createElement('dialog');
+        this.root.id = this.id;
+        this.root.className = classNames('sports-event-dialog', this.className);
+        this.root.innerHTML = `<section class="sports-event-dialog__panel">
+          <button class="sports-event-dialog__close" type="button" data-sports-event-dialog-close aria-label="閉じる">×</button>
+          <div class="sports-event-dialog__body"></div>
+        </section>`;
+        document.body.appendChild(this.root);
+      }
+      this.body = this.root.querySelector('.sports-event-dialog__body');
+      return this;
+    }
+
+    bind() {
+      if (!this.root || this.bound) return this;
+      this.bound = true;
+      this.root.addEventListener('click', event => {
+        if (event.target === this.root || event.target.closest('[data-sports-event-dialog-close]')) {
+          this.close();
+        }
+      });
+      return this;
+    }
+
+    teamMarkup(team = {}, side = 'left') {
+      const fallback = team.flag || team.fallback || team.abbreviation || '●';
+      const badge = team.logo
+        ? `<img src="${escapeHtml(team.logo)}" alt="" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><span hidden>${escapeHtml(fallback)}</span>`
+        : `<span>${escapeHtml(fallback)}</span>`;
+      return `<div class="sports-event-dialog__team sports-event-dialog__team--${side}">
+        <span class="sports-event-dialog__team-badge">${badge}</span>
+        <strong>${escapeHtml(team.name || '未定')}</strong>
+        ${team.subtitle ? `<small>${escapeHtml(team.subtitle)}</small>` : ''}
+      </div>`;
+    }
+
+    render(data = {}) {
+      const facts = (data.facts || [])
+        .filter(item => item && (Array.isArray(item) ? item[1] : item.value))
+        .map(item => {
+          const label = Array.isArray(item) ? item[0] : item.label;
+          const value = Array.isArray(item) ? item[1] : item.value;
+          return `<article><span>${escapeHtml(label || '')}</span><strong>${escapeHtml(value || '')}</strong></article>`;
+        })
+        .join('');
+
+      return `<header class="sports-event-dialog__header">
+          <p class="eyebrow">${escapeHtml(data.eyebrow || 'MATCH DETAIL')}</p>
+          <h2>${escapeHtml(data.title || '試合情報')}</h2>
+          ${data.dateText ? `<p>${escapeHtml(data.dateText)}</p>` : ''}
+        </header>
+        <div class="sports-event-dialog__matchup">
+          ${this.teamMarkup(data.leftTeam, 'left')}
+          <div class="sports-event-dialog__score">
+            <strong>${escapeHtml(data.scoreText || 'VS')}</strong>
+            ${data.statusText ? `<span>${escapeHtml(data.statusText)}</span>` : ''}
+          </div>
+          ${this.teamMarkup(data.rightTeam, 'right')}
+        </div>
+        ${facts ? `<div class="sports-event-dialog__facts">${facts}</div>` : ''}
+        ${data.note ? `<p class="sports-event-dialog__note">${escapeHtml(data.note)}</p>` : ''}`;
+    }
+
+    open(data = {}) {
+      this.ensure();
+      if (!this.body) return false;
+      this.body.innerHTML = this.render(data);
+      if (this.root.open) this.root.close();
+      this.root.showModal();
+      return true;
+    }
+
+    close() {
+      if (this.root?.open) this.root.close();
+    }
+  }
+
   const soccerCard = new SoccerMatchCard();
   const baseballCard = new BaseballGameCard();
 
@@ -319,6 +443,7 @@ window.SportsHubComponents = window.SportsHubComponents || {};
     SportsEventCardRenderer,
     SoccerMatchCardRenderer,
     BaseballGameCardRenderer,
+    SportsEventDialog,
     MatchCardRenderer: SoccerMatchCardRenderer,
     escapeHtml,
     statusLabel,
@@ -327,6 +452,7 @@ window.SportsHubComponents = window.SportsHubComponents || {};
     baseballGameCard: options => baseballCard.render(options),
     createMatchCardRenderer: options => new SoccerMatchCardRenderer(options),
     createBaseballGameCardRenderer: options => new BaseballGameCardRenderer(options),
+    createEventDialog: options => new SportsEventDialog(options),
     calendarDay(options = {}) {
       const classes = classNames(
         'calendar-day',
@@ -342,6 +468,6 @@ window.SportsHubComponents = window.SportsHubComponents || {};
       ).join('');
       return `<button class="${classes}" data-calendar-day="${escapeHtml(options.dateKey || '')}" type="button"${options.disabled ? ' disabled' : ''}><span>${escapeHtml(options.day || '')}</span>${options.count ? `<i>${escapeHtml(options.count)}</i>` : ''}${marks ? `<small class="calendar-favorite-marks">${marks}</small>` : ''}</button>`;
     },
-    MATCH_CARD_VERSION: 4
+    MATCH_CARD_VERSION: 5
   });
 })(window.SportsHubComponents);
