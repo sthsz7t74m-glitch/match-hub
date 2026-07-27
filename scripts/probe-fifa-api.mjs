@@ -1,11 +1,10 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 
-const PAGE_URL = 'https://vod.fifa.com/en/fifa-world-ranking/men';
-const MODULE_IDS = ['14019', '86834', '2219', '2226', '73355'];
+const CHUNK_URL = 'https://vod.fifa.com/_next/static/chunks/4170.0d6f0f095bdc7828.js';
 const HEADERS = {
   Accept: '*/*',
   'Accept-Language': 'en-US,en;q=0.9',
-  'User-Agent': 'Mozilla/5.0 (compatible; MatchHubFifaProbe/6.0)'
+  'User-Agent': 'Mozilla/5.0 (compatible; MatchHubFifaProbe/7.0)'
 };
 
 async function get(url, timeout = 30000) {
@@ -20,10 +19,6 @@ async function get(url, timeout = 30000) {
   }
 }
 
-function absoluteUrl(value, base) {
-  try { return new URL(value, base).href; } catch { return ''; }
-}
-
 function moduleSource(source, moduleId, maxLength = 60000) {
   const marker = `${moduleId}:function`;
   const start = source.indexOf(marker);
@@ -34,44 +29,54 @@ function moduleSource(source, moduleId, maxLength = 60000) {
   return source.slice(start, Math.min(source.length, end, start + maxLength));
 }
 
-const page = await get(PAGE_URL);
-const scriptUrls = [...new Set([...page.body.matchAll(/<script[^>]+src=["']([^"']+)["'][^>]*>/gi)]
-  .map(match => absoluteUrl(match[1], page.response.url))
-  .filter(Boolean))];
-const modules = {};
-const foundIn = {};
-const errors = [];
-let cursor = 0;
-
-async function worker() {
-  while (cursor < scriptUrls.length && Object.keys(modules).length < MODULE_IDS.length) {
-    const index = cursor++;
-    const url = scriptUrls[index];
-    try {
-      const result = await get(url, 25000);
-      for (const id of MODULE_IDS) {
-        if (modules[id]) continue;
-        const source = moduleSource(result.body, id);
-        if (source) {
-          modules[id] = source;
-          foundIn[id] = url;
-        }
-      }
-    } catch (error) {
-      errors.push({ url, error: error.message });
-    }
+function contexts(source, needle, radius = 1300) {
+  const results = [];
+  let offset = 0;
+  while (results.length < 10) {
+    const index = source.indexOf(needle, offset);
+    if (index < 0) break;
+    results.push(source.slice(Math.max(0, index - radius), Math.min(source.length, index + needle.length + radius)));
+    offset = index + needle.length;
   }
+  return results;
 }
 
-await Promise.all(Array.from({ length: Math.min(10, scriptUrls.length) }, () => worker()));
+function stringLiterals(source) {
+  const values = [];
+  const seen = new Set();
+  const pattern = /(["'`])((?:\\.|(?!\1)[^\\]){1,500})\1/g;
+  let match;
+  while ((match = pattern.exec(source))) {
+    const value = match[2].replace(/\\\//g, '/').replace(/\\"/g, '"');
+    if (!/(?:\/|ranking|football|futsal|men|women|schedule|live)/i.test(value)) continue;
+    if (seen.has(value)) continue;
+    seen.add(value);
+    values.push(value);
+  }
+  return values;
+}
+
+const result = await get(CHUNK_URL);
+const module14019 = moduleSource(result.body, '14019');
+if (!module14019) throw new Error('FIFA service module 14019 not found');
+const needles = [
+  'constructor()',
+  'fdcpUrl',
+  'callFdcp',
+  'getAllCountriesRankingByScheduleNew',
+  'getAllCountriesRankingLive',
+  'getRankingMatchesByTeam',
+  'getRankingMatchesLive',
+  'scheduleIdForEndDate',
+  'rankingType',
+  'Results'
+];
 
 await mkdir('data', { recursive: true });
 await writeFile('data/fifa-probe.json', `${JSON.stringify({
   probedAt: new Date().toISOString(),
-  page: page.response.url,
-  scriptCount: scriptUrls.length,
-  foundIn,
-  modules,
-  missing: MODULE_IDS.filter(id => !modules[id]),
-  errors
+  chunkUrl: result.response.url,
+  moduleBytes: module14019.length,
+  strings: stringLiterals(module14019),
+  contexts: Object.fromEntries(needles.map(needle => [needle, contexts(module14019, needle)]))
 }, null, 2)}\n`, 'utf8');
