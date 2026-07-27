@@ -94,7 +94,7 @@ window.SportsUI = window.FootballUI;
     mlb: {
       eyebrow: 'MAJOR LEAGUE BASEBALL',
       title: 'MLB',
-      version: 'v1.0.0',
+      version: 'v1.0.1',
       back: './sports-home.html',
       navAttribute: 'page',
       nav: [
