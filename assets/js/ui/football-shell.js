@@ -1,13 +1,55 @@
 window.FootballUI = window.FootballUI || {};
 
 (function initializeFootballShell(namespace) {
+  const installZoomLock = () => {
+    if (document.documentElement.dataset.zoomLocked === 'true') return;
+    document.documentElement.dataset.zoomLocked = 'true';
+
+    let viewport = document.querySelector('meta[name="viewport"]');
+    if (!viewport) {
+      viewport = document.createElement('meta');
+      viewport.name = 'viewport';
+      document.head.prepend(viewport);
+    }
+    viewport.content = 'width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover';
+
+    const style = document.createElement('style');
+    style.dataset.zoomLock = 'true';
+    style.textContent = `
+      html,body{touch-action:pan-x pan-y!important;-webkit-text-size-adjust:100%!important;text-size-adjust:100%!important}
+      button,a,input,select,textarea,[role="button"]{touch-action:manipulation!important}
+      input,select,textarea{font-size:16px!important}
+    `;
+    document.head.appendChild(style);
+
+    const prevent = event => event.preventDefault();
+    ['gesturestart', 'gesturechange', 'gestureend'].forEach(type => {
+      document.addEventListener(type, prevent, { passive: false });
+    });
+
+    document.addEventListener('touchmove', event => {
+      if (event.touches?.length > 1) event.preventDefault();
+    }, { passive: false });
+
+    document.addEventListener('dblclick', prevent, { passive: false });
+    document.addEventListener('wheel', event => {
+      if (event.ctrlKey || event.metaKey) event.preventDefault();
+    }, { passive: false });
+
+    document.addEventListener('keydown', event => {
+      if (!(event.ctrlKey || event.metaKey)) return;
+      if (['+', '=', '-', '_', '0'].includes(event.key)) event.preventDefault();
+    });
+  };
+
+  installZoomLock();
   if (namespace.FootballShell) return;
 
   const shellConfigs = {
     five: {
       eyebrow: 'FOOTBALL SCHEDULE',
       title: 'Match Hub',
-      version: 'v1.1.0',
+      version: 'v1.1.1',
       back: './sports-home.html',
       navAttribute: 'view',
       nav: [
@@ -22,7 +64,7 @@ window.FootballUI = window.FootballUI || {};
     jleague: {
       eyebrow: 'JAPAN PROFESSIONAL FOOTBALL',
       title: 'Jリーグ',
-      version: 'v3.1.2',
+      version: 'v3.1.3',
       back: './sports-home.html',
       navAttribute: 'page',
       nav: [
@@ -36,7 +78,7 @@ window.FootballUI = window.FootballUI || {};
     national: {
       eyebrow: 'NATIONAL TEAMS',
       title: '各国代表',
-      version: 'v3.2.0',
+      version: 'v3.2.1',
       back: './sports-home.html',
       navAttribute: 'page',
       nav: [
@@ -121,6 +163,7 @@ window.FootballUI = window.FootballUI || {};
   }
 
   Object.assign(namespace, {
+    installZoomLock,
     BottomNavigation,
     FootballShell,
     shellConfigs,
