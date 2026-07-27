@@ -1,5 +1,6 @@
 .match-card {
   --match-badge-size: 30px;
+  --match-side-gap: 8px;
   display: grid;
   gap: 12px;
   padding: 14px;
@@ -19,6 +20,15 @@
   margin-top: 10px;
 }
 
+.match-card--live {
+  border-color: color-mix(in srgb, #22c55e 72%, var(--border, #263244));
+  box-shadow: inset 3px 0 0 #22c55e;
+}
+
+.match-card--unavailable {
+  opacity: .72;
+}
+
 .match-card--penalties {
   box-shadow: inset 3px 0 0 #f59e0b;
 }
@@ -32,6 +42,19 @@
   font-size: .78rem;
 }
 
+.match-card__meta > span,
+.match-card__footer > span {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.match-card__meta > span:last-child,
+.match-card__footer > span:last-child {
+  text-align: right;
+}
+
 .match-card__body {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
@@ -43,15 +66,18 @@
 .match-card__team {
   display: grid;
   align-items: center;
-  gap: 8px;
+  gap: var(--match-side-gap);
   width: 100%;
   min-width: 0;
 }
 
+.match-card__team--left,
 .match-card__team--home {
   grid-template-columns: var(--match-badge-size) minmax(0, 1fr);
 }
 
+.match-card__team--left .match-card__badge,
+.match-card__team--left .match-card__fallback,
 .match-card__team--home .match-card__badge,
 .match-card__team--home .match-card__fallback {
   grid-column: 1;
@@ -59,22 +85,29 @@
   justify-self: start;
 }
 
+.match-card__team--left strong,
 .match-card__team--home strong {
   grid-column: 2;
   grid-row: 1;
-  text-align: right;
+  justify-self: stretch;
+  text-align: left;
 }
 
+.match-card__team--right,
 .match-card__team--away {
   grid-template-columns: minmax(0, 1fr) var(--match-badge-size);
 }
 
+.match-card__team--right strong,
 .match-card__team--away strong {
   grid-column: 1;
   grid-row: 1;
-  text-align: left;
+  justify-self: stretch;
+  text-align: right;
 }
 
+.match-card__team--right .match-card__badge,
+.match-card__team--right .match-card__fallback,
 .match-card__team--away .match-card__badge,
 .match-card__team--away .match-card__fallback {
   grid-column: 2;
@@ -105,6 +138,7 @@
   justify-items: center;
   gap: 4px;
   min-width: 74px;
+  text-align: center;
 }
 
 .match-card__score > strong {
@@ -169,14 +203,11 @@
 @media (max-width: 560px) {
   .match-card {
     --match-badge-size: 26px;
+    --match-side-gap: 6px;
     padding: 12px;
   }
 
   .match-card__body {
-    gap: 6px;
-  }
-
-  .match-card__team {
     gap: 6px;
   }
 
