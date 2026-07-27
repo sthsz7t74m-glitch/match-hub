@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="MLBの日程、カレンダー、順位、球団、日本人選手、お気に入りをまとめるMLB Hub">
+  <title>MLB Hub | Sports Hub</title>
+  <link rel="stylesheet" href="./assets/css/core.css?v=302">
+  <link rel="stylesheet" href="./assets/css/match-components.css?v=4">
+  <link rel="stylesheet" href="./assets/css/football-hub-layout.css?v=5">
+  <link rel="stylesheet" href="./assets/css/football-components-v2.css?v=113">
+  <link rel="stylesheet" href="./mlb.css?v=100">
+</head>
+<body class="football-hub" data-hub="mlb">
+  <header class="topbar">
+    <div><p class="eyebrow">MAJOR LEAGUE BASEBALL</p><h1>MLB <span class="version">v1.0.0</span></h1></div>
+    <div class="topbar__actions"><button id="themeButton" class="icon-button" type="button" aria-label="テーマ切替">◐</button></div>
+  </header>
+
+  <main class="hub-main">
+    <section class="status-card">
+      <small id="mlbUpdated">MLBデータを読み込んでいます</small>
+      <div class="mlb-status-actions">
+        <span class="status">MLB Stats API</span>
+        <button id="mlbRefresh" class="text-button" type="button">更新</button>
+      </div>
+    </section>
+
+    <section class="mlb-hero panel">
+      <div>
+        <p class="eyebrow">MLB HUB</p>
+        <h2>推し球団と日本人選手をひとつに</h2>
+        <p class="muted">試合日程、カレンダー、地区順位、全30球団、日本人選手をまとめて確認できます。</p>
+      </div>
+      <div class="mlb-hero__ball" aria-hidden="true">⚾</div>
+    </section>
+
+    <div id="page-home" class="page-view active">
+      <section class="panel">
+        <div class="section-heading">
+          <div><p class="eyebrow">TODAY'S MLB</p><h2>今日の試合</h2></div>
+          <span id="todayGameCount" class="status">取得中</span>
+        </div>
+        <div id="todayGames" class="mlb-game-list"></div>
+      </section>
+
+      <section class="panel">
+        <div class="section-heading">
+          <div><p class="eyebrow">MY FAVORITES</p><h2>推し球団の次戦</h2></div>
+          <span id="homeFavoriteStatus" class="status">0球団</span>
+        </div>
+        <div id="favoriteNextGames" class="mlb-game-list"></div>
+      </section>
+
+      <section class="panel">
+        <div class="section-heading">
+          <div><h2>シーズン概要</h2><p class="muted">取得中のMLBデータ</p></div>
+          <button class="text-button" type="button" data-page-jump="standings">順位を見る</button>
+        </div>
+        <div id="mlbSummary" class="mlb-summary-grid"></div>
+      </section>
+
+      <section class="panel">
+        <div class="section-heading">
+          <div><h2>地区首位</h2><p class="muted">6地区の現在1位</p></div>
+        </div>
+        <div id="homeStandings" class="mlb-standing-groups"></div>
+      </section>
+    </div>
+
+    <div id="page-schedule" class="page-view">
+      <section class="calendar-panel panel">
+        <div class="calendar-head">
+          <button id="calendarPrev" class="mini-button" type="button" aria-label="前の月">‹</button>
+          <h2 id="calendarTitle">カレンダー</h2>
+          <button id="calendarNext" class="mini-button" type="button" aria-label="次の月">›</button>
+        </div>
+        <div class="calendar-week"><span>日</span><span>月</span><span>火</span><span>水</span><span>木</span><span>金</span><span>土</span></div>
+        <div id="matchCalendar" class="football-calendar"></div>
+      </section>
+
+      <section class="panel">
+        <div class="section-heading">
+          <div><h2 id="scheduleTitle">試合日程</h2><p class="muted">日付を選択して絞り込み</p></div>
+          <button id="clearDateFilter" class="text-button" type="button">全日程</button>
+        </div>
+        <div id="scheduleGames" class="mlb-game-list"></div>
+      </section>
+    </div>
+
+    <div id="page-standings" class="page-view">
+      <section class="panel">
+        <div class="section-heading">
+          <div><h2>地区順位</h2><p class="muted">勝敗・勝率・ゲーム差・得失点差</p></div>
+          <span class="status">レギュラーシーズン</span>
+        </div>
+        <div id="standingLeagueFilters" class="mlb-filter-row"></div>
+        <div id="mlbStandings" class="mlb-standing-groups"></div>
+      </section>
+    </div>
+
+    <div id="page-teams" class="page-view">
+      <section class="panel">
+        <div class="section-heading">
+          <div><h2>球団検索</h2><p class="muted">日本語名・英語名・略称で検索</p></div>
+          <span id="teamCount" class="status">30球団</span>
+        </div>
+        <input id="teamSearch" class="search-input" type="search" placeholder="例：ドジャース / Dodgers / LAD">
+        <div id="teamFilters" class="mlb-filter-row"></div>
+        <div id="teamGrid" class="mlb-team-grid"></div>
+      </section>
+    </div>
+
+    <div id="page-players" class="page-view">
+      <section class="panel">
+        <div class="section-heading">
+          <div><h2>日本人選手</h2><p class="muted">今季MLB登録選手を自動抽出</p></div>
+          <span id="playerStatus" class="status">未取得</span>
+        </div>
+        <div id="japanesePlayers" class="mlb-player-grid">
+          <div class="mlb-loading">日本人選手データは、このページを開いた時に取得します。</div>
+        </div>
+      </section>
+    </div>
+
+    <div id="page-favorites" class="page-view">
+      <section class="panel">
+        <div class="section-heading">
+          <div><h2>推し球団</h2><p class="muted">複数球団をまとめて管理</p></div>
+          <span id="favoriteTeamCount" class="status">0球団</span>
+        </div>
+        <div id="favoriteTeamGrid" class="mlb-team-grid"></div>
+      </section>
+
+      <section class="panel">
+        <div class="section-heading"><div><h2>推し球団の試合</h2><p class="muted">今後の試合を日時順に表示</p></div></div>
+        <div id="favoriteGames" class="mlb-game-list"></div>
+      </section>
+    </div>
+  </main>
+
+  <nav id="pageTabs" class="bottom-nav" aria-label="MLBメニュー">
+    <button class="nav-item active" data-page="home" type="button">⌂<span>ホーム</span></button>
+    <button class="nav-item" data-page="schedule" type="button">▤<span>日程</span></button>
+    <button class="nav-item" data-page="standings" type="button">≡<span>順位</span></button>
+    <button class="nav-item" data-page="teams" type="button">⌕<span>球団</span></button>
+    <button class="nav-item" data-page="players" type="button">人<span>日本人</span></button>
+    <button class="nav-item" data-page="favorites" type="button">★<span>推し <b id="favoriteCountBadge">0</b></span></button>
+  </nav>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="./assets/js/core.js?v=302" defer></script>
+  <script src="./assets/js/repositories/football-repositories.js?v=3" defer></script>
+  <script src="./assets/js/services/football-services.js?v=3" defer></script>
+  <script src="./assets/js/football-core.js?v=4" defer></script>
+  <script src="./assets/js/ui/football-shell.js?v=10" defer></script>
+  <script src="./assets/js/ui/football-navigation.js?v=3" defer></script>
+  <script src="./assets/js/ui/football-calendar.js?v=8" defer></script>
+  <script src="./assets/js/mlb/mlb-data.js?v=1" defer></script>
+  <script src="./assets/js/mlb/mlb-service.js?v=1" defer></script>
+  <script src="./mlb.js?v=100" defer></script>
+</body>
+</html>
