@@ -1,14 +1,19 @@
 const { teams: countries, regions } = SportsHubNational;
 const Core = window.SportsCore || window.FootballCore;
 const UI = window.SportsUI || window.FootballUI;
+const Rankings = window.SportsRankings;
 const favoriteService = new Core.FavoriteService({ key: 'sportsHubFavoriteNationals', legacyKey: 'sportsHubFavoriteNational' });
 const pageTabs = new Core.PageTabs({ root: document.querySelector('#pageTabs') });
 const dataAdapter = new FootballAdapters.NationalAdapter();
+const fifaRankingService = Rankings?.FifaRankingService ? new Rankings.FifaRankingService() : null;
 
 let activeRegion = 'all';
 let query = '';
 let nationalMatches = [];
 let selectedDate = '';
+let matchUpdatedAt = '';
+let rankingOfficialDate = '';
+let rankingLoaded = false;
 
 const filters = document.querySelector('#regionFilters');
 const search = document.querySelector('#countrySearch');
@@ -25,28 +30,74 @@ const resolveTeam = (id, name = '') => SportsHubNational.find(id) || SportsHubNa
 const teamName = (id, fallback = '') => resolveTeam(id, fallback)?.name || fallback || id;
 const teamFlag = (id, fallback = '') => resolveTeam(id, fallback)?.flag || '🏳️';
 const dateKey = value => new Core.MatchModel({ kickoff: value }).dateKey;
+const rankingFor = (id, fallbackName = '') => fifaRankingService?.findTeam(id, fallbackName) || null;
+const rankingLabel = entry => rankingLoaded
+  ? fifaRankingService?.formatRank(entry, 'FIFA順位外') || 'FIFA順位外'
+  : '';
+
+function formatStatusDate(value) {
+  if (!value) return '';
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return String(value);
+  return date.toLocaleDateString('ja-JP', { month: 'numeric', day: 'numeric' });
+}
+
+function syncUpdatedStatus() {
+  const status = document.querySelector('#nationalUpdatedAt');
+  if (!status) return;
+  const parts = [];
+  if (matchUpdatedAt) parts.push(`試合 ${formatStatusDate(matchUpdatedAt)}`);
+  if (rankingOfficialDate) parts.push(`FIFA順位 ${formatStatusDate(rankingOfficialDate)}`);
+  else if (rankingLoaded) parts.push('FIFA順位 更新日不明');
+  status.textContent = parts.length ? `最終更新 ${parts.join('・')}` : '代表戦・FIFA順位データを読み込んでいます';
+}
 
 const matchRenderer = SportsHubComponents.createMatchCardRenderer({
   normalize: match => {
     const finished = match.status === 'finished';
     const live = match.status === 'in_play';
+    const homeName = match.homeName || teamName(match.home, match.homeName);
+    const awayName = match.awayName || teamName(match.away, match.awayName);
+    const matchup = fifaRankingService?.matchup(match.home, match.away, homeName, awayName) || {};
+    const interest = matchup.interest || null;
+    const originalStage = match.round || match.stage || '';
+    const interestText = interest
+      ? `注目度 ${interest.grade}・${interest.label}・順位差${interest.rankGap}`
+      : '';
+
     return {
       match,
       date: match.kickoff,
       timeText: finished ? '試合終了' : live ? 'LIVE' : '',
       scoreText: finished || live ? `${match.homeScore ?? '-'} - ${match.awayScore ?? '-'}` : 'VS',
       competition: match.competition || '代表戦',
-      stage: match.round || match.stage || '',
+      stage: [originalStage, interestText].filter(Boolean).join(' / '),
       venue: match.venue || '',
-      home: { name: teamName(match.home, match.homeName), flag: teamFlag(match.home, match.homeName) },
-      away: { name: teamName(match.away, match.awayName), flag: teamFlag(match.away, match.awayName) }
+      className: interest ? `national-match-interest national-match-interest--${interest.grade.toLowerCase()}` : '',
+      attributes: interest ? {
+        'data-interest-grade': interest.grade,
+        'data-interest-score': interest.score,
+        'aria-label': `${homeName}対${awayName}、注目度${interest.grade}`
+      } : {},
+      home: {
+        name: teamName(match.home, match.homeName),
+        flag: teamFlag(match.home, match.homeName),
+        subtitle: rankingLabel(matchup.left)
+      },
+      away: {
+        name: teamName(match.away, match.awayName),
+        flag: teamFlag(match.away, match.awayName),
+        subtitle: rankingLabel(matchup.right)
+      }
     };
   }
 });
 
 function teamCard(country) {
   const selected = isFavorite(country.id);
-  return `<article class="country-card${selected ? ' selected' : ''}"><span class="flag" aria-hidden="true">${country.flag}</span><button class="country-copy" type="button" data-open-country="${country.id}"><strong>${country.name}</strong><small>${country.en}</small></button><button class="favorite-button${selected ? ' active' : ''}" type="button" data-favorite-country="${country.id}" aria-label="${country.name}代表をお気に入り登録">${selected ? '★' : '☆'}</button></article>`;
+  const ranking = rankingFor(country.id, country.en);
+  const rankingText = rankingLabel(ranking);
+  return `<article class="country-card${selected ? ' selected' : ''}"><span class="flag" aria-hidden="true">${country.flag}</span><button class="country-copy" type="button" data-open-country="${country.id}"><strong>${country.name}</strong><small>${country.en}${rankingText ? `・${rankingText}` : ''}</small></button><button class="favorite-button${selected ? ' active' : ''}" type="button" data-favorite-country="${country.id}" aria-label="${country.name}代表をお気に入り登録">${selected ? '★' : '☆'}</button></article>`;
 }
 
 function renderFilters() {
@@ -128,11 +179,27 @@ async function loadMatchData() {
     const payload = await dataAdapter.load();
     nationalMatches = payload.matches || [];
     const metadata = await dataAdapter.loadMetadata();
-    document.querySelector('#nationalUpdatedAt').textContent = metadata.updatedAt ? `最終更新 ${new Date(metadata.updatedAt).toLocaleString('ja-JP')}` : '更新データ未生成';
+    matchUpdatedAt = metadata.updatedAt || '';
+    syncUpdatedStatus();
     renderAll();
   } catch (error) {
     document.querySelector('#nationalUpdatedAt').textContent = '代表戦データを準備中';
     console.warn('National data unavailable', error);
+  }
+}
+
+async function loadRankingData() {
+  if (!fifaRankingService) return;
+  try {
+    const payload = await fifaRankingService.load();
+    rankingLoaded = fifaRankingService.entries.length > 0;
+    rankingOfficialDate = payload.officialDate || '';
+    syncUpdatedStatus();
+    renderAll();
+  } catch (error) {
+    rankingLoaded = false;
+    syncUpdatedStatus();
+    console.warn('FIFA ranking data unavailable', error);
   }
 }
 
@@ -178,3 +245,4 @@ SportsHub.applyTheme();
 pageTabs.show('home');
 renderAll();
 loadMatchData();
+loadRankingData();
