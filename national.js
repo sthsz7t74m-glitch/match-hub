@@ -2,14 +2,17 @@ const { teams: countries, regions } = SportsHubNational;
 const Core = window.SportsCore || window.FootballCore;
 const UI = window.SportsUI || window.FootballUI;
 const Rankings = window.SportsRankings;
+const Components = window.SportsHubComponents;
 const favoriteService = new Core.FavoriteService({ key: 'sportsHubFavoriteNationals', legacyKey: 'sportsHubFavoriteNational' });
 const pageTabs = new Core.PageTabs({ root: document.querySelector('#pageTabs') });
 const dataAdapter = new FootballAdapters.NationalAdapter();
 const fifaRankingService = Rankings?.FifaRankingService ? new Rankings.FifaRankingService() : null;
+const eventDialog = Components?.createEventDialog?.({ id: 'nationalHubEventDialog' }) || null;
 
 let activeRegion = 'all';
 let query = '';
 let nationalMatches = [];
+let matchIndex = new Map();
 let selectedDate = '';
 let matchUpdatedAt = '';
 let rankingOfficialDate = '';
@@ -39,6 +42,55 @@ const rankingLabel = entry => rankingLoaded
   ? fifaRankingService?.formatRank(entry, 'FIFA順位外') || 'FIFA順位外'
   : '';
 
+function matchKey(match, index = 0) {
+  return String(match?.id || match?.uid || `${match?.home || 'home'}-${match?.away || 'away'}-${match?.kickoff || index}`);
+}
+
+function indexMatches(matches = []) {
+  matchIndex = new Map();
+  nationalMatches = matches.map((match, index) => {
+    const key = matchKey(match, index);
+    const normalized = { ...match, __detailKey: key };
+    matchIndex.set(key, normalized);
+    return normalized;
+  });
+}
+
+function scoreValue(match, side) {
+  return match?.[`${side}Score`] ?? match?.score?.[side] ?? null;
+}
+
+function isFinished(match) {
+  return ['finished', 'final'].includes(String(match?.status || '').toLowerCase());
+}
+
+function isLive(match) {
+  return ['in_play', 'in-play', 'live', 'paused'].includes(String(match?.status || '').toLowerCase());
+}
+
+function scoreText(match) {
+  if (!isFinished(match) && !isLive(match)) return 'VS';
+  return `${scoreValue(match, 'home') ?? '-'} - ${scoreValue(match, 'away') ?? '-'}`;
+}
+
+function statusText(match) {
+  if (isLive(match)) return 'LIVE';
+  if (isFinished(match)) return '試合終了';
+  const status = String(match?.status || '').toLowerCase();
+  if (status === 'postponed') return '延期';
+  if (status === 'suspended') return '中断';
+  if (status === 'cancelled') return '中止';
+  return '試合前';
+}
+
+function formatKickoff(value) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return '日時未定';
+  return date.toLocaleString('ja-JP', {
+    month: 'numeric', day: 'numeric', weekday: 'short', hour: '2-digit', minute: '2-digit'
+  });
+}
+
 function formatStatusDate(value) {
   if (!value) return '';
   const date = new Date(value);
@@ -56,35 +108,48 @@ function syncUpdatedStatus() {
   status.textContent = parts.length ? `最終更新 ${parts.join('・')}` : '代表戦・FIFA順位データを読み込んでいます';
 }
 
-const matchRenderer = SportsHubComponents.createMatchCardRenderer({
+function matchupFor(match) {
+  const homeName = match.homeName || teamName(match.home, match.homeName);
+  const awayName = match.awayName || teamName(match.away, match.awayName);
+  return fifaRankingService?.matchup(match.home, match.away, homeName, awayName) || {};
+}
+
+const matchRenderer = Components.createMatchCardRenderer({
   normalize: match => {
-    const finished = match.status === 'finished';
-    const live = match.status === 'in_play';
+    const finished = isFinished(match);
+    const live = isLive(match);
     const homeTeam = resolveTeam(match.home, match.homeName);
     const awayTeam = resolveTeam(match.away, match.awayName);
     const homeName = match.homeName || homeTeam?.name || teamName(match.home, match.homeName);
     const awayName = match.awayName || awayTeam?.name || teamName(match.away, match.awayName);
-    const matchup = fifaRankingService?.matchup(match.home, match.away, homeName, awayName) || {};
+    const matchup = matchupFor(match);
     const interest = matchup.interest || null;
     const originalStage = match.round || match.stage || '';
-    const interestText = interest
-      ? `注目度 ${interest.grade}・${interest.label}・順位差${interest.rankGap}`
-      : '';
+    const interestText = interest ? `注目度 ${interest.grade}・${interest.label}・順位差${interest.rankGap}` : '';
 
     return {
       match,
       date: match.kickoff,
       timeText: finished ? '試合終了' : live ? 'LIVE' : '',
-      scoreText: finished || live ? `${match.homeScore ?? '-'} - ${match.awayScore ?? '-'}` : 'VS',
+      scoreText: scoreText(match),
       competition: match.competition || '代表戦',
       stage: [originalStage, interestText].filter(Boolean).join(' / '),
       venue: match.venue || '',
       className: interest ? `national-match-interest national-match-interest--${interest.grade.toLowerCase()}` : '',
-      attributes: interest ? {
-        'data-interest-grade': interest.grade,
-        'data-interest-score': interest.score,
-        'aria-label': `${homeName}対${awayName}、注目度${interest.grade}`
-      } : {},
+      attributes: {
+        'data-national-match-key': match.__detailKey,
+        ...(interest ? {
+          'data-interest-grade': interest.grade,
+          'data-interest-score': interest.score,
+          'aria-label': `${homeName}対${awayName}、注目度${interest.grade}`
+        } : {})
+      },
+      center: {
+        id: match.__detailKey,
+        interactive: true,
+        attributes: { 'data-open-national-match': match.__detailKey },
+        ariaLabel: `${homeName}対${awayName}の試合情報を見る`
+      },
       home: {
         id: homeTeam?.id || match.home,
         name: teamName(match.home, match.homeName),
@@ -186,10 +251,45 @@ function renderAll() {
   renderSchedule();
 }
 
+function openMatchDialog(key) {
+  const match = matchIndex.get(String(key));
+  if (!match || !eventDialog) return;
+  const home = resolveTeam(match.home, match.homeName);
+  const away = resolveTeam(match.away, match.awayName);
+  const matchup = matchupFor(match);
+  const interest = matchup.interest;
+  eventDialog.open({
+    eyebrow: 'NATIONAL MATCH',
+    title: match.competition || '代表戦',
+    dateText: formatKickoff(match.kickoff),
+    leftTeam: {
+      name: home?.name || teamName(match.home, match.homeName),
+      flag: home?.flag || teamFlag(match.home, match.homeName),
+      subtitle: rankingLabel(matchup.left)
+    },
+    rightTeam: {
+      name: away?.name || teamName(match.away, match.awayName),
+      flag: away?.flag || teamFlag(match.away, match.awayName),
+      subtitle: rankingLabel(matchup.right)
+    },
+    scoreText: scoreText(match),
+    statusText: statusText(match),
+    facts: [
+      ['ステージ', match.round || match.stage || '—'],
+      ['会場', match.venue || '未定'],
+      ['注目度', interest ? `${interest.grade}・${interest.label}` : '算出待ち'],
+      ['順位差', interest ? String(interest.rankGap) : '—']
+    ],
+    note: isFinished(match) || isLive(match)
+      ? '取得済みの試合結果・速報を表示しています。'
+      : '試合前のためスコアは未確定です。日程と対戦情報を表示しています。'
+  });
+}
+
 async function loadMatchData() {
   try {
     const payload = await dataAdapter.load();
-    nationalMatches = payload.matches || [];
+    indexMatches(payload.matches || []);
     const metadata = await dataAdapter.loadMetadata();
     matchUpdatedAt = metadata.updatedAt || '';
     syncUpdatedStatus();
@@ -203,7 +303,7 @@ async function loadMatchData() {
 async function loadRankingData() {
   if (!fifaRankingService) return;
   try {
-    const payload = await fifaRankingService.load();
+    const payload = await fifaRankingService.load({ fresh: true });
     rankingLoaded = fifaRankingService.entries.length > 0;
     rankingOfficialDate = payload.officialDate || '';
     syncUpdatedStatus();
@@ -217,12 +317,20 @@ async function loadRankingData() {
 
 pageTabs.bind();
 document.addEventListener('click', event => {
+  const matchButton = event.target.closest('[data-open-national-match]');
+  if (matchButton) {
+    event.preventDefault();
+    event.stopPropagation();
+    openMatchDialog(matchButton.dataset.openNationalMatch);
+    return;
+  }
   const jump = event.target.closest('[data-page-jump]');
   if (jump) {
     pageTabs.show(jump.dataset.pageJump);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 });
+
 filters.addEventListener('click', event => {
   const button = event.target.closest('[data-region]');
   if (!button) return;
@@ -230,6 +338,7 @@ filters.addEventListener('click', event => {
   renderFilters();
   renderCountries();
 });
+
 function handleTeamGridClick(event) {
   const favoriteButton = event.target.closest('[data-favorite-country]');
   if (favoriteButton) {
@@ -244,6 +353,7 @@ function handleTeamGridClick(event) {
   const openButton = event.target.closest('[data-open-country]');
   if (openButton) openDetail(openButton.dataset.openCountry);
 }
+
 grid.addEventListener('click', handleTeamGridClick);
 favoriteGrid.addEventListener('click', handleTeamGridClick);
 search.addEventListener('input', () => { query = search.value; renderCountries(); });
