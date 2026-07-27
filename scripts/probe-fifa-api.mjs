@@ -1,23 +1,13 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 
-const PAGE_URL = 'https://vod.fifa.com/en/fifa-world-ranking/men';
+const CHUNK_URL = 'https://vod.fifa.com/_next/static/chunks/4170.0d6f0f095bdc7828.js';
 const HEADERS = {
   Accept: '*/*',
   'Accept-Language': 'en-US,en;q=0.9',
-  'User-Agent': 'Mozilla/5.0 (compatible; MatchHubFifaProbe/3.0)'
+  'User-Agent': 'Mozilla/5.0 (compatible; MatchHubFifaProbe/4.0)'
 };
-const PATTERNS = [
-  'ranking-overview',
-  'FRS_Male_Football',
-  'rankingItem',
-  'liveRanking',
-  'live-ranking',
-  'fifa-world-ranking',
-  'ranking-overview-template',
-  'lastUpdateDate'
-];
 
-async function get(url, timeout = 25000) {
+async function get(url, timeout = 30000) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeout);
   try {
@@ -29,68 +19,68 @@ async function get(url, timeout = 25000) {
   }
 }
 
-function absoluteUrl(value, base) {
-  try { return new URL(value, base).href; } catch { return ''; }
-}
-
-function contexts(source, pattern, limit = 8, radius = 280) {
-  const result = [];
-  let start = 0;
+function snippets(source, needle, { limit = 20, radius = 700 } = {}) {
+  const results = [];
   const lower = source.toLowerCase();
-  const needle = pattern.toLowerCase();
-  while (result.length < limit) {
-    const index = lower.indexOf(needle, start);
+  const search = needle.toLowerCase();
+  let offset = 0;
+  while (results.length < limit) {
+    const index = lower.indexOf(search, offset);
     if (index < 0) break;
-    result.push(source.slice(Math.max(0, index - radius), Math.min(source.length, index + needle.length + radius)).replace(/\s+/g, ' '));
-    start = index + needle.length;
+    results.push(source.slice(Math.max(0, index - radius), Math.min(source.length, index + search.length + radius)));
+    offset = index + search.length;
   }
-  return result;
+  return results;
 }
 
-const page = await get(PAGE_URL);
-const scriptUrls = [...page.body.matchAll(/<script[^>]+src=["']([^"']+)["'][^>]*>/gi)]
-  .map(match => absoluteUrl(match[1], page.response.url))
-  .filter(Boolean);
-const uniqueScripts = [...new Set(scriptUrls)];
-const findings = [];
-const errors = [];
-let cursor = 0;
-
-async function worker() {
-  while (cursor < uniqueScripts.length) {
-    const index = cursor++;
-    const url = uniqueScripts[index];
-    try {
-      const result = await get(url, 20000);
-      const matched = {};
-      for (const pattern of PATTERNS) {
-        const snippets = contexts(result.body, pattern);
-        if (snippets.length) matched[pattern] = snippets;
-      }
-      if (Object.keys(matched).length) {
-        findings.push({ url, bytes: result.body.length, matched });
-      }
-    } catch (error) {
-      errors.push({ url, error: error.message });
-    }
+function stringLiterals(source) {
+  const values = [];
+  const seen = new Set();
+  const pattern = /(["'`])((?:\\.|(?!\1)[^\\]){1,300})\1/g;
+  let match;
+  while ((match = pattern.exec(source))) {
+    const value = match[2];
+    if (!/(?:\/api\/|https?:|ranking|fdcp|match-window|live)/i.test(value)) continue;
+    const decoded = value.replace(/\\\//g, '/').replace(/\\"/g, '"');
+    if (seen.has(decoded)) continue;
+    seen.add(decoded);
+    values.push(decoded);
   }
+  return values.slice(0, 500);
 }
 
-await Promise.all(Array.from({ length: Math.min(8, uniqueScripts.length) }, () => worker()));
+const result = await get(CHUNK_URL);
+const body = result.body;
+const targets = [
+  '13901:function',
+  'p6:function',
+  'p6:',
+  'No rankings returned by fdcp',
+  'fdcp',
+  '/api/ranking-overview',
+  '/api/get-match-window-matches',
+  'FRS_Male_Football',
+  'rankingMode',
+  'rankingData',
+  'Results',
+  'IdCountry',
+  'TotalPoints',
+  'PrevRank',
+  'pollingInterval',
+  'useSWR',
+  'fetch('
+];
 
-const htmlUrls = [...page.body.matchAll(/https?:\\?\/\\?\/[^"'<>\s]+/g)]
-  .map(match => match[0].replace(/\\\//g, '/'))
-  .filter(url => /rank|api|football/i.test(url))
-  .slice(0, 100);
+const contexts = Object.fromEntries(targets.map(target => [target, snippets(body, target)]).filter(([, values]) => values.length));
+const moduleIds = [...body.matchAll(/(\d+):function\([^)]*\)\{"use strict";[^}]{0,800}?p6:function/g)].map(match => match[1]);
+const apiStrings = stringLiterals(body);
 
 await mkdir('data', { recursive: true });
 await writeFile('data/fifa-probe.json', `${JSON.stringify({
   probedAt: new Date().toISOString(),
-  page: page.response.url,
-  pageBytes: page.body.length,
-  scriptCount: uniqueScripts.length,
-  scriptUrls: uniqueScripts,
-  htmlUrls,
-  findings,
-  errors
+  chunkUrl: result.response.url,
+  bytes: body.length,
+  moduleIds,
+  apiStrings,
+  contexts
 }, null, 2)}\n`, 'utf8');
