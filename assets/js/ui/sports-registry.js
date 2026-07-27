@@ -88,7 +88,7 @@ window.SportsHubRegistry = window.SportsHubRegistry || {};
   registry.register('jleague', {
     eyebrow: 'JAPAN PROFESSIONAL FOOTBALL',
     title: 'Jリーグ',
-    version: 'v3.1.6',
+    version: 'v3.1.7',
     favoriteStorageKey: 'sportsHubFavoriteJClubs',
     calendar: {
       filterStorageKey: 'footballCalendarFavoriteOnly:jleague',
