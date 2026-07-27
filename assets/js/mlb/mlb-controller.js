@@ -80,6 +80,7 @@ window.MLBApp = window.MLBApp || {};
         repository: this.repository,
         store: this.store,
         getSeason: () => this.state.season,
+        initialFresh: true,
         onStatus: event => this.handleSyncStatus(event),
         onError: error => console.warn('MLB automatic synchronization failed:', error)
       });
@@ -89,7 +90,8 @@ window.MLBApp = window.MLBApp || {};
         standingFilter: event => this.handleStandingFilter(event),
         teamSearch: () => this.store.setTeamQuery(this.nodes.teamSearch?.value || ''),
         clearDate: () => this.calendar.clearSelection(),
-        refresh: () => this.refresh()
+        refresh: () => this.refresh(),
+        pageShow: event => this.handlePageShow(event)
       };
     }
 
@@ -184,14 +186,18 @@ window.MLBApp = window.MLBApp || {};
         case 'snapshot':
           this.nodes.updated.textContent = '保存済みデータを表示・最新情報を自動取得中';
           break;
-        case 'loading':
+        case 'loading': {
+          const automaticStartup = ['initial', 'startup-watchdog', 'pageshow'].includes(event.reason);
           this.nodes.updated.textContent = event.reason === 'retry'
             ? 'MLBデータを自動再取得しています…'
             : event.reason === 'manual'
-              ? '最新データを自動取得しています…'
-              : 'MLBデータを自動取得しています…';
+              ? '最新データを取得しています…'
+              : automaticStartup
+                ? '最新データを自動取得しています…'
+                : 'MLBデータを自動取得しています…';
           if (this.nodes.refresh) this.nodes.refresh.disabled = true;
           break;
+        }
         case 'ready':
           this.nodes.updated.textContent = updated
             ? `最終更新 ${updated}・自動更新ON`
@@ -206,6 +212,10 @@ window.MLBApp = window.MLBApp || {};
           break;
         case 'retry-scheduled':
           this.nodes.updated.textContent = '通信待機中・自動で再取得します';
+          break;
+        case 'retry-exhausted':
+          this.nodes.updated.textContent = '自動更新待機中・次回も自動取得します';
+          if (this.nodes.refresh) this.nodes.refresh.disabled = false;
           break;
         case 'season-ready':
           if (updated) this.nodes.updated.textContent = `最終更新 ${updated}・全日程取得済み`;
@@ -222,6 +232,15 @@ window.MLBApp = window.MLBApp || {};
     handlePageChange(page) {
       if (page === 'players') this.loadPlayers();
       window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    handlePageShow(event) {
+      // Safari can restore the page from its back-forward cache without rerunning scripts.
+      // Re-check the automatic loader whenever the page becomes active again.
+      void this.ensureInitialLoad({
+        fresh: Boolean(event?.persisted),
+        reason: 'pageshow'
+      });
     }
 
     handleDocumentClick(event) {
@@ -258,6 +277,7 @@ window.MLBApp = window.MLBApp || {};
 
       this.pageTabs.bind(page => this.handlePageChange(page));
       document.addEventListener('click', this.handlers.documentClick);
+      window.addEventListener('pageshow', this.handlers.pageShow);
       this.nodes.teamFilters?.addEventListener('click', this.handlers.teamFilter);
       this.nodes.standingFilters?.addEventListener('click', this.handlers.standingFilter);
       this.nodes.teamSearch?.addEventListener('input', this.handlers.teamSearch);
@@ -269,6 +289,7 @@ window.MLBApp = window.MLBApp || {};
     destroy() {
       if (!this.bound) return;
       document.removeEventListener('click', this.handlers.documentClick);
+      window.removeEventListener('pageshow', this.handlers.pageShow);
       this.nodes.teamFilters?.removeEventListener('click', this.handlers.teamFilter);
       this.nodes.standingFilters?.removeEventListener('click', this.handlers.standingFilter);
       this.nodes.teamSearch?.removeEventListener('input', this.handlers.teamSearch);
@@ -296,6 +317,16 @@ window.MLBApp = window.MLBApp || {};
       }
     }
 
+    ensureInitialLoad(options = {}) {
+      if (typeof this.sync.ensureInitialLoad === 'function') {
+        return this.sync.ensureInitialLoad(options);
+      }
+      return this.sync.refresh({
+        fresh: options.fresh !== false,
+        reason: options.reason || 'startup-watchdog'
+      });
+    }
+
     refresh() {
       return this.sync.refresh({ fresh: true, reason: 'manual' });
     }
@@ -304,8 +335,20 @@ window.MLBApp = window.MLBApp || {};
       this.bind();
       window.SportsHub?.applyTheme?.();
       this.pageTabs.show('home');
-      this.view.renderAll();
+
+      // Start data synchronization first. A rendering problem must never prevent
+      // the automatic request that the Update button performs successfully.
       this.sync.start();
+
+      try {
+        this.view.renderAll();
+      } catch (error) {
+        console.error('Initial MLB rendering failed; synchronization will continue:', error);
+      }
+
+      queueMicrotask(() => {
+        void this.ensureInitialLoad({ fresh: true, reason: 'startup-watchdog' });
+      });
       return this;
     }
   }
@@ -316,7 +359,10 @@ window.MLBApp = window.MLBApp || {};
     createStateFacade,
     MLBController,
     start(options) {
-      if (namespace.instance) return namespace.instance;
+      if (namespace.instance) {
+        void namespace.instance.ensureInitialLoad?.({ fresh: true, reason: 'startup-watchdog' });
+        return namespace.instance;
+      }
       namespace.instance = new MLBController(options).start();
       return namespace.instance;
     }
