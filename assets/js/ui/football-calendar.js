@@ -47,7 +47,9 @@ window.FootballUI = window.FootballUI || {};
       this.today?.addEventListener('click', () => this.goToday());
       this.root?.addEventListener('click', event => {
         const button = event.target.closest('[data-calendar-day]');
-        if (!button) return;
+        if (!button || !this.root.contains(button)) return;
+
+        event.stopPropagation();
         this.select(this.selected === button.dataset.calendarDay ? '' : button.dataset.calendarDay);
       });
     }
