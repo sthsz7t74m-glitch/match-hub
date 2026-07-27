@@ -1,9 +1,12 @@
-window.FootballUI = window.FootballUI || {};
+const sharedMatchHubUI = window.SportsUI || window.FootballUI || {};
+window.SportsUI = sharedMatchHubUI;
+window.FootballUI = sharedMatchHubUI;
 
 (function initializeMatchHubCalendar(namespace) {
   if (document.body.dataset.hub !== 'five' || namespace.calendars?.five) return;
-  if (!namespace.FootballCalendar) {
-    console.warn('Shared FootballCalendar is not available');
+  const Core = window.SportsCore || window.FootballCore;
+  if (!namespace.SportsCalendar && !namespace.FootballCalendar) {
+    console.warn('Shared SportsCalendar is not available');
     return;
   }
 
@@ -24,7 +27,6 @@ window.FootballUI = window.FootballUI || {};
     today: replaceControl('#calendarToday')
   };
   const selectedMatchesRoot = document.querySelector('#calendarMatches');
-
   const currentData = () => state.data || { fixtures: [], teams: [] };
   const matches = () => currentData().fixtures || [];
   const teamById = id => (currentData().teams || []).find(team => String(team.id) === String(id));
@@ -47,10 +49,14 @@ window.FootballUI = window.FootballUI || {};
     const selected = matchesOnDate(date);
     selectedMatchesRoot.innerHTML = selected.length
       ? selected.map(match => matchCard(match, { rich: true })).join('')
-      : `<p class="empty compact-empty">${calendar?.favoriteOnly ? 'この日に推しの試合はありません' : 'この日の試合はありません'}</p>`;
+      : Core?.SportsScheduleEmptyState?.render({
+          title: calendar?.favoriteOnly ? 'この日に推しの試合はありません' : 'この日の試合はありません',
+          description: '別の日付を選択してください。',
+          className: 'compact-empty'
+        }) || `<p class="empty compact-empty">${calendar?.favoriteOnly ? 'この日に推しの試合はありません' : 'この日の試合はありません'}</p>`;
   };
 
-  calendar = new namespace.FootballCalendar({
+  const options = {
     page: 'five',
     root,
     title: document.querySelector('#calendarTitle'),
@@ -67,7 +73,11 @@ window.FootballUI = window.FootballUI || {};
       state.calendarSelected = date || null;
       renderSelectedMatches(date);
     }
-  });
+  };
+
+  calendar = namespace.createCalendar
+    ? namespace.createCalendar(options)
+    : new (namespace.SoccerCalendar || namespace.FootballCalendar || namespace.SportsCalendar)(options);
 
   const renderSharedCalendar = () => {
     calendar.selected = state.calendarSelected || '';
@@ -82,4 +92,4 @@ window.FootballUI = window.FootballUI || {};
   namespace.calendars.five = calendar;
   window.MatchHubUsesLegacyCalendar = false;
   renderSharedCalendar();
-})(window.FootballUI);
+})(sharedMatchHubUI);
