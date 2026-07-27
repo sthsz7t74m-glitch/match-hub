@@ -1,0 +1,49 @@
+{
+  "probedAt": "2026-07-27T14:29:13.316Z",
+  "results": [
+    {
+      "url": "https://vod.fifa.com/api/ranking-overview?locale=en",
+      "finalUrl": "https://vod.fifa.com/api/ranking-overview?locale=en",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 15,
+      "officialDate": "",
+      "count": 0,
+      "top": [],
+      "preview": ""
+    },
+    {
+      "url": "https://inside.fifa.com/api/ranking-overview?locale=en",
+      "finalUrl": "https://inside.fifa.com/api/ranking-overview?locale=en",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 15,
+      "officialDate": "",
+      "count": 0,
+      "top": [],
+      "preview": ""
+    },
+    {
+      "url": "https://www.fifa.com/api/ranking-overview?locale=en",
+      "finalUrl": "https://www.fifa.com/api/ranking-overview?locale=en",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 4555,
+      "officialDate": "",
+      "count": 0,
+      "top": [],
+      "preview": "<!doctype html><html lang=\"en\" dir=\"ltr\"><head><meta charset=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><meta name=\"theme-color\" content=\"#020F2A\"/><meta name=\"msapplication-TileImage\" content=\"/mstile-150x150.png?v=6b9bed24d1df59ca113a3828909d3924\"><meta name=\"msapplication-TileColor\" content=\"#326295\"/><meta name=\"google-site-verification\" content=\"boCUJZPlju606sys-ZcnqZAThCMVJWEvwc6JXvElJTE\"/><link rel=\"icon\" href=\"/favicon.ico?v=4c4914f90c578869e7375b03cf029"
+    },
+    {
+      "url": "https://rusecure.fifa.com/api/ranking-overview?locale=en",
+      "finalUrl": "https://rusecure.fifa.com/api/ranking-overview?locale=en",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 15,
+      "officialDate": "",
+      "count": 0,
+      "top": [],
+      "preview": ""
+    }
+  ]
+}
