@@ -113,7 +113,7 @@ window.SportsHubRegistry = window.SportsHubRegistry || {};
     sport: 'soccer',
     eyebrow: 'NATIONAL TEAMS',
     title: '各国代表',
-    version: 'v3.2.7',
+    version: 'v3.2.8',
     favoriteStorageKey: 'sportsHubFavoriteNationals',
     calendar: {
       filterStorageKey: 'footballCalendarFavoriteOnly:national',
