@@ -1,3 +1,4 @@
+const SportsCoreV100=window.SportsCore||window.FootballCore;
 let standingsModeV100='all';
 let transferScopeV100='all';
 let transferDirectionV100='all';
@@ -55,8 +56,12 @@ renderHero=function(){baseRenderHeroV100();recentSummaryV100();};
 const baseMatchCardV100=matchCard;
 matchCard=function(f,opt={}){
   let html=baseMatchCardV100(f,opt);
-  html=html.replace('<div class="side home">',`<div class="side home team-link" data-card-team="${f.home.id}">`).replace('<div class="side away">',`<div class="side away team-link" data-card-team="${f.away.id}">`);
-  if(f.home.id===state.primary||f.away.id===state.primary)html=html.replace('class="match-card ','class="match-card primary-match-v100 ');
+  html=html
+    .replace('data-match-side="left"',`data-match-side="left" data-card-team="${f.home.id}"`)
+    .replace('data-match-side="right"',`data-match-side="right" data-card-team="${f.away.id}"`);
+  if(f.home.id===state.primary||f.away.id===state.primary){
+    html=html.replace('class="sports-event-card ','class="sports-event-card primary-match-v100 ');
+  }
   return html;
 };
 
@@ -92,9 +97,30 @@ renderGlobalSearch=function(){
   list.innerHTML=teams.map(t=>{const favorite=state.favorites.includes(t.id),main=state.primary===t.id;return `<article class="picker-card-v100 ${favorite?'selected':''}"><div class="picker-team-v100"><img src="${t.logo}" alt=""><span><strong>${teamName(t)}</strong><small class="english-name">${t.name}</small></span></div><div class="picker-actions-v100"><button type="button" data-team="${t.id}" data-primary="false" class="${favorite?'remove':'add'}">${favorite?'✓ 追加済み':'＋ 追加'}</button><button type="button" data-primary-id="${t.id}" class="primary-choice ${main?'active':''}">${main?'★ 最推し':'☆ 最推しにする'}</button></div></article>`;}).join('')||'<div class="empty-action"><strong>チームが見つかりません</strong><button class="text-button" data-clear-search-v100>検索をクリア</button></div>';
 };
 
+function scheduleEmptyStateV100(){
+  const actions=[];
+  if(state.range!=='month')actions.push({label:'今月を見る',action:'schedule-month'});
+  actions.push({label:'クラブを追加',action:'open-search'});
+  return SportsCoreV100?.SportsScheduleEmptyState?.render({actions})
+    || '<div class="empty-action"><strong>この期間の試合はありません</strong><span>期間を広げるか、お気に入りを追加してみよう</span></div>';
+}
+
+const baseRenderScheduleV100=renderSchedule;
+renderSchedule=function(){
+  baseRenderScheduleV100();
+  const schedule=document.querySelector('#scheduleList');
+  if(schedule?.querySelector(':scope > .empty'))schedule.innerHTML=scheduleEmptyStateV100();
+};
+
 function enhanceEmptyStatesV100(){
-  const schedule=document.querySelector('#scheduleList');if(schedule?.querySelector(':scope > .empty'))schedule.innerHTML=`<div class="empty-action"><strong>この期間の試合はありません</strong><span>期間を広げるか、お気に入りを追加してみよう</span><div><button class="text-button" data-empty-month-v100>今月を見る</button><button class="text-button" data-view="search">クラブを追加</button></div></div>`;
-  const favorites=document.querySelector('#favoriteTeams');if(favorites?.querySelector(':scope > .empty'))favorites.innerHTML=`<div class="empty-action"><strong>ほかのお気に入りはまだありません</strong><button class="text-button" data-view="search">クラブを追加</button></div>`;
+  const favorites=document.querySelector('#favoriteTeams');
+  if(favorites?.querySelector(':scope > .empty')){
+    favorites.innerHTML=SportsCoreV100?.SportsFavoritesEmptyState?.render({
+      title:'ほかのお気に入りはまだありません',
+      description:'クラブを追加すると次戦をまとめて表示できます。',
+      actions:[{label:'クラブを追加',action:'open-search'}]
+    })||'<div class="empty-action"><strong>ほかのお気に入りはまだありません</strong></div>';
+  }
 }
 const baseRenderV100=render;
 render=function(){baseRenderV100();enhanceEmptyStatesV100();};
@@ -112,7 +138,13 @@ document.addEventListener('click',event=>{
   const scope=event.target.closest('[data-transfer-scope]');if(scope){transferScopeV100=scope.dataset.transferScope;renderTransfers();return;}
   const direction=event.target.closest('[data-transfer-direction]');if(direction){transferDirectionV100=direction.dataset.transferDirection;renderTransfers();return;}
   if(event.target.closest('[data-clear-search-v100]')){const input=document.querySelector('#globalTeamSearch');if(input)input.value='';renderGlobalSearch();return;}
-  if(event.target.closest('[data-empty-month-v100]')){state.range='month';document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x.dataset.range==='month'));renderSchedule();return;}
+  const emptyAction=event.target.closest('[data-sports-empty-action]');
+  if(emptyAction?.dataset.sportsEmptyAction==='schedule-month'){
+    state.range='month';document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x.dataset.range==='month'));renderSchedule();return;
+  }
+  if(emptyAction?.dataset.sportsEmptyAction==='open-search'){
+    state.view='search';setActiveNav('search');render();window.scrollTo({top:0,behavior:'smooth'});return;
+  }
   if(event.target.closest('[data-retry-v100]')){loadData(true);return;}
   const add=event.target.closest('.picker-card-v100 [data-team]');if(add){const id=Number(add.dataset.team);setTimeout(()=>toastV100(state.favorites.includes(id)?`${teamName(getTeam(id))}を追加しました`:`${teamName(getTeam(id))}を解除しました`),0);}
   const primary=event.target.closest('.picker-card-v100 [data-primary-id]');if(primary)setTimeout(()=>toastV100(`${teamName(getTeam(Number(primary.dataset.primaryId)))}を最推しに設定しました`),0);
