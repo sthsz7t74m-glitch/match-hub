@@ -1,14 +1,23 @@
-window.SportsUI = window.SportsUI || window.FootballUI || {};
+const sharedSportsFacade = window.SportsUI || window.FootballUI || {};
+window.SportsUI = sharedSportsFacade;
+window.FootballUI = sharedSportsFacade;
 
-(function initializeSportsUiAliases(namespace) {
-  const source = window.FootballUI || namespace;
+(function initializeSportsUiFacade(namespace) {
+  const registry = window.SportsHubRegistry;
 
-  Object.assign(namespace, source, {
-    SportsShell: source.SportsShell || source.FootballShell,
-    SportsCalendar: source.SportsCalendar || source.FootballCalendar,
-    SportsNavigation: source.SportsNavigation || source.FootballNavigation,
-    SportsBottomNavigation: source.SportsBottomNavigation || source.BottomNavigation
+  Object.assign(namespace, {
+    SportsShell: namespace.SportsShell || namespace.FootballShell,
+    SportsCalendar: namespace.SportsCalendar || namespace.FootballCalendar,
+    SportsNavigation: namespace.SportsNavigation || namespace.FootballNavigation,
+    SportsBottomNavigation: namespace.SportsBottomNavigation || namespace.BottomNavigation,
+    SportsRegistry: registry?.SportsRegistry,
+    registry: registry?.registry,
+    getPageConfig: page => registry?.get?.(page) || null
   });
 
-  if (source.calendars) namespace.calendars = source.calendars;
-})(window.SportsUI);
+  namespace.FootballShell = namespace.FootballShell || namespace.SportsShell;
+  namespace.FootballCalendar = namespace.FootballCalendar || namespace.SportsCalendar;
+  namespace.FootballNavigation = namespace.FootballNavigation || namespace.SportsNavigation;
+  namespace.BottomNavigation = namespace.BottomNavigation || namespace.SportsBottomNavigation;
+  namespace.calendars = namespace.calendars || {};
+})(sharedSportsFacade);
