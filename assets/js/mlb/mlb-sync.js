@@ -51,17 +51,19 @@ window.MLBSync = window.MLBSync || {};
       this.store.replaceHubData(snapshot, {
         fallbackTeams: this.repository.fallbackTeams()
       });
+      this.lastSuccessAt = Date.now();
       this.emit('snapshot', { payload: snapshot });
       return snapshot;
     }
 
     scheduleRetry() {
+      if (!this.started) return;
       clearTimeout(this.retryTimer);
       const delay = this.retryDelays[Math.min(this.retryIndex, this.retryDelays.length - 1)];
       this.retryIndex += 1;
       this.emit('retry-scheduled', { delay });
       this.retryTimer = setTimeout(() => {
-        this.refresh({ fresh: true, reason: 'retry' });
+        void this.refresh({ fresh: true, reason: 'retry' });
       }, delay);
     }
 
@@ -95,13 +97,13 @@ window.MLBSync = window.MLBSync || {};
             this.emit('ready', { payload, reason });
           }
 
-          this.hydrateFullSchedule();
+          void this.hydrateFullSchedule();
           return payload;
         } catch (error) {
           this.emit('error', { error, reason });
           this.onError(error);
           this.scheduleRetry();
-          throw error;
+          return null;
         } finally {
           this.pending = null;
         }
@@ -138,13 +140,13 @@ window.MLBSync = window.MLBSync || {};
     }
 
     handleOnline() {
-      this.refresh({ fresh: true, reason: 'online' });
+      void this.refresh({ fresh: true, reason: 'online' });
     }
 
     handleVisibility() {
       if (document.visibilityState !== 'visible') return;
       if (Date.now() - this.lastSuccessAt < this.visibilityStaleMs) return;
-      this.refresh({ fresh: false, reason: 'visible' });
+      void this.refresh({ fresh: false, reason: 'visible' });
     }
 
     start() {
@@ -154,9 +156,9 @@ window.MLBSync = window.MLBSync || {};
       window.addEventListener('online', this.handleOnline);
       document.addEventListener('visibilitychange', this.handleVisibility);
       this.intervalTimer = setInterval(() => {
-        this.refresh({ fresh: false, reason: 'interval' });
+        void this.refresh({ fresh: false, reason: 'interval' });
       }, this.intervalMs);
-      this.refresh({ fresh: false, reason: 'initial' });
+      void this.refresh({ fresh: false, reason: 'initial' });
       return this;
     }
 
@@ -165,6 +167,8 @@ window.MLBSync = window.MLBSync || {};
       this.started = false;
       clearInterval(this.intervalTimer);
       clearTimeout(this.retryTimer);
+      this.intervalTimer = null;
+      this.retryTimer = null;
       window.removeEventListener('online', this.handleOnline);
       document.removeEventListener('visibilitychange', this.handleVisibility);
     }
