@@ -3,9 +3,14 @@ window.SportsUI = sharedSportsUI;
 window.FootballUI = sharedSportsUI;
 
 (function initializeSportsShell(namespace) {
+  const Core = window.SportsCore || window.FootballCore || {};
+  const ComponentBase = Core.SportsComponent || class {
+    constructor({ root = null } = {}) { this.root = root; }
+    destroy() { this.root = null; }
+  };
+
   const installZoomLock = () => {
     if (document.documentElement.dataset.zoomLocked === 'true') return;
-
     document.documentElement.dataset.zoomLocked = 'true';
 
     let viewport = document.querySelector('meta[name="viewport"]');
@@ -14,7 +19,6 @@ window.FootballUI = sharedSportsUI;
       viewport.name = 'viewport';
       document.head.prepend(viewport);
     }
-
     viewport.content = 'width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover';
 
     const style = document.createElement('style');
@@ -26,25 +30,20 @@ window.FootballUI = sharedSportsUI;
     ['gesturestart', 'gesturechange', 'gestureend'].forEach(type => {
       document.addEventListener(type, prevent, { passive: false });
     });
-
     document.addEventListener('touchmove', event => {
       if (event.touches?.length > 1) event.preventDefault();
     }, { passive: false });
-
     document.addEventListener('dblclick', prevent, { passive: false });
     document.addEventListener('wheel', event => {
       if (event.ctrlKey || event.metaKey) event.preventDefault();
     }, { passive: false });
-
     document.addEventListener('keydown', event => {
-      if ((event.ctrlKey || event.metaKey) && ['+', '=', '-', '_', '0'].includes(event.key)) {
-        event.preventDefault();
-      }
+      if ((event.ctrlKey || event.metaKey) && ['+', '=', '-', '_', '0'].includes(event.key)) event.preventDefault();
     });
   };
 
   installZoomLock();
-  if (namespace.SportsShell) return;
+  if (namespace.SportsShell?.SHELL_VERSION >= 2) return;
 
   const registry = window.SportsHubRegistry;
   const getPageConfig = page => registry?.get?.(page) || null;
@@ -63,43 +62,26 @@ window.FootballUI = sharedSportsUI;
   };
 
   const renderIcon = name => `<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">${iconPaths[name] || iconPaths.home}</svg>`;
-
   const renderNavigationItem = (item, index, attribute) => `
     <button class="nav-item football-nav__item${index === 0 ? ' active' : ''}" data-${attribute}="${item.target}" type="button">
-      <span class="football-nav__indicator" aria-hidden="true">
-        <span class="football-nav__icon">${renderIcon(item.icon)}</span>
-      </span>
+      <span class="football-nav__indicator" aria-hidden="true"><span class="football-nav__icon">${renderIcon(item.icon)}</span></span>
       <span class="football-nav__label">${item.label}${item.badgeId ? ` <b class="football-nav__badge" id="${item.badgeId}">0</b>` : ''}</span>
     </button>`;
 
-  class SportsBottomNavigation {
-    constructor(root) {
-      this.root = root;
-    }
-
-    normalize() {
-      if (!this.root) return;
-
-      const items = [...this.root.querySelectorAll('.football-nav__item')];
-      this.root.style.setProperty('--nav-count', items.length);
-      items.forEach(item => {
-        const label = item.querySelector('.football-nav__label');
-        if (label) item.setAttribute('aria-label', label.textContent.trim());
-      });
-    }
-  }
-
-  class SportsShell {
-    constructor(page = document.body.dataset.hub) {
+  class SportsHeader extends ComponentBase {
+    constructor({ root, config, page } = {}) {
+      super({ root });
+      this.config = config;
       this.page = page;
-      this.config = getPageConfig(page);
+      this.observer = null;
     }
 
-    renderHeader() {
-      const root = document.querySelector('.topbar');
-      if (!root || !this.config) return;
+    get sport() {
+      return this.config?.sport || 'generic';
+    }
 
-      root.innerHTML = `
+    template() {
+      return `
         <div class="football-header__identity">
           <a class="back-link" href="${this.config.back}" aria-label="Sports Hubへ戻る">←</a>
           <div class="football-header__copy">
@@ -108,45 +90,138 @@ window.FootballUI = sharedSportsUI;
           </div>
         </div>
         <div class="topbar__actions"><button id="themeButton" class="icon-button" type="button" aria-label="テーマ切替">◐</button></div>`;
-      root.dataset.shellPage = this.page;
+    }
+
+    syncHeight() {
+      if (!this.root) return;
+      const height = Math.ceil(this.root.getBoundingClientRect().height);
+      if (height > 0) document.documentElement.style.setProperty('--sports-header-height', `${height}px`);
+    }
+
+    observe() {
+      this.observer?.disconnect?.();
+      if (typeof ResizeObserver === 'function' && this.root) {
+        this.observer = new ResizeObserver(() => this.syncHeight());
+        this.observer.observe(this.root);
+      }
+      requestAnimationFrame(() => this.syncHeight());
+    }
+
+    render() {
+      if (!this.root || !this.config) return this;
+      this.root.innerHTML = this.template();
+      this.root.classList.add('sports-header', `sports-header--${this.sport}`);
+      this.root.dataset.shellPage = this.page;
+      this.root.dataset.sport = this.sport;
+      this.observe();
+      return this;
+    }
+
+    destroy() {
+      this.observer?.disconnect?.();
+      this.observer = null;
+      super.destroy();
+    }
+  }
+
+  class SoccerHeader extends SportsHeader {}
+  class BaseballHeader extends SportsHeader {}
+
+  class SportsBottomNavigation extends ComponentBase {
+    normalize() {
+      if (!this.root) return this;
+      const items = [...this.root.querySelectorAll('.football-nav__item')];
+      this.root.style.setProperty('--nav-count', items.length);
+      items.forEach(item => {
+        const label = item.querySelector('.football-nav__label');
+        if (label) item.setAttribute('aria-label', label.textContent.trim());
+      });
+      return this;
+    }
+  }
+
+  class SportsShell extends ComponentBase {
+    static SHELL_VERSION = 2;
+
+    constructor(page = document.body.dataset.hub) {
+      super({ root: document.body });
+      this.page = page;
+      this.config = getPageConfig(page);
+      this.header = null;
+      this.navigation = null;
+    }
+
+    get HeaderClass() {
+      return this.config?.sport === 'baseball' ? BaseballHeader : SoccerHeader;
+    }
+
+    renderHeader() {
+      const root = document.querySelector('.topbar');
+      if (!root || !this.config) return;
+      this.header?.destroy?.();
+      this.header = new this.HeaderClass({ root, config: this.config, page: this.page }).render();
     }
 
     renderNavigation() {
       const root = document.querySelector('#pageTabs');
       const navigation = this.config?.navigation;
       if (!root || !navigation) return;
-
-      root.classList.add('football-nav');
-      root.innerHTML = navigation.items
-        .map((item, index) => renderNavigationItem(item, index, navigation.attribute))
-        .join('');
+      root.classList.add('football-nav', 'sports-navigation');
+      root.innerHTML = navigation.items.map((item, index) => renderNavigationItem(item, index, navigation.attribute)).join('');
       root.setAttribute('aria-label', `${this.config.title}メニュー`);
       root.dataset.navigationType = navigation.attribute;
-      new SportsBottomNavigation(root).normalize();
+      this.navigation = new SportsBottomNavigation({ root }).normalize();
     }
 
     render() {
       if (!this.config) return this;
+      document.body.dataset.sport = this.config.sport;
       this.renderHeader();
       this.renderNavigation();
       return this;
     }
+
+    destroy() {
+      this.header?.destroy?.();
+      this.navigation?.destroy?.();
+      super.destroy();
+    }
   }
+
+  class SoccerHubShell extends SportsShell {
+    get HeaderClass() { return SoccerHeader; }
+  }
+
+  class BaseballHubShell extends SportsShell {
+    get HeaderClass() { return BaseballHeader; }
+  }
+
+  const createShell = (page = document.body.dataset.hub) => {
+    const config = getPageConfig(page);
+    const ShellClass = config?.sport === 'baseball' ? BaseballHubShell : SoccerHubShell;
+    return new ShellClass(page);
+  };
 
   Object.assign(namespace, {
     installZoomLock,
+    SportsHeader,
+    SoccerHeader,
+    BaseballHeader,
     SportsBottomNavigation,
     SportsShell,
+    SoccerHubShell,
+    BaseballHubShell,
     BottomNavigation: SportsBottomNavigation,
-    FootballShell: SportsShell,
+    FootballShell: SoccerHubShell,
     shellConfigs: registry?.toObject?.() || {},
     iconPaths,
     renderIcon,
     renderNavigationItem,
+    createShell,
     renderShell(page = document.body.dataset.hub) {
-      const shell = new SportsShell(page).render();
-      namespace.shell = shell;
-      return shell;
+      namespace.shell?.destroy?.();
+      namespace.shell = createShell(page).render();
+      return namespace.shell;
     }
   });
 
