@@ -1,1 +1,64 @@
-<!doctype html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"><meta name="theme-color" content="#07111f"><meta name="description" content="各国代表の日程、FIFAランキング、カレンダー、大会、お気に入りをまとめるNational Hub"><title>National Hub | Sports Hub</title><link rel="stylesheet" href="./assets/css/core.css?v=311"><link rel="stylesheet" href="./national.css?v=312"><link rel="stylesheet" href="./assets/css/match-components.css?v=8"><link rel="stylesheet" href="./assets/css/sports-event-interactions.css?v=1"><link rel="stylesheet" href="./assets/css/football-hub-layout.css?v=6"><link rel="stylesheet" href="./assets/css/football-components-v2.css?v=113"></head><body class="football-hub" data-hub="national"><header class="topbar"><div style="display:flex;align-items:center;gap:10px"><a class="back-link" href="./sports-home.html" aria-label="Sports Hubへ戻る">←</a><div><p class="eyebrow">NATIONAL TEAMS</p><h1>各国代表 <span class="version">v3.3.1</span></h1></div></div><div class="topbar__actions"><button id="themeButton" class="icon-button" type="button" aria-label="テーマ切替">◐</button></div></header><main class="hub-main"><section class="status-card"><small id="nationalUpdatedAt">代表戦・FIFA順位データを読み込んでいます</small><span class="status">ESPN + FIFA</span></section><section class="hub-hero national-hero panel"><div><p class="eyebrow">NATIONAL HUB</p><h2>推し代表を中心に世界の代表戦を見る</h2><p class="muted">次戦・カレンダー・FIFA順位・注目度・代表検索・大会情報をまとめます。</p></div><div class="hub-hero__icon">🌍</div></section><div id="page-home" class="page-view active"><section class="panel"><div class="section-heading"><div><p class="eyebrow">MY FAVORITES</p><h2>お気に入りの次戦</h2></div><span id="homeFavoriteStatus" class="status">0代表</span></div><div id="favoriteNextMatches" class="match-data-list"></div></section><section class="panel"><div class="section-heading"><div><p class="eyebrow">MATCH CENTER</p><h2>今日・直近の代表戦</h2></div><span id="nationalMatchCount" class="status">0試合</span></div><div id="nationalMatches" class="match-data-list"></div></section><section class="panel"><div class="section-heading"><div><h2>大会</h2><p class="muted">取得できた大会を試合数順に表示</p></div><button class="text-button" type="button" data-page-jump="competitions">すべて見る</button></div><div id="homeCompetitionSummary" class="competition-grid"></div></section></div><div id="page-schedule" class="page-view"><section class="calendar-panel panel"><div class="calendar-head"><button id="calendarPrev" class="mini-button" type="button">‹</button><h2 id="calendarTitle">カレンダー</h2><button id="calendarNext" class="mini-button" type="button">›</button></div><div class="calendar-week"><span>日</span><span>月</span><span>火</span><span>水</span><span>木</span><span>金</span><span>土</span></div><div id="matchCalendar" class="football-calendar"></div></section><section class="panel"><div class="section-heading"><div><h2 id="scheduleTitle">試合日程</h2><p class="muted">日付を選択して絞り込み</p></div><button id="clearDateFilter" class="text-button" type="button">全日程</button></div><div id="scheduleMatches" class="match-data-list"></div></section></div><div id="page-teams" class="page-view"><section class="panel"><div class="section-heading"><div><h2>代表検索</h2><p class="muted">国名・英語名・FIFA順位を表示</p></div><span id="countryCount" class="status">0代表</span></div><input id="countrySearch" class="search-input" type="search" placeholder="例：日本 / Japan"><div id="regionFilters" class="chips"></div><div id="countryGrid" class="country-grid"></div></section></div><div id="page-competitions" class="page-view"><section class="panel"><div class="section-heading"><div><h2>大会一覧</h2><p class="muted">ESPNから取得できた国際大会</p></div><span class="status">実データ</span></div><div id="competitionSummary" class="competition-grid"></div></section></div><div id="page-favorites" class="page-view"><section class="panel"><div class="section-heading"><div><h2>お気に入り代表</h2><p class="muted">複数代表をまとめて管理</p></div><span id="favoriteTeamCount" class="status">0代表</span></div><div id="favoriteCountryGrid" class="country-grid"></div></section><section class="panel"><div class="section-heading"><h2>お気に入りの試合</h2></div><div id="favoriteMatches" class="match-data-list"></div></section></div></main><nav id="pageTabs" class="bottom-nav" aria-label="各国代表メニュー"><button class="nav-item active" data-page="home" type="button">⌂<span>ホーム</span></button><button class="nav-item" data-page="schedule" type="button">▤<span>日程</span></button><button class="nav-item" data-page="teams" type="button">⌕<span>代表</span></button><button class="nav-item" data-page="competitions" type="button">🏆<span>大会</span></button><button class="nav-item" data-page="favorites" type="button">★<span>推し <b id="favoriteCountBadge">0</b></span></button></nav><div id="toast" class="toast" role="status" aria-live="polite"></div><script src="./assets/js/core.js?v=311" defer></script><script src="./assets/js/repositories/football-repositories.js?v=4" defer></script><script src="./assets/js/services/football-services.js?v=4" defer></script><script src="./assets/js/football-core.js?v=5" defer></script><script src="./assets/js/services/sports-ranking-services.js?v=2" defer></script><script src="./assets/js/match-components.js?v=8" defer></script><script src="./assets/js/national-data.js?v=312" defer></script><script src="./assets/js/national-flags.js?v=1" defer></script><script src="./assets/js/national-service.js?v=312" defer></script><script src="./assets/js/adapters/football-adapters.js?v=3" defer></script><script src="./assets/js/ui/sports-registry.js?v=12" defer></script><script src="./assets/js/ui/football-shell.js?v=14" defer></script><script src="./assets/js/ui/football-navigation.js?v=5" defer></script><script src="./assets/js/ui/football-calendar.js?v=10" defer></script><script src="./assets/js/ui/sports-ui.js?v=3" defer></script><script src="./assets/js/ui/football-bootstrap.js?v=5" defer></script><script src="./assets/js/football-components-v2.js?v=9" defer></script><script src="./national.js?v=321" defer></script></body></html>
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="各国代表の日程、FIFAランキング、カレンダー、大会、お気に入りをまとめるNational Hub">
+  <title>National Hub | Sports Hub</title>
+  <link rel="stylesheet" href="./assets/css/core.css?v=311">
+  <link rel="stylesheet" href="./national.css?v=312">
+  <link rel="stylesheet" href="./assets/css/match-components.css?v=8">
+  <link rel="stylesheet" href="./assets/css/sports-event-interactions.css?v=1">
+  <link rel="stylesheet" href="./assets/css/football-hub-layout.css?v=6">
+  <link rel="stylesheet" href="./assets/css/football-components-v2.css?v=113">
+</head>
+<body class="football-hub" data-hub="national">
+  <header class="topbar">
+    <div style="display:flex;align-items:center;gap:10px"><a class="back-link" href="./sports-home.html" aria-label="Sports Hubへ戻る">←</a><div><p class="eyebrow">NATIONAL TEAMS</p><h1>各国代表 <span class="version">v3.3.1</span></h1></div></div>
+    <div class="topbar__actions"><button id="themeButton" class="icon-button" type="button" aria-label="テーマ切替">◐</button></div>
+  </header>
+
+  <main class="hub-main">
+    <section class="status-card"><small id="nationalUpdatedAt">代表戦・FIFA順位データを読み込んでいます</small><span class="status">ESPN + FIFA</span></section>
+    <section class="hub-hero national-hero panel"><div><p class="eyebrow">NATIONAL HUB</p><h2>推し代表を中心に世界の代表戦を見る</h2><p class="muted">次戦・カレンダー・FIFA順位・注目度・代表検索・大会情報をまとめます。</p></div><div class="hub-hero__icon">🌍</div></section>
+
+    <div id="page-home" class="page-view active">
+      <section class="panel"><div class="section-heading"><div><p class="eyebrow">MY FAVORITES</p><h2>お気に入りの次戦</h2></div><span id="homeFavoriteStatus" class="status">0代表</span></div><div id="favoriteNextMatches" class="match-data-list"></div></section>
+      <section class="panel"><div class="section-heading"><div><p class="eyebrow">MATCH CENTER</p><h2>今日・直近の代表戦</h2></div><span id="nationalMatchCount" class="status">0試合</span></div><div id="nationalMatches" class="match-data-list"></div></section>
+      <section class="panel"><div class="section-heading"><div><h2>大会</h2><p class="muted">取得できた大会を試合数順に表示</p></div><button class="text-button" type="button" data-page-jump="competitions">すべて見る</button></div><div id="homeCompetitionSummary" class="competition-grid"></div></section>
+    </div>
+
+    <div id="page-schedule" class="page-view">
+      <section class="calendar-panel panel"><div class="calendar-head"><button id="calendarPrev" class="mini-button" type="button">‹</button><h2 id="calendarTitle">カレンダー</h2><button id="calendarNext" class="mini-button" type="button">›</button></div><div class="calendar-week"><span>日</span><span>月</span><span>火</span><span>水</span><span>木</span><span>金</span><span>土</span></div><div id="matchCalendar" class="football-calendar"></div></section>
+      <section class="panel"><div class="section-heading"><div><h2 id="scheduleTitle">試合日程</h2><p class="muted">日付を選択して絞り込み</p></div><button id="clearDateFilter" class="text-button" type="button">全日程</button></div><div id="scheduleMatches" class="match-data-list"></div></section>
+    </div>
+
+    <div id="page-teams" class="page-view"><section class="panel"><div class="section-heading"><div><h2>代表検索</h2><p class="muted">国名・英語名・FIFA順位を表示</p></div><span id="countryCount" class="status">0代表</span></div><input id="countrySearch" class="search-input" type="search" placeholder="例：日本 / Japan"><div id="regionFilters" class="chips"></div><div id="countryGrid" class="country-grid"></div></section></div>
+    <div id="page-competitions" class="page-view"><section class="panel"><div class="section-heading"><div><h2>大会一覧</h2><p class="muted">ESPNから取得できた国際大会</p></div><span class="status">実データ</span></div><div id="competitionSummary" class="competition-grid"></div></section></div>
+    <div id="page-favorites" class="page-view"><section class="panel"><div class="section-heading"><div><h2>お気に入り代表</h2><p class="muted">複数代表をまとめて管理</p></div><span id="favoriteTeamCount" class="status">0代表</span></div><div id="favoriteCountryGrid" class="country-grid"></div></section><section class="panel"><div class="section-heading"><h2>お気に入りの試合</h2></div><div id="favoriteMatches" class="match-data-list"></div></section></div>
+  </main>
+
+  <nav id="pageTabs" class="bottom-nav" aria-label="各国代表メニュー"><button class="nav-item active" data-page="home" type="button">⌂<span>ホーム</span></button><button class="nav-item" data-page="schedule" type="button">▤<span>日程</span></button><button class="nav-item" data-page="teams" type="button">⌕<span>代表</span></button><button class="nav-item" data-page="competitions" type="button">🏆<span>大会</span></button><button class="nav-item" data-page="favorites" type="button">★<span>推し <b id="favoriteCountBadge">0</b></span></button></nav>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="./assets/js/core.js?v=311" defer></script>
+  <script src="./assets/js/repositories/football-repositories.js?v=4" defer></script>
+  <script src="./assets/js/services/football-services.js?v=4" defer></script>
+  <script src="./assets/js/football-core.js?v=5" defer></script>
+  <script src="./assets/js/services/sports-ranking-services.js?v=2" defer></script>
+  <script src="./assets/js/match-components.js?v=9" defer></script>
+  <script src="./assets/js/national-data.js?v=312" defer></script>
+  <script src="./assets/js/national-flags.js?v=1" defer></script>
+  <script src="./assets/js/national-service.js?v=312" defer></script>
+  <script src="./assets/js/adapters/football-adapters.js?v=3" defer></script>
+  <script src="./assets/js/ui/sports-registry.js?v=12" defer></script>
+  <script src="./assets/js/ui/football-shell.js?v=14" defer></script>
+  <script src="./assets/js/ui/football-navigation.js?v=5" defer></script>
+  <script src="./assets/js/ui/football-calendar.js?v=10" defer></script>
+  <script src="./assets/js/ui/sports-ui.js?v=3" defer></script>
+  <script src="./assets/js/ui/football-bootstrap.js?v=5" defer></script>
+  <script src="./assets/js/football-components-v2.js?v=9" defer></script>
+  <script src="./national.js?v=322" defer></script>
+</body>
+</html>
