@@ -128,6 +128,37 @@
   min-width: 0;
 }
 
+.sports-event-card__team--interactive {
+  appearance: none;
+  -webkit-appearance: none;
+  margin: -5px;
+  padding: 5px;
+  border: 0;
+  border-radius: 12px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: background .16s ease, box-shadow .16s ease, transform .12s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.sports-event-card__team--interactive:hover {
+  background: color-mix(in srgb, var(--accent, #7c3aed) 10%, transparent);
+}
+
+.sports-event-card__team--interactive:focus-visible {
+  outline: 0;
+  background: color-mix(in srgb, var(--accent, #7c3aed) 12%, transparent);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent, #7c3aed) 72%, transparent);
+}
+
+.sports-event-card__team--interactive:active {
+  transform: scale(.97);
+}
+
 .sports-event-card__team--left {
   grid-template-columns: var(--sports-card-badge-size) minmax(0, 1fr);
   text-align: left;
