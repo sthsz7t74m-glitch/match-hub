@@ -1,0 +1,221 @@
+.mlb-team-card {
+  grid-template-columns: minmax(0, 1fr) 42px;
+}
+
+.mlb-team-open {
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1fr);
+  align-items: center;
+  gap: 11px;
+  min-width: 0;
+  margin: -5px;
+  padding: 5px;
+  border: 0;
+  border-radius: 14px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mlb-team-open:hover,
+.mlb-team-open:focus-visible {
+  outline: 0;
+  background: color-mix(in srgb, var(--accent, #7c3aed) 10%, transparent);
+}
+
+.mlb-team-open:focus-visible {
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent, #7c3aed) 72%, transparent);
+}
+
+.mlb-team-open:active {
+  transform: scale(.98);
+}
+
+.mlb-team-dialog {
+  width: min(720px, calc(100vw - 24px));
+  max-height: min(88dvh, 900px);
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid var(--border, #263244);
+  border-radius: 24px;
+  background: var(--bg, #07111f);
+  color: var(--text, #f8fafc);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, .5);
+}
+
+.mlb-team-dialog::backdrop {
+  background: rgba(2, 6, 23, .78);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+
+.mlb-team-dialog__close {
+  position: sticky;
+  z-index: 3;
+  top: 12px;
+  left: calc(100% - 56px);
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  margin: 12px 12px -54px auto;
+  border: 1px solid var(--border, #263244);
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--panel, #0e1a29) 92%, transparent);
+  color: var(--text, #f8fafc);
+  font: inherit;
+  font-size: 1.35rem;
+  cursor: pointer;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.mlb-team-dialog__body {
+  max-height: min(88dvh, 900px);
+  padding: 20px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.mlb-team-detail {
+  display: grid;
+  gap: 18px;
+  padding-top: 6px;
+}
+
+.mlb-team-detail__header {
+  display: grid;
+  grid-template-columns: 88px minmax(0, 1fr);
+  align-items: center;
+  gap: 16px;
+  padding: 18px 54px 18px 18px;
+  border: 1px solid var(--border, #263244);
+  border-radius: 20px;
+  background: linear-gradient(145deg, color-mix(in srgb, var(--accent, #7c3aed) 12%, var(--panel, #0e1a29)), var(--panel, #0e1a29));
+}
+
+.mlb-team-detail__logo {
+  display: grid;
+  place-items: center;
+  width: 88px;
+  height: 88px;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, .04);
+}
+
+.mlb-team-detail__logo img,
+.mlb-team-detail__logo .mlb-team-logo-fallback {
+  width: 68px;
+  height: 68px;
+  object-fit: contain;
+}
+
+.mlb-team-detail__copy {
+  min-width: 0;
+}
+
+.mlb-team-detail__copy h2 {
+  margin: 4px 0 3px;
+  overflow-wrap: anywhere;
+  font-size: clamp(1.35rem, 5vw, 2rem);
+  line-height: 1.2;
+}
+
+.mlb-team-detail__copy > span,
+.mlb-team-detail__copy > small {
+  display: block;
+  margin-top: 4px;
+  color: var(--muted, #94a3b8);
+}
+
+.mlb-team-detail__stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 9px;
+}
+
+.mlb-team-detail__stats article {
+  min-width: 0;
+  padding: 13px 9px;
+  border: 1px solid var(--border, #263244);
+  border-radius: 16px;
+  background: var(--panel, #0e1a29);
+  text-align: center;
+}
+
+.mlb-team-detail__stats span,
+.mlb-team-detail__stats strong {
+  display: block;
+}
+
+.mlb-team-detail__stats span {
+  color: var(--muted, #94a3b8);
+  font-size: .68rem;
+}
+
+.mlb-team-detail__stats strong {
+  margin-top: 6px;
+  overflow: hidden;
+  font-size: .9rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mlb-team-detail__venue {
+  margin: 0;
+  padding: 12px 14px;
+  border: 1px solid var(--border, #263244);
+  border-radius: 14px;
+  color: var(--muted, #94a3b8);
+  font-size: .8rem;
+}
+
+.mlb-team-detail__section {
+  display: grid;
+  gap: 10px;
+}
+
+.mlb-team-detail__section h3 {
+  margin: 2px 0 0;
+  font-size: 1.05rem;
+}
+
+@media (max-width: 560px) {
+  .mlb-team-dialog {
+    width: calc(100vw - 12px);
+    max-height: 92dvh;
+    border-radius: 20px;
+  }
+
+  .mlb-team-dialog__body {
+    max-height: 92dvh;
+    padding: 12px;
+  }
+
+  .mlb-team-detail__header {
+    grid-template-columns: 66px minmax(0, 1fr);
+    gap: 12px;
+    padding: 16px 48px 16px 14px;
+  }
+
+  .mlb-team-detail__logo {
+    width: 66px;
+    height: 66px;
+    border-radius: 18px;
+  }
+
+  .mlb-team-detail__logo img,
+  .mlb-team-detail__logo .mlb-team-logo-fallback {
+    width: 52px;
+    height: 52px;
+  }
+
+  .mlb-team-detail__stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
