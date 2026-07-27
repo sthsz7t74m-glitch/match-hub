@@ -1,7 +1,8 @@
-window.FootballUI = window.FootballUI || {};
-window.SportsUI = window.FootballUI;
+const sharedSportsUI = window.SportsUI || window.FootballUI || {};
+window.SportsUI = sharedSportsUI;
+window.FootballUI = sharedSportsUI;
 
-(function initializeFootballShell(namespace) {
+(function initializeSportsShell(namespace) {
   const installZoomLock = () => {
     if (document.documentElement.dataset.zoomLocked === 'true') return;
 
@@ -43,70 +44,10 @@ window.SportsUI = window.FootballUI;
   };
 
   installZoomLock();
-  if (namespace.FootballShell) return;
+  if (namespace.SportsShell) return;
 
-  const navItem = (target, icon, label, badgeId = '') => ({ target, icon, label, badgeId });
-
-  const shellConfigs = {
-    five: {
-      eyebrow: 'FOOTBALL SCHEDULE',
-      title: 'Match Hub',
-      version: 'v1.1.4',
-      back: './sports-home.html',
-      navAttribute: 'view',
-      nav: [
-        navItem('home', 'home', 'ホーム'),
-        navItem('schedule', 'calendar', '日程'),
-        navItem('standings', 'ranking', '順位表'),
-        navItem('search', 'search', '検索'),
-        navItem('transfers', 'transfer', '移籍'),
-        navItem('settings', 'settings', '設定')
-      ]
-    },
-    jleague: {
-      eyebrow: 'JAPAN PROFESSIONAL FOOTBALL',
-      title: 'Jリーグ',
-      version: 'v3.1.6',
-      back: './sports-home.html',
-      navAttribute: 'page',
-      nav: [
-        navItem('home', 'home', 'ホーム'),
-        navItem('schedule', 'calendar', '日程'),
-        navItem('standings', 'ranking', '順位'),
-        navItem('clubs', 'teams', 'クラブ'),
-        navItem('favorites', 'star', '推し', 'favoriteCountBadge')
-      ]
-    },
-    national: {
-      eyebrow: 'NATIONAL TEAMS',
-      title: '各国代表',
-      version: 'v3.2.4',
-      back: './sports-home.html',
-      navAttribute: 'page',
-      nav: [
-        navItem('home', 'home', 'ホーム'),
-        navItem('schedule', 'calendar', '日程'),
-        navItem('teams', 'teams', '代表'),
-        navItem('competitions', 'trophy', '大会'),
-        navItem('favorites', 'star', '推し', 'favoriteCountBadge')
-      ]
-    },
-    mlb: {
-      eyebrow: 'MAJOR LEAGUE BASEBALL',
-      title: 'MLB',
-      version: 'v1.0.2',
-      back: './sports-home.html',
-      navAttribute: 'page',
-      nav: [
-        navItem('home', 'home', 'ホーム'),
-        navItem('schedule', 'calendar', '日程'),
-        navItem('standings', 'ranking', '順位'),
-        navItem('teams', 'teams', '球団'),
-        navItem('players', 'player', '日本人'),
-        navItem('favorites', 'star', '推し', 'favoriteCountBadge')
-      ]
-    }
-  };
+  const registry = window.SportsHubRegistry;
+  const getPageConfig = page => registry?.get?.(page) || null;
 
   const iconPaths = {
     home: '<path d="M3 10.5 12 3l9 7.5"/><path d="M5.5 9.5V21h13V9.5"/><path d="M9.5 21v-6h5v6"/>',
@@ -131,11 +72,14 @@ window.SportsUI = window.FootballUI;
       <span class="football-nav__label">${item.label}${item.badgeId ? ` <b class="football-nav__badge" id="${item.badgeId}">0</b>` : ''}</span>
     </button>`;
 
-  class BottomNavigation {
-    constructor(root) { this.root = root; }
+  class SportsBottomNavigation {
+    constructor(root) {
+      this.root = root;
+    }
 
     normalize() {
       if (!this.root) return;
+
       const items = [...this.root.querySelectorAll('.football-nav__item')];
       this.root.style.setProperty('--nav-count', items.length);
       items.forEach(item => {
@@ -145,15 +89,16 @@ window.SportsUI = window.FootballUI;
     }
   }
 
-  class FootballShell {
+  class SportsShell {
     constructor(page = document.body.dataset.hub) {
       this.page = page;
-      this.config = shellConfigs[page];
+      this.config = getPageConfig(page);
     }
 
     renderHeader() {
       const root = document.querySelector('.topbar');
       if (!root || !this.config) return;
+
       root.innerHTML = `
         <div class="football-header__identity">
           <a class="back-link" href="${this.config.back}" aria-label="Sports Hubへ戻る">←</a>
@@ -168,13 +113,16 @@ window.SportsUI = window.FootballUI;
 
     renderNavigation() {
       const root = document.querySelector('#pageTabs');
-      if (!root || !this.config) return;
-      const attribute = this.config.navAttribute || 'page';
+      const navigation = this.config?.navigation;
+      if (!root || !navigation) return;
+
       root.classList.add('football-nav');
-      root.innerHTML = this.config.nav.map((item, index) => renderNavigationItem(item, index, attribute)).join('');
+      root.innerHTML = navigation.items
+        .map((item, index) => renderNavigationItem(item, index, navigation.attribute))
+        .join('');
       root.setAttribute('aria-label', `${this.config.title}メニュー`);
-      root.dataset.navigationType = attribute;
-      new BottomNavigation(root).normalize();
+      root.dataset.navigationType = navigation.attribute;
+      new SportsBottomNavigation(root).normalize();
     }
 
     render() {
@@ -187,19 +135,20 @@ window.SportsUI = window.FootballUI;
 
   Object.assign(namespace, {
     installZoomLock,
-    BottomNavigation,
-    FootballShell,
-    SportsShell: FootballShell,
-    shellConfigs,
+    SportsBottomNavigation,
+    SportsShell,
+    BottomNavigation: SportsBottomNavigation,
+    FootballShell: SportsShell,
+    shellConfigs: registry?.toObject?.() || {},
     iconPaths,
     renderIcon,
     renderNavigationItem,
     renderShell(page = document.body.dataset.hub) {
-      const shell = new FootballShell(page).render();
+      const shell = new SportsShell(page).render();
       namespace.shell = shell;
       return shell;
     }
   });
 
   namespace.renderShell(document.body.dataset.hub);
-})(window.FootballUI);
+})(sharedSportsUI);
