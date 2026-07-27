@@ -10,7 +10,7 @@ on:
       - '.github/workflows/check-browser-js.yml'
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: browser-js-syntax
@@ -23,8 +23,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -39,14 +37,3 @@ jobs:
 
       - name: Check national team detail
         run: node --check national-detail.js
-
-      - name: Record successful check
-        shell: bash
-        run: |
-          mkdir -p data
-          printf '{"checkedAt":"%s","commit":"%s","files":["assets/js/match-components.js","national.js","national-detail.js"],"status":"passed"}\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "$GITHUB_SHA" > data/browser-js-check.json
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/browser-js-check.json
-          git commit -m 'ci: record browser JavaScript syntax check' || exit 0
-          git push
