@@ -3,9 +3,12 @@ window.SportsUI = sharedCalendarUI;
 window.FootballUI = sharedCalendarUI;
 
 (function initializeSportsCalendar(namespace) {
-  if (namespace.SportsCalendar) return;
+  if (namespace.SportsCalendar?.CALENDAR_VERSION >= 2) return;
 
-  const Core = window.FootballCore || {};
+  const Core = window.SportsCore || window.FootballCore || {};
+  const ComponentBase = Core.SportsComponent || class {
+    constructor({ root = null } = {}) { this.root = root; }
+  };
   const registry = window.SportsHubRegistry;
   const pad = value => String(value).padStart(2, '0');
 
@@ -31,9 +34,13 @@ window.FootballUI = sharedCalendarUI;
     return ids;
   };
 
-  class SportsCalendar {
+  class SportsCalendar extends ComponentBase {
+    static CALENDAR_VERSION = 2;
+
     constructor(options = {}) {
+      super({ root: options.root || null });
       Object.assign(this, options);
+      this.root = options.root || this.root;
       this.today = options.today || null;
       this.page = options.page || document.body.dataset.hub || 'sports';
 
@@ -53,6 +60,22 @@ window.FootballUI = sharedCalendarUI;
       this.selected = '';
       this.bound = false;
       this.controlsMounted = false;
+      this.handlers = {
+        previous: () => this.shift(-1),
+        next: () => this.shift(1),
+        today: () => this.goToday(),
+        favorite: () => this.toggleFavoriteOnly(),
+        day: event => {
+          const button = event.target.closest('[data-calendar-day]');
+          if (!button || !this.root?.contains(button)) return;
+          event.stopPropagation();
+          this.select(this.selected === button.dataset.calendarDay ? '' : button.dataset.calendarDay);
+        }
+      };
+    }
+
+    get sport() {
+      return registry?.get?.(this.page)?.sport || 'generic';
     }
 
     getFavoritesSet() {
@@ -80,7 +103,7 @@ window.FootballUI = sharedCalendarUI;
       existingToday?.remove();
 
       const controls = document.createElement('div');
-      controls.className = 'football-calendar__controls';
+      controls.className = `football-calendar__controls sports-calendar__controls sports-calendar__controls--${this.sport}`;
       controls.innerHTML = `
         <button class="football-calendar__today" type="button" data-calendar-today>今日へ戻る</button>
         <button class="football-calendar__favorite-toggle${this.favoriteOnly ? ' is-active' : ''}" type="button" data-calendar-favorite-only aria-pressed="${this.favoriteOnly}">
@@ -88,25 +111,21 @@ window.FootballUI = sharedCalendarUI;
         </button>`;
       head.insertAdjacentElement('afterend', controls);
 
+      this.controls = controls;
       this.today = controls.querySelector('[data-calendar-today]');
       this.favoriteToggle = controls.querySelector('[data-calendar-favorite-only]');
     }
 
     bind() {
-      if (this.bound) return;
+      if (this.bound) return this;
       this.mountControls();
       this.bound = true;
-
-      this.prev?.addEventListener('click', () => this.shift(-1));
-      this.next?.addEventListener('click', () => this.shift(1));
-      this.today?.addEventListener('click', () => this.goToday());
-      this.favoriteToggle?.addEventListener('click', () => this.toggleFavoriteOnly());
-      this.root?.addEventListener('click', event => {
-        const button = event.target.closest('[data-calendar-day]');
-        if (!button || !this.root.contains(button)) return;
-        event.stopPropagation();
-        this.select(this.selected === button.dataset.calendarDay ? '' : button.dataset.calendarDay);
-      });
+      this.prev?.addEventListener('click', this.handlers.previous);
+      this.next?.addEventListener('click', this.handlers.next);
+      this.today?.addEventListener('click', this.handlers.today);
+      this.favoriteToggle?.addEventListener('click', this.handlers.favorite);
+      this.root?.addEventListener('click', this.handlers.day);
+      return this;
     }
 
     updateToggle() {
@@ -130,7 +149,6 @@ window.FootballUI = sharedCalendarUI;
         reason,
         calendar: this
       };
-
       this.onSelect?.(this.selected, detail);
       document.dispatchEvent(new CustomEvent('sports:calendar-select', { detail }));
       document.dispatchEvent(new CustomEvent('football:calendar-select', { detail }));
@@ -158,9 +176,7 @@ window.FootballUI = sharedCalendarUI;
 
     setCursor(value) {
       const date = new Date(value);
-      if (!Number.isNaN(date.getTime())) {
-        this.cursor = new Date(date.getFullYear(), date.getMonth(), 1);
-      }
+      if (!Number.isNaN(date.getTime())) this.cursor = new Date(date.getFullYear(), date.getMonth(), 1);
       this.render();
     }
 
@@ -177,6 +193,8 @@ window.FootballUI = sharedCalendarUI;
       const marks = this.buildTeamMarks(favoriteIds);
       const classes = [
         'football-calendar__day',
+        'sports-calendar__day',
+        `sports-calendar__day--${this.sport}`,
         visibleMatches.length && 'has-match',
         favoriteIds.length && 'has-favorite',
         primary && favoriteIds.includes(primary) && 'has-primary',
@@ -192,7 +210,7 @@ window.FootballUI = sharedCalendarUI;
     }
 
     render() {
-      if (!this.root) return;
+      if (!this.root) return this;
       this.bind();
 
       const year = this.cursor.getFullYear();
@@ -214,7 +232,7 @@ window.FootballUI = sharedCalendarUI;
       const todayKey = dayKey(new Date());
       const cells = Array.from(
         { length: firstDay.getDay() },
-        () => '<button class="football-calendar__day is-blank" type="button" disabled></button>'
+        () => '<button class="football-calendar__day sports-calendar__day is-blank" type="button" disabled></button>'
       );
 
       for (let day = 1; day <= lastDay.getDate(); day += 1) {
@@ -230,12 +248,39 @@ window.FootballUI = sharedCalendarUI;
       }
 
       this.root.innerHTML = cells.join('');
+      return this;
+    }
+
+    destroy() {
+      this.prev?.removeEventListener('click', this.handlers.previous);
+      this.next?.removeEventListener('click', this.handlers.next);
+      this.today?.removeEventListener('click', this.handlers.today);
+      this.favoriteToggle?.removeEventListener('click', this.handlers.favorite);
+      this.root?.removeEventListener('click', this.handlers.day);
+      this.controls?.remove();
+      this.bound = false;
+      this.controlsMounted = false;
+      super.destroy?.();
     }
   }
 
+  class SoccerCalendar extends SportsCalendar {}
+  class BaseballCalendar extends SportsCalendar {}
+
+  const createCalendar = options => {
+    const page = options?.page || document.body.dataset.hub;
+    const CalendarClass = registry?.get?.(page)?.sport === 'baseball'
+      ? BaseballCalendar
+      : SoccerCalendar;
+    return new CalendarClass(options);
+  };
+
   Object.assign(namespace, {
     SportsCalendar,
-    FootballCalendar: SportsCalendar,
+    SoccerCalendar,
+    BaseballCalendar,
+    FootballCalendar: SoccerCalendar,
+    createCalendar,
     dayKey,
     teamId,
     isFavoriteMatch,
