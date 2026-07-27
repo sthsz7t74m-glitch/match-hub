@@ -7,16 +7,17 @@
   <meta name="description" content="Jリーグクラブの次戦、試合日程、順位、直近の戦績を確認するページ">
   <title>クラブ詳細 | Sports Hub</title>
   <link rel="stylesheet" href="./assets/css/core.css?v=311">
+  <link rel="stylesheet" href="./assets/css/sports-shell.css?v=1">
   <link rel="stylesheet" href="./assets/css/match-components.css?v=8">
   <link rel="stylesheet" href="./assets/css/sports-event-interactions.css?v=1">
-  <link rel="stylesheet" href="./jleague-detail.css?v=260">
+  <link rel="stylesheet" href="./jleague-detail.css?v=270">
 </head>
-<body class="jleague-detail-page">
+<body class="jleague-detail-page" data-sport="soccer">
   <header class="app-header jleague-detail-header">
     <a class="back-link" href="./jleague.html" aria-label="Jリーグへ戻る">←</a>
     <div class="app-header__title">
       <p class="eyebrow">J LEAGUE CLUB</p>
-      <h1><span id="headerClubName">クラブ詳細</span> <span class="version">v2.6.0</span></h1>
+      <h1><span id="headerClubName">クラブ詳細</span> <span class="version">v2.7.0</span></h1>
     </div>
     <button id="themeButton" class="icon-button" type="button" aria-label="テーマ切替">◐</button>
   </header>
@@ -123,10 +124,11 @@
   <script src="./assets/js/repositories/football-repositories.js?v=4" defer></script>
   <script src="./assets/js/services/football-services.js?v=4" defer></script>
   <script src="./assets/js/football-core.js?v=5" defer></script>
+  <script src="./assets/js/ui/football-shell.js?v=15" defer></script>
   <script src="./assets/js/match-components.js?v=10" defer></script>
-  <script src="./assets/js/jleague-data.js?v=302" defer></script>
+  <script src="./assets/js/jleague-data.js?v=303" defer></script>
   <script src="./assets/js/mappers/team-mapper.js?v=1" defer></script>
-  <script src="./assets/js/adapters/football-adapters.js?v=3" defer></script>
-  <script src="./jleague-detail.js?v=260" defer></script>
+  <script src="./assets/js/adapters/football-adapters.js?v=4" defer></script>
+  <script src="./jleague-detail.js?v=270" defer></script>
 </body>
 </html>
