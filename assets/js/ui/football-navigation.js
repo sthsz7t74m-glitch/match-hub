@@ -3,13 +3,19 @@ window.SportsUI = sharedNavigationUI;
 window.FootballUI = sharedNavigationUI;
 
 (function initializeSportsNavigation(namespace) {
-  if (namespace.SportsNavigation) return;
+  if (namespace.SportsNavigation?.NAVIGATION_VERSION >= 2) return;
 
+  const Core = window.SportsCore || window.FootballCore || {};
+  const ComponentBase = Core.SportsComponent || class {
+    constructor({ root = null } = {}) { this.root = root; }
+  };
   const isActiveNavigationItem = item => item?.classList.contains('active');
 
-  class SportsNavigation {
+  class SportsNavigation extends ComponentBase {
+    static NAVIGATION_VERSION = 2;
+
     constructor(root = document.querySelector('.bottom-nav')) {
-      this.root = root;
+      super({ root });
       this.bound = false;
       this.handleClick = this.handleClick.bind(this);
     }
@@ -21,7 +27,6 @@ window.FootballUI = sharedNavigationUI;
     handleClick(event) {
       const item = event.target.closest('.nav-item');
       if (!item || !this.root?.contains(item) || !isActiveNavigationItem(item)) return;
-
       event.preventDefault();
       event.stopImmediatePropagation();
       this.scrollToTop();
@@ -35,13 +40,23 @@ window.FootballUI = sharedNavigationUI;
     }
 
     destroy() {
-      if (!this.root || !this.bound) return;
-      this.root.removeEventListener('click', this.handleClick, true);
+      if (this.root && this.bound) this.root.removeEventListener('click', this.handleClick, true);
       this.bound = false;
+      super.destroy?.();
     }
   }
 
-  const bindNavigation = root => new SportsNavigation(root).bind();
+  class SoccerNavigation extends SportsNavigation {}
+  class BaseballNavigation extends SportsNavigation {}
+
+  const createNavigation = root => {
+    const NavigationClass = document.body.dataset.sport === 'baseball'
+      ? BaseballNavigation
+      : SoccerNavigation;
+    return new NavigationClass(root);
+  };
+
+  const bindNavigation = root => createNavigation(root).bind();
   const start = () => {
     namespace.navigation?.destroy?.();
     namespace.navigation = bindNavigation(document.querySelector('.bottom-nav'));
@@ -49,7 +64,10 @@ window.FootballUI = sharedNavigationUI;
 
   Object.assign(namespace, {
     SportsNavigation,
-    FootballNavigation: SportsNavigation,
+    SoccerNavigation,
+    BaseballNavigation,
+    FootballNavigation: SoccerNavigation,
+    createNavigation,
     bindNavigation
   });
 
