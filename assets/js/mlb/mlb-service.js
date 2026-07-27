@@ -4,7 +4,7 @@ window.MLBService = window.MLBService || {};
   const Data = window.MLBData || {};
   const API_ROOT = 'https://statsapi.mlb.com/api/v1';
   const DEFAULT_TTL = 15 * 60 * 1000;
-  const DEFAULT_RETRIES = 2;
+  const DEFAULT_RETRIES = 0;
   const memoryCache = new Map();
   const pendingRequests = new Map();
 
@@ -78,7 +78,7 @@ window.MLBService = window.MLBService || {};
     const {
       fresh = false,
       ttl = DEFAULT_TTL,
-      timeout = 15000,
+      timeout = 10000,
       retries = DEFAULT_RETRIES,
       retryDelay = 700,
       allowStale = true
@@ -265,7 +265,11 @@ window.MLBService = window.MLBService || {};
       const payload = await request('/teams', {
         sportId: 1,
         season: options.season || currentSeason()
-      }, options);
+      }, {
+        ...options,
+        timeout: options.timeout || 8000,
+        retries: options.retries ?? 0
+      });
       const teams = asArray(payload.teams).map(normalizeTeam).filter(team => team.id);
       return teams.length ? teams : [...(Data.FALLBACK_TEAMS || [])];
     } catch (error) {
@@ -281,8 +285,8 @@ window.MLBService = window.MLBService || {};
 
     const today = new Date();
     return {
-      startDate: dateTextFromDate(addDays(today, -(options.pastDays ?? 14))),
-      endDate: dateTextFromDate(addDays(today, options.futureDays ?? 90))
+      startDate: dateTextFromDate(addDays(today, -(options.pastDays ?? 7))),
+      endDate: dateTextFromDate(addDays(today, options.futureDays ?? 45))
     };
   };
 
@@ -296,8 +300,8 @@ window.MLBService = window.MLBService || {};
     }, {
       ...options,
       ttl: options.ttl ?? 5 * 60 * 1000,
-      timeout: options.timeout || 14000,
-      retries: options.retries ?? 1
+      timeout: options.timeout || 9000,
+      retries: options.retries ?? 0
     });
 
     return asArray(payload.dates)
@@ -316,7 +320,7 @@ window.MLBService = window.MLBService || {};
       endDate: options.endDate || dateText(season, 11, 30),
       hydrate: false,
       ttl: options.ttl ?? 6 * 60 * 60 * 1000,
-      timeout: options.timeout || 22000,
+      timeout: options.timeout || 20000,
       retries: options.retries ?? 1
     });
   }
@@ -329,8 +333,8 @@ window.MLBService = window.MLBService || {};
       standingsTypes: 'regularSeason'
     }, {
       ...options,
-      timeout: options.timeout || 12000,
-      retries: options.retries ?? 1
+      timeout: options.timeout || 8000,
+      retries: options.retries ?? 0
     });
     return normalizeStandings(payload);
   }
@@ -340,7 +344,7 @@ window.MLBService = window.MLBService || {};
     const payload = await request('/sports/1/players', { season }, {
       ...options,
       ttl: options.ttl ?? 60 * 60 * 1000,
-      timeout: options.timeout || 18000,
+      timeout: options.timeout || 15000,
       retries: options.retries ?? 1
     });
 
