@@ -3,6 +3,20 @@ import vm from 'node:vm';
 
 const LEAGUES = ['j2', 'j3'];
 const ROUND_COUNT = 38;
+const USER_AGENTS = [
+  {
+    id: 'googlebot-mobile',
+    value: 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
+  },
+  {
+    id: 'bingbot',
+    value: 'Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)'
+  },
+  {
+    id: 'browser',
+    value: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36'
+  }
+];
 
 const decodeEntities = value => String(value ?? '')
   .replace(/&#(\d+);/g, (_, code) => String.fromCodePoint(Number(code)))
@@ -53,12 +67,12 @@ const parallelMap = async (items, limit, worker) => {
   return results;
 };
 
-class HttpClient {
-  constructor({ retries = 2, timeoutMs = 25000 } = {}) {
+class OfficialPageClient {
+  constructor({ retries = 1, timeoutMs = 25000 } = {}) {
     Object.assign(this, { retries, timeoutMs });
   }
 
-  async getText(url) {
+  async request(url, userAgent) {
     let lastError = null;
     for (let attempt = 0; attempt <= this.retries; attempt += 1) {
       try {
@@ -66,8 +80,11 @@ class HttpClient {
           redirect: 'follow',
           cache: 'no-store',
           headers: {
-            'User-Agent': 'match-hub/2.3 (+https://github.com/sthsz7t74m-glitch/match-hub)',
-            'Accept-Language': 'ja,en;q=0.8'
+            'User-Agent': userAgent,
+            Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'Accept-Language': 'ja-JP,ja;q=0.9,en;q=0.6',
+            'Cache-Control': 'no-cache',
+            Pragma: 'no-cache'
           },
           signal: AbortSignal.timeout(this.timeoutMs)
         });
@@ -78,16 +95,35 @@ class HttpClient {
         if (attempt < this.retries) await new Promise(resolve => setTimeout(resolve, 650 * (attempt + 1)));
       }
     }
-    throw new Error(`${url}: ${lastError?.message || 'request failed'}`);
+    throw lastError || new Error('request failed');
+  }
+
+  routeCount(html, league) {
+    return (decodeSerializedPage(html).match(new RegExp(`/match/${league}/(?:2026|2027)/\\d{6}`, 'gi')) || []).length;
+  }
+
+  async getPrerendered(url, league) {
+    const attempts = [];
+    for (const agent of USER_AGENTS) {
+      try {
+        const html = await this.request(url, agent.value);
+        const routes = this.routeCount(html, league);
+        attempts.push(`${agent.id}:${html.length}/${routes}`);
+        if (routes > 0) return { html, agent: agent.id, attempts };
+      } catch (error) {
+        attempts.push(`${agent.id}:error:${error.message}`);
+      }
+    }
+    return { html: '', agent: '', attempts };
   }
 }
 
-class Catalog {
+class ClubCatalog {
   static async load() {
     const source = await fs.readFile('assets/js/jleague-data.js', 'utf8');
     const sandbox = { window: {}, console };
     vm.runInNewContext(source, sandbox, { filename: 'assets/js/jleague-data.js' });
-    return new Catalog(sandbox.window.SportsHubJLeague);
+    return new ClubCatalog(sandbox.window.SportsHubJLeague);
   }
 
   constructor(source) {
@@ -95,30 +131,26 @@ class Catalog {
     this.clubs = [...source.clubs];
     this.aliases = new Map(LEAGUES.map(league => [league, this.clubs
       .filter(club => club.league === league)
-      .flatMap(club => (club.aliases || [club.name]).map(alias => ({ club, alias, key: normalize(alias) })))
+      .flatMap(club => (club.aliases || [club.name]).map(alias => ({ club, key: normalize(alias) })))
       .filter(item => item.key)
       .sort((left, right) => right.key.length - left.key.length)]));
   }
 
-  forLeague(league) {
-    return this.clubs.filter(club => club.league === league);
-  }
-
   ordered(text, league) {
     const value = normalize(text);
-    const matches = [];
+    const found = [];
     for (const item of this.aliases.get(league) || []) {
       let offset = 0;
       while (offset < value.length) {
         const index = value.indexOf(item.key, offset);
         if (index < 0) break;
-        matches.push({ ...item, index });
+        found.push({ ...item, index });
         offset = index + Math.max(item.key.length, 1);
       }
     }
-    matches.sort((left, right) => left.index - right.index || right.key.length - left.key.length);
+    found.sort((left, right) => left.index - right.index || right.key.length - left.key.length);
     const seen = new Set();
-    return matches.filter(item => {
+    return found.filter(item => {
       if (seen.has(item.club.id)) return false;
       seen.add(item.club.id);
       return true;
@@ -131,6 +163,7 @@ class OfficialSectionScheduleSource {
     Object.assign(this, { client, catalog, data });
     this.teamByClub = new Map((data.teams || []).map(team => [team.appId || team.id, team]));
     this.errors = [];
+    this.agentCounts = new Map();
   }
 
   team(club) {
@@ -147,18 +180,17 @@ class OfficialSectionScheduleSource {
   }
 
   blockAround(source, index) {
-    const rowStart = source.lastIndexOf('<tr', index);
-    const rowEnd = source.indexOf('</tr>', index);
-    if (rowStart >= 0 && rowEnd >= index && rowEnd - rowStart < 25000) return source.slice(rowStart, rowEnd + 5);
-
-    const itemStart = source.lastIndexOf('<li', index);
-    const itemEnd = source.indexOf('</li>', index);
-    if (itemStart >= 0 && itemEnd >= index && itemEnd - itemStart < 25000) return source.slice(itemStart, itemEnd + 5);
-
-    const anchorStart = source.lastIndexOf('<a', index);
-    const anchorEnd = source.indexOf('</a>', index);
-    if (anchorStart >= 0 && anchorEnd >= index && anchorEnd - anchorStart < 12000) return source.slice(anchorStart, anchorEnd + 4);
-
+    const candidates = [
+      ['<tr', '</tr>', 25000],
+      ['<li', '</li>', 25000],
+      ['<article', '</article>', 30000],
+      ['<a', '</a>', 12000]
+    ];
+    for (const [opening, closing, limit] of candidates) {
+      const start = source.lastIndexOf(opening, index);
+      const end = source.indexOf(closing, index);
+      if (start >= 0 && end >= index && end - start < limit) return source.slice(start, end + closing.length);
+    }
     return source.slice(Math.max(0, index - 1800), Math.min(source.length, index + 2800));
   }
 
@@ -166,9 +198,7 @@ class OfficialSectionScheduleSource {
     let value = String(text || '');
     const time = value.match(/(?:[01]?\d|2[0-3]):[0-5]\d/);
     if (time) value = value.slice((time.index || 0) + time[0].length);
-    for (const alias of [...home.aliases, ...away.aliases].sort((left, right) => right.length - left.length)) {
-      value = value.replaceAll(alias, ' ');
-    }
+    for (const alias of [...home.aliases, ...away.aliases].sort((left, right) => right.length - left.length)) value = value.replaceAll(alias, ' ');
     return value
       .replace(/ＶＳ|VS|試合終了|前半|後半|延長|PK/gi, ' ')
       .replace(/\b\d{1,2}\s*[-－]\s*\d{1,2}\b/g, ' ')
@@ -192,7 +222,6 @@ class OfficialSectionScheduleSource {
     if (ordered.length < 2 || ordered[0].club.id === ordered[1].club.id) return null;
     const home = ordered[0].club;
     const away = ordered[1].club;
-    const year = Number(route[2]);
     const code = route[3];
     const month = Number(code.slice(0, 2));
     const day = Number(code.slice(2, 4));
@@ -200,7 +229,7 @@ class OfficialSectionScheduleSource {
     const time = text.match(/\b([01]?\d|2[0-3]):([0-5]\d)\b/);
     const hour = time ? Number(time[1]) : 12;
     const minute = time ? Number(time[2]) : 0;
-    const date = new Date(Date.UTC(year, month - 1, day, hour - 9, minute)).toISOString();
+    const date = new Date(Date.UTC(Number(route[2]), month - 1, day, hour - 9, minute)).toISOString();
     const score = text.match(/(?:^|\D)(\d{1,2})\s*[-－]\s*(\d{1,2})(?:\D|$)/);
     const live = /LIVE|前半|後半|ハーフタイム/i.test(text);
     const unavailable = /延期|中止|中断/.test(text);
@@ -229,8 +258,7 @@ class OfficialSectionScheduleSource {
   }
 
   parsePage(html, league, round) {
-    const decoded = decodeSerializedPage(html);
-    const source = decoded.includes(`/match/${league}/`) ? decoded : html;
+    const source = decodeSerializedPage(html);
     const routePattern = new RegExp(`(?:https?:\\/\\/www\\.jleague\\.jp)?\\/match\\/${league}\\/(2026|2027)\\/(\\d{6})\\/?`, 'gi');
     const routes = [...source.matchAll(routePattern)];
     const uniqueRoutes = [...new Map(routes.map(route => [`${route[1]}-${route[2]}`, route])).values()];
@@ -245,20 +273,17 @@ class OfficialSectionScheduleSource {
 
   async loadRound(league, round) {
     const url = `https://www.jleague.jp/match/section/${league}/${round}/?v=${Date.now()}-${round}`;
-    const html = await this.client.getText(url);
-    const matches = this.parsePage(html, league, round);
-    if (!matches.length) {
-      const decoded = decodeSerializedPage(html);
-      const routes = (decoded.match(new RegExp(`/match/${league}/(?:2026|2027)/`, 'gi')) || []).length;
-      const clubs = this.catalog.forLeague(league).filter(club => normalize(decoded).includes(normalize(club.shortName || club.name))).length;
-      throw new Error(`no matches parsed (html=${html.length}, routes=${routes}, clubs=${clubs})`);
-    }
+    const response = await this.client.getPrerendered(url, league);
+    if (!response.html) throw new Error(`pre-render unavailable (${response.attempts.join(', ')})`);
+    this.agentCounts.set(response.agent, (this.agentCounts.get(response.agent) || 0) + 1);
+    const matches = this.parsePage(response.html, league, round);
+    if (!matches.length) throw new Error(`routes found but no matches parsed (${response.agent}; ${response.attempts.join(', ')})`);
     return matches;
   }
 
   async loadLeague(league) {
     const rounds = Array.from({ length: ROUND_COUNT }, (_, index) => index + 1);
-    const results = await parallelMap(rounds, 5, async round => {
+    const results = await parallelMap(rounds, 4, async round => {
       try {
         return await this.loadRound(league, round);
       } catch (error) {
@@ -267,7 +292,7 @@ class OfficialSectionScheduleSource {
       }
     });
     const matches = [...new Map(results.flat().map(match => [match.id, match])).values()];
-    if (matches.length < 300) this.errors.push(`${league} section schedule validation: parsed ${matches.length}`);
+    if (matches.length < 300) this.errors.push(`${league} prerender schedule validation: parsed ${matches.length}`);
     return matches;
   }
 
@@ -276,7 +301,7 @@ class OfficialSectionScheduleSource {
     const retained = (this.data.matches || []).filter(match => !LEAGUES.includes(match.league));
     this.data.matches = [...retained, ...j2, ...j3].sort((left, right) => new Date(left.date) - new Date(right.date));
     this.data.errors = (this.data.errors || [])
-      .filter(error => !/^j[23] (?:round|schedule validation|date schedule validation|section schedule validation)/.test(error))
+      .filter(error => !/^j[23] (?:round|schedule validation|date schedule validation|section schedule validation|prerender schedule validation)/.test(error))
       .concat(this.errors);
     this.data.leaguesAvailability = this.data.leaguesAvailability || {};
     this.data.leaguesAvailability.j2 = { ...(this.data.leaguesAvailability.j2 || {}), matches: j2.length > 0 };
@@ -289,16 +314,20 @@ class OfficialSectionScheduleSource {
     };
     this.data.sourceDetails = {
       ...(this.data.sourceDetails || {}),
-      j2: 'J.LEAGUE official section pages / standings / club profiles',
-      j3: 'J.LEAGUE official section pages / standings / club profiles'
+      j2: 'J.LEAGUE official pre-rendered section pages / standings / club profiles',
+      j3: 'J.LEAGUE official pre-rendered section pages / standings / club profiles'
+    };
+    this.data.fetchMetadata = {
+      ...(this.data.fetchMetadata || {}),
+      officialSectionAgents: Object.fromEntries(this.agentCounts)
     };
     this.data.updatedAt = new Date().toISOString();
     await fs.writeFile('data/jleague.json', `${JSON.stringify(this.data, null, 2)}\n`);
-    console.log('Merged official schedules:', this.data.counts.matches);
+    console.log('Merged official schedules:', this.data.counts.matches, this.data.fetchMetadata.officialSectionAgents);
     if (this.errors.length) console.warn(this.errors.join('\n'));
   }
 }
 
-const catalog = await Catalog.load();
+const catalog = await ClubCatalog.load();
 const data = JSON.parse(await fs.readFile('data/jleague.json', 'utf8'));
-await new OfficialSectionScheduleSource({ client: new HttpClient(), catalog, data }).run();
+await new OfficialSectionScheduleSource({ client: new OfficialPageClient(), catalog, data }).run();
