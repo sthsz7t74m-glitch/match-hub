@@ -7,6 +7,7 @@ window.MLBApp = window.MLBApp || {};
   const View = window.MLBView;
   const StoreModule = window.MLBStore;
   const RepositoryModule = window.MLBRepository;
+  const SyncModule = window.MLBSync;
   const Registry = window.SportsHubRegistry;
 
   const NODE_SELECTORS = Object.freeze({
@@ -47,8 +48,8 @@ window.MLBApp = window.MLBApp || {};
   });
 
   class MLBController {
-    constructor({ root = document, repository = null, store = null } = {}) {
-      if (!Core || !Data || !UI || !View || !StoreModule || !RepositoryModule) {
+    constructor({ root = document, repository = null, store = null, sync = null } = {}) {
+      if (!Core || !Data || !UI || !View || !StoreModule || !RepositoryModule || !SyncModule) {
         throw new Error('MLB application dependencies are unavailable');
       }
 
@@ -75,6 +76,13 @@ window.MLBApp = window.MLBApp || {};
       });
       this.calendar = this.createCalendar();
       this.unsubscribeStore = this.store.subscribe(change => this.handleStoreChange(change));
+      this.sync = sync || new SyncModule.MLBHubSync({
+        repository: this.repository,
+        store: this.store,
+        getSeason: () => this.state.season,
+        onStatus: event => this.handleSyncStatus(event),
+        onError: error => console.warn('MLB automatic synchronization failed:', error)
+      });
       this.handlers = {
         documentClick: event => this.handleDocumentClick(event),
         teamFilter: event => this.handleTeamFilter(event),
@@ -150,8 +158,63 @@ window.MLBApp = window.MLBApp || {};
           this.view.renderPlayers();
           break;
         case 'hub-loaded':
+        case 'season-games-loaded':
         default:
           this.view.renderAll();
+          break;
+      }
+    }
+
+    formatUpdatedAt(value) {
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return '';
+      return date.toLocaleString('ja-JP', {
+        month: 'numeric',
+        day: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit'
+      });
+    }
+
+    handleSyncStatus(event) {
+      if (!this.nodes.updated) return;
+
+      const updated = this.formatUpdatedAt(event.payload?.updatedAt);
+      switch (event.type) {
+        case 'snapshot':
+          this.nodes.updated.textContent = '保存済みデータを表示・最新情報を自動取得中';
+          break;
+        case 'loading':
+          this.nodes.updated.textContent = event.reason === 'retry'
+            ? 'MLBデータを自動再取得しています…'
+            : event.reason === 'manual'
+              ? '最新データを自動取得しています…'
+              : 'MLBデータを自動取得しています…';
+          if (this.nodes.refresh) this.nodes.refresh.disabled = true;
+          break;
+        case 'ready':
+          this.nodes.updated.textContent = updated
+            ? `最終更新 ${updated}・自動更新ON`
+            : 'MLBデータ取得済み・自動更新ON';
+          if (this.nodes.refresh) this.nodes.refresh.disabled = false;
+          break;
+        case 'degraded':
+          this.nodes.updated.textContent = event.payload?.source === 'snapshot'
+            ? '保存済みデータを表示・自動再取得中'
+            : '一部データ取得待ち・自動再取得中';
+          if (this.nodes.refresh) this.nodes.refresh.disabled = false;
+          break;
+        case 'retry-scheduled':
+          this.nodes.updated.textContent = '通信待機中・自動で再取得します';
+          break;
+        case 'season-ready':
+          if (updated) this.nodes.updated.textContent = `最終更新 ${updated}・全日程取得済み`;
+          break;
+        case 'error':
+          this.nodes.updated.textContent = '取得に失敗・自動で再試行します';
+          if (this.nodes.refresh) this.nodes.refresh.disabled = false;
+          break;
+        default:
           break;
       }
     }
@@ -211,6 +274,7 @@ window.MLBApp = window.MLBApp || {};
       this.nodes.teamSearch?.removeEventListener('input', this.handlers.teamSearch);
       this.nodes.clearDate?.removeEventListener('click', this.handlers.clearDate);
       this.nodes.refresh?.removeEventListener('click', this.handlers.refresh);
+      this.sync?.stop?.();
       this.unsubscribeStore?.();
       this.bound = false;
     }
@@ -232,53 +296,8 @@ window.MLBApp = window.MLBApp || {};
       }
     }
 
-    updateStatus(payload, fresh) {
-      if (!this.nodes.updated) return;
-
-      const updated = new Date(payload.updatedAt).toLocaleString('ja-JP', {
-        month: 'numeric',
-        day: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit'
-      });
-      this.nodes.updated.textContent = payload.errors.length
-        ? `最終更新 ${updated}・一部データ取得待ち`
-        : fresh ? `更新完了 ${updated}` : `最終更新 ${updated}`;
-    }
-
-    async loadHub({ fresh = false } = {}) {
-      if (this.nodes.updated) {
-        this.nodes.updated.textContent = fresh
-          ? 'MLBデータを更新しています…'
-          : 'MLBデータを読み込んでいます…';
-      }
-      if (this.nodes.refresh) this.nodes.refresh.disabled = true;
-
-      try {
-        const payload = await this.repository.loadHub({
-          season: this.state.season,
-          fresh
-        });
-        this.store.replaceHubData(payload, {
-          fallbackTeams: this.repository.fallbackTeams()
-        });
-        this.updateStatus(payload, fresh);
-      } catch (error) {
-        console.warn('MLB Hub repository failed:', error);
-        const fallback = this.repository.fallbackHub(this.state.season, error);
-        this.store.replaceHubData(fallback, {
-          fallbackTeams: this.repository.fallbackTeams()
-        });
-        this.updateStatus(fallback, fresh);
-        window.SportsHub?.toast?.('MLBデータを取得できませんでした', 2600);
-      } finally {
-        if (this.nodes.refresh) this.nodes.refresh.disabled = false;
-      }
-    }
-
-    async refresh() {
-      await this.loadHub({ fresh: true });
-      if (this.state.players) await this.loadPlayers({ fresh: true });
+    refresh() {
+      return this.sync.refresh({ fresh: true, reason: 'manual' });
     }
 
     start() {
@@ -286,7 +305,7 @@ window.MLBApp = window.MLBApp || {};
       window.SportsHub?.applyTheme?.();
       this.pageTabs.show('home');
       this.view.renderAll();
-      this.loadHub();
+      this.sync.start();
       return this;
     }
   }
