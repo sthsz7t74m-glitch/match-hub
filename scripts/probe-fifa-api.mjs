@@ -13,7 +13,7 @@ const pageUrls = [
 const headers = {
   Accept: 'application/json,text/html;q=0.9,*/*;q=0.8',
   'Accept-Language': 'en-US,en;q=0.9',
-  'User-Agent': 'Mozilla/5.0 (compatible; MatchHubFifaProbe/1.2)'
+  'User-Agent': 'Mozilla/5.0 (compatible; MatchHubFifaProbe/1.3)'
 };
 
 const text = value => String(value ?? '').trim();
@@ -45,6 +45,20 @@ function walk(value, visit, path = '$') {
   else Object.entries(value).forEach(([key, item]) => walk(item, visit, `${path}.${key}`));
 }
 
+function rowPreview(row) {
+  return {
+    rank: rankFrom(row),
+    name: nameFrom(row),
+    keys: row && typeof row === 'object' ? Object.keys(row).slice(0, 25) : [],
+    nestedKeys: row && typeof row === 'object'
+      ? Object.values(row)
+        .filter(value => value && typeof value === 'object' && !Array.isArray(value))
+        .flatMap(value => Object.keys(value))
+        .slice(0, 30)
+      : []
+  };
+}
+
 function inspectPage(raw) {
   const decoded = raw
     .replace(/&quot;/g, '"')
@@ -57,21 +71,21 @@ function inspectPage(raw) {
   for (const match of decoded.matchAll(/id\d+/g)) {
     if (seen.has(match[0])) continue;
     seen.add(match[0]);
-    ids.push({ id: match[0], context: contextAround(decoded, match.index) });
+    ids.push({ id: match[0], context: contextAround(decoded, match.index, 120) });
   }
 
-  const apiContexts = [...decoded.matchAll(/ranking-overview/gi)].slice(0, 20).map(match => contextAround(decoded, match.index, 260));
+  const apiContexts = [...decoded.matchAll(/ranking-overview/gi)].slice(0, 10).map(match => contextAround(decoded, match.index, 220));
   const rankingContexts = [
     ...decoded.matchAll(/"rankings"\s*:/gi),
     ...decoded.matchAll(/"rankingItem"\s*:/gi),
     ...decoded.matchAll(/currentRank/gi)
-  ].slice(0, 30).map(match => contextAround(decoded, match.index, 320));
+  ].slice(0, 15).map(match => contextAround(decoded, match.index, 240));
   const officialMatches = [
     ...decoded.matchAll(/(?:Last official update|Just updated)\s*:\s*([^<\n]{1,100})/gi),
     ...decoded.matchAll(/lastOfficialUpdate.{0,120}/gi)
-  ].slice(0, 20).map(match => match[0].replace(/\s+/g, ' '));
+  ].slice(0, 10).map(match => match[0].replace(/\s+/g, ' '));
   const scripts = [...raw.matchAll(/<script([^>]*)>([\s\S]*?)<\/script>/gi)];
-  const jsonIds = [];
+  const dateIds = [];
   const rankingArrays = [];
   const rankingObjects = [];
 
@@ -82,42 +96,45 @@ function inspectPage(raw) {
       const parsed = JSON.parse(body);
       walk(parsed, (node, nodePath) => {
         const nodeId = text(node?.id || node?.dateId);
-        const nodeLabel = text(node?.text || node?.label || node?.date || node?.name);
-        if (/^id\d+$/.test(nodeId) && jsonIds.length < 120) {
-          jsonIds.push({ script: index, path: nodePath, id: nodeId, label: nodeLabel, keys: Object.keys(node).slice(0, 20), iso: node.iso || '', dateText: node.dateText || '' });
+        if (/^id\d+$/.test(nodeId) && dateIds.length < 20) {
+          dateIds.push({
+            script: index,
+            path: nodePath,
+            id: nodeId,
+            iso: text(node.iso),
+            dateText: text(node.dateText || node.text || node.label)
+          });
         }
 
-        if (Array.isArray(node) && node.length >= 10 && rankingArrays.length < 80) {
-          const sample = node[0];
-          if (sample && typeof sample === 'object') {
-            const keys = Object.keys(sample);
-            const nestedKeys = Object.values(sample)
-              .filter(value => value && typeof value === 'object' && !Array.isArray(value))
-              .flatMap(value => Object.keys(value));
-            if ([...keys, ...nestedKeys].some(key => /rank|team|country|point|flag/i.test(key))) {
-              rankingArrays.push({
-                script: index,
-                path: nodePath,
-                arrayLength: node.length,
-                sampleKeys: keys.slice(0, 30),
-                sampleNestedKeys: nestedKeys.slice(0, 40),
-                sample
-              });
-            }
+        if (Array.isArray(node) && node.length >= 10 && rankingArrays.length < 30) {
+          const previews = node.slice(0, 3).map(rowPreview);
+          const keys = [...new Set(previews.flatMap(preview => [...preview.keys, ...preview.nestedKeys]))];
+          if (keys.some(key => /rank|team|country|point|flag/i.test(key))) {
+            rankingArrays.push({
+              script: index,
+              path: nodePath,
+              arrayLength: node.length,
+              keys: keys.slice(0, 40),
+              rows: previews
+            });
           }
         }
 
-        if (!Array.isArray(node) && rankingObjects.length < 100) {
+        if (!Array.isArray(node) && rankingObjects.length < 40) {
           const keys = Object.keys(node);
-          const interesting = keys.filter(key => /rank|standing|country|team|date/i.test(key));
-          if (interesting.length && /rank/i.test(`${nodePath} ${interesting.join(' ')}`)) {
+          const rankingKeys = keys.filter(key => /rank|standing|country|team|date/i.test(key));
+          if (rankingKeys.length && /rank/i.test(`${nodePath} ${rankingKeys.join(' ')}`)) {
             rankingObjects.push({
               script: index,
               path: nodePath,
-              keys: keys.slice(0, 40),
-              summary: Object.fromEntries(interesting.slice(0, 15).map(key => {
+              keys: keys.slice(0, 35),
+              summary: Object.fromEntries(rankingKeys.slice(0, 12).map(key => {
                 const value = node[key];
-                return [key, Array.isArray(value) ? `array:${value.length}` : typeof value === 'object' ? `object:${Object.keys(value || {}).slice(0, 10).join(',')}` : String(value).slice(0, 160)];
+                return [key, Array.isArray(value)
+                  ? `array:${value.length}`
+                  : value && typeof value === 'object'
+                    ? `object:${Object.keys(value).slice(0, 10).join(',')}`
+                    : String(value).slice(0, 120)];
               }))
             });
           }
@@ -131,12 +148,12 @@ function inspectPage(raw) {
   return {
     bytes: raw.length,
     idCount: ids.length,
-    ids: ids.slice(0, 30),
+    ids: ids.slice(0, 8),
     apiContexts,
     rankingContexts,
     officialMatches,
     scriptCount: scripts.length,
-    jsonIds,
+    dateIds,
     rankingArrays,
     rankingObjects
   };
@@ -159,7 +176,7 @@ for (const url of apiUrls) {
       officialDate: dateFrom(payload),
       count: rows.length,
       top: rows.slice(0, 5).map(row => ({ rank: rankFrom(row), name: nameFrom(row) })),
-      preview: raw.slice(0, 500)
+      preview: raw.slice(0, 300)
     });
   } catch (error) {
     apiResults.push({ url, error: error.message });
