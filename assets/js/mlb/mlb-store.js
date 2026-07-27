@@ -4,6 +4,11 @@ window.MLBStore = window.MLBStore || {};
   const asArray = value => (Array.isArray(value) ? value : []);
   const freezeArray = value => Object.freeze([...asArray(value)]);
   const sameOrFrozenArray = (value, previous) => value === previous ? previous : freezeArray(value);
+  const gameId = game => String(game?.id || game?.gamePk || `${game?.date || ''}:${game?.gameNumber || ''}`);
+  const gameTime = game => {
+    const time = new Date(game?.date || '').getTime();
+    return Number.isNaN(time) ? 0 : time;
+  };
 
   const createInitialState = (initial = {}, previous = null) => Object.freeze({
     season: Number(initial.season || new Date().getFullYear()),
@@ -79,6 +84,20 @@ window.MLBStore = window.MLBStore || {};
 
     setGames(games, reason = 'games-loaded') {
       return this.update({ games: asArray(games) }, reason);
+    }
+
+    mergeGames(games, reason = 'games-merged') {
+      const merged = new Map();
+      asArray(games).forEach(game => merged.set(gameId(game), game));
+      this.state.games.forEach(game => {
+        const id = gameId(game);
+        const background = merged.get(id) || {};
+        merged.set(id, { ...background, ...game });
+      });
+
+      return this.update({
+        games: [...merged.values()].sort((left, right) => gameTime(left) - gameTime(right))
+      }, reason);
     }
 
     setPlayersLoading(loading) {
