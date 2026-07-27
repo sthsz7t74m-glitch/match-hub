@@ -28,11 +28,17 @@ window.FootballUI = window.FootballUI || {};
   const currentData = () => state.data || { fixtures: [], teams: [] };
   const matches = () => currentData().fixtures || [];
   const teamById = id => (currentData().teams || []).find(team => String(team.id) === String(id));
-  const matchesOnDate = date => matches().filter(match => namespace.dayKey(match.date) === date);
+
+  let calendar;
+  const matchesOnDate = date => {
+    if (!date) return [];
+    return calendar
+      ? calendar.matchesOnDate(date)
+      : matches().filter(match => namespace.dayKey(match.date) === date);
+  };
 
   const renderSelectedMatches = date => {
     if (!selectedMatchesRoot) return;
-
     if (!date) {
       selectedMatchesRoot.innerHTML = '<p class="calendar-hint">試合がある日付をタップすると詳細を表示</p>';
       return;
@@ -41,10 +47,11 @@ window.FootballUI = window.FootballUI || {};
     const selected = matchesOnDate(date);
     selectedMatchesRoot.innerHTML = selected.length
       ? selected.map(match => matchCard(match, { rich: true })).join('')
-      : '<p class="empty compact-empty">この日の試合はありません</p>';
+      : `<p class="empty compact-empty">${calendar?.favoriteOnly ? 'この日に推しの試合はありません' : 'この日の試合はありません'}</p>`;
   };
 
-  const calendar = new namespace.FootballCalendar({
+  calendar = new namespace.FootballCalendar({
+    page: 'five',
     root,
     title: document.querySelector('#calendarTitle'),
     ...controls,
