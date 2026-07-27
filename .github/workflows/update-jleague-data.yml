@@ -7,6 +7,7 @@ on:
       - main
     paths:
       - 'scripts/fetch-jleague.mjs'
+      - 'scripts/merge-jleague-schedules.mjs'
       - 'assets/js/jleague-data.js'
       - 'package.json'
       - '.github/workflows/update-jleague-data.yml'
@@ -23,20 +24,25 @@ concurrency:
 jobs:
   update-jleague:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
-      - name: Validate J League fetcher
+
+      - name: Validate J League fetchers
         run: |
           node --check scripts/fetch-jleague.mjs
+          node --check scripts/merge-jleague-schedules.mjs
           node --check assets/js/jleague-data.js
+
       - name: Fetch ESPN and official J League data
         run: npm run update-jleague
+
       - name: Show fetch summary
         run: |
           node - <<'NODE'
@@ -52,6 +58,7 @@ jobs:
             errors: data.errors?.length
           });
           NODE
+
       - name: Commit and push J League data
         run: |
           git config user.name "github-actions[bot]"
