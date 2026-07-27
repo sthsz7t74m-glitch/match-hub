@@ -63,17 +63,70 @@ window.SportsHubComponents = window.SportsHubComponents || {};
       return `<img class="${this.slotClass('badge')}" src="${escapeHtml(team.logo)}" alt="" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false">${fallback}`;
     }
 
+    normalizeTeamInteraction(team = {}, side = 'left', name = '') {
+      const detail = team.detail && typeof team.detail === 'object' ? team.detail : {};
+      const attributes = {
+        ...(team.attributes || {}),
+        ...(detail.attributes || {})
+      };
+      const href = detail.href || team.href || '';
+      const action = detail.action || team.action || '';
+      const explicitInteractive = detail.interactive ?? team.interactive;
+      const hasDataAction = Object.keys(attributes).some(key => key.startsWith('data-'));
+      const interactive = explicitInteractive !== false && Boolean(href || action || explicitInteractive || hasDataAction);
+
+      if (action && !attributes['data-sports-team-action']) {
+        attributes['data-sports-team-action'] = action;
+      }
+      if (interactive && team.id !== undefined && team.id !== null && !attributes['data-sports-team-id']) {
+        attributes['data-sports-team-id'] = String(team.id);
+      }
+      if (interactive && !attributes['data-sports-team-side']) {
+        attributes['data-sports-team-side'] = side;
+      }
+      if (interactive && !attributes['aria-label']) {
+        attributes['aria-label'] = detail.ariaLabel || team.ariaLabel || `${name}の詳細を見る`;
+      }
+
+      if (href) {
+        attributes.href = href;
+        if (detail.target || team.target) attributes.target = detail.target || team.target;
+        if (attributes.target === '_blank' && !attributes.rel) attributes.rel = 'noopener noreferrer';
+        return { tag: 'a', attributes, interactive: true };
+      }
+
+      if (interactive) {
+        attributes.type = attributes.type || 'button';
+        return { tag: 'button', attributes, interactive: true };
+      }
+
+      return { tag: 'span', attributes: {}, interactive: false };
+    }
+
     renderTeam(team = {}, side = 'left') {
       const subtitle = team.subtitle || team.en || '';
       const sideLegacy = side === 'left' ? this.legacy.teamLeft : this.legacy.teamRight;
       const name = team.name || '未定';
-      return `<span class="${this.slotClass('team', `sports-event-card__team--${side}`, this.legacy.team, sideLegacy)}">
+      const interaction = this.normalizeTeamInteraction(team, side, name);
+      const customClass = interaction.attributes.class || '';
+      delete interaction.attributes.class;
+      const classes = this.slotClass(
+        'team',
+        `sports-event-card__team--${side}`,
+        interaction.interactive && 'sports-event-card__team--interactive',
+        this.legacy.team,
+        sideLegacy,
+        customClass
+      );
+      const tag = interaction.tag;
+
+      return `<${tag} class="${classes}"${renderAttributes(interaction.attributes)}>
         ${this.renderBadge(team)}
         <span class="${this.slotClass('team-copy')}">
           <strong class="${this.slotClass('team-name')}" title="${escapeHtml(name)}">${escapeHtml(name)}</strong>
           ${subtitle ? `<small class="${this.slotClass('team-subtitle')}">${escapeHtml(subtitle)}</small>` : ''}
         </span>
-      </span>`;
+      </${tag}>`;
     }
 
     renderMeta(meta = {}) {
@@ -289,6 +342,6 @@ window.SportsHubComponents = window.SportsHubComponents || {};
       ).join('');
       return `<button class="${classes}" data-calendar-day="${escapeHtml(options.dateKey || '')}" type="button"${options.disabled ? ' disabled' : ''}><span>${escapeHtml(options.day || '')}</span>${options.count ? `<i>${escapeHtml(options.count)}</i>` : ''}${marks ? `<small class="calendar-favorite-marks">${marks}</small>` : ''}</button>`;
     },
-    MATCH_CARD_VERSION: 3
+    MATCH_CARD_VERSION: 4
   });
 })(window.SportsHubComponents);
