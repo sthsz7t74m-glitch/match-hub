@@ -1,9 +1,8 @@
 import fs from 'node:fs/promises';
 import vm from 'node:vm';
 
-const DATE_FROM = '2026-08-01';
-const DATE_TO = '2027-05-31';
 const LEAGUES = ['j2', 'j3'];
+const ROUND_COUNT = 38;
 
 const decodeEntities = value => String(value ?? '')
   .replace(/&#(\d+);/g, (_, code) => String.fromCodePoint(Number(code)))
@@ -42,19 +41,6 @@ const absoluteUrl = value => {
   try { return new URL(value, 'https://www.jleague.jp').href; } catch { return ''; }
 };
 
-const pad = value => String(value).padStart(2, '0');
-const dateKey = date => `${date.getUTCFullYear()}${pad(date.getUTCMonth() + 1)}${pad(date.getUTCDate())}`;
-const dateRange = (from, to) => {
-  const values = [];
-  const cursor = new Date(`${from}T00:00:00Z`);
-  const end = new Date(`${to}T00:00:00Z`);
-  while (cursor <= end) {
-    values.push(new Date(cursor));
-    cursor.setUTCDate(cursor.getUTCDate() + 1);
-  }
-  return values;
-};
-
 const parallelMap = async (items, limit, worker) => {
   const results = new Array(items.length);
   let cursor = 0;
@@ -68,7 +54,7 @@ const parallelMap = async (items, limit, worker) => {
 };
 
 class HttpClient {
-  constructor({ retries = 1, timeoutMs = 20000 } = {}) {
+  constructor({ retries = 2, timeoutMs = 25000 } = {}) {
     Object.assign(this, { retries, timeoutMs });
   }
 
@@ -80,7 +66,7 @@ class HttpClient {
           redirect: 'follow',
           cache: 'no-store',
           headers: {
-            'User-Agent': 'match-hub/2.2 (+https://github.com/sthsz7t74m-glitch/match-hub)',
+            'User-Agent': 'match-hub/2.3 (+https://github.com/sthsz7t74m-glitch/match-hub)',
             'Accept-Language': 'ja,en;q=0.8'
           },
           signal: AbortSignal.timeout(this.timeoutMs)
@@ -89,7 +75,7 @@ class HttpClient {
         return response.text();
       } catch (error) {
         lastError = error;
-        if (attempt < this.retries) await new Promise(resolve => setTimeout(resolve, 500 * (attempt + 1)));
+        if (attempt < this.retries) await new Promise(resolve => setTimeout(resolve, 650 * (attempt + 1)));
       }
     }
     throw new Error(`${url}: ${lastError?.message || 'request failed'}`);
@@ -140,12 +126,11 @@ class Catalog {
   }
 }
 
-class OfficialDateScheduleSource {
+class OfficialSectionScheduleSource {
   constructor({ client, catalog, data }) {
     Object.assign(this, { client, catalog, data });
     this.teamByClub = new Map((data.teams || []).map(team => [team.appId || team.id, team]));
     this.errors = [];
-    this.diagnostics = [];
   }
 
   team(club) {
@@ -161,6 +146,22 @@ class OfficialDateScheduleSource {
     }) };
   }
 
+  blockAround(source, index) {
+    const rowStart = source.lastIndexOf('<tr', index);
+    const rowEnd = source.indexOf('</tr>', index);
+    if (rowStart >= 0 && rowEnd >= index && rowEnd - rowStart < 25000) return source.slice(rowStart, rowEnd + 5);
+
+    const itemStart = source.lastIndexOf('<li', index);
+    const itemEnd = source.indexOf('</li>', index);
+    if (itemStart >= 0 && itemEnd >= index && itemEnd - itemStart < 25000) return source.slice(itemStart, itemEnd + 5);
+
+    const anchorStart = source.lastIndexOf('<a', index);
+    const anchorEnd = source.indexOf('</a>', index);
+    if (anchorStart >= 0 && anchorEnd >= index && anchorEnd - anchorStart < 12000) return source.slice(anchorStart, anchorEnd + 4);
+
+    return source.slice(Math.max(0, index - 1800), Math.min(source.length, index + 2800));
+  }
+
   extractVenue(text, home, away) {
     let value = String(text || '');
     const time = value.match(/(?:[01]?\d|2[0-3]):[0-5]\d/);
@@ -174,13 +175,16 @@ class OfficialDateScheduleSource {
       .replace(/DAZN[\s\S]*$/i, ' ')
       .replace(/チケット[\s\S]*$/i, ' ')
       .replace(/対戦データ[\s\S]*$/i, ' ')
+      .replace(/試合詳細[\s\S]*$/i, ' ')
+      .replace(/観戦情報[\s\S]*$/i, ' ')
+      .replace(/見どころ[\s\S]*$/i, ' ')
       .replace(/テレビ放送[\s\S]*$/i, ' ')
       .replace(/\s+/g, ' ')
       .trim()
       .slice(0, 140);
   }
 
-  parseMatch({ href, body, league, fallbackDate = '' }) {
+  parseMatch({ href, body, league, round }) {
     const route = String(href).match(/\/match\/(j2|j3)\/(2026|2027)\/(\d{6})\/?/i);
     if (!route || route[1].toLowerCase() !== league) return null;
     const text = stripTags(body).replace(/[{}[\]",:]/g, ' ').replace(/\s+/g, ' ');
@@ -192,17 +196,12 @@ class OfficialDateScheduleSource {
     const code = route[3];
     const month = Number(code.slice(0, 2));
     const day = Number(code.slice(2, 4));
-    const fallback = fallbackDate ? new Date(`${fallbackDate}T00:00:00Z`) : null;
-    const validRouteDate = month >= 1 && month <= 12 && day >= 1 && day <= 31;
-    const actualYear = validRouteDate ? year : fallback?.getUTCFullYear() || year;
-    const actualMonth = validRouteDate ? month : (fallback?.getUTCMonth() || 0) + 1;
-    const actualDay = validRouteDate ? day : fallback?.getUTCDate() || 1;
+    if (month < 1 || month > 12 || day < 1 || day > 31) return null;
     const time = text.match(/\b([01]?\d|2[0-3]):([0-5]\d)\b/);
     const hour = time ? Number(time[1]) : 12;
     const minute = time ? Number(time[2]) : 0;
-    const date = new Date(Date.UTC(actualYear, actualMonth - 1, actualDay, hour - 9, minute)).toISOString();
+    const date = new Date(Date.UTC(year, month - 1, day, hour - 9, minute)).toISOString();
     const score = text.match(/(?:^|\D)(\d{1,2})\s*[-－]\s*(\d{1,2})(?:\D|$)/);
-    const roundValue = Number(text.match(/第\s*(\d+)\s*節/)?.[1] || 0) || null;
     const live = /LIVE|前半|後半|ハーフタイム/i.test(text);
     const unavailable = /延期|中止|中断/.test(text);
     const status = unavailable ? (/中止/.test(text) ? 'CANCELLED' : /中断/.test(text) ? 'SUSPENDED' : 'POSTPONED')
@@ -218,72 +217,57 @@ class OfficialDateScheduleSource {
       datePrecision: time ? 'exact' : 'date',
       timeTbd: !time,
       status,
-      matchday: roundValue,
+      matchday: round,
       stage: `2026/27-${league}`,
       competition: league === 'j2' ? '明治安田J2リーグ' : '明治安田J3リーグ',
       home: this.team(home),
       away: this.team(away),
       score: { home: score ? Number(score[1]) : null, away: score ? Number(score[2]) : null },
       venue: this.extractVenue(text, home, away),
-      round: roundValue ? `第${roundValue}節` : ''
+      round: `第${round}節`
     };
   }
 
-  parsePage(html, league, fallbackDate) {
+  parsePage(html, league, round) {
     const decoded = decodeSerializedPage(html);
-    const matches = [];
-    for (const source of [html, decoded]) {
-      const anchors = [...source.matchAll(/<a\b[^>]*href=["']([^"']*\/match\/(?:j2|j3)\/(?:2026|2027)\/\d{6}\/?[^"']*)["'][^>]*>([\s\S]*?)<\/a>/gi)];
-      matches.push(...anchors.map(anchor => this.parseMatch({
-        href: anchor[1],
-        body: anchor[2],
-        league,
-        fallbackDate
-      })).filter(Boolean));
-    }
-    if (matches.length) return [...new Map(matches.map(match => [match.id, match])).values()];
-
+    const source = decoded.includes(`/match/${league}/`) ? decoded : html;
     const routePattern = new RegExp(`(?:https?:\\/\\/www\\.jleague\\.jp)?\\/match\\/${league}\\/(2026|2027)\\/(\\d{6})\\/?`, 'gi');
-    const routes = [...decoded.matchAll(routePattern)];
+    const routes = [...source.matchAll(routePattern)];
     const uniqueRoutes = [...new Map(routes.map(route => [`${route[1]}-${route[2]}`, route])).values()];
-    uniqueRoutes.forEach((route, index) => {
-      const previous = uniqueRoutes[index - 1]?.index ?? 0;
-      const next = uniqueRoutes[index + 1]?.index ?? decoded.length;
-      const start = Math.max(previous, (route.index || 0) - 1800);
-      const end = Math.min(next, (route.index || 0) + 2800);
-      const parsed = this.parseMatch({
-        href: `/match/${league}/${route[1]}/${route[2]}/`,
-        body: decoded.slice(start, end),
-        league,
-        fallbackDate
-      });
-      if (parsed) matches.push(parsed);
-    });
+    const matches = uniqueRoutes.map(route => this.parseMatch({
+      href: `/match/${league}/${route[1]}/${route[2]}/`,
+      body: this.blockAround(source, route.index || 0),
+      league,
+      round
+    })).filter(Boolean);
     return [...new Map(matches.map(match => [match.id, match])).values()];
   }
 
-  async loadDate(league, date) {
-    const key = dateKey(date);
-    const url = `https://www.jleague.jp/sp/match/search/${league}/${key}/?v=${Date.now()}-${key}`;
-    try {
-      const html = await this.client.getText(url);
-      const matches = this.parsePage(html, league, `${key.slice(0, 4)}-${key.slice(4, 6)}-${key.slice(6, 8)}`);
-      if (!matches.length && ['20260808', '20260809'].includes(key)) {
-        const decoded = decodeSerializedPage(html);
-        this.diagnostics.push(`${league} ${key}: html=${html.length}, routes=${(decoded.match(new RegExp(`/match/${league}/(?:2026|2027)/`, 'gi')) || []).length}, clubs=${this.catalog.forLeague(league).filter(club => normalize(decoded).includes(normalize(club.shortName || club.name))).length}`);
-      }
-      return matches;
-    } catch (error) {
-      this.errors.push(`${league} ${key}: ${error.message}`);
-      return [];
+  async loadRound(league, round) {
+    const url = `https://www.jleague.jp/match/section/${league}/${round}/?v=${Date.now()}-${round}`;
+    const html = await this.client.getText(url);
+    const matches = this.parsePage(html, league, round);
+    if (!matches.length) {
+      const decoded = decodeSerializedPage(html);
+      const routes = (decoded.match(new RegExp(`/match/${league}/(?:2026|2027)/`, 'gi')) || []).length;
+      const clubs = this.catalog.forLeague(league).filter(club => normalize(decoded).includes(normalize(club.shortName || club.name))).length;
+      throw new Error(`no matches parsed (html=${html.length}, routes=${routes}, clubs=${clubs})`);
     }
+    return matches;
   }
 
   async loadLeague(league) {
-    const dates = dateRange(DATE_FROM, DATE_TO);
-    const results = await parallelMap(dates, 8, date => this.loadDate(league, date));
+    const rounds = Array.from({ length: ROUND_COUNT }, (_, index) => index + 1);
+    const results = await parallelMap(rounds, 5, async round => {
+      try {
+        return await this.loadRound(league, round);
+      } catch (error) {
+        this.errors.push(`${league} round ${round}: ${error.message}`);
+        return [];
+      }
+    });
     const matches = [...new Map(results.flat().map(match => [match.id, match])).values()];
-    if (matches.length < 300) this.errors.push(`${league} date schedule validation: parsed ${matches.length}`);
+    if (matches.length < 300) this.errors.push(`${league} section schedule validation: parsed ${matches.length}`);
     return matches;
   }
 
@@ -292,8 +276,8 @@ class OfficialDateScheduleSource {
     const retained = (this.data.matches || []).filter(match => !LEAGUES.includes(match.league));
     this.data.matches = [...retained, ...j2, ...j3].sort((left, right) => new Date(left.date) - new Date(right.date));
     this.data.errors = (this.data.errors || [])
-      .filter(error => !/^j[23] (?:round|schedule validation|date schedule validation)/.test(error))
-      .concat(this.errors, this.diagnostics);
+      .filter(error => !/^j[23] (?:round|schedule validation|date schedule validation|section schedule validation)/.test(error))
+      .concat(this.errors);
     this.data.leaguesAvailability = this.data.leaguesAvailability || {};
     this.data.leaguesAvailability.j2 = { ...(this.data.leaguesAvailability.j2 || {}), matches: j2.length > 0 };
     this.data.leaguesAvailability.j3 = { ...(this.data.leaguesAvailability.j3 || {}), matches: j3.length > 0 };
@@ -305,16 +289,16 @@ class OfficialDateScheduleSource {
     };
     this.data.sourceDetails = {
       ...(this.data.sourceDetails || {}),
-      j2: 'J.LEAGUE official date pages / standings / club profiles',
-      j3: 'J.LEAGUE official date pages / standings / club profiles'
+      j2: 'J.LEAGUE official section pages / standings / club profiles',
+      j3: 'J.LEAGUE official section pages / standings / club profiles'
     };
     this.data.updatedAt = new Date().toISOString();
     await fs.writeFile('data/jleague.json', `${JSON.stringify(this.data, null, 2)}\n`);
     console.log('Merged official schedules:', this.data.counts.matches);
-    if (this.errors.length || this.diagnostics.length) console.warn([...this.errors, ...this.diagnostics].join('\n'));
+    if (this.errors.length) console.warn(this.errors.join('\n'));
   }
 }
 
 const catalog = await Catalog.load();
 const data = JSON.parse(await fs.readFile('data/jleague.json', 'utf8'));
-await new OfficialDateScheduleSource({ client: new HttpClient(), catalog, data }).run();
+await new OfficialSectionScheduleSource({ client: new HttpClient(), catalog, data }).run();
