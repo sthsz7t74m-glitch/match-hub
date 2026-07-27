@@ -1,9 +1,12 @@
-window.FootballUI = window.FootballUI || {};
+const sharedBootstrapUI = window.SportsUI || window.FootballUI || {};
+window.SportsUI = sharedBootstrapUI;
+window.FootballUI = sharedBootstrapUI;
 
-(function initializeFootballBootstrap(namespace) {
-  if (namespace.FootballPageAdapter) return;
+(function initializeSportsBootstrap(namespace) {
+  if (namespace.SportsPageAdapter) return;
 
   const Core = window.FootballCore || {};
+  const registry = window.SportsHubRegistry;
   const jClubTeamIds = {
     'fc-tokyo': '3384',
     'tokyo-verdy': '3393',
@@ -36,17 +39,18 @@ window.FootballUI = window.FootballUI || {};
     }
   };
 
+  const favoriteKey = page => registry?.get?.(page)?.favoriteStorageKey || '';
   const commonElements = () => ({
     title: document.querySelector('#calendarTitle'),
     prev: document.querySelector('#calendarPrev'),
     next: document.querySelector('#calendarNext')
   });
 
-  const PAGE_REGISTRY = {
+  const CALENDAR_PAGE_CONFIGS = {
     five: {
       root: '#calendarGrid',
       today: '#calendarToday',
-      favorites: () => favoriteList('matchHubFavorites'),
+      favorites: () => favoriteList(favoriteKey('five') || 'matchHubFavorites'),
       primary: () => localStorage.getItem('matchHubPrimary') || '',
       date: match => match.date,
       visual(data, id) {
@@ -56,7 +60,8 @@ window.FootballUI = window.FootballUI || {};
     },
     jleague: {
       root: '#matchCalendar',
-      favorites: () => favoriteList('sportsHubFavoriteJClubs').map(id => jClubTeamIds[id] || id),
+      favorites: () => favoriteList(favoriteKey('jleague') || 'sportsHubFavoriteJClubs')
+        .map(id => jClubTeamIds[id] || id),
       primary: () => '',
       date: match => match.date,
       visual(data, id) {
@@ -70,7 +75,7 @@ window.FootballUI = window.FootballUI || {};
     },
     national: {
       root: '#matchCalendar',
-      favorites: () => favoriteList('sportsHubFavoriteNationals'),
+      favorites: () => favoriteList(favoriteKey('national') || 'sportsHubFavoriteNationals'),
       primary: () => '',
       date: match => match.kickoff,
       visual(data, id) {
@@ -80,10 +85,11 @@ window.FootballUI = window.FootballUI || {};
     }
   };
 
-  class FootballPageAdapter {
+  class SportsPageAdapter {
     constructor(page = document.body.dataset.hub) {
       this.page = page || this.detect();
-      this.pageConfig = PAGE_REGISTRY[this.page];
+      this.pageConfig = CALENDAR_PAGE_CONFIGS[this.page];
+      this.registryConfig = registry?.get?.(this.page) || null;
     }
 
     detect() {
@@ -93,10 +99,13 @@ window.FootballUI = window.FootballUI || {};
     }
 
     getCalendarConfig(data) {
-      if (!this.pageConfig) throw new Error(`Unknown football page: ${this.page}`);
+      if (!this.pageConfig) throw new Error(`Unknown sports page: ${this.page}`);
 
       return {
         ...commonElements(),
+        page: this.page,
+        filterStorageKey: this.registryConfig?.calendar?.filterStorageKey,
+        defaultFavoriteOnly: this.registryConfig?.calendar?.defaultFavoriteOnly,
         root: document.querySelector(this.pageConfig.root),
         today: this.pageConfig.today ? document.querySelector(this.pageConfig.today) : null,
         getMatches: () => data.matches || [],
@@ -115,26 +124,37 @@ window.FootballUI = window.FootballUI || {};
     }
 
     async start() {
-      if (!this.pageConfig) throw new Error(`Unknown football page: ${this.page}`);
+      if (!this.pageConfig) throw new Error(`Unknown sports page: ${this.page}`);
       const adapter = window.FootballAdapters.create(this.page);
       const data = await adapter.load();
-      return this.register(new namespace.FootballCalendar(this.getCalendarConfig(data)));
+      const CalendarClass = namespace.SportsCalendar || namespace.FootballCalendar;
+      return this.register(new CalendarClass(this.getCalendarConfig(data)));
     }
   }
 
+  const startAdapters = () => {
+    new SportsPageAdapter()
+      .start()
+      .catch(error => console.warn('Shared sports UI unavailable', error));
+  };
+
   Object.assign(namespace, {
-    FootballPageAdapter,
-    PAGE_REGISTRY,
+    SportsPageAdapter,
+    FootballPageAdapter: SportsPageAdapter,
+    CALENDAR_PAGE_CONFIGS,
+    PAGE_REGISTRY: CALENDAR_PAGE_CONFIGS,
     favoriteList,
     jClubTeamIds
   });
 
-  namespace.bootstrap = function bootstrapFootballUI() {
-    new namespace.FootballShell(document.body.dataset.hub).render();
-    document.addEventListener('DOMContentLoaded', () => {
-      new FootballPageAdapter()
-        .start()
-        .catch(error => console.warn('Shared football UI unavailable', error));
-    });
+  namespace.bootstrap = function bootstrapSportsUI() {
+    const ShellClass = namespace.SportsShell || namespace.FootballShell;
+    new ShellClass(document.body.dataset.hub).render();
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', startAdapters, { once: true });
+    } else {
+      startAdapters();
+    }
   };
-})(window.FootballUI);
+})(sharedBootstrapUI);
