@@ -3,21 +3,22 @@ window.MLBStore = window.MLBStore || {};
 (function initializeMlbStore(namespace) {
   const asArray = value => (Array.isArray(value) ? value : []);
   const freezeArray = value => Object.freeze([...asArray(value)]);
+  const sameOrFrozenArray = (value, previous) => value === previous ? previous : freezeArray(value);
 
-  const createInitialState = (initial = {}) => Object.freeze({
+  const createInitialState = (initial = {}, previous = null) => Object.freeze({
     season: Number(initial.season || new Date().getFullYear()),
-    teams: freezeArray(initial.teams),
-    games: freezeArray(initial.games),
-    standings: freezeArray(initial.standings),
+    teams: sameOrFrozenArray(initial.teams, previous?.teams),
+    games: sameOrFrozenArray(initial.games, previous?.games),
+    standings: sameOrFrozenArray(initial.standings, previous?.standings),
     players: initial.players === null || initial.players === undefined
       ? null
-      : freezeArray(initial.players),
+      : sameOrFrozenArray(initial.players, previous?.players),
     playersLoading: Boolean(initial.playersLoading),
     selectedDate: String(initial.selectedDate || ''),
     teamFilter: String(initial.teamFilter || 'all'),
     standingFilter: String(initial.standingFilter || 'all'),
     teamQuery: String(initial.teamQuery || ''),
-    errors: freezeArray(initial.errors),
+    errors: sameOrFrozenArray(initial.errors, previous?.errors),
     loaded: Boolean(initial.loaded)
   });
 
@@ -40,9 +41,9 @@ window.MLBStore = window.MLBStore || {};
     update(patch, reason = 'update') {
       const previous = this._state;
       const value = typeof patch === 'function' ? patch(previous) : patch;
-      const next = createInitialState({ ...previous, ...(value || {}) });
+      const next = createInitialState({ ...previous, ...(value || {}) }, previous);
       const changedKeys = Object.keys(next).filter(key => next[key] !== previous[key]);
-      if (!changedKeys.length) return next;
+      if (!changedKeys.length) return previous;
 
       this._state = next;
       const change = Object.freeze({
