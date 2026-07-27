@@ -1,9 +1,12 @@
-window.FootballUI = window.FootballUI || {};
+const sharedSportsComponents = window.SportsUI || window.FootballUI || {};
+window.SportsUI = sharedSportsComponents;
+window.FootballUI = sharedSportsComponents;
 
-(function startFootballComponents(namespace) {
+(function startSportsComponents(namespace) {
   if (typeof namespace.bootstrap !== 'function') {
-    console.warn('Football UI modules are not loaded in the expected order.');
+    console.warn('Sports UI modules are not loaded in the expected order.');
     return;
   }
+
   namespace.bootstrap();
-})(window.FootballUI);
+})(sharedSportsComponents);
