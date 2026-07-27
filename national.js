@@ -29,6 +29,10 @@ const openDetail = id => { location.href = `./national-detail.html?team=${encode
 const resolveTeam = (id, name = '') => SportsHubNational.find(id) || SportsHubNational.find(name);
 const teamName = (id, fallback = '') => resolveTeam(id, fallback)?.name || fallback || id;
 const teamFlag = (id, fallback = '') => resolveTeam(id, fallback)?.flag || '🏳️';
+const teamDetailHref = (id, fallbackName = '') => {
+  const team = resolveTeam(id, fallbackName);
+  return team?.id ? `./national-detail.html?team=${encodeURIComponent(team.id)}` : '';
+};
 const dateKey = value => new Core.MatchModel({ kickoff: value }).dateKey;
 const rankingFor = (id, fallbackName = '') => fifaRankingService?.findTeam(id, fallbackName) || null;
 const rankingLabel = entry => rankingLoaded
@@ -56,8 +60,10 @@ const matchRenderer = SportsHubComponents.createMatchCardRenderer({
   normalize: match => {
     const finished = match.status === 'finished';
     const live = match.status === 'in_play';
-    const homeName = match.homeName || teamName(match.home, match.homeName);
-    const awayName = match.awayName || teamName(match.away, match.awayName);
+    const homeTeam = resolveTeam(match.home, match.homeName);
+    const awayTeam = resolveTeam(match.away, match.awayName);
+    const homeName = match.homeName || homeTeam?.name || teamName(match.home, match.homeName);
+    const awayName = match.awayName || awayTeam?.name || teamName(match.away, match.awayName);
     const matchup = fifaRankingService?.matchup(match.home, match.away, homeName, awayName) || {};
     const interest = matchup.interest || null;
     const originalStage = match.round || match.stage || '';
@@ -80,14 +86,20 @@ const matchRenderer = SportsHubComponents.createMatchCardRenderer({
         'aria-label': `${homeName}対${awayName}、注目度${interest.grade}`
       } : {},
       home: {
+        id: homeTeam?.id || match.home,
         name: teamName(match.home, match.homeName),
         flag: teamFlag(match.home, match.homeName),
-        subtitle: rankingLabel(matchup.left)
+        subtitle: rankingLabel(matchup.left),
+        href: teamDetailHref(match.home, match.homeName),
+        ariaLabel: `${homeName}代表の詳細を見る`
       },
       away: {
+        id: awayTeam?.id || match.away,
         name: teamName(match.away, match.awayName),
         flag: teamFlag(match.away, match.awayName),
-        subtitle: rankingLabel(matchup.right)
+        subtitle: rankingLabel(matchup.right),
+        href: teamDetailHref(match.away, match.awayName),
+        ariaLabel: `${awayName}代表の詳細を見る`
       }
     };
   }
