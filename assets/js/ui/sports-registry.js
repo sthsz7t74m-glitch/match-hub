@@ -15,6 +15,7 @@ window.SportsHubRegistry = window.SportsHubRegistry || {};
     title: String(config.title || id),
     version: String(config.version || ''),
     back: String(config.back || './sports-home.html'),
+    backLabel: String(config.backLabel || 'Sports Hubへ戻る'),
     favoriteStorageKey: String(config.favoriteStorageKey || ''),
     calendar: Object.freeze({
       filterStorageKey: String(config.calendar?.filterStorageKey || `footballCalendarFavoriteOnly:${id}`),
@@ -25,6 +26,7 @@ window.SportsHubRegistry = window.SportsHubRegistry || {};
 
   class SportsRegistry {
     constructor() { this.records = new Map(); }
+
     register(id, config, { replace = true } = {}) {
       const key = String(id || '').trim();
       if (!key) throw new Error('Sports registry id is required');
@@ -33,6 +35,7 @@ window.SportsHubRegistry = window.SportsHubRegistry || {};
       this.records.set(key, normalized);
       return normalized;
     }
+
     get(id) { return this.records.get(String(id || '')) || null; }
     has(id) { return this.records.has(String(id || '')); }
     list() { return [...this.records.values()]; }
@@ -43,9 +46,11 @@ window.SportsHubRegistry = window.SportsHubRegistry || {};
     target: String(target), icon: String(icon), label: String(label), badgeId: String(badgeId || '')
   });
 
+  const sharedBack = { back: './sports-home.html', backLabel: 'Sports Hubへ戻る' };
   const registry = new SportsRegistry();
 
   registry.register('five', {
+    ...sharedBack,
     sport: 'soccer', eyebrow: 'FOOTBALL SCHEDULE', title: 'Match Hub', version: 'v1.1.9',
     favoriteStorageKey: 'matchHubFavorites',
     calendar: { filterStorageKey: 'footballCalendarFavoriteOnly:five', defaultFavoriteOnly: true },
@@ -60,7 +65,8 @@ window.SportsHubRegistry = window.SportsHubRegistry || {};
   });
 
   registry.register('jleague', {
-    sport: 'soccer', eyebrow: 'JAPAN PROFESSIONAL FOOTBALL', title: 'Jリーグ', version: 'v3.2.2',
+    ...sharedBack,
+    sport: 'soccer', eyebrow: 'JAPAN PROFESSIONAL FOOTBALL', title: 'Jリーグ', version: 'v3.3.0',
     favoriteStorageKey: 'sportsHubFavoriteJClubs',
     calendar: { filterStorageKey: 'footballCalendarFavoriteOnly:jleague', defaultFavoriteOnly: true },
     navigation: {
@@ -74,7 +80,8 @@ window.SportsHubRegistry = window.SportsHubRegistry || {};
   });
 
   registry.register('national', {
-    sport: 'soccer', eyebrow: 'NATIONAL TEAMS', title: '各国代表', version: 'v3.3.1',
+    ...sharedBack,
+    sport: 'soccer', eyebrow: 'NATIONAL TEAMS', title: '各国代表', version: 'v3.3.2',
     favoriteStorageKey: 'sportsHubFavoriteNationals',
     calendar: { filterStorageKey: 'footballCalendarFavoriteOnly:national', defaultFavoriteOnly: true },
     navigation: {
@@ -88,7 +95,8 @@ window.SportsHubRegistry = window.SportsHubRegistry || {};
   });
 
   registry.register('mlb', {
-    sport: 'baseball', eyebrow: 'MAJOR LEAGUE BASEBALL', title: 'MLB', version: 'v1.0.10',
+    ...sharedBack,
+    sport: 'baseball', eyebrow: 'MAJOR LEAGUE BASEBALL', title: 'MLB', version: 'v1.0.11',
     favoriteStorageKey: 'sportsHubFavoriteMlbTeams',
     calendar: { filterStorageKey: 'footballCalendarFavoriteOnly:mlb', defaultFavoriteOnly: false },
     navigation: {
