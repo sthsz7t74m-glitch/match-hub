@@ -210,11 +210,11 @@ window.MLBRepository = window.MLBRepository || {};
       const controller = new AbortController();
       const timer = setTimeout(() => controller.abort(), SOURCE_TIMEOUT - 500);
       const requestUrl = new URL(url);
-      if (fresh) requestUrl.searchParams.set('v', String(Date.now()));
+      requestUrl.searchParams.set('v', String(fresh ? Date.now() : Math.floor(Date.now() / 60_000)));
 
       try {
         const response = await fetch(requestUrl, {
-          cache: fresh ? 'no-store' : 'default',
+          cache: 'no-store',
           signal: controller.signal,
           headers: { Accept: 'application/json' }
         });
@@ -250,28 +250,18 @@ window.MLBRepository = window.MLBRepository || {};
     async loadHub({ season = this.currentSeason(), fresh = false } = {}) {
       if (fresh) this.clear();
       const snapshot = this.readSnapshot({ season, maxAge: Number.POSITIVE_INFINITY });
+      const errors = [];
 
-      const [publishedResult, directResult] = await Promise.allSettled([
-        this.loadPublishedHub({ season, fresh }),
-        this.loadDirectHub({ season, fresh })
-      ]);
-
-      const candidates = [
-        publishedResult.status === 'fulfilled' ? publishedResult.value : null,
-        directResult.status === 'fulfilled' ? directResult.value : null
-      ].filter(Boolean);
-      const selected = candidates.find(payload => this.hasDynamicData(payload));
-
-      if (selected) {
-        this.writeSnapshot(selected);
-        return selected;
+      try {
+        const published = await this.loadPublishedHub({ season, fresh });
+        if (this.hasDynamicData(published)) {
+          this.writeSnapshot(published);
+          return published;
+        }
+        errors.push(...asArray(published.errors));
+      } catch (error) {
+        errors.push(errorMessage(error));
       }
-
-      const errors = [
-        publishedResult.status === 'rejected' ? errorMessage(publishedResult.reason) : '',
-        directResult.status === 'rejected' ? errorMessage(directResult.reason) : '',
-        ...candidates.flatMap(payload => asArray(payload.errors))
-      ].filter(Boolean);
 
       if (snapshot) {
         return {
@@ -282,12 +272,23 @@ window.MLBRepository = window.MLBRepository || {};
         };
       }
 
-      const fallback = candidates[0] || this.fallbackHub(season, errors[0] || 'MLB data unavailable');
-      return {
-        ...fallback,
-        errors: errors.length ? errors : asArray(fallback.errors),
-        degraded: true
-      };
+      try {
+        const direct = await this.loadDirectHub({ season, fresh });
+        if (this.hasDynamicData(direct)) {
+          this.writeSnapshot(direct);
+          return direct;
+        }
+        errors.push(...asArray(direct.errors));
+        return {
+          ...direct,
+          errors,
+          degraded: true
+        };
+      } catch (error) {
+        errors.push(errorMessage(error));
+      }
+
+      return this.fallbackHub(season, errors.join(' / ') || 'MLB data unavailable');
     }
 
     async loadSeasonGames({ season = this.currentSeason(), fresh = false } = {}) {
