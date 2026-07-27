@@ -32,16 +32,19 @@ jobs:
           node-version: '20'
 
       - name: Fetch official FIFA ranking
-        run: node scripts/update-fifa-rankings.mjs
+        shell: bash
+        run: |
+          set -o pipefail
+          node scripts/update-fifa-rankings.mjs 2>&1 | tee data/fifa-ranking-update.log
 
       - name: Commit ranking changes
         run: |
-          if git diff --quiet -- data/fifa-rankings.json; then
+          if git diff --quiet -- data/fifa-rankings.json data/fifa-ranking-update.log; then
             echo 'FIFA ranking is unchanged.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/fifa-rankings.json
+          git add data/fifa-rankings.json data/fifa-ranking-update.log
           git commit -m 'data: update FIFA men ranking'
           git push
