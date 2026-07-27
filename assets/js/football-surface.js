@@ -96,7 +96,7 @@ window.FootballSurface = window.FootballSurface || {};
     }
 
     async connectSharedBehavior() {
-      await loadScript('./assets/js/ui/football-navigation.js?v=1');
+      await loadScript('./assets/js/ui/football-navigation.js?v=2');
       if (this.page !== 'five') return;
 
       await loadScript('./assets/js/ui/football-calendar.js?v=4');
