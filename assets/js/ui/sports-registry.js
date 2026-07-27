@@ -66,7 +66,7 @@ window.SportsHubRegistry = window.SportsHubRegistry || {};
   registry.register('five', {
     eyebrow: 'FOOTBALL SCHEDULE',
     title: 'Match Hub',
-    version: 'v1.1.5',
+    version: 'v1.1.6',
     favoriteStorageKey: 'matchHubFavorites',
     calendar: {
       filterStorageKey: 'footballCalendarFavoriteOnly:five',
@@ -88,7 +88,7 @@ window.SportsHubRegistry = window.SportsHubRegistry || {};
   registry.register('jleague', {
     eyebrow: 'JAPAN PROFESSIONAL FOOTBALL',
     title: 'Jリーグ',
-    version: 'v3.1.8',
+    version: 'v3.1.9',
     favoriteStorageKey: 'sportsHubFavoriteJClubs',
     calendar: {
       filterStorageKey: 'footballCalendarFavoriteOnly:jleague',
@@ -109,7 +109,7 @@ window.SportsHubRegistry = window.SportsHubRegistry || {};
   registry.register('national', {
     eyebrow: 'NATIONAL TEAMS',
     title: '各国代表',
-    version: 'v3.2.5',
+    version: 'v3.2.6',
     favoriteStorageKey: 'sportsHubFavoriteNationals',
     calendar: {
       filterStorageKey: 'footballCalendarFavoriteOnly:national',
@@ -130,7 +130,7 @@ window.SportsHubRegistry = window.SportsHubRegistry || {};
   registry.register('mlb', {
     eyebrow: 'MAJOR LEAGUE BASEBALL',
     title: 'MLB',
-    version: 'v1.0.6',
+    version: 'v1.0.7',
     favoriteStorageKey: 'sportsHubFavoriteMlbTeams',
     calendar: {
       filterStorageKey: 'footballCalendarFavoriteOnly:mlb',
