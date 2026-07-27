@@ -32,6 +32,10 @@ window.FootballUI = window.FootballUI || {};
     }
   }
 
+  const start = () => {
+    namespace.navigation = namespace.bindNavigation(document.querySelector('.bottom-nav'));
+  };
+
   Object.assign(namespace, {
     FootballNavigation,
     bindNavigation(root) {
@@ -41,7 +45,9 @@ window.FootballUI = window.FootballUI || {};
     }
   });
 
-  document.addEventListener('DOMContentLoaded', () => {
-    namespace.navigation = namespace.bindNavigation(document.querySelector('.bottom-nav'));
-  });
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', start, { once: true });
+  } else {
+    start();
+  }
 })(window.FootballUI);
