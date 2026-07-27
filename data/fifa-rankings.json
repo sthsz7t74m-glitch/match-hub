@@ -3,7 +3,7 @@
   "source": "FIFA/Coca-Cola Men's World Ranking",
   "sourceUrl": "https://vod.fifa.com/en/fifa-world-ranking/men",
   "apiUrl": "https://api.fifa.com/api/v3/fifarankings/rankings/rankingsbyschedule?rankingScheduleId=FRS_Male_Football_20260611&count=500&language=en",
-  "fetchedAt": "2026-07-27T14:56:17.463Z",
+  "fetchedAt": "2026-07-27T14:58:49.723Z",
   "officialDate": "2026-07-20",
   "nextOfficialDate": "2026-10-07",
   "dateId": "FRS_Male_Football_20260611",
@@ -16,7 +16,7 @@
       "points": 1995.881879,
       "previousPoints": 1874.710778,
       "code": "ESP",
-      "name": "[object Object]",
+      "name": "Spain",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/ESP",
       "teamId": "43969"
@@ -28,7 +28,7 @@
       "points": 1970.36539,
       "previousPoints": 1877.266571,
       "code": "ARG",
-      "name": "[object Object]",
+      "name": "Argentina",
       "confederation": "CONMEBOL",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/ARG",
       "teamId": "43922"
@@ -40,7 +40,7 @@
       "points": 1948.970817,
       "previousPoints": 1870.696162,
       "code": "FRA",
-      "name": "[object Object]",
+      "name": "France",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/FRA",
       "teamId": "43946"
@@ -52,7 +52,7 @@
       "points": 1922.831632,
       "previousPoints": 1828.021903,
       "code": "ENG",
-      "name": "[object Object]",
+      "name": "England",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/ENG",
       "teamId": "43942"
@@ -64,7 +64,7 @@
       "points": 1804.923169,
       "previousPoints": 1765.856297,
       "code": "BRA",
-      "name": "[object Object]",
+      "name": "Brazil",
       "confederation": "CONMEBOL",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/BRA",
       "teamId": "43924"
@@ -76,7 +76,7 @@
       "points": 1803.987631,
       "previousPoints": 1755.100232,
       "code": "MAR",
-      "name": "[object Object]",
+      "name": "Morocco",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/MAR",
       "teamId": "43872"
@@ -88,7 +88,7 @@
       "points": 1787.854725,
       "previousPoints": 1767.849031,
       "code": "POR",
-      "name": "[object Object]",
+      "name": "Portugal",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/POR",
       "teamId": "43963"
@@ -100,7 +100,7 @@
       "points": 1778.355242,
       "previousPoints": 1742.235945,
       "code": "BEL",
-      "name": "[object Object]",
+      "name": "Belgium",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/BEL",
       "teamId": "43935"
@@ -112,7 +112,7 @@
       "points": 1775.54224,
       "previousPoints": 1753.571899,
       "code": "NED",
-      "name": "[object Object]",
+      "name": "Netherlands",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/NED",
       "teamId": "43960"
@@ -124,7 +124,7 @@
       "points": 1754.296853,
       "previousPoints": 1687.481759,
       "code": "MEX",
-      "name": "[object Object]",
+      "name": "Mexico",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/MEX",
       "teamId": "43911"
@@ -136,7 +136,7 @@
       "points": 1739.894762,
       "previousPoints": 1698.351858,
       "code": "COL",
-      "name": "[object Object]",
+      "name": "Colombia",
       "confederation": "CONMEBOL",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/COL",
       "teamId": "43926"
@@ -148,7 +148,7 @@
       "points": 1726.218839,
       "previousPoints": 1735.771984,
       "code": "GER",
-      "name": "[object Object]",
+      "name": "Germany",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/GER",
       "teamId": "43948"
@@ -160,7 +160,7 @@
       "points": 1723.050142,
       "previousPoints": 1714.865572,
       "code": "CRO",
-      "name": "[object Object]",
+      "name": "Croatia",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/CRO",
       "teamId": "43938"
@@ -172,7 +172,7 @@
       "points": 1710.884769,
       "previousPoints": 1650.064179,
       "code": "SUI",
-      "name": "[object Object]",
+      "name": "Switzerland",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/SUI",
       "teamId": "43971"
@@ -184,7 +184,7 @@
       "points": 1704.733836,
       "previousPoints": 1704.733836,
       "code": "ITA",
-      "name": "[object Object]",
+      "name": "Italy",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/ITA",
       "teamId": "43954"
@@ -196,7 +196,7 @@
       "points": 1690.330436,
       "previousPoints": 1671.2341,
       "code": "USA",
-      "name": "[object Object]",
+      "name": "USA",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/USA",
       "teamId": "43921"
@@ -208,7 +208,7 @@
       "points": 1673.67653,
       "previousPoints": 1661.576187,
       "code": "JPN",
-      "name": "[object Object]",
+      "name": "Japan",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/JPN",
       "teamId": "43819"
@@ -220,7 +220,7 @@
       "points": 1653.42859,
       "previousPoints": 1684.069879,
       "code": "SEN",
-      "name": "[object Object]",
+      "name": "Senegal",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/SEN",
       "teamId": "43879"
@@ -232,7 +232,7 @@
       "points": 1651.286867,
       "previousPoints": 1557.437664,
       "code": "NOR",
-      "name": "[object Object]",
+      "name": "Norway",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/NOR",
       "teamId": "43961"
@@ -244,7 +244,7 @@
       "points": 1634.703834,
       "previousPoints": 1673.068603,
       "code": "URU",
-      "name": "[object Object]",
+      "name": "Uruguay",
       "confederation": "CONMEBOL",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/URU",
       "teamId": "43930"
@@ -256,7 +256,7 @@
       "points": 1619.474248,
       "previousPoints": 1619.474248,
       "code": "DEN",
-      "name": "[object Object]",
+      "name": "Denmark",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/DEN",
       "teamId": "43941"
@@ -268,7 +268,7 @@
       "points": 1609.845145,
       "previousPoints": 1619.58163,
       "code": "IRN",
-      "name": "[object Object]",
+      "name": "IR Iran",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/IRN",
       "teamId": "43817"
@@ -280,7 +280,7 @@
       "points": 1598.822839,
       "previousPoints": 1597.404087,
       "code": "AUT",
-      "name": "[object Object]",
+      "name": "Austria",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/AUT",
       "teamId": "43934"
@@ -292,7 +292,7 @@
       "points": 1597.044332,
       "previousPoints": 1562.367246,
       "code": "EGY",
-      "name": "[object Object]",
+      "name": "Egypt",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/EGY",
       "teamId": "43855"
@@ -304,7 +304,7 @@
       "points": 1592.588692,
       "previousPoints": 1598.51582,
       "code": "ECU",
-      "name": "[object Object]",
+      "name": "Ecuador",
       "confederation": "CONMEBOL",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/ECU",
       "teamId": "43927"
@@ -316,7 +316,7 @@
       "points": 1585.017102,
       "previousPoints": 1585.017102,
       "code": "NGA",
-      "name": "[object Object]",
+      "name": "Nigeria",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/NGA",
       "teamId": "43876"
@@ -328,7 +328,7 @@
       "points": 1582.54473,
       "previousPoints": 1605.730921,
       "code": "TUR",
-      "name": "[object Object]",
+      "name": "Türkiye",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/TUR",
       "teamId": "43972"
@@ -340,7 +340,7 @@
       "points": 1581.5092,
       "previousPoints": 1579.34264,
       "code": "AUS",
-      "name": "[object Object]",
+      "name": "Australia",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/AUS",
       "teamId": "43976"
@@ -352,7 +352,7 @@
       "points": 1576.802787,
       "previousPoints": 1571.033293,
       "code": "ALG",
-      "name": "[object Object]",
+      "name": "Algeria",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/ALG",
       "teamId": "43843"
@@ -364,7 +364,7 @@
       "points": 1571.34137,
       "previousPoints": 1559.479301,
       "code": "CAN",
-      "name": "[object Object]",
+      "name": "Canada",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/CAN",
       "teamId": "43899"
@@ -376,7 +376,7 @@
       "points": 1565.474493,
       "previousPoints": 1540.869533,
       "code": "CIV",
-      "name": "[object Object]",
+      "name": "Côte d'Ivoire",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/CIV",
       "teamId": "43854"
@@ -388,7 +388,7 @@
       "points": 1558.719499,
       "previousPoints": 1591.630886,
       "code": "KOR",
-      "name": "[object Object]",
+      "name": "Korea Republic",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/KOR",
       "teamId": "43822"
@@ -400,7 +400,7 @@
       "points": 1549.287173,
       "previousPoints": 1549.287173,
       "code": "UKR",
-      "name": "[object Object]",
+      "name": "Ukraine",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/UKR",
       "teamId": "43973"
@@ -412,7 +412,7 @@
       "points": 1542.476023,
       "previousPoints": 1505.349689,
       "code": "PAR",
-      "name": "[object Object]",
+      "name": "Paraguay",
       "confederation": "CONMEBOL",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/PAR",
       "teamId": "43928"
@@ -424,7 +424,7 @@
       "points": 1529.602834,
       "previousPoints": 1529.602834,
       "code": "RUS",
-      "name": "[object Object]",
+      "name": "Russia",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/RUS",
       "teamId": "43965"
@@ -436,7 +436,7 @@
       "points": 1526.183359,
       "previousPoints": 1526.183359,
       "code": "POL",
-      "name": "[object Object]",
+      "name": "Poland",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/POL",
       "teamId": "43962"
@@ -448,7 +448,7 @@
       "points": 1525.578992,
       "previousPoints": 1509.785392,
       "code": "SWE",
-      "name": "[object Object]",
+      "name": "Sweden",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/SWE",
       "teamId": "43970"
@@ -460,7 +460,7 @@
       "points": 1516.946629,
       "previousPoints": 1516.946629,
       "code": "WAL",
-      "name": "[object Object]",
+      "name": "Wales",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/WAL",
       "teamId": "43974"
@@ -472,7 +472,7 @@
       "points": 1506.393663,
       "previousPoints": 1506.393663,
       "code": "HUN",
-      "name": "[object Object]",
+      "name": "Hungary",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/HUN",
       "teamId": "43950"
@@ -484,7 +484,7 @@
       "points": 1502.133186,
       "previousPoints": 1502.133186,
       "code": "SRB",
-      "name": "[object Object]",
+      "name": "Serbia",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/SRB",
       "teamId": "1902465"
@@ -496,7 +496,7 @@
       "points": 1495.476517,
       "previousPoints": 1474.427761,
       "code": "COD",
-      "name": "[object Object]",
+      "name": "Congo DR",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/COD",
       "teamId": "20014"
@@ -508,7 +508,7 @@
       "points": 1491.223887,
       "previousPoints": 1503.34027,
       "code": "SCO",
-      "name": "[object Object]",
+      "name": "Scotland",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/SCO",
       "teamId": "43967"
@@ -520,7 +520,7 @@
       "points": 1481.235245,
       "previousPoints": 1481.235245,
       "code": "CMR",
-      "name": "[object Object]",
+      "name": "Cameroon",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/CMR",
       "teamId": "43849"
@@ -532,7 +532,7 @@
       "points": 1478.411496,
       "previousPoints": 1539.155509,
       "code": "PAN",
-      "name": "[object Object]",
+      "name": "Panama",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/PAN",
       "teamId": "43914"
@@ -544,7 +544,7 @@
       "points": 1473.660727,
       "previousPoints": 1473.660727,
       "code": "SVK",
-      "name": "[object Object]",
+      "name": "Slovakia",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/SVK",
       "teamId": "44002"
@@ -556,7 +556,7 @@
       "points": 1473.187305,
       "previousPoints": 1473.187305,
       "code": "GRE",
-      "name": "[object Object]",
+      "name": "Greece",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/GRE",
       "teamId": "43949"
@@ -568,7 +568,7 @@
       "points": 1469.177672,
       "previousPoints": 1469.177672,
       "code": "VEN",
-      "name": "[object Object]",
+      "name": "Venezuela",
       "confederation": "CONMEBOL",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/VEN",
       "teamId": "43931"
@@ -580,7 +580,7 @@
       "points": 1467.260216,
       "previousPoints": 1505.737856,
       "code": "CZE",
-      "name": "[object Object]",
+      "name": "Czechia",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/CZE",
       "teamId": "43995"
@@ -592,7 +592,7 @@
       "points": 1458.196344,
       "previousPoints": 1458.196344,
       "code": "CHI",
-      "name": "[object Object]",
+      "name": "Chile",
       "confederation": "CONMEBOL",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/CHI",
       "teamId": "43925"
@@ -604,7 +604,7 @@
       "points": 1457.692964,
       "previousPoints": 1457.692964,
       "code": "PER",
-      "name": "[object Object]",
+      "name": "Peru",
       "confederation": "CONMEBOL",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/PER",
       "teamId": "43929"
@@ -616,7 +616,7 @@
       "points": 1456.029055,
       "previousPoints": 1456.029055,
       "code": "CRC",
-      "name": "[object Object]",
+      "name": "Costa Rica",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/CRC",
       "teamId": "43901"
@@ -628,7 +628,7 @@
       "points": 1455.894657,
       "previousPoints": 1455.894657,
       "code": "ROU",
-      "name": "[object Object]",
+      "name": "Romania",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/ROU",
       "teamId": "43964"
@@ -640,7 +640,7 @@
       "points": 1455.586659,
       "previousPoints": 1455.586659,
       "code": "MLI",
-      "name": "[object Object]",
+      "name": "Mali",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/MLI",
       "teamId": "43869"
@@ -652,7 +652,7 @@
       "points": 1451.241881,
       "previousPoints": 1428.379282,
       "code": "RSA",
-      "name": "[object Object]",
+      "name": "South Africa",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/RSA",
       "teamId": "43883"
@@ -664,7 +664,7 @@
       "points": 1441.096901,
       "previousPoints": 1441.096901,
       "code": "IRL",
-      "name": "[object Object]",
+      "name": "Republic of Ireland",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/IRL",
       "teamId": "43953"
@@ -676,7 +676,7 @@
       "points": 1441.087158,
       "previousPoints": 1441.087158,
       "code": "SVN",
-      "name": "[object Object]",
+      "name": "Slovenia",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/SVN",
       "teamId": "43968"
@@ -688,7 +688,7 @@
       "points": 1426.583954,
       "previousPoints": 1476.405088,
       "code": "TUN",
-      "name": "[object Object]",
+      "name": "Tunisia",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/TUN",
       "teamId": "43888"
@@ -700,7 +700,7 @@
       "points": 1425.515277,
       "previousPoints": 1423.881229,
       "code": "KSA",
-      "name": "[object Object]",
+      "name": "Saudi Arabia",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/KSA",
       "teamId": "43835"
@@ -712,7 +712,7 @@
       "points": 1411.063729,
       "previousPoints": 1450.307729,
       "code": "QAT",
-      "name": "[object Object]",
+      "name": "Qatar",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/QAT",
       "teamId": "43834"
@@ -724,7 +724,7 @@
       "points": 1409.729608,
       "previousPoints": 1458.734068,
       "code": "UZB",
-      "name": "[object Object]",
+      "name": "Uzbekistan",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/UZB",
       "teamId": "44005"
@@ -736,7 +736,7 @@
       "points": 1408.930486,
       "previousPoints": 1387.215771,
       "code": "BIH",
-      "name": "[object Object]",
+      "name": "Bosnia and Herzegovina",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/BIH",
       "teamId": "44037"
@@ -748,7 +748,7 @@
       "points": 1406.990543,
       "previousPoints": 1406.990543,
       "code": "BFA",
-      "name": "[object Object]",
+      "name": "Burkina Faso",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/BFA",
       "teamId": "43847"
@@ -760,7 +760,7 @@
       "points": 1404.172801,
       "previousPoints": 1446.279605,
       "code": "IRQ",
-      "name": "[object Object]",
+      "name": "Iraq",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/IRQ",
       "teamId": "43818"
@@ -772,7 +772,7 @@
       "points": 1402.966144,
       "previousPoints": 1371.10798,
       "code": "CPV",
-      "name": "[object Object]",
+      "name": "Cabo Verde",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/CPV",
       "teamId": "43850"
@@ -784,7 +784,7 @@
       "points": 1387.000731,
       "previousPoints": 1346.881205,
       "code": "GHA",
-      "name": "[object Object]",
+      "name": "Ghana",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/GHA",
       "teamId": "43860"
@@ -796,7 +796,7 @@
       "points": 1378.970301,
       "previousPoints": 1378.970301,
       "code": "HON",
-      "name": "[object Object]",
+      "name": "Honduras",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/HON",
       "teamId": "43909"
@@ -808,7 +808,7 @@
       "points": 1376.033234,
       "previousPoints": 1376.033234,
       "code": "ALB",
-      "name": "[object Object]",
+      "name": "Albania",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/ALB",
       "teamId": "43932"
@@ -820,7 +820,7 @@
       "points": 1370.469434,
       "previousPoints": 1370.469434,
       "code": "UAE",
-      "name": "[object Object]",
+      "name": "United Arab Emirates",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/UAE",
       "teamId": "43840"
@@ -832,7 +832,7 @@
       "points": 1369.159317,
       "previousPoints": 1369.159317,
       "code": "MKD",
-      "name": "[object Object]",
+      "name": "North Macedonia",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/MKD",
       "teamId": "44000"
@@ -844,7 +844,7 @@
       "points": 1365.296485,
       "previousPoints": 1365.296485,
       "code": "NIR",
-      "name": "[object Object]",
+      "name": "Northern Ireland",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/NIR",
       "teamId": "43952"
@@ -856,7 +856,7 @@
       "points": 1357.840144,
       "previousPoints": 1357.840144,
       "code": "JAM",
-      "name": "[object Object]",
+      "name": "Jamaica",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/JAM",
       "teamId": "43910"
@@ -868,7 +868,7 @@
       "points": 1355.261687,
       "previousPoints": 1355.261687,
       "code": "GEO",
-      "name": "[object Object]",
+      "name": "Georgia",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/GEO",
       "teamId": "43947"
@@ -880,7 +880,7 @@
       "points": 1350.411893,
       "previousPoints": 1387.738222,
       "code": "JOR",
-      "name": "[object Object]",
+      "name": "Jordan",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/JOR",
       "teamId": "43820"
@@ -892,7 +892,7 @@
       "points": 1342.771961,
       "previousPoints": 1342.771961,
       "code": "ISL",
-      "name": "[object Object]",
+      "name": "Iceland",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/ISL",
       "teamId": "43951"
@@ -904,7 +904,7 @@
       "points": 1341.922408,
       "previousPoints": 1341.922408,
       "code": "FIN",
-      "name": "[object Object]",
+      "name": "Finland",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/FIN",
       "teamId": "43945"
@@ -916,7 +916,7 @@
       "points": 1333.904007,
       "previousPoints": 1333.904007,
       "code": "ISR",
-      "name": "[object Object]",
+      "name": "Israel",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/ISR",
       "teamId": "43984"
@@ -928,7 +928,7 @@
       "points": 1325.995377,
       "previousPoints": 1325.995377,
       "code": "BOL",
-      "name": "[object Object]",
+      "name": "Bolivia",
       "confederation": "CONMEBOL",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/BOL",
       "teamId": "43923"
@@ -940,7 +940,7 @@
       "points": 1319.120924,
       "previousPoints": 1319.120924,
       "code": "KOS",
-      "name": "[object Object]",
+      "name": "Kosovo",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/KOS",
       "teamId": "1942535"
@@ -952,7 +952,7 @@
       "points": 1306.901717,
       "previousPoints": 1306.901717,
       "code": "OMA",
-      "name": "[object Object]",
+      "name": "Oman",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/OMA",
       "teamId": "43831"
@@ -964,7 +964,7 @@
       "points": 1301.977191,
       "previousPoints": 1301.977191,
       "code": "MNE",
-      "name": "[object Object]",
+      "name": "Montenegro",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/MNE",
       "teamId": "1903356"
@@ -976,7 +976,7 @@
       "points": 1295.598845,
       "previousPoints": 1295.598845,
       "code": "GUI",
-      "name": "[object Object]",
+      "name": "Guinea",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/GUI",
       "teamId": "43861"
@@ -988,7 +988,7 @@
       "points": 1285.644403,
       "previousPoints": 1294.76909,
       "code": "CUW",
-      "name": "[object Object]",
+      "name": "Curaçao",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/CUW",
       "teamId": "1895293"
@@ -1000,7 +1000,7 @@
       "points": 1283.051902,
       "previousPoints": 1283.051902,
       "code": "SYR",
-      "name": "[object Object]",
+      "name": "Syria",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/SYR",
       "teamId": "43838"
@@ -1012,7 +1012,7 @@
       "points": 1272.508139,
       "previousPoints": 1272.508139,
       "code": "GAB",
-      "name": "[object Object]",
+      "name": "Gabon",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/GAB",
       "teamId": "43858"
@@ -1024,7 +1024,7 @@
       "points": 1271.683325,
       "previousPoints": 1271.683325,
       "code": "BUL",
-      "name": "[object Object]",
+      "name": "Bulgaria",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/BUL",
       "teamId": "43936"
@@ -1036,7 +1036,7 @@
       "points": 1269.801509,
       "previousPoints": 1275.581062,
       "code": "NZL",
-      "name": "[object Object]",
+      "name": "New Zealand",
       "confederation": "OFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/NZL",
       "teamId": "43978"
@@ -1048,7 +1048,7 @@
       "points": 1265.575056,
       "previousPoints": 1265.575056,
       "code": "ANG",
-      "name": "[object Object]",
+      "name": "Angola",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/ANG",
       "teamId": "43844"
@@ -1060,7 +1060,7 @@
       "points": 1264.578423,
       "previousPoints": 1293.096585,
       "code": "HAI",
-      "name": "[object Object]",
+      "name": "Haiti",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/HAI",
       "teamId": "43908"
@@ -1072,7 +1072,7 @@
       "points": 1264.090591,
       "previousPoints": 1264.090591,
       "code": "UGA",
-      "name": "[object Object]",
+      "name": "Uganda",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/UGA",
       "teamId": "43889"
@@ -1084,7 +1084,7 @@
       "points": 1255.821846,
       "previousPoints": 1255.821846,
       "code": "ZAM",
-      "name": "[object Object]",
+      "name": "Zambia",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/ZAM",
       "teamId": "43891"
@@ -1096,7 +1096,7 @@
       "points": 1254.8091,
       "previousPoints": 1254.8091,
       "code": "CHN",
-      "name": "[object Object]",
+      "name": "China PR",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/CHN",
       "teamId": "43812"
@@ -1108,7 +1108,7 @@
       "points": 1254.406799,
       "previousPoints": 1254.406799,
       "code": "BHR",
-      "name": "[object Object]",
+      "name": "Bahrain",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/BHR",
       "teamId": "43808"
@@ -1120,7 +1120,7 @@
       "points": 1252.170944,
       "previousPoints": 1252.170944,
       "code": "BEN",
-      "name": "[object Object]",
+      "name": "Benin",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/BEN",
       "teamId": "43845"
@@ -1132,7 +1132,7 @@
       "points": 1250.803064,
       "previousPoints": 1250.803064,
       "code": "THA",
-      "name": "[object Object]",
+      "name": "Thailand",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/THA",
       "teamId": "43839"
@@ -1144,7 +1144,7 @@
       "points": 1243.713925,
       "previousPoints": 1243.713925,
       "code": "PLE",
-      "name": "[object Object]",
+      "name": "Palestine",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/PLE",
       "teamId": "43989"
@@ -1156,7 +1156,7 @@
       "points": 1242.876029,
       "previousPoints": 1242.876029,
       "code": "BLR",
-      "name": "[object Object]",
+      "name": "Belarus",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/BLR",
       "teamId": "43937"
@@ -1168,7 +1168,7 @@
       "points": 1238.74375,
       "previousPoints": 1238.74375,
       "code": "GUA",
-      "name": "[object Object]",
+      "name": "Guatemala",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/GUA",
       "teamId": "43906"
@@ -1180,7 +1180,7 @@
       "points": 1232.81815,
       "previousPoints": 1232.81815,
       "code": "LUX",
-      "name": "[object Object]",
+      "name": "Luxembourg",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/LUX",
       "teamId": "43958"
@@ -1192,7 +1192,7 @@
       "points": 1227.203805,
       "previousPoints": 1225.67943,
       "code": "VIE",
-      "name": "[object Object]",
+      "name": "Vietnam",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/VIE",
       "teamId": "43841"
@@ -1204,7 +1204,7 @@
       "points": 1225.344607,
       "previousPoints": 1225.344607,
       "code": "SLV",
-      "name": "[object Object]",
+      "name": "El Salvador",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/SLV",
       "teamId": "43904"
@@ -1216,7 +1216,7 @@
       "points": 1224.190098,
       "previousPoints": 1224.190098,
       "code": "TJK",
-      "name": "[object Object]",
+      "name": "Tajikistan",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/TJK",
       "teamId": "44003"
@@ -1228,7 +1228,7 @@
       "points": 1219.58613,
       "previousPoints": 1219.58613,
       "code": "TRI",
-      "name": "[object Object]",
+      "name": "Trinidad and Tobago",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/TRI",
       "teamId": "43920"
@@ -1240,7 +1240,7 @@
       "points": 1218.616571,
       "previousPoints": 1218.616571,
       "code": "MOZ",
-      "name": "[object Object]",
+      "name": "Mozambique",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/MOZ",
       "teamId": "43873"
@@ -1252,7 +1252,7 @@
       "points": 1202.689766,
       "previousPoints": 1202.689766,
       "code": "MAD",
-      "name": "[object Object]",
+      "name": "Madagascar",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/MAD",
       "teamId": "43867"
@@ -1264,7 +1264,7 @@
       "points": 1195.197081,
       "previousPoints": 1195.197081,
       "code": "EQG",
-      "name": "[object Object]",
+      "name": "Equatorial Guinea",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/EQG",
       "teamId": "43856"
@@ -1276,7 +1276,7 @@
       "points": 1192.157969,
       "previousPoints": 1192.157969,
       "code": "KGZ",
-      "name": "[object Object]",
+      "name": "Kyrgyz Republic",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/KGZ",
       "teamId": "43999"
@@ -1288,7 +1288,7 @@
       "points": 1189.632762,
       "previousPoints": 1189.632762,
       "code": "ARM",
-      "name": "[object Object]",
+      "name": "Armenia",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/ARM",
       "teamId": "43933"
@@ -1300,7 +1300,7 @@
       "points": 1187.9109,
       "previousPoints": 1187.9109,
       "code": "COM",
-      "name": "[object Object]",
+      "name": "Comoros",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/COM",
       "teamId": "1896913"
@@ -1312,7 +1312,7 @@
       "points": 1185.076631,
       "previousPoints": 1185.076631,
       "code": "KEN",
-      "name": "[object Object]",
+      "name": "Kenya",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/KEN",
       "teamId": "43863"
@@ -1324,7 +1324,7 @@
       "points": 1182.081264,
       "previousPoints": 1182.081264,
       "code": "LBY",
-      "name": "[object Object]",
+      "name": "Libya",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/LBY",
       "teamId": "43866"
@@ -1336,7 +1336,7 @@
       "points": 1180.780449,
       "previousPoints": 1180.780449,
       "code": "KAZ",
-      "name": "[object Object]",
+      "name": "Kazakhstan",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/KAZ",
       "teamId": "44027"
@@ -1348,7 +1348,7 @@
       "points": 1180.267847,
       "previousPoints": 1180.267847,
       "code": "TAN",
-      "name": "[object Object]",
+      "name": "Tanzania",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/TAN",
       "teamId": "43886"
@@ -1360,7 +1360,7 @@
       "points": 1176.680994,
       "previousPoints": 1176.680994,
       "code": "MTN",
-      "name": "[object Object]",
+      "name": "Mauritania",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/MTN",
       "teamId": "43870"
@@ -1372,7 +1372,7 @@
       "points": 1175.332063,
       "previousPoints": 1175.332063,
       "code": "NIG",
-      "name": "[object Object]",
+      "name": "Niger",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/NIG",
       "teamId": "43875"
@@ -1384,7 +1384,7 @@
       "points": 1172.215162,
       "previousPoints": 1172.215162,
       "code": "LBN",
-      "name": "[object Object]",
+      "name": "Lebanon",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/LBN",
       "teamId": "43825"
@@ -1396,7 +1396,7 @@
       "points": 1159.637808,
       "previousPoints": 1159.637808,
       "code": "GAM",
-      "name": "[object Object]",
+      "name": "The Gambia",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/GAM",
       "teamId": "43859"
@@ -1408,7 +1408,7 @@
       "points": 1157.223901,
       "previousPoints": 1157.223901,
       "code": "SDN",
-      "name": "[object Object]",
+      "name": "Sudan",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/SDN",
       "teamId": "43884"
@@ -1420,7 +1420,7 @@
       "points": 1157.142651,
       "previousPoints": 1157.142651,
       "code": "IDN",
-      "name": "[object Object]",
+      "name": "Indonesia",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/IDN",
       "teamId": "43816"
@@ -1432,7 +1432,7 @@
       "points": 1152.757527,
       "previousPoints": 1152.757527,
       "code": "TOG",
-      "name": "[object Object]",
+      "name": "Togo",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/TOG",
       "teamId": "43887"
@@ -1444,7 +1444,7 @@
       "points": 1151.052136,
       "previousPoints": 1151.052136,
       "code": "PRK",
-      "name": "[object Object]",
+      "name": "DPR Korea",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/PRK",
       "teamId": "43821"
@@ -1456,7 +1456,7 @@
       "points": 1148.839695,
       "previousPoints": 1148.839695,
       "code": "NAM",
-      "name": "[object Object]",
+      "name": "Namibia",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/NAM",
       "teamId": "43874"
@@ -1468,7 +1468,7 @@
       "points": 1147.560535,
       "previousPoints": 1147.560535,
       "code": "SLE",
-      "name": "[object Object]",
+      "name": "Sierra Leone",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/SLE",
       "teamId": "43881"
@@ -1480,7 +1480,7 @@
       "points": 1136.585036,
       "previousPoints": 1136.585036,
       "code": "FRO",
-      "name": "[object Object]",
+      "name": "Faroe Islands",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/FRO",
       "teamId": "43944"
@@ -1492,7 +1492,7 @@
       "points": 1133.247165,
       "previousPoints": 1133.247165,
       "code": "CYP",
-      "name": "[object Object]",
+      "name": "Cyprus",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/CYP",
       "teamId": "43939"
@@ -1504,7 +1504,7 @@
       "points": 1132.425895,
       "previousPoints": 1132.425895,
       "code": "SUR",
-      "name": "[object Object]",
+      "name": "Suriname",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/SUR",
       "teamId": "43919"
@@ -1516,7 +1516,7 @@
       "points": 1131.995112,
       "previousPoints": 1131.995112,
       "code": "AZE",
-      "name": "[object Object]",
+      "name": "Azerbaijan",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/AZE",
       "teamId": "43994"
@@ -1528,7 +1528,7 @@
       "points": 1130.63629,
       "previousPoints": 1130.63629,
       "code": "EST",
-      "name": "[object Object]",
+      "name": "Estonia",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/EST",
       "teamId": "43943"
@@ -1540,7 +1540,7 @@
       "points": 1126.622275,
       "previousPoints": 1126.622275,
       "code": "RWA",
-      "name": "[object Object]",
+      "name": "Rwanda",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/RWA",
       "teamId": "43877"
@@ -1552,7 +1552,7 @@
       "points": 1122.053591,
       "previousPoints": 1122.053591,
       "code": "MWI",
-      "name": "[object Object]",
+      "name": "Malawi",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/MWI",
       "teamId": "43868"
@@ -1564,7 +1564,7 @@
       "points": 1119.77695,
       "previousPoints": 1119.77695,
       "code": "ZIM",
-      "name": "[object Object]",
+      "name": "Zimbabwe",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/ZIM",
       "teamId": "43892"
@@ -1576,7 +1576,7 @@
       "points": 1114.634184,
       "previousPoints": 1114.634184,
       "code": "NCA",
-      "name": "[object Object]",
+      "name": "Nicaragua",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/NCA",
       "teamId": "43913"
@@ -1588,7 +1588,7 @@
       "points": 1108.381553,
       "previousPoints": 1108.381553,
       "code": "GNB",
-      "name": "[object Object]",
+      "name": "Guinea-Bissau",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/GNB",
       "teamId": "43862"
@@ -1600,7 +1600,7 @@
       "points": 1106.474587,
       "previousPoints": 1106.474587,
       "code": "KUW",
-      "name": "[object Object]",
+      "name": "Kuwait",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/KUW",
       "teamId": "43823"
@@ -1612,7 +1612,7 @@
       "points": 1105.964661,
       "previousPoints": 1105.964661,
       "code": "CGO",
-      "name": "[object Object]",
+      "name": "Congo",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/CGO",
       "teamId": "43853"
@@ -1624,7 +1624,7 @@
       "points": 1100.949959,
       "previousPoints": 1100.949959,
       "code": "PHI",
-      "name": "[object Object]",
+      "name": "Philippines",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/PHI",
       "teamId": "43833"
@@ -1636,7 +1636,7 @@
       "points": 1086.218087,
       "previousPoints": 1086.218087,
       "code": "MAS",
-      "name": "[object Object]",
+      "name": "Malaysia",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/MAS",
       "teamId": "43827"
@@ -1648,7 +1648,7 @@
       "points": 1085.660758,
       "previousPoints": 1085.660758,
       "code": "LVA",
-      "name": "[object Object]",
+      "name": "Latvia",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/LVA",
       "teamId": "43955"
@@ -1660,7 +1660,7 @@
       "points": 1084.930775,
       "previousPoints": 1084.930775,
       "code": "IND",
-      "name": "[object Object]",
+      "name": "India",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/IND",
       "teamId": "43815"
@@ -1672,7 +1672,7 @@
       "points": 1080.824745,
       "previousPoints": 1080.824745,
       "code": "CTA",
-      "name": "[object Object]",
+      "name": "Central African Republic",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/CTA",
       "teamId": "43851"
@@ -1684,7 +1684,7 @@
       "points": 1080.435325,
       "previousPoints": 1080.435325,
       "code": "LBR",
-      "name": "[object Object]",
+      "name": "Liberia",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/LBR",
       "teamId": "43865"
@@ -1696,7 +1696,7 @@
       "points": 1078.652346,
       "previousPoints": 1078.652346,
       "code": "TKM",
-      "name": "[object Object]",
+      "name": "Turkmenistan",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/TKM",
       "teamId": "44004"
@@ -1708,7 +1708,7 @@
       "points": 1078.009468,
       "previousPoints": 1078.009468,
       "code": "BDI",
-      "name": "[object Object]",
+      "name": "Burundi",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/BDI",
       "teamId": "43848"
@@ -1720,7 +1720,7 @@
       "points": 1077.520799,
       "previousPoints": 1077.520799,
       "code": "ETH",
-      "name": "[object Object]",
+      "name": "Ethiopia",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/ETH",
       "teamId": "43857"
@@ -1732,7 +1732,7 @@
       "points": 1076.498501,
       "previousPoints": 1076.498501,
       "code": "DOM",
-      "name": "[object Object]",
+      "name": "Dominican Republic",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/DOM",
       "teamId": "43903"
@@ -1744,7 +1744,7 @@
       "points": 1065.236881,
       "previousPoints": 1065.236881,
       "code": "YEM",
-      "name": "[object Object]",
+      "name": "Yemen",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/YEM",
       "teamId": "43842"
@@ -1756,7 +1756,7 @@
       "points": 1064.285838,
       "previousPoints": 1064.285838,
       "code": "LES",
-      "name": "[object Object]",
+      "name": "Lesotho",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/LES",
       "teamId": "43864"
@@ -1768,7 +1768,7 @@
       "points": 1063.631368,
       "previousPoints": 1063.631368,
       "code": "BOT",
-      "name": "[object Object]",
+      "name": "Botswana",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/BOT",
       "teamId": "43846"
@@ -1780,7 +1780,7 @@
       "points": 1057.950212,
       "previousPoints": 1057.950212,
       "code": "SGP",
-      "name": "[object Object]",
+      "name": "Singapore",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/SGP",
       "teamId": "43836"
@@ -1792,7 +1792,7 @@
       "points": 1056.850321,
       "previousPoints": 1056.850321,
       "code": "LTU",
-      "name": "[object Object]",
+      "name": "Lithuania",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/LTU",
       "teamId": "43957"
@@ -1804,7 +1804,7 @@
       "points": 1049.320241,
       "previousPoints": 1049.320241,
       "code": "GUY",
-      "name": "[object Object]",
+      "name": "Guyana",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/GUY",
       "teamId": "43907"
@@ -1816,7 +1816,7 @@
       "points": 1036.952253,
       "previousPoints": 1036.952253,
       "code": "NCL",
-      "name": "[object Object]",
+      "name": "New Caledonia",
       "confederation": "OFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/NCL",
       "teamId": "20010"
@@ -1828,7 +1828,7 @@
       "points": 1036.334924,
       "previousPoints": 1036.334924,
       "code": "SKN",
-      "name": "[object Object]",
+      "name": "St. Kitts and Nevis",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/SKN",
       "teamId": "43916"
@@ -1840,7 +1840,7 @@
       "points": 1031.894156,
       "previousPoints": 1031.894156,
       "code": "SOL",
-      "name": "[object Object]",
+      "name": "Solomon Islands",
       "confederation": "OFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/SOL",
       "teamId": "43980"
@@ -1852,7 +1852,7 @@
       "points": 1024.297312,
       "previousPoints": 1024.297312,
       "code": "PUR",
-      "name": "[object Object]",
+      "name": "Puerto Rico",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/PUR",
       "teamId": "43915"
@@ -1864,7 +1864,7 @@
       "points": 1024.172648,
       "previousPoints": 1024.172648,
       "code": "FIJ",
-      "name": "[object Object]",
+      "name": "Fiji",
       "confederation": "OFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/FIJ",
       "teamId": "43977"
@@ -1876,7 +1876,7 @@
       "points": 1024.164346,
       "previousPoints": 1024.164346,
       "code": "HKG",
-      "name": "[object Object]",
+      "name": "Hong Kong",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/HKG",
       "teamId": "43814"
@@ -1888,7 +1888,7 @@
       "points": 1019.036032,
       "previousPoints": 1019.036032,
       "code": "TAH",
-      "name": "[object Object]",
+      "name": "Tahiti",
       "confederation": "OFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/TAH",
       "teamId": "43981"
@@ -1900,7 +1900,7 @@
       "points": 1009.390464,
       "previousPoints": 1010.914839,
       "code": "MYA",
-      "name": "[object Object]",
+      "name": "Myanmar",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/MYA",
       "teamId": "43829"
@@ -1912,7 +1912,7 @@
       "points": 1008.240035,
       "previousPoints": 1008.240035,
       "code": "MDA",
-      "name": "[object Object]",
+      "name": "Moldova",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/MDA",
       "teamId": "44036"
@@ -1924,7 +1924,7 @@
       "points": 1002.530511,
       "previousPoints": 1002.530511,
       "code": "VAN",
-      "name": "[object Object]",
+      "name": "Vanuatu",
       "confederation": "OFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/VAN",
       "teamId": "43982"
@@ -1936,7 +1936,7 @@
       "points": 992.793497,
       "previousPoints": 992.793497,
       "code": "MLT",
-      "name": "[object Object]",
+      "name": "Malta",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/MLT",
       "teamId": "43959"
@@ -1948,7 +1948,7 @@
       "points": 986.584414,
       "previousPoints": 986.584414,
       "code": "ATG",
-      "name": "[object Object]",
+      "name": "Antigua and Barbuda",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/ATG",
       "teamId": "1882218"
@@ -1960,7 +1960,7 @@
       "points": 981.823973,
       "previousPoints": 981.823973,
       "code": "GRN",
-      "name": "[object Object]",
+      "name": "Grenada",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/GRN",
       "teamId": "43905"
@@ -1972,7 +1972,7 @@
       "points": 981.423455,
       "previousPoints": 981.423455,
       "code": "CUB",
-      "name": "[object Object]",
+      "name": "Cuba",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/CUB",
       "teamId": "43902"
@@ -1984,7 +1984,7 @@
       "points": 979.013939,
       "previousPoints": 979.013939,
       "code": "SWZ",
-      "name": "[object Object]",
+      "name": "Eswatini",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/SWZ",
       "teamId": "43885"
@@ -1996,7 +1996,7 @@
       "points": 976.708996,
       "previousPoints": 976.708996,
       "code": "LCA",
-      "name": "[object Object]",
+      "name": "St. Lucia",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/LCA",
       "teamId": "43917"
@@ -2008,7 +2008,7 @@
       "points": 975.053746,
       "previousPoints": 975.053746,
       "code": "BER",
-      "name": "[object Object]",
+      "name": "Bermuda",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/BER",
       "teamId": "43898"
@@ -2020,7 +2020,7 @@
       "points": 974.9011,
       "previousPoints": 974.9011,
       "code": "PNG",
-      "name": "[object Object]",
+      "name": "Papua New Guinea",
       "confederation": "OFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/PNG",
       "teamId": "43979"
@@ -2032,7 +2032,7 @@
       "points": 970.944527,
       "previousPoints": 970.944527,
       "code": "SSD",
-      "name": "[object Object]",
+      "name": "South Sudan",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/SSD",
       "teamId": "1935341"
@@ -2044,7 +2044,7 @@
       "points": 968.269638,
       "previousPoints": 968.269638,
       "code": "VIN",
-      "name": "[object Object]",
+      "name": "St. Vincent / Grenadines",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/VIN",
       "teamId": "43918"
@@ -2056,7 +2056,7 @@
       "points": 968.073401,
       "previousPoints": 968.073401,
       "code": "AFG",
-      "name": "[object Object]",
+      "name": "Afghanistan",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/AFG",
       "teamId": "20000"
@@ -2068,7 +2068,7 @@
       "points": 946.429826,
       "previousPoints": 946.429826,
       "code": "AND",
-      "name": "[object Object]",
+      "name": "Andorra",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/AND",
       "teamId": "20001"
@@ -2080,7 +2080,7 @@
       "points": 943.917901,
       "previousPoints": 943.917901,
       "code": "MDV",
-      "name": "[object Object]",
+      "name": "Maldives",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/MDV",
       "teamId": "43828"
@@ -2092,7 +2092,7 @@
       "points": 923.782643,
       "previousPoints": 923.782643,
       "code": "TPE",
-      "name": "[object Object]",
+      "name": "Chinese Taipei",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/TPE",
       "teamId": "43813"
@@ -2104,7 +2104,7 @@
       "points": 922.317911,
       "previousPoints": 922.317911,
       "code": "CAM",
-      "name": "[object Object]",
+      "name": "Cambodia",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/CAM",
       "teamId": "44009"
@@ -2116,7 +2116,7 @@
       "points": 916.75251,
       "previousPoints": 916.75251,
       "code": "MSR",
-      "name": "[object Object]",
+      "name": "Montserrat",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/MSR",
       "teamId": "20009"
@@ -2128,7 +2128,7 @@
       "points": 914.541224,
       "previousPoints": 914.541224,
       "code": "NEP",
-      "name": "[object Object]",
+      "name": "Nepal",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/NEP",
       "teamId": "43830"
@@ -2140,7 +2140,7 @@
       "points": 911.487501,
       "previousPoints": 911.487501,
       "code": "MRI",
-      "name": "[object Object]",
+      "name": "Mauritius",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/MRI",
       "teamId": "43871"
@@ -2152,7 +2152,7 @@
       "points": 909.893208,
       "previousPoints": 909.893208,
       "code": "BRB",
-      "name": "[object Object]",
+      "name": "Barbados",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/BRB",
       "teamId": "43896"
@@ -2164,7 +2164,7 @@
       "points": 907.001211,
       "previousPoints": 907.001211,
       "code": "BLZ",
-      "name": "[object Object]",
+      "name": "Belize",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/BLZ",
       "teamId": "44011"
@@ -2176,7 +2176,7 @@
       "points": 902.92965,
       "previousPoints": 902.92965,
       "code": "BAN",
-      "name": "[object Object]",
+      "name": "Bangladesh",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/BAN",
       "teamId": "43809"
@@ -2188,7 +2188,7 @@
       "points": 897.686437,
       "previousPoints": 897.686437,
       "code": "DMA",
-      "name": "[object Object]",
+      "name": "Dominica",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/DMA",
       "teamId": "43997"
@@ -2200,7 +2200,7 @@
       "points": 896.852819,
       "previousPoints": 896.852819,
       "code": "CHA",
-      "name": "[object Object]",
+      "name": "Chad",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/CHA",
       "teamId": "43852"
@@ -2212,7 +2212,7 @@
       "points": 887.063341,
       "previousPoints": 887.063341,
       "code": "ERI",
-      "name": "[object Object]",
+      "name": "Eritrea",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/ERI",
       "teamId": "20006"
@@ -2224,7 +2224,7 @@
       "points": 885.028891,
       "previousPoints": 885.028891,
       "code": "LAO",
-      "name": "[object Object]",
+      "name": "Laos",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/LAO",
       "teamId": "43824"
@@ -2236,7 +2236,7 @@
       "points": 877.534995,
       "previousPoints": 877.534995,
       "code": "COK",
-      "name": "[object Object]",
+      "name": "Cook Islands",
       "confederation": "OFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/COK",
       "teamId": "44007"
@@ -2248,7 +2248,7 @@
       "points": 876.858829,
       "previousPoints": 876.858829,
       "code": "SRI",
-      "name": "[object Object]",
+      "name": "Sri Lanka",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/SRI",
       "teamId": "43837"
@@ -2260,7 +2260,7 @@
       "points": 876.407812,
       "previousPoints": 876.407812,
       "code": "SAM",
-      "name": "[object Object]",
+      "name": "Samoa",
       "confederation": "OFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/SAM",
       "teamId": "1882637"
@@ -2272,7 +2272,7 @@
       "points": 875.61115,
       "previousPoints": 875.61115,
       "code": "ARU",
-      "name": "[object Object]",
+      "name": "Aruba",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/ARU",
       "teamId": "43894"
@@ -2284,7 +2284,7 @@
       "points": 874.469074,
       "previousPoints": 874.469074,
       "code": "MNG",
-      "name": "[object Object]",
+      "name": "Mongolia",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/MNG",
       "teamId": "20008"
@@ -2296,7 +2296,7 @@
       "points": 871.612081,
       "previousPoints": 871.612081,
       "code": "ASA",
-      "name": "[object Object]",
+      "name": "American Samoa",
       "confederation": "OFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/ASA",
       "teamId": "20012"
@@ -2308,7 +2308,7 @@
       "points": 870.806447,
       "previousPoints": 870.806447,
       "code": "BHU",
-      "name": "[object Object]",
+      "name": "Bhutan",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/BHU",
       "teamId": "20003"
@@ -2320,7 +2320,7 @@
       "points": 858.03342,
       "previousPoints": 858.03342,
       "code": "MAC",
-      "name": "[object Object]",
+      "name": "Macau",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/MAC",
       "teamId": "43826"
@@ -2332,7 +2332,7 @@
       "points": 857.733061,
       "previousPoints": 857.733061,
       "code": "BRU",
-      "name": "[object Object]",
+      "name": "Brunei",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/BRU",
       "teamId": "43810"
@@ -2344,7 +2344,7 @@
       "points": 855.438666,
       "previousPoints": 855.438666,
       "code": "STP",
-      "name": "[object Object]",
+      "name": "São Tomé and Príncipe",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/STP",
       "teamId": "43878"
@@ -2356,7 +2356,7 @@
       "points": 853.581786,
       "previousPoints": 853.581786,
       "code": "DJI",
-      "name": "[object Object]",
+      "name": "Djibouti",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/DJI",
       "teamId": "43996"
@@ -2368,7 +2368,7 @@
       "points": 850.061011,
       "previousPoints": 850.061011,
       "code": "CAY",
-      "name": "[object Object]",
+      "name": "Cayman Islands",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/CAY",
       "teamId": "43900"
@@ -2380,7 +2380,7 @@
       "points": 840.280827,
       "previousPoints": 840.280827,
       "code": "PAK",
-      "name": "[object Object]",
+      "name": "Pakistan",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/PAK",
       "teamId": "43832"
@@ -2392,7 +2392,7 @@
       "points": 839.169697,
       "previousPoints": 839.169697,
       "code": "SOM",
-      "name": "[object Object]",
+      "name": "Somalia",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/SOM",
       "teamId": "43882"
@@ -2404,7 +2404,7 @@
       "points": 835.64241,
       "previousPoints": 835.64241,
       "code": "TGA",
-      "name": "[object Object]",
+      "name": "Tonga",
       "confederation": "OFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/TGA",
       "teamId": "44039"
@@ -2416,7 +2416,7 @@
       "points": 830.998683,
       "previousPoints": 830.998683,
       "code": "TLS",
-      "name": "[object Object]",
+      "name": "Timor-Leste",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/TLS",
       "teamId": "1890334"
@@ -2428,7 +2428,7 @@
       "points": 820.260818,
       "previousPoints": 820.260818,
       "code": "GIB",
-      "name": "[object Object]",
+      "name": "Gibraltar",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/GIB",
       "teamId": "1941613"
@@ -2440,7 +2440,7 @@
       "points": 819.540575,
       "previousPoints": 819.540575,
       "code": "GUM",
-      "name": "[object Object]",
+      "name": "Guam",
       "confederation": "AFC",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/GUM",
       "teamId": "20007"
@@ -2452,7 +2452,7 @@
       "points": 804.161509,
       "previousPoints": 804.161509,
       "code": "SEY",
-      "name": "[object Object]",
+      "name": "Seychelles",
       "confederation": "CAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/SEY",
       "teamId": "43880"
@@ -2464,7 +2464,7 @@
       "points": 803.980015,
       "previousPoints": 803.980015,
       "code": "TCA",
-      "name": "[object Object]",
+      "name": "Turks and Caicos Islands",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/TCA",
       "teamId": "20011"
@@ -2476,7 +2476,7 @@
       "points": 797.701009,
       "previousPoints": 797.701009,
       "code": "LIE",
-      "name": "[object Object]",
+      "name": "Liechtenstein",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/LIE",
       "teamId": "43956"
@@ -2488,7 +2488,7 @@
       "points": 786.816217,
       "previousPoints": 786.816217,
       "code": "BAH",
-      "name": "[object Object]",
+      "name": "Bahamas",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/BAH",
       "teamId": "43895"
@@ -2500,7 +2500,7 @@
       "points": 779.764266,
       "previousPoints": 779.764266,
       "code": "VIR",
-      "name": "[object Object]",
+      "name": "US Virgin Islands",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/VIR",
       "teamId": "1881967"
@@ -2512,7 +2512,7 @@
       "points": 777.405734,
       "previousPoints": 777.405734,
       "code": "VGB",
-      "name": "[object Object]",
+      "name": "British Virgin Islands",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/VGB",
       "teamId": "20004"
@@ -2524,7 +2524,7 @@
       "points": 760.251852,
       "previousPoints": 760.251852,
       "code": "AIA",
-      "name": "[object Object]",
+      "name": "Anguilla",
       "confederation": "CONCACAF",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/AIA",
       "teamId": "20002"
@@ -2536,7 +2536,7 @@
       "points": 721.201827,
       "previousPoints": 721.201827,
       "code": "SMR",
-      "name": "[object Object]",
+      "name": "San Marino",
       "confederation": "UEFA",
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-2/SMR",
       "teamId": "43966"
