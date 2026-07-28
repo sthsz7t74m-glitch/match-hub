@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-07-28T17:48:46.941Z",
+  "updatedAt": "2026-07-28T22:15:31.652Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cx2kqvkwz17o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Savinho open to leaving Man City amid Spurs interest",
+      "titleJa": "移籍情報：Savinho open to leaving Man City amid Spurs interest",
+      "from": "",
+      "to": "",
+      "summaryJa": "Savinho open to leaving Man City amid Spurs interest移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Savinho open to leaving Man City amid Spurs interest",
+      "summary": "Manchester City winger Savinho is open to leaving the club and is keen to join Premier League rivals Tottenham.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx2kqvkwz17o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-28T19:37:04.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cwymjrm0xlwo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -50,19 +65,19 @@
       "date": "2026-07-28T16:28:44.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cy745m20827o?at_medium=RSS&at_campaign=rss",
-      "status": "agreed",
-      "player": "Dragoni",
-      "titleJa": "Chelsea set to、バルセロナからDragoniを獲得",
-      "from": "バルセロナ",
-      "to": "Chelsea set to",
-      "summaryJa": "DragoniがバルセロナからChelsea set toへ移る可能性について、合意段階の報道です。",
-      "originalTitle": "Chelsea set to sign Italy's Dragoni from Barcelona",
-      "summary": "Chelsea are set to sign Italy attacking midfielder Giulia Dragoni from Barcelona.",
-      "parsed": true,
+      "id": "https://www.bbc.co.uk/sport/football/articles/czrj8ke23g3o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Barcola agrees Liverpool move - Wednesday's gossip",
+      "titleJa": "移籍情報：Barcola agrees Liverpool move - Wednesday's gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Barcola agrees Liverpool move - Wednesday's gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Barcola agrees Liverpool move - Wednesday's gossip",
+      "summary": "PSG's Bradley Barcola verbally agrees to join Liverpool but clubs apart on valuation, Real Madrid have no plans to sell Vinicius Jr, Everton want around £70m for Iliman Ndiaye, plus more.",
+      "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cy745m20827o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-28T16:18:21.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/czrj8ke23g3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-28T21:31:10.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/cgmkv3j3yv0o?at_medium=RSS&at_campaign=rss",
@@ -93,6 +108,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cddj2m5m0p0o?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-28T14:19:01.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cy745m20827o?at_medium=RSS&at_campaign=rss",
+      "status": "agreed",
+      "player": "Dragoni",
+      "titleJa": "Chelsea set to、バルセロナからDragoniを獲得",
+      "from": "バルセロナ",
+      "to": "Chelsea set to",
+      "summaryJa": "DragoniがバルセロナからChelsea set toへ移る可能性について、合意段階の報道です。",
+      "originalTitle": "Chelsea set to sign Italy's Dragoni from Barcelona",
+      "summary": "Chelsea are set to sign Italy attacking midfielder Giulia Dragoni from Barcelona.",
+      "parsed": true,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cy745m20827o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-28T16:18:21.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c4gvew81dd0o?at_medium=RSS&at_campaign=rss",
@@ -155,21 +185,6 @@
       "date": "2026-07-27T20:02:14.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cjejwe30jpyo?at_medium=RSS&at_campaign=rss",
-      "status": "agreed",
-      "player": "Man City brace for Rodri bid - Tuesday's gossip",
-      "titleJa": "移籍情報：Man City brace for Rodri bid - Tuesday's gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Man City brace for Rodri bid - Tuesday's gossip移る可能性について、合意段階の報道です。",
-      "originalTitle": "Man City brace for Rodri bid - Tuesday's gossip",
-      "summary": "Manchester City brace for Real Madrid's Rodri bid, Leeds set to sign James Trafford for £40m, Crystal Palace agree terms with Raphael Le Guen and Real Madrid set to make second Yan Diomande offer.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cjejwe30jpyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-28T09:49:53.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/clyjxd53zkpo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "English football agrees trial to end goalkeeper tactical timeouts",
@@ -183,36 +198,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/clyjxd53zkpo?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-27T17:32:56.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c78g7pj9gyno?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Salah, Stones & Sancho - who are the Premier League free agents?",
-      "titleJa": "移籍情報：Salah, Stones & Sancho - who are the Premier League free agents?",
-      "from": "",
-      "to": "",
-      "summaryJa": "Salah, Stones & Sancho - who are the Premier League free agents?移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Salah, Stones & Sancho - who are the Premier League free agents?",
-      "summary": "BBC Sport takes a look at some of the notable out-of-contract players who playing in the English top flight last season.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c78g7pj9gyno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-27T14:05:42.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cx2d79ddvg4o?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Chelsea open talks to sign Henderson and Welbeck",
-      "titleJa": "移籍情報：Chelsea open talks to sign Henderson and Welbeck",
-      "from": "",
-      "to": "",
-      "summaryJa": "Chelsea open talks to sign Henderson and Welbeck移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Chelsea open talks to sign Henderson and Welbeck",
-      "summary": "Chelsea are in talks to sign Brentford midfielder Jordan Henderson and Brighton striker Danny Welbeck.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx2d79ddvg4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-27T18:54:31.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c62vx42zd83o?at_medium=RSS&at_campaign=rss",
@@ -243,21 +228,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqx74lpprd7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-27T05:46:37.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cre4qpq5j4wo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Rogers and Palmer can play together - Alonso",
-      "titleJa": "移籍情報：Rogers and Palmer can play together - Alonso",
-      "from": "",
-      "to": "",
-      "summaryJa": "Rogers and Palmer can play together - Alonso移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Rogers and Palmer can play together - Alonso",
-      "summary": "Chelsea manager Xabi Alonso says he has a \"plan\" to play club record £117m signing Morgan Rogers alongside Cole Palmer.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cre4qpq5j4wo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-27T06:10:05.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c39e1789j8po?at_medium=RSS&at_campaign=rss",
@@ -333,6 +303,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cdj09wx10r1o?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-28T06:33:35.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cvgjd1rr3ryo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Who has your Premiership club brought in & let go this summer?",
+      "titleJa": "移籍情報：Who has your Premiership club brought in & let go this summer?",
+      "from": "",
+      "to": "",
+      "summaryJa": "Who has your Premiership club brought in & let go this summer?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Who has your Premiership club brought in & let go this summer?",
+      "summary": "Your one-stop shop for all the ins and outs in the Scottish Premiership during the  2026 summer transfer window.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvgjd1rr3ryo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-28T15:49:55.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cr49lgg014ko?at_medium=RSS&at_campaign=rss",
