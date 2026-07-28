@@ -46,9 +46,36 @@ jobs:
           node --check assets/js/jleague-data.js
 
       - name: Fetch ESPN and official J League data
-        run: npm run update-jleague
+        id: fetch
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -o pipefail
+          npm run update-jleague 2>&1 | tee /tmp/jleague-update.log
+
+      - name: Record updater status
+        if: always()
+        env:
+          FETCH_OUTCOME: ${{ steps.fetch.outcome }}
+          HEAD_SHA: ${{ github.sha }}
+        run: |
+          node - <<'NODE'
+          const fs = require('node:fs');
+          const logPath = '/tmp/jleague-update.log';
+          const log = fs.existsSync(logPath) ? fs.readFileSync(logPath, 'utf8') : '';
+          const lines = log.trimEnd().split(/\r?\n/);
+          const status = {
+            checkedAt: new Date().toISOString(),
+            commit: process.env.HEAD_SHA,
+            outcome: process.env.FETCH_OUTCOME,
+            tail: lines.slice(-160)
+          };
+          fs.mkdirSync('data', { recursive: true });
+          fs.writeFileSync('data/jleague-update-status.json', `${JSON.stringify(status, null, 2)}\n`);
+          NODE
 
       - name: Show fetch summary
+        if: steps.fetch.outcome == 'success'
         run: |
           node - <<'NODE'
           const data = require('./data/jleague.json');
@@ -64,12 +91,25 @@ jobs:
           });
           NODE
 
-      - name: Commit and push J League data
+      - name: Commit updater result
+        if: always()
+        shell: bash
+        env:
+          FETCH_OUTCOME: ${{ steps.fetch.outcome }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/jleague.json
+          git add data/jleague-update-status.json
+          if [ "$FETCH_OUTCOME" = "success" ]; then
+            git add data/jleague.json
+          else
+            git restore data/jleague.json || true
+          fi
           git diff --cached --quiet && exit 0
-          git commit -m "chore: update J League data"
+          git commit -m "chore: record J League data update"
           git pull --rebase origin main
           git push origin HEAD:main
+
+      - name: Fail when updater failed
+        if: steps.fetch.outcome != 'success'
+        run: exit 1
