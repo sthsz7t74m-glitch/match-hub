@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T11:06:34.875Z",
+  "updatedAt": "2026-07-29T11:34:50.961Z",
   "source": "ESPN multi-competition monthly adapter",
   "competitionCount": 15,
   "competitions": [
@@ -71,7 +71,7 @@
     {
       "code": "fifa.friendly",
       "name": "国際親善試合",
-      "count": 886
+      "count": 887
     },
     {
       "code": "fifa.olympics",
@@ -47426,6 +47426,26 @@
       "penalties": null
     },
     {
+      "id": "fifa.friendly-401902245",
+      "kickoff": "2026-10-06T18:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "korea",
+      "away": "uzbekistan",
+      "homeName": "South Korea",
+      "awayName": "Uzbekistan",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
       "id": "uefa.nations-401861140",
       "kickoff": "2026-10-06T18:45Z",
       "status": "scheduled",
@@ -47719,7 +47739,7 @@
       "awayName": "France",
       "homeScore": 0,
       "awayScore": 0,
-      "venue": "",
+      "venue": "San Siro",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
@@ -48079,7 +48099,7 @@
       "awayName": "Denmark",
       "homeScore": 0,
       "awayScore": 0,
-      "venue": "",
+      "venue": "Estádio Municipal de Braga",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
