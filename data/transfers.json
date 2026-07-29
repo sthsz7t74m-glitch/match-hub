@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T16:58:00.234Z",
+  "updatedAt": "2026-07-29T21:32:19.082Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -35,6 +35,21 @@
       "date": "2026-07-29T15:42:20.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c8xnvqrxv8ro?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "'Change is inevitable' - Liverpool CEO on FSG, Iraola and consortium talks",
+      "titleJa": "移籍情報：'Change is inevitable' - Liverpool CEO on FSG, Iraola and consortium talks",
+      "from": "",
+      "to": "",
+      "summaryJa": "'Change is inevitable' - Liverpool CEO on FSG, Iraola and consortium talks移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "'Change is inevitable' - Liverpool CEO on FSG, Iraola and consortium talks",
+      "summary": "Liverpool Billy Hogan talks to BBC Sport in New York about investment, transition and why FSG aren't done yet.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8xnvqrxv8ro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-29T18:54:07.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c935lvyeykwo?at_medium=RSS&at_campaign=rss",
       "status": "agreed",
       "player": "Henderson nears Chelsea move as Welbeck has medical",
@@ -65,6 +80,36 @@
       "date": "2026-07-29T13:14:41.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cj03mr318r6o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Spain U20s midfielder Arques",
+      "titleJa": "Spain U20s midfielder Arques、London Cityへ加入",
+      "from": "",
+      "to": "London City",
+      "summaryJa": "Spain U20s midfielder ArquesがLondon Cityへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Spain U20s midfielder Arques joins London City",
+      "summary": "London City Lionesses sign Spanish youth international Daniela Arques from Sporting, subject to international clearance.",
+      "parsed": true,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cj03mr318r6o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-29T17:00:14.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cvgj861zn59o?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Real Madrid confident of Rodri deal - Thursday's gossip",
+      "titleJa": "移籍情報：Real Madrid confident of Rodri deal - Thursday's gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Real Madrid confident of Rodri deal - Thursday's gossip移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Real Madrid confident of Rodri deal - Thursday's gossip",
+      "summary": "Real Madrid confident in securing a deal for Manchester City's Rodri, Inter Milan could rekindle move for Liverpool's Curtis Jones, Aston Villa have bid for Palmeiras forward Allan rejected, plus more.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvgj861zn59o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-29T21:20:56.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cy0jwlx5pkeo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Shankland named captain as Rangers near Makhanya signing",
@@ -78,21 +123,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cy0jwlx5pkeo?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-29T14:35:42.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c1w1p797q7qo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Rayo Vallecano to move stadium over Legionnaires risk",
-      "titleJa": "移籍情報：Rayo Vallecano to move stadium over Legionnaires risk",
-      "from": "",
-      "to": "",
-      "summaryJa": "Rayo Vallecano to move stadium over Legionnaires risk移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Rayo Vallecano to move stadium over Legionnaires risk",
-      "summary": "La Liga side Rayo Vallecano are barred from playing at their home stadium just weeks before the new season over the risk of supporters contracting Legionnaires' disease.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c1w1p797q7qo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-29T10:48:24.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/cgmkv3j3yv0o?at_medium=RSS&at_campaign=rss",
@@ -110,6 +140,21 @@
       "date": "2026-07-20T16:32:51.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c1w1p797q7qo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Rayo Vallecano to move stadium over Legionnaires risk",
+      "titleJa": "移籍情報：Rayo Vallecano to move stadium over Legionnaires risk",
+      "from": "",
+      "to": "",
+      "summaryJa": "Rayo Vallecano to move stadium over Legionnaires risk移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Rayo Vallecano to move stadium over Legionnaires risk",
+      "summary": "La Liga side Rayo Vallecano are barred from playing at their home stadium just weeks before the new season over the risk of supporters contracting Legionnaires' disease.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c1w1p797q7qo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-29T10:48:24.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cm2g3dd2jxko?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Diomande's rapid and remarkable rise to Real Madrid",
@@ -125,19 +170,19 @@
       "date": "2026-07-29T06:28:17.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c0qv8e7e0l0o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Palace hold talks with ex-Arsenal defender Tomiyasu",
-      "titleJa": "移籍情報：Palace hold talks with ex-Arsenal defender Tomiyasu",
+      "id": "https://www.bbc.co.uk/sport/football/articles/crl7d6n6kp5o?at_medium=RSS&at_campaign=rss",
+      "status": "official",
+      "player": "Palace defender Imray",
+      "titleJa": "Wrexham、Palace defender Imrayの獲得を正式発表",
       "from": "",
-      "to": "",
-      "summaryJa": "Palace hold talks with ex-Arsenal defender Tomiyasu移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Palace hold talks with ex-Arsenal defender Tomiyasu",
-      "summary": "Japan's Takehiro Tomiyasu, who is training with Crystal Palace, was named as a substitute in the pre-season friendly against Lens.",
-      "parsed": false,
+      "to": "Wrexham",
+      "summaryJa": "Palace defender ImrayがWrexhamへ移る可能性について、正式発表段階の報道です。",
+      "originalTitle": "Wrexham complete signing of Palace defender Imray",
+      "summary": "Wrexham have completed the signing of Crystal Palace full-back Danny Imray, their first incoming of the summer transfer window.",
+      "parsed": true,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c0qv8e7e0l0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-29T09:22:02.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/crl7d6n6kp5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-29T18:00:20.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c5yvx3l03wno?at_medium=RSS&at_campaign=rss",
@@ -155,19 +200,19 @@
       "date": "2026-07-29T13:19:46.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c9q9xln79e1o?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Forest close in on Ivory Coast defender Diomande",
-      "titleJa": "移籍情報：Forest close in on Ivory Coast defender Diomande",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c0qv8e7e0l0o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Palace hold talks with ex-Arsenal defender Tomiyasu",
+      "titleJa": "移籍情報：Palace hold talks with ex-Arsenal defender Tomiyasu",
       "from": "",
       "to": "",
-      "summaryJa": "Forest close in on Ivory Coast defender Diomande移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Forest close in on Ivory Coast defender Diomande",
-      "summary": "Nottingham Forest are close to completing a deal for Sporting Lisbon defender Ousmane Diomande.",
+      "summaryJa": "Palace hold talks with ex-Arsenal defender Tomiyasu移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Palace hold talks with ex-Arsenal defender Tomiyasu",
+      "summary": "Japan's Takehiro Tomiyasu, who is training with Crystal Palace, was named as a substitute in the pre-season friendly against Lens.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9q9xln79e1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-29T12:41:27.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0qv8e7e0l0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-29T09:22:02.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c4g36ggy415o?at_medium=RSS&at_campaign=rss",
@@ -200,21 +245,6 @@
       "date": "2026-07-29T06:17:10.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/czrj8ke23g3o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Barcola agrees Liverpool move - Wednesday's gossip",
-      "titleJa": "移籍情報：Barcola agrees Liverpool move - Wednesday's gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Barcola agrees Liverpool move - Wednesday's gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Barcola agrees Liverpool move - Wednesday's gossip",
-      "summary": "PSG's Bradley Barcola verbally agrees to join Liverpool but clubs apart on valuation, Real Madrid have no plans to sell Vinicius Jr, Everton want around £70m for Iliman Ndiaye, plus more.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/czrj8ke23g3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-29T09:23:41.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cy8eg973jw6o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Newcastle sign Spurs forward Thomas",
@@ -243,6 +273,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/clyxgpkkp0mo?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-28T22:56:30.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c9q9xln79e1o?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Forest close in on Ivory Coast defender Diomande",
+      "titleJa": "移籍情報：Forest close in on Ivory Coast defender Diomande",
+      "from": "",
+      "to": "",
+      "summaryJa": "Forest close in on Ivory Coast defender Diomande移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Forest close in on Ivory Coast defender Diomande",
+      "summary": "Nottingham Forest are close to completing a deal for Sporting Lisbon defender Ousmane Diomande.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9q9xln79e1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-29T12:41:27.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/clyjzxv990go?at_medium=RSS&at_campaign=rss",
@@ -288,66 +333,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwymjrm0xlwo?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-28T14:43:18.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/clyer1yze4jo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Could Leeds move help Trafford challenge for England keeper spot?",
-      "titleJa": "移籍情報：Could Leeds move help Trafford challenge for England keeper spot?",
-      "from": "",
-      "to": "",
-      "summaryJa": "Could Leeds move help Trafford challenge for England keeper spot?移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Could Leeds move help Trafford challenge for England keeper spot?",
-      "summary": "BBC Sport examines how James Trafford's England chances could be affected if he completes a big-money move to Leeds.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/clyer1yze4jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-28T16:28:44.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sounds/play/p0nzvk5b?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Karel Prince: Lie Detector podcast - with Asmir Begovic",
-      "titleJa": "移籍情報：Karel Prince: Lie Detector podcast - with Asmir Begovic",
-      "from": "",
-      "to": "",
-      "summaryJa": "Karel Prince: Lie Detector podcast - with Asmir Begovic移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Karel Prince: Lie Detector podcast - with Asmir Begovic",
-      "summary": "Matchmaking with Tony Pulis, Brendan Rogers' secret transfer or Rafa Benitez's party ban?",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sounds/play/p0nzvk5b?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-29T06:00:00.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c0ly412r412o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Mancini reappointed Italy boss after Pirlo controversy",
-      "titleJa": "移籍情報：Mancini reappointed Italy boss after Pirlo controversy",
-      "from": "",
-      "to": "",
-      "summaryJa": "Mancini reappointed Italy boss after Pirlo controversy移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Mancini reappointed Italy boss after Pirlo controversy",
-      "summary": "Roberto Mancini is appointed Italy manager for a second time - just a day after Andrea Pirlo rules himself out of the running for the job and technical director Paolo Maldini resigns.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c0ly412r412o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-28T13:54:00.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c4gvew81dd0o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "England keeper Hampton extends deal at Chelsea",
-      "titleJa": "移籍情報：England keeper Hampton extends deal at Chelsea",
-      "from": "",
-      "to": "",
-      "summaryJa": "England keeper Hampton extends deal at Chelsea移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "England keeper Hampton extends deal at Chelsea",
-      "summary": "England international Hannah Hampton signs a new two-year deal with Chelsea.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c4gvew81dd0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-28T11:34:05.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c62vx42zd83o?at_medium=RSS&at_campaign=rss",
@@ -423,6 +408,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwymjrm0xlwo?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-28T14:43:18.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c4gvew81dd0o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "England keeper Hampton extends deal at Chelsea",
+      "titleJa": "移籍情報：England keeper Hampton extends deal at Chelsea",
+      "from": "",
+      "to": "",
+      "summaryJa": "England keeper Hampton extends deal at Chelsea移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "England keeper Hampton extends deal at Chelsea",
+      "summary": "England international Hannah Hampton signs a new two-year deal with Chelsea.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c4gvew81dd0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-28T11:34:05.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cy745m20827o?at_medium=RSS&at_campaign=rss",
