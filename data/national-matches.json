@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T11:34:50.961Z",
+  "updatedAt": "2026-07-30T10:41:12.880Z",
   "source": "ESPN multi-competition monthly adapter",
   "competitionCount": 15,
   "competitions": [
@@ -71,7 +71,7 @@
     {
       "code": "fifa.friendly",
       "name": "国際親善試合",
-      "count": 887
+      "count": 889
     },
     {
       "code": "fifa.olympics",
@@ -46126,6 +46126,26 @@
       "penalties": null
     },
     {
+      "id": "fifa.friendly-401902642",
+      "kickoff": "2026-09-28T10:25Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "japan",
+      "away": "venezuela",
+      "homeName": "Japan",
+      "awayName": "Venezuela",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Edion Peace Wing Hiroshima",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
       "id": "uefa.nations-401861076",
       "kickoff": "2026-09-28T16:00Z",
       "status": "scheduled",
@@ -46740,6 +46760,26 @@
       "homeScore": 0,
       "awayScore": 0,
       "venue": "Skonto Stadions",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
+      "id": "fifa.friendly-401902634",
+      "kickoff": "2026-10-02T18:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "korea",
+      "away": "venezuela",
+      "homeName": "South Korea",
+      "awayName": "Venezuela",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
