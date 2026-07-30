@@ -1,38 +1,53 @@
 {
-  "updatedAt": "2026-07-29T21:32:19.082Z",
+  "updatedAt": "2026-07-30T09:45:35.518Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cjejl274xx8o?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/ckg30v0llpxo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Is World Cup sell-off plan a step too far by Infantino?",
-      "titleJa": "移籍情報：Is World Cup sell-off plan a step too far by Infantino?",
+      "player": "Where are Newcastle in bid to be the best by 2030?",
+      "titleJa": "移籍情報：Where are Newcastle in bid to be the best by 2030?",
       "from": "",
       "to": "",
-      "summaryJa": "Is World Cup sell-off plan a step too far by Infantino?移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Is World Cup sell-off plan a step too far by Infantino?",
-      "summary": "BBC Sport explores why Fifa president Gianni Infantino feels powerful enough to sell off stakes in the World Cup - and what the consequences could be.",
+      "summaryJa": "Where are Newcastle in bid to be the best by 2030?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Where are Newcastle in bid to be the best by 2030?",
+      "summary": "As the fifth anniversary of Newcastle's takeover approaches, BBC Sport assesses whether the project to be \"the best\" is still on track.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cjejl274xx8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-29T13:48:10.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckg30v0llpxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-30T08:32:45.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c0qv8wekp7eo?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Liverpool preparing opening bid for PSG's Barcola",
-      "titleJa": "移籍情報：Liverpool preparing opening bid for PSG's Barcola",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c1e163xpzz2o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Four pointers to most open Premier League title race in years",
+      "titleJa": "移籍情報：Four pointers to most open Premier League title race in years",
       "from": "",
       "to": "",
-      "summaryJa": "Liverpool preparing opening bid for PSG's Barcola移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Liverpool preparing opening bid for PSG's Barcola",
-      "summary": "Liverpool step up their interest for Paris St-Germain's Bradley Barcola and are preparing an opening bid.",
+      "summaryJa": "Four pointers to most open Premier League title race in years移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Four pointers to most open Premier League title race in years",
+      "summary": "Three of the Premier League's \"big six\" have new managers, the champions have a key injury issue and Tottenham and Chelsea are breaking transfer records - and that might mean a very open title race.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c0qv8wekp7eo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-29T15:42:20.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c1e163xpzz2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-30T07:01:01.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/clyl1354z3yo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Phillips' struggles are a cautionary tale for Anderson",
+      "titleJa": "移籍情報：Phillips' struggles are a cautionary tale for Anderson",
+      "from": "",
+      "to": "",
+      "summaryJa": "Phillips' struggles are a cautionary tale for Anderson移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Phillips' struggles are a cautionary tale for Anderson",
+      "summary": "As Kalvin Phillips nears a fourth loan move away from Manchester City, what can record signing Elliot Anderson learn from his struggles at the Etihad?",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/clyl1354z3yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-30T06:36:56.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c8xnvqrxv8ro?at_medium=RSS&at_campaign=rss",
@@ -50,6 +65,36 @@
       "date": "2026-07-29T18:54:07.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c98vj54z450o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "How Tottenham's transfer window shows big WSL ambitions",
+      "titleJa": "移籍情報：How Tottenham's transfer window shows big WSL ambitions",
+      "from": "",
+      "to": "",
+      "summaryJa": "How Tottenham's transfer window shows big WSL ambitions移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "How Tottenham's transfer window shows big WSL ambitions",
+      "summary": "It is clear from Tottenham's summer transfer business that they have big ambitions in the Women's Super League next season.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c98vj54z450o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-30T07:14:51.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/videos/cgmkv3j3yv0o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "'I'm proud of it' - Keegan looks back on career highlights and legacy",
+      "titleJa": "移籍情報：'I'm proud of it' - Keegan looks back on career highlights and legacy",
+      "from": "",
+      "to": "",
+      "summaryJa": "'I'm proud of it' - Keegan looks back on career highlights and legacy移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "'I'm proud of it' - Keegan looks back on career highlights and legacy",
+      "summary": "Kevin Keegan talks to Football Focus' Dan Walker in 2018 about some of the standout moments from his career - from winning World Player of the Year twice, to managing England and the iconic \"I would love it\" remark from the 1995–96 season.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cgmkv3j3yv0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-20T16:32:51.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c935lvyeykwo?at_medium=RSS&at_campaign=rss",
       "status": "agreed",
       "player": "Henderson nears Chelsea move as Welbeck has medical",
@@ -63,6 +108,36 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c935lvyeykwo?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-29T10:06:35.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cjejl274xx8o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Is World Cup sell-off plan a step too far by Infantino?",
+      "titleJa": "移籍情報：Is World Cup sell-off plan a step too far by Infantino?",
+      "from": "",
+      "to": "",
+      "summaryJa": "Is World Cup sell-off plan a step too far by Infantino?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Is World Cup sell-off plan a step too far by Infantino?",
+      "summary": "BBC Sport explores why Fifa president Gianni Infantino feels powerful enough to sell off stakes in the World Cup - and what the consequences could be.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cjejl274xx8o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-29T13:48:10.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cvgj861zn59o?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Real Madrid confident of Rodri deal - Thursday's gossip",
+      "titleJa": "移籍情報：Real Madrid confident of Rodri deal - Thursday's gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Real Madrid confident of Rodri deal - Thursday's gossip移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Real Madrid confident of Rodri deal - Thursday's gossip",
+      "summary": "Real Madrid confident in securing a deal for Manchester City's Rodri, Inter Milan could rekindle move for Liverpool's Curtis Jones, Aston Villa have bid for Palmeiras forward Allan rejected, plus more.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvgj861zn59o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-29T21:20:56.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cpq8ndn0g7go?at_medium=RSS&at_campaign=rss",
@@ -95,49 +170,19 @@
       "date": "2026-07-29T17:00:14.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cvgj861zn59o?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c0qv8wekp7eo?at_medium=RSS&at_campaign=rss",
       "status": "talks",
-      "player": "Real Madrid confident of Rodri deal - Thursday's gossip",
-      "titleJa": "移籍情報：Real Madrid confident of Rodri deal - Thursday's gossip",
+      "player": "Liverpool preparing opening bid for PSG's Barcola",
+      "titleJa": "移籍情報：Liverpool preparing opening bid for PSG's Barcola",
       "from": "",
       "to": "",
-      "summaryJa": "Real Madrid confident of Rodri deal - Thursday's gossip移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Real Madrid confident of Rodri deal - Thursday's gossip",
-      "summary": "Real Madrid confident in securing a deal for Manchester City's Rodri, Inter Milan could rekindle move for Liverpool's Curtis Jones, Aston Villa have bid for Palmeiras forward Allan rejected, plus more.",
+      "summaryJa": "Liverpool preparing opening bid for PSG's Barcola移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Liverpool preparing opening bid for PSG's Barcola",
+      "summary": "Liverpool step up their interest for Paris St-Germain's Bradley Barcola and are preparing an opening bid.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvgj861zn59o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-29T21:20:56.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cy0jwlx5pkeo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Shankland named captain as Rangers near Makhanya signing",
-      "titleJa": "移籍情報：Shankland named captain as Rangers near Makhanya signing",
-      "from": "",
-      "to": "",
-      "summaryJa": "Shankland named captain as Rangers near Makhanya signing移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Shankland named captain as Rangers near Makhanya signing",
-      "summary": "Lawrence Shankland says being named Rangers captain exceeds the dream he had of playing for his boyhood team.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cy0jwlx5pkeo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-29T14:35:42.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/videos/cgmkv3j3yv0o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "'I'm proud of it' - Keegan looks back on career highlights and legacy",
-      "titleJa": "移籍情報：'I'm proud of it' - Keegan looks back on career highlights and legacy",
-      "from": "",
-      "to": "",
-      "summaryJa": "'I'm proud of it' - Keegan looks back on career highlights and legacy移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "'I'm proud of it' - Keegan looks back on career highlights and legacy",
-      "summary": "Kevin Keegan talks to Football Focus' Dan Walker in 2018 about some of the standout moments from his career - from winning World Player of the Year twice, to managing England and the iconic \"I would love it\" remark from the 1995–96 season.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cgmkv3j3yv0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-20T16:32:51.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0qv8wekp7eo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-29T15:42:20.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c1w1p797q7qo?at_medium=RSS&at_campaign=rss",
@@ -155,6 +200,21 @@
       "date": "2026-07-29T10:48:24.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cy0jwlx5pkeo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Shankland named captain as Rangers near Makhanya signing",
+      "titleJa": "移籍情報：Shankland named captain as Rangers near Makhanya signing",
+      "from": "",
+      "to": "",
+      "summaryJa": "Shankland named captain as Rangers near Makhanya signing移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Shankland named captain as Rangers near Makhanya signing",
+      "summary": "Lawrence Shankland says being named Rangers captain exceeds the dream he had of playing for his boyhood team.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cy0jwlx5pkeo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-29T14:35:42.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cm2g3dd2jxko?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Diomande's rapid and remarkable rise to Real Madrid",
@@ -168,21 +228,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm2g3dd2jxko?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-29T06:28:17.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/crl7d6n6kp5o?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "Palace defender Imray",
-      "titleJa": "Wrexham、Palace defender Imrayの獲得を正式発表",
-      "from": "",
-      "to": "Wrexham",
-      "summaryJa": "Palace defender ImrayがWrexhamへ移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "Wrexham complete signing of Palace defender Imray",
-      "summary": "Wrexham have completed the signing of Crystal Palace full-back Danny Imray, their first incoming of the summer transfer window.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crl7d6n6kp5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-29T18:00:20.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c5yvx3l03wno?at_medium=RSS&at_campaign=rss",
@@ -200,36 +245,6 @@
       "date": "2026-07-29T13:19:46.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c0qv8e7e0l0o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Palace hold talks with ex-Arsenal defender Tomiyasu",
-      "titleJa": "移籍情報：Palace hold talks with ex-Arsenal defender Tomiyasu",
-      "from": "",
-      "to": "",
-      "summaryJa": "Palace hold talks with ex-Arsenal defender Tomiyasu移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Palace hold talks with ex-Arsenal defender Tomiyasu",
-      "summary": "Japan's Takehiro Tomiyasu, who is training with Crystal Palace, was named as a substitute in the pre-season friendly against Lens.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c0qv8e7e0l0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-29T09:22:02.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c4g36ggy415o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Middlesbrough sign USA midfielder Berhalter",
-      "titleJa": "移籍情報：Middlesbrough sign USA midfielder Berhalter",
-      "from": "",
-      "to": "",
-      "summaryJa": "Middlesbrough sign USA midfielder Berhalter移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Middlesbrough sign USA midfielder Berhalter",
-      "summary": "Middlesbrough sign Vancouver Whitecaps midfielder Sebastian Berhalter for an undisclosed fee on a four-year deal.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c4g36ggy415o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-29T08:30:29.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cx2kqvkwz17o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Savinho open to leaving Man City amid Spurs interest",
@@ -243,6 +258,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cx2kqvkwz17o?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-29T06:17:10.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/crl7d6n6kp5o?at_medium=RSS&at_campaign=rss",
+      "status": "official",
+      "player": "Palace defender Imray",
+      "titleJa": "Wrexham、Palace defender Imrayの獲得を正式発表",
+      "from": "",
+      "to": "Wrexham",
+      "summaryJa": "Palace defender ImrayがWrexhamへ移る可能性について、正式発表段階の報道です。",
+      "originalTitle": "Wrexham complete signing of Palace defender Imray",
+      "summary": "Wrexham have completed the signing of Crystal Palace full-back Danny Imray, their first incoming of the summer transfer window.",
+      "parsed": true,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crl7d6n6kp5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-29T18:00:20.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cy8eg973jw6o?at_medium=RSS&at_campaign=rss",
@@ -260,6 +290,21 @@
       "date": "2026-07-29T14:21:31.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c0qv8e7e0l0o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Palace hold talks with ex-Arsenal defender Tomiyasu",
+      "titleJa": "移籍情報：Palace hold talks with ex-Arsenal defender Tomiyasu",
+      "from": "",
+      "to": "",
+      "summaryJa": "Palace hold talks with ex-Arsenal defender Tomiyasu移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Palace hold talks with ex-Arsenal defender Tomiyasu",
+      "summary": "Japan's Takehiro Tomiyasu, who is training with Crystal Palace, was named as a substitute in the pre-season friendly against Lens.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0qv8e7e0l0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-29T09:22:02.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/clyxgpkkp0mo?at_medium=RSS&at_campaign=rss",
       "status": "official",
       "player": "Are there already worrying signs for Vrancken's Hearts?",
@@ -275,19 +320,19 @@
       "date": "2026-07-28T22:56:30.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c9q9xln79e1o?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Forest close in on Ivory Coast defender Diomande",
-      "titleJa": "移籍情報：Forest close in on Ivory Coast defender Diomande",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c4g36ggy415o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Middlesbrough sign USA midfielder Berhalter",
+      "titleJa": "移籍情報：Middlesbrough sign USA midfielder Berhalter",
       "from": "",
       "to": "",
-      "summaryJa": "Forest close in on Ivory Coast defender Diomande移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Forest close in on Ivory Coast defender Diomande",
-      "summary": "Nottingham Forest are close to completing a deal for Sporting Lisbon defender Ousmane Diomande.",
+      "summaryJa": "Middlesbrough sign USA midfielder Berhalter移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Middlesbrough sign USA midfielder Berhalter",
+      "summary": "Middlesbrough sign Vancouver Whitecaps midfielder Sebastian Berhalter for an undisclosed fee on a four-year deal.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9q9xln79e1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-29T12:41:27.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c4g36ggy415o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-29T08:30:29.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/clyjzxv990go?at_medium=RSS&at_campaign=rss",
@@ -320,21 +365,6 @@
       "date": "2026-07-28T14:19:01.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cwymjrm0xlwo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Celtic 'a really good match' for record signing Hogh",
-      "titleJa": "移籍情報：Celtic 'a really good match' for record signing Hogh",
-      "from": "",
-      "to": "",
-      "summaryJa": "Celtic 'a really good match' for record signing Hogh移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Celtic 'a really good match' for record signing Hogh",
-      "summary": "Celtic break their transfer record to sign Denmark striker Kasper Hogh from Bodo/Glimt on a four-year contract.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwymjrm0xlwo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-28T14:43:18.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c62vx42zd83o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Real Madrid contract talks and Arsenal interest - what is Vinicius Jr's future?",
@@ -365,21 +395,6 @@
       "date": "2026-07-25T07:35:48.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c1eyjvzeg8qo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Anderson's journey to England star and  Man City record signing",
-      "titleJa": "移籍情報：Anderson's journey to England star and  Man City record signing",
-      "from": "",
-      "to": "",
-      "summaryJa": "Anderson's journey to England star and  Man City record signing移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Anderson's journey to England star and  Man City record signing",
-      "summary": "Elliot Anderson was a key part of England's World Cup side and is now Manchester City's record signing.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c1eyjvzeg8qo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-23T17:16:34.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c3vy76rvk06o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "All done deals in July 2026",
@@ -395,19 +410,34 @@
       "date": "2026-07-29T14:24:08.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cwymjrm0xlwo?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/cgmkwnyyxlzo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Celtic 'a really good match' for record buy Hogh - what will he bring?",
-      "titleJa": "移籍情報：Celtic 'a really good match' for record buy Hogh - what will he bring?",
+      "player": "'Everton eye Celtic's Johnston amid Patterson interest' - gossip",
+      "titleJa": "移籍情報：'Everton eye Celtic's Johnston amid Patterson interest' - gossip",
       "from": "",
       "to": "",
-      "summaryJa": "Celtic 'a really good match' for record buy Hogh - what will he bring?移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Celtic 'a really good match' for record buy Hogh - what will he bring?",
-      "summary": "Celtic break their transfer record to sign Denmark striker Kasper Hogh from Bodo/Glimt on a four-year contract.",
+      "summaryJa": "'Everton eye Celtic's Johnston amid Patterson interest' - gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "'Everton eye Celtic's Johnston amid Patterson interest' - gossip",
+      "summary": "Everton are linked with interest in Celtic's Alistair Johnston with Nathan Patterson tipped to exit, while Nadim Bajrami reportedly nears an exit from Rangers.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwymjrm0xlwo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-28T14:43:18.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/cgmkwnyyxlzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-30T07:06:36.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c2dk0xxwgyno?at_medium=RSS&at_campaign=rss",
+      "status": "official",
+      "player": "London City host Man Utd to kick off WSL season",
+      "titleJa": "移籍情報：London City host Man Utd to kick off WSL season",
+      "from": "",
+      "to": "",
+      "summaryJa": "London City host Man Utd to kick off WSL season移る可能性について、正式発表段階の報道です。",
+      "originalTitle": "London City host Man Utd to kick off WSL season",
+      "summary": "London City Lionesses are handed a Women's Super League opener against Manchester United as the Women's Super League fixtures are announced.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c2dk0xxwgyno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-30T09:00:23.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c4gvew81dd0o?at_medium=RSS&at_campaign=rss",
@@ -423,21 +453,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c4gvew81dd0o?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-28T11:34:05.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cy745m20827o?at_medium=RSS&at_campaign=rss",
-      "status": "agreed",
-      "player": "Dragoni",
-      "titleJa": "Chelsea set to、バルセロナからDragoniを獲得",
-      "from": "バルセロナ",
-      "to": "Chelsea set to",
-      "summaryJa": "DragoniがバルセロナからChelsea set toへ移る可能性について、合意段階の報道です。",
-      "originalTitle": "Chelsea set to sign Italy's Dragoni from Barcelona",
-      "summary": "Chelsea are set to sign Italy attacking midfielder Giulia Dragoni from Barcelona.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cy745m20827o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-28T16:18:21.000Z"
     }
   ]
 }
