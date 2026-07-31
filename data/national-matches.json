@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T10:41:12.880Z",
+  "updatedAt": "2026-07-31T11:36:35.003Z",
   "source": "ESPN multi-competition monthly adapter",
   "competitionCount": 15,
   "competitions": [
@@ -71,7 +71,7 @@
     {
       "code": "fifa.friendly",
       "name": "国際親善試合",
-      "count": 889
+      "count": 891
     },
     {
       "code": "fifa.olympics",
@@ -47046,6 +47046,26 @@
       "penalties": null
     },
     {
+      "id": "fifa.friendly-401903233",
+      "kickoff": "2026-10-03T18:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "india",
+      "away": "brazil",
+      "homeName": "India",
+      "awayName": "Brazil",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Vivekananda Yuba Bharati Krirangan Stadium",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
       "id": "uefa.nations-401861116",
       "kickoff": "2026-10-03T18:45Z",
       "status": "scheduled",
@@ -47460,6 +47480,26 @@
       "homeScore": 0,
       "awayScore": 0,
       "venue": "Astana Arena",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
+      "id": "fifa.friendly-401903298",
+      "kickoff": "2026-10-06T18:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "mexico",
+      "away": "chile",
+      "homeName": "Mexico",
+      "awayName": "Chile",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Los Angeles Memorial Coliseum",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
