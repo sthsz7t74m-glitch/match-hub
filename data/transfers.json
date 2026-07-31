@@ -1,24 +1,9 @@
 {
-  "updatedAt": "2026-07-31T18:07:21.936Z",
+  "updatedAt": "2026-07-31T22:14:34.906Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c2dkj03jp34o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "'At least I'll sleep well tonight' - Fifa executive",
-      "titleJa": "'At least I'll sleep well tonight' - Fifa executive、Burnham in questioning Infantinoへ加入",
-      "from": "",
-      "to": "Burnham in questioning Infantino",
-      "summaryJa": "'At least I'll sleep well tonight' - Fifa executiveがBurnham in questioning Infantinoへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "'At least I'll sleep well tonight' - Fifa executive joins Burnham in questioning Infantino",
-      "summary": "Fifa's chief operating officer strongly criticises Gianni Infantino's plan to sell stakes in competitions to private investors.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c2dkj03jp34o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-31T17:45:11.000Z"
-    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c74gdn2w3d7o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -185,21 +170,6 @@
       "date": "2026-07-30T14:39:37.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cp30lp0z4qpo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Elliott ready to take 'second chance' at Liverpool",
-      "titleJa": "移籍情報：Elliott ready to take 'second chance' at Liverpool",
-      "from": "",
-      "to": "",
-      "summaryJa": "Elliott ready to take 'second chance' at Liverpool移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Elliott ready to take 'second chance' at Liverpool",
-      "summary": "Harvey Elliott discusses his \"tough\" loan spell at Aston Villa and why he's determined to enjoy his football again at Liverpool.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cp30lp0z4qpo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-30T17:32:01.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c1e163xpzz2o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Four pointers to most open Premier League title race in years",
@@ -213,6 +183,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c1e163xpzz2o?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-30T07:01:01.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cp30lp0z4qpo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Elliott ready to take 'second chance' at Liverpool",
+      "titleJa": "移籍情報：Elliott ready to take 'second chance' at Liverpool",
+      "from": "",
+      "to": "",
+      "summaryJa": "Elliott ready to take 'second chance' at Liverpool移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Elliott ready to take 'second chance' at Liverpool",
+      "summary": "Harvey Elliott discusses his \"tough\" loan spell at Aston Villa and why he's determined to enjoy his football again at Liverpool.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cp30lp0z4qpo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-30T17:32:01.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cx2r015jjl0o?at_medium=RSS&at_campaign=rss",
@@ -243,21 +228,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cg4d11g46lpo?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-30T10:03:45.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cz7dlyq1qnwo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Tonali 'took 10 minutes' to decide to",
-      "titleJa": "Tonali 'took 10 minutes' to decide to、トッテナムへ加入",
-      "from": "",
-      "to": "トッテナム",
-      "summaryJa": "Tonali 'took 10 minutes' to decide toがトッテナムへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Tonali 'took 10 minutes' to decide to join Spurs",
-      "summary": "Club-record £100m signing Sandro Tonali took \"10 minutes\" to decide to join Tottenham after meeting manager Roberto de Zerbi.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cz7dlyq1qnwo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-30T16:01:58.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c2dk0xxwgyno?at_medium=RSS&at_campaign=rss",
