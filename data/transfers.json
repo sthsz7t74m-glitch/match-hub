@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T08:42:32.787Z",
+  "updatedAt": "2026-08-01T12:43:56.732Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -65,19 +65,19 @@
       "date": "2026-07-31T09:44:48.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c3r04pdlw22o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Celtic reject West Ham Engels bid and confirm Johnston interest",
-      "titleJa": "移籍情報：Celtic reject West Ham Engels bid and confirm Johnston interest",
+      "id": "https://www.bbc.co.uk/sport/football/articles/crr8r4zvj5jo?at_medium=RSS&at_campaign=rss",
+      "status": "agreed",
+      "player": "Bournemouth agree £26m fee for Benfica defender Silva",
+      "titleJa": "移籍情報：Bournemouth agree £26m fee for Benfica defender Silva",
       "from": "",
       "to": "",
-      "summaryJa": "Celtic reject West Ham Engels bid and confirm Johnston interest移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Celtic reject West Ham Engels bid and confirm Johnston interest",
-      "summary": "Celtic reject a West Ham approach for Arne Engels while there is Everton interest in Alistair Johnston, manager Martin O'Neill confirms.",
+      "summaryJa": "Bournemouth agree £26m fee for Benfica defender Silva移る可能性について、合意段階の報道です。",
+      "originalTitle": "Bournemouth agree £26m fee for Benfica defender Silva",
+      "summary": "Bournemouth agree a deal worth up to almost £26m for Benfica centre-back Antonio Silva.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c3r04pdlw22o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-31T14:15:10.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/crr8r4zvj5jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-31T08:03:13.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cy745m20827o?at_medium=RSS&at_campaign=rss",
@@ -95,19 +95,19 @@
       "date": "2026-07-31T16:52:15.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/crr8r4zvj5jo?at_medium=RSS&at_campaign=rss",
-      "status": "agreed",
-      "player": "Bournemouth agree £26m fee for Benfica defender Silva",
-      "titleJa": "移籍情報：Bournemouth agree £26m fee for Benfica defender Silva",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c3r04pdlw22o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Celtic reject West Ham Engels bid and confirm Johnston interest",
+      "titleJa": "移籍情報：Celtic reject West Ham Engels bid and confirm Johnston interest",
       "from": "",
       "to": "",
-      "summaryJa": "Bournemouth agree £26m fee for Benfica defender Silva移る可能性について、合意段階の報道です。",
-      "originalTitle": "Bournemouth agree £26m fee for Benfica defender Silva",
-      "summary": "Bournemouth agree a deal worth up to almost £26m for Benfica centre-back Antonio Silva.",
+      "summaryJa": "Celtic reject West Ham Engels bid and confirm Johnston interest移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Celtic reject West Ham Engels bid and confirm Johnston interest",
+      "summary": "Celtic reject a West Ham approach for Arne Engels while there is Everton interest in Alistair Johnston, manager Martin O'Neill confirms.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crr8r4zvj5jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-31T08:03:13.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c3r04pdlw22o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-31T14:15:10.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cqjx755vp0xo?at_medium=RSS&at_campaign=rss",
@@ -140,21 +140,6 @@
       "date": "2026-07-30T19:06:53.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cp3rklgggn5o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Stones",
-      "titleJa": "Stones、Inter Milan on free transferへ加入",
-      "from": "",
-      "to": "Inter Milan on free transfer",
-      "summaryJa": "StonesがInter Milan on free transferへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Defender Stones joins Inter Milan on free transfer",
-      "summary": "England defender John Stones joins Italian Serie A champions Inter Milan on a free transfer and signs a two-year contract.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cp3rklgggn5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-30T18:36:32.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cgewqpp5e57o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Newcastle captain Guimaraes expected to",
@@ -168,6 +153,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cgewqpp5e57o?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-30T14:39:37.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cp3rklgggn5o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Stones",
+      "titleJa": "Stones、Inter Milan on free transferへ加入",
+      "from": "",
+      "to": "Inter Milan on free transfer",
+      "summaryJa": "StonesがInter Milan on free transferへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Defender Stones joins Inter Milan on free transfer",
+      "summary": "England defender John Stones joins Italian Serie A champions Inter Milan on a free transfer and signs a two-year contract.",
+      "parsed": true,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cp3rklgggn5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-30T18:36:32.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cp30lp0z4qpo?at_medium=RSS&at_campaign=rss",
@@ -213,36 +213,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cg4d11g46lpo?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-30T10:03:45.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c2dk0xxwgyno?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "London City host Man Utd to kick off WSL season",
-      "titleJa": "移籍情報：London City host Man Utd to kick off WSL season",
-      "from": "",
-      "to": "",
-      "summaryJa": "London City host Man Utd to kick off WSL season移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "London City host Man Utd to kick off WSL season",
-      "summary": "London City Lionesses are handed a Women's Super League opener against Manchester United as the Women's Super League fixtures are announced.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c2dk0xxwgyno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-30T09:00:23.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/clyl1354z3yo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Phillips' struggles are a cautionary tale for Anderson",
-      "titleJa": "移籍情報：Phillips' struggles are a cautionary tale for Anderson",
-      "from": "",
-      "to": "",
-      "summaryJa": "Phillips' struggles are a cautionary tale for Anderson移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Phillips' struggles are a cautionary tale for Anderson",
-      "summary": "As Kalvin Phillips nears a fourth loan move away from Manchester City, what can record signing Elliot Anderson learn from his struggles at the Etihad?",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/clyl1354z3yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-30T06:36:56.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c1e163xpzz2o?at_medium=RSS&at_campaign=rss",
@@ -305,19 +275,19 @@
       "date": "2026-07-30T07:14:51.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c3vy76rvk06o?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "All done deals in July 2026",
-      "titleJa": "移籍情報：All done deals in July 2026",
+      "player": "All done deals in August 2026",
+      "titleJa": "移籍情報：All done deals in August 2026",
       "from": "",
       "to": "",
-      "summaryJa": "All done deals in July 2026移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "All done deals in July 2026",
+      "summaryJa": "All done deals in August 2026移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "All done deals in August 2026",
       "summary": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c3vy76rvk06o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-31T11:55:29.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-01T09:58:25.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cvg7nz21x0vo?at_medium=RSS&at_campaign=rss",
@@ -363,6 +333,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cy8ejv6j5wwo?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-31T22:40:49.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c2dk0xxwgyno?at_medium=RSS&at_campaign=rss",
+      "status": "official",
+      "player": "London City host Man Utd to kick off WSL season",
+      "titleJa": "移籍情報：London City host Man Utd to kick off WSL season",
+      "from": "",
+      "to": "",
+      "summaryJa": "London City host Man Utd to kick off WSL season移る可能性について、正式発表段階の報道です。",
+      "originalTitle": "London City host Man Utd to kick off WSL season",
+      "summary": "London City Lionesses are handed a Women's Super League opener against Manchester United as the Women's Super League fixtures are announced.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c2dk0xxwgyno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-30T09:00:23.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cj03mr318r6o?at_medium=RSS&at_campaign=rss",
