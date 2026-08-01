@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T22:14:34.906Z",
+  "updatedAt": "2026-08-01T08:42:32.787Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -18,6 +18,36 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c74gdn2w3d7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-31T16:09:53.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c07rpvkym70o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Arsenal agree Guimaraes fee - Saturday's gossip",
+      "titleJa": "移籍情報：Arsenal agree Guimaraes fee - Saturday's gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Arsenal agree Guimaraes fee - Saturday's gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Arsenal agree Guimaraes fee - Saturday's gossip",
+      "summary": "Arsenal and Newcastle agree Bruno Guimaraes fee, Inter Milan increase Curtis Jones bid and Cristian Romero explores Spanish move, plus more.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c07rpvkym70o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-31T23:09:35.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/videos/cgmkv3j3yv0o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "'I'm proud of it' - Keegan looks back on career highlights and legacy",
+      "titleJa": "移籍情報：'I'm proud of it' - Keegan looks back on career highlights and legacy",
+      "from": "",
+      "to": "",
+      "summaryJa": "'I'm proud of it' - Keegan looks back on career highlights and legacy移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "'I'm proud of it' - Keegan looks back on career highlights and legacy",
+      "summary": "Kevin Keegan talks to Football Focus' Dan Walker in 2018 about some of the standout moments from his career - from winning World Player of the Year twice, to managing England and the iconic \"I would love it\" remark from the 1995–96 season.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cgmkv3j3yv0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-20T16:32:51.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/ckgvlz45l3eo?at_medium=RSS&at_campaign=rss",
@@ -63,21 +93,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cy745m20827o?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-31T16:52:15.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/videos/cgmkv3j3yv0o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "'I'm proud of it' - Keegan looks back on career highlights and legacy",
-      "titleJa": "移籍情報：'I'm proud of it' - Keegan looks back on career highlights and legacy",
-      "from": "",
-      "to": "",
-      "summaryJa": "'I'm proud of it' - Keegan looks back on career highlights and legacy移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "'I'm proud of it' - Keegan looks back on career highlights and legacy",
-      "summary": "Kevin Keegan talks to Football Focus' Dan Walker in 2018 about some of the standout moments from his career - from winning World Player of the Year twice, to managing England and the iconic \"I would love it\" remark from the 1995–96 season.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cgmkv3j3yv0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-20T16:32:51.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/crr8r4zvj5jo?at_medium=RSS&at_campaign=rss",
@@ -140,21 +155,6 @@
       "date": "2026-07-30T18:36:32.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c78g4jn43zko?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Howe going as spending rules bite - troubles for Newcastle's Saudi owners",
-      "titleJa": "移籍情報：Howe going as spending rules bite - troubles for Newcastle's Saudi owners",
-      "from": "",
-      "to": "",
-      "summaryJa": "Howe going as spending rules bite - troubles for Newcastle's Saudi owners移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Howe going as spending rules bite - troubles for Newcastle's Saudi owners",
-      "summary": "Newcastle United wanted to become one of the world's top clubs under their Saudi owners - but Eddie Howe's decision to leave is a sign of the troubles they are facing.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c78g4jn43zko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-30T12:31:22.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cgewqpp5e57o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Newcastle captain Guimaraes expected to",
@@ -168,21 +168,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cgewqpp5e57o?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-30T14:39:37.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c1e163xpzz2o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Four pointers to most open Premier League title race in years",
-      "titleJa": "移籍情報：Four pointers to most open Premier League title race in years",
-      "from": "",
-      "to": "",
-      "summaryJa": "Four pointers to most open Premier League title race in years移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Four pointers to most open Premier League title race in years",
-      "summary": "Three of the Premier League's \"big six\" have new managers, the champions have a key injury issue and Tottenham and Chelsea are breaking transfer records - and that might mean a very open title race.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c1e163xpzz2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-30T07:01:01.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cp30lp0z4qpo?at_medium=RSS&at_campaign=rss",
@@ -245,6 +230,51 @@
       "date": "2026-07-30T09:00:23.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/clyl1354z3yo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Phillips' struggles are a cautionary tale for Anderson",
+      "titleJa": "移籍情報：Phillips' struggles are a cautionary tale for Anderson",
+      "from": "",
+      "to": "",
+      "summaryJa": "Phillips' struggles are a cautionary tale for Anderson移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Phillips' struggles are a cautionary tale for Anderson",
+      "summary": "As Kalvin Phillips nears a fourth loan move away from Manchester City, what can record signing Elliot Anderson learn from his struggles at the Etihad?",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/clyl1354z3yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-30T06:36:56.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c1e163xpzz2o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Four pointers to most open Premier League title race in years",
+      "titleJa": "移籍情報：Four pointers to most open Premier League title race in years",
+      "from": "",
+      "to": "",
+      "summaryJa": "Four pointers to most open Premier League title race in years移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Four pointers to most open Premier League title race in years",
+      "summary": "Three of the Premier League's \"big six\" have new managers, the champions have a key injury issue and Tottenham and Chelsea are breaking transfer records - and that might mean a very open title race.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c1e163xpzz2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-30T07:01:01.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c78g4jn43zko?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Howe going as spending rules bite - troubles for Newcastle's Saudi owners",
+      "titleJa": "移籍情報：Howe going as spending rules bite - troubles for Newcastle's Saudi owners",
+      "from": "",
+      "to": "",
+      "summaryJa": "Howe going as spending rules bite - troubles for Newcastle's Saudi owners移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Howe going as spending rules bite - troubles for Newcastle's Saudi owners",
+      "summary": "Newcastle United wanted to become one of the world's top clubs under their Saudi owners - but Eddie Howe's decision to leave is a sign of the troubles they are facing.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c78g4jn43zko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-30T12:31:22.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cm2g3dd2jxko?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Diomande's rapid and remarkable rise to Real Madrid",
@@ -275,21 +305,6 @@
       "date": "2026-07-30T07:14:51.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cddj2m5m0p0o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "After 16 days of chaos, can Italian football reset for new era?",
-      "titleJa": "移籍情報：After 16 days of chaos, can Italian football reset for new era?",
-      "from": "",
-      "to": "",
-      "summaryJa": "After 16 days of chaos, can Italian football reset for new era?移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "After 16 days of chaos, can Italian football reset for new era?",
-      "summary": "Chaos consumed Italian football as Paolo Maldini and Leonardo resigned during the search for a manager – can Roberto Mancini now bring calm on being given the role?",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cddj2m5m0p0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-28T14:19:01.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c3vy76rvk06o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "All done deals in July 2026",
@@ -303,6 +318,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c3vy76rvk06o?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-31T11:55:29.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cvg7nz21x0vo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Celtic & Rangers chase winger Ghedjemis - gossip",
+      "titleJa": "移籍情報：Celtic & Rangers chase winger Ghedjemis - gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Celtic & Rangers chase winger Ghedjemis - gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Celtic & Rangers chase winger Ghedjemis - gossip",
+      "summary": "Old Firm rivals in chase for Italy-based winger, with German midfielder set on a move to Celtic...",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvg7nz21x0vo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-01T08:21:55.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c3r04pdlw22o?at_medium=RSS&at_campaign=rss",
@@ -320,19 +350,19 @@
       "date": "2026-07-31T14:15:10.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cvgj0q46m6po?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/cy8ejv6j5wwo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Hearts boss targets another title tilt despite style change",
-      "titleJa": "移籍情報：Hearts boss targets another title tilt despite style change",
+      "player": "Bowie makes loan switch to Serie A side Sassuolo",
+      "titleJa": "移籍情報：Bowie makes loan switch to Serie A side Sassuolo",
       "from": "",
       "to": "",
-      "summaryJa": "Hearts boss targets another title tilt despite style change移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Hearts boss targets another title tilt despite style change",
-      "summary": "Heart of Midlothian head coach Wouter Vrancken is looking to replicate last season's strong Scottish Premiership showing despite his players having to adapt to \"a totally different style of play\".",
+      "summaryJa": "Bowie makes loan switch to Serie A side Sassuolo移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Bowie makes loan switch to Serie A side Sassuolo",
+      "summary": "Scotland international Kieron Bowie has completed a loan move from Hellas Verona to Serie A side Sassuolo.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvgj0q46m6po?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-31T14:00:42.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/cy8ejv6j5wwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-31T22:40:49.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cj03mr318r6o?at_medium=RSS&at_campaign=rss",
