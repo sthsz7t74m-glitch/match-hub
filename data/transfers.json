@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-08-01T18:47:28.268Z",
+  "updatedAt": "2026-08-02T07:18:45.618Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c5y32lgr67no?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "What happened to star signings your club never made?",
+      "titleJa": "移籍情報：What happened to star signings your club never made?",
+      "from": "",
+      "to": "",
+      "summaryJa": "What happened to star signings your club never made?移る可能性について、交渉段階の報道です。",
+      "originalTitle": "What happened to star signings your club never made?",
+      "summary": "BBC Sport takes a look at some star players who were close to moving to the Premier League, only for the deals to fall through.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5y32lgr67no?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-02T05:42:58.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cly5g1vy3p3o?at_medium=RSS&at_campaign=rss",
       "status": "official",
@@ -50,6 +65,21 @@
       "date": "2026-08-01T16:48:26.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/ckg9jlzwrnro?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Salah close to Trabzonspor move - Sunday's gossip",
+      "titleJa": "移籍情報：Salah close to Trabzonspor move - Sunday's gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Salah close to Trabzonspor move - Sunday's gossip移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Salah close to Trabzonspor move - Sunday's gossip",
+      "summary": "Mohamed Salah edging towards a move to Trabzonspor, Bayern Munich keen on Manchester United striker Benjamin Sesko and Man City boss Enzo Maresca wants to work with Chelsea winger Pedro Neto again.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckg9jlzwrnro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-01T21:23:22.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/videos/cn9nyqxw52go?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Watch Chelsea newcomer Welbeck's PL goals from last season",
@@ -78,21 +108,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cgmkv3j3yv0o?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-20T16:32:51.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c07rpvkym70o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Arsenal agree Guimaraes fee - Saturday's gossip",
-      "titleJa": "移籍情報：Arsenal agree Guimaraes fee - Saturday's gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Arsenal agree Guimaraes fee - Saturday's gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Arsenal agree Guimaraes fee - Saturday's gossip",
-      "summary": "Arsenal and Newcastle agree Bruno Guimaraes fee, Inter Milan increase Curtis Jones bid and Cristian Romero explores Spanish move, plus more.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c07rpvkym70o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-31T23:09:35.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cgljn7l17eno?at_medium=RSS&at_campaign=rss",
@@ -125,19 +140,19 @@
       "date": "2026-07-31T16:09:53.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/ckgvlz45l3eo?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "AC Milan and Italy great Baresi dies aged 66",
-      "titleJa": "移籍情報：AC Milan and Italy great Baresi dies aged 66",
+      "id": "https://www.bbc.co.uk/sport/football/articles/czxe062y199o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Oshoala revives Nigeria's Wafcon and World Cup bid",
+      "titleJa": "移籍情報：Oshoala revives Nigeria's Wafcon and World Cup bid",
       "from": "",
       "to": "",
-      "summaryJa": "AC Milan and Italy great Baresi dies aged 66移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "AC Milan and Italy great Baresi dies aged 66",
-      "summary": "AC Milan and Italy great Franco Baresi has died at the age of 66, the Italian club announces.",
+      "summaryJa": "Oshoala revives Nigeria's Wafcon and World Cup bid移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Oshoala revives Nigeria's Wafcon and World Cup bid",
+      "summary": "Asisat Oshoala scores the only goal as Nigeria beat Zambia at Wafcon 2026 to revive the West Africans' hopes of reaching the 2027 Women's World Cup.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckgvlz45l3eo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-31T09:44:48.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/czxe062y199o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-01T22:23:37.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/crr8r4zvj5jo?at_medium=RSS&at_campaign=rss",
@@ -155,21 +170,6 @@
       "date": "2026-07-31T08:03:13.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cy745m20827o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Dragoni",
-      "titleJa": "チェルシー、バルセロナからDragoniを獲得",
-      "from": "バルセロナ",
-      "to": "チェルシー",
-      "summaryJa": "Dragoniがバルセロナからチェルシーへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Chelsea sign Italy's Dragoni from Barcelona",
-      "summary": "Chelsea sign Italy attacking midfielder Giulia Dragoni from Barcelona on a four-year contract.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cy745m20827o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-31T16:52:15.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c3r04pdlw22o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Celtic reject West Ham Engels bid and confirm Johnston interest",
@@ -185,19 +185,34 @@
       "date": "2026-07-31T14:15:10.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cqjx755vp0xo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Head coach Matos agrees new Swansea contract",
-      "titleJa": "移籍情報：Head coach Matos agrees new Swansea contract",
+      "id": "https://www.bbc.co.uk/sport/football/articles/ckgvlz45l3eo?at_medium=RSS&at_campaign=rss",
+      "status": "official",
+      "player": "AC Milan and Italy great Baresi dies aged 66",
+      "titleJa": "移籍情報：AC Milan and Italy great Baresi dies aged 66",
       "from": "",
       "to": "",
-      "summaryJa": "Head coach Matos agrees new Swansea contract移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Head coach Matos agrees new Swansea contract",
-      "summary": "Swansea City head coach Vitor Matos agrees a new contract that ties him to the Championship club until 2030.",
+      "summaryJa": "AC Milan and Italy great Baresi dies aged 66移る可能性について、正式発表段階の報道です。",
+      "originalTitle": "AC Milan and Italy great Baresi dies aged 66",
+      "summary": "AC Milan and Italy great Franco Baresi has died at the age of 66, the Italian club announces.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqjx755vp0xo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-31T15:00:25.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckgvlz45l3eo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-31T09:44:48.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cy745m20827o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Dragoni",
+      "titleJa": "チェルシー、バルセロナからDragoniを獲得",
+      "from": "バルセロナ",
+      "to": "チェルシー",
+      "summaryJa": "Dragoniがバルセロナからチェルシーへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Chelsea sign Italy's Dragoni from Barcelona",
+      "summary": "Chelsea sign Italy attacking midfielder Giulia Dragoni from Barcelona on a four-year contract.",
+      "parsed": true,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cy745m20827o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-31T16:52:15.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c1e163xpzz2o?at_medium=RSS&at_campaign=rss",
@@ -213,51 +228,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c1e163xpzz2o?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-30T07:01:01.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c78g4jn43zko?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Howe going as spending rules bite - troubles for Newcastle's Saudi owners",
-      "titleJa": "移籍情報：Howe going as spending rules bite - troubles for Newcastle's Saudi owners",
-      "from": "",
-      "to": "",
-      "summaryJa": "Howe going as spending rules bite - troubles for Newcastle's Saudi owners移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Howe going as spending rules bite - troubles for Newcastle's Saudi owners",
-      "summary": "Newcastle United wanted to become one of the world's top clubs under their Saudi owners - but Eddie Howe's decision to leave is a sign of the troubles they are facing.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c78g4jn43zko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-30T12:31:22.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cm2g3dd2jxko?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Diomande's rapid and remarkable rise to Real Madrid",
-      "titleJa": "移籍情報：Diomande's rapid and remarkable rise to Real Madrid",
-      "from": "",
-      "to": "",
-      "summaryJa": "Diomande's rapid and remarkable rise to Real Madrid移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Diomande's rapid and remarkable rise to Real Madrid",
-      "summary": "Yan Diomande has quickly gone from being a relatively unknown winger to the brink of becoming Real Madrid's record signing.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm2g3dd2jxko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-29T06:28:17.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c98vj54z450o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "How Tottenham's transfer window shows big WSL ambitions",
-      "titleJa": "移籍情報：How Tottenham's transfer window shows big WSL ambitions",
-      "from": "",
-      "to": "",
-      "summaryJa": "How Tottenham's transfer window shows big WSL ambitions移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "How Tottenham's transfer window shows big WSL ambitions",
-      "summary": "It is clear from Tottenham's summer transfer business that they have big ambitions in the Women's Super League next season.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c98vj54z450o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-30T07:14:51.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
@@ -290,21 +260,6 @@
       "date": "2026-08-01T08:21:55.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c3r04pdlw22o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Celtic reject Engels bid and confirm Johnston interest",
-      "titleJa": "移籍情報：Celtic reject Engels bid and confirm Johnston interest",
-      "from": "",
-      "to": "",
-      "summaryJa": "Celtic reject Engels bid and confirm Johnston interest移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Celtic reject Engels bid and confirm Johnston interest",
-      "summary": "Celtic reject a West Ham approach for Arne Engels while there is Everton interest in Alistair Johnston, manager Martin O'Neill confirms.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c3r04pdlw22o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-31T14:15:10.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c2dk0xxwgyno?at_medium=RSS&at_campaign=rss",
       "status": "official",
       "player": "London City host Man Utd to kick off WSL season",
@@ -320,6 +275,21 @@
       "date": "2026-07-30T09:00:23.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c98vj54z450o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "How Tottenham's transfer window shows big WSL ambitions",
+      "titleJa": "移籍情報：How Tottenham's transfer window shows big WSL ambitions",
+      "from": "",
+      "to": "",
+      "summaryJa": "How Tottenham's transfer window shows big WSL ambitions移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "How Tottenham's transfer window shows big WSL ambitions",
+      "summary": "It is clear from Tottenham's summer transfer business that they have big ambitions in the Women's Super League next season.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c98vj54z450o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-30T07:14:51.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cj03mr318r6o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Spain U20s midfielder Arques",
@@ -333,21 +303,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cj03mr318r6o?at_medium=RSS&at_campaign=rss",
       "date": "2026-07-29T17:00:14.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cy8eg973jw6o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Newcastle sign Spurs forward Thomas",
-      "titleJa": "移籍情報：Newcastle sign Spurs forward Thomas",
-      "from": "",
-      "to": "",
-      "summaryJa": "Newcastle sign Spurs forward Thomas移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Newcastle sign Spurs forward Thomas",
-      "summary": "WSL 2 side Newcastle United sign Scotland forward Martha Thomas for an undisclosed fee.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cy8eg973jw6o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-29T14:21:31.000Z"
     }
   ]
 }
