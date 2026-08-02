@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T07:18:45.618Z",
+  "updatedAt": "2026-08-02T12:43:20.163Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -18,6 +18,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c5y32lgr67no?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-02T05:42:58.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/ckg9jlzwrnro?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Salah close to Trabzonspor move - Sunday's gossip",
+      "titleJa": "移籍情報：Salah close to Trabzonspor move - Sunday's gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Salah close to Trabzonspor move - Sunday's gossip移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Salah close to Trabzonspor move - Sunday's gossip",
+      "summary": "Mohamed Salah edging towards a move to Trabzonspor, Bayern Munich keen on Manchester United striker Benjamin Sesko and Man City boss Enzo Maresca wants to work with Chelsea winger Pedro Neto again.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckg9jlzwrnro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-01T21:23:22.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cly5g1vy3p3o?at_medium=RSS&at_campaign=rss",
@@ -65,21 +80,6 @@
       "date": "2026-08-01T16:48:26.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/ckg9jlzwrnro?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Salah close to Trabzonspor move - Sunday's gossip",
-      "titleJa": "移籍情報：Salah close to Trabzonspor move - Sunday's gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Salah close to Trabzonspor move - Sunday's gossip移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Salah close to Trabzonspor move - Sunday's gossip",
-      "summary": "Mohamed Salah edging towards a move to Trabzonspor, Bayern Munich keen on Manchester United striker Benjamin Sesko and Man City boss Enzo Maresca wants to work with Chelsea winger Pedro Neto again.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckg9jlzwrnro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-01T21:23:22.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/videos/cn9nyqxw52go?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Watch Chelsea newcomer Welbeck's PL goals from last season",
@@ -125,19 +125,19 @@
       "date": "2026-08-01T13:39:03.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c74gdn2w3d7o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Newcastle confirm Howe resignation as head coach",
-      "titleJa": "移籍情報：Newcastle confirm Howe resignation as head coach",
+      "id": "https://www.bbc.co.uk/sport/football/articles/crr8r4zvj5jo?at_medium=RSS&at_campaign=rss",
+      "status": "agreed",
+      "player": "Bournemouth agree £26m fee for Benfica defender Silva",
+      "titleJa": "移籍情報：Bournemouth agree £26m fee for Benfica defender Silva",
       "from": "",
       "to": "",
-      "summaryJa": "Newcastle confirm Howe resignation as head coach移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Newcastle confirm Howe resignation as head coach",
-      "summary": "Eddie Howe steps down as head coach of Newcastle United after nearly five years in charge.",
+      "summaryJa": "Bournemouth agree £26m fee for Benfica defender Silva移る可能性について、合意段階の報道です。",
+      "originalTitle": "Bournemouth agree £26m fee for Benfica defender Silva",
+      "summary": "Bournemouth agree a deal worth up to almost £26m for Benfica centre-back Antonio Silva.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c74gdn2w3d7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-31T16:09:53.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/crr8r4zvj5jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-31T08:03:13.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/czxe062y199o?at_medium=RSS&at_campaign=rss",
@@ -155,19 +155,19 @@
       "date": "2026-08-01T22:23:37.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/crr8r4zvj5jo?at_medium=RSS&at_campaign=rss",
-      "status": "agreed",
-      "player": "Bournemouth agree £26m fee for Benfica defender Silva",
-      "titleJa": "移籍情報：Bournemouth agree £26m fee for Benfica defender Silva",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c74gdn2w3d7o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Newcastle confirm Howe resignation as head coach",
+      "titleJa": "移籍情報：Newcastle confirm Howe resignation as head coach",
       "from": "",
       "to": "",
-      "summaryJa": "Bournemouth agree £26m fee for Benfica defender Silva移る可能性について、合意段階の報道です。",
-      "originalTitle": "Bournemouth agree £26m fee for Benfica defender Silva",
-      "summary": "Bournemouth agree a deal worth up to almost £26m for Benfica centre-back Antonio Silva.",
+      "summaryJa": "Newcastle confirm Howe resignation as head coach移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Newcastle confirm Howe resignation as head coach",
+      "summary": "Eddie Howe steps down as head coach of Newcastle United after nearly five years in charge.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crr8r4zvj5jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-31T08:03:13.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c74gdn2w3d7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-31T16:09:53.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c3r04pdlw22o?at_medium=RSS&at_campaign=rss",
@@ -200,21 +200,6 @@
       "date": "2026-07-31T09:44:48.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cy745m20827o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Dragoni",
-      "titleJa": "チェルシー、バルセロナからDragoniを獲得",
-      "from": "バルセロナ",
-      "to": "チェルシー",
-      "summaryJa": "Dragoniがバルセロナからチェルシーへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Chelsea sign Italy's Dragoni from Barcelona",
-      "summary": "Chelsea sign Italy attacking midfielder Giulia Dragoni from Barcelona on a four-year contract.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cy745m20827o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-07-31T16:52:15.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c1e163xpzz2o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Four pointers to most open Premier League title race in years",
@@ -245,19 +230,34 @@
       "date": "2026-08-01T16:53:33.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cvg7nz21x0vo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Celtic & Rangers chase winger Ghedjemis - gossip",
-      "titleJa": "移籍情報：Celtic & Rangers chase winger Ghedjemis - gossip",
+      "id": "https://www.bbc.co.uk/sport/football/articles/cvg9q171y8qo?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Celtic to make new bid for Gineitis - gossip",
+      "titleJa": "移籍情報：Celtic to make new bid for Gineitis - gossip",
       "from": "",
       "to": "",
-      "summaryJa": "Celtic & Rangers chase winger Ghedjemis - gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Celtic & Rangers chase winger Ghedjemis - gossip",
-      "summary": "Old Firm rivals in chase for Italy-based winger, with German midfielder set on a move to Celtic...",
+      "summaryJa": "Celtic to make new bid for Gineitis - gossip移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Celtic to make new bid for Gineitis - gossip",
+      "summary": "Celtic up their offer for Serie A midfielder as Rangers open talks for winger from newly-promoted Premier League team...",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvg7nz21x0vo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-01T08:21:55.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvg9q171y8qo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-02T09:54:06.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cy745m20827o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Dragoni",
+      "titleJa": "チェルシー、バルセロナからDragoniを獲得",
+      "from": "バルセロナ",
+      "to": "チェルシー",
+      "summaryJa": "Dragoniがバルセロナからチェルシーへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Chelsea sign Italy's Dragoni from Barcelona",
+      "summary": "Chelsea sign Italy attacking midfielder Giulia Dragoni from Barcelona on a four-year contract.",
+      "parsed": true,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cy745m20827o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-07-31T16:52:15.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c2dk0xxwgyno?at_medium=RSS&at_campaign=rss",
