@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-08-03T18:29:22.082Z",
+  "updatedAt": "2026-08-04T06:42:43.446Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cy74e6yzvm7o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Man City count on me despite exit rumours - Kovacic",
+      "titleJa": "移籍情報：Man City count on me despite exit rumours - Kovacic",
+      "from": "",
+      "to": "",
+      "summaryJa": "Man City count on me despite exit rumours - Kovacic移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Man City count on me despite exit rumours - Kovacic",
+      "summary": "Manchester City's Mateo Kovacic says the club \"count on me\" despite the midfielder being linked with a move away this summer.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cy74e6yzvm7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-04T06:00:02.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c62qnnrzqk5o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -18,6 +33,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c62qnnrzqk5o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-03T15:17:56.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c5yv049xqpzo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Garcia and Palacios",
+      "titleJa": "フラム、レアル・マドリードからGarcia and Palaciosを獲得",
+      "from": "レアル・マドリード",
+      "to": "フラム",
+      "summaryJa": "Garcia and Palaciosがレアル・マドリードからフラムへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Fulham sign Garcia and Palacios from Real Madrid",
+      "summary": "Fulham sign Gonzalo Garcia and Cesar Palacios from Real Madrid on five-year deals.",
+      "parsed": true,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5yv049xqpzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-03T21:18:39.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cgljgk65j25o?at_medium=RSS&at_campaign=rss",
@@ -35,19 +65,19 @@
       "date": "2026-08-03T15:39:32.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/ckge3g8dl95o?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/cy5dqynxdezo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Real to resume talks with Arsenal target Vinicius Jr",
-      "titleJa": "移籍情報：Real to resume talks with Arsenal target Vinicius Jr",
+      "player": "Fenerbahce ready huge Rashford offer - Tuesday's gossip",
+      "titleJa": "移籍情報：Fenerbahce ready huge Rashford offer - Tuesday's gossip",
       "from": "",
       "to": "",
-      "summaryJa": "Real to resume talks with Arsenal target Vinicius Jr移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Real to resume talks with Arsenal target Vinicius Jr",
-      "summary": "Real Madrid and Vinicius Jr will resume contract talks this week as Arsenal wait in the wings.",
+      "summaryJa": "Fenerbahce ready huge Rashford offer - Tuesday's gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Fenerbahce ready huge Rashford offer - Tuesday's gossip",
+      "summary": "Fenerbahce prepared to break the bank for Marcus Rashford, RB Leipzig hold out on Real Madrid over Yan Diomande deal, Arsenal open talks for Bruno Guimaraes",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckge3g8dl95o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-03T17:30:32.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/cy5dqynxdezo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-03T20:26:32.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c5yepj80j9xo?at_medium=RSS&at_campaign=rss",
@@ -80,6 +110,21 @@
       "date": "2026-08-01T16:08:25.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/ckge3g8dl95o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Real to resume talks with Arsenal target Vinicius Jr",
+      "titleJa": "移籍情報：Real to resume talks with Arsenal target Vinicius Jr",
+      "from": "",
+      "to": "",
+      "summaryJa": "Real to resume talks with Arsenal target Vinicius Jr移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Real to resume talks with Arsenal target Vinicius Jr",
+      "summary": "Real Madrid and Vinicius Jr will resume contract talks this week as Arsenal wait in the wings.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckge3g8dl95o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-03T17:30:32.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c3ekzyz1qj8o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Newcastle sign Braga keeper Hornicek for £25.7m",
@@ -95,21 +140,6 @@
       "date": "2026-08-03T08:00:39.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cwymplydl82o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Ex-Man City striker Dzeko, 40, pens new Schalke deal",
-      "titleJa": "移籍情報：Ex-Man City striker Dzeko, 40, pens new Schalke deal",
-      "from": "",
-      "to": "",
-      "summaryJa": "Ex-Man City striker Dzeko, 40, pens new Schalke deal移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Ex-Man City striker Dzeko, 40, pens new Schalke deal",
-      "summary": "Bosnia and Herzegovina captain Edin Dzeko, 40, signs a one-year contract extension at newly promoted Bundesliga side Schalke.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwymplydl82o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-03T15:37:14.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c0qvpzd80qlo?at_medium=RSS&at_campaign=rss",
       "status": "official",
       "player": "Palace sign Tottenham defender Bartrip",
@@ -123,6 +153,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c0qvpzd80qlo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-03T16:00:37.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cwymplydl82o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Ex-Man City striker Dzeko, 40, pens new Schalke deal",
+      "titleJa": "移籍情報：Ex-Man City striker Dzeko, 40, pens new Schalke deal",
+      "from": "",
+      "to": "",
+      "summaryJa": "Ex-Man City striker Dzeko, 40, pens new Schalke deal移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Ex-Man City striker Dzeko, 40, pens new Schalke deal",
+      "summary": "Bosnia and Herzegovina captain Edin Dzeko, 40, signs a one-year contract extension at newly promoted Bundesliga side Schalke.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwymplydl82o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-03T15:37:14.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c87nxvyq4yqo?at_medium=RSS&at_campaign=rss",
@@ -200,21 +245,6 @@
       "date": "2026-08-02T16:00:36.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cn7n66edplno?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Spurs make Osimhen approach - Monday's gossip",
-      "titleJa": "移籍情報：Spurs make Osimhen approach - Monday's gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Spurs make Osimhen approach - Monday's gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Spurs make Osimhen approach - Monday's gossip",
-      "summary": "Tottenham make an approach for Victor Osimhen, Atletico Madrid consider a move for Manchester City winger Jack Grealish, Liverpool forward Cody Gakpo has positive talks with Spurs, plus more.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cn7n66edplno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-03T10:54:44.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c0m7w21v2rzo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Aston Villa set-piece guru MacPhee",
@@ -275,21 +305,6 @@
       "date": "2026-08-02T12:44:37.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cwyle0nl810o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Gold family agrees to sell West Ham stake to Staveley",
-      "titleJa": "移籍情報：Gold family agrees to sell West Ham stake to Staveley",
-      "from": "",
-      "to": "",
-      "summaryJa": "Gold family agrees to sell West Ham stake to Staveley移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Gold family agrees to sell West Ham stake to Staveley",
-      "summary": "Former West Ham co-owner David Gold's daughter Vanessa confirms plans to sell shares to a consortium headed by ex-Newcastle co-owner Amanda Staveley.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwyle0nl810o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-01T16:53:12.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c1e163xpzz2o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Four pointers to most open Premier League title race in years",
@@ -317,7 +332,7 @@
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-03T15:29:19.000Z"
+      "date": "2026-08-03T20:57:33.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/czxe062y199o?at_medium=RSS&at_campaign=rss",
