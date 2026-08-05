@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-08-05T18:08:09.495Z",
+  "updatedAt": "2026-08-05T22:32:17.577Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cm2gvlnjndpo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Norgaard",
+      "titleJa": "エヴァートン、アーセナルからNorgaardを獲得",
+      "from": "アーセナル",
+      "to": "エヴァートン",
+      "summaryJa": "Norgaardがアーセナルからエヴァートンへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Everton sign midfielder Norgaard from Arsenal",
+      "summary": "Everton sign Denmark midfielder Christian Norgaard from Arsenal on a two-year contract for a reported fee of £7m.",
+      "parsed": true,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm2gvlnjndpo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-05T21:18:29.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cx2dpejpv70o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -65,21 +80,6 @@
       "date": "2026-08-05T15:22:36.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/clyl2e351vlo?at_medium=RSS&at_campaign=rss",
-      "status": "agreed",
-      "player": "Why Arsenal are signing Newcastle captain Guimaraes",
-      "titleJa": "移籍情報：Why Arsenal are signing Newcastle captain Guimaraes",
-      "from": "",
-      "to": "",
-      "summaryJa": "Why Arsenal are signing Newcastle captain Guimaraes移る可能性について、合意段階の報道です。",
-      "originalTitle": "Why Arsenal are signing Newcastle captain Guimaraes",
-      "summary": "With Bruno Guimaraes set to sign for Premier League champions Arsenal, BBC Sport look at why the Gunners wanted the Newcastle skipper.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/clyl2e351vlo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-05T11:55:50.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c4g4k0ep23vo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "No WSL experience but who is new Man Utd boss Olid?",
@@ -93,6 +93,36 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c4g4k0ep23vo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-05T14:44:37.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cr59z307my1o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Real Madrid agree £120m Diomande deal - Thursday gossip",
+      "titleJa": "移籍情報：Real Madrid agree £120m Diomande deal - Thursday gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Real Madrid agree £120m Diomande deal - Thursday gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Real Madrid agree £120m Diomande deal - Thursday gossip",
+      "summary": "Real Madrid reach £120m agreement for Yan Diomande, Liverpool explore move for Ibrahim Mbaye and Aston Villa reach agreement to sign Matteo Ruggeri.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cr59z307my1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-05T20:17:47.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/clyl2e351vlo?at_medium=RSS&at_campaign=rss",
+      "status": "agreed",
+      "player": "Why Arsenal are signing Newcastle captain Guimaraes",
+      "titleJa": "移籍情報：Why Arsenal are signing Newcastle captain Guimaraes",
+      "from": "",
+      "to": "",
+      "summaryJa": "Why Arsenal are signing Newcastle captain Guimaraes移る可能性について、合意段階の報道です。",
+      "originalTitle": "Why Arsenal are signing Newcastle captain Guimaraes",
+      "summary": "With Bruno Guimaraes set to sign for Premier League champions Arsenal, BBC Sport look at why the Gunners wanted the Newcastle skipper.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/clyl2e351vlo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-05T11:55:50.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/crrv2dvgppjo?at_medium=RSS&at_campaign=rss",
@@ -125,21 +155,6 @@
       "date": "2026-08-05T05:28:08.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c8en9rnex2jo?at_medium=RSS&at_campaign=rss",
-      "status": "agreed",
-      "player": "Arsenal set to sign Newcastle captain Guimaraes",
-      "titleJa": "移籍情報：Arsenal set to sign Newcastle captain Guimaraes",
-      "from": "",
-      "to": "",
-      "summaryJa": "Arsenal set to sign Newcastle captain Guimaraes移る可能性について、合意段階の報道です。",
-      "originalTitle": "Arsenal set to sign Newcastle captain Guimaraes",
-      "summary": "Arsenal are set to complete their protracted move for Newcastle captain Bruno Guimaraes.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8en9rnex2jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-05T06:29:40.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c629njd9npxo?at_medium=RSS&at_campaign=rss",
       "status": "agreed",
       "player": "Palace set to sign Tomiyasu and consider March deal",
@@ -153,6 +168,36 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c629njd9npxo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-05T15:51:46.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/czxqkkyxe9vo?at_medium=RSS&at_campaign=rss",
+      "status": "official",
+      "player": "Wrexham sign Preston captain Whiteman",
+      "titleJa": "移籍情報：Wrexham sign Preston captain Whiteman",
+      "from": "",
+      "to": "",
+      "summaryJa": "Wrexham sign Preston captain Whiteman移る可能性について、正式発表段階の報道です。",
+      "originalTitle": "Wrexham sign Preston captain Whiteman",
+      "summary": "Wrexham complete the signing of Preston North End captain Ben Whiteman on a three-year deal.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/czxqkkyxe9vo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-05T18:30:18.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cddjryv4e52o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Japanese winger Yokota",
+      "titleJa": "Japanese winger Yokota、Rangersへ加入（Hannoverから）",
+      "from": "Hannover",
+      "to": "Rangers",
+      "summaryJa": "Japanese winger YokotaがHannoverからRangersへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Japanese winger Yokota joins Rangers from Hannover",
+      "summary": "Japanese winger Daisuke Yokota hopes to make \"special memories\" after joining Rangers from Hannover.",
+      "parsed": true,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cddjryv4e52o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-05T09:01:35.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/ce8l6nn7xkyo?at_medium=RSS&at_campaign=rss",
@@ -183,36 +228,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9d89177xg4o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-05T06:44:38.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cddjryv4e52o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Japanese winger Yokota",
-      "titleJa": "Japanese winger Yokota、Rangersへ加入（Hannoverから）",
-      "from": "Hannover",
-      "to": "Rangers",
-      "summaryJa": "Japanese winger YokotaがHannoverからRangersへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Japanese winger Yokota joins Rangers from Hannover",
-      "summary": "Japanese winger Daisuke Yokota hopes to make \"special memories\" after joining Rangers from Hannover.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cddjryv4e52o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-05T09:01:35.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cy8mvgp179po?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Forest target Reijnders - Wednesday's gossip",
-      "titleJa": "移籍情報：Forest target Reijnders - Wednesday's gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Forest target Reijnders - Wednesday's gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Forest target Reijnders - Wednesday's gossip",
-      "summary": "Nottingham Forest eye Tijjani Reijnders, Spurs want Savinho and Nicolas Jackson, Real Madrid resume Vinicius Jr contract talks, plus more.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cy8mvgp179po?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-05T10:16:45.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c4gygn47rpmo?at_medium=RSS&at_campaign=rss",
@@ -275,51 +290,6 @@
       "date": "2026-08-04T18:09:27.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c04kg192k2eo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Cape Verde coach Bubista resigns as Ivory Coast reappoint Renard",
-      "titleJa": "移籍情報：Cape Verde coach Bubista resigns as Ivory Coast reappoint Renard",
-      "from": "",
-      "to": "",
-      "summaryJa": "Cape Verde coach Bubista resigns as Ivory Coast reappoint Renard移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Cape Verde coach Bubista resigns as Ivory Coast reappoint Renard",
-      "summary": "Head coach Bubista leaves Cape Verde after reaching the last 32 at the World Cup while Ivory Coast reappoint two-time Afcon winner Herve Renard.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c04kg192k2eo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-04T16:05:03.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c98v6nz6v2eo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Coventry sign Brighton goalkeeper Rushworth after loan",
-      "titleJa": "移籍情報：Coventry sign Brighton goalkeeper Rushworth after loan",
-      "from": "",
-      "to": "",
-      "summaryJa": "Coventry sign Brighton goalkeeper Rushworth after loan移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Coventry sign Brighton goalkeeper Rushworth after loan",
-      "summary": "Coventry City confirm the permanent signing of 25-year-old goalkeeper Carl Rushworth from Brighton and Hove Albion.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c98v6nz6v2eo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-04T11:20:37.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/ce8lgel8kj3o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Kretinsky share sale hinders Staveley's West Ham bid",
-      "titleJa": "移籍情報：Kretinsky share sale hinders Staveley's West Ham bid",
-      "from": "",
-      "to": "",
-      "summaryJa": "Kretinsky share sale hinders Staveley's West Ham bid移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Kretinsky share sale hinders Staveley's West Ham bid",
-      "summary": "West Ham co-chair Daniel Kretinsky sells a small stake in the club in a move that could end Amanda Staveley's hopes of investment.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ce8lgel8kj3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-04T12:54:20.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c5y32lgr67no?at_medium=RSS&at_campaign=rss",
       "status": "talks",
       "player": "What happened to star signings your club never made?",
@@ -378,21 +348,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c4g4k0ep23vo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-05T14:44:37.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/ckg3l1jennro?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Celtic push for Ghedjemis deal - gossip",
-      "titleJa": "移籍情報：Celtic push for Ghedjemis deal - gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Celtic push for Ghedjemis deal - gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Celtic push for Ghedjemis deal - gossip",
-      "summary": "Possible incomings at Celtic as Scottish champions' former left-back moves to Houston Dynamo.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckg3l1jennro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-05T06:40:41.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c0jld6pwxg6o?at_medium=RSS&at_campaign=rss",
