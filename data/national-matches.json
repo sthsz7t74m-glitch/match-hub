@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T11:28:50.345Z",
+  "updatedAt": "2026-08-06T11:34:04.057Z",
   "source": "ESPN multi-competition monthly adapter",
   "competitionCount": 15,
   "competitions": [
@@ -71,7 +71,7 @@
     {
       "code": "fifa.friendly",
       "name": "国際親善試合",
-      "count": 901
+      "count": 902
     },
     {
       "code": "fifa.olympics",
@@ -45439,7 +45439,7 @@
       "awayName": "Ecuador",
       "homeScore": 0,
       "awayScore": 0,
-      "venue": "",
+      "venue": "Suwon World Cup Stadium",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
@@ -47660,6 +47660,26 @@
       "homeScore": 0,
       "awayScore": 0,
       "venue": "Astana Arena",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
+      "id": "fifa.friendly-401905332",
+      "kickoff": "2026-10-06T18:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "colombia",
+      "away": "peru",
+      "homeName": "Colombia",
+      "awayName": "Peru",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
