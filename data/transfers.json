@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-08-07T20:23:38.692Z",
+  "updatedAt": "2026-08-07T23:16:46.966Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c4gxvvxldewo?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Liverpool close to signing Barcelona's Araujo on loan",
+      "titleJa": "移籍情報：Liverpool close to signing Barcelona's Araujo on loan",
+      "from": "",
+      "to": "",
+      "summaryJa": "Liverpool close to signing Barcelona's Araujo on loan移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Liverpool close to signing Barcelona's Araujo on loan",
+      "summary": "Liverpool are close to signing Uruguay defender Ronald Araujo on a season-long loan from Barcelona, with an option to purchase.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c4gxvvxldewo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-07T22:54:13.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/articles/clyj1rgdnpxo?at_medium=RSS&at_campaign=rss",
       "status": "talks",
@@ -33,6 +48,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c4g6l3gnv0go?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-07T12:04:25.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c0l5x67wl67o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Man City explore Fernandez move - Saturday's gossip",
+      "titleJa": "移籍情報：Man City explore Fernandez move - Saturday's gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Man City explore Fernandez move - Saturday's gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Man City explore Fernandez move - Saturday's gossip",
+      "summary": "Manchester City explore Enzo Fernandez move, Arsenal could battle Manchester United for Pio Esposito and Liverpool yet to agree Bradley Barcola fee, plus more.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0l5x67wl67o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-07T21:07:46.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c0m7knennd3o?at_medium=RSS&at_campaign=rss",
@@ -80,21 +110,6 @@
       "date": "2026-08-07T15:08:25.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c0qv4g0x79go?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Atletico hold talks with Spurs captain Romero",
-      "titleJa": "移籍情報：Atletico hold talks with Spurs captain Romero",
-      "from": "",
-      "to": "",
-      "summaryJa": "Atletico hold talks with Spurs captain Romero移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Atletico hold talks with Spurs captain Romero",
-      "summary": "Atletico Madrid hold talks over a move for Tottenham captain Cristian Romero, who is expected to leave the club this summer.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c0qv4g0x79go?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-07T10:51:46.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cdx7wq2r21yo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "39 moves across five countries - football's ultimate journeyman",
@@ -108,6 +123,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cdx7wq2r21yo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-07T06:21:57.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/crl7ed7gerzo?at_medium=RSS&at_campaign=rss",
+      "status": "official",
+      "player": "Assistant referee Massey-Ellis retires to take FA role",
+      "titleJa": "移籍情報：Assistant referee Massey-Ellis retires to take FA role",
+      "from": "",
+      "to": "",
+      "summaryJa": "Assistant referee Massey-Ellis retires to take FA role移る可能性について、正式発表段階の報道です。",
+      "originalTitle": "Assistant referee Massey-Ellis retires to take FA role",
+      "summary": "Assistant referee Sian Massey‑Ellis announces her retirement from officiating to take up a position with the Football Association.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crl7ed7gerzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-07T11:26:23.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c0jle24ln68o?at_medium=RSS&at_campaign=rss",
@@ -140,21 +170,6 @@
       "date": "2026-08-07T14:10:20.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/crl7ed7gerzo?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "Assistant referee Massey-Ellis retires to take FA role",
-      "titleJa": "移籍情報：Assistant referee Massey-Ellis retires to take FA role",
-      "from": "",
-      "to": "",
-      "summaryJa": "Assistant referee Massey-Ellis retires to take FA role移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "Assistant referee Massey-Ellis retires to take FA role",
-      "summary": "Assistant referee Sian Massey‑Ellis announces her retirement from officiating to take up a position with the Football Association.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crl7ed7gerzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-07T11:26:23.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c87nlvj2zy9o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Caldentey embraces 'cool' pressure as Arsenal target Treble",
@@ -170,19 +185,19 @@
       "date": "2026-08-07T06:27:36.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cqlxkxken3po?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c0qv4g0x79go?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Liverpool not pursuing Spence move - Friday's gossip",
-      "titleJa": "移籍情報：Liverpool not pursuing Spence move - Friday's gossip",
+      "player": "Atletico hold talks with Spurs captain Romero",
+      "titleJa": "移籍情報：Atletico hold talks with Spurs captain Romero",
       "from": "",
       "to": "",
-      "summaryJa": "Liverpool not pursuing Spence move - Friday's gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Liverpool not pursuing Spence move - Friday's gossip",
-      "summary": "Liverpool have no intention of pursuing Djed Spence this summer, Juventus looking to secure Joshua Zirkzee on loan, Arsenal and Manchester United send scouts to watch Kaua Elias, plus more.",
+      "summaryJa": "Atletico hold talks with Spurs captain Romero移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Atletico hold talks with Spurs captain Romero",
+      "summary": "Atletico Madrid hold talks over a move for Tottenham captain Cristian Romero, who is expected to leave the club this summer.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqlxkxken3po?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-07T09:05:44.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0qv4g0x79go?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-07T10:51:46.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cy74v1j1v6zo?at_medium=RSS&at_campaign=rss",
@@ -198,21 +213,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cy74v1j1v6zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-06T12:02:05.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c0l592513y9o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Trafford",
-      "titleJa": "Trafford、Leedsへ加入（Man City in potential £45m dealから）",
-      "from": "Man City in potential £45m deal",
-      "to": "Leeds",
-      "summaryJa": "TraffordがMan City in potential £45m dealからLeedsへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Trafford joins Leeds from Man City in potential £45m deal",
-      "summary": "Leeds United sign Manchester City and England goalkeeper James Trafford in a deal worth up to £45m.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c0l592513y9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-06T18:04:21.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c5y3j1k8053o?at_medium=RSS&at_campaign=rss",
@@ -257,22 +257,22 @@
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-07T14:08:15.000Z"
+      "date": "2026-08-07T21:37:30.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cglj670g0j4o?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Old Firm bid for wingers as Anderlecht hold Ferry talks - gossip",
-      "titleJa": "移籍情報：Old Firm bid for wingers as Anderlecht hold Ferry talks - gossip",
+      "id": "https://www.bbc.co.uk/sport/football/articles/cpq8ye7znr2o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Notts County sign Cobblers midfielder Campbell",
+      "titleJa": "移籍情報：Notts County sign Cobblers midfielder Campbell",
       "from": "",
       "to": "",
-      "summaryJa": "Old Firm bid for wingers as Anderlecht hold Ferry talks - gossip移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Old Firm bid for wingers as Anderlecht hold Ferry talks - gossip",
-      "summary": "Celtic and Rangers submit offers for wingers as Anderlecht hold advanced talks with Dundee United over Will Ferry.",
+      "summaryJa": "Notts County sign Cobblers midfielder Campbell移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Notts County sign Cobblers midfielder Campbell",
+      "summary": "Notts County sign Northampton Town midfielder Dean Campbell.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cglj670g0j4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-07T06:50:17.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/cpq8ye7znr2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-07T14:05:52.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/ce971e8ny8mo?at_medium=RSS&at_campaign=rss",
