@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T19:47:47.317Z",
+  "updatedAt": "2026-08-08T22:53:31.091Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -33,6 +33,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c1719r079rjo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-08T11:00:08.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c05qvj0yj46o?at_medium=RSS&at_campaign=rss",
+      "status": "agreed",
+      "player": "Barca make second bid for Rodri - Sunday's gossip",
+      "titleJa": "移籍情報：Barca make second bid for Rodri - Sunday's gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Barca make second bid for Rodri - Sunday's gossip移る可能性について、合意段階の報道です。",
+      "originalTitle": "Barca make second bid for Rodri - Sunday's gossip",
+      "summary": "Barcelona increase their Rodri bid, Cristian Romero wants to join Arsenal, Forest are set to sign Ousmane Diomande, plus more.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c05qvj0yj46o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-08T20:37:28.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/cp3r469vq79o?at_medium=RSS&at_campaign=rss",
@@ -80,19 +95,19 @@
       "date": "2026-08-08T06:00:37.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c0l5x67wl67o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Man City explore Fernandez move - Saturday's gossip",
-      "titleJa": "移籍情報：Man City explore Fernandez move - Saturday's gossip",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c4gxvvxldewo?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Liverpool close to signing Barcelona's Araujo on loan",
+      "titleJa": "移籍情報：Liverpool close to signing Barcelona's Araujo on loan",
       "from": "",
       "to": "",
-      "summaryJa": "Man City explore Fernandez move - Saturday's gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Man City explore Fernandez move - Saturday's gossip",
-      "summary": "Manchester City explore Enzo Fernandez move, Arsenal could battle Manchester United for Pio Esposito and Liverpool yet to agree Bradley Barcola fee, plus more.",
+      "summaryJa": "Liverpool close to signing Barcelona's Araujo on loan移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Liverpool close to signing Barcelona's Araujo on loan",
+      "summary": "Liverpool are close to signing Uruguay defender Ronald Araujo on a season-long loan from Barcelona, with an option to purchase.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c0l5x67wl67o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-07T21:07:46.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c4gxvvxldewo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-07T22:54:13.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/articles/cd0xy9dlgnjo?at_medium=RSS&at_campaign=rss",
@@ -108,21 +123,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/articles/cd0xy9dlgnjo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-08T10:18:53.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c4gxvvxldewo?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Liverpool close to signing Barcelona's Araujo on loan",
-      "titleJa": "移籍情報：Liverpool close to signing Barcelona's Araujo on loan",
-      "from": "",
-      "to": "",
-      "summaryJa": "Liverpool close to signing Barcelona's Araujo on loan移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Liverpool close to signing Barcelona's Araujo on loan",
-      "summary": "Liverpool are close to signing Uruguay defender Ronald Araujo on a season-long loan from Barcelona, with an option to purchase.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c4gxvvxldewo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-07T22:54:13.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c20edq170p2o?at_medium=RSS&at_campaign=rss",
@@ -273,21 +273,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ce971e8ny8mo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-06T21:26:51.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cdewgg2xe7yo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "George",
-      "titleJa": "George、ブライトンへ加入（マンチェスター・ユナイテッドから）",
-      "from": "マンチェスター・ユナイテッド",
-      "to": "ブライトン",
-      "summaryJa": "Georgeがマンチェスター・ユナイテッドからブライトンへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Defender George joins Brighton from Man Utd",
-      "summary": "Defender Gabby George has completed a move to Brighton from Manchester United before the start of the Women's Super League season.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cdewgg2xe7yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-06T09:00:18.000Z"
     }
   ]
 }
