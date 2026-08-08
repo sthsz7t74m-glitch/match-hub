@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T06:53:28.873Z",
+  "updatedAt": "2026-08-08T05:22:25.506Z",
   "source": "ESPN multi-competition monthly adapter",
   "competitionCount": 15,
   "competitions": [
@@ -71,7 +71,7 @@
     {
       "code": "fifa.friendly",
       "name": "国際親善試合",
-      "count": 903
+      "count": 905
     },
     {
       "code": "fifa.olympics",
@@ -47946,6 +47946,26 @@
       "penalties": null
     },
     {
+      "id": "fifa.friendly-401906458",
+      "kickoff": "2026-11-12T06:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "new_zealand",
+      "away": "india",
+      "homeName": "New Zealand",
+      "awayName": "India",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Go Media Stadium",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
       "id": "uefa.nations-401861146",
       "kickoff": "2026-11-12T17:00Z",
       "status": "scheduled",
@@ -48460,6 +48480,26 @@
       "homeScore": 0,
       "awayScore": 0,
       "venue": "Friends Arena",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
+      "id": "fifa.friendly-401906463",
+      "kickoff": "2026-11-15T03:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "new_zealand",
+      "away": "india",
+      "homeName": "New Zealand",
+      "awayName": "India",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
