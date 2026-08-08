@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-08-08T17:04:33.214Z",
+  "updatedAt": "2026-08-08T19:47:47.317Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/ce34k3qve4no?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Tielemans cameo against PSG hints at Man Utd future",
+      "titleJa": "移籍情報：Tielemans cameo against PSG hints at Man Utd future",
+      "from": "",
+      "to": "",
+      "summaryJa": "Tielemans cameo against PSG hints at Man Utd future移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Tielemans cameo against PSG hints at Man Utd future",
+      "summary": "Manchester United's £35m signing Youri Tielemans makes an impressive debut in the 1-1 friendly draw against Paris St-Germain in Gothenburg.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ce34k3qve4no?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-08T19:15:24.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c1719r079rjo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -65,21 +80,6 @@
       "date": "2026-08-08T06:00:37.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c4gxvvxldewo?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Liverpool close to signing Barcelona's Araujo on loan",
-      "titleJa": "移籍情報：Liverpool close to signing Barcelona's Araujo on loan",
-      "from": "",
-      "to": "",
-      "summaryJa": "Liverpool close to signing Barcelona's Araujo on loan移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Liverpool close to signing Barcelona's Araujo on loan",
-      "summary": "Liverpool are close to signing Uruguay defender Ronald Araujo on a season-long loan from Barcelona, with an option to purchase.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c4gxvvxldewo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-07T22:54:13.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c0l5x67wl67o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Man City explore Fernandez move - Saturday's gossip",
@@ -108,6 +108,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/articles/cd0xy9dlgnjo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-08T10:18:53.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c4gxvvxldewo?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Liverpool close to signing Barcelona's Araujo on loan",
+      "titleJa": "移籍情報：Liverpool close to signing Barcelona's Araujo on loan",
+      "from": "",
+      "to": "",
+      "summaryJa": "Liverpool close to signing Barcelona's Araujo on loan移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Liverpool close to signing Barcelona's Araujo on loan",
+      "summary": "Liverpool are close to signing Uruguay defender Ronald Araujo on a season-long loan from Barcelona, with an option to purchase.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c4gxvvxldewo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-07T22:54:13.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c20edq170p2o?at_medium=RSS&at_campaign=rss",
@@ -273,21 +288,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cdewgg2xe7yo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-06T09:00:18.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cz6484p441yo?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "Liverpool sign Spanish midfielder Ramos",
-      "titleJa": "移籍情報：Liverpool sign Spanish midfielder Ramos",
-      "from": "",
-      "to": "",
-      "summaryJa": "Liverpool sign Spanish midfielder Ramos移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "Liverpool sign Spanish midfielder Ramos",
-      "summary": "Liverpool have signed Spanish midfielder Natalia Ramos from CD Tenerife Femenino, subject to visa approval and international clearance.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cz6484p441yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-06T13:39:35.000Z"
     }
   ]
 }
