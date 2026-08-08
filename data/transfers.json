@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T08:22:14.320Z",
+  "updatedAt": "2026-08-08T11:02:14.799Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -50,6 +50,21 @@
       "date": "2026-08-07T22:54:13.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/articles/cd0xy9dlgnjo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Aberdeen buy versatile Belgian forward Ntelo",
+      "titleJa": "移籍情報：Aberdeen buy versatile Belgian forward Ntelo",
+      "from": "",
+      "to": "",
+      "summaryJa": "Aberdeen buy versatile Belgian forward Ntelo移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Aberdeen buy versatile Belgian forward Ntelo",
+      "summary": "Aberdeen sign Mitchy Ntelo from Swiss side Yverdon-Sport for an undisclosed fee, with manager Stephen Robinson saying the Belgian forward's \"versatility was one of the biggest attractions\".",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/articles/cd0xy9dlgnjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-08T10:18:53.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c0l5x67wl67o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Man City explore Fernandez move - Saturday's gossip",
@@ -93,21 +108,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c4g6l3gnv0go?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-07T12:04:25.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c0m7knennd3o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Emotional Guimaraes wanted Arsenal move, says Newcastle chief",
-      "titleJa": "移籍情報：Emotional Guimaraes wanted Arsenal move, says Newcastle chief",
-      "from": "",
-      "to": "",
-      "summaryJa": "Emotional Guimaraes wanted Arsenal move, says Newcastle chief移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Emotional Guimaraes wanted Arsenal move, says Newcastle chief",
-      "summary": "Newcastle United sporting director Ross Wilson says the club did not plan to sell Bruno Guimaraes, but their \"very emotional\" captain wanted to join Arsenal.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c0m7knennd3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-07T12:00:16.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cy4kgprjzx2o?at_medium=RSS&at_campaign=rss",
@@ -155,19 +155,19 @@
       "date": "2026-08-07T06:21:57.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/crl7ed7gerzo?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "Assistant referee Massey-Ellis retires to take FA role",
-      "titleJa": "移籍情報：Assistant referee Massey-Ellis retires to take FA role",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c0m7knennd3o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Emotional Guimaraes wanted Arsenal move, says Newcastle chief",
+      "titleJa": "移籍情報：Emotional Guimaraes wanted Arsenal move, says Newcastle chief",
       "from": "",
       "to": "",
-      "summaryJa": "Assistant referee Massey-Ellis retires to take FA role移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "Assistant referee Massey-Ellis retires to take FA role",
-      "summary": "Assistant referee Sian Massey‑Ellis announces her retirement from officiating to take up a position with the Football Association.",
+      "summaryJa": "Emotional Guimaraes wanted Arsenal move, says Newcastle chief移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Emotional Guimaraes wanted Arsenal move, says Newcastle chief",
+      "summary": "Newcastle United sporting director Ross Wilson says the club did not plan to sell Bruno Guimaraes, but their \"very emotional\" captain wanted to join Arsenal.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crl7ed7gerzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-07T11:26:23.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0m7knennd3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-07T12:00:16.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c0jle24ln68o?at_medium=RSS&at_campaign=rss",
@@ -183,6 +183,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c0jle24ln68o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-07T05:34:16.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/crl7ed7gerzo?at_medium=RSS&at_campaign=rss",
+      "status": "official",
+      "player": "Assistant referee Massey-Ellis retires to take FA role",
+      "titleJa": "移籍情報：Assistant referee Massey-Ellis retires to take FA role",
+      "from": "",
+      "to": "",
+      "summaryJa": "Assistant referee Massey-Ellis retires to take FA role移る可能性について、正式発表段階の報道です。",
+      "originalTitle": "Assistant referee Massey-Ellis retires to take FA role",
+      "summary": "Assistant referee Sian Massey‑Ellis announces her retirement from officiating to take up a position with the Football Association.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crl7ed7gerzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-07T11:26:23.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c87nlvj2zy9o?at_medium=RSS&at_campaign=rss",
@@ -273,21 +288,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cj36vld3mk2o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-08T07:37:28.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cpq8ye7znr2o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Notts County sign Cobblers midfielder Campbell",
-      "titleJa": "移籍情報：Notts County sign Cobblers midfielder Campbell",
-      "from": "",
-      "to": "",
-      "summaryJa": "Notts County sign Cobblers midfielder Campbell移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Notts County sign Cobblers midfielder Campbell",
-      "summary": "Notts County sign Northampton Town midfielder Dean Campbell.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cpq8ye7znr2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-07T14:05:52.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/ce971e8ny8mo?at_medium=RSS&at_campaign=rss",
