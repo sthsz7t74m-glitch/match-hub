@@ -1,9 +1,39 @@
 {
-  "updatedAt": "2026-08-08T04:32:21.724Z",
+  "updatedAt": "2026-08-08T08:22:14.320Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cwye10q7e92o?at_medium=RSS&at_campaign=rss",
+      "status": "agreed",
+      "player": "Man City agree deal to sign Marseille keeper Rulli",
+      "titleJa": "移籍情報：Man City agree deal to sign Marseille keeper Rulli",
+      "from": "",
+      "to": "",
+      "summaryJa": "Man City agree deal to sign Marseille keeper Rulli移る可能性について、合意段階の報道です。",
+      "originalTitle": "Man City agree deal to sign Marseille keeper Rulli",
+      "summary": "Manchester City agree a deal to sign Argentina goalkeeper Geronimo Rulli from Marseille.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwye10q7e92o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-08T06:00:37.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cx2jpgj24vlo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Life as a Wag in the transfer window",
+      "titleJa": "移籍情報：Life as a Wag in the transfer window",
+      "from": "",
+      "to": "",
+      "summaryJa": "Life as a Wag in the transfer window移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Life as a Wag in the transfer window",
+      "summary": "What is life like for footballers' families during the transfer window where a last-minute deal means you need to uproot your life and move hundreds of miles?",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx2jpgj24vlo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-08T05:15:34.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c4gxvvxldewo?at_medium=RSS&at_campaign=rss",
       "status": "talks",
@@ -18,6 +48,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c4gxvvxldewo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-07T22:54:13.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c0l5x67wl67o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Man City explore Fernandez move - Saturday's gossip",
+      "titleJa": "移籍情報：Man City explore Fernandez move - Saturday's gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Man City explore Fernandez move - Saturday's gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Man City explore Fernandez move - Saturday's gossip",
+      "summary": "Manchester City explore Enzo Fernandez move, Arsenal could battle Manchester United for Pio Esposito and Liverpool yet to agree Bradley Barcola fee, plus more.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0l5x67wl67o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-07T21:07:46.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/articles/clyj1rgdnpxo?at_medium=RSS&at_campaign=rss",
@@ -48,21 +93,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c4g6l3gnv0go?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-07T12:04:25.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c0l5x67wl67o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Man City explore Fernandez move - Saturday's gossip",
-      "titleJa": "移籍情報：Man City explore Fernandez move - Saturday's gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Man City explore Fernandez move - Saturday's gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Man City explore Fernandez move - Saturday's gossip",
-      "summary": "Manchester City explore Enzo Fernandez move, Arsenal could battle Manchester United for Pio Esposito and Liverpool yet to agree Bradley Barcola fee, plus more.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c0l5x67wl67o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-07T21:07:46.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c0m7knennd3o?at_medium=RSS&at_campaign=rss",
@@ -155,21 +185,6 @@
       "date": "2026-08-07T05:34:16.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cdrve3k5xv0o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Hjerto-Dahl",
-      "titleJa": "Hjerto-Dahl、Hull in 'biggest challenge' yetへ加入",
-      "from": "",
-      "to": "Hull in 'biggest challenge' yet",
-      "summaryJa": "Hjerto-DahlがHull in 'biggest challenge' yetへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Hjerto-Dahl joins Hull in 'biggest challenge' yet",
-      "summary": "Hull City sign Norwegian midfielder Jens Hjerto-Dahl on a five-year contract from Tromso.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cdrve3k5xv0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-07T14:10:20.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c87nlvj2zy9o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Caldentey embraces 'cool' pressure as Arsenal target Treble",
@@ -185,6 +200,21 @@
       "date": "2026-08-07T06:27:36.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cdrve3k5xv0o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Hjerto-Dahl",
+      "titleJa": "Hjerto-Dahl、Hull in 'biggest challenge' yetへ加入",
+      "from": "",
+      "to": "Hull in 'biggest challenge' yet",
+      "summaryJa": "Hjerto-DahlがHull in 'biggest challenge' yetへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Hjerto-Dahl joins Hull in 'biggest challenge' yet",
+      "summary": "Hull City sign Norwegian midfielder Jens Hjerto-Dahl on a five-year contract from Tromso.",
+      "parsed": true,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cdrve3k5xv0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-07T14:10:20.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c0qv4g0x79go?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Atletico hold talks with Spurs captain Romero",
@@ -198,36 +228,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c0qv4g0x79go?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-07T10:51:46.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cy74v1j1v6zo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Why has Salah chosen to",
-      "titleJa": "Why has Salah chosen to、Trabzonspor?へ加入",
-      "from": "",
-      "to": "Trabzonspor?",
-      "summaryJa": "Why has Salah chosen toがTrabzonspor?へ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Why has Salah chosen to join Trabzonspor?",
-      "summary": "Why Mohamed Salah chose Trabzonspor over Saudi Arabia and MLS, and what the move means for him and Turkish football.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cy74v1j1v6zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-06T12:02:05.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c5y3j1k8053o?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Van de Ven close to agreeing new Spurs contract",
-      "titleJa": "移籍情報：Van de Ven close to agreeing new Spurs contract",
-      "from": "",
-      "to": "",
-      "summaryJa": "Van de Ven close to agreeing new Spurs contract移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Van de Ven close to agreeing new Spurs contract",
-      "summary": "Micky van de Ven is close to agreeing a new five-year contract with Tottenham Hotspur.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5y3j1k8053o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-06T19:11:30.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c4g4k0ep23vo?at_medium=RSS&at_campaign=rss",
@@ -258,6 +258,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-07T21:37:30.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cj36vld3mk2o?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "PSV reject improved Rangers offer for Driouech - gossip",
+      "titleJa": "移籍情報：PSV reject improved Rangers offer for Driouech - gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "PSV reject improved Rangers offer for Driouech - gossip移る可能性について、交渉段階の報道です。",
+      "originalTitle": "PSV reject improved Rangers offer for Driouech - gossip",
+      "summary": "Speculation mounts over wingers linked with Rangers and Celtic as Hearts forward is touted for move.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cj36vld3mk2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-08T07:37:28.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cpq8ye7znr2o?at_medium=RSS&at_campaign=rss",
