@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T22:53:31.091Z",
+  "updatedAt": "2026-08-09T04:48:51.837Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -168,21 +168,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cdx7wq2r21yo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-07T06:21:57.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c0qv4g0x79go?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Atletico hold talks with Spurs captain Romero",
-      "titleJa": "移籍情報：Atletico hold talks with Spurs captain Romero",
-      "from": "",
-      "to": "",
-      "summaryJa": "Atletico hold talks with Spurs captain Romero移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Atletico hold talks with Spurs captain Romero",
-      "summary": "Atletico Madrid hold talks over a move for Tottenham captain Cristian Romero, who is expected to leave the club this summer.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c0qv4g0x79go?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-07T10:51:46.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c0jle24ln68o?at_medium=RSS&at_campaign=rss",
