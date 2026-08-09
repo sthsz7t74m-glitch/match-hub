@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-08-09T19:53:24.023Z",
+  "updatedAt": "2026-08-09T23:00:32.129Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c5y36vr1j2zo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "McInnes left frustrated amid Rangers' poor start to season",
+      "titleJa": "移籍情報：McInnes left frustrated amid Rangers' poor start to season",
+      "from": "",
+      "to": "",
+      "summaryJa": "McInnes left frustrated amid Rangers' poor start to season移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "McInnes left frustrated amid Rangers' poor start to season",
+      "summary": "Derek McInnes is still seeking a win after three games as Rangers managers and feels hard done by following a 2-1 home defeat by Hibernian and injury to big-money striker Youssef Chermiti.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5y36vr1j2zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-09T21:04:55.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c629ggx45d3o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -18,6 +33,36 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c629ggx45d3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-09T19:27:03.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cdew452xgyko?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Were signs always there that Vrancken's Hearts would come good?",
+      "titleJa": "移籍情報：Were signs always there that Vrancken's Hearts would come good?",
+      "from": "",
+      "to": "",
+      "summaryJa": "Were signs always there that Vrancken's Hearts would come good?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Were signs always there that Vrancken's Hearts would come good?",
+      "summary": "Heart of Midlothian have at last secured their first win under new head coach Wouter Vrancken, but statistics suggested it was only a matter of time.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cdew452xgyko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-09T20:23:31.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cx2klxw043xo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Villa interested in Endrick loan - Monday's gossip",
+      "titleJa": "移籍情報：Villa interested in Endrick loan - Monday's gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Villa interested in Endrick loan - Monday's gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Villa interested in Endrick loan - Monday's gossip",
+      "summary": "Aston Villa interested in Endrick loan, Harry Kane expected to extend Bayern Munich deal and Arsenal make Bradley Barcola contact, plus more.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx2klxw043xo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-09T21:04:49.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/ce34v2eyn1qo?at_medium=RSS&at_campaign=rss",
@@ -50,21 +95,6 @@
       "date": "2026-08-09T17:55:36.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c8en56r919ro?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Unmasking London City's Spanish superstar",
-      "titleJa": "移籍情報：Unmasking London City's Spanish superstar",
-      "from": "",
-      "to": "",
-      "summaryJa": "Unmasking London City's Spanish superstar移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Unmasking London City's Spanish superstar",
-      "summary": "Alexia Putellas' arrival at London City Lionesses was the biggest transfer in WSL history - but who is the person behind the global stardom?",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8en56r919ro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-09T08:00:15.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/videos/cp3r469vq79o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Watch Guimaraes' best moments after Arsenal sign midfield maestro",
@@ -78,6 +108,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cp3r469vq79o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-08T11:09:40.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c8en56r919ro?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Unmasking London City's Spanish superstar",
+      "titleJa": "移籍情報：Unmasking London City's Spanish superstar",
+      "from": "",
+      "to": "",
+      "summaryJa": "Unmasking London City's Spanish superstar移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Unmasking London City's Spanish superstar",
+      "summary": "Alexia Putellas' arrival at London City Lionesses was the biggest transfer in WSL history - but who is the person behind the global stardom?",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8en56r919ro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-09T08:00:15.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/ce3qgzv43d3o?at_medium=RSS&at_campaign=rss",
@@ -122,7 +167,7 @@
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c4g3808zjl9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-09T15:45:07.000Z"
+      "date": "2026-08-09T20:51:53.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c7vgj826nnjo?at_medium=RSS&at_campaign=rss",
@@ -185,21 +230,6 @@
       "date": "2026-08-09T14:20:04.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c05qvj0yj46o?at_medium=RSS&at_campaign=rss",
-      "status": "agreed",
-      "player": "Barca make second bid for Rodri - Sunday's gossip",
-      "titleJa": "移籍情報：Barca make second bid for Rodri - Sunday's gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Barca make second bid for Rodri - Sunday's gossip移る可能性について、合意段階の報道です。",
-      "originalTitle": "Barca make second bid for Rodri - Sunday's gossip",
-      "summary": "Barcelona increase their Rodri bid, Cristian Romero wants to join Arsenal, Forest are set to sign Ousmane Diomande, plus more.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c05qvj0yj46o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-08T20:37:28.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sounds/play/p0p3j9rz?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "BBC Women's Football Weekly",
@@ -213,21 +243,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sounds/play/p0p3j9rz?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-09T07:58:00.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cx2jpgj24vlo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Life as a Wag in the transfer window",
-      "titleJa": "移籍情報：Life as a Wag in the transfer window",
-      "from": "",
-      "to": "",
-      "summaryJa": "Life as a Wag in the transfer window移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Life as a Wag in the transfer window",
-      "summary": "What is life like for footballers' families during the transfer window where a last-minute deal means you need to uproot your life and move hundreds of miles?",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx2jpgj24vlo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-08T05:15:34.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c4g4k0ep23vo?at_medium=RSS&at_campaign=rss",
@@ -273,21 +288,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c87nlvj2zy9o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-07T06:27:36.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/crl7ed7gerzo?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "Assistant referee Massey-Ellis retires to take FA role",
-      "titleJa": "移籍情報：Assistant referee Massey-Ellis retires to take FA role",
-      "from": "",
-      "to": "",
-      "summaryJa": "Assistant referee Massey-Ellis retires to take FA role移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "Assistant referee Massey-Ellis retires to take FA role",
-      "summary": "Assistant referee Sian Massey‑Ellis announces her retirement from officiating to take up a position with the Football Association.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crl7ed7gerzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-07T11:26:23.000Z"
     }
   ]
 }
