@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T11:03:55.899Z",
+  "updatedAt": "2026-08-09T14:19:52.785Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -20,6 +20,21 @@
       "date": "2026-08-09T08:00:15.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/ce3qgzv43d3o?at_medium=RSS&at_campaign=rss",
+      "status": "agreed",
+      "player": "Fulham agree £30m fee for Southampton's Charles",
+      "titleJa": "移籍情報：Fulham agree £30m fee for Southampton's Charles",
+      "from": "",
+      "to": "",
+      "summaryJa": "Fulham agree £30m fee for Southampton's Charles移る可能性について、合意段階の報道です。",
+      "originalTitle": "Fulham agree £30m fee for Southampton's Charles",
+      "summary": "Fulham agree a deal worth up to £30m for Southampton midfielder Shea Charles, subject to a medical.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ce3qgzv43d3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-09T13:10:10.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/ce34k3qve4no?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Tielemans cameo against PSG hints at Man Utd future",
@@ -35,19 +50,19 @@
       "date": "2026-08-08T19:15:24.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c05qvj0yj46o?at_medium=RSS&at_campaign=rss",
-      "status": "agreed",
-      "player": "Barca make second bid for Rodri - Sunday's gossip",
-      "titleJa": "移籍情報：Barca make second bid for Rodri - Sunday's gossip",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c7vgj826nnjo?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Sevilla close to signing Scottish striker Ure in £7.9m deal",
+      "titleJa": "移籍情報：Sevilla close to signing Scottish striker Ure in £7.9m deal",
       "from": "",
       "to": "",
-      "summaryJa": "Barca make second bid for Rodri - Sunday's gossip移る可能性について、合意段階の報道です。",
-      "originalTitle": "Barca make second bid for Rodri - Sunday's gossip",
-      "summary": "Barcelona increase their Rodri bid, Cristian Romero wants to join Arsenal, Forest are set to sign Ousmane Diomande, plus more.",
+      "summaryJa": "Sevilla close to signing Scottish striker Ure in £7.9m deal移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Sevilla close to signing Scottish striker Ure in £7.9m deal",
+      "summary": "Sevilla near a £7.9m move to sign Scotland Under-21 striker Robbie Ure from Swedish club IK Sirius.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c05qvj0yj46o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-08T20:37:28.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c7vgj826nnjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-09T12:29:04.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/cp3r469vq79o?at_medium=RSS&at_campaign=rss",
@@ -65,19 +80,19 @@
       "date": "2026-08-08T11:09:40.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c1719r079rjo?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c5y4qpjqd7qo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Guimaraes",
-      "titleJa": "アーセナル、Newcastle in £75m dealからGuimaraesを獲得",
-      "from": "Newcastle in £75m deal",
-      "to": "アーセナル",
-      "summaryJa": "GuimaraesがNewcastle in £75m dealからアーセナルへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Arsenal sign Guimaraes from Newcastle in £75m deal",
-      "summary": "Premier League champions Arsenal sign Brazil midfielder Bruno Guimaraes from Newcastle United for £75m.",
-      "parsed": true,
+      "player": "Man Utd working on deal to sign Leicester teenager Page",
+      "titleJa": "移籍情報：Man Utd working on deal to sign Leicester teenager Page",
+      "from": "",
+      "to": "",
+      "summaryJa": "Man Utd working on deal to sign Leicester teenager Page移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Man Utd working on deal to sign Leicester teenager Page",
+      "summary": "Manchester United are working on a deal to sign Leicester teenager Louis Page.",
+      "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c1719r079rjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-08T11:00:08.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5y4qpjqd7qo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-09T12:13:59.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sounds/play/p0p3j9rz?at_medium=RSS&at_campaign=rss",
@@ -95,6 +110,21 @@
       "date": "2026-08-09T07:58:00.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c05qvj0yj46o?at_medium=RSS&at_campaign=rss",
+      "status": "agreed",
+      "player": "Barca make second bid for Rodri - Sunday's gossip",
+      "titleJa": "移籍情報：Barca make second bid for Rodri - Sunday's gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Barca make second bid for Rodri - Sunday's gossip移る可能性について、合意段階の報道です。",
+      "originalTitle": "Barca make second bid for Rodri - Sunday's gossip",
+      "summary": "Barcelona increase their Rodri bid, Cristian Romero wants to join Arsenal, Forest are set to sign Ousmane Diomande, plus more.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c05qvj0yj46o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-08T20:37:28.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cx2jpgj24vlo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Life as a Wag in the transfer window",
@@ -110,6 +140,21 @@
       "date": "2026-08-08T05:15:34.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c1719r079rjo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Guimaraes",
+      "titleJa": "アーセナル、Newcastle in £75m dealからGuimaraesを獲得",
+      "from": "Newcastle in £75m deal",
+      "to": "アーセナル",
+      "summaryJa": "GuimaraesがNewcastle in £75m dealからアーセナルへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Arsenal sign Guimaraes from Newcastle in £75m deal",
+      "summary": "Premier League champions Arsenal sign Brazil midfielder Bruno Guimaraes from Newcastle United for £75m.",
+      "parsed": true,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c1719r079rjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-08T11:00:08.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cwye10q7e92o?at_medium=RSS&at_campaign=rss",
       "status": "agreed",
       "player": "Man City agree deal to sign Marseille keeper Rulli",
@@ -123,66 +168,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwye10q7e92o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-08T06:00:37.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/articles/cd0xy9dlgnjo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Aberdeen buy versatile Belgian forward Ntelo",
-      "titleJa": "移籍情報：Aberdeen buy versatile Belgian forward Ntelo",
-      "from": "",
-      "to": "",
-      "summaryJa": "Aberdeen buy versatile Belgian forward Ntelo移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Aberdeen buy versatile Belgian forward Ntelo",
-      "summary": "Aberdeen sign Mitchy Ntelo from Swiss side Yverdon-Sport for an undisclosed fee, with manager Stephen Robinson saying the Belgian forward's \"versatility was one of the biggest attractions\".",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/articles/cd0xy9dlgnjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-08T10:18:53.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c4gxvvxldewo?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Liverpool close to signing Barcelona's Araujo on loan",
-      "titleJa": "移籍情報：Liverpool close to signing Barcelona's Araujo on loan",
-      "from": "",
-      "to": "",
-      "summaryJa": "Liverpool close to signing Barcelona's Araujo on loan移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Liverpool close to signing Barcelona's Araujo on loan",
-      "summary": "Liverpool are close to signing Uruguay defender Ronald Araujo on a season-long loan from Barcelona, with an option to purchase.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c4gxvvxldewo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-07T22:54:13.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cdx7wq2r21yo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "39 moves across five countries - football's ultimate journeyman",
-      "titleJa": "移籍情報：39 moves across five countries - football's ultimate journeyman",
-      "from": "",
-      "to": "",
-      "summaryJa": "39 moves across five countries - football's ultimate journeyman移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "39 moves across five countries - football's ultimate journeyman",
-      "summary": "As he prepares to manage in the FA Cup for the first time, Zeph Thomas tells BBC Sport about his extraordinary career path spanning 39 moves in 18 years.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cdx7wq2r21yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-07T06:21:57.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c0jle24ln68o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Who will exit Chelsea? How Blues could cut 41-man squad",
-      "titleJa": "移籍情報：Who will exit Chelsea? How Blues could cut 41-man squad",
-      "from": "",
-      "to": "",
-      "summaryJa": "Who will exit Chelsea? How Blues could cut 41-man squad移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Who will exit Chelsea? How Blues could cut 41-man squad",
-      "summary": "With 25 days until the transfer window closes, Chelsea will be working hard to cut their 41-man senior squad. But who could be heading out?",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c0jle24ln68o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-07T05:34:16.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c4g4k0ep23vo?at_medium=RSS&at_campaign=rss",
@@ -213,6 +198,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-07T21:37:30.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cnvn6y26e1jo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "'Burnley, Celtic and Malaga vie for PAOK's Taylor' - gossip",
+      "titleJa": "移籍情報：'Burnley, Celtic and Malaga vie for PAOK's Taylor' - gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "'Burnley, Celtic and Malaga vie for PAOK's Taylor' - gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "'Burnley, Celtic and Malaga vie for PAOK's Taylor' - gossip",
+      "summary": "Celtic reportedly face opposition from Burnley and Malaga if they want to sign Greg Taylor from PAOK, while Sevilla appear poised to sign Robbie Ure.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cnvn6y26e1jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-09T13:43:13.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c87nlvj2zy9o?at_medium=RSS&at_campaign=rss",
