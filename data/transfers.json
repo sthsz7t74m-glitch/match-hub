@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T20:29:08.221Z",
+  "updatedAt": "2026-08-11T23:25:04.047Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -18,6 +18,36 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cvgx311g1zko?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-11T16:00:35.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c629lp48ykwo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Hamer rejoins Coventry City on 'long-term' deal",
+      "titleJa": "移籍情報：Hamer rejoins Coventry City on 'long-term' deal",
+      "from": "",
+      "to": "",
+      "summaryJa": "Hamer rejoins Coventry City on 'long-term' deal移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Hamer rejoins Coventry City on 'long-term' deal",
+      "summary": "Coventry City re-sign midfielder Gustavo Hamer from Sheffield United on a \"long-term\" contract for an undisclosed fee.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c629lp48ykwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-11T22:18:07.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c0m7j79j873o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Sheff Utd re-sign Man City's Phillips on loan",
+      "titleJa": "移籍情報：Sheff Utd re-sign Man City's Phillips on loan",
+      "from": "",
+      "to": "",
+      "summaryJa": "Sheff Utd re-sign Man City's Phillips on loan移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Sheff Utd re-sign Man City's Phillips on loan",
+      "summary": "Sheffield United re-sign Manchester City midfielder Kalvin Phillips on a season-long loan deal.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0m7j79j873o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-11T16:57:05.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cwyjxxg5ze5o?at_medium=RSS&at_campaign=rss",
@@ -50,6 +80,51 @@
       "date": "2026-08-11T09:42:20.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cy5d127gv0go?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Coventry eye Mudryk on loan - Wednesday's gossip",
+      "titleJa": "移籍情報：Coventry eye Mudryk on loan - Wednesday's gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Coventry eye Mudryk on loan - Wednesday's gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Coventry eye Mudryk on loan - Wednesday's gossip",
+      "summary": "Coventry City interested in signing Chelsea winger Mykhaylo Mudryk on loan, Barcelona still chasing Manchester City midfielder Rodri and Manchester United make a move for Real Madrid striker Endrick.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cy5d127gv0go?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-11T22:20:24.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/videos/cp3r469vq79o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Watch Guimaraes' best moments after Arsenal sign midfield maestro",
+      "titleJa": "移籍情報：Watch Guimaraes' best moments after Arsenal sign midfield maestro",
+      "from": "",
+      "to": "",
+      "summaryJa": "Watch Guimaraes' best moments after Arsenal sign midfield maestro移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Watch Guimaraes' best moments after Arsenal sign midfield maestro",
+      "summary": "Watch Bruno Guimaraes' best Premier League moments after Arsenal sign the Brazil midfielder from Newcastle.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cp3r469vq79o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-08T11:09:40.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c74gvp29jyxo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Pogba expected to have Monaco contract terminated",
+      "titleJa": "移籍情報：Pogba expected to have Monaco contract terminated",
+      "from": "",
+      "to": "",
+      "summaryJa": "Pogba expected to have Monaco contract terminated移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Pogba expected to have Monaco contract terminated",
+      "summary": "Paul Pogba is expected to leave Monaco amid talks over a possible contract termination.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c74gvp29jyxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-11T21:59:39.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c70g5539dygo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Forest sign Sporting's Ivory Coast defender Diomande",
@@ -80,21 +155,6 @@
       "date": "2026-08-11T12:22:08.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/videos/cp3r469vq79o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Watch Guimaraes' best moments after Arsenal sign midfield maestro",
-      "titleJa": "移籍情報：Watch Guimaraes' best moments after Arsenal sign midfield maestro",
-      "from": "",
-      "to": "",
-      "summaryJa": "Watch Guimaraes' best moments after Arsenal sign midfield maestro移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Watch Guimaraes' best moments after Arsenal sign midfield maestro",
-      "summary": "Watch Bruno Guimaraes' best Premier League moments after Arsenal sign the Brazil midfielder from Newcastle.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cp3r469vq79o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-08T11:09:40.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cy0j1284e47o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Why do teams choose not to disclose transfer fees?",
@@ -123,6 +183,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/czrjee6gzkxo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-11T11:54:57.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sounds/play/p0p3yxzk?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Football Daily",
+      "titleJa": "移籍情報：Football Daily",
+      "from": "",
+      "to": "",
+      "summaryJa": "Football Daily移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Football Daily",
+      "summary": "Aaron Paul is joined by Andy Woodman, Luke Chambers and Lyle Taylor.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sounds/play/p0p3yxzk?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-11T20:04:00.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cz970w31k75o?at_medium=RSS&at_campaign=rss",
@@ -215,36 +290,6 @@
       "date": "2026-08-11T10:10:43.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cm2g9yvd1neo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Everton and Palace complete McNeil-Johnson swap",
-      "titleJa": "移籍情報：Everton and Palace complete McNeil-Johnson swap",
-      "from": "",
-      "to": "",
-      "summaryJa": "Everton and Palace complete McNeil-Johnson swap移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Everton and Palace complete McNeil-Johnson swap",
-      "summary": "Everton and Crystal Palace complete the swap deal for Dwight McNeil and Brennan Johnson.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm2g9yvd1neo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-11T09:00:30.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cre417w85reo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Man City close in on Bouaddi - Tuesday's gossip",
-      "titleJa": "移籍情報：Man City close in on Bouaddi - Tuesday's gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Man City close in on Bouaddi - Tuesday's gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Man City close in on Bouaddi - Tuesday's gossip",
-      "summary": "Manchester City on the verge of signing Ayyoub Bouaddi, Serie A interest in Arsenal duo Gabriel Jesus and Gabriel Martinelli plus Harry Kane a target for Barcelona and Tottenham.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cre417w85reo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-10T20:30:44.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c4gx5w7egvwo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Why has Araujo",
@@ -258,6 +303,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c4gx5w7egvwo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-10T18:11:48.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cm2g9yvd1neo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Everton and Palace complete McNeil-Johnson swap",
+      "titleJa": "移籍情報：Everton and Palace complete McNeil-Johnson swap",
+      "from": "",
+      "to": "",
+      "summaryJa": "Everton and Palace complete McNeil-Johnson swap移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Everton and Palace complete McNeil-Johnson swap",
+      "summary": "Everton and Crystal Palace complete the swap deal for Dwight McNeil and Brennan Johnson.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm2g9yvd1neo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-11T09:00:30.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cqx7ldvyd8do?at_medium=RSS&at_campaign=rss",
@@ -288,21 +348,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9d84pxqdgno?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-10T20:32:37.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c4g362n1e28o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Van de Ven signs new long-term deal with Spurs",
-      "titleJa": "移籍情報：Van de Ven signs new long-term deal with Spurs",
-      "from": "",
-      "to": "",
-      "summaryJa": "Van de Ven signs new long-term deal with Spurs移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Van de Ven signs new long-term deal with Spurs",
-      "summary": "Tottenham defender Micky van de Ven says it is \"clear the direction the club wants to go in\" after signing a new long-term deal with Spurs.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c4g362n1e28o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-10T20:59:50.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cx2lexp9qjxo?at_medium=RSS&at_campaign=rss",
@@ -408,21 +453,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cn4nvwrd2g4o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-10T20:23:33.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cx2jpgj24vlo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Life as a Wag in the transfer window",
-      "titleJa": "移籍情報：Life as a Wag in the transfer window",
-      "from": "",
-      "to": "",
-      "summaryJa": "Life as a Wag in the transfer window移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Life as a Wag in the transfer window",
-      "summary": "What is life like for footballers' families during the transfer window where a last-minute deal means you need to uproot your life and move hundreds of miles?",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx2jpgj24vlo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-08T05:15:34.000Z"
     }
   ]
 }
