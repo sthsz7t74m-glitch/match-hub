@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-08-11T15:38:39.086Z",
+  "updatedAt": "2026-08-11T20:29:08.221Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cvgx311g1zko?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "A coup for Bezos and a windfall for FSG - where does deal leave Liverpool?",
+      "titleJa": "移籍情報：A coup for Bezos and a windfall for FSG - where does deal leave Liverpool?",
+      "from": "",
+      "to": "",
+      "summaryJa": "A coup for Bezos and a windfall for FSG - where does deal leave Liverpool?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "A coup for Bezos and a windfall for FSG - where does deal leave Liverpool?",
+      "summary": "Why investment by a group including Jeff Bezos would not make a marked difference to Liverpool's spending power - and might sit uneasily with fans.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvgx311g1zko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-11T16:00:35.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cwyjxxg5ze5o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -33,21 +48,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c7vgj826nnjo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-11T09:42:20.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cy0j1284e47o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Why do teams choose not to disclose transfer fees?",
-      "titleJa": "移籍情報：Why do teams choose not to disclose transfer fees?",
-      "from": "",
-      "to": "",
-      "summaryJa": "Why do teams choose not to disclose transfer fees?移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Why do teams choose not to disclose transfer fees?",
-      "summary": "Our Ask Me Anything team explain why some player transfer fees are undisclosed, plus more of your transfer window questions.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cy0j1284e47o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-11T14:54:32.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c70g5539dygo?at_medium=RSS&at_campaign=rss",
@@ -95,6 +95,21 @@
       "date": "2026-08-08T11:09:40.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cy0j1284e47o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Why do teams choose not to disclose transfer fees?",
+      "titleJa": "移籍情報：Why do teams choose not to disclose transfer fees?",
+      "from": "",
+      "to": "",
+      "summaryJa": "Why do teams choose not to disclose transfer fees?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Why do teams choose not to disclose transfer fees?",
+      "summary": "Our Ask Me Anything team explain why some player transfer fees are undisclosed, plus more of your transfer window questions.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cy0j1284e47o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-11T14:54:32.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/czrjee6gzkxo?at_medium=RSS&at_campaign=rss",
       "status": "talks",
       "player": "Crystal Palace in talks to re-sign Guessand on loan",
@@ -140,6 +155,51 @@
       "date": "2026-08-11T05:30:03.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c980kg4xnxeo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Who is prospective new Celtic signing Hassan?",
+      "titleJa": "移籍情報：Who is prospective new Celtic signing Hassan?",
+      "from": "",
+      "to": "",
+      "summaryJa": "Who is prospective new Celtic signing Hassan?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Who is prospective new Celtic signing Hassan?",
+      "summary": "BBC Scotland takes a look at Egypt winger Haissem Hassan, who seems poised for a move to Scottish champions Celtic.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c980kg4xnxeo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-11T16:08:58.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cx256kz7nkko?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Wrexham sign Sunderland goalkeeper Patterson",
+      "titleJa": "移籍情報：Wrexham sign Sunderland goalkeeper Patterson",
+      "from": "",
+      "to": "",
+      "summaryJa": "Wrexham sign Sunderland goalkeeper Patterson移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Wrexham sign Sunderland goalkeeper Patterson",
+      "summary": "Goalkeeper Anthony Patterson leaves Sunderland to join Championship side Wrexham.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx256kz7nkko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-11T15:30:53.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/ce3qgzv43d3o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Charles",
+      "titleJa": "フラム、Southampton for £30mからCharlesを獲得",
+      "from": "Southampton for £30m",
+      "to": "フラム",
+      "summaryJa": "CharlesがSouthampton for £30mからフラムへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Fulham sign Charles from Southampton for £30m",
+      "summary": "Fulham confirm the signing of Southampton midfielder Shea Charles in a deal worth up to £30m.",
+      "parsed": true,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ce3qgzv43d3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-11T09:01:18.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cqlx7geg6leo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Chelsea give Mudryk go-ahead for loan move",
@@ -168,36 +228,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm2g9yvd1neo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-11T09:00:30.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/ce3qgzv43d3o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Charles",
-      "titleJa": "フラム、Southampton for £30mからCharlesを獲得",
-      "from": "Southampton for £30m",
-      "to": "フラム",
-      "summaryJa": "CharlesがSouthampton for £30mからフラムへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Fulham sign Charles from Southampton for £30m",
-      "summary": "Fulham confirm the signing of Southampton midfielder Shea Charles in a deal worth up to £30m.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ce3qgzv43d3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-11T09:01:18.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c9d84pxqdgno?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Who could Arsenal sign after missing out on Vinicius Jr?",
-      "titleJa": "移籍情報：Who could Arsenal sign after missing out on Vinicius Jr?",
-      "from": "",
-      "to": "",
-      "summaryJa": "Who could Arsenal sign after missing out on Vinicius Jr?移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Who could Arsenal sign after missing out on Vinicius Jr?",
-      "summary": "One big signing missed, but one big signing through the doors - it's been a mixed transfer window for Arsenal.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9d84pxqdgno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-10T20:32:37.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cre417w85reo?at_medium=RSS&at_campaign=rss",
@@ -245,19 +275,19 @@
       "date": "2026-08-11T12:06:26.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c62e5rp68ero?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c9d84pxqdgno?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Rangers chairman expects up to five more signings",
-      "titleJa": "移籍情報：Rangers chairman expects up to five more signings",
+      "player": "Who could Arsenal sign after missing out on Vinicius Jr?",
+      "titleJa": "移籍情報：Who could Arsenal sign after missing out on Vinicius Jr?",
       "from": "",
       "to": "",
-      "summaryJa": "Rangers chairman expects up to five more signings移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Rangers chairman expects up to five more signings",
-      "summary": "Rangers chairman Andrew Cavanagh is frustrated with the start to the season but expects three to five more signings before the transfer window closes.",
+      "summaryJa": "Who could Arsenal sign after missing out on Vinicius Jr?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Who could Arsenal sign after missing out on Vinicius Jr?",
+      "summary": "One big signing missed, but one big signing through the doors - it's been a mixed transfer window for Arsenal.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c62e5rp68ero?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-10T12:03:55.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9d84pxqdgno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-10T20:32:37.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c4g362n1e28o?at_medium=RSS&at_campaign=rss",
@@ -275,21 +305,6 @@
       "date": "2026-08-10T20:59:50.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cgljd4kny9eo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Consortium including Bezos advances talks for Liverpool stake",
-      "titleJa": "移籍情報：Consortium including Bezos advances talks for Liverpool stake",
-      "from": "",
-      "to": "",
-      "summaryJa": "Consortium including Bezos advances talks for Liverpool stake移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Consortium including Bezos advances talks for Liverpool stake",
-      "summary": "A group including Amazon founder Jeff Bezos advances its talks to buy about a 30% stake in Liverpool, BBC Sport has been told.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cgljd4kny9eo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-10T13:16:51.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cx2lexp9qjxo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Championship all-stars to global gamble - will Ipswich's approach work?",
@@ -303,36 +318,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cx2lexp9qjxo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-10T11:11:55.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c1m1krdjk4no?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Palhinha",
-      "titleJa": "Villa、Palhinha獲得へ交渉中",
-      "from": "",
-      "to": "Villa",
-      "summaryJa": "PalhinhaがVillaへ移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Villa in talks to sign Bayern's Palhinha",
-      "summary": "Aston Villa are in talks over a move for Bayern Munich midfielder Joao Palhinha.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c1m1krdjk4no?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-10T15:40:18.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cm2gk7l7yl7o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Derby 'off market' as takeover deal collapses",
-      "titleJa": "移籍情報：Derby 'off market' as takeover deal collapses",
-      "from": "",
-      "to": "",
-      "summaryJa": "Derby 'off market' as takeover deal collapses移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Derby 'off market' as takeover deal collapses",
-      "summary": "Saudi Arabia government official Turki Alalshikh abandons his proposed takeover of Championship club Derby County.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm2gk7l7yl7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-10T16:51:34.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
