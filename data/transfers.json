@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T23:25:04.047Z",
+  "updatedAt": "2026-08-12T05:50:02.805Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -65,21 +65,6 @@
       "date": "2026-08-11T12:07:28.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c7vgj826nnjo?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "Striker snubbed by Scotland for World Cup signs for Sevilla",
-      "titleJa": "移籍情報：Striker snubbed by Scotland for World Cup signs for Sevilla",
-      "from": "",
-      "to": "",
-      "summaryJa": "Striker snubbed by Scotland for World Cup signs for Sevilla移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "Striker snubbed by Scotland for World Cup signs for Sevilla",
-      "summary": "Sevilla announce £5.5m move, rising to potential £7.6m, for former Scotland youth international striker Robbie Ure to join from Swedish club IK Sirius.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c7vgj826nnjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-11T09:42:20.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cy5d127gv0go?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Coventry eye Mudryk on loan - Wednesday's gossip",
@@ -108,6 +93,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cp3r469vq79o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-08T11:09:40.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c7vgj826nnjo?at_medium=RSS&at_campaign=rss",
+      "status": "official",
+      "player": "Striker snubbed by Scotland for World Cup signs for Sevilla",
+      "titleJa": "移籍情報：Striker snubbed by Scotland for World Cup signs for Sevilla",
+      "from": "",
+      "to": "",
+      "summaryJa": "Striker snubbed by Scotland for World Cup signs for Sevilla移る可能性について、正式発表段階の報道です。",
+      "originalTitle": "Striker snubbed by Scotland for World Cup signs for Sevilla",
+      "summary": "Sevilla announce £5.5m move, rising to potential £7.6m, for former Scotland youth international striker Robbie Ure to join from Swedish club IK Sirius.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c7vgj826nnjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-11T09:42:20.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c74gvp29jyxo?at_medium=RSS&at_campaign=rss",
@@ -185,6 +185,21 @@
       "date": "2026-08-11T11:54:57.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cg7m3nk013mo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Trump says it would be 'terrible mistake' to remove Infantino",
+      "titleJa": "移籍情報：Trump says it would be 'terrible mistake' to remove Infantino",
+      "from": "",
+      "to": "",
+      "summaryJa": "Trump says it would be 'terrible mistake' to remove Infantino移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Trump says it would be 'terrible mistake' to remove Infantino",
+      "summary": "US President Donald Trump says it would be a \"terrible mistake\" if under-pressure Fifa president Gianni Infantino was ousted.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cg7m3nk013mo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-11T05:30:03.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sounds/play/p0p3yxzk?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Football Daily",
@@ -213,21 +228,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cz970w31k75o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-11T06:00:41.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cg7m3nk013mo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Trump says it would be 'terrible mistake' to remove Infantino",
-      "titleJa": "移籍情報：Trump says it would be 'terrible mistake' to remove Infantino",
-      "from": "",
-      "to": "",
-      "summaryJa": "Trump says it would be 'terrible mistake' to remove Infantino移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Trump says it would be 'terrible mistake' to remove Infantino",
-      "summary": "US President Donald Trump says it would be a \"terrible mistake\" if under-pressure Fifa president Gianni Infantino was ousted.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cg7m3nk013mo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-11T05:30:03.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c980kg4xnxeo?at_medium=RSS&at_campaign=rss",
@@ -335,21 +335,6 @@
       "date": "2026-08-11T12:06:26.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c9d84pxqdgno?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Who could Arsenal sign after missing out on Vinicius Jr?",
-      "titleJa": "移籍情報：Who could Arsenal sign after missing out on Vinicius Jr?",
-      "from": "",
-      "to": "",
-      "summaryJa": "Who could Arsenal sign after missing out on Vinicius Jr?移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Who could Arsenal sign after missing out on Vinicius Jr?",
-      "summary": "One big signing missed, but one big signing through the doors - it's been a mixed transfer window for Arsenal.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9d84pxqdgno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-10T20:32:37.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cx2lexp9qjxo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Championship all-stars to global gamble - will Ipswich's approach work?",
@@ -453,6 +438,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cn4nvwrd2g4o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-10T20:23:33.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cx2jpgj24vlo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Life as a Wag in the transfer window",
+      "titleJa": "移籍情報：Life as a Wag in the transfer window",
+      "from": "",
+      "to": "",
+      "summaryJa": "Life as a Wag in the transfer window移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Life as a Wag in the transfer window",
+      "summary": "What is life like for footballers' families during the transfer window where a last-minute deal means you need to uproot your life and move hundreds of miles?",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx2jpgj24vlo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-08T05:15:34.000Z"
     }
   ]
 }
