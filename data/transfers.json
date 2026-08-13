@@ -1,9 +1,39 @@
 {
-  "updatedAt": "2026-08-13T15:39:04.382Z",
+  "updatedAt": "2026-08-13T19:29:54.822Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cx2v175j40zo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Fresh talks over Arsenal move for Aston Villa's Konsa",
+      "titleJa": "移籍情報：Fresh talks over Arsenal move for Aston Villa's Konsa",
+      "from": "",
+      "to": "",
+      "summaryJa": "Fresh talks over Arsenal move for Aston Villa's Konsa移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Fresh talks over Arsenal move for Aston Villa's Konsa",
+      "summary": "Aston Villa's central defender Ezri Konsa is thought to be Arsenal's preferred option in their search for a new central defender.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx2v175j40zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-13T15:47:45.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c79g4px5z1zo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Rashford, Mainoo & transfers - Carrick calls for more signings",
+      "titleJa": "移籍情報：Rashford, Mainoo & transfers - Carrick calls for more signings",
+      "from": "",
+      "to": "",
+      "summaryJa": "Rashford, Mainoo & transfers - Carrick calls for more signings移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Rashford, Mainoo & transfers - Carrick calls for more signings",
+      "summary": "Before his first full season as Manchester United head coach, Michael Carrick explains why the club need more players, discusses why he is in a privileged position and talks Marcus Rashford and Kobbie Mainoo.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c79g4px5z1zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-13T16:21:51.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cj63p367gpyo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -18,6 +48,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cj63p367gpyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-13T14:41:24.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cwy42yqwk30o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Arsenal invite offers for Martinelli and Nwaneri",
+      "titleJa": "移籍情報：Arsenal invite offers for Martinelli and Nwaneri",
+      "from": "",
+      "to": "",
+      "summaryJa": "Arsenal invite offers for Martinelli and Nwaneri移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Arsenal invite offers for Martinelli and Nwaneri",
+      "summary": "Arsenal hold talks with Galatasaray over the prospect of selling various squad members as the Gunners invite offers for Gabriel Martinelli and Ethan Nwaneri.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwy42yqwk30o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-13T17:49:02.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cm2gpr52drzo?at_medium=RSS&at_campaign=rss",
@@ -50,6 +95,51 @@
       "date": "2026-08-13T14:18:05.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cy9w2749p89o?at_medium=RSS&at_campaign=rss",
+      "status": "official",
+      "player": "Unal completes move from Bournemouth to Getafe",
+      "titleJa": "移籍情報：Unal completes move from Bournemouth to Getafe",
+      "from": "",
+      "to": "",
+      "summaryJa": "Unal completes move from Bournemouth to Getafe移る可能性について、正式発表段階の報道です。",
+      "originalTitle": "Unal completes move from Bournemouth to Getafe",
+      "summary": "Enes Unal leaves Bournemouth to rejoin Spanish club Getafe.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cy9w2749p89o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-13T15:34:42.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Carrick pushing to improve the squad this summer",
+      "titleJa": "移籍情報：Carrick pushing to improve the squad this summer",
+      "from": "",
+      "to": "",
+      "summaryJa": "Carrick pushing to improve the squad this summer移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Carrick pushing to improve the squad this summer",
+      "summary": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-13T17:56:48.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cwyl368n7p3o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "PSV winger Driouech at Ibrox before expected Rangers move",
+      "titleJa": "移籍情報：PSV winger Driouech at Ibrox before expected Rangers move",
+      "from": "",
+      "to": "",
+      "summaryJa": "PSV winger Driouech at Ibrox before expected Rangers move移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "PSV winger Driouech at Ibrox before expected Rangers move",
+      "summary": "PSV Eindhoven winger Couhaib Driouech is at Ibrox to watch Rangers face Jagiellonia Bialystok pending a transfer to the Scottish Premiership club.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwyl368n7p3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-13T18:41:31.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/ce85jy4rrz5o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Baur",
@@ -80,6 +170,21 @@
       "date": "2026-08-12T21:18:21.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sounds/play/p0p48r33?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "BBC Women's Football Weekly",
+      "titleJa": "移籍情報：BBC Women's Football Weekly",
+      "from": "",
+      "to": "",
+      "summaryJa": "BBC Women's Football Weekly移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "BBC Women's Football Weekly",
+      "summary": "Featuring Casparij, Miedema, Clinton, Shaw, Jeglertz and new signing Beth Mead!",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sounds/play/p0p48r33?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-13T11:29:00.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cvgxz9xd95zo?at_medium=RSS&at_campaign=rss",
       "status": "talks",
       "player": "Inter in advanced talks for Spurs full-back Spence",
@@ -93,51 +198,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cvgxz9xd95zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-12T13:43:30.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cwym2e2egz3o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Dallas backs Charles to thrive at Fulham",
-      "titleJa": "移籍情報：Dallas backs Charles to thrive at Fulham",
-      "from": "",
-      "to": "",
-      "summaryJa": "Dallas backs Charles to thrive at Fulham移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Dallas backs Charles to thrive at Fulham",
-      "summary": "Former Northern Ireland international Stuart Dallas feels Shea Charles can make his mark in the Premier League with Fulham, while also backing Ethan Galbraith's switch to Stoke City.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwym2e2egz3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-13T10:13:23.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cn8npx57499o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Lukaku seals 'emotional' move to Fenerbahce",
-      "titleJa": "移籍情報：Lukaku seals 'emotional' move to Fenerbahce",
-      "from": "",
-      "to": "",
-      "summaryJa": "Lukaku seals 'emotional' move to Fenerbahce移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Lukaku seals 'emotional' move to Fenerbahce",
-      "summary": "Belgium striker Romelu Lukaku has joined Turkish side Fenerbahce from Napoli for an undisclosed fee and contract length.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cn8npx57499o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-12T22:26:25.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c77g5dne45lo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Xavi becomes first non-Dutch Netherlands coach since 1978",
-      "titleJa": "移籍情報：Xavi becomes first non-Dutch Netherlands coach since 1978",
-      "from": "",
-      "to": "",
-      "summaryJa": "Xavi becomes first non-Dutch Netherlands coach since 1978移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Xavi becomes first non-Dutch Netherlands coach since 1978",
-      "summary": "Former Barcelona manager Xavi is appointed as the new head coach of the Netherlands on a four-year deal.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c77g5dne45lo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-12T20:15:18.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cwy42p7r00zo?at_medium=RSS&at_campaign=rss",
@@ -155,21 +215,6 @@
       "date": "2026-08-13T09:17:47.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/clyjp48lvp2o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Hull sign central defenders Mendy and Herrington",
-      "titleJa": "移籍情報：Hull sign central defenders Mendy and Herrington",
-      "from": "",
-      "to": "",
-      "summaryJa": "Hull sign central defenders Mendy and Herrington移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Hull sign central defenders Mendy and Herrington",
-      "summary": "Hull City confirm the signing of Nobel Mendy from Rayo Vallecano for a club record fee, while they also add fellow centre-back Lucas Herrington from Colorado Rapids.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/clyjp48lvp2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-12T22:21:28.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c4gx5w7egvwo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Why has Araujo",
@@ -185,21 +230,6 @@
       "date": "2026-08-10T18:11:48.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cx2lexp9qjxo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Championship all-stars to global gamble - will Ipswich's approach work?",
-      "titleJa": "移籍情報：Championship all-stars to global gamble - will Ipswich's approach work?",
-      "from": "",
-      "to": "",
-      "summaryJa": "Championship all-stars to global gamble - will Ipswich's approach work?移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Championship all-stars to global gamble - will Ipswich's approach work?",
-      "summary": "As Ipswich prepare for their return to the Premier League, BBC Sport look at how they are approaching the transfer market differently.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx2lexp9qjxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-10T11:11:55.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "All done deals in August 2026",
@@ -212,7 +242,7 @@
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-13T09:20:46.000Z"
+      "date": "2026-08-13T15:40:36.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cy0j1284e47o?at_medium=RSS&at_campaign=rss",
@@ -232,47 +262,17 @@
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/ce85jy4rrz5o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Celtic perseverance pays off as Paderborn midfielder Baur signs",
-      "titleJa": "移籍情報：Celtic perseverance pays off as Paderborn midfielder Baur signs",
+      "player": "Celtic perseverance pays off as midfielder Baur signs",
+      "titleJa": "移籍情報：Celtic perseverance pays off as midfielder Baur signs",
       "from": "",
       "to": "",
-      "summaryJa": "Celtic perseverance pays off as Paderborn midfielder Baur signs移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Celtic perseverance pays off as Paderborn midfielder Baur signs",
+      "summaryJa": "Celtic perseverance pays off as midfielder Baur signs移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Celtic perseverance pays off as midfielder Baur signs",
       "summary": "Celtic sign German midfielder Mika Baur from Paderborn for an undisclosed fee, with the 22-year-old signing a four-year contract.",
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ce85jy4rrz5o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-13T15:06:40.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c980kg4xnxeo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "'Great moment' as Egypt winger Hassan",
-      "titleJa": "'Great moment' as Egypt winger Hassan、Celtic on four-year dealへ加入",
-      "from": "",
-      "to": "Celtic on four-year deal",
-      "summaryJa": "'Great moment' as Egypt winger HassanがCeltic on four-year dealへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "'Great moment' as Egypt winger Hassan joins Celtic on four-year deal",
-      "summary": "Celtic sign winger Haissem Hassan from Real Oviedo on a four-year contract with the option of a further year.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c980kg4xnxeo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-12T19:57:57.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c79g4q44zvro?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Celtic want Chelsea's Emenalo on loan - gossip",
-      "titleJa": "移籍情報：Celtic want Chelsea's Emenalo on loan - gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Celtic want Chelsea's Emenalo on loan - gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Celtic want Chelsea's Emenalo on loan - gossip",
-      "summary": "Celtic linked with two full-backs as Spanish club join chase for Rangers midfielder...",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c79g4q44zvro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-13T06:55:40.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/ce8l6n9g6wgo?at_medium=RSS&at_campaign=rss",
