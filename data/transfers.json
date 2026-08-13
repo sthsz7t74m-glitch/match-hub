@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T05:53:02.817Z",
+  "updatedAt": "2026-08-13T09:50:22.076Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -7,12 +7,12 @@
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cy8e2vx2l30o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Atletico agree £34.2m deal for Tottenham's Romero",
-      "titleJa": "移籍情報：Atletico agree £34.2m deal for Tottenham's Romero",
+      "player": "Atletico agree £34m deal for Tottenham's Romero",
+      "titleJa": "移籍情報：Atletico agree £34m deal for Tottenham's Romero",
       "from": "",
       "to": "",
-      "summaryJa": "Atletico agree £34.2m deal for Tottenham's Romero移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Atletico agree £34.2m deal for Tottenham's Romero",
+      "summaryJa": "Atletico agree £34m deal for Tottenham's Romero移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Atletico agree £34m deal for Tottenham's Romero",
       "summary": "Cristian Romero is set to join La Liga side Atletico Madrid as they agree a £34.2m fee with Tottenham for their captain.",
       "parsed": false,
       "source": "BBC Sport",
@@ -32,7 +32,7 @@
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwy42p7r00zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-12T22:09:56.000Z"
+      "date": "2026-08-13T09:17:47.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cn8npx57499o?at_medium=RSS&at_campaign=rss",
@@ -65,21 +65,6 @@
       "date": "2026-08-12T11:00:23.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c77g5dne45lo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Xavi becomes first non-Dutch Netherlands coach since 1978",
-      "titleJa": "移籍情報：Xavi becomes first non-Dutch Netherlands coach since 1978",
-      "from": "",
-      "to": "",
-      "summaryJa": "Xavi becomes first non-Dutch Netherlands coach since 1978移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Xavi becomes first non-Dutch Netherlands coach since 1978",
-      "summary": "Former Barcelona manager Xavi is appointed as the new head coach of the Netherlands on a four-year deal.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c77g5dne45lo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-12T20:15:18.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cvgxz9xd95zo?at_medium=RSS&at_campaign=rss",
       "status": "talks",
       "player": "Inter in advanced talks for Spurs full-back Spence",
@@ -93,6 +78,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cvgxz9xd95zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-12T13:43:30.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c77g5dne45lo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Xavi becomes first non-Dutch Netherlands coach since 1978",
+      "titleJa": "移籍情報：Xavi becomes first non-Dutch Netherlands coach since 1978",
+      "from": "",
+      "to": "",
+      "summaryJa": "Xavi becomes first non-Dutch Netherlands coach since 1978移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Xavi becomes first non-Dutch Netherlands coach since 1978",
+      "summary": "Former Barcelona manager Xavi is appointed as the new head coach of the Netherlands on a four-year deal.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c77g5dne45lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-12T20:15:18.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c980kg4xnxeo?at_medium=RSS&at_campaign=rss",
@@ -170,21 +170,6 @@
       "date": "2026-08-12T08:29:22.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cgljpye101xo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Torres misses Barcelona training to finalise PSG move",
-      "titleJa": "移籍情報：Torres misses Barcelona training to finalise PSG move",
-      "from": "",
-      "to": "",
-      "summaryJa": "Torres misses Barcelona training to finalise PSG move移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Torres misses Barcelona training to finalise PSG move",
-      "summary": "Spain's World Cup hero Ferran Torres is given permission to miss Barcelona training to finalise a move to Paris St-Germain.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cgljpye101xo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-12T09:13:34.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/ce8l6n9g6wgo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Why 'wanted' Stanway wasted no time in getting Arsenal tattoo",
@@ -200,34 +185,19 @@
       "date": "2026-08-12T06:49:11.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cwym29gnkzdo?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/cgljpye101xo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Depay says Corinthians 'unacceptable' as contract ends",
-      "titleJa": "移籍情報：Depay says Corinthians 'unacceptable' as contract ends",
+      "player": "Torres misses Barcelona training to finalise PSG move",
+      "titleJa": "移籍情報：Torres misses Barcelona training to finalise PSG move",
       "from": "",
       "to": "",
-      "summaryJa": "Depay says Corinthians 'unacceptable' as contract ends移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Depay says Corinthians 'unacceptable' as contract ends",
-      "summary": "Memphis Depay accuses Corinthians of \"unacceptable behaviour\" and of breaching an agreement after the Brazilian club decide against renewing his contract.",
+      "summaryJa": "Torres misses Barcelona training to finalise PSG move移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Torres misses Barcelona training to finalise PSG move",
+      "summary": "Spain's World Cup hero Ferran Torres is given permission to miss Barcelona training to finalise a move to Paris St-Germain.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwym29gnkzdo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-12T06:35:01.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c1j12xypl19o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Villa close in on Atletico defender Ruggeri",
-      "titleJa": "移籍情報：Villa close in on Atletico defender Ruggeri",
-      "from": "",
-      "to": "",
-      "summaryJa": "Villa close in on Atletico defender Ruggeri移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Villa close in on Atletico defender Ruggeri",
-      "summary": "Aston Villa close in on the signing of Atletico Madrid defender Matteo Ruggeri.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c1j12xypl19o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-12T13:56:24.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/cgljpye101xo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-12T09:13:34.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c4gx5w7egvwo?at_medium=RSS&at_campaign=rss",
@@ -272,7 +242,7 @@
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-12T10:33:06.000Z"
+      "date": "2026-08-13T09:20:46.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cy0j1284e47o?at_medium=RSS&at_campaign=rss",
@@ -303,6 +273,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c980kg4xnxeo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-12T19:57:57.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c79g4q44zvro?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Celtic want Chelsea's Emenalo on loan - gossip",
+      "titleJa": "移籍情報：Celtic want Chelsea's Emenalo on loan - gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Celtic want Chelsea's Emenalo on loan - gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Celtic want Chelsea's Emenalo on loan - gossip",
+      "summary": "Celtic linked with two full-backs as Spanish club join chase for Rangers midfielder...",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c79g4q44zvro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-13T06:55:40.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cx2jpgj24vlo?at_medium=RSS&at_campaign=rss",
