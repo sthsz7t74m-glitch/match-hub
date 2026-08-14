@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T05:09:35.364Z",
+  "updatedAt": "2026-08-14T07:54:20.986Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -18,6 +18,36 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cp30xwkj4y3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-13T22:12:05.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Carrick pushing to improve the squad this summer",
+      "titleJa": "移籍情報：Carrick pushing to improve the squad this summer",
+      "from": "",
+      "to": "",
+      "summaryJa": "Carrick pushing to improve the squad this summer移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Carrick pushing to improve the squad this summer",
+      "summary": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-13T17:56:48.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c2dk2618pxgo?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Man City reject fresh Rodri bid - Friday's gossip",
+      "titleJa": "移籍情報：Man City reject fresh Rodri bid - Friday's gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Man City reject fresh Rodri bid - Friday's gossip移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Man City reject fresh Rodri bid - Friday's gossip",
+      "summary": "Barcelona's latest Rodri bid rejected, Tottenham's Djed Spence on verge of Inter Milan move, Arsenal rebuffed in bid for Marc Pubill, plus more.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c2dk2618pxgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-13T22:03:35.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cx2v175j40zo?at_medium=RSS&at_campaign=rss",
@@ -48,36 +78,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c79g4px5z1zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-13T16:21:51.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c2dk2618pxgo?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Man City reject fresh Rodri bid - Friday's gossip",
-      "titleJa": "移籍情報：Man City reject fresh Rodri bid - Friday's gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Man City reject fresh Rodri bid - Friday's gossip移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Man City reject fresh Rodri bid - Friday's gossip",
-      "summary": "Barcelona's latest Rodri bid rejected, Tottenham's Djed Spence on verge of Inter Milan move, Arsenal rebuffed in bid for Marc Pubill, plus more.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c2dk2618pxgo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-13T22:03:35.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Carrick pushing to improve the squad this summer",
-      "titleJa": "移籍情報：Carrick pushing to improve the squad this summer",
-      "from": "",
-      "to": "",
-      "summaryJa": "Carrick pushing to improve the squad this summer移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Carrick pushing to improve the squad this summer",
-      "summary": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-13T17:56:48.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c62e14e0227o?at_medium=RSS&at_campaign=rss",
@@ -170,21 +170,6 @@
       "date": "2026-08-13T15:34:42.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sounds/play/p0p48r33?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "BBC Women's Football Weekly",
-      "titleJa": "移籍情報：BBC Women's Football Weekly",
-      "from": "",
-      "to": "",
-      "summaryJa": "BBC Women's Football Weekly移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "BBC Women's Football Weekly",
-      "summary": "Featuring Casparij, Miedema, Clinton, Shaw, Jeglertz and new signing Beth Mead!",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sounds/play/p0p48r33?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-13T11:29:00.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c4gx5w7egvwo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Why has Araujo",
@@ -230,19 +215,19 @@
       "date": "2026-08-11T14:54:32.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/ce85jy4rrz5o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Celtic perseverance pays off as midfielder Baur signs",
-      "titleJa": "移籍情報：Celtic perseverance pays off as midfielder Baur signs",
+      "id": "https://www.bbc.co.uk/sport/football/articles/cp9epdvxdxno?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Rangers make offer for striker Kelsy - gossip",
+      "titleJa": "移籍情報：Rangers make offer for striker Kelsy - gossip",
       "from": "",
       "to": "",
-      "summaryJa": "Celtic perseverance pays off as midfielder Baur signs移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Celtic perseverance pays off as midfielder Baur signs",
-      "summary": "Celtic sign German midfielder Mika Baur from Paderborn for an undisclosed fee, with the 22-year-old signing a four-year contract.",
+      "summaryJa": "Rangers make offer for striker Kelsy - gossip移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Rangers make offer for striker Kelsy - gossip",
+      "summary": "Rangers chase Venezuela striker and agree loan deal for left-back as Celtic are linked with Bosnian based in Czech Republic...",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ce85jy4rrz5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-13T15:06:40.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/cp9epdvxdxno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-14T07:00:38.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/ce8l6n9g6wgo?at_medium=RSS&at_campaign=rss",
