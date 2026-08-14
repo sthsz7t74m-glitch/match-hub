@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T07:04:46.668Z",
+  "updatedAt": "2026-08-14T07:00:31.965Z",
   "season": "2026",
   "dataSource": "football-data.org",
   "dataMode": "current-free-plan",
@@ -7019,7 +7019,7 @@
     },
     {
       "id": 558610,
-      "date": "2026-09-07T16:30:00Z",
+      "date": "2026-09-07T16:00:00Z",
       "status": "TIMED",
       "elapsed": null,
       "competition": "Serie A",
@@ -7142,7 +7142,7 @@
     },
     {
       "id": 564658,
-      "date": "2026-09-07T19:00:00Z",
+      "date": "2026-09-07T19:30:00Z",
       "status": "TIMED",
       "elapsed": null,
       "competition": "Primera Division",
