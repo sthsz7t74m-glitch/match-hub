@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-08-14T07:54:20.986Z",
+  "updatedAt": "2026-08-14T10:27:44.437Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cqlx1023wd3o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Lundgaard",
+      "titleJa": "Lundgaard、Eintracht Frankfurtへ加入",
+      "from": "",
+      "to": "Eintracht Frankfurt",
+      "summaryJa": "LundgaardがEintracht Frankfurtへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Liverpool's Lundgaard joins Eintracht Frankfurt",
+      "summary": "Liverpool midfielder Sofie Lundgaard completes a permanent transfer to Eintracht Frankfurt for an undisclosed fee.",
+      "parsed": true,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqlx1023wd3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-14T10:00:53.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cp30xwkj4y3o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -18,6 +33,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cp30xwkj4y3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-13T22:12:05.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sounds/play/p0p3yymr?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Listen: 2026-27 EFL season preview",
+      "titleJa": "移籍情報：Listen: 2026-27 EFL season preview",
+      "from": "",
+      "to": "",
+      "summaryJa": "Listen: 2026-27 EFL season preview移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Listen: 2026-27 EFL season preview",
+      "summary": "Aaron Paul is joined by Andy Woodman, Luke Chambers and Lyle Taylor.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sounds/play/p0p3yymr?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-11T20:13:00.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
@@ -50,21 +80,6 @@
       "date": "2026-08-13T22:03:35.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cx2v175j40zo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Fresh talks over Arsenal move for Aston Villa's Konsa",
-      "titleJa": "移籍情報：Fresh talks over Arsenal move for Aston Villa's Konsa",
-      "from": "",
-      "to": "",
-      "summaryJa": "Fresh talks over Arsenal move for Aston Villa's Konsa移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Fresh talks over Arsenal move for Aston Villa's Konsa",
-      "summary": "Aston Villa's central defender Ezri Konsa is thought to be Arsenal's preferred option in their search for a new central defender.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx2v175j40zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-13T15:47:45.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c79g4px5z1zo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Rashford, Mainoo & transfers - Carrick calls for more signings",
@@ -78,6 +93,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c79g4px5z1zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-13T16:21:51.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cx2v175j40zo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Fresh talks over Arsenal move for Aston Villa's Konsa",
+      "titleJa": "移籍情報：Fresh talks over Arsenal move for Aston Villa's Konsa",
+      "from": "",
+      "to": "",
+      "summaryJa": "Fresh talks over Arsenal move for Aston Villa's Konsa移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Fresh talks over Arsenal move for Aston Villa's Konsa",
+      "summary": "Aston Villa's central defender Ezri Konsa is thought to be Arsenal's preferred option in their search for a new central defender.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx2v175j40zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-13T15:47:45.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c62e14e0227o?at_medium=RSS&at_campaign=rss",
@@ -197,7 +227,7 @@
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-13T15:40:36.000Z"
+      "date": "2026-08-14T10:21:38.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cy0j1284e47o?at_medium=RSS&at_campaign=rss",
@@ -213,6 +243,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cy0j1284e47o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-11T14:54:32.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cwyl368n7p3o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Rangers pull out of deal for PSV winger Driouech",
+      "titleJa": "移籍情報：Rangers pull out of deal for PSV winger Driouech",
+      "from": "",
+      "to": "",
+      "summaryJa": "Rangers pull out of deal for PSV winger Driouech移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Rangers pull out of deal for PSV winger Driouech",
+      "summary": "Rangers withdraw from a proposed deal to sign Couhaib Driouech from PSV Eindhoven, with the winger carrying an injury.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwyl368n7p3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-14T10:05:02.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cp9epdvxdxno?at_medium=RSS&at_campaign=rss",
