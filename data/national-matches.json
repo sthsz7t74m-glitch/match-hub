@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T07:01:08.489Z",
+  "updatedAt": "2026-08-14T07:02:57.269Z",
   "source": "ESPN multi-competition monthly adapter",
   "competitionCount": 15,
   "competitions": [
@@ -46739,7 +46739,7 @@
       "awayName": "New Zealand",
       "homeScore": 0,
       "awayScore": 0,
-      "venue": "Nissan Stadium",
+      "venue": "",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
