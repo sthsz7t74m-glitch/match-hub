@@ -1,23 +1,38 @@
 {
-  "updatedAt": "2026-08-14T13:48:38.963Z",
+  "updatedAt": "2026-08-14T16:08:55.602Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c7vgyrl2573o?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/cx2vj4l9wxyo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "A pivotal day for Chelsea, Man City and Fernandez - what's going on?",
-      "titleJa": "移籍情報：A pivotal day for Chelsea, Man City and Fernandez - what's going on?",
+      "player": "Bezos-backed consortium buys a third of Liverpool",
+      "titleJa": "移籍情報：Bezos-backed consortium buys a third of Liverpool",
       "from": "",
       "to": "",
-      "summaryJa": "A pivotal day for Chelsea, Man City and Fernandez - what's going on?移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "A pivotal day for Chelsea, Man City and Fernandez - what's going on?",
-      "summary": "Chelsea's deadline to Manchester City for an Enzo Fernandez bid is 17:00 BST on Friday - will the deal happen?",
+      "summaryJa": "Bezos-backed consortium buys a third of Liverpool移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Bezos-backed consortium buys a third of Liverpool",
+      "summary": "Liverpool's owners agree to sell around a third of the club to a consortium including billionaire Amazon founder Jeff Bezos - in a deal that values the Reds at more than £5bn.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx2vj4l9wxyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-14T16:00:16.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c7vgyrl2573o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Chelsea expect Fernandez to stay as deadline passes",
+      "titleJa": "移籍情報：Chelsea expect Fernandez to stay as deadline passes",
+      "from": "",
+      "to": "",
+      "summaryJa": "Chelsea expect Fernandez to stay as deadline passes移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Chelsea expect Fernandez to stay as deadline passes",
+      "summary": "Chelsea's deadline for clubs to bid £120m for midfielder Enzo Fernandez has passed - and they now expect the Argentine to stay at the club this season.",
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c7vgyrl2573o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T12:40:33.000Z"
+      "date": "2026-08-14T16:04:54.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/ce85pje4gyqo?at_medium=RSS&at_campaign=rss",
@@ -50,6 +65,51 @@
       "date": "2026-08-14T10:35:26.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cp87rj8v946o?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Who are the Chawinga sisters leading Malawi's bid for Wafcon glory?",
+      "titleJa": "移籍情報：Who are the Chawinga sisters leading Malawi's bid for Wafcon glory?",
+      "from": "",
+      "to": "",
+      "summaryJa": "Who are the Chawinga sisters leading Malawi's bid for Wafcon glory?移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Who are the Chawinga sisters leading Malawi's bid for Wafcon glory?",
+      "summary": "Sisters Tabitha and Temwa Chawinga are the undoubted stars of Malawi's unexpected run to the final of the 2026 Women's Africa Cup of Nations.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cp87rj8v946o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-14T15:16:55.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cd7lw2lv7npo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Free agent Sancho favours move abroad",
+      "titleJa": "移籍情報：Free agent Sancho favours move abroad",
+      "from": "",
+      "to": "",
+      "summaryJa": "Free agent Sancho favours move abroad移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Free agent Sancho favours move abroad",
+      "summary": "Free agent Jadon Sancho is believed to prefer a move abroad despite receiving offers from Premier League clubs.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cd7lw2lv7npo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-14T14:03:24.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cgjexdypjqyo?at_medium=RSS&at_campaign=rss",
+      "status": "official",
+      "player": "Celtic's Engels poised for West Ham transfer",
+      "titleJa": "移籍情報：Celtic's Engels poised for West Ham transfer",
+      "from": "",
+      "to": "",
+      "summaryJa": "Celtic's Engels poised for West Ham transfer移る可能性について、正式発表段階の報道です。",
+      "originalTitle": "Celtic's Engels poised for West Ham transfer",
+      "summary": "Belgium midfielder Arne Engels is having a medical pending a transfer to West Ham United, Celtic manager Martin O'Neill has confirmed.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cgjexdypjqyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-14T14:51:01.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sounds/play/p0p3yymr?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Listen: 2026-27 EFL season preview",
@@ -80,21 +140,6 @@
       "date": "2026-08-13T17:56:48.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cqlx1023wd3o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Lundgaard",
-      "titleJa": "Lundgaard、Eintracht Frankfurtへ加入",
-      "from": "",
-      "to": "Eintracht Frankfurt",
-      "summaryJa": "LundgaardがEintracht Frankfurtへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Liverpool's Lundgaard joins Eintracht Frankfurt",
-      "summary": "Liverpool midfielder Sofie Lundgaard completes a permanent transfer to Eintracht Frankfurt for an undisclosed fee.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqlx1023wd3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T10:00:53.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c2dk2618pxgo?at_medium=RSS&at_campaign=rss",
       "status": "talks",
       "player": "Man City reject fresh Rodri bid - Friday's gossip",
@@ -108,6 +153,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c2dk2618pxgo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-13T22:03:35.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cqlx1023wd3o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Lundgaard",
+      "titleJa": "Lundgaard、Eintracht Frankfurtへ加入",
+      "from": "",
+      "to": "Eintracht Frankfurt",
+      "summaryJa": "LundgaardがEintracht Frankfurtへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Liverpool's Lundgaard joins Eintracht Frankfurt",
+      "summary": "Liverpool midfielder Sofie Lundgaard completes a permanent transfer to Eintracht Frankfurt for an undisclosed fee.",
+      "parsed": true,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqlx1023wd3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-14T10:00:53.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cp30xwkj4y3o?at_medium=RSS&at_campaign=rss",
@@ -155,21 +215,6 @@
       "date": "2026-08-13T20:36:21.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cj63p367gpyo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Why half of England's World Cup defenders are on the move",
-      "titleJa": "移籍情報：Why half of England's World Cup defenders are on the move",
-      "from": "",
-      "to": "",
-      "summaryJa": "Why half of England's World Cup defenders are on the move移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Why half of England's World Cup defenders are on the move",
-      "summary": "England came third in this summer's World Cup - their best performance in a men's competition in 60 years - and now their players are in demand in the transfer market.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cj63p367gpyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-13T14:41:24.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cm2gpr52drzo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Tielemans apologises to Villa fans for Man Utd remarks",
@@ -183,6 +228,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm2gpr52drzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-13T13:47:14.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cj63p367gpyo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Why half of England's World Cup defenders are on the move",
+      "titleJa": "移籍情報：Why half of England's World Cup defenders are on the move",
+      "from": "",
+      "to": "",
+      "summaryJa": "Why half of England's World Cup defenders are on the move移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Why half of England's World Cup defenders are on the move",
+      "summary": "England came third in this summer's World Cup - their best performance in a men's competition in 60 years - and now their players are in demand in the transfer market.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cj63p367gpyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-13T14:41:24.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cwy42yqwk30o?at_medium=RSS&at_campaign=rss",
@@ -215,21 +275,6 @@
       "date": "2026-08-13T14:18:05.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cy9w2749p89o?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "Unal completes move from Bournemouth to Getafe",
-      "titleJa": "移籍情報：Unal completes move from Bournemouth to Getafe",
-      "from": "",
-      "to": "",
-      "summaryJa": "Unal completes move from Bournemouth to Getafe移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "Unal completes move from Bournemouth to Getafe",
-      "summary": "Enes Unal leaves Bournemouth to rejoin Spanish club Getafe.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cy9w2749p89o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-13T15:34:42.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c4gx5w7egvwo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Why has Araujo",
@@ -257,7 +302,7 @@
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T12:45:31.000Z"
+      "date": "2026-08-14T15:47:19.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cy0j1284e47o?at_medium=RSS&at_campaign=rss",
@@ -277,13 +322,13 @@
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cwyl368n7p3o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Rangers pull out of deal for PSV winger Driouech",
-      "titleJa": "移籍情報：Rangers pull out of deal for PSV winger Driouech",
+      "player": "Rangers leave PSV surprised as they pull out of Driouech deal",
+      "titleJa": "移籍情報：Rangers leave PSV surprised as they pull out of Driouech deal",
       "from": "",
       "to": "",
-      "summaryJa": "Rangers pull out of deal for PSV winger Driouech移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Rangers pull out of deal for PSV winger Driouech",
-      "summary": "Rangers withdraw from a proposed deal to sign Couhaib Driouech from PSV Eindhoven, with the winger carrying an injury.",
+      "summaryJa": "Rangers leave PSV surprised as they pull out of Driouech deal移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Rangers leave PSV surprised as they pull out of Driouech deal",
+      "summary": "Rangers withdraw from a proposed deal to sign Couhaib Driouech from PSV Eindhoven, with the winger carrying an injury and the Dutch champions expressing their surprise at the decision.",
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwyl368n7p3o?at_medium=RSS&at_campaign=rss",
