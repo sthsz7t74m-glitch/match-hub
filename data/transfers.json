@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T16:08:55.602Z",
+  "updatedAt": "2026-08-14T19:18:42.691Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -13,7 +13,7 @@
       "to": "",
       "summaryJa": "Bezos-backed consortium buys a third of Liverpool移る可能性について、関心・噂段階の報道です。",
       "originalTitle": "Bezos-backed consortium buys a third of Liverpool",
-      "summary": "Liverpool's owners agree to sell around a third of the club to a consortium including billionaire Amazon founder Jeff Bezos - in a deal that values the Reds at more than £5bn.",
+      "summary": "Liverpool's owners agree to sell about a third of the club to a consortium including billionaire Amazon founder Jeff Bezos - in a deal that values the Reds at more than £5bn.",
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cx2vj4l9wxyo?at_medium=RSS&at_campaign=rss",
@@ -22,12 +22,12 @@
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c7vgyrl2573o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Chelsea expect Fernandez to stay as deadline passes",
-      "titleJa": "移籍情報：Chelsea expect Fernandez to stay as deadline passes",
+      "player": "Chelsea say no Fernandez move as deadline passes - but is it really over?",
+      "titleJa": "移籍情報：Chelsea say no Fernandez move as deadline passes - but is it really over?",
       "from": "",
       "to": "",
-      "summaryJa": "Chelsea expect Fernandez to stay as deadline passes移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Chelsea expect Fernandez to stay as deadline passes",
+      "summaryJa": "Chelsea say no Fernandez move as deadline passes - but is it really over?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Chelsea say no Fernandez move as deadline passes - but is it really over?",
       "summary": "Chelsea's deadline for clubs to bid £120m for midfielder Enzo Fernandez has passed - and they now expect the Argentine to stay at the club this season.",
       "parsed": false,
       "source": "BBC Sport",
@@ -80,6 +80,21 @@
       "date": "2026-08-14T15:16:55.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c3r0yv8ygzvo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Burnley drop shirt sponsor after 42 days",
+      "titleJa": "移籍情報：Burnley drop shirt sponsor after 42 days",
+      "from": "",
+      "to": "",
+      "summaryJa": "Burnley drop shirt sponsor after 42 days移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Burnley drop shirt sponsor after 42 days",
+      "summary": "Burnley drop their shirt sponsor just two days before their opening Championship match against West Ham - and only 42 days after signing the deal.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c3r0yv8ygzvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-14T16:20:40.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cd7lw2lv7npo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Free agent Sancho favours move abroad",
@@ -93,21 +108,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cd7lw2lv7npo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-14T14:03:24.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cgjexdypjqyo?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "Celtic's Engels poised for West Ham transfer",
-      "titleJa": "移籍情報：Celtic's Engels poised for West Ham transfer",
-      "from": "",
-      "to": "",
-      "summaryJa": "Celtic's Engels poised for West Ham transfer移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "Celtic's Engels poised for West Ham transfer",
-      "summary": "Belgium midfielder Arne Engels is having a medical pending a transfer to West Ham United, Celtic manager Martin O'Neill has confirmed.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cgjexdypjqyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T14:51:01.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sounds/play/p0p3yymr?at_medium=RSS&at_campaign=rss",
@@ -138,6 +138,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-13T17:56:48.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cgjexdypjqyo?at_medium=RSS&at_campaign=rss",
+      "status": "official",
+      "player": "Celtic's Engels poised for West Ham transfer",
+      "titleJa": "移籍情報：Celtic's Engels poised for West Ham transfer",
+      "from": "",
+      "to": "",
+      "summaryJa": "Celtic's Engels poised for West Ham transfer移る可能性について、正式発表段階の報道です。",
+      "originalTitle": "Celtic's Engels poised for West Ham transfer",
+      "summary": "Belgium midfielder Arne Engels is having a medical pending a transfer to West Ham United, Celtic manager Martin O'Neill has confirmed.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cgjexdypjqyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-14T14:51:01.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c2dk2618pxgo?at_medium=RSS&at_campaign=rss",
@@ -200,21 +215,6 @@
       "date": "2026-08-13T16:21:51.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c62e14e0227o?at_medium=RSS&at_campaign=rss",
-      "status": "agreed",
-      "player": "PSG agree deal in principle for Barcelona's Torres",
-      "titleJa": "移籍情報：PSG agree deal in principle for Barcelona's Torres",
-      "from": "",
-      "to": "",
-      "summaryJa": "PSG agree deal in principle for Barcelona's Torres移る可能性について、合意段階の報道です。",
-      "originalTitle": "PSG agree deal in principle for Barcelona's Torres",
-      "summary": "Paris St-Germain agree a deal in principle to sign Barcelona forward Ferran Torres from Barcelona for about £43m.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c62e14e0227o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-13T20:36:21.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cm2gpr52drzo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Tielemans apologises to Villa fans for Man Utd remarks",
@@ -230,6 +230,21 @@
       "date": "2026-08-13T13:47:14.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c62e14e0227o?at_medium=RSS&at_campaign=rss",
+      "status": "agreed",
+      "player": "PSG agree deal in principle for Barcelona's Torres",
+      "titleJa": "移籍情報：PSG agree deal in principle for Barcelona's Torres",
+      "from": "",
+      "to": "",
+      "summaryJa": "PSG agree deal in principle for Barcelona's Torres移る可能性について、合意段階の報道です。",
+      "originalTitle": "PSG agree deal in principle for Barcelona's Torres",
+      "summary": "Paris St-Germain agree a deal in principle to sign Barcelona forward Ferran Torres from Barcelona for about £43m.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c62e14e0227o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-13T20:36:21.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cj63p367gpyo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Why half of England's World Cup defenders are on the move",
@@ -243,36 +258,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cj63p367gpyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-13T14:41:24.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cwy42yqwk30o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Arsenal invite offers for Martinelli and Nwaneri",
-      "titleJa": "移籍情報：Arsenal invite offers for Martinelli and Nwaneri",
-      "from": "",
-      "to": "",
-      "summaryJa": "Arsenal invite offers for Martinelli and Nwaneri移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Arsenal invite offers for Martinelli and Nwaneri",
-      "summary": "Arsenal hold talks with Galatasaray over the prospect of selling various squad members as the Gunners invite offers for Gabriel Martinelli and Ethan Nwaneri.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwy42yqwk30o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-13T17:49:02.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/czdm2myqvyqo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "The main contenders to replace Rodri at Man City",
-      "titleJa": "移籍情報：The main contenders to replace Rodri at Man City",
-      "from": "",
-      "to": "",
-      "summaryJa": "The main contenders to replace Rodri at Man City移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "The main contenders to replace Rodri at Man City",
-      "summary": "As a move for Manchester City midfielder Rodri looks increasingly likely, BBC Sport takes a look at the options to replace him.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/czdm2myqvyqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-13T14:18:05.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c4gx5w7egvwo?at_medium=RSS&at_campaign=rss",
@@ -302,7 +287,7 @@
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T15:47:19.000Z"
+      "date": "2026-08-14T18:12:04.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cy0j1284e47o?at_medium=RSS&at_campaign=rss",
