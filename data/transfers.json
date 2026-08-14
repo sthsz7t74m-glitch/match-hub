@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T19:18:42.691Z",
+  "updatedAt": "2026-08-14T21:44:35.831Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -50,6 +50,36 @@
       "date": "2026-08-14T11:00:52.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cp3r6qgve4no?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Arteta not worried about Arsenal contract talks",
+      "titleJa": "移籍情報：Arteta not worried about Arsenal contract talks",
+      "from": "",
+      "to": "",
+      "summaryJa": "Arteta not worried about Arsenal contract talks移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Arteta not worried about Arsenal contract talks",
+      "summary": "Mikel Arteta says supporters \"don't have to worry about\" his future at Arsenal as he wants to extend his contract and the time left on his deal is \"not an issue\".",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cp3r6qgve4no?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-14T21:30:21.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c20dyz4vrero?at_medium=RSS&at_campaign=rss",
+      "status": "official",
+      "player": "Departing Romero says he wasn't perfect at Spurs",
+      "titleJa": "移籍情報：Departing Romero says he wasn't perfect at Spurs",
+      "from": "",
+      "to": "",
+      "summaryJa": "Departing Romero says he wasn't perfect at Spurs移る可能性について、正式発表段階の報道です。",
+      "originalTitle": "Departing Romero says he wasn't perfect at Spurs",
+      "summary": "Cristian Romero says he \"wasn't perfect\" during his five-year stint at Tottenham Hotspur as he prepares to complete a move to Atletico Madrid.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c20dyz4vrero?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-14T19:47:25.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c9q92xr0854o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Arsenal express interest in signing Quansah",
@@ -65,6 +95,21 @@
       "date": "2026-08-14T10:35:26.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c80n2g2x0g7o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Arsenal lead Hinshelwood race - Saturday's gossip",
+      "titleJa": "移籍情報：Arsenal lead Hinshelwood race - Saturday's gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Arsenal lead Hinshelwood race - Saturday's gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Arsenal lead Hinshelwood race - Saturday's gossip",
+      "summary": "Arsenal lead race for Jack Hinshelwood, Barcelona set to make third Rodri bid, Manchester United and Tottenham join Arsenal in discussing Victor Osimhen, plus more.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c80n2g2x0g7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-14T21:14:10.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cp87rj8v946o?at_medium=RSS&at_campaign=rss",
       "status": "talks",
       "player": "Who are the Chawinga sisters leading Malawi's bid for Wafcon glory?",
@@ -78,36 +123,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cp87rj8v946o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-14T15:16:55.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c3r0yv8ygzvo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Burnley drop shirt sponsor after 42 days",
-      "titleJa": "移籍情報：Burnley drop shirt sponsor after 42 days",
-      "from": "",
-      "to": "",
-      "summaryJa": "Burnley drop shirt sponsor after 42 days移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Burnley drop shirt sponsor after 42 days",
-      "summary": "Burnley drop their shirt sponsor just two days before their opening Championship match against West Ham - and only 42 days after signing the deal.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c3r0yv8ygzvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T16:20:40.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cd7lw2lv7npo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Free agent Sancho favours move abroad",
-      "titleJa": "移籍情報：Free agent Sancho favours move abroad",
-      "from": "",
-      "to": "",
-      "summaryJa": "Free agent Sancho favours move abroad移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Free agent Sancho favours move abroad",
-      "summary": "Free agent Jadon Sancho is believed to prefer a move abroad despite receiving offers from Premier League clubs.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cd7lw2lv7npo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T14:03:24.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sounds/play/p0p3yymr?at_medium=RSS&at_campaign=rss",
@@ -155,34 +170,49 @@
       "date": "2026-08-14T14:51:01.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c2dk2618pxgo?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Man City reject fresh Rodri bid - Friday's gossip",
-      "titleJa": "移籍情報：Man City reject fresh Rodri bid - Friday's gossip",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c3r0yv8ygzvo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Burnley drop shirt sponsor after 42 days",
+      "titleJa": "移籍情報：Burnley drop shirt sponsor after 42 days",
       "from": "",
       "to": "",
-      "summaryJa": "Man City reject fresh Rodri bid - Friday's gossip移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Man City reject fresh Rodri bid - Friday's gossip",
-      "summary": "Barcelona's latest Rodri bid rejected, Tottenham's Djed Spence on verge of Inter Milan move, Arsenal rebuffed in bid for Marc Pubill, plus more.",
+      "summaryJa": "Burnley drop shirt sponsor after 42 days移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Burnley drop shirt sponsor after 42 days",
+      "summary": "Burnley drop their shirt sponsor just two days before their opening Championship match against West Ham - and only 42 days after signing the deal.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c2dk2618pxgo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-13T22:03:35.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c3r0yv8ygzvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-14T16:20:40.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cqlx1023wd3o?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/cd7lw2lv7npo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Lundgaard",
-      "titleJa": "Lundgaard、Eintracht Frankfurtへ加入",
+      "player": "Free agent Sancho favours move abroad",
+      "titleJa": "移籍情報：Free agent Sancho favours move abroad",
       "from": "",
-      "to": "Eintracht Frankfurt",
-      "summaryJa": "LundgaardがEintracht Frankfurtへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Liverpool's Lundgaard joins Eintracht Frankfurt",
-      "summary": "Liverpool midfielder Sofie Lundgaard completes a permanent transfer to Eintracht Frankfurt for an undisclosed fee.",
-      "parsed": true,
+      "to": "",
+      "summaryJa": "Free agent Sancho favours move abroad移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Free agent Sancho favours move abroad",
+      "summary": "Free agent Jadon Sancho is believed to prefer a move abroad despite receiving offers from Premier League clubs.",
+      "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqlx1023wd3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T10:00:53.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/cd7lw2lv7npo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-14T14:03:24.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c1w1y95305no?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Burnley sign Chelsea's Satpayev on loan",
+      "titleJa": "移籍情報：Burnley sign Chelsea's Satpayev on loan",
+      "from": "",
+      "to": "",
+      "summaryJa": "Burnley sign Chelsea's Satpayev on loan移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Burnley sign Chelsea's Satpayev on loan",
+      "summary": "Chelsea's new teenage winger Dastan Satpayev joins Championship club Burnley on a season's loan.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c1w1y95305no?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-14T19:49:11.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cp30xwkj4y3o?at_medium=RSS&at_campaign=rss",
@@ -198,6 +228,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cp30xwkj4y3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-13T22:12:05.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cqlx1023wd3o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Lundgaard",
+      "titleJa": "Lundgaard、Eintracht Frankfurtへ加入",
+      "from": "",
+      "to": "Eintracht Frankfurt",
+      "summaryJa": "LundgaardがEintracht Frankfurtへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Liverpool's Lundgaard joins Eintracht Frankfurt",
+      "summary": "Liverpool midfielder Sofie Lundgaard completes a permanent transfer to Eintracht Frankfurt for an undisclosed fee.",
+      "parsed": true,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqlx1023wd3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-14T10:00:53.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c79g4px5z1zo?at_medium=RSS&at_campaign=rss",
@@ -230,36 +275,6 @@
       "date": "2026-08-13T13:47:14.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c62e14e0227o?at_medium=RSS&at_campaign=rss",
-      "status": "agreed",
-      "player": "PSG agree deal in principle for Barcelona's Torres",
-      "titleJa": "移籍情報：PSG agree deal in principle for Barcelona's Torres",
-      "from": "",
-      "to": "",
-      "summaryJa": "PSG agree deal in principle for Barcelona's Torres移る可能性について、合意段階の報道です。",
-      "originalTitle": "PSG agree deal in principle for Barcelona's Torres",
-      "summary": "Paris St-Germain agree a deal in principle to sign Barcelona forward Ferran Torres from Barcelona for about £43m.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c62e14e0227o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-13T20:36:21.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cj63p367gpyo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Why half of England's World Cup defenders are on the move",
-      "titleJa": "移籍情報：Why half of England's World Cup defenders are on the move",
-      "from": "",
-      "to": "",
-      "summaryJa": "Why half of England's World Cup defenders are on the move移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Why half of England's World Cup defenders are on the move",
-      "summary": "England came third in this summer's World Cup - their best performance in a men's competition in 60 years - and now their players are in demand in the transfer market.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cj63p367gpyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-13T14:41:24.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c4gx5w7egvwo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Why has Araujo",
@@ -287,7 +302,7 @@
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T18:12:04.000Z"
+      "date": "2026-08-14T19:52:41.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cy0j1284e47o?at_medium=RSS&at_campaign=rss",
