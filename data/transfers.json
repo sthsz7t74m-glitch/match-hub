@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-08-13T22:06:43.065Z",
+  "updatedAt": "2026-08-14T03:02:08.728Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cp30xwkj4y3o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Man City's Reijnders set for £52m Saudi move",
+      "titleJa": "移籍情報：Man City's Reijnders set for £52m Saudi move",
+      "from": "",
+      "to": "",
+      "summaryJa": "Man City's Reijnders set for £52m Saudi move移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Man City's Reijnders set for £52m Saudi move",
+      "summary": "Manchester City midfielder Tijjani Reijnders is set to leave following a year at the club after a £52m move was agreed with Saudi Pro-League side Al-Qadsiah.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cp30xwkj4y3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-13T22:12:05.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cx2v175j40zo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -35,21 +50,6 @@
       "date": "2026-08-13T16:21:51.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c62e14e0227o?at_medium=RSS&at_campaign=rss",
-      "status": "agreed",
-      "player": "PSG agree deal in principle for Barcelona's Torres",
-      "titleJa": "移籍情報：PSG agree deal in principle for Barcelona's Torres",
-      "from": "",
-      "to": "",
-      "summaryJa": "PSG agree deal in principle for Barcelona's Torres移る可能性について、合意段階の報道です。",
-      "originalTitle": "PSG agree deal in principle for Barcelona's Torres",
-      "summary": "Paris St-Germain agree a deal in principle to sign Barcelona forward Ferran Torres from Barcelona for about £43m.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c62e14e0227o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-13T20:36:21.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c2dk2618pxgo?at_medium=RSS&at_campaign=rss",
       "status": "talks",
       "player": "Man City reject fresh Rodri bid - Friday's gossip",
@@ -78,6 +78,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-13T17:56:48.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c62e14e0227o?at_medium=RSS&at_campaign=rss",
+      "status": "agreed",
+      "player": "PSG agree deal in principle for Barcelona's Torres",
+      "titleJa": "移籍情報：PSG agree deal in principle for Barcelona's Torres",
+      "from": "",
+      "to": "",
+      "summaryJa": "PSG agree deal in principle for Barcelona's Torres移る可能性について、合意段階の報道です。",
+      "originalTitle": "PSG agree deal in principle for Barcelona's Torres",
+      "summary": "Paris St-Germain agree a deal in principle to sign Barcelona forward Ferran Torres from Barcelona for about £43m.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c62e14e0227o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-13T20:36:21.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cj63p367gpyo?at_medium=RSS&at_campaign=rss",
@@ -155,21 +170,6 @@
       "date": "2026-08-13T15:34:42.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cwyl368n7p3o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "PSV winger Driouech at Ibrox before expected Rangers move",
-      "titleJa": "移籍情報：PSV winger Driouech at Ibrox before expected Rangers move",
-      "from": "",
-      "to": "",
-      "summaryJa": "PSV winger Driouech at Ibrox before expected Rangers move移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "PSV winger Driouech at Ibrox before expected Rangers move",
-      "summary": "PSV Eindhoven winger Couhaib Driouech is at Ibrox to watch Rangers face Jagiellonia Bialystok pending a transfer to the Scottish Premiership club.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwyl368n7p3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-13T18:41:31.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sounds/play/p0p48r33?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "BBC Women's Football Weekly",
@@ -183,21 +183,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sounds/play/p0p48r33?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-13T11:29:00.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/ce85jy4rrz5o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Baur",
-      "titleJa": "Celtic、PaderbornからBaurを獲得",
-      "from": "Paderborn",
-      "to": "Celtic",
-      "summaryJa": "BaurがPaderbornからCelticへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Celtic sign midfielder Baur from Paderborn",
-      "summary": "Celtic sign German midfielder Mika Baur from Paderborn for an undisclosed fee, with the 22-year-old signing a four-year contract.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ce85jy4rrz5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-13T15:06:40.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c4gx5w7egvwo?at_medium=RSS&at_campaign=rss",
