@@ -1,9 +1,39 @@
 {
-  "updatedAt": "2026-08-15T18:50:27.905Z",
+  "updatedAt": "2026-08-15T21:39:47.228Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cnvnndmz4reo?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Villa begin Suzuki talks - Sunday's gossip",
+      "titleJa": "移籍情報：Villa begin Suzuki talks - Sunday's gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Villa begin Suzuki talks - Sunday's gossip移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Villa begin Suzuki talks - Sunday's gossip",
+      "summary": "Aston Villa are in negotiations over Zion Suzuki, boosting Juventus' hope of signing Emiliano Martinez, while Arsenal are told price for Victor Osimhen, plus more.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cnvnndmz4reo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-15T20:23:00.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c77ggr5nk7jo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "West Ham break EFL record to sign Engels for £22m",
+      "titleJa": "移籍情報：West Ham break EFL record to sign Engels for £22m",
+      "from": "",
+      "to": "",
+      "summaryJa": "West Ham break EFL record to sign Engels for £22m移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "West Ham break EFL record to sign Engels for £22m",
+      "summary": "West Ham United pay a £22m fee, a new EFL record, to sign Celtic's Belgium international midfielder Arne Engels.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c77ggr5nk7jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-15T20:19:40.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cz64vg6znz1o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -20,21 +50,6 @@
       "date": "2026-08-15T17:15:16.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c934488gjyzo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Sunderland agree £25.6m fee for defender Methalie",
-      "titleJa": "移籍情報：Sunderland agree £25.6m fee for defender Methalie",
-      "from": "",
-      "to": "",
-      "summaryJa": "Sunderland agree £25.6m fee for defender Methalie移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Sunderland agree £25.6m fee for defender Methalie",
-      "summary": "Sunderland agree a £25.6m fee to sign left-back Dayann Methalie from Toulouse.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c934488gjyzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-15T17:20:54.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Carrick pushing to improve the squad this summer",
@@ -48,6 +63,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-13T17:56:48.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c934488gjyzo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Sunderland agree £25.6m fee for defender Methalie",
+      "titleJa": "移籍情報：Sunderland agree £25.6m fee for defender Methalie",
+      "from": "",
+      "to": "",
+      "summaryJa": "Sunderland agree £25.6m fee for defender Methalie移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Sunderland agree £25.6m fee for defender Methalie",
+      "summary": "Sunderland agree a £25.6m fee to sign left-back Dayann Methalie from Toulouse.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c934488gjyzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-15T17:20:54.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c70gg3dp61lo?at_medium=RSS&at_campaign=rss",
@@ -155,36 +185,6 @@
       "date": "2026-08-14T16:00:16.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c3r0yv8ygzvo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Burnley drop shirt sponsor after 42 days",
-      "titleJa": "移籍情報：Burnley drop shirt sponsor after 42 days",
-      "from": "",
-      "to": "",
-      "summaryJa": "Burnley drop shirt sponsor after 42 days移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Burnley drop shirt sponsor after 42 days",
-      "summary": "Burnley drop their shirt sponsor just two days before their opening Championship match against West Ham - and only 42 days after signing the deal.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c3r0yv8ygzvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T16:20:40.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c80n2g2x0g7o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Arsenal lead Hinshelwood race - Saturday's gossip",
-      "titleJa": "移籍情報：Arsenal lead Hinshelwood race - Saturday's gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Arsenal lead Hinshelwood race - Saturday's gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Arsenal lead Hinshelwood race - Saturday's gossip",
-      "summary": "Arsenal lead race for Jack Hinshelwood, Barcelona set to make third Rodri bid, Manchester United and Tottenham join Arsenal in discussing Victor Osimhen, plus more.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c80n2g2x0g7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T21:14:10.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cy8m14gz4ldo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Fine-tuning and a clear target - Wrexham's season aim",
@@ -243,6 +243,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cy0j1284e47o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-11T14:54:32.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c77ggr5nk7jo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Engels",
+      "titleJa": "West Ham break EFL record to、Celtic for £22mからEngelsを獲得",
+      "from": "Celtic for £22m",
+      "to": "West Ham break EFL record to",
+      "summaryJa": "EngelsがCeltic for £22mからWest Ham break EFL record toへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "West Ham break EFL record to sign Engels from Celtic for £22m",
+      "summary": "West Ham United pay a £22m fee, a new EFL record, to sign Celtic's Belgium international midfielder Arne Engels.",
+      "parsed": true,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c77ggr5nk7jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-15T20:19:40.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c75gxqnwqz6o?at_medium=RSS&at_campaign=rss",
