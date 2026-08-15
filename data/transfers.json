@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-08-15T13:03:02.507Z",
+  "updatedAt": "2026-08-15T15:39:19.037Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c70gg3dp61lo?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Newcastle progressing with move for Benfica defender Dedic",
+      "titleJa": "移籍情報：Newcastle progressing with move for Benfica defender Dedic",
+      "from": "",
+      "to": "",
+      "summaryJa": "Newcastle progressing with move for Benfica defender Dedic移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Newcastle progressing with move for Benfica defender Dedic",
+      "summary": "Newcastle United are in advanced talks as they aim to bring in defender Amar Dedic from Benfica.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c70gg3dp61lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-15T13:54:09.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c20jyxjl8yko?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -20,19 +35,19 @@
       "date": "2026-08-15T09:37:31.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c20dyz4vrero?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "'I know I wasn't perfect' - Romero",
-      "titleJa": "'I know I wasn't perfect' - Romero、アトレティコ・マドリードへ加入（トッテナムから）",
-      "from": "トッテナム",
-      "to": "アトレティコ・マドリード",
-      "summaryJa": "'I know I wasn't perfect' - Romeroがトッテナムからアトレティコ・マドリードへ移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "'I know I wasn't perfect' - Romero joins Atletico from Spurs",
-      "summary": "Cristian Romero says he \"wasn't perfect\" during his five years with Tottenham Hotspur as his move to Atletico Madrid is confirmed.",
-      "parsed": true,
+      "id": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Carrick pushing to improve the squad this summer",
+      "titleJa": "移籍情報：Carrick pushing to improve the squad this summer",
+      "from": "",
+      "to": "",
+      "summaryJa": "Carrick pushing to improve the squad this summer移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Carrick pushing to improve the squad this summer",
+      "summary": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress.",
+      "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c20dyz4vrero?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-15T07:44:59.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-13T17:56:48.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cvg8qgg7qg1o?at_medium=RSS&at_campaign=rss",
@@ -78,36 +93,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c80n2g2x0g7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-14T21:14:10.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sounds/play/p0p3yymr?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Listen: 2026-27 EFL season preview",
-      "titleJa": "移籍情報：Listen: 2026-27 EFL season preview",
-      "from": "",
-      "to": "",
-      "summaryJa": "Listen: 2026-27 EFL season preview移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Listen: 2026-27 EFL season preview",
-      "summary": "Aaron Paul is joined by Andy Woodman, Luke Chambers and Lyle Taylor.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sounds/play/p0p3yymr?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-11T20:13:00.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Carrick pushing to improve the squad this summer",
-      "titleJa": "移籍情報：Carrick pushing to improve the squad this summer",
-      "from": "",
-      "to": "",
-      "summaryJa": "Carrick pushing to improve the squad this summer移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Carrick pushing to improve the squad this summer",
-      "summary": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-13T17:56:48.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/ce85pje4gyqo?at_medium=RSS&at_campaign=rss",
@@ -185,21 +170,6 @@
       "date": "2026-08-14T16:04:54.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c9q92xr0854o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Arsenal express interest in signing Quansah",
-      "titleJa": "移籍情報：Arsenal express interest in signing Quansah",
-      "from": "",
-      "to": "",
-      "summaryJa": "Arsenal express interest in signing Quansah移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Arsenal express interest in signing Quansah",
-      "summary": "Arsenal express an interest in signing Bayer Leverkusen and England defender Jarell Quansah.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9q92xr0854o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T10:35:26.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cgjexdypjqyo?at_medium=RSS&at_campaign=rss",
       "status": "official",
       "player": "Celtic's Engels poised for West Ham transfer",
@@ -213,6 +183,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cgjexdypjqyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-14T14:51:01.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c9q92xr0854o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Arsenal express interest in signing Quansah",
+      "titleJa": "移籍情報：Arsenal express interest in signing Quansah",
+      "from": "",
+      "to": "",
+      "summaryJa": "Arsenal express interest in signing Quansah移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Arsenal express interest in signing Quansah",
+      "summary": "Arsenal express an interest in signing Bayer Leverkusen and England defender Jarell Quansah.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9q92xr0854o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-14T10:35:26.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c3r0yv8ygzvo?at_medium=RSS&at_campaign=rss",
@@ -230,21 +215,6 @@
       "date": "2026-08-14T16:20:40.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cd7lw2lv7npo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Free agent Sancho favours move abroad",
-      "titleJa": "移籍情報：Free agent Sancho favours move abroad",
-      "from": "",
-      "to": "",
-      "summaryJa": "Free agent Sancho favours move abroad移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Free agent Sancho favours move abroad",
-      "summary": "Free agent Jadon Sancho is believed to prefer a move abroad despite receiving offers from Premier League clubs.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cd7lw2lv7npo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T14:03:24.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cd69e18glyvo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Cardiff secure return of Liverpool loanee Scanlon",
@@ -260,6 +230,21 @@
       "date": "2026-08-15T11:09:18.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cd7lw2lv7npo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Free agent Sancho favours move abroad",
+      "titleJa": "移籍情報：Free agent Sancho favours move abroad",
+      "from": "",
+      "to": "",
+      "summaryJa": "Free agent Sancho favours move abroad移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Free agent Sancho favours move abroad",
+      "summary": "Free agent Jadon Sancho is believed to prefer a move abroad despite receiving offers from Premier League clubs.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cd7lw2lv7npo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-14T14:03:24.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c1w1y95305no?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Burnley sign Chelsea's Satpayev on loan",
@@ -273,51 +258,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c1w1y95305no?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-14T19:49:11.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cp87rj8v946o?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Who are the Chawinga sisters leading Malawi's bid for Wafcon glory?",
-      "titleJa": "移籍情報：Who are the Chawinga sisters leading Malawi's bid for Wafcon glory?",
-      "from": "",
-      "to": "",
-      "summaryJa": "Who are the Chawinga sisters leading Malawi's bid for Wafcon glory?移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Who are the Chawinga sisters leading Malawi's bid for Wafcon glory?",
-      "summary": "Sisters Tabitha and Temwa Chawinga are the undoubted stars of Malawi's unexpected run to the final of the 2026 Women's Africa Cup of Nations.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cp87rj8v946o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T15:16:55.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cp30xwkj4y3o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Man City's Reijnders set for £52m Saudi move",
-      "titleJa": "移籍情報：Man City's Reijnders set for £52m Saudi move",
-      "from": "",
-      "to": "",
-      "summaryJa": "Man City's Reijnders set for £52m Saudi move移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Man City's Reijnders set for £52m Saudi move",
-      "summary": "Manchester City midfielder Tijjani Reijnders is set to leave following a year at the club after a £52m move was agreed with Saudi Pro-League side Al-Qadsiah.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cp30xwkj4y3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-13T22:12:05.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c4gx5w7egvwo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Why has Araujo",
-      "titleJa": "Why has Araujo、Liverpool and where did it go wrong at Barcelona?へ加入",
-      "from": "",
-      "to": "Liverpool and where did it go wrong at Barcelona?",
-      "summaryJa": "Why has AraujoがLiverpool and where did it go wrong at Barcelona?へ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Why has Araujo joined Liverpool and where did it go wrong at Barcelona?",
-      "summary": "Ronald Araujo has joined Liverpool on loan from Barcelona. We explain why Liverpool moved for the Uruguay defender and what went wrong at Barcelona.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c4gx5w7egvwo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-10T18:11:48.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
@@ -352,32 +292,17 @@
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cp30x80lny7o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Belgian Pocognoli set for Scotland job - gossip",
-      "titleJa": "移籍情報：Belgian Pocognoli set for Scotland job - gossip",
+      "player": "Balikwisha set to leave Celtic with three clubs interested - gossip",
+      "titleJa": "移籍情報：Balikwisha set to leave Celtic with three clubs interested - gossip",
       "from": "",
       "to": "",
-      "summaryJa": "Belgian Pocognoli set for Scotland job - gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Belgian Pocognoli set for Scotland job - gossip",
-      "summary": "Belgian tipped for Scotland job, Celtic forward likely moving on and Scottish champions target goalkeeper.",
+      "summaryJa": "Balikwisha set to leave Celtic with three clubs interested - gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Balikwisha set to leave Celtic with three clubs interested - gossip",
+      "summary": "Celtic forward likely moving on as Scottish champions target goalkeeper.",
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cp30x80lny7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-15T11:51:50.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cwyl368n7p3o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Rangers leave PSV surprised as they pull out of Driouech deal",
-      "titleJa": "移籍情報：Rangers leave PSV surprised as they pull out of Driouech deal",
-      "from": "",
-      "to": "",
-      "summaryJa": "Rangers leave PSV surprised as they pull out of Driouech deal移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Rangers leave PSV surprised as they pull out of Driouech deal",
-      "summary": "Rangers withdraw from a proposed deal to sign Couhaib Driouech from PSV Eindhoven, with the winger carrying an injury and the Dutch champions expressing their surprise at the decision.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwyl368n7p3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T10:05:02.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cqlx1023wd3o?at_medium=RSS&at_campaign=rss",
