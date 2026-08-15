@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-08-14T21:44:35.831Z",
+  "updatedAt": "2026-08-15T01:52:43.359Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/ce85pje4gyqo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "VAR, timewasting and subs - new rules for the new season",
+      "titleJa": "移籍情報：VAR, timewasting and subs - new rules for the new season",
+      "from": "",
+      "to": "",
+      "summaryJa": "VAR, timewasting and subs - new rules for the new season移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "VAR, timewasting and subs - new rules for the new season",
+      "summary": "The 2026-27 season will feature an unprecedented number of new laws, mostly designed to tackle tempo disruption and make the game quicker.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ce85pje4gyqo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-14T11:00:52.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cx2vj4l9wxyo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -33,21 +48,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c7vgyrl2573o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-14T16:04:54.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/ce85pje4gyqo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "VAR, timewasting and subs - new rules for the new season",
-      "titleJa": "移籍情報：VAR, timewasting and subs - new rules for the new season",
-      "from": "",
-      "to": "",
-      "summaryJa": "VAR, timewasting and subs - new rules for the new season移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "VAR, timewasting and subs - new rules for the new season",
-      "summary": "The 2026-27 season will feature an unprecedented number of new laws, mostly designed to tackle tempo disruption and make the game quicker.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ce85pje4gyqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T11:00:52.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cp3r6qgve4no?at_medium=RSS&at_campaign=rss",
@@ -333,21 +333,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwyl368n7p3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-14T10:05:02.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cp9epdvxdxno?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Rangers make offer for striker Kelsy - gossip",
-      "titleJa": "移籍情報：Rangers make offer for striker Kelsy - gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Rangers make offer for striker Kelsy - gossip移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Rangers make offer for striker Kelsy - gossip",
-      "summary": "Rangers chase Venezuela striker and agree loan deal for left-back as Celtic are linked with Bosnian based in Czech Republic...",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cp9epdvxdxno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T07:00:38.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/ce8l6n9g6wgo?at_medium=RSS&at_campaign=rss",
