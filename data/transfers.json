@@ -1,9 +1,54 @@
 {
-  "updatedAt": "2026-08-15T07:01:47.633Z",
+  "updatedAt": "2026-08-15T09:45:10.310Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c20dyz4vrero?at_medium=RSS&at_campaign=rss",
+      "status": "official",
+      "player": "Romero reflects on Spurs stay as Atletico move confirmed",
+      "titleJa": "移籍情報：Romero reflects on Spurs stay as Atletico move confirmed",
+      "from": "",
+      "to": "",
+      "summaryJa": "Romero reflects on Spurs stay as Atletico move confirmed移る可能性について、正式発表段階の報道です。",
+      "originalTitle": "Romero reflects on Spurs stay as Atletico move confirmed",
+      "summary": "Cristian Romero says he \"wasn't perfect\" during his five years with Tottenham Hotspur as his move to Atletico Madrid is confirmed.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c20dyz4vrero?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-15T07:44:59.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c20jyxjl8yko?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "World Cup winner Torres",
+      "titleJa": "パリ・サンジェルマン、バルセロナからWorld Cup winner Torresを獲得",
+      "from": "バルセロナ",
+      "to": "パリ・サンジェルマン",
+      "summaryJa": "World Cup winner Torresがバルセロナからパリ・サンジェルマンへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "PSG sign World Cup winner Torres from Barcelona",
+      "summary": "Ferran Torres, who scored the winning goal for Spain at the World Cup, has joined European champions Paris St-Germain from Barcelona.",
+      "parsed": true,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c20jyxjl8yko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-15T09:37:31.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/clyqrd749d5o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Khalaili",
+      "titleJa": "クリスタル・パレス、Union Saint-GilloiseからKhalailiを獲得",
+      "from": "Union Saint-Gilloise",
+      "to": "クリスタル・パレス",
+      "summaryJa": "KhalailiがUnion Saint-Gilloiseからクリスタル・パレスへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Palace sign Khalaili from Union Saint-Gilloise",
+      "summary": "Crystal Palace sign Israel international Ana Khalaili on a deal which runs until 2031.",
+      "parsed": true,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/clyqrd749d5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-15T09:03:55.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/ce85pje4gyqo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -48,36 +93,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cp3r6qgve4no?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-14T21:30:21.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c7vgyrl2573o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Chelsea say no Fernandez move as deadline passes - but is it really over?",
-      "titleJa": "移籍情報：Chelsea say no Fernandez move as deadline passes - but is it really over?",
-      "from": "",
-      "to": "",
-      "summaryJa": "Chelsea say no Fernandez move as deadline passes - but is it really over?移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Chelsea say no Fernandez move as deadline passes - but is it really over?",
-      "summary": "Chelsea's deadline for clubs to bid £120m for midfielder Enzo Fernandez has passed - and they now expect the Argentine to stay at the club this season.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c7vgyrl2573o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T16:04:54.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c20dyz4vrero?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "Departing Romero says he wasn't perfect at Spurs",
-      "titleJa": "移籍情報：Departing Romero says he wasn't perfect at Spurs",
-      "from": "",
-      "to": "",
-      "summaryJa": "Departing Romero says he wasn't perfect at Spurs移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "Departing Romero says he wasn't perfect at Spurs",
-      "summary": "Cristian Romero says he \"wasn't perfect\" during his five-year stint at Tottenham Hotspur as he prepares to complete a move to Atletico Madrid.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c20dyz4vrero?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T19:47:25.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c80n2g2x0g7o?at_medium=RSS&at_campaign=rss",
@@ -125,6 +140,36 @@
       "date": "2026-08-13T17:56:48.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cy8m14gz4ldo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Fine-tuning and a clear target - Wrexham's season aim",
+      "titleJa": "移籍情報：Fine-tuning and a clear target - Wrexham's season aim",
+      "from": "",
+      "to": "",
+      "summaryJa": "Fine-tuning and a clear target - Wrexham's season aim移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Fine-tuning and a clear target - Wrexham's season aim",
+      "summary": "Wrexham aim for the coming campaign clear after they narrowly missed out on a Championship play-off spot last season.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cy8m14gz4ldo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-15T09:15:00.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c7vgyrl2573o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Chelsea say no Fernandez move as deadline passes - but is it really over?",
+      "titleJa": "移籍情報：Chelsea say no Fernandez move as deadline passes - but is it really over?",
+      "from": "",
+      "to": "",
+      "summaryJa": "Chelsea say no Fernandez move as deadline passes - but is it really over?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Chelsea say no Fernandez move as deadline passes - but is it really over?",
+      "summary": "Chelsea's deadline for clubs to bid £120m for midfielder Enzo Fernandez has passed - and they now expect the Argentine to stay at the club this season.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c7vgyrl2573o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-14T16:04:54.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c9q92xr0854o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Arsenal express interest in signing Quansah",
@@ -138,21 +183,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9q92xr0854o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-14T10:35:26.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cp87rj8v946o?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Who are the Chawinga sisters leading Malawi's bid for Wafcon glory?",
-      "titleJa": "移籍情報：Who are the Chawinga sisters leading Malawi's bid for Wafcon glory?",
-      "from": "",
-      "to": "",
-      "summaryJa": "Who are the Chawinga sisters leading Malawi's bid for Wafcon glory?移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Who are the Chawinga sisters leading Malawi's bid for Wafcon glory?",
-      "summary": "Sisters Tabitha and Temwa Chawinga are the undoubted stars of Malawi's unexpected run to the final of the 2026 Women's Africa Cup of Nations.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cp87rj8v946o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T15:16:55.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cgjexdypjqyo?at_medium=RSS&at_campaign=rss",
@@ -215,6 +245,21 @@
       "date": "2026-08-14T19:49:11.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cp87rj8v946o?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Who are the Chawinga sisters leading Malawi's bid for Wafcon glory?",
+      "titleJa": "移籍情報：Who are the Chawinga sisters leading Malawi's bid for Wafcon glory?",
+      "from": "",
+      "to": "",
+      "summaryJa": "Who are the Chawinga sisters leading Malawi's bid for Wafcon glory?移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Who are the Chawinga sisters leading Malawi's bid for Wafcon glory?",
+      "summary": "Sisters Tabitha and Temwa Chawinga are the undoubted stars of Malawi's unexpected run to the final of the 2026 Women's Africa Cup of Nations.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cp87rj8v946o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-14T15:16:55.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cp30xwkj4y3o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Man City's Reijnders set for £52m Saudi move",
@@ -243,21 +288,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqlx1023wd3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-14T10:00:53.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c79g4px5z1zo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Rashford, Mainoo & transfers - Carrick calls for more signings",
-      "titleJa": "移籍情報：Rashford, Mainoo & transfers - Carrick calls for more signings",
-      "from": "",
-      "to": "",
-      "summaryJa": "Rashford, Mainoo & transfers - Carrick calls for more signings移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Rashford, Mainoo & transfers - Carrick calls for more signings",
-      "summary": "Before his first full season as Manchester United head coach, Michael Carrick explains why the club need more players, discusses why he is in a privileged position and talks Marcus Rashford and Kobbie Mainoo.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c79g4px5z1zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-13T16:21:51.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c4gx5w7egvwo?at_medium=RSS&at_campaign=rss",
@@ -303,6 +333,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cy0j1284e47o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-11T14:54:32.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cp30x80lny7o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Balikwisha set to leave Celtic with three clubs interested - gossip",
+      "titleJa": "移籍情報：Balikwisha set to leave Celtic with three clubs interested - gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Balikwisha set to leave Celtic with three clubs interested - gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Balikwisha set to leave Celtic with three clubs interested - gossip",
+      "summary": "Celtic winger set to move on with three clubs interested as Scottish champions target goalkeeper.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cp30x80lny7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-15T07:41:04.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cwyl368n7p3o?at_medium=RSS&at_campaign=rss",
