@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T03:57:47.359Z",
+  "updatedAt": "2026-08-15T07:01:47.633Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -35,21 +35,6 @@
       "date": "2026-08-14T16:00:16.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c7vgyrl2573o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Chelsea say no Fernandez move as deadline passes - but is it really over?",
-      "titleJa": "移籍情報：Chelsea say no Fernandez move as deadline passes - but is it really over?",
-      "from": "",
-      "to": "",
-      "summaryJa": "Chelsea say no Fernandez move as deadline passes - but is it really over?移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Chelsea say no Fernandez move as deadline passes - but is it really over?",
-      "summary": "Chelsea's deadline for clubs to bid £120m for midfielder Enzo Fernandez has passed - and they now expect the Argentine to stay at the club this season.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c7vgyrl2573o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T16:04:54.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cp3r6qgve4no?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Arteta not worried about Arsenal contract talks",
@@ -63,6 +48,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cp3r6qgve4no?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-14T21:30:21.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c7vgyrl2573o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Chelsea say no Fernandez move as deadline passes - but is it really over?",
+      "titleJa": "移籍情報：Chelsea say no Fernandez move as deadline passes - but is it really over?",
+      "from": "",
+      "to": "",
+      "summaryJa": "Chelsea say no Fernandez move as deadline passes - but is it really over?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Chelsea say no Fernandez move as deadline passes - but is it really over?",
+      "summary": "Chelsea's deadline for clubs to bid £120m for midfielder Enzo Fernandez has passed - and they now expect the Argentine to stay at the club this season.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c7vgyrl2573o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-14T16:04:54.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c20dyz4vrero?at_medium=RSS&at_campaign=rss",
@@ -80,21 +80,6 @@
       "date": "2026-08-14T19:47:25.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c9q92xr0854o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Arsenal express interest in signing Quansah",
-      "titleJa": "移籍情報：Arsenal express interest in signing Quansah",
-      "from": "",
-      "to": "",
-      "summaryJa": "Arsenal express interest in signing Quansah移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Arsenal express interest in signing Quansah",
-      "summary": "Arsenal express an interest in signing Bayer Leverkusen and England defender Jarell Quansah.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9q92xr0854o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T10:35:26.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c80n2g2x0g7o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Arsenal lead Hinshelwood race - Saturday's gossip",
@@ -108,21 +93,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c80n2g2x0g7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-14T21:14:10.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cp87rj8v946o?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Who are the Chawinga sisters leading Malawi's bid for Wafcon glory?",
-      "titleJa": "移籍情報：Who are the Chawinga sisters leading Malawi's bid for Wafcon glory?",
-      "from": "",
-      "to": "",
-      "summaryJa": "Who are the Chawinga sisters leading Malawi's bid for Wafcon glory?移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Who are the Chawinga sisters leading Malawi's bid for Wafcon glory?",
-      "summary": "Sisters Tabitha and Temwa Chawinga are the undoubted stars of Malawi's unexpected run to the final of the 2026 Women's Africa Cup of Nations.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cp87rj8v946o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T15:16:55.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sounds/play/p0p3yymr?at_medium=RSS&at_campaign=rss",
@@ -153,6 +123,36 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-13T17:56:48.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c9q92xr0854o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Arsenal express interest in signing Quansah",
+      "titleJa": "移籍情報：Arsenal express interest in signing Quansah",
+      "from": "",
+      "to": "",
+      "summaryJa": "Arsenal express interest in signing Quansah移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Arsenal express interest in signing Quansah",
+      "summary": "Arsenal express an interest in signing Bayer Leverkusen and England defender Jarell Quansah.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9q92xr0854o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-14T10:35:26.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cp87rj8v946o?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Who are the Chawinga sisters leading Malawi's bid for Wafcon glory?",
+      "titleJa": "移籍情報：Who are the Chawinga sisters leading Malawi's bid for Wafcon glory?",
+      "from": "",
+      "to": "",
+      "summaryJa": "Who are the Chawinga sisters leading Malawi's bid for Wafcon glory?移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Who are the Chawinga sisters leading Malawi's bid for Wafcon glory?",
+      "summary": "Sisters Tabitha and Temwa Chawinga are the undoubted stars of Malawi's unexpected run to the final of the 2026 Women's Africa Cup of Nations.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cp87rj8v946o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-14T15:16:55.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cgjexdypjqyo?at_medium=RSS&at_campaign=rss",
@@ -258,21 +258,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c79g4px5z1zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-13T16:21:51.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cm2gpr52drzo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Tielemans apologises to Villa fans for Man Utd remarks",
-      "titleJa": "移籍情報：Tielemans apologises to Villa fans for Man Utd remarks",
-      "from": "",
-      "to": "",
-      "summaryJa": "Tielemans apologises to Villa fans for Man Utd remarks移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Tielemans apologises to Villa fans for Man Utd remarks",
-      "summary": "Youri Tielemans apologises to Aston Villa fans after suggesting he had moved to a bigger club in Premier League rivals Manchester United.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm2gpr52drzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-13T13:47:14.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c4gx5w7egvwo?at_medium=RSS&at_campaign=rss",
