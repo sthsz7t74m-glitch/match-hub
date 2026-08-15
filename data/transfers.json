@@ -1,24 +1,9 @@
 {
-  "updatedAt": "2026-08-15T09:45:10.310Z",
+  "updatedAt": "2026-08-15T13:03:02.507Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c20dyz4vrero?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "Romero reflects on Spurs stay as Atletico move confirmed",
-      "titleJa": "移籍情報：Romero reflects on Spurs stay as Atletico move confirmed",
-      "from": "",
-      "to": "",
-      "summaryJa": "Romero reflects on Spurs stay as Atletico move confirmed移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "Romero reflects on Spurs stay as Atletico move confirmed",
-      "summary": "Cristian Romero says he \"wasn't perfect\" during his five years with Tottenham Hotspur as his move to Atletico Madrid is confirmed.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c20dyz4vrero?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-15T07:44:59.000Z"
-    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c20jyxjl8yko?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -35,6 +20,36 @@
       "date": "2026-08-15T09:37:31.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c20dyz4vrero?at_medium=RSS&at_campaign=rss",
+      "status": "official",
+      "player": "'I know I wasn't perfect' - Romero",
+      "titleJa": "'I know I wasn't perfect' - Romero、アトレティコ・マドリードへ加入（トッテナムから）",
+      "from": "トッテナム",
+      "to": "アトレティコ・マドリード",
+      "summaryJa": "'I know I wasn't perfect' - Romeroがトッテナムからアトレティコ・マドリードへ移る可能性について、正式発表段階の報道です。",
+      "originalTitle": "'I know I wasn't perfect' - Romero joins Atletico from Spurs",
+      "summary": "Cristian Romero says he \"wasn't perfect\" during his five years with Tottenham Hotspur as his move to Atletico Madrid is confirmed.",
+      "parsed": true,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c20dyz4vrero?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-15T07:44:59.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cvg8qgg7qg1o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Hull sign Gelhardt and Gourna-Douath",
+      "titleJa": "移籍情報：Hull sign Gelhardt and Gourna-Douath",
+      "from": "",
+      "to": "",
+      "summaryJa": "Hull sign Gelhardt and Gourna-Douath移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Hull sign Gelhardt and Gourna-Douath",
+      "summary": "Hull City sign English forward Joe Gelhardt from Leeds and French midfielder Lucas Gourna-Douath from Red Bull Salzburg for undisclosed fees.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvg8qgg7qg1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-15T12:03:16.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/clyqrd749d5o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Khalaili",
@@ -48,51 +63,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/clyqrd749d5o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-15T09:03:55.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/ce85pje4gyqo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "VAR, timewasting and subs - new rules for the new season",
-      "titleJa": "移籍情報：VAR, timewasting and subs - new rules for the new season",
-      "from": "",
-      "to": "",
-      "summaryJa": "VAR, timewasting and subs - new rules for the new season移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "VAR, timewasting and subs - new rules for the new season",
-      "summary": "The 2026-27 season will feature an unprecedented number of new laws, mostly designed to tackle tempo disruption and make the game quicker.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ce85pje4gyqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T11:00:52.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cx2vj4l9wxyo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Bezos-backed consortium buys a third of Liverpool",
-      "titleJa": "移籍情報：Bezos-backed consortium buys a third of Liverpool",
-      "from": "",
-      "to": "",
-      "summaryJa": "Bezos-backed consortium buys a third of Liverpool移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Bezos-backed consortium buys a third of Liverpool",
-      "summary": "Liverpool's owners agree to sell about a third of the club to a consortium including billionaire Amazon founder Jeff Bezos - in a deal that values the Reds at more than £5bn.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx2vj4l9wxyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T16:00:16.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cp3r6qgve4no?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Arteta not worried about Arsenal contract talks",
-      "titleJa": "移籍情報：Arteta not worried about Arsenal contract talks",
-      "from": "",
-      "to": "",
-      "summaryJa": "Arteta not worried about Arsenal contract talks移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Arteta not worried about Arsenal contract talks",
-      "summary": "Mikel Arteta says supporters \"don't have to worry about\" his future at Arsenal as he wants to extend his contract and the time left on his deal is \"not an issue\".",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cp3r6qgve4no?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T21:30:21.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c80n2g2x0g7o?at_medium=RSS&at_campaign=rss",
@@ -138,6 +108,51 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-13T17:56:48.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/ce85pje4gyqo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "VAR, timewasting and subs - new rules for the new season",
+      "titleJa": "移籍情報：VAR, timewasting and subs - new rules for the new season",
+      "from": "",
+      "to": "",
+      "summaryJa": "VAR, timewasting and subs - new rules for the new season移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "VAR, timewasting and subs - new rules for the new season",
+      "summary": "The 2026-27 season will feature an unprecedented number of new laws, mostly designed to tackle tempo disruption and make the game quicker.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ce85pje4gyqo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-14T11:00:52.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cx2vj4l9wxyo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Bezos-backed consortium buys a third of Liverpool",
+      "titleJa": "移籍情報：Bezos-backed consortium buys a third of Liverpool",
+      "from": "",
+      "to": "",
+      "summaryJa": "Bezos-backed consortium buys a third of Liverpool移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Bezos-backed consortium buys a third of Liverpool",
+      "summary": "Liverpool's owners agree to sell about a third of the club to a consortium including billionaire Amazon founder Jeff Bezos - in a deal that values the Reds at more than £5bn.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx2vj4l9wxyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-14T16:00:16.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cp3r6qgve4no?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Arteta not worried about Arsenal contract talks",
+      "titleJa": "移籍情報：Arteta not worried about Arsenal contract talks",
+      "from": "",
+      "to": "",
+      "summaryJa": "Arteta not worried about Arsenal contract talks移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Arteta not worried about Arsenal contract talks",
+      "summary": "Mikel Arteta says supporters \"don't have to worry about\" his future at Arsenal as he wants to extend his contract and the time left on his deal is \"not an issue\".",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cp3r6qgve4no?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-14T21:30:21.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cy8m14gz4ldo?at_medium=RSS&at_campaign=rss",
@@ -230,6 +245,21 @@
       "date": "2026-08-14T14:03:24.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cd69e18glyvo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Cardiff secure return of Liverpool loanee Scanlon",
+      "titleJa": "移籍情報：Cardiff secure return of Liverpool loanee Scanlon",
+      "from": "",
+      "to": "",
+      "summaryJa": "Cardiff secure return of Liverpool loanee Scanlon移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Cardiff secure return of Liverpool loanee Scanlon",
+      "summary": "Liverpool defender Calum Scanlon is back for a second spell with Cardiff City for the 2026-27 Championship season.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cd69e18glyvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-15T11:09:18.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c1w1y95305no?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Burnley sign Chelsea's Satpayev on loan",
@@ -273,21 +303,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cp30xwkj4y3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-13T22:12:05.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cqlx1023wd3o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Lundgaard",
-      "titleJa": "Lundgaard、Eintracht Frankfurtへ加入",
-      "from": "",
-      "to": "Eintracht Frankfurt",
-      "summaryJa": "LundgaardがEintracht Frankfurtへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Liverpool's Lundgaard joins Eintracht Frankfurt",
-      "summary": "Liverpool midfielder Sofie Lundgaard completes a permanent transfer to Eintracht Frankfurt for an undisclosed fee.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqlx1023wd3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T10:00:53.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c4gx5w7egvwo?at_medium=RSS&at_campaign=rss",
@@ -337,17 +352,17 @@
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cp30x80lny7o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Balikwisha set to leave Celtic with three clubs interested - gossip",
-      "titleJa": "移籍情報：Balikwisha set to leave Celtic with three clubs interested - gossip",
+      "player": "Belgian Pocognoli set for Scotland job - gossip",
+      "titleJa": "移籍情報：Belgian Pocognoli set for Scotland job - gossip",
       "from": "",
       "to": "",
-      "summaryJa": "Balikwisha set to leave Celtic with three clubs interested - gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Balikwisha set to leave Celtic with three clubs interested - gossip",
-      "summary": "Celtic winger set to move on with three clubs interested as Scottish champions target goalkeeper.",
+      "summaryJa": "Belgian Pocognoli set for Scotland job - gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Belgian Pocognoli set for Scotland job - gossip",
+      "summary": "Belgian tipped for Scotland job, Celtic forward likely moving on and Scottish champions target goalkeeper.",
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cp30x80lny7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-15T07:41:04.000Z"
+      "date": "2026-08-15T11:51:50.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cwyl368n7p3o?at_medium=RSS&at_campaign=rss",
@@ -363,6 +378,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwyl368n7p3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-14T10:05:02.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cqlx1023wd3o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Lundgaard",
+      "titleJa": "Lundgaard、Eintracht Frankfurtへ加入",
+      "from": "",
+      "to": "Eintracht Frankfurt",
+      "summaryJa": "LundgaardがEintracht Frankfurtへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Liverpool's Lundgaard joins Eintracht Frankfurt",
+      "summary": "Liverpool midfielder Sofie Lundgaard completes a permanent transfer to Eintracht Frankfurt for an undisclosed fee.",
+      "parsed": true,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqlx1023wd3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-14T10:00:53.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/ce8l6n9g6wgo?at_medium=RSS&at_campaign=rss",
