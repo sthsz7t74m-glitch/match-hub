@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T04:03:38.834Z",
+  "updatedAt": "2026-08-16T07:04:05.226Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -35,21 +35,6 @@
       "date": "2026-08-15T20:19:40.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cz64vg6znz1o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "England full-back Spence",
-      "titleJa": "インテル、トッテナムからEngland full-back Spenceを獲得",
-      "from": "トッテナム",
-      "to": "インテル",
-      "summaryJa": "England full-back Spenceがトッテナムからインテルへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Inter sign England full-back Spence from Tottenham",
-      "summary": "England full-back Djed Spence signs a five-year deal at Inter Milan as he makes a move to Italy from Tottenham.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cz64vg6znz1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-15T17:15:16.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Carrick pushing to improve the squad this summer",
@@ -63,6 +48,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-13T17:56:48.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cz64vg6znz1o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "England full-back Spence",
+      "titleJa": "インテル、トッテナムからEngland full-back Spenceを獲得",
+      "from": "トッテナム",
+      "to": "インテル",
+      "summaryJa": "England full-back Spenceがトッテナムからインテルへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Inter sign England full-back Spence from Tottenham",
+      "summary": "England full-back Djed Spence signs a five-year deal at Inter Milan as he makes a move to Italy from Tottenham.",
+      "parsed": true,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cz64vg6znz1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-15T17:15:16.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c934488gjyzo?at_medium=RSS&at_campaign=rss",
@@ -183,21 +183,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cx2vj4l9wxyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-14T16:00:16.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cy8m14gz4ldo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Fine-tuning and a clear target - Wrexham's season aim",
-      "titleJa": "移籍情報：Fine-tuning and a clear target - Wrexham's season aim",
-      "from": "",
-      "to": "",
-      "summaryJa": "Fine-tuning and a clear target - Wrexham's season aim移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Fine-tuning and a clear target - Wrexham's season aim",
-      "summary": "Wrexham aim for the coming campaign clear after they narrowly missed out on a Championship play-off spot last season.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cy8m14gz4ldo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-15T09:15:00.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c7vgyrl2573o?at_medium=RSS&at_campaign=rss",
