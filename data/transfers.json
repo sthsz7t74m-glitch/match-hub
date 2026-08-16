@@ -1,9 +1,54 @@
 {
-  "updatedAt": "2026-08-16T18:49:55.816Z",
+  "updatedAt": "2026-08-16T21:38:34.319Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cy0jj65r18yo?at_medium=RSS&at_campaign=rss",
+      "status": "agreed",
+      "player": "Barcelona agree £65m Rodri deal - who could replace him at Man City?",
+      "titleJa": "移籍情報：Barcelona agree £65m Rodri deal - who could replace him at Man City?",
+      "from": "",
+      "to": "",
+      "summaryJa": "Barcelona agree £65m Rodri deal - who could replace him at Man City?移る可能性について、合意段階の報道です。",
+      "originalTitle": "Barcelona agree £65m Rodri deal - who could replace him at Man City?",
+      "summary": "Barcelona agree a deal to sign Spain captain Rodri from Manchester City.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cy0jj65r18yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-16T19:37:45.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c4gkk7r2r4yo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Martinez Juventus move now off - Monday's gossip",
+      "titleJa": "移籍情報：Martinez Juventus move now off - Monday's gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Martinez Juventus move now off - Monday's gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Martinez Juventus move now off - Monday's gossip",
+      "summary": "Juventus pull out of move for Emiliano Martinez, Manchester City face competition for Pedro Neto and Real Madrid want Martin Zubimendi, plus more.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c4gkk7r2r4yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-16T21:24:43.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Carrick pushing to improve the squad this summer",
+      "titleJa": "移籍情報：Carrick pushing to improve the squad this summer",
+      "from": "",
+      "to": "",
+      "summaryJa": "Carrick pushing to improve the squad this summer移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Carrick pushing to improve the squad this summer",
+      "summary": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-13T17:56:48.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cwyrre1qzwlo?at_medium=RSS&at_campaign=rss",
       "status": "official",
@@ -35,19 +80,19 @@
       "date": "2026-08-16T13:38:08.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sounds/play/p0p4vxzr?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Carrick pushing to improve the squad this summer",
-      "titleJa": "移籍情報：Carrick pushing to improve the squad this summer",
+      "player": "Football Daily",
+      "titleJa": "移籍情報：Football Daily",
       "from": "",
       "to": "",
-      "summaryJa": "Carrick pushing to improve the squad this summer移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Carrick pushing to improve the squad this summer",
-      "summary": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress.",
+      "summaryJa": "Football Daily移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Football Daily",
+      "summary": "Aaron Paul is joined by Pat Nevin, Izzy Christiansen and, Chris Coles.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-13T17:56:48.000Z"
+      "url": "https://www.bbc.co.uk/sounds/play/p0p4vxzr?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-16T18:13:00.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c2lqqr15p2yo?at_medium=RSS&at_campaign=rss",
@@ -125,21 +170,6 @@
       "date": "2026-08-15T17:20:54.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cnvnndmz4reo?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Villa begin Suzuki talks - Sunday's gossip",
-      "titleJa": "移籍情報：Villa begin Suzuki talks - Sunday's gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Villa begin Suzuki talks - Sunday's gossip移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Villa begin Suzuki talks - Sunday's gossip",
-      "summary": "Aston Villa are in negotiations over Zion Suzuki, boosting Juventus' hope of signing Emiliano Martinez, while Arsenal are told price for Victor Osimhen, plus more.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cnvnndmz4reo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-15T20:23:00.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c70gg3dp61lo?at_medium=RSS&at_campaign=rss",
       "status": "talks",
       "player": "Newcastle progressing with move for Benfica defender Dedic",
@@ -153,21 +183,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c70gg3dp61lo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-15T13:54:09.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c20jyxjl8yko?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "World Cup winner Torres",
-      "titleJa": "パリ・サンジェルマン、バルセロナからWorld Cup winner Torresを獲得",
-      "from": "バルセロナ",
-      "to": "パリ・サンジェルマン",
-      "summaryJa": "World Cup winner Torresがバルセロナからパリ・サンジェルマンへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "PSG sign World Cup winner Torres from Barcelona",
-      "summary": "Ferran Torres, who scored the winning goal for Spain at the World Cup, has joined European champions Paris St-Germain from Barcelona.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c20jyxjl8yko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-15T09:37:31.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c7vgyrl2573o?at_medium=RSS&at_campaign=rss",
@@ -228,21 +243,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqlx1023wd3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-14T10:00:53.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/ce8l6n9g6wgo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Why 'wanted' Stanway wasted no time in getting Arsenal tattoo",
-      "titleJa": "移籍情報：Why 'wanted' Stanway wasted no time in getting Arsenal tattoo",
-      "from": "",
-      "to": "",
-      "summaryJa": "Why 'wanted' Stanway wasted no time in getting Arsenal tattoo移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Why 'wanted' Stanway wasted no time in getting Arsenal tattoo",
-      "summary": "England midfielder Georgia Stanway explains her latest tattoo and how Arsenal made her \"feel wanted\" before her move from Bayern Munich.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ce8l6n9g6wgo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-12T06:49:11.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cx2jpgj24vlo?at_medium=RSS&at_campaign=rss",
