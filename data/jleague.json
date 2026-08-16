@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T03:11:49.608Z",
+  "updatedAt": "2026-08-16T03:26:43.257Z",
   "dataSource": "ESPN (J1) + J.LEAGUE official site (J2/J3)",
   "sourceDetails": {
     "j1": "ESPN scoreboard / standings",
@@ -687,7 +687,7 @@
       "area": "熊本",
       "officialSlug": "kumamoto",
       "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-      "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+      "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
     },
     {
       "id": "kagoshima",
@@ -8675,7 +8675,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "score": {
         "home": null,
@@ -9887,7 +9887,7 @@
       "source": "espn",
       "league": "j1",
       "date": "2026-08-15T09:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "regular-season",
       "competition": "Japanese J.League",
@@ -9914,8 +9914,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7108.png"
       },
       "score": {
-        "home": 0,
-        "away": 0
+        "home": 2,
+        "away": 1
       },
       "venue": "Kashima Soccer Stadium",
       "round": ""
@@ -9926,7 +9926,7 @@
       "source": "espn",
       "league": "j1",
       "date": "2026-08-15T09:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "regular-season",
       "competition": "Japanese J.League",
@@ -9953,8 +9953,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7102.png"
       },
       "score": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 1
       },
       "venue": "",
       "round": ""
@@ -10153,7 +10153,7 @@
       "source": "espn",
       "league": "j1",
       "date": "2026-08-15T09:30Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "regular-season",
       "competition": "Japanese J.League",
@@ -10181,7 +10181,7 @@
       },
       "score": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "venue": "IAI Stadium Nihondaira",
       "round": ""
@@ -10239,7 +10239,7 @@
       "source": "espn",
       "league": "j1",
       "date": "2026-08-15T09:55Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "regular-season",
       "competition": "Japanese J.League",
@@ -10266,7 +10266,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19001.png"
       },
       "score": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "venue": "City Light Stadium",
@@ -10278,7 +10278,7 @@
       "source": "espn",
       "league": "j1",
       "date": "2026-08-15T10:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "regular-season",
       "competition": "Japanese J.League",
@@ -10305,7 +10305,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7109.png"
       },
       "score": {
-        "home": 0,
+        "home": 3,
         "away": 0
       },
       "venue": "Best Denki Stadium",
@@ -10317,7 +10317,7 @@
       "source": "espn",
       "league": "j1",
       "date": "2026-08-15T10:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "regular-season",
       "competition": "Japanese J.League",
@@ -10345,9 +10345,9 @@
       },
       "score": {
         "home": 0,
-        "away": 0
+        "away": 4
       },
-      "venue": "",
+      "venue": "Fukuda Denshi Arena",
       "round": ""
     },
     {
@@ -10356,7 +10356,7 @@
       "source": "espn",
       "league": "j1",
       "date": "2026-08-15T10:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "regular-season",
       "competition": "Japanese J.League",
@@ -10383,8 +10383,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21361.png"
       },
       "score": {
-        "home": 0,
-        "away": 0
+        "home": 2,
+        "away": 2
       },
       "venue": "Uvance Todoroki Stadium by Fujitsu",
       "round": ""
@@ -10395,7 +10395,7 @@
       "source": "espn",
       "league": "j1",
       "date": "2026-08-15T10:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "regular-season",
       "competition": "Japanese J.League",
@@ -10422,8 +10422,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7114.png"
       },
       "score": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 4
       },
       "venue": "Saitama Stadium 2002",
       "round": ""
@@ -10434,7 +10434,7 @@
       "source": "espn",
       "league": "j1",
       "date": "2026-08-15T10:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "regular-season",
       "competition": "Japanese J.League",
@@ -10461,8 +10461,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3384.png"
       },
       "score": {
-        "home": 0,
-        "away": 0
+        "home": 2,
+        "away": 2
       },
       "venue": "Kobe Wing Stadium",
       "round": ""
@@ -10869,7 +10869,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "away": {
         "id": "tochigi-sc",
@@ -12222,7 +12222,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "away": {
         "id": "nagano",
@@ -13820,7 +13820,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "score": {
         "home": null,
@@ -15239,7 +15239,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "away": {
         "id": "nara",
@@ -15719,7 +15719,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "score": {
         "home": null,
@@ -16997,7 +16997,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "away": {
         "id": "matsumoto",
@@ -18949,7 +18949,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "score": {
         "home": null,
@@ -19183,7 +19183,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "score": {
         "home": null,
@@ -21004,7 +21004,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "away": {
         "id": "ehime",
@@ -22688,7 +22688,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "score": {
         "home": null,
@@ -23967,7 +23967,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "away": {
         "id": "tottori",
@@ -24623,7 +24623,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "away": {
         "id": "gifu",
@@ -26488,7 +26488,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "score": {
         "home": null,
@@ -26768,7 +26768,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "score": {
         "home": null,
@@ -28541,7 +28541,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "away": {
         "id": "yamaguchi",
@@ -29789,7 +29789,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "score": {
         "home": null,
@@ -31107,7 +31107,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "away": {
         "id": "kitakyushu",
@@ -31305,7 +31305,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "score": {
         "home": null,
@@ -32920,7 +32920,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "away": {
         "id": "fc-osaka",
@@ -34948,7 +34948,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "score": {
         "home": null,
@@ -36238,7 +36238,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "away": {
         "id": "ryukyu",
@@ -36420,7 +36420,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "away": {
         "id": "kanazawa",
@@ -38845,7 +38845,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "score": {
         "home": null,
@@ -39793,7 +39793,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "away": {
         "id": "sagamihara",
@@ -40716,7 +40716,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "score": {
         "home": null,
@@ -41562,7 +41562,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "score": {
         "home": null,
@@ -42650,7 +42650,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "away": {
         "id": "kagoshima",
@@ -43332,7 +43332,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "score": {
         "home": null,
@@ -44568,7 +44568,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "away": {
         "id": "sanuki",
@@ -45203,7 +45203,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "score": {
         "home": null,
@@ -46486,7 +46486,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "away": {
         "id": "fukushima",
@@ -47265,7 +47265,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "score": {
         "home": null,
@@ -48385,7 +48385,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "away": {
         "id": "gunma",
@@ -49163,7 +49163,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "score": {
         "home": null,
@@ -50283,7 +50283,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "away": {
         "id": "kochi",
@@ -51108,7 +51108,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "score": {
         "home": null,
@@ -52228,7 +52228,7 @@
         "area": "熊本",
         "officialSlug": "kumamoto",
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
       "away": {
         "id": "shiga",
@@ -52255,6 +52255,54 @@
       "league": "j1",
       "rank": 1,
       "team": {
+        "id": "22167",
+        "appId": "machida",
+        "league": "j1",
+        "name": "Machida Zelvia",
+        "shortName": "Machida Zelvia",
+        "area": "東京",
+        "officialSlug": "machida",
+        "tla": "ZEL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22167.png"
+      },
+      "played": 2,
+      "win": 2,
+      "draw": 0,
+      "lose": 0,
+      "goalsFor": 9,
+      "goalsAgainst": 1,
+      "goalsDiff": 8,
+      "points": 6,
+      "form": ""
+    },
+    {
+      "league": "j1",
+      "rank": 2,
+      "team": {
+        "id": "7114",
+        "appId": "hiroshima",
+        "league": "j1",
+        "name": "Sanfrecce Hiroshima",
+        "shortName": "Sanfreece",
+        "area": "広島",
+        "officialSlug": "hiroshima",
+        "tla": "SAN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7114.png"
+      },
+      "played": 2,
+      "win": 2,
+      "draw": 0,
+      "lose": 0,
+      "goalsFor": 7,
+      "goalsAgainst": 1,
+      "goalsDiff": 6,
+      "points": 6,
+      "form": ""
+    },
+    {
+      "league": "j1",
+      "rank": 3,
+      "team": {
         "id": "7476",
         "appId": "kashiwa",
         "league": "j1",
@@ -52277,79 +52325,7 @@
     },
     {
       "league": "j1",
-      "rank": 2,
-      "team": {
-        "id": "22167",
-        "appId": "machida",
-        "league": "j1",
-        "name": "Machida Zelvia",
-        "shortName": "Machida Zelvia",
-        "area": "東京",
-        "officialSlug": "machida",
-        "tla": "ZEL",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22167.png"
-      },
-      "played": 1,
-      "win": 1,
-      "draw": 0,
-      "lose": 0,
-      "goalsFor": 5,
-      "goalsAgainst": 1,
-      "goalsDiff": 4,
-      "points": 3,
-      "form": ""
-    },
-    {
-      "league": "j1",
-      "rank": 3,
-      "team": {
-        "id": "7114",
-        "appId": "hiroshima",
-        "league": "j1",
-        "name": "Sanfrecce Hiroshima",
-        "shortName": "Sanfreece",
-        "area": "広島",
-        "officialSlug": "hiroshima",
-        "tla": "SAN",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7114.png"
-      },
-      "played": 1,
-      "win": 1,
-      "draw": 0,
-      "lose": 0,
-      "goalsFor": 3,
-      "goalsAgainst": 0,
-      "goalsDiff": 3,
-      "points": 3,
-      "form": ""
-    },
-    {
-      "league": "j1",
       "rank": 4,
-      "team": {
-        "id": "7102",
-        "appId": "gamba",
-        "league": "j1",
-        "name": "Gamba Osaka",
-        "shortName": "Gamba Osaka",
-        "area": "大阪",
-        "officialSlug": "gamba",
-        "tla": "GAM",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7102.png"
-      },
-      "played": 1,
-      "win": 1,
-      "draw": 0,
-      "lose": 0,
-      "goalsFor": 4,
-      "goalsAgainst": 3,
-      "goalsDiff": 1,
-      "points": 3,
-      "form": ""
-    },
-    {
-      "league": "j1",
-      "rank": 5,
       "team": {
         "id": "7115",
         "appId": "kashima",
@@ -52361,91 +52337,43 @@
         "tla": "KAN",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7115.png"
       },
-      "played": 1,
-      "win": 1,
+      "played": 2,
+      "win": 2,
       "draw": 0,
       "lose": 0,
-      "goalsFor": 4,
-      "goalsAgainst": 3,
+      "goalsFor": 6,
+      "goalsAgainst": 4,
+      "goalsDiff": 2,
+      "points": 6,
+      "form": ""
+    },
+    {
+      "league": "j1",
+      "rank": 5,
+      "team": {
+        "id": "7102",
+        "appId": "gamba",
+        "league": "j1",
+        "name": "Gamba Osaka",
+        "shortName": "Gamba Osaka",
+        "area": "大阪",
+        "officialSlug": "gamba",
+        "tla": "GAM",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7102.png"
+      },
+      "played": 2,
+      "win": 1,
+      "draw": 1,
+      "lose": 0,
+      "goalsFor": 5,
+      "goalsAgainst": 4,
       "goalsDiff": 1,
-      "points": 3,
+      "points": 4,
       "form": ""
     },
     {
       "league": "j1",
       "rank": 6,
-      "team": {
-        "id": "7109",
-        "appId": "cerezo",
-        "league": "j1",
-        "name": "Cerezo Osaka",
-        "shortName": "Cerezo Osaka",
-        "area": "大阪",
-        "officialSlug": "cerezo",
-        "tla": "CER",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7109.png"
-      },
-      "played": 1,
-      "win": 1,
-      "draw": 0,
-      "lose": 0,
-      "goalsFor": 2,
-      "goalsAgainst": 1,
-      "goalsDiff": 1,
-      "points": 3,
-      "form": ""
-    },
-    {
-      "league": "j1",
-      "rank": 7,
-      "team": {
-        "id": "19001",
-        "appId": "nagasaki",
-        "league": "j1",
-        "name": "V-Varen Nagasaki",
-        "shortName": "V-Varen",
-        "area": "長崎",
-        "officialSlug": "nagasaki",
-        "tla": "VVN",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19001.png"
-      },
-      "played": 1,
-      "win": 1,
-      "draw": 0,
-      "lose": 0,
-      "goalsFor": 2,
-      "goalsAgainst": 1,
-      "goalsDiff": 1,
-      "points": 3,
-      "form": ""
-    },
-    {
-      "league": "j1",
-      "rank": 8,
-      "team": {
-        "id": "7104",
-        "appId": "shimizu",
-        "league": "j1",
-        "name": "Shimizu S-Pulse",
-        "shortName": "Shimizu",
-        "area": "静岡",
-        "officialSlug": "shimizu",
-        "tla": "SHI",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7104.png"
-      },
-      "played": 1,
-      "win": 1,
-      "draw": 0,
-      "lose": 0,
-      "goalsFor": 1,
-      "goalsAgainst": 0,
-      "goalsDiff": 1,
-      "points": 3,
-      "form": ""
-    },
-    {
-      "league": "j1",
-      "rank": 9,
       "team": {
         "id": "7477",
         "appId": "kobe",
@@ -52457,19 +52385,163 @@
         "tla": "VIS",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7477.png"
       },
-      "played": 1,
+      "played": 2,
+      "win": 1,
+      "draw": 1,
+      "lose": 0,
+      "goalsFor": 3,
+      "goalsAgainst": 2,
+      "goalsDiff": 1,
+      "points": 4,
+      "form": ""
+    },
+    {
+      "league": "j1",
+      "rank": 7,
+      "team": {
+        "id": "7107",
+        "appId": "fukuoka",
+        "league": "j1",
+        "name": "Avispa Fukuoka",
+        "shortName": "A Fukuoka",
+        "area": "福岡",
+        "officialSlug": "fukuoka",
+        "tla": "AVF",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7107.png"
+      },
+      "played": 2,
       "win": 1,
       "draw": 0,
-      "lose": 0,
-      "goalsFor": 1,
-      "goalsAgainst": 0,
-      "goalsDiff": 1,
+      "lose": 1,
+      "goalsFor": 3,
+      "goalsAgainst": 1,
+      "goalsDiff": 2,
+      "points": 3,
+      "form": ""
+    },
+    {
+      "league": "j1",
+      "rank": 8,
+      "team": {
+        "id": "7116",
+        "appId": "yokohama-fm",
+        "league": "j1",
+        "name": "Yokohama F. Marinos",
+        "shortName": "Yokohama FM",
+        "area": "神奈川",
+        "officialSlug": "yokohamafm",
+        "tla": "YOK",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7116.png"
+      },
+      "played": 2,
+      "win": 1,
+      "draw": 0,
+      "lose": 1,
+      "goalsFor": 4,
+      "goalsAgainst": 4,
+      "goalsDiff": 0,
+      "points": 3,
+      "form": ""
+    },
+    {
+      "league": "j1",
+      "rank": 9,
+      "team": {
+        "id": "22522",
+        "appId": "okayama",
+        "league": "j1",
+        "name": "Fagiano Okayama",
+        "shortName": "Okayama",
+        "area": "岡山",
+        "officialSlug": "okayama",
+        "tla": "OKA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22522.png"
+      },
+      "played": 2,
+      "win": 1,
+      "draw": 0,
+      "lose": 1,
+      "goalsFor": 2,
+      "goalsAgainst": 2,
+      "goalsDiff": 0,
       "points": 3,
       "form": ""
     },
     {
       "league": "j1",
       "rank": 10,
+      "team": {
+        "id": "19001",
+        "appId": "nagasaki",
+        "league": "j1",
+        "name": "V-Varen Nagasaki",
+        "shortName": "V-Varen",
+        "area": "長崎",
+        "officialSlug": "nagasaki",
+        "tla": "VVN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19001.png"
+      },
+      "played": 2,
+      "win": 1,
+      "draw": 0,
+      "lose": 1,
+      "goalsFor": 2,
+      "goalsAgainst": 2,
+      "goalsDiff": 0,
+      "points": 3,
+      "form": ""
+    },
+    {
+      "league": "j1",
+      "rank": 11,
+      "team": {
+        "id": "7104",
+        "appId": "shimizu",
+        "league": "j1",
+        "name": "Shimizu S-Pulse",
+        "shortName": "Shimizu",
+        "area": "静岡",
+        "officialSlug": "shimizu",
+        "tla": "SHI",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7104.png"
+      },
+      "played": 2,
+      "win": 1,
+      "draw": 0,
+      "lose": 1,
+      "goalsFor": 1,
+      "goalsAgainst": 1,
+      "goalsDiff": 0,
+      "points": 3,
+      "form": ""
+    },
+    {
+      "league": "j1",
+      "rank": 12,
+      "team": {
+        "id": "7109",
+        "appId": "cerezo",
+        "league": "j1",
+        "name": "Cerezo Osaka",
+        "shortName": "Cerezo Osaka",
+        "area": "大阪",
+        "officialSlug": "cerezo",
+        "tla": "CER",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7109.png"
+      },
+      "played": 2,
+      "win": 1,
+      "draw": 0,
+      "lose": 1,
+      "goalsFor": 2,
+      "goalsAgainst": 4,
+      "goalsDiff": -2,
+      "points": 3,
+      "form": ""
+    },
+    {
+      "league": "j1",
+      "rank": 13,
       "team": {
         "id": "7112",
         "appId": "kawasaki",
@@ -52481,19 +52553,67 @@
         "tla": "KAW",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7112.png"
       },
-      "played": 1,
+      "played": 2,
+      "win": 0,
+      "draw": 2,
+      "lose": 0,
+      "goalsFor": 3,
+      "goalsAgainst": 3,
+      "goalsDiff": 0,
+      "points": 2,
+      "form": ""
+    },
+    {
+      "league": "j1",
+      "rank": 14,
+      "team": {
+        "id": "21361",
+        "appId": "kyoto",
+        "league": "j1",
+        "name": "Kyoto Sanga",
+        "shortName": "Kyoto Sanga",
+        "area": "京都",
+        "officialSlug": "kyoto",
+        "tla": "KYO",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21361.png"
+      },
+      "played": 2,
       "win": 0,
       "draw": 1,
-      "lose": 0,
-      "goalsFor": 1,
-      "goalsAgainst": 1,
-      "goalsDiff": 0,
+      "lose": 1,
+      "goalsFor": 3,
+      "goalsAgainst": 4,
+      "goalsDiff": -1,
       "points": 1,
       "form": ""
     },
     {
       "league": "j1",
-      "rank": 11,
+      "rank": 15,
+      "team": {
+        "id": "131701",
+        "appId": "mito",
+        "league": "j1",
+        "name": "Mito Hollyhock",
+        "shortName": "Mito Hollyhock",
+        "area": "茨城",
+        "officialSlug": "mito",
+        "tla": "MITO",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131701.png"
+      },
+      "played": 2,
+      "win": 0,
+      "draw": 1,
+      "lose": 1,
+      "goalsFor": 2,
+      "goalsAgainst": 3,
+      "goalsDiff": -1,
+      "points": 1,
+      "form": ""
+    },
+    {
+      "league": "j1",
+      "rank": 16,
       "team": {
         "id": "3393",
         "appId": "tokyo-verdy",
@@ -52517,146 +52637,26 @@
     },
     {
       "league": "j1",
-      "rank": 12,
-      "team": {
-        "id": "3385",
-        "appId": "urawa",
-        "league": "j1",
-        "name": "Urawa Red Diamonds",
-        "shortName": "Urawa Reds",
-        "area": "埼玉",
-        "officialSlug": "urawa",
-        "tla": "URA",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3385.png"
-      },
-      "played": 1,
-      "win": 0,
-      "draw": 0,
-      "lose": 1,
-      "goalsFor": 3,
-      "goalsAgainst": 4,
-      "goalsDiff": -1,
-      "points": 0,
-      "form": ""
-    },
-    {
-      "league": "j1",
-      "rank": 13,
-      "team": {
-        "id": "7116",
-        "appId": "yokohama-fm",
-        "league": "j1",
-        "name": "Yokohama F. Marinos",
-        "shortName": "Yokohama FM",
-        "area": "神奈川",
-        "officialSlug": "yokohamafm",
-        "tla": "YOK",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7116.png"
-      },
-      "played": 1,
-      "win": 0,
-      "draw": 0,
-      "lose": 1,
-      "goalsFor": 3,
-      "goalsAgainst": 4,
-      "goalsDiff": -1,
-      "points": 0,
-      "form": ""
-    },
-    {
-      "league": "j1",
-      "rank": 14,
-      "team": {
-        "id": "22522",
-        "appId": "okayama",
-        "league": "j1",
-        "name": "Fagiano Okayama",
-        "shortName": "Okayama",
-        "area": "岡山",
-        "officialSlug": "okayama",
-        "tla": "OKA",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22522.png"
-      },
-      "played": 1,
-      "win": 0,
-      "draw": 0,
-      "lose": 1,
-      "goalsFor": 1,
-      "goalsAgainst": 2,
-      "goalsDiff": -1,
-      "points": 0,
-      "form": ""
-    },
-    {
-      "league": "j1",
-      "rank": 15,
-      "team": {
-        "id": "21361",
-        "appId": "kyoto",
-        "league": "j1",
-        "name": "Kyoto Sanga",
-        "shortName": "Kyoto Sanga",
-        "area": "京都",
-        "officialSlug": "kyoto",
-        "tla": "KYO",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21361.png"
-      },
-      "played": 1,
-      "win": 0,
-      "draw": 0,
-      "lose": 1,
-      "goalsFor": 1,
-      "goalsAgainst": 2,
-      "goalsDiff": -1,
-      "points": 0,
-      "form": ""
-    },
-    {
-      "league": "j1",
-      "rank": 16,
-      "team": {
-        "id": "131701",
-        "appId": "mito",
-        "league": "j1",
-        "name": "Mito Hollyhock",
-        "shortName": "Mito Hollyhock",
-        "area": "茨城",
-        "officialSlug": "mito",
-        "tla": "MITO",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131701.png"
-      },
-      "played": 1,
-      "win": 0,
-      "draw": 0,
-      "lose": 1,
-      "goalsFor": 1,
-      "goalsAgainst": 2,
-      "goalsDiff": -1,
-      "points": 0,
-      "form": ""
-    },
-    {
-      "league": "j1",
       "rank": 17,
       "team": {
-        "id": "7107",
-        "appId": "fukuoka",
+        "id": "3384",
+        "appId": "fc-tokyo",
         "league": "j1",
-        "name": "Avispa Fukuoka",
-        "shortName": "A Fukuoka",
-        "area": "福岡",
-        "officialSlug": "fukuoka",
-        "tla": "AVF",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7107.png"
+        "name": "FC Tokyo",
+        "shortName": "Tokyo",
+        "area": "東京",
+        "officialSlug": "fctokyo",
+        "tla": "TOK",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3384.png"
       },
-      "played": 1,
+      "played": 2,
       "win": 0,
-      "draw": 0,
+      "draw": 1,
       "lose": 1,
-      "goalsFor": 0,
-      "goalsAgainst": 1,
-      "goalsDiff": -1,
-      "points": 0,
+      "goalsFor": 3,
+      "goalsAgainst": 7,
+      "goalsDiff": -4,
+      "points": 1,
       "form": ""
     },
     {
@@ -52673,19 +52673,43 @@
         "tla": "NAG",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7108.png"
       },
-      "played": 1,
+      "played": 2,
       "win": 0,
       "draw": 0,
-      "lose": 1,
-      "goalsFor": 0,
-      "goalsAgainst": 1,
-      "goalsDiff": -1,
+      "lose": 2,
+      "goalsFor": 1,
+      "goalsAgainst": 3,
+      "goalsDiff": -2,
       "points": 0,
       "form": ""
     },
     {
       "league": "j1",
       "rank": 19,
+      "team": {
+        "id": "3385",
+        "appId": "urawa",
+        "league": "j1",
+        "name": "Urawa Red Diamonds",
+        "shortName": "Urawa Reds",
+        "area": "埼玉",
+        "officialSlug": "urawa",
+        "tla": "URA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3385.png"
+      },
+      "played": 2,
+      "win": 0,
+      "draw": 0,
+      "lose": 2,
+      "goalsFor": 4,
+      "goalsAgainst": 8,
+      "goalsDiff": -4,
+      "points": 0,
+      "form": ""
+    },
+    {
+      "league": "j1",
+      "rank": 20,
       "team": {
         "id": "7111",
         "appId": "chiba",
@@ -52697,114 +52721,15 @@
         "tla": "JEF",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7111.png"
       },
-      "played": 1,
+      "played": 2,
       "win": 0,
       "draw": 0,
-      "lose": 1,
+      "lose": 2,
       "goalsFor": 0,
-      "goalsAgainst": 3,
-      "goalsDiff": -3,
+      "goalsAgainst": 7,
+      "goalsDiff": -7,
       "points": 0,
       "form": ""
-    },
-    {
-      "league": "j1",
-      "rank": 20,
-      "team": {
-        "id": "3384",
-        "appId": "fc-tokyo",
-        "league": "j1",
-        "name": "FC Tokyo",
-        "shortName": "Tokyo",
-        "area": "東京",
-        "officialSlug": "fctokyo",
-        "tla": "TOK",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3384.png"
-      },
-      "played": 1,
-      "win": 0,
-      "draw": 0,
-      "lose": 1,
-      "goalsFor": 1,
-      "goalsAgainst": 5,
-      "goalsDiff": -4,
-      "points": 0,
-      "form": ""
-    },
-    {
-      "league": "j2",
-      "rank": 1,
-      "team": {
-        "id": "sapporo",
-        "appId": "sapporo",
-        "league": "j2",
-        "name": "北海道コンサドーレ札幌",
-        "shortName": "札幌",
-        "area": "北海道",
-        "officialSlug": "sapporo",
-        "logo": "https://www.jleague.jp/image/clubs/sapporo.svg",
-        "venue": "大和ハウス プレミストドーム 入場可能数 ： 38,794 人 監督 川井 健太 試合日程をカレンダーに追加 更新日: 2026/8/13 15:10 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果"
-      },
-      "played": 1,
-      "win": 1,
-      "draw": 0,
-      "lose": 0,
-      "goalsFor": 2,
-      "goalsAgainst": 0,
-      "goalsDiff": 2,
-      "points": 3,
-      "form": "",
-      "provisional": false
-    },
-    {
-      "league": "j2",
-      "rank": 1,
-      "team": {
-        "id": "hachinohe",
-        "appId": "hachinohe",
-        "league": "j2",
-        "name": "ヴァンラーレ八戸",
-        "shortName": "八戸",
-        "area": "青森",
-        "officialSlug": "hachinohe",
-        "logo": "https://www.jleague.jp/image/clubs/hachinohe.svg",
-        "venue": "プライフーズスタジアム 入場可能数 ： 1,204 人 監督 倉石 圭二 試合日程をカレンダーに追加 更新日: 2026/8/13 15:10 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
-      },
-      "played": 1,
-      "win": 1,
-      "draw": 0,
-      "lose": 0,
-      "goalsFor": 2,
-      "goalsAgainst": 0,
-      "goalsDiff": 2,
-      "points": 3,
-      "form": "",
-      "provisional": false
-    },
-    {
-      "league": "j2",
-      "rank": 1,
-      "team": {
-        "id": "yamagata",
-        "appId": "yamagata",
-        "league": "j2",
-        "name": "モンテディオ山形",
-        "shortName": "山形",
-        "area": "山形",
-        "officialSlug": "yamagata",
-        "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/8/13 15:10 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選"
-      },
-      "played": 1,
-      "win": 1,
-      "draw": 0,
-      "lose": 0,
-      "goalsFor": 2,
-      "goalsAgainst": 0,
-      "goalsDiff": 2,
-      "points": 3,
-      "form": "",
-      "provisional": false
     },
     {
       "league": "j2",
@@ -52820,12 +52745,112 @@
         "logo": "https://www.jleague.jp/image/clubs/fujieda.svg",
         "venue": "藤枝総合運動公園サッカー場 入場可能数 ： 10,057 人 監督 槙野 智章 試合日程をカレンダーに追加 更新日: 2026/8/3 10:43 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選"
       },
-      "played": 1,
-      "win": 1,
+      "played": 2,
+      "win": 2,
+      "draw": 0,
+      "lose": 0,
+      "goalsFor": 5,
+      "goalsAgainst": 1,
+      "goalsDiff": 4,
+      "points": 6,
+      "form": "",
+      "provisional": false
+    },
+    {
+      "league": "j2",
+      "rank": 2,
+      "team": {
+        "id": "omiya",
+        "appId": "omiya",
+        "league": "j2",
+        "name": "RB大宮アルディージャ",
+        "shortName": "大宮",
+        "area": "埼玉",
+        "officialSlug": "omiya",
+        "logo": "https://www.jleague.jp/image/clubs/omiya.svg",
+        "venue": "ＮＡＣＫ５スタジアム大宮 入場可能数 ： 15,491 人 監督 ナルシス ペラッチ ナダル 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 "
+      },
+      "played": 2,
+      "win": 2,
+      "draw": 0,
+      "lose": 0,
+      "goalsFor": 4,
+      "goalsAgainst": 2,
+      "goalsDiff": 2,
+      "points": 6,
+      "form": "",
+      "provisional": false
+    },
+    {
+      "league": "j2",
+      "rank": 3,
+      "team": {
+        "id": "shonan",
+        "appId": "shonan",
+        "league": "j2",
+        "name": "湘南ベルマーレ",
+        "shortName": "湘南",
+        "area": "神奈川",
+        "officialSlug": "shonan",
+        "logo": "https://www.jleague.jp/image/clubs/shonan.svg",
+        "venue": "レモンガススタジアム平塚 入場可能数 ： 15,380 人 監督 長澤 徹 試合日程をカレンダーに追加 更新日: 2026/8/14 16:35 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
+      },
+      "played": 2,
+      "win": 2,
       "draw": 0,
       "lose": 0,
       "goalsFor": 2,
       "goalsAgainst": 0,
+      "goalsDiff": 2,
+      "points": 6,
+      "form": "",
+      "provisional": false
+    },
+    {
+      "league": "j2",
+      "rank": 4,
+      "team": {
+        "id": "tochigi-city",
+        "appId": "tochigi-city",
+        "league": "j2",
+        "name": "栃木シティ",
+        "shortName": "栃木C",
+        "area": "栃木",
+        "officialSlug": "tochigic",
+        "logo": "https://www.jleague.jp/image/clubs/tochigi-c.svg",
+        "venue": "ＣＩＴＹ ＦＯＯＴＢＡＬＬ ＳＴＡＴＩＯＮ 入場可能数 ： 5,092 人 監督 今矢 直城 試合日程をカレンダーに追加 更新日: 2026/8/2 10:26 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 "
+      },
+      "played": 2,
+      "win": 1,
+      "draw": 0,
+      "lose": 1,
+      "goalsFor": 5,
+      "goalsAgainst": 2,
+      "goalsDiff": 3,
+      "points": 3,
+      "form": "",
+      "provisional": false
+    },
+    {
+      "league": "j2",
+      "rank": 5,
+      "team": {
+        "id": "toyama",
+        "appId": "toyama",
+        "league": "j2",
+        "name": "カターレ富山",
+        "shortName": "富山",
+        "area": "富山",
+        "officialSlug": "toyama",
+        "logo": "https://www.jleague.jp/image/clubs/toyama.svg",
+        "venue": "富山県総合運動公園陸上競技場 入場可能数 ： 18,191 人 監督 安達 亮 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選"
+      },
+      "played": 2,
+      "win": 1,
+      "draw": 0,
+      "lose": 1,
+      "goalsFor": 4,
+      "goalsAgainst": 2,
       "goalsDiff": 2,
       "points": 3,
       "form": "",
@@ -52833,7 +52858,7 @@
     },
     {
       "league": "j2",
-      "rank": 1,
+      "rank": 6,
       "team": {
         "id": "tosu",
         "appId": "tosu",
@@ -52858,22 +52883,47 @@
     },
     {
       "league": "j2",
-      "rank": 6,
+      "rank": 7,
       "team": {
-        "id": "iwaki",
-        "appId": "iwaki",
+        "id": "sapporo",
+        "appId": "sapporo",
         "league": "j2",
-        "name": "いわきFC",
-        "shortName": "いわき",
-        "area": "福島",
-        "officialSlug": "iwaki",
-        "logo": "https://www.jleague.jp/image/clubs/iwaki.svg",
-        "venue": "ハワイアンズスタジアムいわき 入場可能数 ： 5,076 人 監督 田村 雄三 試合日程をカレンダーに追加 更新日: 2026/8/13 15:10 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "name": "北海道コンサドーレ札幌",
+        "shortName": "札幌",
+        "area": "北海道",
+        "officialSlug": "sapporo",
+        "logo": "https://www.jleague.jp/image/clubs/sapporo.svg",
+        "venue": "大和ハウス プレミストドーム 入場可能数 ： 38,794 人 監督 川井 健太 試合日程をカレンダーに追加 更新日: 2026/8/13 15:10 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果"
       },
-      "played": 1,
+      "played": 2,
       "win": 1,
       "draw": 0,
-      "lose": 0,
+      "lose": 1,
+      "goalsFor": 3,
+      "goalsAgainst": 2,
+      "goalsDiff": 1,
+      "points": 3,
+      "form": "",
+      "provisional": false
+    },
+    {
+      "league": "j2",
+      "rank": 8,
+      "team": {
+        "id": "yamagata",
+        "appId": "yamagata",
+        "league": "j2",
+        "name": "モンテディオ山形",
+        "shortName": "山形",
+        "area": "山形",
+        "officialSlug": "yamagata",
+        "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/8/13 15:10 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選"
+      },
+      "played": 2,
+      "win": 1,
+      "draw": 0,
+      "lose": 1,
       "goalsFor": 2,
       "goalsAgainst": 1,
       "goalsDiff": 1,
@@ -52883,32 +52933,7 @@
     },
     {
       "league": "j2",
-      "rank": 7,
-      "team": {
-        "id": "omiya",
-        "appId": "omiya",
-        "league": "j2",
-        "name": "RB大宮アルディージャ",
-        "shortName": "大宮",
-        "area": "埼玉",
-        "officialSlug": "omiya",
-        "logo": "https://www.jleague.jp/image/clubs/omiya.svg",
-        "venue": "ＮＡＣＫ５スタジアム大宮 入場可能数 ： 15,491 人 監督 ナルシス ペラッチ ナダル 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 "
-      },
-      "played": 1,
-      "win": 1,
-      "draw": 0,
-      "lose": 0,
-      "goalsFor": 1,
-      "goalsAgainst": 0,
-      "goalsDiff": 1,
-      "points": 3,
-      "form": "",
-      "provisional": false
-    },
-    {
-      "league": "j2",
-      "rank": 7,
+      "rank": 9,
       "team": {
         "id": "yokohama-fc",
         "appId": "yokohama-fc",
@@ -52933,57 +52958,82 @@
     },
     {
       "league": "j2",
-      "rank": 7,
+      "rank": 10,
       "team": {
-        "id": "shonan",
-        "appId": "shonan",
+        "id": "niigata",
+        "appId": "niigata",
         "league": "j2",
-        "name": "湘南ベルマーレ",
-        "shortName": "湘南",
-        "area": "神奈川",
-        "officialSlug": "shonan",
-        "logo": "https://www.jleague.jp/image/clubs/shonan.svg",
-        "venue": "レモンガススタジアム平塚 入場可能数 ： 15,380 人 監督 長澤 徹 試合日程をカレンダーに追加 更新日: 2026/8/14 16:35 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
+        "name": "アルビレックス新潟",
+        "shortName": "新潟",
+        "area": "新潟",
+        "officialSlug": "niigata",
+        "logo": "https://www.jleague.jp/image/clubs/niigata.svg",
+        "venue": "デンカビッグスワンスタジアム 入場可能数 ： 41,684 人 監督 船越 優蔵 試合日程をカレンダーに追加 更新日: 2026/7/27 10:44 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果"
       },
-      "played": 1,
+      "played": 2,
       "win": 1,
       "draw": 0,
-      "lose": 0,
-      "goalsFor": 1,
-      "goalsAgainst": 0,
-      "goalsDiff": 1,
+      "lose": 1,
+      "goalsFor": 2,
+      "goalsAgainst": 2,
+      "goalsDiff": 0,
       "points": 3,
       "form": "",
       "provisional": false
     },
     {
       "league": "j2",
-      "rank": 10,
+      "rank": 11,
       "team": {
-        "id": "akita",
-        "appId": "akita",
+        "id": "iwaki",
+        "appId": "iwaki",
         "league": "j2",
-        "name": "ブラウブリッツ秋田",
-        "shortName": "秋田",
-        "area": "秋田",
-        "officialSlug": "akita",
-        "logo": "https://www.jleague.jp/image/clubs/akita.svg",
-        "venue": "ソユースタジアム 入場可能数 ： 18,560 人 監督 吉田 謙 試合日程をカレンダーに追加 更新日: 2026/8/6 17:00 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一覧 プロ"
+        "name": "いわきFC",
+        "shortName": "いわき",
+        "area": "福島",
+        "officialSlug": "iwaki",
+        "logo": "https://www.jleague.jp/image/clubs/iwaki.svg",
+        "venue": "ハワイアンズスタジアムいわき 入場可能数 ： 5,076 人 監督 田村 雄三 試合日程をカレンダーに追加 更新日: 2026/8/13 15:10 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
-      "played": 1,
-      "win": 0,
-      "draw": 1,
-      "lose": 0,
-      "goalsFor": 1,
-      "goalsAgainst": 1,
-      "goalsDiff": 0,
-      "points": 1,
+      "played": 2,
+      "win": 1,
+      "draw": 0,
+      "lose": 1,
+      "goalsFor": 3,
+      "goalsAgainst": 4,
+      "goalsDiff": -1,
+      "points": 3,
       "form": "",
       "provisional": false
     },
     {
       "league": "j2",
-      "rank": 10,
+      "rank": 12,
+      "team": {
+        "id": "hachinohe",
+        "appId": "hachinohe",
+        "league": "j2",
+        "name": "ヴァンラーレ八戸",
+        "shortName": "八戸",
+        "area": "青森",
+        "officialSlug": "hachinohe",
+        "logo": "https://www.jleague.jp/image/clubs/hachinohe.svg",
+        "venue": "プライフーズスタジアム 入場可能数 ： 1,204 人 監督 倉石 圭二 試合日程をカレンダーに追加 更新日: 2026/8/13 15:10 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+      },
+      "played": 2,
+      "win": 1,
+      "draw": 0,
+      "lose": 1,
+      "goalsFor": 2,
+      "goalsAgainst": 5,
+      "goalsDiff": -3,
+      "points": 3,
+      "form": "",
+      "provisional": false
+    },
+    {
+      "league": "j2",
+      "rank": 13,
       "team": {
         "id": "iwata",
         "appId": "iwata",
@@ -53008,82 +53058,7 @@
     },
     {
       "league": "j2",
-      "rank": 12,
-      "team": {
-        "id": "imabari",
-        "appId": "imabari",
-        "league": "j2",
-        "name": "FC今治",
-        "shortName": "今治",
-        "area": "愛媛",
-        "officialSlug": "imabari",
-        "logo": "https://www.jleague.jp/image/clubs/imabari.svg",
-        "venue": "アシックス里山スタジアム 入場可能数 ： 8,848 人 監督 アベル モウレロ 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
-      },
-      "played": 1,
-      "win": 0,
-      "draw": 0,
-      "lose": 1,
-      "goalsFor": 1,
-      "goalsAgainst": 2,
-      "goalsDiff": -1,
-      "points": 0,
-      "form": "",
-      "provisional": false
-    },
-    {
-      "league": "j2",
-      "rank": 13,
-      "team": {
-        "id": "niigata",
-        "appId": "niigata",
-        "league": "j2",
-        "name": "アルビレックス新潟",
-        "shortName": "新潟",
-        "area": "新潟",
-        "officialSlug": "niigata",
-        "logo": "https://www.jleague.jp/image/clubs/niigata.svg",
-        "venue": "デンカビッグスワンスタジアム 入場可能数 ： 41,684 人 監督 船越 優蔵 試合日程をカレンダーに追加 更新日: 2026/7/27 10:44 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果"
-      },
-      "played": 1,
-      "win": 0,
-      "draw": 0,
-      "lose": 1,
-      "goalsFor": 0,
-      "goalsAgainst": 1,
-      "goalsDiff": -1,
-      "points": 0,
-      "form": "",
-      "provisional": false
-    },
-    {
-      "league": "j2",
-      "rank": 13,
-      "team": {
-        "id": "oita",
-        "appId": "oita",
-        "league": "j2",
-        "name": "大分トリニータ",
-        "shortName": "大分",
-        "area": "大分",
-        "officialSlug": "oita",
-        "logo": "https://www.jleague.jp/image/clubs/oita.svg",
-        "venue": "クラサスドーム大分 入場可能数 ： 31,997 人 監督 四方田 修平 試合日程をカレンダーに追加 更新日: 2026/8/14 16:35 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
-      },
-      "played": 1,
-      "win": 0,
-      "draw": 0,
-      "lose": 1,
-      "goalsFor": 0,
-      "goalsAgainst": 1,
-      "goalsDiff": -1,
-      "points": 0,
-      "form": "",
-      "provisional": false
-    },
-    {
-      "league": "j2",
-      "rank": 13,
+      "rank": 14,
       "team": {
         "id": "miyazaki",
         "appId": "miyazaki",
@@ -53095,64 +53070,39 @@
         "logo": "https://www.jleague.jp/image/clubs/miyazaki.svg",
         "venue": "いちご宮崎新富サッカー場 入場可能数 ： 1,819 人 監督 大熊 裕司 試合日程をカレンダーに追加 更新日: 2026/8/3 10:43 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
       },
-      "played": 1,
+      "played": 2,
       "win": 0,
-      "draw": 0,
+      "draw": 1,
+      "lose": 1,
+      "goalsFor": 1,
+      "goalsAgainst": 2,
+      "goalsDiff": -1,
+      "points": 1,
+      "form": "",
+      "provisional": false
+    },
+    {
+      "league": "j2",
+      "rank": 15,
+      "team": {
+        "id": "oita",
+        "appId": "oita",
+        "league": "j2",
+        "name": "大分トリニータ",
+        "shortName": "大分",
+        "area": "大分",
+        "officialSlug": "oita",
+        "logo": "https://www.jleague.jp/image/clubs/oita.svg",
+        "venue": "クラサスドーム大分 入場可能数 ： 31,997 人 監督 四方田 修平 試合日程をカレンダーに追加 更新日: 2026/8/14 16:35 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+      },
+      "played": 2,
+      "win": 0,
+      "draw": 1,
       "lose": 1,
       "goalsFor": 0,
       "goalsAgainst": 1,
       "goalsDiff": -1,
-      "points": 0,
-      "form": "",
-      "provisional": false
-    },
-    {
-      "league": "j2",
-      "rank": 16,
-      "team": {
-        "id": "sendai",
-        "appId": "sendai",
-        "league": "j2",
-        "name": "ベガルタ仙台",
-        "shortName": "仙台",
-        "area": "宮城",
-        "officialSlug": "sendai",
-        "logo": "https://www.jleague.jp/image/clubs/sendai.svg",
-        "venue": "ユアテックスタジアム仙台 入場可能数 ： 19,526 人 監督 森山 佳郎 試合日程をカレンダーに追加 更新日: 2026/7/27 10:44 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選"
-      },
-      "played": 1,
-      "win": 0,
-      "draw": 0,
-      "lose": 1,
-      "goalsFor": 0,
-      "goalsAgainst": 2,
-      "goalsDiff": -2,
-      "points": 0,
-      "form": "",
-      "provisional": false
-    },
-    {
-      "league": "j2",
-      "rank": 16,
-      "team": {
-        "id": "tochigi-city",
-        "appId": "tochigi-city",
-        "league": "j2",
-        "name": "栃木シティ",
-        "shortName": "栃木C",
-        "area": "栃木",
-        "officialSlug": "tochigic",
-        "logo": "https://www.jleague.jp/image/clubs/tochigi-c.svg",
-        "venue": "ＣＩＴＹ ＦＯＯＴＢＡＬＬ ＳＴＡＴＩＯＮ 入場可能数 ： 5,092 人 監督 今矢 直城 試合日程をカレンダーに追加 更新日: 2026/8/2 10:26 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 "
-      },
-      "played": 1,
-      "win": 0,
-      "draw": 0,
-      "lose": 1,
-      "goalsFor": 0,
-      "goalsAgainst": 2,
-      "goalsDiff": -2,
-      "points": 0,
+      "points": 1,
       "form": "",
       "provisional": false
     },
@@ -53170,37 +53120,87 @@
         "logo": "https://www.jleague.jp/image/clubs/kofu.svg",
         "venue": "ＪＩＴ リサイクルインク スタジアム 入場可能数 ： 15,853 人 監督 渋谷 洋樹 試合日程をカレンダーに追加 更新日: 2026/7/27 10:44 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日"
       },
-      "played": 1,
+      "played": 2,
       "win": 0,
-      "draw": 0,
+      "draw": 1,
       "lose": 1,
-      "goalsFor": 0,
-      "goalsAgainst": 2,
+      "goalsFor": 1,
+      "goalsAgainst": 3,
       "goalsDiff": -2,
-      "points": 0,
+      "points": 1,
       "form": "",
       "provisional": false
     },
     {
       "league": "j2",
-      "rank": 16,
+      "rank": 17,
       "team": {
-        "id": "toyama",
-        "appId": "toyama",
+        "id": "sendai",
+        "appId": "sendai",
         "league": "j2",
-        "name": "カターレ富山",
-        "shortName": "富山",
-        "area": "富山",
-        "officialSlug": "toyama",
-        "logo": "https://www.jleague.jp/image/clubs/toyama.svg",
-        "venue": "富山県総合運動公園陸上競技場 入場可能数 ： 18,191 人 監督 安達 亮 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選"
+        "name": "ベガルタ仙台",
+        "shortName": "仙台",
+        "area": "宮城",
+        "officialSlug": "sendai",
+        "logo": "https://www.jleague.jp/image/clubs/sendai.svg",
+        "venue": "ユアテックスタジアム仙台 入場可能数 ： 19,526 人 監督 森山 佳郎 試合日程をカレンダーに追加 更新日: 2026/7/27 10:44 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選"
       },
-      "played": 1,
+      "played": 2,
       "win": 0,
-      "draw": 0,
+      "draw": 1,
       "lose": 1,
       "goalsFor": 0,
       "goalsAgainst": 2,
+      "goalsDiff": -2,
+      "points": 1,
+      "form": "",
+      "provisional": false
+    },
+    {
+      "league": "j2",
+      "rank": 18,
+      "team": {
+        "id": "akita",
+        "appId": "akita",
+        "league": "j2",
+        "name": "ブラウブリッツ秋田",
+        "shortName": "秋田",
+        "area": "秋田",
+        "officialSlug": "akita",
+        "logo": "https://www.jleague.jp/image/clubs/akita.svg",
+        "venue": "ソユースタジアム 入場可能数 ： 18,560 人 監督 吉田 謙 試合日程をカレンダーに追加 更新日: 2026/8/6 17:00 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一覧 プロ"
+      },
+      "played": 2,
+      "win": 0,
+      "draw": 1,
+      "lose": 1,
+      "goalsFor": 1,
+      "goalsAgainst": 5,
+      "goalsDiff": -4,
+      "points": 1,
+      "form": "",
+      "provisional": false
+    },
+    {
+      "league": "j2",
+      "rank": 19,
+      "team": {
+        "id": "imabari",
+        "appId": "imabari",
+        "league": "j2",
+        "name": "FC今治",
+        "shortName": "今治",
+        "area": "愛媛",
+        "officialSlug": "imabari",
+        "logo": "https://www.jleague.jp/image/clubs/imabari.svg",
+        "venue": "アシックス里山スタジアム 入場可能数 ： 8,848 人 監督 アベル モウレロ 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+      },
+      "played": 2,
+      "win": 0,
+      "draw": 0,
+      "lose": 2,
+      "goalsFor": 3,
+      "goalsAgainst": 5,
       "goalsDiff": -2,
       "points": 0,
       "form": "",
@@ -53208,7 +53208,7 @@
     },
     {
       "league": "j2",
-      "rank": 16,
+      "rank": 20,
       "team": {
         "id": "tokushima",
         "appId": "tokushima",
@@ -53235,6 +53235,106 @@
       "league": "j3",
       "rank": 1,
       "team": {
+        "id": "gifu",
+        "appId": "gifu",
+        "league": "j3",
+        "name": "FC岐阜",
+        "shortName": "岐阜",
+        "area": "岐阜",
+        "officialSlug": "gifu",
+        "logo": "https://www.jleague.jp/image/clubs/gifu.svg",
+        "venue": "岐阜メモリアルセンターヒマラヤスタジアム岐阜 入場可能数 ： 16,310 人 監督 石丸 清隆 試合日程をカレンダーに追加 更新日: 2026/8/13 15:10 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について "
+      },
+      "played": 2,
+      "win": 2,
+      "draw": 0,
+      "lose": 0,
+      "goalsFor": 10,
+      "goalsAgainst": 0,
+      "goalsDiff": 10,
+      "points": 6,
+      "form": "",
+      "provisional": false
+    },
+    {
+      "league": "j3",
+      "rank": 2,
+      "team": {
+        "id": "sagamihara",
+        "appId": "sagamihara",
+        "league": "j3",
+        "name": "SC相模原",
+        "shortName": "相模原",
+        "area": "神奈川",
+        "officialSlug": "sagamihara",
+        "logo": "https://www.jleague.jp/image/clubs/sagamihara.svg",
+        "venue": "相模原ギオンスタジアム 入場可能数 ： 6,259 人 監督 シュタルフ 悠紀リヒャルト 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程"
+      },
+      "played": 2,
+      "win": 1,
+      "draw": 1,
+      "lose": 0,
+      "goalsFor": 4,
+      "goalsAgainst": 1,
+      "goalsDiff": 3,
+      "points": 4,
+      "form": "",
+      "provisional": false
+    },
+    {
+      "league": "j3",
+      "rank": 3,
+      "team": {
+        "id": "tochigi-sc",
+        "appId": "tochigi-sc",
+        "league": "j3",
+        "name": "栃木SC",
+        "shortName": "栃木SC",
+        "area": "栃木",
+        "officialSlug": "tochigi",
+        "logo": "https://www.jleague.jp/image/clubs/tochigi-sc.svg",
+        "venue": "カンセキスタジアムとちぎ 入場可能数 ： 24,670 人 監督 米山 篤志 試合日程をカレンダーに追加 更新日: 2026/8/6 12:02 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
+      },
+      "played": 2,
+      "win": 1,
+      "draw": 1,
+      "lose": 0,
+      "goalsFor": 3,
+      "goalsAgainst": 2,
+      "goalsDiff": 1,
+      "points": 4,
+      "form": "",
+      "provisional": false
+    },
+    {
+      "league": "j3",
+      "rank": 4,
+      "team": {
+        "id": "sanuki",
+        "appId": "sanuki",
+        "league": "j3",
+        "name": "カマタマーレ讃岐",
+        "shortName": "讃岐",
+        "area": "香川",
+        "officialSlug": "sanuki",
+        "logo": "https://www.jleague.jp/image/clubs/sanuki.svg",
+        "venue": "四国化成ＭＥＧＬＩＯスタジアム 入場可能数 ： 22,338 人 監督 大嶽 直人 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果"
+      },
+      "played": 2,
+      "win": 1,
+      "draw": 1,
+      "lose": 0,
+      "goalsFor": 2,
+      "goalsAgainst": 1,
+      "goalsDiff": 1,
+      "points": 4,
+      "form": "",
+      "provisional": false
+    },
+    {
+      "league": "j3",
+      "rank": 5,
+      "team": {
         "id": "ehime",
         "appId": "ehime",
         "league": "j3",
@@ -53258,82 +53358,7 @@
     },
     {
       "league": "j3",
-      "rank": 2,
-      "team": {
-        "id": "gifu",
-        "appId": "gifu",
-        "league": "j3",
-        "name": "FC岐阜",
-        "shortName": "岐阜",
-        "area": "岐阜",
-        "officialSlug": "gifu",
-        "logo": "https://www.jleague.jp/image/clubs/gifu.svg",
-        "venue": "岐阜メモリアルセンターヒマラヤスタジアム岐阜 入場可能数 ： 16,310 人 監督 石丸 清隆 試合日程をカレンダーに追加 更新日: 2026/8/13 15:10 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について "
-      },
-      "played": 1,
-      "win": 1,
-      "draw": 0,
-      "lose": 0,
-      "goalsFor": 3,
-      "goalsAgainst": 0,
-      "goalsDiff": 3,
-      "points": 3,
-      "form": "",
-      "provisional": false
-    },
-    {
-      "league": "j3",
-      "rank": 3,
-      "team": {
-        "id": "tochigi-sc",
-        "appId": "tochigi-sc",
-        "league": "j3",
-        "name": "栃木SC",
-        "shortName": "栃木SC",
-        "area": "栃木",
-        "officialSlug": "tochigi",
-        "logo": "https://www.jleague.jp/image/clubs/tochigi-sc.svg",
-        "venue": "カンセキスタジアムとちぎ 入場可能数 ： 24,670 人 監督 米山 篤志 試合日程をカレンダーに追加 更新日: 2026/8/6 12:02 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
-      },
-      "played": 1,
-      "win": 1,
-      "draw": 0,
-      "lose": 0,
-      "goalsFor": 3,
-      "goalsAgainst": 2,
-      "goalsDiff": 1,
-      "points": 3,
-      "form": "",
-      "provisional": false
-    },
-    {
-      "league": "j3",
-      "rank": 4,
-      "team": {
-        "id": "sanuki",
-        "appId": "sanuki",
-        "league": "j3",
-        "name": "カマタマーレ讃岐",
-        "shortName": "讃岐",
-        "area": "香川",
-        "officialSlug": "sanuki",
-        "logo": "https://www.jleague.jp/image/clubs/sanuki.svg",
-        "venue": "四国化成ＭＥＧＬＩＯスタジアム 入場可能数 ： 22,338 人 監督 大嶽 直人 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果"
-      },
-      "played": 1,
-      "win": 1,
-      "draw": 0,
-      "lose": 0,
-      "goalsFor": 2,
-      "goalsAgainst": 1,
-      "goalsDiff": 1,
-      "points": 3,
-      "form": "",
-      "provisional": false
-    },
-    {
-      "league": "j3",
-      "rank": 5,
+      "rank": 6,
       "team": {
         "id": "nagano",
         "appId": "nagano",
@@ -53358,7 +53383,7 @@
     },
     {
       "league": "j3",
-      "rank": 5,
+      "rank": 6,
       "team": {
         "id": "kagoshima",
         "appId": "kagoshima",
@@ -53383,7 +53408,82 @@
     },
     {
       "league": "j3",
-      "rank": 7,
+      "rank": 8,
+      "team": {
+        "id": "kanazawa",
+        "appId": "kanazawa",
+        "league": "j3",
+        "name": "ツエーゲン金沢",
+        "shortName": "金沢",
+        "area": "石川",
+        "officialSlug": "kanazawa",
+        "logo": "https://www.jleague.jp/image/clubs/kanazawa.svg",
+        "venue": "金沢ゴーゴーカレースタジアム 入場可能数 ： 10,728 人 監督 辻田 真輝 試合日程をカレンダーに追加 更新日: 2026/7/31 18:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果"
+      },
+      "played": 2,
+      "win": 1,
+      "draw": 0,
+      "lose": 1,
+      "goalsFor": 6,
+      "goalsAgainst": 6,
+      "goalsDiff": 0,
+      "points": 3,
+      "form": "",
+      "provisional": false
+    },
+    {
+      "league": "j3",
+      "rank": 9,
+      "team": {
+        "id": "yamaguchi",
+        "appId": "yamaguchi",
+        "league": "j3",
+        "name": "レノファ山口FC",
+        "shortName": "山口",
+        "area": "山口",
+        "officialSlug": "yamaguchi",
+        "logo": "https://www.jleague.jp/image/clubs/yamaguchi.svg",
+        "venue": "維新みらいふスタジアム 入場可能数 ： 15,115 人 監督 小田切 道治 試合日程をカレンダーに追加 更新日: 2026/8/13 15:10 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選"
+      },
+      "played": 2,
+      "win": 1,
+      "draw": 0,
+      "lose": 1,
+      "goalsFor": 1,
+      "goalsAgainst": 1,
+      "goalsDiff": 0,
+      "points": 3,
+      "form": "",
+      "provisional": false
+    },
+    {
+      "league": "j3",
+      "rank": 10,
+      "team": {
+        "id": "kumamoto",
+        "appId": "kumamoto",
+        "league": "j3",
+        "name": "ロアッソ熊本",
+        "shortName": "熊本",
+        "area": "熊本",
+        "officialSlug": "kumamoto",
+        "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
+        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/15 18:17 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
+      },
+      "played": 2,
+      "win": 0,
+      "draw": 2,
+      "lose": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalsDiff": 0,
+      "points": 2,
+      "form": "",
+      "provisional": false
+    },
+    {
+      "league": "j3",
+      "rank": 11,
       "team": {
         "id": "fc-osaka",
         "appId": "fc-osaka",
@@ -53407,7 +53507,7 @@
     },
     {
       "league": "j3",
-      "rank": 7,
+      "rank": 11,
       "team": {
         "id": "tottori",
         "appId": "tottori",
@@ -53432,32 +53532,7 @@
     },
     {
       "league": "j3",
-      "rank": 9,
-      "team": {
-        "id": "sagamihara",
-        "appId": "sagamihara",
-        "league": "j3",
-        "name": "SC相模原",
-        "shortName": "相模原",
-        "area": "神奈川",
-        "officialSlug": "sagamihara",
-        "logo": "https://www.jleague.jp/image/clubs/sagamihara.svg",
-        "venue": "相模原ギオンスタジアム 入場可能数 ： 6,259 人 監督 シュタルフ 悠紀リヒャルト 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程"
-      },
-      "played": 1,
-      "win": 0,
-      "draw": 1,
-      "lose": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "goalsDiff": 0,
-      "points": 1,
-      "form": "",
-      "provisional": false
-    },
-    {
-      "league": "j3",
-      "rank": 9,
+      "rank": 13,
       "team": {
         "id": "matsumoto",
         "appId": "matsumoto",
@@ -53482,7 +53557,32 @@
     },
     {
       "league": "j3",
-      "rank": 9,
+      "rank": 13,
+      "team": {
+        "id": "kitakyushu",
+        "appId": "kitakyushu",
+        "league": "j3",
+        "name": "ギラヴァンツ北九州",
+        "shortName": "北九州",
+        "area": "福岡",
+        "officialSlug": "kitakyushu",
+        "logo": "https://www.jleague.jp/image/clubs/kitakyushu.svg",
+        "venue": "ミクニワールドスタジアム北九州 入場可能数 ： 15,300 人 監督 田中 遼太郎 試合日程をカレンダーに追加 更新日: 2026/8/6 12:02 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結"
+      },
+      "played": 1,
+      "win": 0,
+      "draw": 1,
+      "lose": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalsDiff": 0,
+      "points": 1,
+      "form": "",
+      "provisional": false
+    },
+    {
+      "league": "j3",
+      "rank": 15,
       "team": {
         "id": "kochi",
         "appId": "kochi",
@@ -53494,130 +53594,30 @@
         "logo": "https://www.jleague.jp/image/clubs/kochi.svg",
         "venue": "ＧＩＫＥＮスタジアム 入場可能数 ： 16,010 人 監督 下平 隆宏 試合日程をカレンダーに追加 更新日: 2026/8/9 19:01 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一覧"
       },
-      "played": 1,
+      "played": 2,
       "win": 0,
       "draw": 1,
-      "lose": 0,
+      "lose": 1,
       "goalsFor": 0,
-      "goalsAgainst": 0,
-      "goalsDiff": 0,
+      "goalsAgainst": 7,
+      "goalsDiff": -7,
       "points": 1,
       "form": "",
       "provisional": false
     },
     {
       "league": "j3",
-      "rank": 9,
+      "rank": 16,
       "team": {
-        "id": "kumamoto",
-        "appId": "kumamoto",
+        "id": "ryukyu",
+        "appId": "ryukyu",
         "league": "j3",
-        "name": "ロアッソ熊本",
-        "shortName": "熊本",
-        "area": "熊本",
-        "officialSlug": "kumamoto",
-        "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
-        "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
-      },
-      "played": 1,
-      "win": 0,
-      "draw": 1,
-      "lose": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "goalsDiff": 0,
-      "points": 1,
-      "form": "",
-      "provisional": false
-    },
-    {
-      "league": "j3",
-      "rank": 13,
-      "team": {
-        "id": "kanazawa",
-        "appId": "kanazawa",
-        "league": "j3",
-        "name": "ツエーゲン金沢",
-        "shortName": "金沢",
-        "area": "石川",
-        "officialSlug": "kanazawa",
-        "logo": "https://www.jleague.jp/image/clubs/kanazawa.svg",
-        "venue": "金沢ゴーゴーカレースタジアム 入場可能数 ： 10,728 人 監督 辻田 真輝 試合日程をカレンダーに追加 更新日: 2026/7/31 18:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果"
-      },
-      "played": 1,
-      "win": 0,
-      "draw": 0,
-      "lose": 1,
-      "goalsFor": 2,
-      "goalsAgainst": 3,
-      "goalsDiff": -1,
-      "points": 0,
-      "form": "",
-      "provisional": false
-    },
-    {
-      "league": "j3",
-      "rank": 14,
-      "team": {
-        "id": "fukushima",
-        "appId": "fukushima",
-        "league": "j3",
-        "name": "福島ユナイテッドFC",
-        "shortName": "福島",
-        "area": "福島",
-        "officialSlug": "fukushima",
-        "logo": "https://www.jleague.jp/image/clubs/fukushima.svg",
-        "venue": "とうほう・みんなのスタジアム 入場可能数 ： 5,710 人 監督 寺田 周平 試合日程をカレンダーに追加 更新日: 2026/8/6 12:02 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選"
-      },
-      "played": 1,
-      "win": 0,
-      "draw": 0,
-      "lose": 1,
-      "goalsFor": 1,
-      "goalsAgainst": 2,
-      "goalsDiff": -1,
-      "points": 0,
-      "form": "",
-      "provisional": false
-    },
-    {
-      "league": "j3",
-      "rank": 15,
-      "team": {
-        "id": "gunma",
-        "appId": "gunma",
-        "league": "j3",
-        "name": "ザスパ群馬",
-        "shortName": "群馬",
-        "area": "群馬",
-        "officialSlug": "gunma",
-        "logo": "https://www.jleague.jp/image/clubs/gunma.svg",
-        "venue": "正田醤油スタジアム群馬 入場可能数 ： 15,190 人 監督 沖田 優 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一覧"
-      },
-      "played": 1,
-      "win": 0,
-      "draw": 0,
-      "lose": 1,
-      "goalsFor": 0,
-      "goalsAgainst": 1,
-      "goalsDiff": -1,
-      "points": 0,
-      "form": "",
-      "provisional": false
-    },
-    {
-      "league": "j3",
-      "rank": 15,
-      "team": {
-        "id": "yamaguchi",
-        "appId": "yamaguchi",
-        "league": "j3",
-        "name": "レノファ山口FC",
-        "shortName": "山口",
-        "area": "山口",
-        "officialSlug": "yamaguchi",
-        "logo": "https://www.jleague.jp/image/clubs/yamaguchi.svg",
-        "venue": "維新みらいふスタジアム 入場可能数 ： 15,115 人 監督 小田切 道治 試合日程をカレンダーに追加 更新日: 2026/8/13 15:10 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選"
+        "name": "FC琉球",
+        "shortName": "琉球",
+        "area": "沖縄",
+        "officialSlug": "ryukyu",
+        "logo": "https://www.jleague.jp/image/clubs/ryukyu.svg",
+        "venue": "沖縄県総合運動公園陸上競技場 入場可能数 ： 10,189 人 監督 平川 忠亮 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "played": 1,
       "win": 0,
@@ -53633,6 +53633,31 @@
     {
       "league": "j3",
       "rank": 17,
+      "team": {
+        "id": "fukushima",
+        "appId": "fukushima",
+        "league": "j3",
+        "name": "福島ユナイテッドFC",
+        "shortName": "福島",
+        "area": "福島",
+        "officialSlug": "fukushima",
+        "logo": "https://www.jleague.jp/image/clubs/fukushima.svg",
+        "venue": "とうほう・みんなのスタジアム 入場可能数 ： 5,710 人 監督 寺田 周平 試合日程をカレンダーに追加 更新日: 2026/8/6 12:02 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選"
+      },
+      "played": 2,
+      "win": 0,
+      "draw": 0,
+      "lose": 2,
+      "goalsFor": 4,
+      "goalsAgainst": 6,
+      "goalsDiff": -2,
+      "points": 0,
+      "form": "",
+      "provisional": false
+    },
+    {
+      "league": "j3",
+      "rank": 18,
       "team": {
         "id": "nara",
         "appId": "nara",
@@ -53657,7 +53682,7 @@
     },
     {
       "league": "j3",
-      "rank": 18,
+      "rank": 19,
       "team": {
         "id": "shiga",
         "appId": "shiga",
@@ -53682,53 +53707,28 @@
     },
     {
       "league": "j3",
-      "rank": 19,
-      "team": {
-        "id": "kitakyushu",
-        "appId": "kitakyushu",
-        "league": "j3",
-        "name": "ギラヴァンツ北九州",
-        "shortName": "北九州",
-        "area": "福岡",
-        "officialSlug": "kitakyushu",
-        "logo": "https://www.jleague.jp/image/clubs/kitakyushu.svg",
-        "venue": "ミクニワールドスタジアム北九州 入場可能数 ： 15,300 人 監督 田中 遼太郎 試合日程をカレンダーに追加 更新日: 2026/8/6 12:02 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結"
-      },
-      "played": 0,
-      "win": 0,
-      "draw": 0,
-      "lose": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "goalsDiff": 0,
-      "points": 0,
-      "form": "",
-      "provisional": true
-    },
-    {
-      "league": "j3",
       "rank": 20,
       "team": {
-        "id": "ryukyu",
-        "appId": "ryukyu",
+        "id": "gunma",
+        "appId": "gunma",
         "league": "j3",
-        "name": "FC琉球",
-        "shortName": "琉球",
-        "area": "沖縄",
-        "officialSlug": "ryukyu",
-        "logo": "https://www.jleague.jp/image/clubs/ryukyu.svg",
-        "venue": "沖縄県総合運動公園陸上競技場 入場可能数 ： 10,189 人 監督 平川 忠亮 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "name": "ザスパ群馬",
+        "shortName": "群馬",
+        "area": "群馬",
+        "officialSlug": "gunma",
+        "logo": "https://www.jleague.jp/image/clubs/gunma.svg",
+        "venue": "正田醤油スタジアム群馬 入場可能数 ： 15,190 人 監督 沖田 優 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一覧"
       },
-      "played": 0,
+      "played": 2,
       "win": 0,
       "draw": 0,
-      "lose": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "goalsDiff": 0,
+      "lose": 2,
+      "goalsFor": 1,
+      "goalsAgainst": 5,
+      "goalsDiff": -4,
       "points": 0,
       "form": "",
-      "provisional": true
+      "provisional": false
     }
   ],
   "fetchMetadata": {
