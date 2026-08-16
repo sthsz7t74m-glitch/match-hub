@@ -1,9 +1,39 @@
 {
-  "updatedAt": "2026-08-16T13:04:47.614Z",
+  "updatedAt": "2026-08-16T15:40:37.861Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/ckg44n858qvo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Villa close in on Suzuki with Martinez future in doubt",
+      "titleJa": "移籍情報：Villa close in on Suzuki with Martinez future in doubt",
+      "from": "",
+      "to": "",
+      "summaryJa": "Villa close in on Suzuki with Martinez future in doubt移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Villa close in on Suzuki with Martinez future in doubt",
+      "summary": "Aston Villa close in on the signing of Parma goalkeeper Zion Suzuki, with Emi Martinez's future in increasing doubt.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckg44n858qvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-16T13:38:08.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c2lqqr15p2yo?at_medium=RSS&at_campaign=rss",
+      "status": "agreed",
+      "player": "Elvedi set for Leeds move as £8.5m fee agreed",
+      "titleJa": "移籍情報：Elvedi set for Leeds move as £8.5m fee agreed",
+      "from": "",
+      "to": "",
+      "summaryJa": "Elvedi set for Leeds move as £8.5m fee agreed移る可能性について、合意段階の報道です。",
+      "originalTitle": "Elvedi set for Leeds move as £8.5m fee agreed",
+      "summary": "Leeds agree an £8.5m deal to sign defender Nico Elvedi, who is set to have a medical on Monday.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c2lqqr15p2yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-16T12:52:42.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cvgjjr90l0lo?at_medium=RSS&at_campaign=rss",
       "status": "agreed",
@@ -20,21 +50,6 @@
       "date": "2026-08-16T12:03:40.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cnvnndmz4reo?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Villa begin Suzuki talks - Sunday's gossip",
-      "titleJa": "移籍情報：Villa begin Suzuki talks - Sunday's gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Villa begin Suzuki talks - Sunday's gossip移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Villa begin Suzuki talks - Sunday's gossip",
-      "summary": "Aston Villa are in negotiations over Zion Suzuki, boosting Juventus' hope of signing Emiliano Martinez, while Arsenal are told price for Victor Osimhen, plus more.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cnvnndmz4reo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-15T20:23:00.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c77ggr5nk7jo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "West Ham break EFL record to sign Engels for £22m",
@@ -48,21 +63,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c77ggr5nk7jo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-15T20:19:40.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c2lqqr15p2yo?at_medium=RSS&at_campaign=rss",
-      "status": "agreed",
-      "player": "Elvedi set for Leeds move as £8.5m fee agreed",
-      "titleJa": "移籍情報：Elvedi set for Leeds move as £8.5m fee agreed",
-      "from": "",
-      "to": "",
-      "summaryJa": "Elvedi set for Leeds move as £8.5m fee agreed移る可能性について、合意段階の報道です。",
-      "originalTitle": "Elvedi set for Leeds move as £8.5m fee agreed",
-      "summary": "Leeds agree an £8.5m deal to sign defender Nico Elvedi, who is set to have a medical on Monday.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c2lqqr15p2yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-16T12:52:42.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
@@ -95,6 +95,21 @@
       "date": "2026-08-15T17:15:16.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cnvnndmz4reo?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Villa begin Suzuki talks - Sunday's gossip",
+      "titleJa": "移籍情報：Villa begin Suzuki talks - Sunday's gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Villa begin Suzuki talks - Sunday's gossip移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Villa begin Suzuki talks - Sunday's gossip",
+      "summary": "Aston Villa are in negotiations over Zion Suzuki, boosting Juventus' hope of signing Emiliano Martinez, while Arsenal are told price for Victor Osimhen, plus more.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cnvnndmz4reo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-15T20:23:00.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c934488gjyzo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Sunderland agree £25.6m fee for defender Methalie",
@@ -125,21 +140,6 @@
       "date": "2026-08-15T13:54:09.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cvg8qgg7qg1o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Hull sign Gelhardt and Gourna-Douath",
-      "titleJa": "移籍情報：Hull sign Gelhardt and Gourna-Douath",
-      "from": "",
-      "to": "",
-      "summaryJa": "Hull sign Gelhardt and Gourna-Douath移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Hull sign Gelhardt and Gourna-Douath",
-      "summary": "Hull City sign English forward Joe Gelhardt from Leeds and French midfielder Lucas Gourna-Douath from Red Bull Salzburg for undisclosed fees.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvg8qgg7qg1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-15T12:03:16.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c20jyxjl8yko?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "World Cup winner Torres",
@@ -153,36 +153,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c20jyxjl8yko?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-15T09:37:31.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/clyqrd749d5o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Khalaili",
-      "titleJa": "クリスタル・パレス、Union Saint-GilloiseからKhalailiを獲得",
-      "from": "Union Saint-Gilloise",
-      "to": "クリスタル・パレス",
-      "summaryJa": "KhalailiがUnion Saint-Gilloiseからクリスタル・パレスへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Palace sign Khalaili from Union Saint-Gilloise",
-      "summary": "Crystal Palace sign Israel international Ana Khalaili on a deal which runs until 2031.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/clyqrd749d5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-15T09:03:55.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/ce85pje4gyqo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "VAR, timewasting and subs - new rules for the new season",
-      "titleJa": "移籍情報：VAR, timewasting and subs - new rules for the new season",
-      "from": "",
-      "to": "",
-      "summaryJa": "VAR, timewasting and subs - new rules for the new season移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "VAR, timewasting and subs - new rules for the new season",
-      "summary": "The 2026-27 season will feature an unprecedented number of new laws, mostly designed to tackle tempo disruption and make the game quicker.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ce85pje4gyqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T11:00:52.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c7vgyrl2573o?at_medium=RSS&at_campaign=rss",
@@ -212,7 +182,7 @@
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T19:52:41.000Z"
+      "date": "2026-08-16T13:40:28.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cy0j1284e47o?at_medium=RSS&at_campaign=rss",
@@ -228,36 +198,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cy0j1284e47o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-11T14:54:32.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c77ggr5nk7jo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Engels",
-      "titleJa": "West Ham break EFL record to、Celtic for £22mからEngelsを獲得",
-      "from": "Celtic for £22m",
-      "to": "West Ham break EFL record to",
-      "summaryJa": "EngelsがCeltic for £22mからWest Ham break EFL record toへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "West Ham break EFL record to sign Engels from Celtic for £22m",
-      "summary": "West Ham United pay a £22m fee, a new EFL record, to sign Celtic's Belgium international midfielder Arne Engels.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c77ggr5nk7jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-15T20:19:40.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c75gxqnwqz6o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "'A bit surreal' - Penrice",
-      "titleJa": "'A bit surreal' - Penrice、Rangersへ加入（AEK Athens on loanから）",
-      "from": "AEK Athens on loan",
-      "to": "Rangers",
-      "summaryJa": "'A bit surreal' - PenriceがAEK Athens on loanからRangersへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "'A bit surreal' - Penrice joins Rangers from AEK Athens on loan",
-      "summary": "Rangers sign left-back James Penrice from Greek champions AEK Athens for on loan with an option to buy.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c75gxqnwqz6o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-15T16:18:51.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cqlx1023wd3o?at_medium=RSS&at_campaign=rss",
