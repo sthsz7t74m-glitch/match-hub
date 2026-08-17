@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T13:10:21.465Z",
+  "updatedAt": "2026-08-17T15:44:50.509Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -7,17 +7,17 @@
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cd7l9n4qnlno?at_medium=RSS&at_campaign=rss",
       "status": "talks",
-      "player": "Man City in advanced talks for £85m Bouaddi, 18",
-      "titleJa": "移籍情報：Man City in advanced talks for £85m Bouaddi, 18",
+      "player": "Man City move for £85m Bouaddi and still want Fernandez",
+      "titleJa": "移籍情報：Man City move for £85m Bouaddi and still want Fernandez",
       "from": "",
       "to": "",
-      "summaryJa": "Man City in advanced talks for £85m Bouaddi, 18移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Man City in advanced talks for £85m Bouaddi, 18",
+      "summaryJa": "Man City move for £85m Bouaddi and still want Fernandez移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Man City move for £85m Bouaddi and still want Fernandez",
       "summary": "Manchester City are in advanced talks with Lille over a move for Morocco midfielder Ayyoub Bouaddi.",
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cd7l9n4qnlno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-17T09:23:32.000Z"
+      "date": "2026-08-17T13:50:22.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cdx75z0ngylo?at_medium=RSS&at_campaign=rss",
@@ -35,34 +35,34 @@
       "date": "2026-08-17T12:53:30.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cgk451r4z76o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Spurs' Vicario set to",
-      "titleJa": "Spurs' Vicario set to、Juventus on loanへ加入",
-      "from": "",
-      "to": "Juventus on loan",
-      "summaryJa": "Spurs' Vicario set toがJuventus on loanへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Spurs' Vicario set to join Juventus on loan",
-      "summary": "Tottenham accept a loan offer from Juventus for goalkeeper Guglielmo Vicario, which includes an option to buy.",
+      "id": "https://www.bbc.co.uk/sport/football/articles/cwymzjwypezo?at_medium=RSS&at_campaign=rss",
+      "status": "official",
+      "player": "Ouattara",
+      "titleJa": "Ipswich、StrasbourgからOuattaraを獲得",
+      "from": "Strasbourg",
+      "to": "Ipswich",
+      "summaryJa": "OuattaraがStrasbourgからIpswichへ移る可能性について、正式発表段階の報道です。",
+      "originalTitle": "Ipswich sign midfielder Ouattara from Strasbourg",
+      "summary": "Ipswich Town complete the signing of midfielder Abdoul Ouattara from French club Strasbourg.",
       "parsed": true,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cgk451r4z76o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-17T09:05:54.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwymzjwypezo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-17T14:51:19.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c5ywwv3j1v1o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Signings impress but squad issues remain - learnings from Man Utd's summer",
-      "titleJa": "移籍情報：Signings impress but squad issues remain - learnings from Man Utd's summer",
+      "id": "https://www.bbc.co.uk/sport/football/articles/clyj7rn31dpo?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Man Utd will reject any bid for Fernandes",
+      "titleJa": "移籍情報：Man Utd will reject any bid for Fernandes",
       "from": "",
       "to": "",
-      "summaryJa": "Signings impress but squad issues remain - learnings from Man Utd's summer移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Signings impress but squad issues remain - learnings from Man Utd's summer",
-      "summary": "Positives, negatives and areas to address urgently - how are Michael Carrick's Manchester United shaping up now pre-season is over?",
+      "summaryJa": "Man Utd will reject any bid for Fernandes移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Man Utd will reject any bid for Fernandes",
+      "summary": "Manchester United have no intention of selling captain Bruno Fernandes despite Turkish club Galatasaray being prepared to lodge a bid for the 31-year-old later this week.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5ywwv3j1v1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-17T08:29:10.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/clyj7rn31dpo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-17T13:55:54.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cy4kge80l1eo?at_medium=RSS&at_campaign=rss",
@@ -80,6 +80,51 @@
       "date": "2026-08-17T08:06:16.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c5ywwv3j1v1o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Signings impress but squad issues remain - learnings from Man Utd's summer",
+      "titleJa": "移籍情報：Signings impress but squad issues remain - learnings from Man Utd's summer",
+      "from": "",
+      "to": "",
+      "summaryJa": "Signings impress but squad issues remain - learnings from Man Utd's summer移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Signings impress but squad issues remain - learnings from Man Utd's summer",
+      "summary": "Positives, negatives and areas to address urgently - how are Michael Carrick's Manchester United shaping up now pre-season is over?",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5ywwv3j1v1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-17T08:29:10.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c141dl0l0p6o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "From Chelsea bomb squad to new chapter at Como for Chalobah",
+      "titleJa": "移籍情報：From Chelsea bomb squad to new chapter at Como for Chalobah",
+      "from": "",
+      "to": "",
+      "summaryJa": "From Chelsea bomb squad to new chapter at Como for Chalobah移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "From Chelsea bomb squad to new chapter at Como for Chalobah",
+      "summary": "After ending his near 20-year association with Chelsea by joining Como 1907 this summer, Trevoh Chalobah credits his time at Stamford Bridge with building his resilience.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c141dl0l0p6o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-17T13:30:18.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c5yvdwkr710o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Martinez in limbo, with Villa future uncertain",
+      "titleJa": "移籍情報：Martinez in limbo, with Villa future uncertain",
+      "from": "",
+      "to": "",
+      "summaryJa": "Martinez in limbo, with Villa future uncertain移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Martinez in limbo, with Villa future uncertain",
+      "summary": "Aston Villa goalkeeper Emi Martinez is facing an uncertain future after his proposed move to Juventus collapsed.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5yvdwkr710o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-17T14:19:56.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Carrick pushing to improve the squad this summer",
@@ -93,6 +138,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-13T17:56:48.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cgk451r4z76o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Spurs' Vicario set to",
+      "titleJa": "Spurs' Vicario set to、Juventus on loanへ加入",
+      "from": "",
+      "to": "Juventus on loan",
+      "summaryJa": "Spurs' Vicario set toがJuventus on loanへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Spurs' Vicario set to join Juventus on loan",
+      "summary": "Tottenham accept a loan offer from Juventus for goalkeeper Guglielmo Vicario, which includes an option to buy.",
+      "parsed": true,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cgk451r4z76o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-17T09:05:54.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cy0jj65r18yo?at_medium=RSS&at_campaign=rss",
@@ -140,36 +200,6 @@
       "date": "2026-08-16T13:38:08.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c77ggr5nk7jo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "West Ham break EFL record to sign Engels for £22m",
-      "titleJa": "移籍情報：West Ham break EFL record to sign Engels for £22m",
-      "from": "",
-      "to": "",
-      "summaryJa": "West Ham break EFL record to sign Engels for £22m移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "West Ham break EFL record to sign Engels for £22m",
-      "summary": "West Ham United pay a £22m fee, a new EFL record, to sign Celtic's Belgium international midfielder Arne Engels.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c77ggr5nk7jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-15T20:19:40.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c934488gjyzo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Sunderland agree £25.6m fee for defender Methalie",
-      "titleJa": "移籍情報：Sunderland agree £25.6m fee for defender Methalie",
-      "from": "",
-      "to": "",
-      "summaryJa": "Sunderland agree £25.6m fee for defender Methalie移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Sunderland agree £25.6m fee for defender Methalie",
-      "summary": "Sunderland agree a £25.6m fee to sign left-back Dayann Methalie from Toulouse.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c934488gjyzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-15T17:20:54.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cz64vg6znz1o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "England full-back Spence",
@@ -183,6 +213,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cz64vg6znz1o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-15T17:15:16.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cvgjjr90l0lo?at_medium=RSS&at_campaign=rss",
+      "status": "agreed",
+      "player": "Coventry agree deal for Forest striker Awoniyi",
+      "titleJa": "移籍情報：Coventry agree deal for Forest striker Awoniyi",
+      "from": "",
+      "to": "",
+      "summaryJa": "Coventry agree deal for Forest striker Awoniyi移る可能性について、合意段階の報道です。",
+      "originalTitle": "Coventry agree deal for Forest striker Awoniyi",
+      "summary": "Coventry City agree a deal worth about £17m for Nottingham Forest striker Taiwo Awoniyi.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvgjjr90l0lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-16T12:03:40.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c7vgyrl2573o?at_medium=RSS&at_campaign=rss",
@@ -212,7 +257,7 @@
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-16T13:40:28.000Z"
+      "date": "2026-08-17T14:56:24.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cy0j1284e47o?at_medium=RSS&at_campaign=rss",
@@ -230,6 +275,21 @@
       "date": "2026-08-11T14:54:32.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cx25515j2r4o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Where does Wilson fit in at Hearts after starring role?",
+      "titleJa": "移籍情報：Where does Wilson fit in at Hearts after starring role?",
+      "from": "",
+      "to": "",
+      "summaryJa": "Where does Wilson fit in at Hearts after starring role?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Where does Wilson fit in at Hearts after starring role?",
+      "summary": "After scoring his first goal in over a year, Hearts teenager James Wilson insists he is a better player after his loan experience in the development ranks at Tottenham.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx25515j2r4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-17T15:35:34.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cddjv462963o?at_medium=RSS&at_campaign=rss",
       "status": "talks",
       "player": "Scotland boss to bring in ex-Premier League winger - gossip",
@@ -243,21 +303,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cddjv462963o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-17T06:55:27.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cwyrre1qzwlo?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "Belgian Pocognoli confirmed as Scotland boss",
-      "titleJa": "移籍情報：Belgian Pocognoli confirmed as Scotland boss",
-      "from": "",
-      "to": "",
-      "summaryJa": "Belgian Pocognoli confirmed as Scotland boss移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "Belgian Pocognoli confirmed as Scotland boss",
-      "summary": "The Scottish FA say they have appointed \"one of Europe's brightest emerging coaching talents\" by securing Sebastien Pocognoli as Scotland men's new head coach on a two-year deal.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwyrre1qzwlo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-16T17:56:58.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cqlx1023wd3o?at_medium=RSS&at_campaign=rss",
