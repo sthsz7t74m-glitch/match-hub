@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T04:07:07.653Z",
+  "updatedAt": "2026-08-17T07:27:13.190Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -22,17 +22,17 @@
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c4gkk7r2r4yo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Martinez Juventus move now off - Monday's gossip",
-      "titleJa": "移籍情報：Martinez Juventus move now off - Monday's gossip",
+      "player": "Juventus step up Vicario talks - Monday's gossip",
+      "titleJa": "移籍情報：Juventus step up Vicario talks - Monday's gossip",
       "from": "",
       "to": "",
-      "summaryJa": "Martinez Juventus move now off - Monday's gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Martinez Juventus move now off - Monday's gossip",
-      "summary": "Juventus pull out of move for Emiliano Martinez, Manchester City face competition for Pedro Neto and Real Madrid want Martin Zubimendi, plus more.",
+      "summaryJa": "Juventus step up Vicario talks - Monday's gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Juventus step up Vicario talks - Monday's gossip",
+      "summary": "Juventus increase talks for Guglielmo Vicario and pull out of move for Emiliano Martinez, Manchester City face competition for Pedro Neto and Real Madrid want Martin Zubimendi., plus more.",
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c4gkk7r2r4yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-16T21:24:43.000Z"
+      "date": "2026-08-17T05:54:05.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
@@ -65,6 +65,21 @@
       "date": "2026-08-16T17:56:58.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sounds/play/p0p4vxzr?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Can anyone stop Arsenal & how do Man City improve under Maresca?",
+      "titleJa": "移籍情報：Can anyone stop Arsenal & how do Man City improve under Maresca?",
+      "from": "",
+      "to": "",
+      "summaryJa": "Can anyone stop Arsenal & how do Man City improve under Maresca?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Can anyone stop Arsenal & how do Man City improve under Maresca?",
+      "summary": "Aaron Paul is joined by Pat Nevin, Izzy Christiansen and, Chris Coles.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sounds/play/p0p4vxzr?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-16T18:13:00.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/ckg44n858qvo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Villa close in on Suzuki with Martinez future in doubt",
@@ -80,19 +95,19 @@
       "date": "2026-08-16T13:38:08.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sounds/play/p0p4vxzr?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c77ggr5nk7jo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Football Daily",
-      "titleJa": "移籍情報：Football Daily",
+      "player": "West Ham break EFL record to sign Engels for £22m",
+      "titleJa": "移籍情報：West Ham break EFL record to sign Engels for £22m",
       "from": "",
       "to": "",
-      "summaryJa": "Football Daily移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Football Daily",
-      "summary": "Aaron Paul is joined by Pat Nevin, Izzy Christiansen and, Chris Coles.",
+      "summaryJa": "West Ham break EFL record to sign Engels for £22m移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "West Ham break EFL record to sign Engels for £22m",
+      "summary": "West Ham United pay a £22m fee, a new EFL record, to sign Celtic's Belgium international midfielder Arne Engels.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sounds/play/p0p4vxzr?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-16T18:13:00.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c77ggr5nk7jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-15T20:19:40.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c2lqqr15p2yo?at_medium=RSS&at_campaign=rss",
@@ -125,36 +140,6 @@
       "date": "2026-08-16T12:03:40.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c77ggr5nk7jo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "West Ham break EFL record to sign Engels for £22m",
-      "titleJa": "移籍情報：West Ham break EFL record to sign Engels for £22m",
-      "from": "",
-      "to": "",
-      "summaryJa": "West Ham break EFL record to sign Engels for £22m移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "West Ham break EFL record to sign Engels for £22m",
-      "summary": "West Ham United pay a £22m fee, a new EFL record, to sign Celtic's Belgium international midfielder Arne Engels.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c77ggr5nk7jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-15T20:19:40.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cz64vg6znz1o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "England full-back Spence",
-      "titleJa": "インテル、トッテナムからEngland full-back Spenceを獲得",
-      "from": "トッテナム",
-      "to": "インテル",
-      "summaryJa": "England full-back Spenceがトッテナムからインテルへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Inter sign England full-back Spence from Tottenham",
-      "summary": "England full-back Djed Spence signs a five-year deal at Inter Milan as he makes a move to Italy from Tottenham.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cz64vg6znz1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-15T17:15:16.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c934488gjyzo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Sunderland agree £25.6m fee for defender Methalie",
@@ -170,19 +155,19 @@
       "date": "2026-08-15T17:20:54.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c70gg3dp61lo?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Newcastle progressing with move for Benfica defender Dedic",
-      "titleJa": "移籍情報：Newcastle progressing with move for Benfica defender Dedic",
-      "from": "",
-      "to": "",
-      "summaryJa": "Newcastle progressing with move for Benfica defender Dedic移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Newcastle progressing with move for Benfica defender Dedic",
-      "summary": "Newcastle United are in advanced talks as they aim to bring in defender Amar Dedic from Benfica.",
-      "parsed": false,
+      "id": "https://www.bbc.co.uk/sport/football/articles/cz64vg6znz1o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "England full-back Spence",
+      "titleJa": "インテル、トッテナムからEngland full-back Spenceを獲得",
+      "from": "トッテナム",
+      "to": "インテル",
+      "summaryJa": "England full-back Spenceがトッテナムからインテルへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Inter sign England full-back Spence from Tottenham",
+      "summary": "England full-back Djed Spence signs a five-year deal at Inter Milan as he makes a move to Italy from Tottenham.",
+      "parsed": true,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c70gg3dp61lo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-15T13:54:09.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/cz64vg6znz1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-15T17:15:16.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c7vgyrl2573o?at_medium=RSS&at_campaign=rss",
@@ -228,6 +213,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cy0j1284e47o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-11T14:54:32.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cddjv462963o?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Scotland boss to bring in ex-Premier League winger - gossip",
+      "titleJa": "移籍情報：Scotland boss to bring in ex-Premier League winger - gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Scotland boss to bring in ex-Premier League winger - gossip移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Scotland boss to bring in ex-Premier League winger - gossip",
+      "summary": "New Scotland boss to bring in former Premier League winger as assistant, while Hearts lodge a bid for a new striker...",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cddjv462963o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-17T06:55:27.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cqlx1023wd3o?at_medium=RSS&at_campaign=rss",
