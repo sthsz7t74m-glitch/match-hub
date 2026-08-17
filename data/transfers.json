@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T15:44:50.509Z",
+  "updatedAt": "2026-08-17T19:02:03.184Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -20,34 +20,34 @@
       "date": "2026-08-17T13:50:22.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cdx75z0ngylo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Pocognoli 'feels connection' with 'passionate' Scotland",
-      "titleJa": "移籍情報：Pocognoli 'feels connection' with 'passionate' Scotland",
-      "from": "",
-      "to": "",
-      "summaryJa": "Pocognoli 'feels connection' with 'passionate' Scotland移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Pocognoli 'feels connection' with 'passionate' Scotland",
-      "summary": "New Scotland boss Sebastien Pocognoli says the passionate nature of Scottish football was a key factor in his taking the job.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cdx75z0ngylo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-17T12:53:30.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cwymzjwypezo?at_medium=RSS&at_campaign=rss",
       "status": "official",
-      "player": "Ouattara",
-      "titleJa": "Ipswich、StrasbourgからOuattaraを獲得",
-      "from": "Strasbourg",
-      "to": "Ipswich",
-      "summaryJa": "OuattaraがStrasbourgからIpswichへ移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "Ipswich sign midfielder Ouattara from Strasbourg",
-      "summary": "Ipswich Town complete the signing of midfielder Abdoul Ouattara from French club Strasbourg.",
-      "parsed": true,
+      "player": "Ipswich sign Strasbourg duo Enciso & Ouattara",
+      "titleJa": "移籍情報：Ipswich sign Strasbourg duo Enciso & Ouattara",
+      "from": "",
+      "to": "",
+      "summaryJa": "Ipswich sign Strasbourg duo Enciso & Ouattara移る可能性について、正式発表段階の報道です。",
+      "originalTitle": "Ipswich sign Strasbourg duo Enciso & Ouattara",
+      "summary": "Ipswich Town complete the signing of Julio Enciso and Abdoul Ouattara from French club Strasbourg.",
+      "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwymzjwypezo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-17T14:51:19.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cvgjjr90l0lo?at_medium=RSS&at_campaign=rss",
+      "status": "official",
+      "player": "Coventry sign Forest striker Awoniyi for £9m",
+      "titleJa": "移籍情報：Coventry sign Forest striker Awoniyi for £9m",
+      "from": "",
+      "to": "",
+      "summaryJa": "Coventry sign Forest striker Awoniyi for £9m移る可能性について、正式発表段階の報道です。",
+      "originalTitle": "Coventry sign Forest striker Awoniyi for £9m",
+      "summary": "Coventry City have signed Nigeria striker Taiwo Awoniyi from Nottingham Forest for £9m.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvgjjr90l0lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-17T16:02:31.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/clyj7rn31dpo?at_medium=RSS&at_campaign=rss",
@@ -80,6 +80,36 @@
       "date": "2026-08-17T08:06:16.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cly5egxez48o?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "West Brom in talks over permanent Collyer return",
+      "titleJa": "移籍情報：West Brom in talks over permanent Collyer return",
+      "from": "",
+      "to": "",
+      "summaryJa": "West Brom in talks over permanent Collyer return移る可能性について、交渉段階の報道です。",
+      "originalTitle": "West Brom in talks over permanent Collyer return",
+      "summary": "Manchester United midfielder Toby Collyer is in talks with West Bromwich Albion about returning to The Hawthorns on a permanent basis.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cly5egxez48o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-17T18:26:31.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Carrick pushing to improve the squad this summer",
+      "titleJa": "移籍情報：Carrick pushing to improve the squad this summer",
+      "from": "",
+      "to": "",
+      "summaryJa": "Carrick pushing to improve the squad this summer移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Carrick pushing to improve the squad this summer",
+      "summary": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-13T17:56:48.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c5ywwv3j1v1o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Signings impress but squad issues remain - learnings from Man Utd's summer",
@@ -93,6 +123,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c5ywwv3j1v1o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-17T08:29:10.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cevmwdjv7vmo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Brighton reject £7.5m bid from Rangers for Cozier-Duberry",
+      "titleJa": "移籍情報：Brighton reject £7.5m bid from Rangers for Cozier-Duberry",
+      "from": "",
+      "to": "",
+      "summaryJa": "Brighton reject £7.5m bid from Rangers for Cozier-Duberry移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Brighton reject £7.5m bid from Rangers for Cozier-Duberry",
+      "summary": "Brighton reject a £7.5m bid from Rangers for winger Amario Cozier-Duberry.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cevmwdjv7vmo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-17T16:14:56.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c141dl0l0p6o?at_medium=RSS&at_campaign=rss",
@@ -125,19 +170,19 @@
       "date": "2026-08-17T14:19:56.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sounds/play/p0p4vpzv?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Carrick pushing to improve the squad this summer",
-      "titleJa": "移籍情報：Carrick pushing to improve the squad this summer",
+      "player": "BBC Women's Football Weekly",
+      "titleJa": "移籍情報：BBC Women's Football Weekly",
       "from": "",
       "to": "",
-      "summaryJa": "Carrick pushing to improve the squad this summer移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Carrick pushing to improve the squad this summer",
-      "summary": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress.",
+      "summaryJa": "BBC Women's Football Weekly移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "BBC Women's Football Weekly",
+      "summary": "Hear from Carpenter, Bronze, James, Walsh, Bompastor and new signing, Katie McCabe!",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-13T17:56:48.000Z"
+      "url": "https://www.bbc.co.uk/sounds/play/p0p4vpzv?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-17T12:00:00.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cgk451r4z76o?at_medium=RSS&at_campaign=rss",
@@ -200,36 +245,6 @@
       "date": "2026-08-16T13:38:08.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cz64vg6znz1o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "England full-back Spence",
-      "titleJa": "インテル、トッテナムからEngland full-back Spenceを獲得",
-      "from": "トッテナム",
-      "to": "インテル",
-      "summaryJa": "England full-back Spenceがトッテナムからインテルへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Inter sign England full-back Spence from Tottenham",
-      "summary": "England full-back Djed Spence signs a five-year deal at Inter Milan as he makes a move to Italy from Tottenham.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cz64vg6znz1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-15T17:15:16.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cvgjjr90l0lo?at_medium=RSS&at_campaign=rss",
-      "status": "agreed",
-      "player": "Coventry agree deal for Forest striker Awoniyi",
-      "titleJa": "移籍情報：Coventry agree deal for Forest striker Awoniyi",
-      "from": "",
-      "to": "",
-      "summaryJa": "Coventry agree deal for Forest striker Awoniyi移る可能性について、合意段階の報道です。",
-      "originalTitle": "Coventry agree deal for Forest striker Awoniyi",
-      "summary": "Coventry City agree a deal worth about £17m for Nottingham Forest striker Taiwo Awoniyi.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvgjjr90l0lo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-16T12:03:40.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c7vgyrl2573o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Chelsea say no Fernandez move as deadline passes - but is it really over?",
@@ -257,7 +272,7 @@
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-17T14:56:24.000Z"
+      "date": "2026-08-17T16:28:06.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cy0j1284e47o?at_medium=RSS&at_campaign=rss",
@@ -288,21 +303,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cx25515j2r4o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-17T15:35:34.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cddjv462963o?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Scotland boss to bring in ex-Premier League winger - gossip",
-      "titleJa": "移籍情報：Scotland boss to bring in ex-Premier League winger - gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Scotland boss to bring in ex-Premier League winger - gossip移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Scotland boss to bring in ex-Premier League winger - gossip",
-      "summary": "New Scotland boss to bring in former Premier League winger as assistant, while Hearts lodge a bid for a new striker...",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cddjv462963o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-17T06:55:27.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cqlx1023wd3o?at_medium=RSS&at_campaign=rss",
