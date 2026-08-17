@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T03:14:19.028Z",
+  "updatedAt": "2026-08-17T03:14:02.559Z",
   "season": "2026",
   "dataSource": "football-data.org",
   "dataMode": "current-free-plan",
@@ -1280,7 +1280,7 @@
     {
       "id": 564629,
       "date": "2026-08-16T15:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -1301,19 +1301,19 @@
         "logo": "https://crests.football-data.org/94.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         }
       },
       "events": []
@@ -1321,7 +1321,7 @@
     {
       "id": 564632,
       "date": "2026-08-16T17:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -1342,19 +1342,19 @@
         "logo": "https://crests.football-data.org/88.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 0
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
       "events": []
@@ -73380,7 +73380,23 @@
           "form": ""
         },
         {
-          "rank": 2,
+          "rank": 1,
+          "team": {
+            "id": 80,
+            "name": "RCD Espanyol de Barcelona",
+            "shortName": "エスパニョール",
+            "logo": "https://crests.football-data.org/80.png"
+          },
+          "played": 1,
+          "win": 1,
+          "draw": 0,
+          "lose": 0,
+          "goalsDiff": 3,
+          "points": 3,
+          "form": ""
+        },
+        {
+          "rank": 3,
           "team": {
             "id": 559,
             "name": "Sevilla FC",
@@ -73396,7 +73412,39 @@
           "form": ""
         },
         {
-          "rank": 3,
+          "rank": 4,
+          "team": {
+            "id": 5335,
+            "name": "Real Racing Club de Santander",
+            "shortName": "Real Racing Club de Santander",
+            "logo": "https://crests.football-data.org/5335.png"
+          },
+          "played": 1,
+          "win": 0,
+          "draw": 1,
+          "lose": 0,
+          "goalsDiff": 0,
+          "points": 1,
+          "form": ""
+        },
+        {
+          "rank": 4,
+          "team": {
+            "id": 94,
+            "name": "Villarreal CF",
+            "shortName": "ビジャレアル",
+            "logo": "https://crests.football-data.org/94.png"
+          },
+          "played": 1,
+          "win": 0,
+          "draw": 1,
+          "lose": 0,
+          "goalsDiff": 0,
+          "points": 1,
+          "form": ""
+        },
+        {
+          "rank": 6,
           "team": {
             "id": 77,
             "name": "Athletic Club",
@@ -73412,7 +73460,7 @@
           "form": ""
         },
         {
-          "rank": 3,
+          "rank": 6,
           "team": {
             "id": 78,
             "name": "Club Atlético de Madrid",
@@ -73428,7 +73476,7 @@
           "form": ""
         },
         {
-          "rank": 3,
+          "rank": 6,
           "team": {
             "id": 79,
             "name": "CA Osasuna",
@@ -73444,7 +73492,7 @@
           "form": ""
         },
         {
-          "rank": 3,
+          "rank": 6,
           "team": {
             "id": 560,
             "name": "RC Deportivo La Coruña",
@@ -73460,7 +73508,7 @@
           "form": ""
         },
         {
-          "rank": 3,
+          "rank": 6,
           "team": {
             "id": 285,
             "name": "Elche CF",
@@ -73476,23 +73524,7 @@
           "form": ""
         },
         {
-          "rank": 3,
-          "team": {
-            "id": 80,
-            "name": "RCD Espanyol de Barcelona",
-            "shortName": "エスパニョール",
-            "logo": "https://crests.football-data.org/80.png"
-          },
-          "played": 0,
-          "win": 0,
-          "draw": 0,
-          "lose": 0,
-          "goalsDiff": 0,
-          "points": 0,
-          "form": ""
-        },
-        {
-          "rank": 3,
+          "rank": 6,
           "team": {
             "id": 81,
             "name": "FC Barcelona",
@@ -73508,23 +73540,7 @@
           "form": ""
         },
         {
-          "rank": 3,
-          "team": {
-            "id": 88,
-            "name": "Levante UD",
-            "shortName": "レバンテ",
-            "logo": "https://crests.football-data.org/88.png"
-          },
-          "played": 0,
-          "win": 0,
-          "draw": 0,
-          "lose": 0,
-          "goalsDiff": 0,
-          "points": 0,
-          "form": ""
-        },
-        {
-          "rank": 3,
+          "rank": 6,
           "team": {
             "id": 84,
             "name": "Málaga CF",
@@ -73540,23 +73556,7 @@
           "form": ""
         },
         {
-          "rank": 3,
-          "team": {
-            "id": 5335,
-            "name": "Real Racing Club de Santander",
-            "shortName": "Real Racing Club de Santander",
-            "logo": "https://crests.football-data.org/5335.png"
-          },
-          "played": 0,
-          "win": 0,
-          "draw": 0,
-          "lose": 0,
-          "goalsDiff": 0,
-          "points": 0,
-          "form": ""
-        },
-        {
-          "rank": 3,
+          "rank": 6,
           "team": {
             "id": 558,
             "name": "RC Celta de Vigo",
@@ -73572,7 +73572,7 @@
           "form": ""
         },
         {
-          "rank": 3,
+          "rank": 6,
           "team": {
             "id": 90,
             "name": "Real Betis Balompié",
@@ -73588,7 +73588,7 @@
           "form": ""
         },
         {
-          "rank": 3,
+          "rank": 6,
           "team": {
             "id": 86,
             "name": "Real Madrid CF",
@@ -73604,7 +73604,7 @@
           "form": ""
         },
         {
-          "rank": 3,
+          "rank": 6,
           "team": {
             "id": 92,
             "name": "Real Sociedad de Fútbol",
@@ -73620,7 +73620,7 @@
           "form": ""
         },
         {
-          "rank": 3,
+          "rank": 6,
           "team": {
             "id": 95,
             "name": "Valencia CF",
@@ -73636,23 +73636,7 @@
           "form": ""
         },
         {
-          "rank": 3,
-          "team": {
-            "id": 94,
-            "name": "Villarreal CF",
-            "shortName": "ビジャレアル",
-            "logo": "https://crests.football-data.org/94.png"
-          },
-          "played": 0,
-          "win": 0,
-          "draw": 0,
-          "lose": 0,
-          "goalsDiff": 0,
-          "points": 0,
-          "form": ""
-        },
-        {
-          "rank": 19,
+          "rank": 18,
           "team": {
             "id": 87,
             "name": "Rayo Vallecano de Madrid",
@@ -73668,12 +73652,28 @@
           "form": ""
         },
         {
-          "rank": 20,
+          "rank": 19,
           "team": {
             "id": 82,
             "name": "Getafe CF",
             "shortName": "ヘタフェ",
             "logo": "https://crests.football-data.org/82.png"
+          },
+          "played": 1,
+          "win": 0,
+          "draw": 0,
+          "lose": 1,
+          "goalsDiff": -3,
+          "points": 0,
+          "form": ""
+        },
+        {
+          "rank": 19,
+          "team": {
+            "id": 88,
+            "name": "Levante UD",
+            "shortName": "レバンテ",
+            "logo": "https://crests.football-data.org/88.png"
           },
           "played": 1,
           "win": 0,
