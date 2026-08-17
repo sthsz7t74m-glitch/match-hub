@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T19:02:03.184Z",
+  "updatedAt": "2026-08-17T21:44:12.556Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -18,6 +18,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cd7l9n4qnlno?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-17T13:50:22.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cevmw02j4nyo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Rodri lands in Barcelona to complete 'dream' move",
+      "titleJa": "移籍情報：Rodri lands in Barcelona to complete 'dream' move",
+      "from": "",
+      "to": "",
+      "summaryJa": "Rodri lands in Barcelona to complete 'dream' move移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Rodri lands in Barcelona to complete 'dream' move",
+      "summary": "Spain midfielder Rodri says it is his \"dream\" to play for Barcelona as he arrives in the city to complete his move from Manchester City.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cevmw02j4nyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-17T20:02:27.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cwymzjwypezo?at_medium=RSS&at_campaign=rss",
@@ -80,21 +95,6 @@
       "date": "2026-08-17T08:06:16.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cly5egxez48o?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "West Brom in talks over permanent Collyer return",
-      "titleJa": "移籍情報：West Brom in talks over permanent Collyer return",
-      "from": "",
-      "to": "",
-      "summaryJa": "West Brom in talks over permanent Collyer return移る可能性について、交渉段階の報道です。",
-      "originalTitle": "West Brom in talks over permanent Collyer return",
-      "summary": "Manchester United midfielder Toby Collyer is in talks with West Bromwich Albion about returning to The Hawthorns on a permanent basis.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cly5egxez48o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-17T18:26:31.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Carrick pushing to improve the squad this summer",
@@ -108,6 +108,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-13T17:56:48.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cly5egxez48o?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "West Brom in talks over permanent Collyer return",
+      "titleJa": "移籍情報：West Brom in talks over permanent Collyer return",
+      "from": "",
+      "to": "",
+      "summaryJa": "West Brom in talks over permanent Collyer return移る可能性について、交渉段階の報道です。",
+      "originalTitle": "West Brom in talks over permanent Collyer return",
+      "summary": "Manchester United midfielder Toby Collyer is in talks with West Bromwich Albion about returning to The Hawthorns on a permanent basis.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cly5egxez48o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-17T18:26:31.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c5ywwv3j1v1o?at_medium=RSS&at_campaign=rss",
@@ -137,7 +152,7 @@
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cevmwdjv7vmo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-17T16:14:56.000Z"
+      "date": "2026-08-17T20:39:42.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c141dl0l0p6o?at_medium=RSS&at_campaign=rss",
@@ -198,21 +213,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cgk451r4z76o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-17T09:05:54.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cy0jj65r18yo?at_medium=RSS&at_campaign=rss",
-      "status": "agreed",
-      "player": "Rodri",
-      "titleJa": "Barcelona agree £65m deal to、マンチェスター・シティからRodriを獲得",
-      "from": "マンチェスター・シティ",
-      "to": "Barcelona agree £65m deal to",
-      "summaryJa": "Rodriがマンチェスター・シティからBarcelona agree £65m deal toへ移る可能性について、合意段階の報道です。",
-      "originalTitle": "Barcelona agree £65m deal to sign Rodri from Man City",
-      "summary": "Barcelona agree a deal to sign Spain captain Rodri from Manchester City.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cy0jj65r18yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-16T19:37:45.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sounds/play/p0p4vxzr?at_medium=RSS&at_campaign=rss",
