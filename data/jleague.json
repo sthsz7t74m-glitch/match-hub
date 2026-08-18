@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T03:27:56.980Z",
+  "updatedAt": "2026-08-18T03:23:07.242Z",
   "dataSource": "ESPN (J1) + J.LEAGUE official site (J2/J3)",
   "sourceDetails": {
     "j1": "ESPN scoreboard / standings",
@@ -22155,7 +22155,7 @@
         "home": 0,
         "away": 0
       },
-      "venue": "",
+      "venue": "Kasamatsu Stadium",
       "round": ""
     },
     {
