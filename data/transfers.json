@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T19:01:36.828Z",
+  "updatedAt": "2026-08-18T21:42:04.914Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -35,6 +35,36 @@
       "date": "2026-08-18T17:56:13.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cpq80q88dyqo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Palace sign United States prospect Gozo",
+      "titleJa": "移籍情報：Palace sign United States prospect Gozo",
+      "from": "",
+      "to": "",
+      "summaryJa": "Palace sign United States prospect Gozo移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Palace sign United States prospect Gozo",
+      "summary": "Crystal Palace sign forward Zavier Gozo from Real Salt Lake for a reported $15m (£11.08m).",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cpq80q88dyqo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-18T21:26:12.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c30450z6pmmo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Brighton sign Canada striker David on loan",
+      "titleJa": "移籍情報：Brighton sign Canada striker David on loan",
+      "from": "",
+      "to": "",
+      "summaryJa": "Brighton sign Canada striker David on loan移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Brighton sign Canada striker David on loan",
+      "summary": "Brighton sign Canada striker Promise David from Royale Union Saint-Gilloise on a season-long loan with an obligation to buy for a reported £22m.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c30450z6pmmo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-18T20:43:01.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cx2dzj2w25vo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Why Fernandez uncertainty has echoes of Isak saga",
@@ -50,19 +80,34 @@
       "date": "2026-08-18T10:46:17.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/czekzxd09zlo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Newcastle complete £30m move for Benfica's Dedic",
-      "titleJa": "移籍情報：Newcastle complete £30m move for Benfica's Dedic",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c70gdd61kk4o?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Al Hilal target England's Kane - Wednesday's gossip",
+      "titleJa": "移籍情報：Al Hilal target England's Kane - Wednesday's gossip",
       "from": "",
       "to": "",
-      "summaryJa": "Newcastle complete £30m move for Benfica's Dedic移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Newcastle complete £30m move for Benfica's Dedic",
-      "summary": "Newcastle United sign defender Amar Dedic from Benfica for around £30m.",
+      "summaryJa": "Al Hilal target England's Kane - Wednesday's gossip移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Al Hilal target England's Kane - Wednesday's gossip",
+      "summary": "Al-Hilal in talks with Harry Kane and Ollie Watkins, Newcastle explore move for Manchester City's Nico Gonzalez, Sunderland move for Dayann Methalie in danger of collapsing.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/czekzxd09zlo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-18T08:33:04.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c70gdd61kk4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-18T21:02:44.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c935vrgrn0vo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Irish striker Parrott on brink of Real Betis move",
+      "titleJa": "移籍情報：Irish striker Parrott on brink of Real Betis move",
+      "from": "",
+      "to": "",
+      "summaryJa": "Irish striker Parrott on brink of Real Betis move移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Irish striker Parrott on brink of Real Betis move",
+      "summary": "Republic of Ireland striker Troy Parrott is on the brink of a move from AZ Alkmaar to Spanish club Real Betis as talks are at an advanced stage.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c935vrgrn0vo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-18T19:25:40.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
@@ -80,6 +125,21 @@
       "date": "2026-08-13T17:56:48.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/czekzxd09zlo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Newcastle complete £30m move for Benfica's Dedic",
+      "titleJa": "移籍情報：Newcastle complete £30m move for Benfica's Dedic",
+      "from": "",
+      "to": "",
+      "summaryJa": "Newcastle complete £30m move for Benfica's Dedic移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Newcastle complete £30m move for Benfica's Dedic",
+      "summary": "Newcastle United sign defender Amar Dedic from Benfica for around £30m.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/czekzxd09zlo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-18T08:33:04.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/ce8kekejx8lo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "New Celtic signings unlikely before LASK tie - O'Neill",
@@ -93,6 +153,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ce8kekejx8lo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-18T15:34:36.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c5ywee6y2qlo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Hull City interested in Japan winger Nakamura",
+      "titleJa": "移籍情報：Hull City interested in Japan winger Nakamura",
+      "from": "",
+      "to": "",
+      "summaryJa": "Hull City interested in Japan winger Nakamura移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Hull City interested in Japan winger Nakamura",
+      "summary": "Hull City express an interest in signing Stade de Reims' Japanese winger Keito Nakamura",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5ywee6y2qlo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-18T19:09:31.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c07rlr0yzkvo?at_medium=RSS&at_campaign=rss",
@@ -138,21 +213,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c2lq80lwwpdo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-18T07:14:06.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c8xgn20ddrzo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "When does the summer transfer window close?",
-      "titleJa": "移籍情報：When does the summer transfer window close?",
-      "from": "",
-      "to": "",
-      "summaryJa": "When does the summer transfer window close?移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "When does the summer transfer window close?",
-      "summary": "Our Ask Me Anything team explains when the summer transfer window closes",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8xgn20ddrzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-18T10:08:37.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c5y479ez74zo?at_medium=RSS&at_campaign=rss",
@@ -213,51 +273,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c141dl0l0p6o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-17T13:30:18.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sounds/play/p0p51f17?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Football Daily",
-      "titleJa": "移籍情報：Football Daily",
-      "from": "",
-      "to": "",
-      "summaryJa": "Football Daily移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Football Daily",
-      "summary": "Joe Hart, Chris Sutton and Adam Crafton join Mark to preview the Premier League season.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sounds/play/p0p51f17?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-17T22:15:00.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cd7l9n4qnlno?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Man City move for £85m Bouaddi and still want Fernandez",
-      "titleJa": "移籍情報：Man City move for £85m Bouaddi and still want Fernandez",
-      "from": "",
-      "to": "",
-      "summaryJa": "Man City move for £85m Bouaddi and still want Fernandez移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Man City move for £85m Bouaddi and still want Fernandez",
-      "summary": "Manchester City are in advanced talks with Lille over a move for Morocco midfielder Ayyoub Bouaddi.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cd7l9n4qnlno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-17T13:50:22.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c5ywwv3j1v1o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Signings impress but squad issues remain - learnings from Man Utd's summer",
-      "titleJa": "移籍情報：Signings impress but squad issues remain - learnings from Man Utd's summer",
-      "from": "",
-      "to": "",
-      "summaryJa": "Signings impress but squad issues remain - learnings from Man Utd's summer移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Signings impress but squad issues remain - learnings from Man Utd's summer",
-      "summary": "Positives, negatives and areas to address urgently - how are Michael Carrick's Manchester United shaping up now pre-season is over?",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5ywwv3j1v1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-17T08:29:10.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
