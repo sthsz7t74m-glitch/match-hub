@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T13:12:59.567Z",
+  "updatedAt": "2026-08-18T15:50:48.299Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -35,6 +35,36 @@
       "date": "2026-08-18T08:33:04.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c07rlr0yzkvo?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Kane set to begin talks over new Bayern contract",
+      "titleJa": "移籍情報：Kane set to begin talks over new Bayern contract",
+      "from": "",
+      "to": "",
+      "summaryJa": "Kane set to begin talks over new Bayern contract移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Kane set to begin talks over new Bayern contract",
+      "summary": "Harry Kane says he is ready to begin discussions with Bayern Munich over extending his contract with the Bundesliga champions.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c07rlr0yzkvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-18T14:28:36.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Carrick pushing to improve the squad this summer",
+      "titleJa": "移籍情報：Carrick pushing to improve the squad this summer",
+      "from": "",
+      "to": "",
+      "summaryJa": "Carrick pushing to improve the squad this summer移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Carrick pushing to improve the squad this summer",
+      "summary": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-13T17:56:48.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c2lq80lwwpdo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Could refreshed Odegaard be like a new signing?",
@@ -65,19 +95,19 @@
       "date": "2026-08-18T07:01:31.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/cevmw02j4nyo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Carrick pushing to improve the squad this summer",
-      "titleJa": "移籍情報：Carrick pushing to improve the squad this summer",
+      "player": "Rodri lands in Barcelona to complete 'dream' move",
+      "titleJa": "移籍情報：Rodri lands in Barcelona to complete 'dream' move",
       "from": "",
       "to": "",
-      "summaryJa": "Carrick pushing to improve the squad this summer移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Carrick pushing to improve the squad this summer",
-      "summary": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress.",
+      "summaryJa": "Rodri lands in Barcelona to complete 'dream' move移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Rodri lands in Barcelona to complete 'dream' move",
+      "summary": "Spain midfielder Rodri says it is his \"dream\" to play for Barcelona as he arrives in the city to complete his move from Manchester City.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-13T17:56:48.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/cevmw02j4nyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-17T20:02:27.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c8xgn20ddrzo?at_medium=RSS&at_campaign=rss",
@@ -95,21 +125,6 @@
       "date": "2026-08-18T10:08:37.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cevmw02j4nyo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Rodri lands in Barcelona to complete 'dream' move",
-      "titleJa": "移籍情報：Rodri lands in Barcelona to complete 'dream' move",
-      "from": "",
-      "to": "",
-      "summaryJa": "Rodri lands in Barcelona to complete 'dream' move移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Rodri lands in Barcelona to complete 'dream' move",
-      "summary": "Spain midfielder Rodri says it is his \"dream\" to play for Barcelona as he arrives in the city to complete his move from Manchester City.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cevmw02j4nyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-17T20:02:27.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c5y479ez74zo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Middleton-Patel",
@@ -123,6 +138,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c5y479ez74zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-18T10:30:07.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c141dl0l0p6o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "From Chelsea bomb squad to new chapter at Como for Chalobah",
+      "titleJa": "移籍情報：From Chelsea bomb squad to new chapter at Como for Chalobah",
+      "from": "",
+      "to": "",
+      "summaryJa": "From Chelsea bomb squad to new chapter at Como for Chalobah移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "From Chelsea bomb squad to new chapter at Como for Chalobah",
+      "summary": "After ending his near 20-year association with Chelsea by joining Como 1907 this summer, Trevoh Chalobah credits his time at Stamford Bridge with building his resilience.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c141dl0l0p6o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-17T13:30:18.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cvgjjr90l0lo?at_medium=RSS&at_campaign=rss",
@@ -155,36 +185,6 @@
       "date": "2026-08-17T14:51:19.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sounds/play/p0p51f17?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Football Daily",
-      "titleJa": "移籍情報：Football Daily",
-      "from": "",
-      "to": "",
-      "summaryJa": "Football Daily移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Football Daily",
-      "summary": "Joe Hart, Chris Sutton and Adam Crafton join Mark to preview the Premier League season.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sounds/play/p0p51f17?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-17T22:15:00.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c141dl0l0p6o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "From Chelsea bomb squad to new chapter at Como for Chalobah",
-      "titleJa": "移籍情報：From Chelsea bomb squad to new chapter at Como for Chalobah",
-      "from": "",
-      "to": "",
-      "summaryJa": "From Chelsea bomb squad to new chapter at Como for Chalobah移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "From Chelsea bomb squad to new chapter at Como for Chalobah",
-      "summary": "After ending his near 20-year association with Chelsea by joining Como 1907 this summer, Trevoh Chalobah credits his time at Stamford Bridge with building his resilience.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c141dl0l0p6o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-17T13:30:18.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/clyj7rn31dpo?at_medium=RSS&at_campaign=rss",
       "status": "talks",
       "player": "Man Utd will reject any bid for Fernandes",
@@ -200,19 +200,19 @@
       "date": "2026-08-17T13:55:54.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cevmwdjv7vmo?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sounds/play/p0p51f17?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Brighton reject £7.5m bid from Rangers for Cozier-Duberry",
-      "titleJa": "移籍情報：Brighton reject £7.5m bid from Rangers for Cozier-Duberry",
+      "player": "Football Daily",
+      "titleJa": "移籍情報：Football Daily",
       "from": "",
       "to": "",
-      "summaryJa": "Brighton reject £7.5m bid from Rangers for Cozier-Duberry移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Brighton reject £7.5m bid from Rangers for Cozier-Duberry",
-      "summary": "Brighton reject a £7.5m bid from Rangers for winger Amario Cozier-Duberry.",
+      "summaryJa": "Football Daily移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Football Daily",
+      "summary": "Joe Hart, Chris Sutton and Adam Crafton join Mark to preview the Premier League season.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cevmwdjv7vmo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-17T20:39:42.000Z"
+      "url": "https://www.bbc.co.uk/sounds/play/p0p51f17?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-17T22:15:00.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cd7l9n4qnlno?at_medium=RSS&at_campaign=rss",
@@ -228,51 +228,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cd7l9n4qnlno?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-17T13:50:22.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c5ywwv3j1v1o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Signings impress but squad issues remain - learnings from Man Utd's summer",
-      "titleJa": "移籍情報：Signings impress but squad issues remain - learnings from Man Utd's summer",
-      "from": "",
-      "to": "",
-      "summaryJa": "Signings impress but squad issues remain - learnings from Man Utd's summer移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Signings impress but squad issues remain - learnings from Man Utd's summer",
-      "summary": "Positives, negatives and areas to address urgently - how are Michael Carrick's Manchester United shaping up now pre-season is over?",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5ywwv3j1v1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-17T08:29:10.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c5yvdwkr710o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Martinez in limbo, with Villa future uncertain",
-      "titleJa": "移籍情報：Martinez in limbo, with Villa future uncertain",
-      "from": "",
-      "to": "",
-      "summaryJa": "Martinez in limbo, with Villa future uncertain移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Martinez in limbo, with Villa future uncertain",
-      "summary": "Aston Villa goalkeeper Emi Martinez is facing an uncertain future after his proposed move to Juventus collapsed.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5yvdwkr710o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-17T14:19:56.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cly5egxez48o?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "West Brom in talks over permanent Collyer return",
-      "titleJa": "移籍情報：West Brom in talks over permanent Collyer return",
-      "from": "",
-      "to": "",
-      "summaryJa": "West Brom in talks over permanent Collyer return移る可能性について、交渉段階の報道です。",
-      "originalTitle": "West Brom in talks over permanent Collyer return",
-      "summary": "Manchester United midfielder Toby Collyer is in talks with West Bromwich Albion about returning to The Hawthorns on a permanent basis.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cly5egxez48o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-17T18:26:31.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
@@ -303,6 +258,36 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cy0j1284e47o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-11T14:54:32.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/ce8kekejx8lo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "New Celtic signings unlikely before LASK tie but O'Neill happy for Hatate to stay",
+      "titleJa": "移籍情報：New Celtic signings unlikely before LASK tie but O'Neill happy for Hatate to stay",
+      "from": "",
+      "to": "",
+      "summaryJa": "New Celtic signings unlikely before LASK tie but O'Neill happy for Hatate to stay移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "New Celtic signings unlikely before LASK tie but O'Neill happy for Hatate to stay",
+      "summary": "Celtic manager Martin O'Neill does not anticipate any new arrivals before Wednesday's Champions League play-off first leg at home to LASK and insists he would be happy for Reo Hatate to stay.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ce8kekejx8lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-18T15:34:36.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cevmwdjv7vmo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Brighton reject £7.5m bid from Rangers for Cozier-Duberry",
+      "titleJa": "移籍情報：Brighton reject £7.5m bid from Rangers for Cozier-Duberry",
+      "from": "",
+      "to": "",
+      "summaryJa": "Brighton reject £7.5m bid from Rangers for Cozier-Duberry移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Brighton reject £7.5m bid from Rangers for Cozier-Duberry",
+      "summary": "Brighton reject a £7.5m bid from Rangers for winger Amario Cozier-Duberry.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cevmwdjv7vmo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-17T20:39:42.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c9q9r0jpzlro?at_medium=RSS&at_campaign=rss",
