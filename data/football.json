@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T03:14:02.559Z",
+  "updatedAt": "2026-08-18T03:09:40.649Z",
   "season": "2026",
   "dataSource": "football-data.org",
   "dataMode": "current-free-plan",
@@ -1362,7 +1362,7 @@
     {
       "id": 564635,
       "date": "2026-08-17T19:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -1383,19 +1383,19 @@
         "logo": "https://crests.football-data.org/285.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "events": []
@@ -73446,6 +73446,38 @@
         {
           "rank": 6,
           "team": {
+            "id": 560,
+            "name": "RC Deportivo La Coruña",
+            "shortName": "RC Deportivo La Coruña",
+            "logo": "https://crests.football-data.org/560.png"
+          },
+          "played": 1,
+          "win": 0,
+          "draw": 1,
+          "lose": 0,
+          "goalsDiff": 0,
+          "points": 1,
+          "form": ""
+        },
+        {
+          "rank": 6,
+          "team": {
+            "id": 285,
+            "name": "Elche CF",
+            "shortName": "エルチェ",
+            "logo": "https://crests.football-data.org/285.png"
+          },
+          "played": 1,
+          "win": 0,
+          "draw": 1,
+          "lose": 0,
+          "goalsDiff": 0,
+          "points": 1,
+          "form": ""
+        },
+        {
+          "rank": 8,
+          "team": {
             "id": 77,
             "name": "Athletic Club",
             "shortName": "アスレティック・ビルバオ",
@@ -73460,7 +73492,7 @@
           "form": ""
         },
         {
-          "rank": 6,
+          "rank": 8,
           "team": {
             "id": 78,
             "name": "Club Atlético de Madrid",
@@ -73476,7 +73508,7 @@
           "form": ""
         },
         {
-          "rank": 6,
+          "rank": 8,
           "team": {
             "id": 79,
             "name": "CA Osasuna",
@@ -73492,39 +73524,7 @@
           "form": ""
         },
         {
-          "rank": 6,
-          "team": {
-            "id": 560,
-            "name": "RC Deportivo La Coruña",
-            "shortName": "RC Deportivo La Coruña",
-            "logo": "https://crests.football-data.org/560.png"
-          },
-          "played": 0,
-          "win": 0,
-          "draw": 0,
-          "lose": 0,
-          "goalsDiff": 0,
-          "points": 0,
-          "form": ""
-        },
-        {
-          "rank": 6,
-          "team": {
-            "id": 285,
-            "name": "Elche CF",
-            "shortName": "エルチェ",
-            "logo": "https://crests.football-data.org/285.png"
-          },
-          "played": 0,
-          "win": 0,
-          "draw": 0,
-          "lose": 0,
-          "goalsDiff": 0,
-          "points": 0,
-          "form": ""
-        },
-        {
-          "rank": 6,
+          "rank": 8,
           "team": {
             "id": 81,
             "name": "FC Barcelona",
@@ -73540,7 +73540,7 @@
           "form": ""
         },
         {
-          "rank": 6,
+          "rank": 8,
           "team": {
             "id": 84,
             "name": "Málaga CF",
@@ -73556,7 +73556,7 @@
           "form": ""
         },
         {
-          "rank": 6,
+          "rank": 8,
           "team": {
             "id": 558,
             "name": "RC Celta de Vigo",
@@ -73572,7 +73572,7 @@
           "form": ""
         },
         {
-          "rank": 6,
+          "rank": 8,
           "team": {
             "id": 90,
             "name": "Real Betis Balompié",
@@ -73588,7 +73588,7 @@
           "form": ""
         },
         {
-          "rank": 6,
+          "rank": 8,
           "team": {
             "id": 86,
             "name": "Real Madrid CF",
@@ -73604,7 +73604,7 @@
           "form": ""
         },
         {
-          "rank": 6,
+          "rank": 8,
           "team": {
             "id": 92,
             "name": "Real Sociedad de Fútbol",
@@ -73620,7 +73620,7 @@
           "form": ""
         },
         {
-          "rank": 6,
+          "rank": 8,
           "team": {
             "id": 95,
             "name": "Valencia CF",
