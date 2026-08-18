@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-08-18T09:52:45.702Z",
+  "updatedAt": "2026-08-18T13:12:59.567Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cx2dzj2w25vo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Why Fernandez uncertainty has echoes of Isak saga",
+      "titleJa": "移籍情報：Why Fernandez uncertainty has echoes of Isak saga",
+      "from": "",
+      "to": "",
+      "summaryJa": "Why Fernandez uncertainty has echoes of Isak saga移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Why Fernandez uncertainty has echoes of Isak saga",
+      "summary": "Enzo Fernandez's possible Manchester City move is following the pattern of Alexander Isak's transfer last summer - and creating headaches for Chelsea.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx2dzj2w25vo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-18T10:46:17.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/czekzxd09zlo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -65,6 +80,21 @@
       "date": "2026-08-13T17:56:48.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c8xgn20ddrzo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "When does the summer transfer window close?",
+      "titleJa": "移籍情報：When does the summer transfer window close?",
+      "from": "",
+      "to": "",
+      "summaryJa": "When does the summer transfer window close?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "When does the summer transfer window close?",
+      "summary": "Our Ask Me Anything team explains when the summer transfer window closes",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8xgn20ddrzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-18T10:08:37.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cevmw02j4nyo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Rodri lands in Barcelona to complete 'dream' move",
@@ -80,19 +110,19 @@
       "date": "2026-08-17T20:02:27.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sounds/play/p0p51f17?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c5y479ez74zo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Football Daily",
-      "titleJa": "移籍情報：Football Daily",
-      "from": "",
-      "to": "",
-      "summaryJa": "Football Daily移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Football Daily",
-      "summary": "Joe Hart, Chris Sutton and Adam Crafton join Mark to preview the Premier League season.",
-      "parsed": false,
+      "player": "Middleton-Patel",
+      "titleJa": "Middleton-Patel、Watford on loanへ加入（マンチェスター・ユナイテッドから）",
+      "from": "マンチェスター・ユナイテッド",
+      "to": "Watford on loan",
+      "summaryJa": "Middleton-Patelがマンチェスター・ユナイテッドからWatford on loanへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Middleton-Patel joins Watford on loan from Man Utd",
+      "summary": "Wales goalkeeper Safia Middleton-Patel has secured a return to Watford having rejoined the Hornets on a season-long loan deal from Manchester United.",
+      "parsed": true,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sounds/play/p0p51f17?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-17T22:15:00.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5y479ez74zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-18T10:30:07.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cvgjjr90l0lo?at_medium=RSS&at_campaign=rss",
@@ -125,19 +155,19 @@
       "date": "2026-08-17T14:51:19.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cd7l9n4qnlno?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Man City move for £85m Bouaddi and still want Fernandez",
-      "titleJa": "移籍情報：Man City move for £85m Bouaddi and still want Fernandez",
+      "id": "https://www.bbc.co.uk/sounds/play/p0p51f17?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Football Daily",
+      "titleJa": "移籍情報：Football Daily",
       "from": "",
       "to": "",
-      "summaryJa": "Man City move for £85m Bouaddi and still want Fernandez移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Man City move for £85m Bouaddi and still want Fernandez",
-      "summary": "Manchester City are in advanced talks with Lille over a move for Morocco midfielder Ayyoub Bouaddi.",
+      "summaryJa": "Football Daily移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Football Daily",
+      "summary": "Joe Hart, Chris Sutton and Adam Crafton join Mark to preview the Premier League season.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cd7l9n4qnlno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-17T13:50:22.000Z"
+      "url": "https://www.bbc.co.uk/sounds/play/p0p51f17?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-17T22:15:00.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c141dl0l0p6o?at_medium=RSS&at_campaign=rss",
@@ -170,21 +200,6 @@
       "date": "2026-08-17T13:55:54.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c5ywwv3j1v1o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Signings impress but squad issues remain - learnings from Man Utd's summer",
-      "titleJa": "移籍情報：Signings impress but squad issues remain - learnings from Man Utd's summer",
-      "from": "",
-      "to": "",
-      "summaryJa": "Signings impress but squad issues remain - learnings from Man Utd's summer移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Signings impress but squad issues remain - learnings from Man Utd's summer",
-      "summary": "Positives, negatives and areas to address urgently - how are Michael Carrick's Manchester United shaping up now pre-season is over?",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5ywwv3j1v1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-17T08:29:10.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cevmwdjv7vmo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Brighton reject £7.5m bid from Rangers for Cozier-Duberry",
@@ -200,19 +215,34 @@
       "date": "2026-08-17T20:39:42.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cgk451r4z76o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Spurs' Vicario set to",
-      "titleJa": "Spurs' Vicario set to、Juventus on loanへ加入",
+      "id": "https://www.bbc.co.uk/sport/football/articles/cd7l9n4qnlno?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Man City move for £85m Bouaddi and still want Fernandez",
+      "titleJa": "移籍情報：Man City move for £85m Bouaddi and still want Fernandez",
       "from": "",
-      "to": "Juventus on loan",
-      "summaryJa": "Spurs' Vicario set toがJuventus on loanへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Spurs' Vicario set to join Juventus on loan",
-      "summary": "Tottenham accept a loan offer from Juventus for goalkeeper Guglielmo Vicario, which includes an option to buy.",
-      "parsed": true,
+      "to": "",
+      "summaryJa": "Man City move for £85m Bouaddi and still want Fernandez移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Man City move for £85m Bouaddi and still want Fernandez",
+      "summary": "Manchester City are in advanced talks with Lille over a move for Morocco midfielder Ayyoub Bouaddi.",
+      "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cgk451r4z76o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-17T09:05:54.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/cd7l9n4qnlno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-17T13:50:22.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c5ywwv3j1v1o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Signings impress but squad issues remain - learnings from Man Utd's summer",
+      "titleJa": "移籍情報：Signings impress but squad issues remain - learnings from Man Utd's summer",
+      "from": "",
+      "to": "",
+      "summaryJa": "Signings impress but squad issues remain - learnings from Man Utd's summer移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Signings impress but squad issues remain - learnings from Man Utd's summer",
+      "summary": "Positives, negatives and areas to address urgently - how are Michael Carrick's Manchester United shaping up now pre-season is over?",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5ywwv3j1v1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-17T08:29:10.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c5yvdwkr710o?at_medium=RSS&at_campaign=rss",
@@ -243,36 +273,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cly5egxez48o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-17T18:26:31.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sounds/play/p0p4vpzv?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "BBC Women's Football Weekly",
-      "titleJa": "移籍情報：BBC Women's Football Weekly",
-      "from": "",
-      "to": "",
-      "summaryJa": "BBC Women's Football Weekly移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "BBC Women's Football Weekly",
-      "summary": "Hear from Carpenter, Bronze, James, Walsh, Bompastor and new signing, Katie McCabe!",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sounds/play/p0p4vpzv?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-17T12:00:00.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c7vgyrl2573o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Chelsea say no Fernandez move as deadline passes - but is it really over?",
-      "titleJa": "移籍情報：Chelsea say no Fernandez move as deadline passes - but is it really over?",
-      "from": "",
-      "to": "",
-      "summaryJa": "Chelsea say no Fernandez move as deadline passes - but is it really over?移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Chelsea say no Fernandez move as deadline passes - but is it really over?",
-      "summary": "Chelsea's deadline for clubs to bid £120m for midfielder Enzo Fernandez has passed - and they now expect the Argentine to stay at the club this season.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c7vgyrl2573o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T16:04:54.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
@@ -335,19 +335,19 @@
       "date": "2026-08-17T08:06:16.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cqlx1023wd3o?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sounds/play/p0p4vpzv?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Lundgaard",
-      "titleJa": "Lundgaard、Eintracht Frankfurtへ加入",
+      "player": "BBC Women's Football Weekly",
+      "titleJa": "移籍情報：BBC Women's Football Weekly",
       "from": "",
-      "to": "Eintracht Frankfurt",
-      "summaryJa": "LundgaardがEintracht Frankfurtへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Liverpool's Lundgaard joins Eintracht Frankfurt",
-      "summary": "Liverpool midfielder Sofie Lundgaard completes a permanent transfer to Eintracht Frankfurt for an undisclosed fee.",
-      "parsed": true,
+      "to": "",
+      "summaryJa": "BBC Women's Football Weekly移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "BBC Women's Football Weekly",
+      "summary": "Hear from Carpenter, Bronze, James, Walsh, Bompastor and new signing, Katie McCabe!",
+      "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqlx1023wd3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-14T10:00:53.000Z"
+      "url": "https://www.bbc.co.uk/sounds/play/p0p4vpzv?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-17T12:00:00.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cx2jpgj24vlo?at_medium=RSS&at_campaign=rss",
