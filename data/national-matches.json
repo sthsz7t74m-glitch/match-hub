@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T03:24:59.688Z",
+  "updatedAt": "2026-08-19T03:30:03.893Z",
   "source": "ESPN multi-competition monthly adapter",
   "competitionCount": 15,
   "competitions": [
@@ -71,7 +71,7 @@
     {
       "code": "fifa.friendly",
       "name": "国際親善試合",
-      "count": 906
+      "count": 909
     },
     {
       "code": "fifa.olympics",
@@ -46746,6 +46746,26 @@
       "penalties": null
     },
     {
+      "id": "fifa.friendly-401912455",
+      "kickoff": "2026-10-01T18:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "mauritius",
+      "away": "syria",
+      "homeName": "Mauritius",
+      "awayName": "Syria",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
       "id": "fifa.friendly-401906313",
       "kickoff": "2026-10-01T18:00Z",
       "status": "scheduled",
@@ -47266,6 +47286,26 @@
       "penalties": null
     },
     {
+      "id": "fifa.friendly-401912238",
+      "kickoff": "2026-10-03T18:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "sri_lanka",
+      "away": "syria",
+      "homeName": "Sri Lanka",
+      "awayName": "Syria",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
       "id": "uefa.nations-401861116",
       "kickoff": "2026-10-03T18:45Z",
       "status": "scheduled",
@@ -47717,6 +47757,26 @@
       "away": "peru",
       "homeName": "Colombia",
       "awayName": "Peru",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
+      "id": "fifa.friendly-401912454",
+      "kickoff": "2026-10-06T18:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "mauritius",
+      "away": "sri_lanka",
+      "homeName": "Mauritius",
+      "awayName": "Sri Lanka",
       "homeScore": 0,
       "awayScore": 0,
       "venue": "",
