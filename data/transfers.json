@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T21:42:04.914Z",
+  "updatedAt": "2026-08-19T01:56:08.098Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -243,36 +243,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cvgjjr90l0lo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-17T16:02:31.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cwymzjwypezo?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "Ipswich sign Strasbourg duo Enciso & Ouattara",
-      "titleJa": "移籍情報：Ipswich sign Strasbourg duo Enciso & Ouattara",
-      "from": "",
-      "to": "",
-      "summaryJa": "Ipswich sign Strasbourg duo Enciso & Ouattara移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "Ipswich sign Strasbourg duo Enciso & Ouattara",
-      "summary": "Ipswich Town complete the signing of Julio Enciso and Abdoul Ouattara from French club Strasbourg.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwymzjwypezo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-17T14:51:19.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c141dl0l0p6o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "From Chelsea bomb squad to new chapter at Como for Chalobah",
-      "titleJa": "移籍情報：From Chelsea bomb squad to new chapter at Como for Chalobah",
-      "from": "",
-      "to": "",
-      "summaryJa": "From Chelsea bomb squad to new chapter at Como for Chalobah移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "From Chelsea bomb squad to new chapter at Como for Chalobah",
-      "summary": "After ending his near 20-year association with Chelsea by joining Como 1907 this summer, Trevoh Chalobah credits his time at Stamford Bridge with building his resilience.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c141dl0l0p6o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-17T13:30:18.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
