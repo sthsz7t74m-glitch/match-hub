@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T18:57:16.407Z",
+  "updatedAt": "2026-08-19T21:44:39.742Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -20,6 +20,21 @@
       "date": "2026-08-19T13:55:18.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/clylk1wexgno?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Man Utd's decision to make Baleba their 'third midfielder'",
+      "titleJa": "移籍情報：Man Utd's decision to make Baleba their 'third midfielder'",
+      "from": "",
+      "to": "",
+      "summaryJa": "Man Utd's decision to make Baleba their 'third midfielder'移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Man Utd's decision to make Baleba their 'third midfielder'",
+      "summary": "Manchester United are in talks to make Carlos Baleba their 'third midfielder' as the club revamp Michael Carrick's squad.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/clylk1wexgno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-19T14:35:36.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c0m7el3zr2eo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Reijnders leaves Man City for Al-Qadsiah in £52m deal",
@@ -35,19 +50,19 @@
       "date": "2026-08-19T16:01:32.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/clylk1wexgno?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/cn0n4qlxyq7o?at_medium=RSS&at_campaign=rss",
       "status": "talks",
-      "player": "Man Utd's decision to make Baleba their 'third midfielder'",
-      "titleJa": "移籍情報：Man Utd's decision to make Baleba their 'third midfielder'",
+      "player": "Man City",
+      "titleJa": "Man City、Man Utd in Kone race - Thursday's gossipへ加入",
       "from": "",
-      "to": "",
-      "summaryJa": "Man Utd's decision to make Baleba their 'third midfielder'移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Man Utd's decision to make Baleba their 'third midfielder'",
-      "summary": "Manchester United are in talks to make Carlos Baleba their 'third midfielder' as the club revamp Michael Carrick's squad.",
-      "parsed": false,
+      "to": "Man Utd in Kone race - Thursday's gossip",
+      "summaryJa": "Man CityがMan Utd in Kone race - Thursday's gossipへ移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Man City join Man Utd in Kone race - Thursday's gossip",
+      "summary": "Manchester City look set to rival neighbours Manchester United for Manu Kone, Aston Villa interested in Tosin Adarabioyo and Tottenham in talks over Man City duo.",
+      "parsed": true,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/clylk1wexgno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-19T14:35:36.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/cn0n4qlxyq7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-19T21:30:46.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/clye43vge5jo?at_medium=RSS&at_campaign=rss",
@@ -65,19 +80,19 @@
       "date": "2026-08-19T14:23:20.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c5y4nel5gddo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Carrick pushing to improve the squad this summer",
-      "titleJa": "移籍情報：Carrick pushing to improve the squad this summer",
+      "player": "Delap loses number nine shirt & trains away from first team",
+      "titleJa": "移籍情報：Delap loses number nine shirt & trains away from first team",
       "from": "",
       "to": "",
-      "summaryJa": "Carrick pushing to improve the squad this summer移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Carrick pushing to improve the squad this summer",
-      "summary": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress.",
+      "summaryJa": "Delap loses number nine shirt & trains away from first team移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Delap loses number nine shirt & trains away from first team",
+      "summary": "Chelsea have split their players into two training groups at Cobham, involving several players who could move before the transfer window closes, including Liam Delap, Nicolas Jackson and Mykhailo Mudryk.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-13T17:56:48.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5y4nel5gddo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-19T15:58:44.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c9d8wd8y36zo?at_medium=RSS&at_campaign=rss",
@@ -125,21 +140,6 @@
       "date": "2026-08-19T08:41:07.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c4gd1r1nel2o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Arsenal preference is for Nwaneri to leave on loan",
-      "titleJa": "移籍情報：Arsenal preference is for Nwaneri to leave on loan",
-      "from": "",
-      "to": "",
-      "summaryJa": "Arsenal preference is for Nwaneri to leave on loan移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Arsenal preference is for Nwaneri to leave on loan",
-      "summary": "Arsenal prioritise loan offers for Ethan Nwaneri with the Premier League champions keen to avoid selling their teenage attacker permanently.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c4gd1r1nel2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-19T10:24:11.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cx2v3721ykjo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Coventry sign teenage Fenerbahce forward Cherif",
@@ -153,6 +153,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cx2v3721ykjo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-19T12:38:14.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c4gd1r1nel2o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Arsenal preference is for Nwaneri to leave on loan",
+      "titleJa": "移籍情報：Arsenal preference is for Nwaneri to leave on loan",
+      "from": "",
+      "to": "",
+      "summaryJa": "Arsenal preference is for Nwaneri to leave on loan移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Arsenal preference is for Nwaneri to leave on loan",
+      "summary": "Arsenal prioritise loan offers for Ethan Nwaneri with the Premier League champions keen to avoid selling their teenage attacker permanently.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c4gd1r1nel2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-19T10:24:11.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sounds/play/p0p5b36h?at_medium=RSS&at_campaign=rss",
@@ -200,6 +215,21 @@
       "date": "2026-08-19T11:10:51.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Carrick pushing to improve the squad this summer",
+      "titleJa": "移籍情報：Carrick pushing to improve the squad this summer",
+      "from": "",
+      "to": "",
+      "summaryJa": "Carrick pushing to improve the squad this summer移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Carrick pushing to improve the squad this summer",
+      "summary": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-13T17:56:48.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/ckgve2zevzgo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Pogba leaves Monaco after contract termination",
@@ -213,36 +243,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckgve2zevzgo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-19T09:12:22.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c70gdd61kk4o?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Al-Hilal target England's Kane - Wednesday's gossip",
-      "titleJa": "移籍情報：Al-Hilal target England's Kane - Wednesday's gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Al-Hilal target England's Kane - Wednesday's gossip移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Al-Hilal target England's Kane - Wednesday's gossip",
-      "summary": "Al-Hilal in talks with Harry Kane and Ollie Watkins, Newcastle explore move for Manchester City's Nico Gonzalez, Sunderland move for Dayann Methalie in danger of collapsing.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c70gdd61kk4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-18T21:02:44.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cx2dzj2w25vo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Why Fernandez uncertainty has echoes of Isak saga",
-      "titleJa": "移籍情報：Why Fernandez uncertainty has echoes of Isak saga",
-      "from": "",
-      "to": "",
-      "summaryJa": "Why Fernandez uncertainty has echoes of Isak saga移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Why Fernandez uncertainty has echoes of Isak saga",
-      "summary": "Enzo Fernandez's possible Manchester City move is following the pattern of Alexander Isak's transfer last summer - and creating headaches for Chelsea.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx2dzj2w25vo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-18T10:46:17.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c2lq80lwwpdo?at_medium=RSS&at_campaign=rss",
@@ -303,21 +303,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cy0j1284e47o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-11T14:54:32.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cx2mz3j402zo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Rangers eye striker after Nedeljkovic",
-      "titleJa": "Rangers eye striker after Nedeljkovic、from Villaへ加入",
-      "from": "",
-      "to": "from Villa",
-      "summaryJa": "Rangers eye striker after Nedeljkovicがfrom Villaへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Rangers eye striker after Nedeljkovic joins from Villa",
-      "summary": "Kosta Nedeljkovic joins Rangers on a season-long loan from Aston Villa, with the Ibrox club holding a \"conditional obligation\" to buy the 20-year-old Serbia defender.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx2mz3j402zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-19T15:52:49.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c4gvj23rexvo?at_medium=RSS&at_campaign=rss",
