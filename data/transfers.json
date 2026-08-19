@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T04:03:18.493Z",
+  "updatedAt": "2026-08-19T07:10:10.087Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -65,21 +65,6 @@
       "date": "2026-08-18T20:43:01.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cx2dzj2w25vo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Why Fernandez uncertainty has echoes of Isak saga",
-      "titleJa": "移籍情報：Why Fernandez uncertainty has echoes of Isak saga",
-      "from": "",
-      "to": "",
-      "summaryJa": "Why Fernandez uncertainty has echoes of Isak saga移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Why Fernandez uncertainty has echoes of Isak saga",
-      "summary": "Enzo Fernandez's possible Manchester City move is following the pattern of Alexander Isak's transfer last summer - and creating headaches for Chelsea.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx2dzj2w25vo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-18T10:46:17.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c70gdd61kk4o?at_medium=RSS&at_campaign=rss",
       "status": "talks",
       "player": "Al Hilal target England's Kane - Wednesday's gossip",
@@ -93,6 +78,36 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c70gdd61kk4o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-18T21:02:44.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Carrick pushing to improve the squad this summer",
+      "titleJa": "移籍情報：Carrick pushing to improve the squad this summer",
+      "from": "",
+      "to": "",
+      "summaryJa": "Carrick pushing to improve the squad this summer移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Carrick pushing to improve the squad this summer",
+      "summary": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-13T17:56:48.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cx2dzj2w25vo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Why Fernandez uncertainty has echoes of Isak saga",
+      "titleJa": "移籍情報：Why Fernandez uncertainty has echoes of Isak saga",
+      "from": "",
+      "to": "",
+      "summaryJa": "Why Fernandez uncertainty has echoes of Isak saga移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Why Fernandez uncertainty has echoes of Isak saga",
+      "summary": "Enzo Fernandez's possible Manchester City move is following the pattern of Alexander Isak's transfer last summer - and creating headaches for Chelsea.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx2dzj2w25vo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-18T10:46:17.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c935vrgrn0vo?at_medium=RSS&at_campaign=rss",
@@ -110,19 +125,19 @@
       "date": "2026-08-18T19:25:40.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Carrick pushing to improve the squad this summer",
-      "titleJa": "移籍情報：Carrick pushing to improve the squad this summer",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c07rlr0yzkvo?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Kane set to begin talks over new Bayern contract",
+      "titleJa": "移籍情報：Kane set to begin talks over new Bayern contract",
       "from": "",
       "to": "",
-      "summaryJa": "Carrick pushing to improve the squad this summer移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Carrick pushing to improve the squad this summer",
-      "summary": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress.",
+      "summaryJa": "Kane set to begin talks over new Bayern contract移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Kane set to begin talks over new Bayern contract",
+      "summary": "Harry Kane says he is ready to begin discussions with Bayern Munich over extending his contract with the Bundesliga champions.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-13T17:56:48.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c07rlr0yzkvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-18T14:28:36.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/czekzxd09zlo?at_medium=RSS&at_campaign=rss",
@@ -170,21 +185,6 @@
       "date": "2026-08-18T19:09:31.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c07rlr0yzkvo?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Kane set to begin talks over new Bayern contract",
-      "titleJa": "移籍情報：Kane set to begin talks over new Bayern contract",
-      "from": "",
-      "to": "",
-      "summaryJa": "Kane set to begin talks over new Bayern contract移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Kane set to begin talks over new Bayern contract",
-      "summary": "Harry Kane says he is ready to begin discussions with Bayern Munich over extending his contract with the Bundesliga champions.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c07rlr0yzkvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-18T14:28:36.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cq56x7qvjn2o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Ex-Man Utd striker Depay takes pay cut to stay at Corinthians",
@@ -213,36 +213,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c2lq80lwwpdo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-18T07:14:06.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c5y479ez74zo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Middleton-Patel",
-      "titleJa": "Middleton-Patel、Watford on loanへ加入（マンチェスター・ユナイテッドから）",
-      "from": "マンチェスター・ユナイテッド",
-      "to": "Watford on loan",
-      "summaryJa": "Middleton-Patelがマンチェスター・ユナイテッドからWatford on loanへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Middleton-Patel joins Watford on loan from Man Utd",
-      "summary": "Wales goalkeeper Safia Middleton-Patel has secured a return to Watford having rejoined the Hornets on a season-long loan deal from Manchester United.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5y479ez74zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-18T10:30:07.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cvgjjr90l0lo?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "Coventry sign Forest striker Awoniyi for £9m",
-      "titleJa": "移籍情報：Coventry sign Forest striker Awoniyi for £9m",
-      "from": "",
-      "to": "",
-      "summaryJa": "Coventry sign Forest striker Awoniyi for £9m移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "Coventry sign Forest striker Awoniyi for £9m",
-      "summary": "Coventry City have signed Nigeria striker Taiwo Awoniyi from Nottingham Forest for £9m.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvgjjr90l0lo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-17T16:02:31.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
@@ -275,6 +245,21 @@
       "date": "2026-08-11T14:54:32.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cevm3el8r44o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Celtic wait for midfielder Sigur - gossip",
+      "titleJa": "移籍情報：Celtic wait for midfielder Sigur - gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Celtic wait for midfielder Sigur - gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Celtic wait for midfielder Sigur - gossip",
+      "summary": "Celtic advance in search of a midfielder and goalkeeper as Dundee aim to secure striker on loan...",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cevm3el8r44o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-19T06:50:42.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/ce8kekejx8lo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "New Celtic signings unlikely before LASK tie but O'Neill happy for Hatate to stay",
@@ -305,21 +290,6 @@
       "date": "2026-08-17T20:39:42.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c9q9r0jpzlro?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Hatate rejects Celtic exit options - gossip",
-      "titleJa": "移籍情報：Hatate rejects Celtic exit options - gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Hatate rejects Celtic exit options - gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Hatate rejects Celtic exit options - gossip",
-      "summary": "Celtic midfielder rejects transfer approaches as Rangers close in on deal for right-back from Premier League...",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9q9r0jpzlro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-18T06:38:35.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cy4kge80l1eo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Bronze explains out-of-character contract extension",
@@ -333,6 +303,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cy4kge80l1eo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-17T08:06:16.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c5y479ez74zo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Middleton-Patel",
+      "titleJa": "Middleton-Patel、Watford on loanへ加入（マンチェスター・ユナイテッドから）",
+      "from": "マンチェスター・ユナイテッド",
+      "to": "Watford on loan",
+      "summaryJa": "Middleton-Patelがマンチェスター・ユナイテッドからWatford on loanへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Middleton-Patel joins Watford on loan from Man Utd",
+      "summary": "Wales goalkeeper Safia Middleton-Patel has secured a return to Watford having rejoined the Hornets on a season-long loan deal from Manchester United.",
+      "parsed": true,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5y479ez74zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-18T10:30:07.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sounds/play/p0p4vpzv?at_medium=RSS&at_campaign=rss",
