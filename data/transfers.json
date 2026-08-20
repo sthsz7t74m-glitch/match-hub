@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-08-20T04:03:10.294Z",
+  "updatedAt": "2026-08-20T07:11:14.376Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c4g31egre74o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Minority investment or takeover - what does Bezos' Liverpool deal mean?",
+      "titleJa": "移籍情報：Minority investment or takeover - what does Bezos' Liverpool deal mean?",
+      "from": "",
+      "to": "",
+      "summaryJa": "Minority investment or takeover - what does Bezos' Liverpool deal mean?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Minority investment or takeover - what does Bezos' Liverpool deal mean?",
+      "summary": "What does Liverpool’s future hold following the sale of stakes to 1892 Holdings, and how involved will Amazon founder Jeff Bezos be?",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c4g31egre74o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-20T07:03:28.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c98vz9jvg0vo?at_medium=RSS&at_campaign=rss",
       "status": "agreed",
@@ -50,21 +65,6 @@
       "date": "2026-08-19T23:02:14.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c0m7el3zr2eo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Reijnders leaves Man City for Al-Qadsiah in £52m deal",
-      "titleJa": "移籍情報：Reijnders leaves Man City for Al-Qadsiah in £52m deal",
-      "from": "",
-      "to": "",
-      "summaryJa": "Reijnders leaves Man City for Al-Qadsiah in £52m deal移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Reijnders leaves Man City for Al-Qadsiah in £52m deal",
-      "summary": "Netherlands midfielder Tijjani Reijnders completes a £52m move to Saudi Arabian side Al-Qadsiah from Manchester City.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c0m7el3zr2eo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-19T16:01:32.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cn0n4qlxyq7o?at_medium=RSS&at_campaign=rss",
       "status": "talks",
       "player": "Man City",
@@ -78,6 +78,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cn0n4qlxyq7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-19T21:30:46.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c0m7el3zr2eo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Reijnders leaves Man City for Al-Qadsiah in £52m deal",
+      "titleJa": "移籍情報：Reijnders leaves Man City for Al-Qadsiah in £52m deal",
+      "from": "",
+      "to": "",
+      "summaryJa": "Reijnders leaves Man City for Al-Qadsiah in £52m deal移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Reijnders leaves Man City for Al-Qadsiah in £52m deal",
+      "summary": "Netherlands midfielder Tijjani Reijnders completes a £52m move to Saudi Arabian side Al-Qadsiah from Manchester City.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0m7el3zr2eo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-19T16:01:32.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/clye43vge5jo?at_medium=RSS&at_campaign=rss",
@@ -110,6 +125,21 @@
       "date": "2026-08-19T15:58:44.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cddjvjqd5mro?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Questions remain over Vieira deal amid Senegal uncertainty",
+      "titleJa": "移籍情報：Questions remain over Vieira deal amid Senegal uncertainty",
+      "from": "",
+      "to": "",
+      "summaryJa": "Questions remain over Vieira deal amid Senegal uncertainty移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Questions remain over Vieira deal amid Senegal uncertainty",
+      "summary": "Questions remain over the appointment of Patrick Vieira as Senegal's new head coach, with the country's football federation riven by off-field issues.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cddjvjqd5mro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-19T16:26:06.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c9d8wd8y36zo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Frank, Young and more",
@@ -125,19 +155,19 @@
       "date": "2026-08-19T08:22:39.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cddjvjqd5mro?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sounds/play/p0p5b36h?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Questions remain over Vieira deal amid Senegal uncertainty",
-      "titleJa": "移籍情報：Questions remain over Vieira deal amid Senegal uncertainty",
+      "player": "72+: The EFL Podcast",
+      "titleJa": "移籍情報：72+: The EFL Podcast",
       "from": "",
       "to": "",
-      "summaryJa": "Questions remain over Vieira deal amid Senegal uncertainty移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Questions remain over Vieira deal amid Senegal uncertainty",
-      "summary": "Questions remain over the appointment of Patrick Vieira as Senegal's new head coach, with the country's football federation riven by off-field issues.",
+      "summaryJa": "72+: The EFL Podcast移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "72+: The EFL Podcast",
+      "summary": "Aaron and Jobi are joined by Bolton's Steven Schumacher and Luton's Jack Wilshere.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cddjvjqd5mro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-19T16:26:06.000Z"
+      "url": "https://www.bbc.co.uk/sounds/play/p0p5b36h?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-19T15:37:00.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c7vg4962yp9o?at_medium=RSS&at_campaign=rss",
@@ -170,36 +200,6 @@
       "date": "2026-08-19T12:38:14.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c4gd1r1nel2o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Arsenal preference is for Nwaneri to leave on loan",
-      "titleJa": "移籍情報：Arsenal preference is for Nwaneri to leave on loan",
-      "from": "",
-      "to": "",
-      "summaryJa": "Arsenal preference is for Nwaneri to leave on loan移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Arsenal preference is for Nwaneri to leave on loan",
-      "summary": "Arsenal prioritise loan offers for Ethan Nwaneri with the Premier League champions keen to avoid selling their teenage attacker permanently.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c4gd1r1nel2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-19T10:24:11.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sounds/play/p0p5b36h?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "72+: The EFL Podcast",
-      "titleJa": "移籍情報：72+: The EFL Podcast",
-      "from": "",
-      "to": "",
-      "summaryJa": "72+: The EFL Podcast移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "72+: The EFL Podcast",
-      "summary": "Aaron and Jobi are joined by Bolton's Steven Schumacher and Luton's Jack Wilshere.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sounds/play/p0p5b36h?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-19T15:37:00.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c2k7w3vwv5yo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Rodri ready for 'excitement again' after Barca complete £65m deal",
@@ -213,21 +213,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c2k7w3vwv5yo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-18T18:14:01.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/ckgd5732mexo?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "Elvedi",
-      "titleJa": "Leeds、Borussia MonchengladbachからElvediを獲得",
-      "from": "Borussia Monchengladbach",
-      "to": "Leeds",
-      "summaryJa": "ElvediがBorussia MonchengladbachからLeedsへ移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "Leeds sign Elvedi from Borussia Monchengladbach",
-      "summary": "Leeds United complete the signing of defender Nico Elvedi from Borussia Monchengladbach in an £8.5m deal.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckgd5732mexo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-19T11:10:51.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/c62qyr16k6ko?at_medium=RSS&at_campaign=rss",
@@ -258,6 +243,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-13T17:56:48.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c4gd1r1nel2o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Arsenal preference is for Nwaneri to leave on loan",
+      "titleJa": "移籍情報：Arsenal preference is for Nwaneri to leave on loan",
+      "from": "",
+      "to": "",
+      "summaryJa": "Arsenal preference is for Nwaneri to leave on loan移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Arsenal preference is for Nwaneri to leave on loan",
+      "summary": "Arsenal prioritise loan offers for Ethan Nwaneri with the Premier League champions keen to avoid selling their teenage attacker permanently.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c4gd1r1nel2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-19T10:24:11.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/ckgve2zevzgo?at_medium=RSS&at_campaign=rss",
@@ -333,6 +333,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cy0j1284e47o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-11T14:54:32.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c89nzne3v4go?at_medium=RSS&at_campaign=rss",
+      "status": "agreed",
+      "player": "St Mirren agree loan deal for Ramsay - gossip",
+      "titleJa": "移籍情報：St Mirren agree loan deal for Ramsay - gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "St Mirren agree loan deal for Ramsay - gossip移る可能性について、合意段階の報道です。",
+      "originalTitle": "St Mirren agree loan deal for Ramsay - gossip",
+      "summary": "St Mirren agree deal for Liverpool right-back as Scotland forward set for big money move.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c89nzne3v4go?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-20T06:49:41.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c4gvj23rexvo?at_medium=RSS&at_campaign=rss",
