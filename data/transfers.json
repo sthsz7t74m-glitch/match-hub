@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T09:53:49.898Z",
+  "updatedAt": "2026-08-20T13:16:10.392Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -52,17 +52,17 @@
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c98vz9jvg0vo?at_medium=RSS&at_campaign=rss",
       "status": "agreed",
-      "player": "Arsenal agree £50m-plus deal to sign Villa's Konsa",
-      "titleJa": "移籍情報：Arsenal agree £50m-plus deal to sign Villa's Konsa",
+      "player": "Konsa set for Arsenal medical before £50m-plus move",
+      "titleJa": "移籍情報：Konsa set for Arsenal medical before £50m-plus move",
       "from": "",
       "to": "",
-      "summaryJa": "Arsenal agree £50m-plus deal to sign Villa's Konsa移る可能性について、合意段階の報道です。",
-      "originalTitle": "Arsenal agree £50m-plus deal to sign Villa's Konsa",
+      "summaryJa": "Konsa set for Arsenal medical before £50m-plus move移る可能性について、合意段階の報道です。",
+      "originalTitle": "Konsa set for Arsenal medical before £50m-plus move",
       "summary": "Arsenal agree a deal worth more than £50m to sign Aston Villa and England defender Ezri Konsa.",
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c98vz9jvg0vo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-19T13:55:18.000Z"
+      "date": "2026-08-20T10:25:40.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cn0n4qlxyq7o?at_medium=RSS&at_campaign=rss",
@@ -95,21 +95,6 @@
       "date": "2026-08-19T23:02:14.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/clylk1wexgno?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Man Utd's decision to make Baleba their 'third midfielder'",
-      "titleJa": "移籍情報：Man Utd's decision to make Baleba their 'third midfielder'",
-      "from": "",
-      "to": "",
-      "summaryJa": "Man Utd's decision to make Baleba their 'third midfielder'移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Man Utd's decision to make Baleba their 'third midfielder'",
-      "summary": "Manchester United are in talks to make Carlos Baleba their 'third midfielder' as the club revamp Michael Carrick's squad.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/clylk1wexgno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-19T14:35:36.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c5y4nel5gddo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Delap loses No 9 shirt & trains away from Chelsea first team",
@@ -140,19 +125,19 @@
       "date": "2026-08-19T16:01:32.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c9d8wd8y36zo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Frank, Young and more",
-      "titleJa": "Frank, Young and more、MOTD as BBC launches four new YouTube showsへ加入",
+      "id": "https://www.bbc.co.uk/sport/football/articles/clylk1wexgno?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Man Utd's decision to make Baleba their 'third midfielder'",
+      "titleJa": "移籍情報：Man Utd's decision to make Baleba their 'third midfielder'",
       "from": "",
-      "to": "MOTD as BBC launches four new YouTube shows",
-      "summaryJa": "Frank, Young and moreがMOTD as BBC launches four new YouTube showsへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Frank, Young and more join MOTD as BBC launches four new YouTube shows",
-      "summary": "BBC Sport will bring football fans closer to the action across TV, radio, YouTube, website and app.",
-      "parsed": true,
+      "to": "",
+      "summaryJa": "Man Utd's decision to make Baleba their 'third midfielder'移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Man Utd's decision to make Baleba their 'third midfielder'",
+      "summary": "Manchester United are in talks to make Carlos Baleba their 'third midfielder' as the club revamp Michael Carrick's squad.",
+      "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9d8wd8y36zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-19T08:22:39.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/clylk1wexgno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-19T14:35:36.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/c62qyr16k6ko?at_medium=RSS&at_campaign=rss",
@@ -185,49 +170,19 @@
       "date": "2026-08-13T17:56:48.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cddjvjqd5mro?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c9d8wd8y36zo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Questions remain over Vieira deal amid Senegal uncertainty",
-      "titleJa": "移籍情報：Questions remain over Vieira deal amid Senegal uncertainty",
+      "player": "Frank, Young and more",
+      "titleJa": "Frank, Young and more、MOTD as BBC launches four new YouTube showsへ加入",
       "from": "",
-      "to": "",
-      "summaryJa": "Questions remain over Vieira deal amid Senegal uncertainty移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Questions remain over Vieira deal amid Senegal uncertainty",
-      "summary": "Questions remain over the appointment of Patrick Vieira as Senegal's new head coach, with the country's football federation riven by off-field issues.",
-      "parsed": false,
+      "to": "MOTD as BBC launches four new YouTube shows",
+      "summaryJa": "Frank, Young and moreがMOTD as BBC launches four new YouTube showsへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Frank, Young and more join MOTD as BBC launches four new YouTube shows",
+      "summary": "BBC Sport will bring football fans closer to the action across TV, radio, YouTube, website and app.",
+      "parsed": true,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cddjvjqd5mro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-19T16:26:06.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sounds/play/p0p5b36h?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "72+: The EFL Podcast",
-      "titleJa": "移籍情報：72+: The EFL Podcast",
-      "from": "",
-      "to": "",
-      "summaryJa": "72+: The EFL Podcast移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "72+: The EFL Podcast",
-      "summary": "Aaron and Jobi are joined by Bolton's Steven Schumacher and Luton's Jack Wilshere.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sounds/play/p0p5b36h?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-19T15:37:00.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c7vg4962yp9o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Villa sign goalkeeper Suzuki and left-back Ruggeri",
-      "titleJa": "移籍情報：Villa sign goalkeeper Suzuki and left-back Ruggeri",
-      "from": "",
-      "to": "",
-      "summaryJa": "Villa sign goalkeeper Suzuki and left-back Ruggeri移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Villa sign goalkeeper Suzuki and left-back Ruggeri",
-      "summary": "Aston Villa confirm the signings of goalkeeper Zion Suzuki and left-back Matteo Ruggeri in deals worth a combined £47m.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c7vg4962yp9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-19T08:41:07.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9d8wd8y36zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-19T08:22:39.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c2lq80lwwpdo?at_medium=RSS&at_campaign=rss",
@@ -245,21 +200,6 @@
       "date": "2026-08-18T07:14:06.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c2k7w3vwv5yo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Rodri ready for 'excitement again' after Barca complete £65m deal",
-      "titleJa": "移籍情報：Rodri ready for 'excitement again' after Barca complete £65m deal",
-      "from": "",
-      "to": "",
-      "summaryJa": "Rodri ready for 'excitement again' after Barca complete £65m deal移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Rodri ready for 'excitement again' after Barca complete £65m deal",
-      "summary": "Barcelona sign Spain midfielder Rodri, the player of the 2026 World Cup, from Manchester City after a trophy-laden seven years with the Premier League club.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c2k7w3vwv5yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-18T18:14:01.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "All done deals in August 2026",
@@ -272,7 +212,7 @@
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-18T08:02:12.000Z"
+      "date": "2026-08-20T13:15:43.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cy0j1284e47o?at_medium=RSS&at_campaign=rss",
