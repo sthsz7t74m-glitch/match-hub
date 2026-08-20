@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-08-20T19:06:00.062Z",
+  "updatedAt": "2026-08-20T21:47:59.494Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cx27w8kv9lvo?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Villa £18m bid for Harwood-Bellis rejected by Southampton",
+      "titleJa": "移籍情報：Villa £18m bid for Harwood-Bellis rejected by Southampton",
+      "from": "",
+      "to": "",
+      "summaryJa": "Villa £18m bid for Harwood-Bellis rejected by Southampton移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Villa £18m bid for Harwood-Bellis rejected by Southampton",
+      "summary": "Aston Villa have bid worth around £18m plus add-ons rejected by Southampton for defender Taylor Harwood-Bellis.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx27w8kv9lvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-20T19:14:08.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c4gknq7d8d5o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -18,6 +33,51 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c4gknq7d8d5o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-20T17:06:34.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/czxqvllyg72o?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Arsenal exploring Yildiz move - Friday's gossip",
+      "titleJa": "移籍情報：Arsenal exploring Yildiz move - Friday's gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Arsenal exploring Yildiz move - Friday's gossip移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Arsenal exploring Yildiz move - Friday's gossip",
+      "summary": "Arsenal explore move for Kenan Yildiz, Atletico Madrid trying to finalise Nicolas Jackson signing and Manchester City in talks over Allan Elias, plus more.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/czxqvllyg72o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-20T20:47:42.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c79g2z11r81o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Joao Pedro set to extend Chelsea deal to 2034",
+      "titleJa": "移籍情報：Joao Pedro set to extend Chelsea deal to 2034",
+      "from": "",
+      "to": "",
+      "summaryJa": "Joao Pedro set to extend Chelsea deal to 2034移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Joao Pedro set to extend Chelsea deal to 2034",
+      "summary": "Chelsea are set to renew striker Joao Pedro's contract until 2034 before the start of the Premier League season.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c79g2z11r81o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-20T19:06:34.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c2lq5dk0gneo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Ronaldinho seeks 300th goal with comeback aged 46",
+      "titleJa": "移籍情報：Ronaldinho seeks 300th goal with comeback aged 46",
+      "from": "",
+      "to": "",
+      "summaryJa": "Ronaldinho seeks 300th goal with comeback aged 46移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Ronaldinho seeks 300th goal with comeback aged 46",
+      "summary": "Brazil great Ronaldinho says he hopes he can score his 300th career goal after announcing a comeback at the age of 46 at Italian third-tier side Ravenna.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c2lq5dk0gneo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-20T20:58:57.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cz645z0w3ypo?at_medium=RSS&at_campaign=rss",
@@ -50,6 +110,21 @@
       "date": "2026-08-20T14:39:19.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cdew1782493o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Parrott makes move to Real Betis from AZ Alkmaar",
+      "titleJa": "移籍情報：Parrott makes move to Real Betis from AZ Alkmaar",
+      "from": "",
+      "to": "",
+      "summaryJa": "Parrott makes move to Real Betis from AZ Alkmaar移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Parrott makes move to Real Betis from AZ Alkmaar",
+      "summary": "Republic of Ireland striker Troy Parrott completes his transfer from Dutch team AZ Alkmaar to Spanish side Real Betis.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cdew1782493o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-20T20:15:59.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c4g31egre74o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Minority investment or takeover - what does Bezos' Liverpool deal mean?",
@@ -63,81 +138,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c4g31egre74o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-20T07:03:28.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cj4w287qnn4o?at_medium=RSS&at_campaign=rss",
-      "status": "agreed",
-      "player": "What happens during a football medical?",
-      "titleJa": "移籍情報：What happens during a football medical?",
-      "from": "",
-      "to": "",
-      "summaryJa": "What happens during a football medical?移る可能性について、合意段階の報道です。",
-      "originalTitle": "What happens during a football medical?",
-      "summary": "BBC Sport's Ask Me Anything team explain what is involved in a medical exam when a football player joins a new club.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cj4w287qnn4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-20T15:32:38.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/clye43vge5jo?at_medium=RSS&at_campaign=rss",
-      "status": "agreed",
-      "player": "Inter agree £30m deal for Liverpool's Jones",
-      "titleJa": "移籍情報：Inter agree £30m deal for Liverpool's Jones",
-      "from": "",
-      "to": "",
-      "summaryJa": "Inter agree £30m deal for Liverpool's Jones移る可能性について、合意段階の報道です。",
-      "originalTitle": "Inter agree £30m deal for Liverpool's Jones",
-      "summary": "Curtis Jones is set to join Inter Milan after the Italian side agreed a deal worth 35m euros (£30m) with Liverpool.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/clye43vge5jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-20T07:57:12.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sounds/play/p0p5h7wh?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "BBC Women's Football Weekly",
-      "titleJa": "移籍情報：BBC Women's Football Weekly",
-      "from": "",
-      "to": "",
-      "summaryJa": "BBC Women's Football Weekly移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "BBC Women's Football Weekly",
-      "summary": "Fridolina Rolfo, Lea Schuller, Julia Zigiotti, Dominique Janssen, Hanna Lundkvist join Jo",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sounds/play/p0p5h7wh?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-20T13:10:00.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c98vz9jvg0vo?at_medium=RSS&at_campaign=rss",
-      "status": "agreed",
-      "player": "Konsa set for Arsenal medical before £50m-plus move",
-      "titleJa": "移籍情報：Konsa set for Arsenal medical before £50m-plus move",
-      "from": "",
-      "to": "",
-      "summaryJa": "Konsa set for Arsenal medical before £50m-plus move移る可能性について、合意段階の報道です。",
-      "originalTitle": "Konsa set for Arsenal medical before £50m-plus move",
-      "summary": "Arsenal agree a deal worth more than £50m to sign Aston Villa and England defender Ezri Konsa.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c98vz9jvg0vo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-20T10:25:40.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cn0n4qlxyq7o?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Man City",
-      "titleJa": "Man City、Man Utd in Kone race - Thursday's gossipへ加入",
-      "from": "",
-      "to": "Man Utd in Kone race - Thursday's gossip",
-      "summaryJa": "Man CityがMan Utd in Kone race - Thursday's gossipへ移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Man City join Man Utd in Kone race - Thursday's gossip",
-      "summary": "Manchester City look set to rival neighbours Manchester United for Manu Kone, Aston Villa interested in Tosin Adarabioyo and Tottenham in talks over Man City duo.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cn0n4qlxyq7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-20T08:59:24.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/c62qyr16k6ko?at_medium=RSS&at_campaign=rss",
@@ -155,21 +155,6 @@
       "date": "2026-08-19T22:27:18.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Carrick pushing to improve the squad this summer",
-      "titleJa": "移籍情報：Carrick pushing to improve the squad this summer",
-      "from": "",
-      "to": "",
-      "summaryJa": "Carrick pushing to improve the squad this summer移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Carrick pushing to improve the squad this summer",
-      "summary": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-13T17:56:48.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c0m7el3zr2eo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Reijnders leaves Man City for Al-Qadsiah in £52m deal",
@@ -185,6 +170,36 @@
       "date": "2026-08-19T16:01:32.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c98vz9jvg0vo?at_medium=RSS&at_campaign=rss",
+      "status": "agreed",
+      "player": "Konsa set for Arsenal medical before £50m-plus move",
+      "titleJa": "移籍情報：Konsa set for Arsenal medical before £50m-plus move",
+      "from": "",
+      "to": "",
+      "summaryJa": "Konsa set for Arsenal medical before £50m-plus move移る可能性について、合意段階の報道です。",
+      "originalTitle": "Konsa set for Arsenal medical before £50m-plus move",
+      "summary": "Arsenal agree a deal worth more than £50m to sign Aston Villa and England defender Ezri Konsa.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c98vz9jvg0vo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-20T10:25:40.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cj4w287qnn4o?at_medium=RSS&at_campaign=rss",
+      "status": "agreed",
+      "player": "What happens during a football medical?",
+      "titleJa": "移籍情報：What happens during a football medical?",
+      "from": "",
+      "to": "",
+      "summaryJa": "What happens during a football medical?移る可能性について、合意段階の報道です。",
+      "originalTitle": "What happens during a football medical?",
+      "summary": "BBC Sport's Ask Me Anything team explain what is involved in a medical exam when a football player joins a new club.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cj4w287qnn4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-20T15:32:38.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c2k7en0lxkjo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Algorithms amplified World Cup racism, says report",
@@ -198,21 +213,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c2k7en0lxkjo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-19T23:02:14.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c9d8wd8y36zo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Frank, Young and more",
-      "titleJa": "Frank, Young and more、MOTD as BBC launches four new YouTube showsへ加入",
-      "from": "",
-      "to": "MOTD as BBC launches four new YouTube shows",
-      "summaryJa": "Frank, Young and moreがMOTD as BBC launches four new YouTube showsへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Frank, Young and more join MOTD as BBC launches four new YouTube shows",
-      "summary": "BBC Sport will bring football fans closer to the action across TV, radio, YouTube, website and app.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9d8wd8y36zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-19T08:22:39.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c2lq80lwwpdo?at_medium=RSS&at_campaign=rss",
@@ -242,7 +242,7 @@
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-20T15:50:17.000Z"
+      "date": "2026-08-20T21:45:48.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cy0j1284e47o?at_medium=RSS&at_campaign=rss",
@@ -258,6 +258,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cy0j1284e47o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-11T14:54:32.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sounds/play/p0p5h7wh?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "BBC Women's Football Weekly",
+      "titleJa": "移籍情報：BBC Women's Football Weekly",
+      "from": "",
+      "to": "",
+      "summaryJa": "BBC Women's Football Weekly移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "BBC Women's Football Weekly",
+      "summary": "Fridolina Rolfo, Lea Schuller, Julia Zigiotti, Dominique Janssen, Hanna Lundkvist join Jo",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sounds/play/p0p5h7wh?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-20T13:10:00.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c4gvj23rexvo?at_medium=RSS&at_campaign=rss",
