@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-08-20T13:16:10.392Z",
+  "updatedAt": "2026-08-20T15:52:26.523Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c20j30vnxkmo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Cancelo makes 'dream' Barca move after Al-Hilal exit",
+      "titleJa": "移籍情報：Cancelo makes 'dream' Barca move after Al-Hilal exit",
+      "from": "",
+      "to": "",
+      "summaryJa": "Cancelo makes 'dream' Barca move after Al-Hilal exit移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Cancelo makes 'dream' Barca move after Al-Hilal exit",
+      "summary": "Portugal full-back Joao Cancelo rejoins Barcelona on a permanent deal after his contract with Al-Hilal was mutually terminated.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c20j30vnxkmo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-20T14:39:19.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cz645z0w3ypo?at_medium=RSS&at_campaign=rss",
       "status": "talks",
@@ -33,6 +48,36 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c4g31egre74o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-20T07:03:28.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sounds/play/p0p5h7wh?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "BBC Women's Football Weekly",
+      "titleJa": "移籍情報：BBC Women's Football Weekly",
+      "from": "",
+      "to": "",
+      "summaryJa": "BBC Women's Football Weekly移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "BBC Women's Football Weekly",
+      "summary": "Fridolina Rolfo, Lea Schuller, Julia Zigiotti, Dominique Janssen, Hanna Lundkvist join Jo",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sounds/play/p0p5h7wh?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-20T13:10:00.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cj4w287qnn4o?at_medium=RSS&at_campaign=rss",
+      "status": "agreed",
+      "player": "What happens during a football medical?",
+      "titleJa": "移籍情報：What happens during a football medical?",
+      "from": "",
+      "to": "",
+      "summaryJa": "What happens during a football medical?移る可能性について、合意段階の報道です。",
+      "originalTitle": "What happens during a football medical?",
+      "summary": "BBC Sport's Ask Me Anything team explain what is involved in a medical exam when a football player joins a new club.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cj4w287qnn4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-20T15:32:38.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/clye43vge5jo?at_medium=RSS&at_campaign=rss",
@@ -95,51 +140,6 @@
       "date": "2026-08-19T23:02:14.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c5y4nel5gddo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Delap loses No 9 shirt & trains away from Chelsea first team",
-      "titleJa": "移籍情報：Delap loses No 9 shirt & trains away from Chelsea first team",
-      "from": "",
-      "to": "",
-      "summaryJa": "Delap loses No 9 shirt & trains away from Chelsea first team移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Delap loses No 9 shirt & trains away from Chelsea first team",
-      "summary": "Chelsea have split their players into two training groups at Cobham, involving several players who could move before the transfer window closes, including Liam Delap, Nicolas Jackson and Mykhailo Mudryk.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5y4nel5gddo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-19T15:58:44.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c0m7el3zr2eo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Reijnders leaves Man City for Al-Qadsiah in £52m deal",
-      "titleJa": "移籍情報：Reijnders leaves Man City for Al-Qadsiah in £52m deal",
-      "from": "",
-      "to": "",
-      "summaryJa": "Reijnders leaves Man City for Al-Qadsiah in £52m deal移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Reijnders leaves Man City for Al-Qadsiah in £52m deal",
-      "summary": "Netherlands midfielder Tijjani Reijnders completes a £52m move to Saudi Arabian side Al-Qadsiah from Manchester City.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c0m7el3zr2eo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-19T16:01:32.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/clylk1wexgno?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Man Utd's decision to make Baleba their 'third midfielder'",
-      "titleJa": "移籍情報：Man Utd's decision to make Baleba their 'third midfielder'",
-      "from": "",
-      "to": "",
-      "summaryJa": "Man Utd's decision to make Baleba their 'third midfielder'移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Man Utd's decision to make Baleba their 'third midfielder'",
-      "summary": "Manchester United are in talks to make Carlos Baleba their 'third midfielder' as the club revamp Michael Carrick's squad.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/clylk1wexgno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-19T14:35:36.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/videos/c62qyr16k6ko?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "How 'outstanding' Duran helped Celtic beat LASK",
@@ -170,6 +170,21 @@
       "date": "2026-08-13T17:56:48.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c0m7el3zr2eo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Reijnders leaves Man City for Al-Qadsiah in £52m deal",
+      "titleJa": "移籍情報：Reijnders leaves Man City for Al-Qadsiah in £52m deal",
+      "from": "",
+      "to": "",
+      "summaryJa": "Reijnders leaves Man City for Al-Qadsiah in £52m deal移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Reijnders leaves Man City for Al-Qadsiah in £52m deal",
+      "summary": "Netherlands midfielder Tijjani Reijnders completes a £52m move to Saudi Arabian side Al-Qadsiah from Manchester City.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0m7el3zr2eo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-19T16:01:32.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c9d8wd8y36zo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Frank, Young and more",
@@ -183,6 +198,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9d8wd8y36zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-19T08:22:39.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c5y4nel5gddo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Delap loses No 9 shirt & trains away from Chelsea first team",
+      "titleJa": "移籍情報：Delap loses No 9 shirt & trains away from Chelsea first team",
+      "from": "",
+      "to": "",
+      "summaryJa": "Delap loses No 9 shirt & trains away from Chelsea first team移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Delap loses No 9 shirt & trains away from Chelsea first team",
+      "summary": "Chelsea have split their players into two training groups at Cobham, involving several players who could move before the transfer window closes, including Liam Delap, Nicolas Jackson and Mykhailo Mudryk.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5y4nel5gddo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-19T15:58:44.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c2lq80lwwpdo?at_medium=RSS&at_campaign=rss",
@@ -212,7 +242,7 @@
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-20T13:15:43.000Z"
+      "date": "2026-08-20T15:50:17.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cy0j1284e47o?at_medium=RSS&at_campaign=rss",
@@ -273,21 +303,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c5y479ez74zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-18T10:30:07.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sounds/play/p0p4vpzv?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "BBC Women's Football Weekly",
-      "titleJa": "移籍情報：BBC Women's Football Weekly",
-      "from": "",
-      "to": "",
-      "summaryJa": "BBC Women's Football Weekly移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "BBC Women's Football Weekly",
-      "summary": "Hear from Carpenter, Bronze, James, Walsh, Bompastor and new signing, Katie McCabe!",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sounds/play/p0p4vpzv?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-17T12:00:00.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cx2jpgj24vlo?at_medium=RSS&at_campaign=rss",
