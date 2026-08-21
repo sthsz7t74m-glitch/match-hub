@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T03:11:36.744Z",
+  "updatedAt": "2026-08-21T03:17:17.034Z",
   "season": "2026",
   "dataSource": "football-data.org",
   "dataMode": "current-free-plan",
@@ -1444,7 +1444,7 @@
     {
       "id": 564638,
       "date": "2026-08-20T19:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -1465,19 +1465,19 @@
         "logo": "https://crests.football-data.org/263.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "events": []
@@ -1485,7 +1485,7 @@
     {
       "id": 559715,
       "date": "2026-08-21T18:45:00Z",
-      "status": "TIMED",
+      "status": "2026-08-21 18:45:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -1813,7 +1813,7 @@
     {
       "id": 559712,
       "date": "2026-08-22T15:15:00Z",
-      "status": "TIMED",
+      "status": "2026-08-22 15:15:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -2100,7 +2100,7 @@
     {
       "id": 559711,
       "date": "2026-08-22T18:45:00Z",
-      "status": "TIMED",
+      "status": "2026-08-22 18:45:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -2141,7 +2141,7 @@
     {
       "id": 559714,
       "date": "2026-08-22T18:45:00Z",
-      "status": "TIMED",
+      "status": "2026-08-22 18:45:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -2182,7 +2182,7 @@
     {
       "id": 559716,
       "date": "2026-08-22T18:45:00Z",
-      "status": "TIMED",
+      "status": "2026-08-22 18:45:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -2223,7 +2223,7 @@
     {
       "id": 559718,
       "date": "2026-08-22T18:45:00Z",
-      "status": "TIMED",
+      "status": "2026-08-22 18:45:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -2387,7 +2387,7 @@
     {
       "id": 559717,
       "date": "2026-08-23T13:00:00Z",
-      "status": "TIMED",
+      "status": "2026-08-23 13:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -2469,7 +2469,7 @@
     {
       "id": 559719,
       "date": "2026-08-23T15:15:00Z",
-      "status": "TIMED",
+      "status": "2026-08-23 15:15:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -2756,7 +2756,7 @@
     {
       "id": 559713,
       "date": "2026-08-23T18:45:00Z",
-      "status": "TIMED",
+      "status": "2026-08-23 18:45:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -3330,7 +3330,7 @@
     {
       "id": 559702,
       "date": "2026-08-28T18:45:00Z",
-      "status": "TIMED",
+      "status": "2026-08-28 18:45:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -3822,7 +3822,7 @@
     {
       "id": 559704,
       "date": "2026-08-29T15:15:00Z",
-      "status": "TIMED",
+      "status": "2026-08-29 15:15:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -4150,7 +4150,7 @@
     {
       "id": 559705,
       "date": "2026-08-29T18:45:00Z",
-      "status": "TIMED",
+      "status": "2026-08-29 18:45:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -4191,7 +4191,7 @@
     {
       "id": 559706,
       "date": "2026-08-29T18:45:00Z",
-      "status": "TIMED",
+      "status": "2026-08-29 18:45:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -4232,7 +4232,7 @@
     {
       "id": 559708,
       "date": "2026-08-29T18:45:00Z",
-      "status": "TIMED",
+      "status": "2026-08-29 18:45:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -4273,7 +4273,7 @@
     {
       "id": 559710,
       "date": "2026-08-29T18:45:00Z",
-      "status": "TIMED",
+      "status": "2026-08-29 18:45:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -4478,7 +4478,7 @@
     {
       "id": 559707,
       "date": "2026-08-30T13:00:00Z",
-      "status": "TIMED",
+      "status": "2026-08-30 13:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -4601,7 +4601,7 @@
     {
       "id": 559709,
       "date": "2026-08-30T15:15:00Z",
-      "status": "TIMED",
+      "status": "2026-08-30 15:15:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -4888,7 +4888,7 @@
     {
       "id": 559703,
       "date": "2026-08-30T18:45:00Z",
-      "status": "TIMED",
+      "status": "2026-08-30 18:45:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -5175,7 +5175,7 @@
     {
       "id": 559696,
       "date": "2026-09-03T18:45:00Z",
-      "status": "TIMED",
+      "status": "2026-09-03 18:45:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -5257,7 +5257,7 @@
     {
       "id": 559699,
       "date": "2026-09-04T17:00:00Z",
-      "status": "TIMED",
+      "status": "2026-09-04 17:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -5462,7 +5462,7 @@
     {
       "id": 559697,
       "date": "2026-09-04T19:05:00Z",
-      "status": "TIMED",
+      "status": "2026-09-04 19:05:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -6036,7 +6036,7 @@
     {
       "id": 559695,
       "date": "2026-09-05T15:15:00Z",
-      "status": "TIMED",
+      "status": "2026-09-05 15:15:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -6282,7 +6282,7 @@
     {
       "id": 559693,
       "date": "2026-09-05T18:45:00Z",
-      "status": "TIMED",
+      "status": "2026-09-05 18:45:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -6323,7 +6323,7 @@
     {
       "id": 559701,
       "date": "2026-09-05T18:45:00Z",
-      "status": "TIMED",
+      "status": "2026-09-05 18:45:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -6528,7 +6528,7 @@
     {
       "id": 559700,
       "date": "2026-09-06T13:00:00Z",
-      "status": "TIMED",
+      "status": "2026-09-06 13:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -6651,7 +6651,7 @@
     {
       "id": 559698,
       "date": "2026-09-06T15:15:00Z",
-      "status": "TIMED",
+      "status": "2026-09-06 15:15:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -6938,7 +6938,7 @@
     {
       "id": 559694,
       "date": "2026-09-06T18:45:00Z",
-      "status": "TIMED",
+      "status": "2026-09-06 18:45:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -7266,7 +7266,7 @@
     {
       "id": 559689,
       "date": "2026-09-11T18:45:00Z",
-      "status": "TIMED",
+      "status": "2026-09-11 18:45:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -7758,7 +7758,7 @@
     {
       "id": 559687,
       "date": "2026-09-12T15:15:00Z",
-      "status": "TIMED",
+      "status": "2026-09-12 15:15:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -7777,47 +7777,6 @@
         "name": "AS Monaco FC",
         "shortName": "モナコ",
         "logo": "https://crests.football-data.org/548.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 558600,
-      "date": "2026-09-12T16:00:00Z",
-      "status": "TIMED",
-      "elapsed": null,
-      "competition": "Serie A",
-      "competitionJa": "セリエA",
-      "leagueId": 135,
-      "leagueCode": "SA",
-      "round": "第4節",
-      "venue": "",
-      "home": {
-        "id": 110,
-        "name": "SS Lazio",
-        "shortName": "ラツィオ",
-        "logo": "https://crests.football-data.org/110.png"
-      },
-      "away": {
-        "id": 98,
-        "name": "AC Milan",
-        "shortName": "ACミラン",
-        "logo": "https://crests.football-data.org/98.png"
       },
       "goals": {
         "home": null,
@@ -8004,7 +7963,7 @@
     {
       "id": 559684,
       "date": "2026-09-12T18:45:00Z",
-      "status": "TIMED",
+      "status": "2026-09-12 18:45:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -8045,7 +8004,7 @@
     {
       "id": 559688,
       "date": "2026-09-12T18:45:00Z",
-      "status": "TIMED",
+      "status": "2026-09-12 18:45:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -8086,7 +8045,7 @@
     {
       "id": 559690,
       "date": "2026-09-12T18:45:00Z",
-      "status": "TIMED",
+      "status": "2026-09-12 18:45:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -8127,7 +8086,7 @@
     {
       "id": 559692,
       "date": "2026-09-12T18:45:00Z",
-      "status": "TIMED",
+      "status": "2026-09-12 18:45:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -8783,7 +8742,7 @@
     {
       "id": 559685,
       "date": "2026-09-13T13:00:00Z",
-      "status": "TIMED",
+      "status": "2026-09-13 13:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -8865,7 +8824,7 @@
     {
       "id": 559686,
       "date": "2026-09-13T15:15:00Z",
-      "status": "TIMED",
+      "status": "2026-09-13 15:15:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -9027,9 +8986,50 @@
       "events": []
     },
     {
-      "id": 559691,
+      "id": 558600,
       "date": "2026-09-13T18:45:00Z",
       "status": "TIMED",
+      "elapsed": null,
+      "competition": "Serie A",
+      "competitionJa": "セリエA",
+      "leagueId": 135,
+      "leagueCode": "SA",
+      "round": "第4節",
+      "venue": "",
+      "home": {
+        "id": 110,
+        "name": "SS Lazio",
+        "shortName": "ラツィオ",
+        "logo": "https://crests.football-data.org/110.png"
+      },
+      "away": {
+        "id": 98,
+        "name": "AC Milan",
+        "shortName": "ACミラン",
+        "logo": "https://crests.football-data.org/98.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 559691,
+      "date": "2026-09-13T18:45:00Z",
+      "status": "2026-09-13 18:45:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -9644,7 +9644,7 @@
     {
       "id": 559676,
       "date": "2026-09-19T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-09-19 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -9685,7 +9685,7 @@
     {
       "id": 559677,
       "date": "2026-09-19T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-09-19 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -9726,7 +9726,7 @@
     {
       "id": 559678,
       "date": "2026-09-19T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-09-19 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -9767,7 +9767,7 @@
     {
       "id": 559679,
       "date": "2026-09-19T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-09-19 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -9808,7 +9808,7 @@
     {
       "id": 559680,
       "date": "2026-09-19T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-09-19 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -9849,7 +9849,7 @@
     {
       "id": 559681,
       "date": "2026-09-19T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-09-19 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -9890,7 +9890,7 @@
     {
       "id": 559682,
       "date": "2026-09-19T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-09-19 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -9931,7 +9931,7 @@
     {
       "id": 559683,
       "date": "2026-09-19T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-09-19 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -11448,7 +11448,7 @@
     {
       "id": 559675,
       "date": "2026-09-20T18:45:00Z",
-      "status": "TIMED",
+      "status": "2026-09-20 18:45:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -11858,7 +11858,7 @@
     {
       "id": 559666,
       "date": "2026-10-10T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-10-10 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -11899,7 +11899,7 @@
     {
       "id": 559667,
       "date": "2026-10-10T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-10-10 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -11940,7 +11940,7 @@
     {
       "id": 559668,
       "date": "2026-10-10T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-10-10 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -11981,7 +11981,7 @@
     {
       "id": 559669,
       "date": "2026-10-10T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-10-10 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -12022,7 +12022,7 @@
     {
       "id": 559670,
       "date": "2026-10-10T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-10-10 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -12063,7 +12063,7 @@
     {
       "id": 559671,
       "date": "2026-10-10T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-10-10 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -12104,7 +12104,7 @@
     {
       "id": 559672,
       "date": "2026-10-10T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-10-10 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -12145,7 +12145,7 @@
     {
       "id": 559673,
       "date": "2026-10-10T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-10-10 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -12186,7 +12186,7 @@
     {
       "id": 559674,
       "date": "2026-10-10T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-10-10 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -13826,7 +13826,7 @@
     {
       "id": 559657,
       "date": "2026-10-17T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-10-17 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -13867,7 +13867,7 @@
     {
       "id": 559658,
       "date": "2026-10-17T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-10-17 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -13908,7 +13908,7 @@
     {
       "id": 559659,
       "date": "2026-10-17T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-10-17 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -13949,7 +13949,7 @@
     {
       "id": 559660,
       "date": "2026-10-17T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-10-17 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -13990,7 +13990,7 @@
     {
       "id": 559661,
       "date": "2026-10-17T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-10-17 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -14031,7 +14031,7 @@
     {
       "id": 559662,
       "date": "2026-10-17T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-10-17 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -14072,7 +14072,7 @@
     {
       "id": 559663,
       "date": "2026-10-17T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-10-17 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -14113,7 +14113,7 @@
     {
       "id": 559664,
       "date": "2026-10-17T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-10-17 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -14154,7 +14154,7 @@
     {
       "id": 559665,
       "date": "2026-10-17T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-10-17 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -15835,7 +15835,7 @@
     {
       "id": 559649,
       "date": "2026-10-24T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-10-24 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -15876,7 +15876,7 @@
     {
       "id": 559650,
       "date": "2026-10-24T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-10-24 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -15917,7 +15917,7 @@
     {
       "id": 559651,
       "date": "2026-10-24T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-10-24 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -15958,7 +15958,7 @@
     {
       "id": 559652,
       "date": "2026-10-24T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-10-24 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -15999,7 +15999,7 @@
     {
       "id": 559653,
       "date": "2026-10-24T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-10-24 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -16040,7 +16040,7 @@
     {
       "id": 559654,
       "date": "2026-10-24T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-10-24 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -16081,7 +16081,7 @@
     {
       "id": 559655,
       "date": "2026-10-24T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-10-24 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -16122,7 +16122,7 @@
     {
       "id": 559656,
       "date": "2026-10-24T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "2026-10-24 15:00:00Z",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -73371,16 +73371,16 @@
             "shortName": "アラベス",
             "logo": "https://crests.football-data.org/263.png"
           },
-          "played": 1,
+          "played": 2,
           "win": 1,
-          "draw": 0,
+          "draw": 1,
           "lose": 0,
           "goalsDiff": 3,
-          "points": 3,
+          "points": 4,
           "form": ""
         },
         {
-          "rank": 1,
+          "rank": 2,
           "team": {
             "id": 80,
             "name": "RCD Espanyol de Barcelona",
@@ -73494,6 +73494,22 @@
         {
           "rank": 9,
           "team": {
+            "id": 87,
+            "name": "Rayo Vallecano de Madrid",
+            "shortName": "ラージョ・バジェカーノ",
+            "logo": "https://crests.football-data.org/87.png"
+          },
+          "played": 2,
+          "win": 0,
+          "draw": 1,
+          "lose": 1,
+          "goalsDiff": -1,
+          "points": 1,
+          "form": ""
+        },
+        {
+          "rank": 10,
+          "team": {
             "id": 77,
             "name": "Athletic Club",
             "shortName": "アスレティック・ビルバオ",
@@ -73508,7 +73524,7 @@
           "form": ""
         },
         {
-          "rank": 9,
+          "rank": 10,
           "team": {
             "id": 79,
             "name": "CA Osasuna",
@@ -73524,7 +73540,7 @@
           "form": ""
         },
         {
-          "rank": 9,
+          "rank": 10,
           "team": {
             "id": 81,
             "name": "FC Barcelona",
@@ -73540,7 +73556,7 @@
           "form": ""
         },
         {
-          "rank": 9,
+          "rank": 10,
           "team": {
             "id": 558,
             "name": "RC Celta de Vigo",
@@ -73556,7 +73572,7 @@
           "form": ""
         },
         {
-          "rank": 9,
+          "rank": 10,
           "team": {
             "id": 90,
             "name": "Real Betis Balompié",
@@ -73572,7 +73588,7 @@
           "form": ""
         },
         {
-          "rank": 9,
+          "rank": 10,
           "team": {
             "id": 86,
             "name": "Real Madrid CF",
@@ -73588,7 +73604,7 @@
           "form": ""
         },
         {
-          "rank": 9,
+          "rank": 10,
           "team": {
             "id": 92,
             "name": "Real Sociedad de Fútbol",
@@ -73604,7 +73620,7 @@
           "form": ""
         },
         {
-          "rank": 9,
+          "rank": 10,
           "team": {
             "id": 95,
             "name": "Valencia CF",
@@ -73616,22 +73632,6 @@
           "draw": 0,
           "lose": 0,
           "goalsDiff": 0,
-          "points": 0,
-          "form": ""
-        },
-        {
-          "rank": 17,
-          "team": {
-            "id": 87,
-            "name": "Rayo Vallecano de Madrid",
-            "shortName": "ラージョ・バジェカーノ",
-            "logo": "https://crests.football-data.org/87.png"
-          },
-          "played": 1,
-          "win": 0,
-          "draw": 0,
-          "lose": 1,
-          "goalsDiff": -1,
           "points": 0,
           "form": ""
         },
