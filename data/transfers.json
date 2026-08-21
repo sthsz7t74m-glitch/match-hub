@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T21:47:59.494Z",
+  "updatedAt": "2026-08-21T02:01:13.015Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -65,6 +65,21 @@
       "date": "2026-08-20T19:06:34.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Carrick pushing to improve the squad this summer",
+      "titleJa": "移籍情報：Carrick pushing to improve the squad this summer",
+      "from": "",
+      "to": "",
+      "summaryJa": "Carrick pushing to improve the squad this summer移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Carrick pushing to improve the squad this summer",
+      "summary": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-13T17:56:48.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c2lq5dk0gneo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Ronaldinho seeks 300th goal with comeback aged 46",
@@ -78,6 +93,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c2lq5dk0gneo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-20T20:58:57.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sounds/play/p0p5lkpz?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Euro Leagues: Serie A season preview & Ronaldinho's Back!",
+      "titleJa": "移籍情報：Euro Leagues: Serie A season preview & Ronaldinho's Back!",
+      "from": "",
+      "to": "",
+      "summaryJa": "Euro Leagues: Serie A season preview & Ronaldinho's Back!移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Euro Leagues: Serie A season preview & Ronaldinho's Back!",
+      "summary": "John Bennett is joined by Julien Laurens & James Horncastle.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sounds/play/p0p5lkpz?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-20T21:45:00.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cz645z0w3ypo?at_medium=RSS&at_campaign=rss",
@@ -125,6 +155,21 @@
       "date": "2026-08-20T20:15:59.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/videos/cp3r469vq79o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Watch Guimaraes' best moments after Arsenal sign midfield maestro",
+      "titleJa": "移籍情報：Watch Guimaraes' best moments after Arsenal sign midfield maestro",
+      "from": "",
+      "to": "",
+      "summaryJa": "Watch Guimaraes' best moments after Arsenal sign midfield maestro移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Watch Guimaraes' best moments after Arsenal sign midfield maestro",
+      "summary": "Watch Bruno Guimaraes' best Premier League moments after Arsenal sign the Brazil midfielder from Newcastle.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cp3r469vq79o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-08T11:09:40.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c4g31egre74o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Minority investment or takeover - what does Bezos' Liverpool deal mean?",
@@ -138,21 +183,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c4g31egre74o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-20T07:03:28.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/videos/c62qyr16k6ko?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "How 'outstanding' Duran helped Celtic beat LASK",
-      "titleJa": "移籍情報：How 'outstanding' Duran helped Celtic beat LASK",
-      "from": "",
-      "to": "",
-      "summaryJa": "How 'outstanding' Duran helped Celtic beat LASK移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "How 'outstanding' Duran helped Celtic beat LASK",
-      "summary": "Champions League analysts Pat Nevin and James McFadden look at the \"outstanding\" impact new signing Camilo Duran had for Celtic in their Champions League play-off first-leg win over LASK.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c62qyr16k6ko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-19T22:27:18.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c0m7el3zr2eo?at_medium=RSS&at_campaign=rss",
@@ -185,34 +215,19 @@
       "date": "2026-08-20T10:25:40.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cj4w287qnn4o?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/clye43vge5jo?at_medium=RSS&at_campaign=rss",
       "status": "agreed",
-      "player": "What happens during a football medical?",
-      "titleJa": "移籍情報：What happens during a football medical?",
+      "player": "Inter agree £30m deal for Liverpool's Jones",
+      "titleJa": "移籍情報：Inter agree £30m deal for Liverpool's Jones",
       "from": "",
       "to": "",
-      "summaryJa": "What happens during a football medical?移る可能性について、合意段階の報道です。",
-      "originalTitle": "What happens during a football medical?",
-      "summary": "BBC Sport's Ask Me Anything team explain what is involved in a medical exam when a football player joins a new club.",
+      "summaryJa": "Inter agree £30m deal for Liverpool's Jones移る可能性について、合意段階の報道です。",
+      "originalTitle": "Inter agree £30m deal for Liverpool's Jones",
+      "summary": "Curtis Jones is set to join Inter Milan after the Italian side agreed a deal worth 35m euros (£30m) with Liverpool.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cj4w287qnn4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-20T15:32:38.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c2k7en0lxkjo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Algorithms amplified World Cup racism, says report",
-      "titleJa": "移籍情報：Algorithms amplified World Cup racism, says report",
-      "from": "",
-      "to": "",
-      "summaryJa": "Algorithms amplified World Cup racism, says report移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Algorithms amplified World Cup racism, says report",
-      "summary": "Racist abuse aimed at England footballers on social media was amplified during the World Cup by algorithms designed to maximise engagement and profit, according to new research.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c2k7en0lxkjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-19T23:02:14.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/clye43vge5jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-20T07:57:12.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c2lq80lwwpdo?at_medium=RSS&at_campaign=rss",
@@ -258,6 +273,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cy0j1284e47o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-11T14:54:32.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/videos/c62qyr16k6ko?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "How 'outstanding' Duran helped Celtic beat LASK",
+      "titleJa": "移籍情報：How 'outstanding' Duran helped Celtic beat LASK",
+      "from": "",
+      "to": "",
+      "summaryJa": "How 'outstanding' Duran helped Celtic beat LASK移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "How 'outstanding' Duran helped Celtic beat LASK",
+      "summary": "Champions League analysts Pat Nevin and James McFadden look at the \"outstanding\" impact new signing Camilo Duran had for Celtic in their Champions League play-off first-leg win over LASK.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c62qyr16k6ko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-19T22:27:18.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sounds/play/p0p5h7wh?at_medium=RSS&at_campaign=rss",
