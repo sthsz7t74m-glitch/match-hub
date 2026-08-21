@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T15:52:21.340Z",
+  "updatedAt": "2026-08-21T19:02:02.132Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -20,6 +20,21 @@
       "date": "2026-08-21T15:20:45.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/czdm9pjd0ero?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Inter complete £30m deal for Liverpool's Jones",
+      "titleJa": "移籍情報：Inter complete £30m deal for Liverpool's Jones",
+      "from": "",
+      "to": "",
+      "summaryJa": "Inter complete £30m deal for Liverpool's Jones移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Inter complete £30m deal for Liverpool's Jones",
+      "summary": "Inter Milan sign midfielder Curtis Jones from Liverpool in a deal worth £30m.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/czdm9pjd0ero?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-21T18:48:15.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c9v4wj07e8eo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Watkins could leave Villa before transfer deadline - Emery",
@@ -33,6 +48,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9v4wj07e8eo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-21T13:47:42.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/ce97ky3vkx4o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Brighton reject Liverpool's new £60m Minteh bid",
+      "titleJa": "移籍情報：Brighton reject Liverpool's new £60m Minteh bid",
+      "from": "",
+      "to": "",
+      "summaryJa": "Brighton reject Liverpool's new £60m Minteh bid移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Brighton reject Liverpool's new £60m Minteh bid",
+      "summary": "Liverpool have an improved bid of £60m for winger Yankuba Minteh rejected by Brighton but talks between the clubs continue.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ce97ky3vkx4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-21T17:26:49.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cwyl0r8g4lwo?at_medium=RSS&at_campaign=rss",
@@ -65,6 +95,21 @@
       "date": "2026-08-21T09:41:46.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/videos/cx2reg4knn5o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Mohamed Salah: Inside his move to Trabzonspor",
+      "titleJa": "移籍情報：Mohamed Salah: Inside his move to Trabzonspor",
+      "from": "",
+      "to": "",
+      "summaryJa": "Mohamed Salah: Inside his move to Trabzonspor移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Mohamed Salah: Inside his move to Trabzonspor",
+      "summary": "Mohamed Salah was expected to move to Saudi Arabia or the United States after leaving Liverpool, but Turkish side Trabzonspor pulled off one of the coups of the transfer window.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cx2reg4knn5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-21T17:44:55.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cpw9e1dz9kko?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Shakhtar agree to play Champions League ties at Chelsea",
@@ -78,6 +123,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cpw9e1dz9kko?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-21T15:40:04.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/clyjmd19887o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "The 20 most expensive transfers of the summer (so far)",
+      "titleJa": "移籍情報：The 20 most expensive transfers of the summer (so far)",
+      "from": "",
+      "to": "",
+      "summaryJa": "The 20 most expensive transfers of the summer (so far)移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "The 20 most expensive transfers of the summer (so far)",
+      "summary": "From Morgan Rogers to Ismael Saibari, BBC Sport lists the 20 biggest transfers of the summer so far.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/clyjmd19887o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-21T13:51:24.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cwyq4vyxzxwo?at_medium=RSS&at_campaign=rss",
@@ -140,21 +200,6 @@
       "date": "2026-08-21T08:10:18.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/clyjmd19887o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "The 20 most expensive transfers of the summer (so far)",
-      "titleJa": "移籍情報：The 20 most expensive transfers of the summer (so far)",
-      "from": "",
-      "to": "",
-      "summaryJa": "The 20 most expensive transfers of the summer (so far)移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "The 20 most expensive transfers of the summer (so far)",
-      "summary": "From Morgan Rogers to Ismael Saibari, BBC Sport lists the 20 biggest transfers of the summer so far.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/clyjmd19887o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-21T13:51:24.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/czxqvllyg72o?at_medium=RSS&at_campaign=rss",
       "status": "talks",
       "player": "Arsenal exploring Yildiz move - Friday's gossip",
@@ -183,21 +228,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c79g2z11r81o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-21T10:03:59.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c20j3vjvy48o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Break-up of Villa's Europa heroes leaves cracks for Emery to fill",
-      "titleJa": "移籍情報：Break-up of Villa's Europa heroes leaves cracks for Emery to fill",
-      "from": "",
-      "to": "",
-      "summaryJa": "Break-up of Villa's Europa heroes leaves cracks for Emery to fill移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Break-up of Villa's Europa heroes leaves cracks for Emery to fill",
-      "summary": "Aston Villa have already sold three key players this summer, a figure that could potentially double by the end of the transfer window.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c20j3vjvy48o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-21T05:28:59.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
@@ -230,49 +260,19 @@
       "date": "2026-08-08T11:09:40.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c629pr7lwd1o?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c20j3vjvy48o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "West Ham's Wan‑Bissaka",
-      "titleJa": "West Ham's Wan‑Bissaka、Aston Villa on loanへ加入",
-      "from": "",
-      "to": "Aston Villa on loan",
-      "summaryJa": "West Ham's Wan‑BissakaがAston Villa on loanへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "West Ham's Wan‑Bissaka joins Aston Villa on loan",
-      "summary": "DR Congo right-back Aaron Wan‑Bissaka arrives at Villa Park on an initial loan deal with a \"conditional obligation to buy\".",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c629pr7lwd1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-21T10:24:16.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c4gknq7d8d5o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Liverpool have £50m bid rejected for Brighton's Minteh",
-      "titleJa": "移籍情報：Liverpool have £50m bid rejected for Brighton's Minteh",
+      "player": "Break-up of Villa's Europa heroes leaves cracks for Emery to fill",
+      "titleJa": "移籍情報：Break-up of Villa's Europa heroes leaves cracks for Emery to fill",
       "from": "",
       "to": "",
-      "summaryJa": "Liverpool have £50m bid rejected for Brighton's Minteh移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Liverpool have £50m bid rejected for Brighton's Minteh",
-      "summary": "Liverpool have a £50m bid rejected by Brighton for their winger Yankuba Minteh.",
+      "summaryJa": "Break-up of Villa's Europa heroes leaves cracks for Emery to fill移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Break-up of Villa's Europa heroes leaves cracks for Emery to fill",
+      "summary": "Aston Villa have already sold three key players this summer, a figure that could potentially double by the end of the transfer window.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c4gknq7d8d5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-20T17:06:34.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c2lq5dk0gneo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Ronaldinho seeks 300th goal with comeback aged 46",
-      "titleJa": "移籍情報：Ronaldinho seeks 300th goal with comeback aged 46",
-      "from": "",
-      "to": "",
-      "summaryJa": "Ronaldinho seeks 300th goal with comeback aged 46移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Ronaldinho seeks 300th goal with comeback aged 46",
-      "summary": "Brazil great Ronaldinho says he hopes he can score his 300th career goal after announcing a comeback at the age of 46 at Italian third-tier side Ravenna.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c2lq5dk0gneo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-20T20:58:57.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c20j3vjvy48o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-21T05:28:59.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c2lq80lwwpdo?at_medium=RSS&at_campaign=rss",
@@ -302,7 +302,7 @@
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-21T14:21:36.000Z"
+      "date": "2026-08-21T17:34:27.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cy0j1284e47o?at_medium=RSS&at_campaign=rss",
@@ -318,21 +318,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cy0j1284e47o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-11T14:54:32.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c5y617znpnko?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Girona players",
-      "titleJa": "Girona playersにOld Firm - gossip移籍の可能性",
-      "from": "",
-      "to": "Old Firm - gossip",
-      "summaryJa": "Girona playersがOld Firm - gossipへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Girona players linked with Old Firm - gossip",
-      "summary": "Girona players linked with moves to Glasgow as Edinburgh clubs react to European draws.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5y617znpnko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-21T06:50:26.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sounds/play/p0p5h7wh?at_medium=RSS&at_campaign=rss",
