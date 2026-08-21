@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T07:11:54.924Z",
+  "updatedAt": "2026-08-21T09:54:55.662Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -50,6 +50,21 @@
       "date": "2026-08-21T07:04:54.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cdrv86006r4o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "I missed being valued as a footballer - Walti",
+      "titleJa": "移籍情報：I missed being valued as a footballer - Walti",
+      "from": "",
+      "to": "",
+      "summaryJa": "I missed being valued as a footballer - Walti移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "I missed being valued as a footballer - Walti",
+      "summary": "Brighton midfielder Lia Walti says she \"missed the feeling of being valued as a footballer\" at Juventus and craved a return to the WSL.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cdrv86006r4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-21T08:10:18.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cx27w8kv9lvo?at_medium=RSS&at_campaign=rss",
       "status": "talks",
       "player": "Villa £18m bid for Harwood-Bellis rejected by Southampton",
@@ -63,21 +78,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cx27w8kv9lvo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-20T19:14:08.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/czxqvllyg72o?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Arsenal exploring Yildiz move - Friday's gossip",
-      "titleJa": "移籍情報：Arsenal exploring Yildiz move - Friday's gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Arsenal exploring Yildiz move - Friday's gossip移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Arsenal exploring Yildiz move - Friday's gossip",
-      "summary": "Arsenal explore move for Kenan Yildiz, Atletico Madrid trying to finalise Nicolas Jackson signing and Manchester City in talks over Allan Elias, plus more.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/czxqvllyg72o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-20T20:47:42.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
@@ -95,6 +95,36 @@
       "date": "2026-08-13T17:56:48.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/czxqvllyg72o?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Arsenal exploring Yildiz move - Friday's gossip",
+      "titleJa": "移籍情報：Arsenal exploring Yildiz move - Friday's gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Arsenal exploring Yildiz move - Friday's gossip移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Arsenal exploring Yildiz move - Friday's gossip",
+      "summary": "Arsenal explore move for Kenan Yildiz, Atletico Madrid trying to finalise Nicolas Jackson signing and Manchester City in talks over Allan Elias, plus more.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/czxqvllyg72o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-20T20:47:42.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c79g2z11r81o?at_medium=RSS&at_campaign=rss",
+      "status": "agreed",
+      "player": "Joao Pedro set to sign new Chelsea deal until 2032",
+      "titleJa": "移籍情報：Joao Pedro set to sign new Chelsea deal until 2032",
+      "from": "",
+      "to": "",
+      "summaryJa": "Joao Pedro set to sign new Chelsea deal until 2032移る可能性について、合意段階の報道です。",
+      "originalTitle": "Joao Pedro set to sign new Chelsea deal until 2032",
+      "summary": "Chelsea are set to renew striker Joao Pedro's contract until 2032 before the start of the Premier League season.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c79g2z11r81o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-20T19:06:34.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c4gknq7d8d5o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Liverpool have £50m bid rejected for Brighton's Minteh",
@@ -108,21 +138,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c4gknq7d8d5o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-20T17:06:34.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c79g2z11r81o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Joao Pedro set to extend Chelsea deal to 2032",
-      "titleJa": "移籍情報：Joao Pedro set to extend Chelsea deal to 2032",
-      "from": "",
-      "to": "",
-      "summaryJa": "Joao Pedro set to extend Chelsea deal to 2032移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Joao Pedro set to extend Chelsea deal to 2032",
-      "summary": "Chelsea are set to renew striker Joao Pedro's contract until 2032 before the start of the Premier League season.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c79g2z11r81o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-20T19:06:34.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c2lq5dk0gneo?at_medium=RSS&at_campaign=rss",
@@ -185,21 +200,6 @@
       "date": "2026-08-08T11:09:40.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c4g31egre74o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Minority investment or takeover - what does Bezos' Liverpool deal mean?",
-      "titleJa": "移籍情報：Minority investment or takeover - what does Bezos' Liverpool deal mean?",
-      "from": "",
-      "to": "",
-      "summaryJa": "Minority investment or takeover - what does Bezos' Liverpool deal mean?移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Minority investment or takeover - what does Bezos' Liverpool deal mean?",
-      "summary": "What does Liverpool’s future hold following the sale of stakes to 1892 Holdings, and how involved will Amazon founder Jeff Bezos be?",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c4g31egre74o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-20T07:03:28.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c98vz9jvg0vo?at_medium=RSS&at_campaign=rss",
       "status": "agreed",
       "player": "Konsa set for Arsenal medical before £50m-plus move",
@@ -213,36 +213,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c98vz9jvg0vo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-20T10:25:40.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/clye43vge5jo?at_medium=RSS&at_campaign=rss",
-      "status": "agreed",
-      "player": "Inter agree £30m deal for Liverpool's Jones",
-      "titleJa": "移籍情報：Inter agree £30m deal for Liverpool's Jones",
-      "from": "",
-      "to": "",
-      "summaryJa": "Inter agree £30m deal for Liverpool's Jones移る可能性について、合意段階の報道です。",
-      "originalTitle": "Inter agree £30m deal for Liverpool's Jones",
-      "summary": "Curtis Jones is set to join Inter Milan after the Italian side agreed a deal worth 35m euros (£30m) with Liverpool.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/clye43vge5jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-20T07:57:12.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c0m7el3zr2eo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Reijnders leaves Man City for Al-Qadsiah in £52m deal",
-      "titleJa": "移籍情報：Reijnders leaves Man City for Al-Qadsiah in £52m deal",
-      "from": "",
-      "to": "",
-      "summaryJa": "Reijnders leaves Man City for Al-Qadsiah in £52m deal移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Reijnders leaves Man City for Al-Qadsiah in £52m deal",
-      "summary": "Netherlands midfielder Tijjani Reijnders completes a £52m move to Saudi Arabian side Al-Qadsiah from Manchester City.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c0m7el3zr2eo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-19T16:01:32.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c2lq80lwwpdo?at_medium=RSS&at_campaign=rss",
@@ -303,21 +273,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c5y617znpnko?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-21T06:50:26.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/videos/c62qyr16k6ko?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "How 'outstanding' Duran helped Celtic beat LASK",
-      "titleJa": "移籍情報：How 'outstanding' Duran helped Celtic beat LASK",
-      "from": "",
-      "to": "",
-      "summaryJa": "How 'outstanding' Duran helped Celtic beat LASK移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "How 'outstanding' Duran helped Celtic beat LASK",
-      "summary": "Champions League analysts Pat Nevin and James McFadden look at the \"outstanding\" impact new signing Camilo Duran had for Celtic in their Champions League play-off first-leg win over LASK.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c62qyr16k6ko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-19T22:27:18.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sounds/play/p0p5h7wh?at_medium=RSS&at_campaign=rss",
