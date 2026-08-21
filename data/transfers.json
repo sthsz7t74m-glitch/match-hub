@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-08-21T19:02:02.132Z",
+  "updatedAt": "2026-08-21T21:43:10.860Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cwy452d662ko?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Man Utd agree £70m fee for Brighton's Baleba",
+      "titleJa": "移籍情報：Man Utd agree £70m fee for Brighton's Baleba",
+      "from": "",
+      "to": "",
+      "summaryJa": "Man Utd agree £70m fee for Brighton's Baleba移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Man Utd agree £70m fee for Brighton's Baleba",
+      "summary": "Manchester United agree a fee of up to £70m for Brighton midfielder Carlos Baleba.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwy452d662ko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-21T19:58:11.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/ckg97jpkkego?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -32,7 +47,7 @@
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/czdm9pjd0ero?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-21T18:48:15.000Z"
+      "date": "2026-08-21T21:23:29.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c9v4wj07e8eo?at_medium=RSS&at_campaign=rss",
@@ -80,21 +95,6 @@
       "date": "2026-08-21T06:30:48.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cvg0jgy929do?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "The inside story of how Trabzonspor pulled off Salah deal",
-      "titleJa": "移籍情報：The inside story of how Trabzonspor pulled off Salah deal",
-      "from": "",
-      "to": "",
-      "summaryJa": "The inside story of how Trabzonspor pulled off Salah deal移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "The inside story of how Trabzonspor pulled off Salah deal",
-      "summary": "Mohamed Salah was expected to move to Saudi Arabia or the United States after leaving Liverpool, but Turkish side Trabzonspor pulled off one of the coups of the transfer window.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvg0jgy929do?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-21T09:41:46.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/videos/cx2reg4knn5o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Mohamed Salah: Inside his move to Trabzonspor",
@@ -110,19 +110,19 @@
       "date": "2026-08-21T17:44:55.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cpw9e1dz9kko?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/cvg0jgy929do?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Shakhtar agree to play Champions League ties at Chelsea",
-      "titleJa": "移籍情報：Shakhtar agree to play Champions League ties at Chelsea",
+      "player": "The inside story of how Trabzonspor pulled off Salah deal",
+      "titleJa": "移籍情報：The inside story of how Trabzonspor pulled off Salah deal",
       "from": "",
       "to": "",
-      "summaryJa": "Shakhtar agree to play Champions League ties at Chelsea移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Shakhtar agree to play Champions League ties at Chelsea",
-      "summary": "Ukrainian club Shakhtar Donetsk agree to play Champions League home games at Chelsea's Stamford Bridge this season.",
+      "summaryJa": "The inside story of how Trabzonspor pulled off Salah deal移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "The inside story of how Trabzonspor pulled off Salah deal",
+      "summary": "Mohamed Salah was expected to move to Saudi Arabia or the United States after leaving Liverpool, but Turkish side Trabzonspor pulled off one of the coups of the transfer window.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cpw9e1dz9kko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-21T15:40:04.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvg0jgy929do?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-21T09:41:46.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/clyjmd19887o?at_medium=RSS&at_campaign=rss",
@@ -138,6 +138,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/clyjmd19887o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-21T13:51:24.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cpw9e1dz9kko?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Shakhtar agree to play Champions League ties at Chelsea",
+      "titleJa": "移籍情報：Shakhtar agree to play Champions League ties at Chelsea",
+      "from": "",
+      "to": "",
+      "summaryJa": "Shakhtar agree to play Champions League ties at Chelsea移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Shakhtar agree to play Champions League ties at Chelsea",
+      "summary": "Ukrainian club Shakhtar Donetsk agree to play Champions League home games at Chelsea's Stamford Bridge this season.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cpw9e1dz9kko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-21T15:40:04.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cwyq4vyxzxwo?at_medium=RSS&at_campaign=rss",
@@ -200,36 +215,6 @@
       "date": "2026-08-21T08:10:18.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/czxqvllyg72o?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Arsenal exploring Yildiz move - Friday's gossip",
-      "titleJa": "移籍情報：Arsenal exploring Yildiz move - Friday's gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Arsenal exploring Yildiz move - Friday's gossip移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Arsenal exploring Yildiz move - Friday's gossip",
-      "summary": "Arsenal explore move for Kenan Yildiz, Atletico Madrid trying to finalise Nicolas Jackson signing and Manchester City in talks over Allan Elias, plus more.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/czxqvllyg72o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-20T20:47:42.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c79g2z11r81o?at_medium=RSS&at_campaign=rss",
-      "status": "agreed",
-      "player": "Joao Pedro set to sign new Chelsea deal",
-      "titleJa": "移籍情報：Joao Pedro set to sign new Chelsea deal",
-      "from": "",
-      "to": "",
-      "summaryJa": "Joao Pedro set to sign new Chelsea deal移る可能性について、合意段階の報道です。",
-      "originalTitle": "Joao Pedro set to sign new Chelsea deal",
-      "summary": "Chelsea striker Joao Pedro is set to sign a new contract with the club until 2032, with the option of two further years.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c79g2z11r81o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-21T10:03:59.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Carrick pushing to improve the squad this summer",
@@ -245,19 +230,19 @@
       "date": "2026-08-13T17:56:48.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/videos/cp3r469vq79o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Watch Guimaraes' best moments after Arsenal sign midfield maestro",
-      "titleJa": "移籍情報：Watch Guimaraes' best moments after Arsenal sign midfield maestro",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c79g2z11r81o?at_medium=RSS&at_campaign=rss",
+      "status": "agreed",
+      "player": "Joao Pedro set to sign new Chelsea deal",
+      "titleJa": "移籍情報：Joao Pedro set to sign new Chelsea deal",
       "from": "",
       "to": "",
-      "summaryJa": "Watch Guimaraes' best moments after Arsenal sign midfield maestro移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Watch Guimaraes' best moments after Arsenal sign midfield maestro",
-      "summary": "Watch Bruno Guimaraes' best Premier League moments after Arsenal sign the Brazil midfielder from Newcastle.",
+      "summaryJa": "Joao Pedro set to sign new Chelsea deal移る可能性について、合意段階の報道です。",
+      "originalTitle": "Joao Pedro set to sign new Chelsea deal",
+      "summary": "Chelsea striker Joao Pedro is set to sign a new contract with the club until 2032, with the option of two further years.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cp3r469vq79o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-08T11:09:40.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c79g2z11r81o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-21T10:03:59.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c20j3vjvy48o?at_medium=RSS&at_campaign=rss",
