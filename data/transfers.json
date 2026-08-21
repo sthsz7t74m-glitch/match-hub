@@ -1,9 +1,54 @@
 {
-  "updatedAt": "2026-08-21T04:05:44.120Z",
+  "updatedAt": "2026-08-21T07:11:54.924Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cwyl0r8g4lwo?at_medium=RSS&at_campaign=rss",
+      "status": "agreed",
+      "player": "Spurs agree £75m deal to sign Man City's Savinho",
+      "titleJa": "移籍情報：Spurs agree £75m deal to sign Man City's Savinho",
+      "from": "",
+      "to": "",
+      "summaryJa": "Spurs agree £75m deal to sign Man City's Savinho移る可能性について、合意段階の報道です。",
+      "originalTitle": "Spurs agree £75m deal to sign Man City's Savinho",
+      "summary": "Tottenham agree a deal to sign Manchester City winger Savinho for £75m, with a further £10m in potential add-ons.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwyl0r8g4lwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-21T06:30:48.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c20j3vjvy48o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Break-up of Villa's Europa heroes leaves cracks for Emery to fill",
+      "titleJa": "移籍情報：Break-up of Villa's Europa heroes leaves cracks for Emery to fill",
+      "from": "",
+      "to": "",
+      "summaryJa": "Break-up of Villa's Europa heroes leaves cracks for Emery to fill移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Break-up of Villa's Europa heroes leaves cracks for Emery to fill",
+      "summary": "Aston Villa have already sold three key players this summer, a figure that could potentially double by the end of the transfer window.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c20j3vjvy48o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-21T05:28:59.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cr49yypz01eo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Would Marmoush joining Tottenham be a masterstroke or risk?",
+      "titleJa": "移籍情報：Would Marmoush joining Tottenham be a masterstroke or risk?",
+      "from": "",
+      "to": "",
+      "summaryJa": "Would Marmoush joining Tottenham be a masterstroke or risk?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Would Marmoush joining Tottenham be a masterstroke or risk?",
+      "summary": "Tottenham are working on a deal for Omar Marmoush, but what could the Man City forward bring to the north London team?",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cr49yypz01eo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-21T07:04:54.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cx27w8kv9lvo?at_medium=RSS&at_campaign=rss",
       "status": "talks",
@@ -18,21 +63,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cx27w8kv9lvo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-20T19:14:08.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c4gknq7d8d5o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Liverpool have £50m bid rejected for Brighton's Minteh",
-      "titleJa": "移籍情報：Liverpool have £50m bid rejected for Brighton's Minteh",
-      "from": "",
-      "to": "",
-      "summaryJa": "Liverpool have £50m bid rejected for Brighton's Minteh移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Liverpool have £50m bid rejected for Brighton's Minteh",
-      "summary": "Liverpool have a £50m bid rejected by Brighton for their winger Yankuba Minteh.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c4gknq7d8d5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-20T17:06:34.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/czxqvllyg72o?at_medium=RSS&at_campaign=rss",
@@ -50,21 +80,6 @@
       "date": "2026-08-20T20:47:42.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c79g2z11r81o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Joao Pedro set to extend Chelsea deal to 2034",
-      "titleJa": "移籍情報：Joao Pedro set to extend Chelsea deal to 2034",
-      "from": "",
-      "to": "",
-      "summaryJa": "Joao Pedro set to extend Chelsea deal to 2034移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Joao Pedro set to extend Chelsea deal to 2034",
-      "summary": "Chelsea are set to renew striker Joao Pedro's contract until 2034 before the start of the Premier League season.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c79g2z11r81o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-20T19:06:34.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Carrick pushing to improve the squad this summer",
@@ -78,6 +93,36 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-13T17:56:48.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c4gknq7d8d5o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Liverpool have £50m bid rejected for Brighton's Minteh",
+      "titleJa": "移籍情報：Liverpool have £50m bid rejected for Brighton's Minteh",
+      "from": "",
+      "to": "",
+      "summaryJa": "Liverpool have £50m bid rejected for Brighton's Minteh移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Liverpool have £50m bid rejected for Brighton's Minteh",
+      "summary": "Liverpool have a £50m bid rejected by Brighton for their winger Yankuba Minteh.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c4gknq7d8d5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-20T17:06:34.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c79g2z11r81o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Joao Pedro set to extend Chelsea deal to 2032",
+      "titleJa": "移籍情報：Joao Pedro set to extend Chelsea deal to 2032",
+      "from": "",
+      "to": "",
+      "summaryJa": "Joao Pedro set to extend Chelsea deal to 2032移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Joao Pedro set to extend Chelsea deal to 2032",
+      "summary": "Chelsea are set to renew striker Joao Pedro's contract until 2032 before the start of the Premier League season.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c79g2z11r81o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-20T19:06:34.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c2lq5dk0gneo?at_medium=RSS&at_campaign=rss",
@@ -110,21 +155,6 @@
       "date": "2026-08-20T21:45:00.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cz645z0w3ypo?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Man City's Savinho and Marmoush",
-      "titleJa": "トッテナム、Man City's Savinho and Marmoush獲得へ交渉中",
-      "from": "",
-      "to": "トッテナム",
-      "summaryJa": "Man City's Savinho and Marmoushがトッテナムへ移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Spurs in talks to sign Man City's Savinho and Marmoush",
-      "summary": "Spurs open talks with Manchester City to sign attacking duo Omar Marmoush and Savinho.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cz645z0w3ypo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-20T09:01:26.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c20j30vnxkmo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Cancelo makes 'dream' Barca move after Al-Hilal exit",
@@ -138,21 +168,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c20j30vnxkmo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-20T14:39:19.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cdew1782493o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Parrott makes move to Real Betis from AZ Alkmaar",
-      "titleJa": "移籍情報：Parrott makes move to Real Betis from AZ Alkmaar",
-      "from": "",
-      "to": "",
-      "summaryJa": "Parrott makes move to Real Betis from AZ Alkmaar移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Parrott makes move to Real Betis from AZ Alkmaar",
-      "summary": "Republic of Ireland striker Troy Parrott completes his transfer from Dutch team AZ Alkmaar to Spanish side Real Betis.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cdew1782493o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-20T20:15:59.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/cp3r469vq79o?at_medium=RSS&at_campaign=rss",
@@ -185,21 +200,6 @@
       "date": "2026-08-20T07:03:28.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c0m7el3zr2eo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Reijnders leaves Man City for Al-Qadsiah in £52m deal",
-      "titleJa": "移籍情報：Reijnders leaves Man City for Al-Qadsiah in £52m deal",
-      "from": "",
-      "to": "",
-      "summaryJa": "Reijnders leaves Man City for Al-Qadsiah in £52m deal移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Reijnders leaves Man City for Al-Qadsiah in £52m deal",
-      "summary": "Netherlands midfielder Tijjani Reijnders completes a £52m move to Saudi Arabian side Al-Qadsiah from Manchester City.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c0m7el3zr2eo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-19T16:01:32.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c98vz9jvg0vo?at_medium=RSS&at_campaign=rss",
       "status": "agreed",
       "player": "Konsa set for Arsenal medical before £50m-plus move",
@@ -228,6 +228,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/clye43vge5jo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-20T07:57:12.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c0m7el3zr2eo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Reijnders leaves Man City for Al-Qadsiah in £52m deal",
+      "titleJa": "移籍情報：Reijnders leaves Man City for Al-Qadsiah in £52m deal",
+      "from": "",
+      "to": "",
+      "summaryJa": "Reijnders leaves Man City for Al-Qadsiah in £52m deal移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Reijnders leaves Man City for Al-Qadsiah in £52m deal",
+      "summary": "Netherlands midfielder Tijjani Reijnders completes a £52m move to Saudi Arabian side Al-Qadsiah from Manchester City.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0m7el3zr2eo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-19T16:01:32.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c2lq80lwwpdo?at_medium=RSS&at_campaign=rss",
@@ -273,6 +288,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cy0j1284e47o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-11T14:54:32.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c5y617znpnko?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Girona players",
+      "titleJa": "Girona playersにOld Firm - gossip移籍の可能性",
+      "from": "",
+      "to": "Old Firm - gossip",
+      "summaryJa": "Girona playersがOld Firm - gossipへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Girona players linked with Old Firm - gossip",
+      "summary": "Girona players linked with moves to Glasgow as Edinburgh clubs react to European draws.",
+      "parsed": true,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5y617znpnko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-21T06:50:26.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/c62qyr16k6ko?at_medium=RSS&at_campaign=rss",
