@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T03:31:55.555Z",
+  "updatedAt": "2026-08-22T03:22:36.697Z",
   "source": "ESPN multi-competition monthly adapter",
   "competitionCount": 15,
   "competitions": [
@@ -71,7 +71,7 @@
     {
       "code": "fifa.friendly",
       "name": "国際親善試合",
-      "count": 909
+      "count": 911
     },
     {
       "code": "fifa.olympics",
@@ -46226,6 +46226,26 @@
       "penalties": null
     },
     {
+      "id": "fifa.friendly-401913269",
+      "kickoff": "2026-09-27T20:30Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "bolivia",
+      "away": "paraguay",
+      "homeName": "Bolivia",
+      "awayName": "Paraguay",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Audi Field",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
       "id": "fifa.friendly-401902642",
       "kickoff": "2026-09-28T10:25Z",
       "status": "scheduled",
@@ -47146,6 +47166,26 @@
       "penalties": null
     },
     {
+      "id": "fifa.friendly-401913267",
+      "kickoff": "2026-10-03T00:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "colombia",
+      "away": "paraguay",
+      "homeName": "Colombia",
+      "awayName": "Paraguay",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Red Bull Arena",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
       "id": "uefa.nations-401861111",
       "kickoff": "2026-10-03T13:00Z",
       "status": "scheduled",
@@ -47766,26 +47806,6 @@
       "penalties": null
     },
     {
-      "id": "fifa.friendly-401905332",
-      "kickoff": "2026-10-06T18:00Z",
-      "status": "scheduled",
-      "competition": "国際親善試合",
-      "competitionCode": "fifa.friendly",
-      "stage": "2026-international-friendly",
-      "round": "",
-      "home": "colombia",
-      "away": "peru",
-      "homeName": "Colombia",
-      "awayName": "Peru",
-      "homeScore": 0,
-      "awayScore": 0,
-      "venue": "",
-      "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
-      "penalties": null
-    },
-    {
       "id": "fifa.friendly-401912454",
       "kickoff": "2026-10-06T18:00Z",
       "status": "scheduled",
@@ -48000,6 +48020,26 @@
       "homeScore": 0,
       "awayScore": 0,
       "venue": "Swissporarena",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
+      "id": "fifa.friendly-401905332",
+      "kickoff": "2026-10-06T23:45Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "colombia",
+      "away": "peru",
+      "homeName": "Colombia",
+      "awayName": "Peru",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Chase Stadium",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
@@ -48579,7 +48619,7 @@
       "awayName": "India",
       "homeScore": 0,
       "awayScore": 0,
-      "venue": "",
+      "venue": "One New Zealand Stadium",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
