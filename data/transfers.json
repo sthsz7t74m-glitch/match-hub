@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-08-22T18:52:18.173Z",
+  "updatedAt": "2026-08-22T21:40:33.308Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cd9w1zkw7x8o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Man City will 'try to find the new Rodri' - Maresca",
+      "titleJa": "移籍情報：Man City will 'try to find the new Rodri' - Maresca",
+      "from": "",
+      "to": "",
+      "summaryJa": "Man City will 'try to find the new Rodri' - Maresca移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Man City will 'try to find the new Rodri' - Maresca",
+      "summary": "Manchester City will \"try to find the new Rodri\" after the Spain captain left the club earlier this week to join La Liga champions Barcelona, says manager Enzo Maresca.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cd9w1zkw7x8o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-22T21:30:32.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cdx7x90dxywo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -35,6 +50,21 @@
       "date": "2026-08-22T18:31:17.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cvg0gxxkp1vo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Alvarez open to Arsenal transfer - Sunday's gossip",
+      "titleJa": "移籍情報：Alvarez open to Arsenal transfer - Sunday's gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Alvarez open to Arsenal transfer - Sunday's gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Alvarez open to Arsenal transfer - Sunday's gossip",
+      "summary": "Atletico Madrid forward Julian Alvarez open to Arsenal transfer, Spurs confident on completing Omar Marmoush deal, Ollie Watkins wants Al-Hilal move, plus more.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvg0gxxkp1vo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-22T20:39:00.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cnvnvjer47mo?at_medium=RSS&at_campaign=rss",
       "status": "talks",
       "player": "Villa close to signing Germany midfielder Goretzka",
@@ -48,51 +78,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cnvnvjer47mo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-22T14:39:46.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c4g3nr57kdlo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "The ex-Blackburn winger facing Mourinho and Real Madrid",
-      "titleJa": "移籍情報：The ex-Blackburn winger facing Mourinho and Real Madrid",
-      "from": "",
-      "to": "",
-      "summaryJa": "The ex-Blackburn winger facing Mourinho and Real Madrid移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "The ex-Blackburn winger facing Mourinho and Real Madrid",
-      "summary": "Tyrhys Dolan, who played for Blackburn Rovers for five years before joining Espanyol last summer, says he is ready to take on one of the biggest tests of his  career against Real Madrid on Saturday.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c4g3nr57kdlo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-22T07:44:05.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/videos/cx2reg4knn5o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Mohamed Salah: Inside his move to Trabzonspor",
-      "titleJa": "移籍情報：Mohamed Salah: Inside his move to Trabzonspor",
-      "from": "",
-      "to": "",
-      "summaryJa": "Mohamed Salah: Inside his move to Trabzonspor移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Mohamed Salah: Inside his move to Trabzonspor",
-      "summary": "Mohamed Salah was expected to move to Saudi Arabia or the United States after leaving Liverpool, but Turkish side Trabzonspor pulled off one of the coups of the transfer window.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cx2reg4knn5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-21T17:44:55.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c5y4yxgw1p1o?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "Barry-Murphy expects Cardiff to make signing soon",
-      "titleJa": "移籍情報：Barry-Murphy expects Cardiff to make signing soon",
-      "from": "",
-      "to": "",
-      "summaryJa": "Barry-Murphy expects Cardiff to make signing soon移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "Barry-Murphy expects Cardiff to make signing soon",
-      "summary": "Brian Barry-Murphy is expecting Cardiff City to complete a signing before their Carabao Cup second-round tie against Norwich City on Tuesday, 25 August.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5y4yxgw1p1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-22T17:37:19.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c2k78nk1n34o?at_medium=RSS&at_campaign=rss",
