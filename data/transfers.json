@@ -1,23 +1,38 @@
 {
-  "updatedAt": "2026-08-23T09:47:33.271Z",
+  "updatedAt": "2026-08-23T13:06:24.243Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c3w0wpy86z7o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "What does Savinho's £75m move reveal about Man City's multi-club model?",
-      "titleJa": "移籍情報：What does Savinho's £75m move reveal about Man City's multi-club model?",
+      "id": "https://www.bbc.co.uk/sport/football/articles/clyjy0e0pkzo?at_medium=RSS&at_campaign=rss",
+      "status": "agreed",
+      "player": "Man City agree £86m deal for teen midfielder Bouaddi",
+      "titleJa": "移籍情報：Man City agree £86m deal for teen midfielder Bouaddi",
       "from": "",
       "to": "",
-      "summaryJa": "What does Savinho's £75m move reveal about Man City's multi-club model?移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "What does Savinho's £75m move reveal about Man City's multi-club model?",
-      "summary": "Does Savinho's £75m move from Manchester City to Tottenham represent a sporting success for the Abu Dhabi-owned club?",
+      "summaryJa": "Man City agree £86m deal for teen midfielder Bouaddi移る可能性について、合意段階の報道です。",
+      "originalTitle": "Man City agree £86m deal for teen midfielder Bouaddi",
+      "summary": "Manchester City agree a deal in principle for 18-year-old Lille midfielder Ayyoub Bouaddi worth 100m euros (£86m).",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c3w0wpy86z7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-23T07:43:38.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/clyjy0e0pkzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-23T12:41:05.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cwylg0kp5lwo?at_medium=RSS&at_campaign=rss",
+      "status": "agreed",
+      "player": "The maths whizz turned £86m teenage star heading to Man City",
+      "titleJa": "移籍情報：The maths whizz turned £86m teenage star heading to Man City",
+      "from": "",
+      "to": "",
+      "summaryJa": "The maths whizz turned £86m teenage star heading to Man City移る可能性について、合意段階の報道です。",
+      "originalTitle": "The maths whizz turned £86m teenage star heading to Man City",
+      "summary": "Manchester City have agreed a deal in principle with Lille to sign midfielder Ayyoub Bouaddi - what makes him such a highly rated talent?",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwylg0kp5lwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-23T12:44:36.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cdx7x90dxywo?at_medium=RSS&at_campaign=rss",
@@ -50,6 +65,21 @@
       "date": "2026-08-22T20:39:00.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c3w0wpy86z7o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "What does Savinho's £75m move reveal about Man City's multi-club model?",
+      "titleJa": "移籍情報：What does Savinho's £75m move reveal about Man City's multi-club model?",
+      "from": "",
+      "to": "",
+      "summaryJa": "What does Savinho's £75m move reveal about Man City's multi-club model?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "What does Savinho's £75m move reveal about Man City's multi-club model?",
+      "summary": "Does Savinho's £75m move from Manchester City to Tottenham represent a sporting success for the Abu Dhabi-owned club?",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c3w0wpy86z7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-23T07:43:38.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cd9w1zkw7x8o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Man City will 'try to find the new Rodri' - Maresca",
@@ -63,21 +93,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cd9w1zkw7x8o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-22T21:30:32.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cjwxw2365wpo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Farke turnaround has Leeds aiming to thrive not just survive",
-      "titleJa": "移籍情報：Farke turnaround has Leeds aiming to thrive not just survive",
-      "from": "",
-      "to": "",
-      "summaryJa": "Farke turnaround has Leeds aiming to thrive not just survive移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Farke turnaround has Leeds aiming to thrive not just survive",
-      "summary": "With exciting new signings and growing belief, Leeds United will hope a winning start to the Premier League means they can aim to thrive rather than just survive this time around.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cjwxw2365wpo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-22T18:31:17.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/cr494we52ddo?at_medium=RSS&at_campaign=rss",
@@ -95,6 +110,21 @@
       "date": "2026-08-22T23:10:45.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cjwxw2365wpo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Farke turnaround has Leeds aiming to thrive not just survive",
+      "titleJa": "移籍情報：Farke turnaround has Leeds aiming to thrive not just survive",
+      "from": "",
+      "to": "",
+      "summaryJa": "Farke turnaround has Leeds aiming to thrive not just survive移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Farke turnaround has Leeds aiming to thrive not just survive",
+      "summary": "With exciting new signings and growing belief, Leeds United will hope a winning start to the Premier League means they can aim to thrive rather than just survive this time around.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cjwxw2365wpo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-22T18:31:17.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cnvnvjer47mo?at_medium=RSS&at_campaign=rss",
       "status": "talks",
       "player": "Villa close to signing Germany midfielder Goretzka",
@@ -108,21 +138,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cnvnvjer47mo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-22T14:39:46.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c2k78nk1n34o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "'I'm not ashamed' - Ellison on mental health and playing at 47",
-      "titleJa": "移籍情報：'I'm not ashamed' - Ellison on mental health and playing at 47",
-      "from": "",
-      "to": "",
-      "summaryJa": "'I'm not ashamed' - Ellison on mental health and playing at 47移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "'I'm not ashamed' - Ellison on mental health and playing at 47",
-      "summary": "Striker Kevin Ellison, who once signed for Premier League Leicester City, opens up about playing at 47 - and why it's important to talk about mental health.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c2k78nk1n34o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-22T06:19:35.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
