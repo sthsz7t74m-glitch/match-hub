@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-08-23T07:06:35.575Z",
+  "updatedAt": "2026-08-23T09:47:33.271Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cd9w1zkw7x8o?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c3w0wpy86z7o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Man City will 'try to find the new Rodri' - Maresca",
-      "titleJa": "移籍情報：Man City will 'try to find the new Rodri' - Maresca",
+      "player": "What does Savinho's £75m move reveal about Man City's multi-club model?",
+      "titleJa": "移籍情報：What does Savinho's £75m move reveal about Man City's multi-club model?",
       "from": "",
       "to": "",
-      "summaryJa": "Man City will 'try to find the new Rodri' - Maresca移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Man City will 'try to find the new Rodri' - Maresca",
-      "summary": "Manchester City will \"try to find the new Rodri\" after the Spain captain left the club earlier this week to join La Liga champions Barcelona, says manager Enzo Maresca.",
+      "summaryJa": "What does Savinho's £75m move reveal about Man City's multi-club model?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "What does Savinho's £75m move reveal about Man City's multi-club model?",
+      "summary": "Does Savinho's £75m move from Manchester City to Tottenham represent a sporting success for the Abu Dhabi-owned club?",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cd9w1zkw7x8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-22T21:30:32.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c3w0wpy86z7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-23T07:43:38.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cdx7x90dxywo?at_medium=RSS&at_campaign=rss",
@@ -48,6 +48,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cvg0gxxkp1vo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-22T20:39:00.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cd9w1zkw7x8o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Man City will 'try to find the new Rodri' - Maresca",
+      "titleJa": "移籍情報：Man City will 'try to find the new Rodri' - Maresca",
+      "from": "",
+      "to": "",
+      "summaryJa": "Man City will 'try to find the new Rodri' - Maresca移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Man City will 'try to find the new Rodri' - Maresca",
+      "summary": "Manchester City will \"try to find the new Rodri\" after the Spain captain left the club earlier this week to join La Liga champions Barcelona, says manager Enzo Maresca.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cd9w1zkw7x8o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-22T21:30:32.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cjwxw2365wpo?at_medium=RSS&at_campaign=rss",
@@ -110,21 +125,6 @@
       "date": "2026-08-22T06:19:35.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cp8x8lkwpz0o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Parkinson admits no guarantees of Wrexham signings",
-      "titleJa": "移籍情報：Parkinson admits no guarantees of Wrexham signings",
-      "from": "",
-      "to": "",
-      "summaryJa": "Parkinson admits no guarantees of Wrexham signings移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Parkinson admits no guarantees of Wrexham signings",
-      "summary": "Ryan Reynolds and Rob Mac held discussions over transfers with Parkinson prior to the 1-1 draw with Watford.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cp8x8lkwpz0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-22T17:37:23.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "All done deals in August 2026",
@@ -155,19 +155,19 @@
       "date": "2026-08-11T14:54:32.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c70g20d6klpo?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/crl7l3yx0g9o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Rangers",
-      "titleJa": "Rangersにstriker Fofana - gossip移籍の可能性",
+      "player": "'It's not doom and gloom just yet' - what is going on at Morton?",
+      "titleJa": "移籍情報：'It's not doom and gloom just yet' - what is going on at Morton?",
       "from": "",
-      "to": "striker Fofana - gossip",
-      "summaryJa": "Rangersがstriker Fofana - gossipへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Rangers linked with striker Fofana - gossip",
-      "summary": "Rangers consider loan striker from France as Celtic home in on Bosnia-Herzegovina star...",
-      "parsed": true,
+      "to": "",
+      "summaryJa": "'It's not doom and gloom just yet' - what is going on at Morton?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "'It's not doom and gloom just yet' - what is going on at Morton?",
+      "summary": "It's been a rocky start to the season for Morton with seven straight defeats, while the fans' group running the Championship club are dealing with a shortfall in funding.",
+      "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c70g20d6klpo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-22T09:09:03.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/crl7l3yx0g9o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-23T08:58:49.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cdrv86006r4o?at_medium=RSS&at_campaign=rss",
