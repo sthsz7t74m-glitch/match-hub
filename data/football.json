@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T19:41:04.947Z",
+  "updatedAt": "2026-08-23T20:01:48.383Z",
   "season": "2026",
   "dataSource": "football-data.org",
   "dataMode": "current-free-plan",
@@ -2409,14 +2409,14 @@
       },
       "goals": {
         "home": 0,
-        "away": 2
+        "away": 3
       },
       "score": {
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 2
+          "away": 3
         },
         "halfTime": {
           "home": 0,
@@ -2674,7 +2674,7 @@
     {
       "id": 558633,
       "date": "2026-08-23T18:45:00Z",
-      "status": "PAUSED",
+      "status": "IN_PLAY",
       "elapsed": null,
       "competition": "Serie A",
       "competitionJa": "セリエA",
@@ -2715,7 +2715,7 @@
     {
       "id": 558634,
       "date": "2026-08-23T18:45:00Z",
-      "status": "PAUSED",
+      "status": "IN_PLAY",
       "elapsed": null,
       "competition": "Serie A",
       "competitionJa": "セリエA",
@@ -2756,7 +2756,7 @@
     {
       "id": 559713,
       "date": "2026-08-23T18:45:00Z",
-      "status": "PAUSED",
+      "status": "IN_PLAY",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -2819,14 +2819,14 @@
       },
       "goals": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": null,
@@ -73446,6 +73446,22 @@
         {
           "rank": 6,
           "team": {
+            "id": 81,
+            "name": "FC Barcelona",
+            "shortName": "バルセロナ",
+            "logo": "https://crests.football-data.org/81.png"
+          },
+          "played": 1,
+          "win": 1,
+          "draw": 0,
+          "lose": 0,
+          "goalsDiff": 1,
+          "points": 3,
+          "form": ""
+        },
+        {
+          "rank": 6,
+          "team": {
             "id": 90,
             "name": "Real Betis Balompié",
             "shortName": "レアル・ベティス",
@@ -73460,7 +73476,7 @@
           "form": ""
         },
         {
-          "rank": 7,
+          "rank": 8,
           "team": {
             "id": 82,
             "name": "Getafe CF",
@@ -73476,28 +73492,12 @@
           "form": ""
         },
         {
-          "rank": 8,
+          "rank": 9,
           "team": {
             "id": 94,
             "name": "Villarreal CF",
             "shortName": "ビジャレアル",
             "logo": "https://crests.football-data.org/94.png"
-          },
-          "played": 2,
-          "win": 0,
-          "draw": 2,
-          "lose": 0,
-          "goalsDiff": 0,
-          "points": 2,
-          "form": ""
-        },
-        {
-          "rank": 9,
-          "team": {
-            "id": 285,
-            "name": "Elche CF",
-            "shortName": "エルチェ",
-            "logo": "https://crests.football-data.org/285.png"
           },
           "played": 2,
           "win": 0,
@@ -73514,22 +73514,6 @@
             "name": "RC Deportivo La Coruña",
             "shortName": "RC Deportivo La Coruña",
             "logo": "https://crests.football-data.org/560.png"
-          },
-          "played": 1,
-          "win": 0,
-          "draw": 1,
-          "lose": 0,
-          "goalsDiff": 0,
-          "points": 1,
-          "form": ""
-        },
-        {
-          "rank": 11,
-          "team": {
-            "id": 81,
-            "name": "FC Barcelona",
-            "shortName": "バルセロナ",
-            "logo": "https://crests.football-data.org/81.png"
           },
           "played": 1,
           "win": 0,
@@ -73572,7 +73556,7 @@
           "form": ""
         },
         {
-          "rank": 14,
+          "rank": 13,
           "team": {
             "id": 5335,
             "name": "Real Racing Club de Santander",
@@ -73588,12 +73572,28 @@
           "form": ""
         },
         {
-          "rank": 14,
+          "rank": 13,
           "team": {
             "id": 87,
             "name": "Rayo Vallecano de Madrid",
             "shortName": "ラージョ・バジェカーノ",
             "logo": "https://crests.football-data.org/87.png"
+          },
+          "played": 2,
+          "win": 0,
+          "draw": 1,
+          "lose": 1,
+          "goalsDiff": -1,
+          "points": 1,
+          "form": ""
+        },
+        {
+          "rank": 15,
+          "team": {
+            "id": 285,
+            "name": "Elche CF",
+            "shortName": "エルチェ",
+            "logo": "https://crests.football-data.org/285.png"
           },
           "played": 2,
           "win": 0,
@@ -73742,22 +73742,6 @@
         {
           "rank": 4,
           "team": {
-            "id": 102,
-            "name": "Atalanta BC",
-            "shortName": "アタランタ",
-            "logo": "https://crests.football-data.org/102.png"
-          },
-          "played": 1,
-          "win": 1,
-          "draw": 0,
-          "lose": 0,
-          "goalsDiff": 1,
-          "points": 3,
-          "form": ""
-        },
-        {
-          "rank": 4,
-          "team": {
             "id": 104,
             "name": "Cagliari Calcio",
             "shortName": "カリアリ",
@@ -73788,7 +73772,23 @@
           "form": ""
         },
         {
-          "rank": 7,
+          "rank": 6,
+          "team": {
+            "id": 102,
+            "name": "Atalanta BC",
+            "shortName": "アタランタ",
+            "logo": "https://crests.football-data.org/102.png"
+          },
+          "played": 1,
+          "win": 0,
+          "draw": 1,
+          "lose": 0,
+          "goalsDiff": 0,
+          "points": 1,
+          "form": ""
+        },
+        {
+          "rank": 6,
           "team": {
             "id": 7397,
             "name": "Como 1907",
@@ -73804,7 +73804,23 @@
           "form": ""
         },
         {
-          "rank": 7,
+          "rank": 6,
+          "team": {
+            "id": 471,
+            "name": "US Sassuolo Calcio",
+            "shortName": "サッスオーロ",
+            "logo": "https://crests.football-data.org/471.png"
+          },
+          "played": 1,
+          "win": 0,
+          "draw": 1,
+          "lose": 0,
+          "goalsDiff": 0,
+          "points": 1,
+          "form": ""
+        },
+        {
+          "rank": 6,
           "team": {
             "id": 115,
             "name": "Udinese Calcio",
@@ -73820,7 +73836,7 @@
           "form": ""
         },
         {
-          "rank": 9,
+          "rank": 10,
           "team": {
             "id": 98,
             "name": "AC Milan",
@@ -73836,7 +73852,7 @@
           "form": ""
         },
         {
-          "rank": 9,
+          "rank": 10,
           "team": {
             "id": 586,
             "name": "Torino FC",
@@ -73852,7 +73868,7 @@
           "form": ""
         },
         {
-          "rank": 11,
+          "rank": 12,
           "team": {
             "id": 99,
             "name": "ACF Fiorentina",
@@ -73868,7 +73884,7 @@
           "form": ""
         },
         {
-          "rank": 11,
+          "rank": 12,
           "team": {
             "id": 100,
             "name": "AS Roma",
@@ -73884,7 +73900,7 @@
           "form": ""
         },
         {
-          "rank": 11,
+          "rank": 12,
           "team": {
             "id": 103,
             "name": "Bologna FC 1909",
@@ -73900,7 +73916,7 @@
           "form": ""
         },
         {
-          "rank": 11,
+          "rank": 12,
           "team": {
             "id": 110,
             "name": "SS Lazio",
@@ -73916,7 +73932,7 @@
           "form": ""
         },
         {
-          "rank": 15,
+          "rank": 16,
           "team": {
             "id": 470,
             "name": "Frosinone Calcio",
@@ -73932,28 +73948,12 @@
           "form": ""
         },
         {
-          "rank": 15,
+          "rank": 16,
           "team": {
             "id": 112,
             "name": "Parma Calcio 1913",
             "shortName": "パルマ",
             "logo": "https://crests.football-data.org/112.png"
-          },
-          "played": 1,
-          "win": 0,
-          "draw": 0,
-          "lose": 1,
-          "goalsDiff": -1,
-          "points": 0,
-          "form": ""
-        },
-        {
-          "rank": 15,
-          "team": {
-            "id": 471,
-            "name": "US Sassuolo Calcio",
-            "shortName": "サッスオーロ",
-            "logo": "https://crests.football-data.org/471.png"
           },
           "played": 1,
           "win": 0,
