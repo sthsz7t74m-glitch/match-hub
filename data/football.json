@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T17:11:23.817Z",
+  "updatedAt": "2026-08-23T17:40:49.433Z",
   "season": "2026",
   "dataSource": "football-data.org",
   "dataMode": "current-free-plan",
@@ -2409,14 +2409,14 @@
       },
       "goals": {
         "home": 0,
-        "away": 3
+        "away": 2
       },
       "score": {
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 3
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -2428,7 +2428,7 @@
     {
       "id": 564646,
       "date": "2026-08-23T15:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -2469,7 +2469,7 @@
     {
       "id": 559719,
       "date": "2026-08-23T15:15:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -2510,7 +2510,7 @@
     {
       "id": 560550,
       "date": "2026-08-23T15:30:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -2532,14 +2532,14 @@
       },
       "goals": {
         "home": 2,
-        "away": 1
+        "away": 2
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
           "home": 2,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 1,
@@ -2551,7 +2551,7 @@
     {
       "id": 558635,
       "date": "2026-08-23T16:30:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "elapsed": null,
       "competition": "Serie A",
       "competitionJa": "セリエA",
@@ -2583,8 +2583,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "events": []
@@ -2592,7 +2592,7 @@
     {
       "id": 558637,
       "date": "2026-08-23T16:30:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "elapsed": null,
       "competition": "Serie A",
       "competitionJa": "セリエA",
@@ -2613,19 +2613,19 @@
         "logo": "https://crests.football-data.org/5890.png"
       },
       "goals": {
-        "home": 1,
+        "home": 0,
         "away": 0
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 0,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "events": []
@@ -2633,7 +2633,7 @@
     {
       "id": 564644,
       "date": "2026-08-23T17:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -2654,15 +2654,15 @@
         "logo": "https://crests.football-data.org/5335.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -73148,23 +73148,7 @@
           "form": ""
         },
         {
-          "rank": 6,
-          "team": {
-            "id": 67,
-            "name": "Newcastle United FC",
-            "shortName": "ニューカッスル・ユナイテッド",
-            "logo": "https://crests.football-data.org/67.png"
-          },
-          "played": 1,
-          "win": 1,
-          "draw": 0,
-          "lose": 0,
-          "goalsDiff": 1,
-          "points": 3,
-          "form": ""
-        },
-        {
-          "rank": 9,
+          "rank": 8,
           "team": {
             "id": 341,
             "name": "Leeds United FC",
@@ -73180,7 +73164,39 @@
           "form": ""
         },
         {
-          "rank": 10,
+          "rank": 9,
+          "team": {
+            "id": 64,
+            "name": "Liverpool FC",
+            "shortName": "リヴァプール",
+            "logo": "https://crests.football-data.org/64.png"
+          },
+          "played": 1,
+          "win": 0,
+          "draw": 1,
+          "lose": 0,
+          "goalsDiff": 0,
+          "points": 1,
+          "form": ""
+        },
+        {
+          "rank": 9,
+          "team": {
+            "id": 67,
+            "name": "Newcastle United FC",
+            "shortName": "ニューカッスル・ユナイテッド",
+            "logo": "https://crests.football-data.org/67.png"
+          },
+          "played": 1,
+          "win": 0,
+          "draw": 1,
+          "lose": 0,
+          "goalsDiff": 0,
+          "points": 1,
+          "form": ""
+        },
+        {
+          "rank": 11,
           "team": {
             "id": 61,
             "name": "Chelsea FC",
@@ -73196,7 +73212,7 @@
           "form": ""
         },
         {
-          "rank": 10,
+          "rank": 11,
           "team": {
             "id": 63,
             "name": "Fulham FC",
@@ -73212,7 +73228,7 @@
           "form": ""
         },
         {
-          "rank": 12,
+          "rank": 13,
           "team": {
             "id": 1044,
             "name": "AFC Bournemouth",
@@ -73228,23 +73244,7 @@
           "form": ""
         },
         {
-          "rank": 12,
-          "team": {
-            "id": 64,
-            "name": "Liverpool FC",
-            "shortName": "リヴァプール",
-            "logo": "https://crests.football-data.org/64.png"
-          },
-          "played": 1,
-          "win": 0,
-          "draw": 0,
-          "lose": 1,
-          "goalsDiff": -1,
-          "points": 0,
-          "form": ""
-        },
-        {
-          "rank": 12,
+          "rank": 13,
           "team": {
             "id": 71,
             "name": "Sunderland AFC",
@@ -73483,12 +73483,12 @@
             "shortName": "Real Racing Club de Santander",
             "logo": "https://crests.football-data.org/5335.png"
           },
-          "played": 1,
+          "played": 2,
           "win": 0,
-          "draw": 1,
+          "draw": 2,
           "lose": 0,
           "goalsDiff": 0,
-          "points": 1,
+          "points": 2,
           "form": ""
         },
         {
@@ -73574,6 +73574,22 @@
         {
           "rank": 14,
           "team": {
+            "id": 82,
+            "name": "Getafe CF",
+            "shortName": "ヘタフェ",
+            "logo": "https://crests.football-data.org/82.png"
+          },
+          "played": 2,
+          "win": 0,
+          "draw": 1,
+          "lose": 1,
+          "goalsDiff": -3,
+          "points": 1,
+          "form": ""
+        },
+        {
+          "rank": 15,
+          "team": {
             "id": 79,
             "name": "CA Osasuna",
             "shortName": "オサスナ",
@@ -73588,7 +73604,7 @@
           "form": ""
         },
         {
-          "rank": 14,
+          "rank": 15,
           "team": {
             "id": 81,
             "name": "FC Barcelona",
@@ -73604,7 +73620,7 @@
           "form": ""
         },
         {
-          "rank": 16,
+          "rank": 17,
           "team": {
             "id": 92,
             "name": "Real Sociedad de Fútbol",
@@ -73620,7 +73636,7 @@
           "form": ""
         },
         {
-          "rank": 17,
+          "rank": 18,
           "team": {
             "id": 77,
             "name": "Athletic Club",
@@ -73636,7 +73652,7 @@
           "form": ""
         },
         {
-          "rank": 18,
+          "rank": 19,
           "team": {
             "id": 84,
             "name": "Málaga CF",
@@ -73652,23 +73668,7 @@
           "form": ""
         },
         {
-          "rank": 19,
-          "team": {
-            "id": 82,
-            "name": "Getafe CF",
-            "shortName": "ヘタフェ",
-            "logo": "https://crests.football-data.org/82.png"
-          },
-          "played": 1,
-          "win": 0,
-          "draw": 0,
-          "lose": 1,
-          "goalsDiff": -3,
-          "points": 0,
-          "form": ""
-        },
-        {
-          "rank": 19,
+          "rank": 20,
           "team": {
             "id": 88,
             "name": "Levante UD",
