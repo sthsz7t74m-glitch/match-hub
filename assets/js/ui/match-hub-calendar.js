@@ -2,6 +2,17 @@ const sharedMatchHubUI = window.SportsUI || window.FootballUI || {};
 window.SportsUI = sharedMatchHubUI;
 window.FootballUI = sharedMatchHubUI;
 
+// Keep this feature self-contained: load its CSS without adding another legacy override to index.html.
+if (!document.querySelector('link[data-calendar-league-filter]')) {
+  const link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.href = './assets/css/calendar-league-filter.css?v=114';
+  link.dataset.calendarLeagueFilter = 'true';
+  document.head.appendChild(link);
+}
+const releaseBadge = document.querySelector('.version');
+if (releaseBadge) releaseBadge.textContent = 'v1.1.14';
+
 (function initializeMatchHubCalendar(namespace) {
   if (document.body.dataset.hub !== 'five' || namespace.calendars?.five) return;
   const Core = window.SportsCore || window.FootballCore;
@@ -76,25 +87,15 @@ window.FootballUI = sharedMatchHubUI;
     const selected = matchesOnDate(date);
     const availableLeagues = new Set(selected.map(leagueIdOf));
     if (selectedLeague !== 'all' && !availableLeagues.has(selectedLeague)) selectedLeague = 'all';
-    const visible = selectedLeague === 'all'
-      ? selected
-      : selected.filter(match => leagueIdOf(match) === selectedLeague);
+    const visible = selectedLeague === 'all' ? selected : selected.filter(match => leagueIdOf(match) === selectedLeague);
     const filters = renderLeagueFilters(selected);
     const cards = visible.length
       ? visible.map(match => matchCard(match, { rich: true })).join('')
-      : Core?.SportsScheduleEmptyState?.render({
-          title: 'このリーグの試合はありません',
-          description: '別のリーグを選択してください。',
-          className: 'compact-empty'
-        }) || '<p class="empty compact-empty">このリーグの試合はありません</p>';
+      : Core?.SportsScheduleEmptyState?.render({ title: 'このリーグの試合はありません', description: '別のリーグを選択してください。', className: 'compact-empty' }) || '<p class="empty compact-empty">このリーグの試合はありません</p>';
 
     selectedMatchesRoot.innerHTML = selected.length
       ? `${filters}${cards}`
-      : Core?.SportsScheduleEmptyState?.render({
-          title: calendar?.favoriteOnly ? 'この日に推しの試合はありません' : 'この日の試合はありません',
-          description: '別の日付を選択してください。',
-          className: 'compact-empty'
-        }) || `<p class="empty compact-empty">${calendar?.favoriteOnly ? 'この日に推しの試合はありません' : 'この日の試合はありません'}</p>`;
+      : Core?.SportsScheduleEmptyState?.render({ title: calendar?.favoriteOnly ? 'この日に推しの試合はありません' : 'この日の試合はありません', description: '別の日付を選択してください。', className: 'compact-empty' }) || `<p class="empty compact-empty">${calendar?.favoriteOnly ? 'この日に推しの試合はありません' : 'この日の試合はありません'}</p>`;
   };
 
   selectedMatchesRoot?.addEventListener('click', event => {
@@ -105,18 +106,12 @@ window.FootballUI = sharedMatchHubUI;
   });
 
   const options = {
-    page: 'five',
-    root,
-    title: document.querySelector('#calendarTitle'),
-    ...controls,
+    page: 'five', root, title: document.querySelector('#calendarTitle'), ...controls,
     getMatches: matches,
     getFavorites: () => state.favorites,
     getPrimary: () => state.primary,
     getDate: match => match.date,
-    getTeamVisual: id => {
-      const team = teamById(id);
-      return { logo: team?.logo, label: '★' };
-    },
+    getTeamVisual: id => { const team = teamById(id); return { logo: team?.logo, label: '★' }; },
     onSelect: date => {
       if ((date || null) !== state.calendarSelected) selectedLeague = 'all';
       state.calendarSelected = date || null;
@@ -124,22 +119,14 @@ window.FootballUI = sharedMatchHubUI;
     }
   };
 
-  calendar = namespace.createCalendar
-    ? namespace.createCalendar(options)
-    : new (namespace.SoccerCalendar || namespace.FootballCalendar || namespace.SportsCalendar)(options);
-
+  calendar = namespace.createCalendar ? namespace.createCalendar(options) : new (namespace.SoccerCalendar || namespace.FootballCalendar || namespace.SportsCalendar)(options);
   const renderSharedCalendar = () => {
     calendar.selected = state.calendarSelected || '';
     calendar.render();
     renderSelectedMatches(calendar.selected);
   };
-
   renderCalendar = renderSharedCalendar;
-  changeCalendarMonth = delta => {
-    selectedLeague = 'all';
-    calendar.shift(delta);
-  };
-
+  changeCalendarMonth = delta => { selectedLeague = 'all'; calendar.shift(delta); };
   namespace.calendars = namespace.calendars || {};
   namespace.calendars.five = calendar;
   window.MatchHubUsesLegacyCalendar = false;
