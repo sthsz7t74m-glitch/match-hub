@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T17:40:49.433Z",
+  "updatedAt": "2026-08-23T18:02:14.189Z",
   "season": "2026",
   "dataSource": "football-data.org",
   "dataMode": "current-free-plan",
@@ -2551,7 +2551,7 @@
     {
       "id": 558635,
       "date": "2026-08-23T16:30:00Z",
-      "status": "PAUSED",
+      "status": "IN_PLAY",
       "elapsed": null,
       "competition": "Serie A",
       "competitionJa": "セリエA",
@@ -2592,7 +2592,7 @@
     {
       "id": 558637,
       "date": "2026-08-23T16:30:00Z",
-      "status": "PAUSED",
+      "status": "IN_PLAY",
       "elapsed": null,
       "competition": "Serie A",
       "competitionJa": "セリエA",
@@ -2614,14 +2614,14 @@
       },
       "goals": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "halfTime": {
           "home": 0,
@@ -73756,7 +73756,23 @@
           "form": ""
         },
         {
-          "rank": 5,
+          "rank": 3,
+          "team": {
+            "id": 5890,
+            "name": "US Lecce",
+            "shortName": "レッチェ",
+            "logo": "https://crests.football-data.org/5890.png"
+          },
+          "played": 1,
+          "win": 1,
+          "draw": 0,
+          "lose": 0,
+          "goalsDiff": 1,
+          "points": 3,
+          "form": ""
+        },
+        {
+          "rank": 6,
           "team": {
             "id": 7397,
             "name": "Como 1907",
@@ -73772,7 +73788,7 @@
           "form": ""
         },
         {
-          "rank": 5,
+          "rank": 6,
           "team": {
             "id": 115,
             "name": "Udinese Calcio",
@@ -73788,39 +73804,7 @@
           "form": ""
         },
         {
-          "rank": 7,
-          "team": {
-            "id": 5890,
-            "name": "US Lecce",
-            "shortName": "レッチェ",
-            "logo": "https://crests.football-data.org/5890.png"
-          },
-          "played": 1,
-          "win": 0,
-          "draw": 1,
-          "lose": 0,
-          "goalsDiff": 0,
-          "points": 1,
-          "form": ""
-        },
-        {
-          "rank": 7,
-          "team": {
-            "id": 454,
-            "name": "Venezia FC",
-            "shortName": "Venezia FC",
-            "logo": "https://crests.football-data.org/454.png"
-          },
-          "played": 1,
-          "win": 0,
-          "draw": 1,
-          "lose": 0,
-          "goalsDiff": 0,
-          "points": 1,
-          "form": ""
-        },
-        {
-          "rank": 9,
+          "rank": 8,
           "team": {
             "id": 98,
             "name": "AC Milan",
@@ -73836,7 +73820,7 @@
           "form": ""
         },
         {
-          "rank": 9,
+          "rank": 8,
           "team": {
             "id": 99,
             "name": "ACF Fiorentina",
@@ -73852,7 +73836,7 @@
           "form": ""
         },
         {
-          "rank": 9,
+          "rank": 8,
           "team": {
             "id": 100,
             "name": "AS Roma",
@@ -73868,7 +73852,7 @@
           "form": ""
         },
         {
-          "rank": 9,
+          "rank": 8,
           "team": {
             "id": 102,
             "name": "Atalanta BC",
@@ -73884,7 +73868,7 @@
           "form": ""
         },
         {
-          "rank": 9,
+          "rank": 8,
           "team": {
             "id": 103,
             "name": "Bologna FC 1909",
@@ -73900,7 +73884,7 @@
           "form": ""
         },
         {
-          "rank": 9,
+          "rank": 8,
           "team": {
             "id": 110,
             "name": "SS Lazio",
@@ -73916,7 +73900,7 @@
           "form": ""
         },
         {
-          "rank": 9,
+          "rank": 8,
           "team": {
             "id": 471,
             "name": "US Sassuolo Calcio",
@@ -73932,7 +73916,7 @@
           "form": ""
         },
         {
-          "rank": 9,
+          "rank": 8,
           "team": {
             "id": 586,
             "name": "Torino FC",
@@ -73948,7 +73932,7 @@
           "form": ""
         },
         {
-          "rank": 17,
+          "rank": 16,
           "team": {
             "id": 470,
             "name": "Frosinone Calcio",
@@ -73964,12 +73948,28 @@
           "form": ""
         },
         {
-          "rank": 17,
+          "rank": 16,
           "team": {
             "id": 112,
             "name": "Parma Calcio 1913",
             "shortName": "パルマ",
             "logo": "https://crests.football-data.org/112.png"
+          },
+          "played": 1,
+          "win": 0,
+          "draw": 0,
+          "lose": 1,
+          "goalsDiff": -1,
+          "points": 0,
+          "form": ""
+        },
+        {
+          "rank": 16,
+          "team": {
+            "id": 454,
+            "name": "Venezia FC",
+            "shortName": "Venezia FC",
+            "logo": "https://crests.football-data.org/454.png"
           },
           "played": 1,
           "win": 0,
