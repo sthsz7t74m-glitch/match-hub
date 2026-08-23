@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T20:44:27.799Z",
+  "updatedAt": "2026-08-23T21:03:58.565Z",
   "season": "2026",
   "dataSource": "football-data.org",
   "dataMode": "current-free-plan",
@@ -2409,14 +2409,14 @@
       },
       "goals": {
         "home": 0,
-        "away": 2
+        "away": 3
       },
       "score": {
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 2
+          "away": 3
         },
         "halfTime": {
           "home": 0,
@@ -2715,7 +2715,7 @@
     {
       "id": 558634,
       "date": "2026-08-23T18:45:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Serie A",
       "competitionJa": "セリエA",
@@ -2797,7 +2797,7 @@
     {
       "id": 564642,
       "date": "2026-08-23T19:30:00Z",
-      "status": "PAUSED",
+      "status": "IN_PLAY",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
