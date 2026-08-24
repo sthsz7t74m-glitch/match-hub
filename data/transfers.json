@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T10:07:30.145Z",
+  "updatedAt": "2026-08-24T13:24:33.347Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -35,21 +35,6 @@
       "date": "2026-08-24T08:06:26.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/videos/c0kmk6rd30no?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Opening win was beyond anyone's dreams - Hull assistant Holden",
-      "titleJa": "移籍情報：Opening win was beyond anyone's dreams - Hull assistant Holden",
-      "from": "",
-      "to": "",
-      "summaryJa": "Opening win was beyond anyone's dreams - Hull assistant Holden移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Opening win was beyond anyone's dreams - Hull assistant Holden",
-      "summary": "Following their huge win against Manchester United, Hull City assistant head coach Dean Holden joins Gabby Logan, Danny Murphy and Joe Hart in the Match of the Day studio.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c0kmk6rd30no?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-23T23:37:29.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cgmkmpj03zmo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "What does your Premiership club need in final 11 days of transfer window?",
@@ -63,6 +48,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cgmkmpj03zmo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-24T07:41:49.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/videos/c0kmk6rd30no?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Opening win was beyond anyone's dreams - Hull assistant Holden",
+      "titleJa": "移籍情報：Opening win was beyond anyone's dreams - Hull assistant Holden",
+      "from": "",
+      "to": "",
+      "summaryJa": "Opening win was beyond anyone's dreams - Hull assistant Holden移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Opening win was beyond anyone's dreams - Hull assistant Holden",
+      "summary": "Following their huge win against Manchester United, Hull City assistant head coach Dean Holden joins Gabby Logan, Danny Murphy and Joe Hart in the Match of the Day studio.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c0kmk6rd30no?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-23T23:37:29.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c80n021k098o?at_medium=RSS&at_campaign=rss",
@@ -123,21 +123,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwylg0kp5lwo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-23T12:44:36.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cdx7x90dxywo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Mateta claims final year of Palace deal is invalid",
-      "titleJa": "移籍情報：Mateta claims final year of Palace deal is invalid",
-      "from": "",
-      "to": "",
-      "summaryJa": "Mateta claims final year of Palace deal is invalid移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Mateta claims final year of Palace deal is invalid",
-      "summary": "Jean-Philippe Mateta is challenging the validity of the final 10 months on his Crystal Palace contract.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cdx7x90dxywo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-22T17:49:41.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
