@@ -1,24 +1,9 @@
 {
-  "updatedAt": "2026-08-24T13:24:33.347Z",
+  "updatedAt": "2026-08-24T15:59:12.407Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cp878rp71v2o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Uefa chief Ceferin rules out Fifa presidency bid",
-      "titleJa": "移籍情報：Uefa chief Ceferin rules out Fifa presidency bid",
-      "from": "",
-      "to": "",
-      "summaryJa": "Uefa chief Ceferin rules out Fifa presidency bid移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Uefa chief Ceferin rules out Fifa presidency bid",
-      "summary": "Uefa president Aleksander Ceferin rules himself out of the running to replace Gianni Infantino, but expects a candidate to challenge the Fifa president's leadership in March.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cp878rp71v2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-23T23:20:31.000Z"
-    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cz6465pj4njo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -33,6 +18,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cz6465pj4njo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-24T08:06:26.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cp878rp71v2o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Uefa chief Ceferin rules out Fifa presidency bid",
+      "titleJa": "移籍情報：Uefa chief Ceferin rules out Fifa presidency bid",
+      "from": "",
+      "to": "",
+      "summaryJa": "Uefa chief Ceferin rules out Fifa presidency bid移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Uefa chief Ceferin rules out Fifa presidency bid",
+      "summary": "Uefa president Aleksander Ceferin rules himself out of the running to replace Gianni Infantino, but expects a candidate to challenge the Fifa president's leadership in March.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cp878rp71v2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-23T23:20:31.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cgmkmpj03zmo?at_medium=RSS&at_campaign=rss",
@@ -80,6 +80,21 @@
       "date": "2026-08-23T20:38:18.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cwylg0kp5lwo?at_medium=RSS&at_campaign=rss",
+      "status": "agreed",
+      "player": "The maths whizz turned £86m teenage star heading to Man City",
+      "titleJa": "移籍情報：The maths whizz turned £86m teenage star heading to Man City",
+      "from": "",
+      "to": "",
+      "summaryJa": "The maths whizz turned £86m teenage star heading to Man City移る可能性について、合意段階の報道です。",
+      "originalTitle": "The maths whizz turned £86m teenage star heading to Man City",
+      "summary": "Manchester City have agreed a deal in principle with Lille to sign midfielder Ayyoub Bouaddi - what makes him such a highly rated talent?",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwylg0kp5lwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-23T12:44:36.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/czxqx29jy02o?at_medium=RSS&at_campaign=rss",
       "status": "talks",
       "player": "Man City ready to meet Chelsea's Fernandez demand - Monday's gossip",
@@ -108,21 +123,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cgk4k444rmmo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-23T17:37:06.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cwylg0kp5lwo?at_medium=RSS&at_campaign=rss",
-      "status": "agreed",
-      "player": "The maths whizz turned £86m teenage star heading to Man City",
-      "titleJa": "移籍情報：The maths whizz turned £86m teenage star heading to Man City",
-      "from": "",
-      "to": "",
-      "summaryJa": "The maths whizz turned £86m teenage star heading to Man City移る可能性について、合意段階の報道です。",
-      "originalTitle": "The maths whizz turned £86m teenage star heading to Man City",
-      "summary": "Manchester City have agreed a deal in principle with Lille to sign midfielder Ayyoub Bouaddi - what makes him such a highly rated talent?",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwylg0kp5lwo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-23T12:44:36.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
@@ -155,6 +155,21 @@
       "date": "2026-08-11T14:54:32.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/crr4ldl1wp0o?at_medium=RSS&at_campaign=rss",
+      "status": "agreed",
+      "player": "Girona winger Kim to undergo Rangers medical",
+      "titleJa": "移籍情報：Girona winger Kim to undergo Rangers medical",
+      "from": "",
+      "to": "",
+      "summaryJa": "Girona winger Kim to undergo Rangers medical移る可能性について、合意段階の報道です。",
+      "originalTitle": "Girona winger Kim to undergo Rangers medical",
+      "summary": "Girona winger Kim Min-Su is expected to arrive in Glasgow in the next 48 hours before a prospective move to Rangers.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crr4ldl1wp0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-24T13:29:22.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sounds/play/p0p5z6zj?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Podcast: A derby win, a new Championship leader and who is winning the transfer window?",
@@ -168,36 +183,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sounds/play/p0p5z6zj?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-24T07:00:00.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/ce343p742v9o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Manchester Utd midfielder Devaney",
-      "titleJa": "Manchester Utd midfielder Devaney、Hibs on loanへ加入",
-      "from": "",
-      "to": "Hibs on loan",
-      "summaryJa": "Manchester Utd midfielder DevaneyがHibs on loanへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Manchester Utd midfielder Devaney joins Hibs on loan",
-      "summary": "Manchester United teenager Jacob Devaney is joining Hibernian on a season-long loan, with the Edinburgh club holding an option to make the move permanent.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ce343p742v9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-23T17:19:53.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/crl7l3yx0g9o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "'It's not doom and gloom just yet' - what is going on at Morton?",
-      "titleJa": "移籍情報：'It's not doom and gloom just yet' - what is going on at Morton?",
-      "from": "",
-      "to": "",
-      "summaryJa": "'It's not doom and gloom just yet' - what is going on at Morton?移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "'It's not doom and gloom just yet' - what is going on at Morton?",
-      "summary": "It's been a rocky start to the season for Morton with seven straight defeats, while the fans' group running the Championship club are dealing with a shortfall in funding.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crl7l3yx0g9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-23T08:58:49.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cdrv86006r4o?at_medium=RSS&at_campaign=rss",
