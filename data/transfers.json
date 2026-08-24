@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T07:32:28.956Z",
+  "updatedAt": "2026-08-24T10:07:30.145Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -20,19 +20,49 @@
       "date": "2026-08-23T23:20:31.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/videos/c0kmk6rd30no?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/cz6465pj4njo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "'A win at home in the first game was beyond anyone's dreams' - Holden on MOTD",
-      "titleJa": "移籍情報：'A win at home in the first game was beyond anyone's dreams' - Holden on MOTD",
+      "player": "Mateta's contract claim leaves Palace with transfer decision",
+      "titleJa": "移籍情報：Mateta's contract claim leaves Palace with transfer decision",
       "from": "",
       "to": "",
-      "summaryJa": "'A win at home in the first game was beyond anyone's dreams' - Holden on MOTD移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "'A win at home in the first game was beyond anyone's dreams' - Holden on MOTD",
+      "summaryJa": "Mateta's contract claim leaves Palace with transfer decision移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Mateta's contract claim leaves Palace with transfer decision",
+      "summary": "Following a dispute over the length of his contract, will Jean-Philippe Mateta stay at Crystal Palace beyond the transfer window?",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cz6465pj4njo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-24T08:06:26.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/videos/c0kmk6rd30no?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Opening win was beyond anyone's dreams - Hull assistant Holden",
+      "titleJa": "移籍情報：Opening win was beyond anyone's dreams - Hull assistant Holden",
+      "from": "",
+      "to": "",
+      "summaryJa": "Opening win was beyond anyone's dreams - Hull assistant Holden移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Opening win was beyond anyone's dreams - Hull assistant Holden",
       "summary": "Following their huge win against Manchester United, Hull City assistant head coach Dean Holden joins Gabby Logan, Danny Murphy and Joe Hart in the Match of the Day studio.",
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c0kmk6rd30no?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-23T23:37:29.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cgmkmpj03zmo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "What does your Premiership club need in final 11 days of transfer window?",
+      "titleJa": "移籍情報：What does your Premiership club need in final 11 days of transfer window?",
+      "from": "",
+      "to": "",
+      "summaryJa": "What does your Premiership club need in final 11 days of transfer window?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "What does your Premiership club need in final 11 days of transfer window?",
+      "summary": "BBC Scotland assesses the 12 top-flight clubs' needs as the transfer deadline approaches.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cgmkmpj03zmo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-24T07:41:49.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c80n021k098o?at_medium=RSS&at_campaign=rss",
@@ -95,21 +125,6 @@
       "date": "2026-08-23T12:44:36.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c3w0wpy86z7o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "What does Savinho's £75m move reveal about Man City's multi-club model?",
-      "titleJa": "移籍情報：What does Savinho's £75m move reveal about Man City's multi-club model?",
-      "from": "",
-      "to": "",
-      "summaryJa": "What does Savinho's £75m move reveal about Man City's multi-club model?移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "What does Savinho's £75m move reveal about Man City's multi-club model?",
-      "summary": "Does Savinho's £75m move from Manchester City to Tottenham represent a sporting success for the Abu Dhabi-owned club?",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c3w0wpy86z7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-23T07:43:38.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cdx7x90dxywo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Mateta claims final year of Palace deal is invalid",
@@ -123,21 +138,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cdx7x90dxywo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-22T17:49:41.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/clyjy0e0pkzo?at_medium=RSS&at_campaign=rss",
-      "status": "agreed",
-      "player": "Man City agree £86m deal for teen midfielder Bouaddi",
-      "titleJa": "移籍情報：Man City agree £86m deal for teen midfielder Bouaddi",
-      "from": "",
-      "to": "",
-      "summaryJa": "Man City agree £86m deal for teen midfielder Bouaddi移る可能性について、合意段階の報道です。",
-      "originalTitle": "Man City agree £86m deal for teen midfielder Bouaddi",
-      "summary": "Manchester City agree a deal in principle for 18-year-old Lille midfielder Ayyoub Bouaddi worth 100m euros (£86m).",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/clyjy0e0pkzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-23T12:41:05.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
