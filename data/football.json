@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T23:40:49.941Z",
+  "updatedAt": "2026-08-24T00:02:18.005Z",
   "season": "2026",
   "dataSource": "football-data.org",
   "dataMode": "current-free-plan",
@@ -2409,14 +2409,14 @@
       },
       "goals": {
         "home": 0,
-        "away": 3
+        "away": 2
       },
       "score": {
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 3
+          "away": 2
         },
         "halfTime": {
           "home": 0,
