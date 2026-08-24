@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T21:40:42.187Z",
+  "updatedAt": "2026-08-24T02:00:35.052Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -20,19 +20,19 @@
       "date": "2026-08-23T20:38:18.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cgk4k444rmmo?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Al-Hilal open talks to sign Arsenal winger Martinelli",
-      "titleJa": "移籍情報：Al-Hilal open talks to sign Arsenal winger Martinelli",
+      "id": "https://www.bbc.co.uk/sport/football/videos/c0kmk6rd30no?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "'A win at home in the first game was beyond anyone's dreams' - Holden on MOTD",
+      "titleJa": "移籍情報：'A win at home in the first game was beyond anyone's dreams' - Holden on MOTD",
       "from": "",
       "to": "",
-      "summaryJa": "Al-Hilal open talks to sign Arsenal winger Martinelli移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Al-Hilal open talks to sign Arsenal winger Martinelli",
-      "summary": "Saudi Arabian club Al-Hilal open negotiations with Arsenal over a move for Brazil forward Gabriel Martinelli.",
+      "summaryJa": "'A win at home in the first game was beyond anyone's dreams' - Holden on MOTD移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "'A win at home in the first game was beyond anyone's dreams' - Holden on MOTD",
+      "summary": "Following their huge win against Manchester United, Hull City assistant head coach Dean Holden joins Gabby Logan, Danny Murphy and Joe Hart in the Match of the Day studio.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cgk4k444rmmo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-23T17:37:06.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/videos/c0kmk6rd30no?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-23T23:37:29.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/czxqx29jy02o?at_medium=RSS&at_campaign=rss",
@@ -48,6 +48,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/czxqx29jy02o?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-23T20:36:34.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cgk4k444rmmo?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Al-Hilal open talks to sign Arsenal winger Martinelli",
+      "titleJa": "移籍情報：Al-Hilal open talks to sign Arsenal winger Martinelli",
+      "from": "",
+      "to": "",
+      "summaryJa": "Al-Hilal open talks to sign Arsenal winger Martinelli移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Al-Hilal open talks to sign Arsenal winger Martinelli",
+      "summary": "Saudi Arabian club Al-Hilal open negotiations with Arsenal over a move for Brazil forward Gabriel Martinelli.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cgk4k444rmmo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-08-23T17:37:06.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cwylg0kp5lwo?at_medium=RSS&at_campaign=rss",
@@ -108,21 +123,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/clyjy0e0pkzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-08-23T12:41:05.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cjwxw2365wpo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Farke turnaround has Leeds aiming to thrive not just survive",
-      "titleJa": "移籍情報：Farke turnaround has Leeds aiming to thrive not just survive",
-      "from": "",
-      "to": "",
-      "summaryJa": "Farke turnaround has Leeds aiming to thrive not just survive移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Farke turnaround has Leeds aiming to thrive not just survive",
-      "summary": "With exciting new signings and growing belief, Leeds United will hope a winning start to the Premier League means they can aim to thrive rather than just survive this time around.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cjwxw2365wpo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-08-22T18:31:17.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
