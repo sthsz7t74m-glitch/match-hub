@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T03:31:41.132Z",
+  "updatedAt": "2026-08-24T03:33:37.993Z",
   "source": "ESPN multi-competition monthly adapter",
   "competitionCount": 15,
   "competitions": [
@@ -308,12 +308,12 @@
     {
       "code": "conmebol.copa_america",
       "dates": "20271001-20271031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.copa_america",
       "dates": "20271101-20271130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.copa_america",
