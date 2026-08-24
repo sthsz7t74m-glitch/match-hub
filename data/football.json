@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T16:19:37.830Z",
+  "updatedAt": "2026-08-24T17:19:32.126Z",
   "season": "2026",
   "dataSource": "football-data.org",
   "dataMode": "current-free-plan",
@@ -2838,7 +2838,7 @@
     {
       "id": 558630,
       "date": "2026-08-24T16:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "elapsed": null,
       "competition": "Serie A",
       "competitionJa": "セリエA",
@@ -2859,15 +2859,15 @@
         "logo": "https://crests.football-data.org/110.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -73838,6 +73838,38 @@
         {
           "rank": 10,
           "team": {
+            "id": 103,
+            "name": "Bologna FC 1909",
+            "shortName": "ボローニャ",
+            "logo": "https://crests.football-data.org/103.png"
+          },
+          "played": 1,
+          "win": 0,
+          "draw": 1,
+          "lose": 0,
+          "goalsDiff": 0,
+          "points": 1,
+          "form": ""
+        },
+        {
+          "rank": 10,
+          "team": {
+            "id": 110,
+            "name": "SS Lazio",
+            "shortName": "ラツィオ",
+            "logo": "https://crests.football-data.org/110.png"
+          },
+          "played": 1,
+          "win": 0,
+          "draw": 1,
+          "lose": 0,
+          "goalsDiff": 0,
+          "points": 1,
+          "form": ""
+        },
+        {
+          "rank": 12,
+          "team": {
             "id": 99,
             "name": "ACF Fiorentina",
             "shortName": "フィオレンティーナ",
@@ -73852,44 +73884,12 @@
           "form": ""
         },
         {
-          "rank": 10,
+          "rank": 12,
           "team": {
             "id": 100,
             "name": "AS Roma",
             "shortName": "ローマ",
             "logo": "https://crests.football-data.org/100.png"
-          },
-          "played": 0,
-          "win": 0,
-          "draw": 0,
-          "lose": 0,
-          "goalsDiff": 0,
-          "points": 0,
-          "form": ""
-        },
-        {
-          "rank": 10,
-          "team": {
-            "id": 103,
-            "name": "Bologna FC 1909",
-            "shortName": "ボローニャ",
-            "logo": "https://crests.football-data.org/103.png"
-          },
-          "played": 0,
-          "win": 0,
-          "draw": 0,
-          "lose": 0,
-          "goalsDiff": 0,
-          "points": 0,
-          "form": ""
-        },
-        {
-          "rank": 10,
-          "team": {
-            "id": 110,
-            "name": "SS Lazio",
-            "shortName": "ラツィオ",
-            "logo": "https://crests.football-data.org/110.png"
           },
           "played": 0,
           "win": 0,
