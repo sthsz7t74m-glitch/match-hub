@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T03:29:37.814Z",
+  "updatedAt": "2026-08-24T03:31:29.096Z",
   "dataSource": "ESPN (J1) + J.LEAGUE official site (J2/J3)",
   "sourceDetails": {
     "j1": "ESPN scoreboard / standings",
@@ -12468,7 +12468,7 @@
       "source": "espn",
       "league": "j1",
       "date": "2026-08-23T10:30Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "regular-season",
       "competition": "Japanese J.League",
@@ -12495,8 +12495,8 @@
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3385.png"
       },
       "score": {
-        "home": 0,
-        "away": 0
+        "home": 3,
+        "away": 1
       },
       "venue": "Japan National Stadium",
       "round": ""
@@ -52255,6 +52255,30 @@
       "league": "j1",
       "rank": 1,
       "team": {
+        "id": "22167",
+        "appId": "machida",
+        "league": "j1",
+        "name": "Machida Zelvia",
+        "shortName": "Machida Zelvia",
+        "area": "東京",
+        "officialSlug": "machida",
+        "tla": "ZEL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22167.png"
+      },
+      "played": 3,
+      "win": 3,
+      "draw": 0,
+      "lose": 0,
+      "goalsFor": 12,
+      "goalsAgainst": 2,
+      "goalsDiff": 10,
+      "points": 9,
+      "form": ""
+    },
+    {
+      "league": "j1",
+      "rank": 2,
+      "team": {
         "id": "7476",
         "appId": "kashiwa",
         "league": "j1",
@@ -52277,7 +52301,7 @@
     },
     {
       "league": "j1",
-      "rank": 2,
+      "rank": 3,
       "team": {
         "id": "7115",
         "appId": "kashima",
@@ -52301,7 +52325,7 @@
     },
     {
       "league": "j1",
-      "rank": 3,
+      "rank": 4,
       "team": {
         "id": "7114",
         "appId": "hiroshima",
@@ -52321,30 +52345,6 @@
       "goalsAgainst": 2,
       "goalsDiff": 6,
       "points": 7,
-      "form": ""
-    },
-    {
-      "league": "j1",
-      "rank": 4,
-      "team": {
-        "id": "22167",
-        "appId": "machida",
-        "league": "j1",
-        "name": "Machida Zelvia",
-        "shortName": "Machida Zelvia",
-        "area": "東京",
-        "officialSlug": "machida",
-        "tla": "ZEL",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22167.png"
-      },
-      "played": 2,
-      "win": 2,
-      "draw": 0,
-      "lose": 0,
-      "goalsFor": 9,
-      "goalsAgainst": 1,
-      "goalsDiff": 8,
-      "points": 6,
       "form": ""
     },
     {
@@ -52697,13 +52697,13 @@
         "tla": "URA",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3385.png"
       },
-      "played": 2,
+      "played": 3,
       "win": 0,
       "draw": 0,
-      "lose": 2,
-      "goalsFor": 4,
-      "goalsAgainst": 8,
-      "goalsDiff": -4,
+      "lose": 3,
+      "goalsFor": 5,
+      "goalsAgainst": 11,
+      "goalsDiff": -6,
       "points": 0,
       "form": ""
     },
@@ -53285,6 +53285,31 @@
       "league": "j3",
       "rank": 3,
       "team": {
+        "id": "sagamihara",
+        "appId": "sagamihara",
+        "league": "j3",
+        "name": "SC相模原",
+        "shortName": "相模原",
+        "area": "神奈川",
+        "officialSlug": "sagamihara",
+        "logo": "https://www.jleague.jp/image/clubs/sagamihara.svg",
+        "venue": "相模原ギオンスタジアム 入場可能数 ： 6,259 人 監督 シュタルフ 悠紀リヒャルト 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程"
+      },
+      "played": 3,
+      "win": 2,
+      "draw": 1,
+      "lose": 0,
+      "goalsFor": 6,
+      "goalsAgainst": 2,
+      "goalsDiff": 4,
+      "points": 7,
+      "form": "",
+      "provisional": false
+    },
+    {
+      "league": "j3",
+      "rank": 4,
+      "team": {
         "id": "kagoshima",
         "appId": "kagoshima",
         "league": "j3",
@@ -53308,7 +53333,7 @@
     },
     {
       "league": "j3",
-      "rank": 4,
+      "rank": 5,
       "team": {
         "id": "nagano",
         "appId": "nagano",
@@ -53333,7 +53358,7 @@
     },
     {
       "league": "j3",
-      "rank": 5,
+      "rank": 6,
       "team": {
         "id": "shiga",
         "appId": "shiga",
@@ -53358,7 +53383,7 @@
     },
     {
       "league": "j3",
-      "rank": 6,
+      "rank": 7,
       "team": {
         "id": "fc-osaka",
         "appId": "fc-osaka",
@@ -53382,7 +53407,7 @@
     },
     {
       "league": "j3",
-      "rank": 7,
+      "rank": 8,
       "team": {
         "id": "tochigi-sc",
         "appId": "tochigi-sc",
@@ -53407,31 +53432,6 @@
     },
     {
       "league": "j3",
-      "rank": 8,
-      "team": {
-        "id": "sagamihara",
-        "appId": "sagamihara",
-        "league": "j3",
-        "name": "SC相模原",
-        "shortName": "相模原",
-        "area": "神奈川",
-        "officialSlug": "sagamihara",
-        "logo": "https://www.jleague.jp/image/clubs/sagamihara.svg",
-        "venue": "相模原ギオンスタジアム 入場可能数 ： 6,259 人 監督 シュタルフ 悠紀リヒャルト 試合日程をカレンダーに追加 更新日: 2026/8/7 17:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程"
-      },
-      "played": 2,
-      "win": 1,
-      "draw": 1,
-      "lose": 0,
-      "goalsFor": 4,
-      "goalsAgainst": 1,
-      "goalsDiff": 3,
-      "points": 4,
-      "form": "",
-      "provisional": false
-    },
-    {
-      "league": "j3",
       "rank": 9,
       "team": {
         "id": "sanuki",
@@ -53444,13 +53444,13 @@
         "logo": "https://www.jleague.jp/image/clubs/sanuki.svg",
         "venue": "四国化成ＭＥＧＬＩＯスタジアム 入場可能数 ： 22,338 人 監督 大嶽 直人 試合日程をカレンダーに追加 更新日: 2026/8/19 22:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結"
       },
-      "played": 2,
+      "played": 3,
       "win": 1,
       "draw": 1,
-      "lose": 0,
-      "goalsFor": 2,
-      "goalsAgainst": 1,
-      "goalsDiff": 1,
+      "lose": 1,
+      "goalsFor": 3,
+      "goalsAgainst": 3,
+      "goalsDiff": 0,
       "points": 4,
       "form": "",
       "provisional": false
@@ -53484,6 +53484,31 @@
       "league": "j3",
       "rank": 11,
       "team": {
+        "id": "kochi",
+        "appId": "kochi",
+        "league": "j3",
+        "name": "高知ユナイテッドSC",
+        "shortName": "高知",
+        "area": "高知",
+        "officialSlug": "kochi",
+        "logo": "https://www.jleague.jp/image/clubs/kochi.svg",
+        "venue": "ＧＩＫＥＮスタジアム 入場可能数 ： 16,010 人 監督 下平 隆宏 試合日程をカレンダーに追加 更新日: 2026/8/19 22:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
+      },
+      "played": 3,
+      "win": 1,
+      "draw": 1,
+      "lose": 1,
+      "goalsFor": 2,
+      "goalsAgainst": 8,
+      "goalsDiff": -6,
+      "points": 4,
+      "form": "",
+      "provisional": false
+    },
+    {
+      "league": "j3",
+      "rank": 12,
+      "team": {
         "id": "kanazawa",
         "appId": "kanazawa",
         "league": "j3",
@@ -53494,20 +53519,20 @@
         "logo": "https://www.jleague.jp/image/clubs/kanazawa.svg",
         "venue": "金沢ゴーゴーカレースタジアム 入場可能数 ： 10,728 人 監督 辻田 真輝 試合日程をカレンダーに追加 更新日: 2026/7/31 18:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果"
       },
-      "played": 2,
+      "played": 3,
       "win": 1,
       "draw": 0,
-      "lose": 1,
-      "goalsFor": 6,
-      "goalsAgainst": 6,
-      "goalsDiff": 0,
+      "lose": 2,
+      "goalsFor": 7,
+      "goalsAgainst": 8,
+      "goalsDiff": -1,
       "points": 3,
       "form": "",
       "provisional": false
     },
     {
       "league": "j3",
-      "rank": 12,
+      "rank": 13,
       "team": {
         "id": "yamaguchi",
         "appId": "yamaguchi",
@@ -53532,7 +53557,7 @@
     },
     {
       "league": "j3",
-      "rank": 13,
+      "rank": 14,
       "team": {
         "id": "nara",
         "appId": "nara",
@@ -53557,7 +53582,7 @@
     },
     {
       "league": "j3",
-      "rank": 14,
+      "rank": 15,
       "team": {
         "id": "kitakyushu",
         "appId": "kitakyushu",
@@ -53582,7 +53607,7 @@
     },
     {
       "league": "j3",
-      "rank": 15,
+      "rank": 16,
       "team": {
         "id": "matsumoto",
         "appId": "matsumoto",
@@ -53607,7 +53632,7 @@
     },
     {
       "league": "j3",
-      "rank": 16,
+      "rank": 17,
       "team": {
         "id": "kumamoto",
         "appId": "kumamoto",
@@ -53632,7 +53657,7 @@
     },
     {
       "league": "j3",
-      "rank": 17,
+      "rank": 18,
       "team": {
         "id": "ryukyu",
         "appId": "ryukyu",
@@ -53651,31 +53676,6 @@
       "goalsFor": 2,
       "goalsAgainst": 3,
       "goalsDiff": -1,
-      "points": 1,
-      "form": "",
-      "provisional": false
-    },
-    {
-      "league": "j3",
-      "rank": 18,
-      "team": {
-        "id": "kochi",
-        "appId": "kochi",
-        "league": "j3",
-        "name": "高知ユナイテッドSC",
-        "shortName": "高知",
-        "area": "高知",
-        "officialSlug": "kochi",
-        "logo": "https://www.jleague.jp/image/clubs/kochi.svg",
-        "venue": "ＧＩＫＥＮスタジアム 入場可能数 ： 16,010 人 監督 下平 隆宏 試合日程をカレンダーに追加 更新日: 2026/8/19 22:09 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
-      },
-      "played": 2,
-      "win": 0,
-      "draw": 1,
-      "lose": 1,
-      "goalsFor": 0,
-      "goalsAgainst": 7,
-      "goalsDiff": -7,
       "points": 1,
       "form": "",
       "provisional": false
