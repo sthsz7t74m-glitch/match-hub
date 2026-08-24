@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T05:27:27.802Z",
+  "updatedAt": "2026-08-24T06:27:22.512Z",
   "season": "2026",
   "dataSource": "football-data.org",
   "dataMode": "current-free-plan",
@@ -2409,14 +2409,14 @@
       },
       "goals": {
         "home": 0,
-        "away": 3
+        "away": 2
       },
       "score": {
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 3
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -74318,288 +74318,288 @@
         {
           "rank": 1,
           "team": {
-            "id": 521,
-            "name": "Lille OSC",
-            "shortName": "リール",
-            "logo": "https://crests.football-data.org/521.png"
-          },
-          "played": 0,
-          "win": 0,
-          "draw": 0,
-          "lose": 0,
-          "goalsDiff": 0,
-          "points": 0,
-          "form": ""
-        },
-        {
-          "rank": 1,
-          "team": {
-            "id": 535,
-            "name": "Le Mans FC",
-            "shortName": "Le Mans FC",
-            "logo": "https://upload.wikimedia.org/wikipedia/en/5/57/Le_Mans_FC_logo.svg"
-          },
-          "played": 0,
-          "win": 0,
-          "draw": 0,
-          "lose": 0,
-          "goalsDiff": 0,
-          "points": 0,
-          "form": ""
-        },
-        {
-          "rank": 1,
-          "team": {
             "id": 516,
             "name": "Olympique de Marseille",
             "shortName": "マルセイユ",
             "logo": "https://crests.football-data.org/516.png"
           },
-          "played": 0,
-          "win": 0,
+          "played": 1,
+          "win": 1,
           "draw": 0,
           "lose": 0,
-          "goalsDiff": 0,
-          "points": 0,
+          "goalsDiff": 4,
+          "points": 3,
           "form": ""
         },
         {
-          "rank": 1,
-          "team": {
-            "id": 525,
-            "name": "FC Lorient",
-            "shortName": "ロリアン",
-            "logo": "https://crests.football-data.org/525.png"
-          },
-          "played": 0,
-          "win": 0,
-          "draw": 0,
-          "lose": 0,
-          "goalsDiff": 0,
-          "points": 0,
-          "form": ""
-        },
-        {
-          "rank": 1,
-          "team": {
-            "id": 512,
-            "name": "Stade Brestois 29",
-            "shortName": "ブレスト",
-            "logo": "https://crests.football-data.org/512.png"
-          },
-          "played": 0,
-          "win": 0,
-          "draw": 0,
-          "lose": 0,
-          "goalsDiff": 0,
-          "points": 0,
-          "form": ""
-        },
-        {
-          "rank": 1,
+          "rank": 2,
           "team": {
             "id": 546,
             "name": "Racing Club de Lens",
             "shortName": "Racing Club de Lens",
             "logo": "https://crests.football-data.org/546.png"
           },
-          "played": 0,
-          "win": 0,
+          "played": 1,
+          "win": 1,
           "draw": 0,
           "lose": 0,
-          "goalsDiff": 0,
-          "points": 0,
+          "goalsDiff": 3,
+          "points": 3,
           "form": ""
         },
         {
-          "rank": 1,
+          "rank": 3,
           "team": {
-            "id": 529,
-            "name": "Stade Rennais FC 1901",
-            "shortName": "Stade Rennais FC 1901",
-            "logo": "https://crests.football-data.org/529.png"
+            "id": 521,
+            "name": "Lille OSC",
+            "shortName": "リール",
+            "logo": "https://crests.football-data.org/521.png"
           },
-          "played": 0,
-          "win": 0,
+          "played": 1,
+          "win": 1,
           "draw": 0,
           "lose": 0,
-          "goalsDiff": 0,
-          "points": 0,
+          "goalsDiff": 2,
+          "points": 3,
           "form": ""
         },
         {
-          "rank": 1,
-          "team": {
-            "id": 532,
-            "name": "Angers SCO",
-            "shortName": "Angers SCO",
-            "logo": "https://crests.football-data.org/532.png"
-          },
-          "played": 0,
-          "win": 0,
-          "draw": 0,
-          "lose": 0,
-          "goalsDiff": 0,
-          "points": 0,
-          "form": ""
-        },
-        {
-          "rank": 1,
-          "team": {
-            "id": 519,
-            "name": "AJ Auxerre",
-            "shortName": "オセール",
-            "logo": "https://crests.football-data.org/519.png"
-          },
-          "played": 0,
-          "win": 0,
-          "draw": 0,
-          "lose": 0,
-          "goalsDiff": 0,
-          "points": 0,
-          "form": ""
-        },
-        {
-          "rank": 1,
-          "team": {
-            "id": 533,
-            "name": "Le Havre AC",
-            "shortName": "ル・アーヴル",
-            "logo": "https://crests.football-data.org/533.png"
-          },
-          "played": 0,
-          "win": 0,
-          "draw": 0,
-          "lose": 0,
-          "goalsDiff": 0,
-          "points": 0,
-          "form": ""
-        },
-        {
-          "rank": 1,
-          "team": {
-            "id": 576,
-            "name": "RC Strasbourg Alsace",
-            "shortName": "ストラスブール",
-            "logo": "https://crests.football-data.org/576.png"
-          },
-          "played": 0,
-          "win": 0,
-          "draw": 0,
-          "lose": 0,
-          "goalsDiff": 0,
-          "points": 0,
-          "form": ""
-        },
-        {
-          "rank": 1,
-          "team": {
-            "id": 522,
-            "name": "OGC Nice",
-            "shortName": "ニース",
-            "logo": "https://crests.football-data.org/522.png"
-          },
-          "played": 0,
-          "win": 0,
-          "draw": 0,
-          "lose": 0,
-          "goalsDiff": 0,
-          "points": 0,
-          "form": ""
-        },
-        {
-          "rank": 1,
-          "team": {
-            "id": 524,
-            "name": "Paris Saint-Germain FC",
-            "shortName": "パリ・サンジェルマン",
-            "logo": "https://crests.football-data.org/524.png"
-          },
-          "played": 0,
-          "win": 0,
-          "draw": 0,
-          "lose": 0,
-          "goalsDiff": 0,
-          "points": 0,
-          "form": ""
-        },
-        {
-          "rank": 1,
-          "team": {
-            "id": 511,
-            "name": "Toulouse FC",
-            "shortName": "トゥールーズ",
-            "logo": "https://crests.football-data.org/511.png"
-          },
-          "played": 0,
-          "win": 0,
-          "draw": 0,
-          "lose": 0,
-          "goalsDiff": 0,
-          "points": 0,
-          "form": ""
-        },
-        {
-          "rank": 1,
+          "rank": 3,
           "team": {
             "id": 523,
             "name": "Olympique Lyonnais",
             "shortName": "リヨン",
             "logo": "https://crests.football-data.org/523.png"
           },
-          "played": 0,
-          "win": 0,
+          "played": 1,
+          "win": 1,
           "draw": 0,
           "lose": 0,
-          "goalsDiff": 0,
-          "points": 0,
+          "goalsDiff": 2,
+          "points": 3,
           "form": ""
         },
         {
-          "rank": 1,
-          "team": {
-            "id": 1045,
-            "name": "Paris FC",
-            "shortName": "Paris FC",
-            "logo": "https://crests.football-data.org/1045.png"
-          },
-          "played": 0,
-          "win": 0,
-          "draw": 0,
-          "lose": 0,
-          "goalsDiff": 0,
-          "points": 0,
-          "form": ""
-        },
-        {
-          "rank": 1,
+          "rank": 5,
           "team": {
             "id": 548,
             "name": "AS Monaco FC",
             "shortName": "モナコ",
             "logo": "https://crests.football-data.org/548.png"
           },
-          "played": 0,
-          "win": 0,
+          "played": 1,
+          "win": 1,
           "draw": 0,
           "lose": 0,
-          "goalsDiff": 0,
-          "points": 0,
+          "goalsDiff": 1,
+          "points": 3,
           "form": ""
         },
         {
-          "rank": 1,
+          "rank": 6,
+          "team": {
+            "id": 535,
+            "name": "Le Mans FC",
+            "shortName": "Le Mans FC",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/5/57/Le_Mans_FC_logo.svg"
+          },
+          "played": 1,
+          "win": 0,
+          "draw": 1,
+          "lose": 0,
+          "goalsDiff": 0,
+          "points": 1,
+          "form": ""
+        },
+        {
+          "rank": 6,
+          "team": {
+            "id": 524,
+            "name": "Paris Saint-Germain FC",
+            "shortName": "パリ・サンジェルマン",
+            "logo": "https://crests.football-data.org/524.png"
+          },
+          "played": 1,
+          "win": 0,
+          "draw": 1,
+          "lose": 0,
+          "goalsDiff": 0,
+          "points": 1,
+          "form": ""
+        },
+        {
+          "rank": 6,
+          "team": {
+            "id": 512,
+            "name": "Stade Brestois 29",
+            "shortName": "ブレスト",
+            "logo": "https://crests.football-data.org/512.png"
+          },
+          "played": 1,
+          "win": 0,
+          "draw": 1,
+          "lose": 0,
+          "goalsDiff": 0,
+          "points": 1,
+          "form": ""
+        },
+        {
+          "rank": 6,
+          "team": {
+            "id": 529,
+            "name": "Stade Rennais FC 1901",
+            "shortName": "Stade Rennais FC 1901",
+            "logo": "https://crests.football-data.org/529.png"
+          },
+          "played": 1,
+          "win": 0,
+          "draw": 1,
+          "lose": 0,
+          "goalsDiff": 0,
+          "points": 1,
+          "form": ""
+        },
+        {
+          "rank": 10,
           "team": {
             "id": 531,
             "name": "ES Troyes AC",
             "shortName": "ES Troyes AC",
             "logo": "https://crests.football-data.org/531.png"
           },
-          "played": 0,
+          "played": 1,
           "win": 0,
-          "draw": 0,
+          "draw": 1,
           "lose": 0,
           "goalsDiff": 0,
+          "points": 1,
+          "form": ""
+        },
+        {
+          "rank": 10,
+          "team": {
+            "id": 525,
+            "name": "FC Lorient",
+            "shortName": "ロリアン",
+            "logo": "https://crests.football-data.org/525.png"
+          },
+          "played": 1,
+          "win": 0,
+          "draw": 1,
+          "lose": 0,
+          "goalsDiff": 0,
+          "points": 1,
+          "form": ""
+        },
+        {
+          "rank": 10,
+          "team": {
+            "id": 522,
+            "name": "OGC Nice",
+            "shortName": "ニース",
+            "logo": "https://crests.football-data.org/522.png"
+          },
+          "played": 1,
+          "win": 0,
+          "draw": 1,
+          "lose": 0,
+          "goalsDiff": 0,
+          "points": 1,
+          "form": ""
+        },
+        {
+          "rank": 10,
+          "team": {
+            "id": 1045,
+            "name": "Paris FC",
+            "shortName": "Paris FC",
+            "logo": "https://crests.football-data.org/1045.png"
+          },
+          "played": 1,
+          "win": 0,
+          "draw": 1,
+          "lose": 0,
+          "goalsDiff": 0,
+          "points": 1,
+          "form": ""
+        },
+        {
+          "rank": 14,
+          "team": {
+            "id": 533,
+            "name": "Le Havre AC",
+            "shortName": "ル・アーヴル",
+            "logo": "https://crests.football-data.org/533.png"
+          },
+          "played": 1,
+          "win": 0,
+          "draw": 0,
+          "lose": 1,
+          "goalsDiff": -1,
+          "points": 0,
+          "form": ""
+        },
+        {
+          "rank": 15,
+          "team": {
+            "id": 532,
+            "name": "Angers SCO",
+            "shortName": "Angers SCO",
+            "logo": "https://crests.football-data.org/532.png"
+          },
+          "played": 1,
+          "win": 0,
+          "draw": 0,
+          "lose": 1,
+          "goalsDiff": -2,
+          "points": 0,
+          "form": ""
+        },
+        {
+          "rank": 15,
+          "team": {
+            "id": 511,
+            "name": "Toulouse FC",
+            "shortName": "トゥールーズ",
+            "logo": "https://crests.football-data.org/511.png"
+          },
+          "played": 1,
+          "win": 0,
+          "draw": 0,
+          "lose": 1,
+          "goalsDiff": -2,
+          "points": 0,
+          "form": ""
+        },
+        {
+          "rank": 17,
+          "team": {
+            "id": 519,
+            "name": "AJ Auxerre",
+            "shortName": "オセール",
+            "logo": "https://crests.football-data.org/519.png"
+          },
+          "played": 1,
+          "win": 0,
+          "draw": 0,
+          "lose": 1,
+          "goalsDiff": -3,
+          "points": 0,
+          "form": ""
+        },
+        {
+          "rank": 18,
+          "team": {
+            "id": 576,
+            "name": "RC Strasbourg Alsace",
+            "shortName": "ストラスブール",
+            "logo": "https://crests.football-data.org/576.png"
+          },
+          "played": 1,
+          "win": 0,
+          "draw": 0,
+          "lose": 1,
+          "goalsDiff": -4,
           "points": 0,
           "form": ""
         }
