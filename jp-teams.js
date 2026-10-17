@@ -24,3 +24,14 @@ Object.assign(japaneseTeams, {
   // Frequent API aliases
   "Man City":"マンチェスター・シティ","Man United":"マンチェスター・ユナイテッド","Spurs":"トッテナム","Wolves":"ウォルヴァーハンプトン","Brighton Hove":"ブライトン","Bayern Munich":"バイエルン・ミュンヘン","Inter Milan":"インテル","Paris Saint-Germain":"パリ・サンジェルマン","Atlético Madrid":"アトレティコ・マドリード","Athletic Bilbao":"アスレティック・ビルバオ","Real Sociedad":"レアル・ソシエダ","Celta Vigo":"セルタ","Deportivo La Coruña":"デポルティーボ・ラ・コルーニャ","Racing Santander":"ラシン・サンタンデール","Fiorentina":"フィオレンティーナ"
 });
+
+// Champions League clubs outside the five domestic leagues.
+Object.assign(japaneseTeams, {
+  'Sporting Clube de Portugal':'スポルティングCP','FC Porto':'ポルト',
+  'Galatasaray SK':'ガラタサライ','Fenerbahçe SK':'フェネルバフチェ',
+  'PSV':'PSV','Feyenoord Rotterdam':'フェイエノールト',
+  'Club Brugge KV':'クラブ・ブルッヘ','SK Slavia Praha':'スラヴィア・プラハ',
+  'FK Shakhtar Donetsk':'シャフタール・ドネツク','PAE AEK':'AEKアテネ',
+  'LASK Linz':'LASK','Viking FK':'バイキング','FK Bodø/Glimt':'ボデ／グリムト',
+  'ŠK Slovan Bratislava':'スロヴァン・ブラチスラヴァ','Sabah FK':'サバフ'
+});
