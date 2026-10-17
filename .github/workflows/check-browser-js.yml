@@ -4,6 +4,13 @@ on:
   workflow_dispatch:
   push:
     paths:
+      - 'assets/js/ui/champions-league.js'
+      - 'scripts/competition-data.mjs'
+      - 'scripts/fetch-data.mjs'
+      - 'tests/champions-league.test.mjs'
+      - 'app.js'
+      - 'v080.js'
+      - 'v100.js'
       - 'assets/js/match-components.js'
       - 'assets/js/ui/football-shell.js'
       - 'assets/js/ui/sports-registry.js'
@@ -61,3 +68,11 @@ jobs:
         run: |
           node --check scripts/fetch-jleague.mjs
           node --check scripts/merge-jleague-schedules.mjs
+
+      - name: Check Champions League integration
+        run: |
+          node --check assets/js/ui/champions-league.js
+          node --check app.js
+          node --check v080.js
+          node --check v100.js
+          node --test tests/champions-league.test.mjs

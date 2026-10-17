@@ -12,7 +12,7 @@ function applyUiPrefsV080(){
 function renderGlobalSearchV080(){
   const input=document.querySelector('#globalTeamSearch');
   const q=(input?.value||'').trim().toLowerCase();
-  let teams=(state.data?.teams||[]).filter(t=>(state.searchLeague===null||t.leagueId===state.searchLeague)&&matchesQuery(t,q));
+  let teams=(state.data?.teams||[]).filter(t=>(state.searchLeague===null||(t.competitionIds||[t.leagueId]).includes(state.searchLeague))&&matchesQuery(t,q));
   if(favoritesOnlyV080)teams=teams.filter(t=>state.favorites.includes(t.id));
   teams.sort((a,b)=>Number(state.favorites.includes(b.id))-Number(state.favorites.includes(a.id))||teamName(a).localeCompare(teamName(b),'ja'));
   const count=document.querySelector('#globalSearchCount');if(count)count.textContent=`${teams.length}クラブ`;

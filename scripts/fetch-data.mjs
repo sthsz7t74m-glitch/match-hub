@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises';
+import {championsLeague, roundLabel, mergeCompetitionTeams, totalStanding} from './competition-data.mjs';
 
 const API='https://api.football-data.org/v4';
 const token=process.env.FOOTBALL_DATA_TOKEN;
@@ -9,7 +10,8 @@ const leagues=[
   {code:'PD',id:140,name:'Primera Division',ja:'ラ・リーガ',color:'#f97316'},
   {code:'SA',id:135,name:'Serie A',ja:'セリエA',color:'#2563eb'},
   {code:'BL1',id:78,name:'Bundesliga',ja:'ブンデスリーガ',color:'#dc2626'},
-  {code:'FL1',id:61,name:'Ligue 1',ja:'リーグ・アン',color:'#0891b2'}
+  {code:'FL1',id:61,name:'Ligue 1',ja:'リーグ・アン',color:'#0891b2'},
+  championsLeague
 ];
 
 const japaneseNames={
@@ -32,11 +34,11 @@ for(const league of leagues){
   const standingResponse=await request(`/competitions/${league.code}/standings`);
   season||=teamResponse.season?.startDate?.slice(0,4)||null;
   for(const team of teamResponse.teams||[])teams.push({id:team.id,name:team.name,shortName:japaneseName(team.name,team.shortName),englishShortName:team.shortName||team.name,tla:team.tla||'',logo:team.crest||'',leagueId:league.id,leagueCode:league.code,color:league.color,venue:team.venue||''});
-  for(const match of matchResponse.matches||[])fixtures.push({id:match.id,date:match.utcDate,status:match.status,elapsed:null,competition:match.competition?.name||league.name,competitionJa:league.ja,leagueId:league.id,leagueCode:league.code,round:match.matchday?`第${match.matchday}節`:(match.stage||''),venue:'',home:{id:match.homeTeam.id,name:match.homeTeam.name,shortName:japaneseName(match.homeTeam.name,match.homeTeam.shortName),logo:match.homeTeam.crest||''},away:{id:match.awayTeam.id,name:match.awayTeam.name,shortName:japaneseName(match.awayTeam.name,match.awayTeam.shortName),logo:match.awayTeam.crest||''},goals:{home:match.score?.fullTime?.home??null,away:match.score?.fullTime?.away??null},score:match.score||{},events:[]});
-  const total=(standingResponse.standings||[]).find(item=>item.type==='TOTAL');
-  standings.push({leagueId:league.id,leagueCode:league.code,leagueName:league.name,leagueNameJa:league.ja,rows:(total?.table||[]).map(row=>({rank:row.position,team:{id:row.team.id,name:row.team.name,shortName:japaneseName(row.team.name,row.team.shortName),logo:row.team.crest||''},played:row.playedGames,win:row.won,draw:row.draw,lose:row.lost,goalsDiff:row.goalDifference,points:row.points,form:row.form||''}))});
+  for(const match of matchResponse.matches||[])fixtures.push({id:match.id,date:match.utcDate,status:match.status,elapsed:null,competition:match.competition?.name||league.name,competitionJa:league.ja,leagueId:league.id,leagueCode:league.code,stage:match.stage||'',round:roundLabel(match,league),venue:'',home:{id:match.homeTeam.id,name:match.homeTeam.name,shortName:japaneseName(match.homeTeam.name,match.homeTeam.shortName),logo:match.homeTeam.crest||''},away:{id:match.awayTeam.id,name:match.awayTeam.name,shortName:japaneseName(match.awayTeam.name,match.awayTeam.shortName),logo:match.awayTeam.crest||''},goals:{home:match.score?.fullTime?.home??null,away:match.score?.fullTime?.away??null},score:match.score||{},events:[]});
+  const total=totalStanding(standingResponse);
+  standings.push({leagueId:league.id,leagueCode:league.code,leagueName:league.name,leagueNameJa:league.ja,stage:total?.stage||'',rows:(total?.table||[]).map(row=>({rank:row.position,team:{id:row.team.id,name:row.team.name,shortName:japaneseName(row.team.name,row.team.shortName),logo:row.team.crest||''},played:row.playedGames,win:row.won,draw:row.draw,lose:row.lost,goalsFor:row.goalsFor,goalsAgainst:row.goalsAgainst,goalsDiff:row.goalDifference,points:row.points,form:row.form||''}))});
 }
-const output={updatedAt:new Date().toISOString(),season,dataSource:'football-data.org',dataMode:'current-free-plan',leagues,teams,fixtures:fixtures.sort((a,b)=>new Date(a.date)-new Date(b.date)),standings};
+const output={updatedAt:new Date().toISOString(),season,dataSource:'football-data.org',dataMode:'current-free-plan',leagues,teams:mergeCompetitionTeams(teams),fixtures:fixtures.sort((a,b)=>new Date(a.date)-new Date(b.date)),standings};
 await fs.mkdir('data',{recursive:true});
 await fs.writeFile('data/football.json',`${JSON.stringify(output,null,2)}\n`);
 console.log(`Saved ${teams.length} teams and ${fixtures.length} fixtures.`);
