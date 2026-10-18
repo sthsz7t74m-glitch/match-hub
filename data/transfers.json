@@ -1,38 +1,38 @@
 {
-  "updatedAt": "2026-10-18T15:58:58.651Z",
+  "updatedAt": "2026-10-18T20:54:38.414Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c9gkv34kezdko?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/videos/cme8rz8x6pw8o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Gyokeres pushing for Arsenal exit - Sunday's gossip",
-      "titleJa": "移籍情報：Gyokeres pushing for Arsenal exit - Sunday's gossip",
+      "player": "Bournemouth pick up first league victory with win over Sunderland",
+      "titleJa": "移籍情報：Bournemouth pick up first league victory with win over Sunderland",
       "from": "",
       "to": "",
-      "summaryJa": "Gyokeres pushing for Arsenal exit - Sunday's gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Gyokeres pushing for Arsenal exit - Sunday's gossip",
-      "summary": "Viktor Gyokeres wants to leave Arsenal, Xabi Alonso eyes Barcelona duo and Liverpool target Dortmund's Felix Nmecha.",
+      "summaryJa": "Bournemouth pick up first league victory with win over Sunderland移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Bournemouth pick up first league victory with win over Sunderland",
+      "summary": "Bournemouth beat Sunderland 2-0 at the Vitality Stadium to pick up their first league victory of the season and move out of the relegation zone.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9gkv34kezdko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T20:37:25.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/videos/cme8rz8x6pw8o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T18:59:15.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c9vgr6vj4mnyo?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/cq1kdzp093jwo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Boos and bananas on day of defiance at Man City",
-      "titleJa": "移籍情報：Boos and bananas on day of defiance at Man City",
+      "player": "Sage feels 'shame' at Palace thrashing with future in doubt",
+      "titleJa": "移籍情報：Sage feels 'shame' at Palace thrashing with future in doubt",
       "from": "",
       "to": "",
-      "summaryJa": "Boos and bananas on day of defiance at Man City移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Boos and bananas on day of defiance at Man City",
-      "summary": "Manchester City fans boo the Premier League anthem before watching their side move six points clear at the top of the table.",
+      "summaryJa": "Sage feels 'shame' at Palace thrashing with future in doubt移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Sage feels 'shame' at Palace thrashing with future in doubt",
+      "summary": "Crystal Palace manage Pierre Sage says he feels \"shame\" at the Eagles' performance during their 5-0 thrashing by Brighton and does not know if he will be given time to save his job.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9vgr6vj4mnyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T18:02:39.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq1kdzp093jwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T19:51:22.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/ck054652mv07o?at_medium=RSS&at_campaign=rss",
@@ -50,21 +50,6 @@
       "date": "2026-10-17T21:18:26.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cm4g1e15g76jo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "'Sick feeling in stomach' - are Reedijk's Hibs in relegation fight?",
-      "titleJa": "移籍情報：'Sick feeling in stomach' - are Reedijk's Hibs in relegation fight?",
-      "from": "",
-      "to": "",
-      "summaryJa": "'Sick feeling in stomach' - are Reedijk's Hibs in relegation fight?移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "'Sick feeling in stomach' - are Reedijk's Hibs in relegation fight?",
-      "summary": "Two games in, no points gathered and a chorus of boos greeting him at full-time at Easter Road. The honeymoon is well and truly over for Marink Reedijk.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm4g1e15g76jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T21:37:38.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/videos/cq3dj1ddn83xo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "My one feeling is shame - Sage on bruising Palace defeat",
@@ -78,6 +63,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cq3dj1ddn83xo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-18T15:41:16.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c9vgr6vj4mnyo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Boos and bananas on day of defiance at Man City",
+      "titleJa": "移籍情報：Boos and bananas on day of defiance at Man City",
+      "from": "",
+      "to": "",
+      "summaryJa": "Boos and bananas on day of defiance at Man City移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Boos and bananas on day of defiance at Man City",
+      "summary": "Manchester City fans boo the Premier League anthem before watching their side move six points clear at the top of the table.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9vgr6vj4mnyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-17T18:02:39.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cjly05yn12w5o?at_medium=RSS&at_campaign=rss",
@@ -168,21 +168,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/articles/cmje5wl5ek32o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-13T10:13:34.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cm4g1e15g76jo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Reedijk has 'sick feeling in stomach' - are his Hibs team in relegation fight?",
-      "titleJa": "移籍情報：Reedijk has 'sick feeling in stomach' - are his Hibs team in relegation fight?",
-      "from": "",
-      "to": "",
-      "summaryJa": "Reedijk has 'sick feeling in stomach' - are his Hibs team in relegation fight?移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Reedijk has 'sick feeling in stomach' - are his Hibs team in relegation fight?",
-      "summary": "Two games in, no points gathered and a chorus of boos greeting him at full-time at Easter Road. The honeymoon is well and truly over for Marink Reedijk.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm4g1e15g76jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T21:37:38.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cz7z09v9pp1o?at_medium=RSS&at_campaign=rss",
