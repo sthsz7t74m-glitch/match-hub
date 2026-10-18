@@ -1,24 +1,9 @@
 {
-  "updatedAt": "2026-10-18T11:23:45.289Z",
+  "updatedAt": "2026-10-18T15:58:58.651Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c9vgr6vj4mnyo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Boos and bananas on day of defiance at Man City",
-      "titleJa": "移籍情報：Boos and bananas on day of defiance at Man City",
-      "from": "",
-      "to": "",
-      "summaryJa": "Boos and bananas on day of defiance at Man City移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Boos and bananas on day of defiance at Man City",
-      "summary": "Manchester City fans boo the Premier League anthem before watching their side move six points clear at the top of the table.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9vgr6vj4mnyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T18:02:39.000Z"
-    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c9gkv34kezdko?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -35,19 +20,19 @@
       "date": "2026-10-17T20:37:25.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cjly05yn12w5o?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c9vgr6vj4mnyo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Kirby 'stressed' by abrupt Vidosic exit from Brighton",
-      "titleJa": "移籍情報：Kirby 'stressed' by abrupt Vidosic exit from Brighton",
+      "player": "Boos and bananas on day of defiance at Man City",
+      "titleJa": "移籍情報：Boos and bananas on day of defiance at Man City",
       "from": "",
       "to": "",
-      "summaryJa": "Kirby 'stressed' by abrupt Vidosic exit from Brighton移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Kirby 'stressed' by abrupt Vidosic exit from Brighton",
-      "summary": "Former England striker Fran Kirby says the departure of Brighton head coach Dario Vidosic on the eve of the season left her feeling \"stressed\" and \"disappointed\".",
+      "summaryJa": "Boos and bananas on day of defiance at Man City移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Boos and bananas on day of defiance at Man City",
+      "summary": "Manchester City fans boo the Premier League anthem before watching their side move six points clear at the top of the table.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cjly05yn12w5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-18T05:49:25.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9vgr6vj4mnyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-17T18:02:39.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/ck054652mv07o?at_medium=RSS&at_campaign=rss",
@@ -80,6 +65,36 @@
       "date": "2026-10-17T21:37:38.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/videos/cq3dj1ddn83xo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "My one feeling is shame - Sage on bruising Palace defeat",
+      "titleJa": "移籍情報：My one feeling is shame - Sage on bruising Palace defeat",
+      "from": "",
+      "to": "",
+      "summaryJa": "My one feeling is shame - Sage on bruising Palace defeat移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "My one feeling is shame - Sage on bruising Palace defeat",
+      "summary": "Crystal Palace head coach Pierre Sage says he feels \"shame\" after their 5-0 defeat by Brighton.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cq3dj1ddn83xo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T15:41:16.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cjly05yn12w5o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Kirby 'stressed' by abrupt Vidosic exit from Brighton",
+      "titleJa": "移籍情報：Kirby 'stressed' by abrupt Vidosic exit from Brighton",
+      "from": "",
+      "to": "",
+      "summaryJa": "Kirby 'stressed' by abrupt Vidosic exit from Brighton移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Kirby 'stressed' by abrupt Vidosic exit from Brighton",
+      "summary": "Former England striker Fran Kirby says the departure of Brighton head coach Dario Vidosic on the eve of the season left her feeling \"stressed\" and \"disappointed\".",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cjly05yn12w5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T05:49:25.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cr5ynge8jnnyo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Swansea must use West Ham defeat as fuel - Matos",
@@ -108,21 +123,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c5vgjny1082lo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-17T14:53:23.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cr5yngpgejw0o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Real demand Tebas resign over Goebbels comparison",
-      "titleJa": "移籍情報：Real demand Tebas resign over Goebbels comparison",
-      "from": "",
-      "to": "",
-      "summaryJa": "Real demand Tebas resign over Goebbels comparison移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Real demand Tebas resign over Goebbels comparison",
-      "summary": "Real Madrid have called for the \"immediate resignation\" of La Liga president Javier Tebas after he compared the club's management to Joseph Goebbels.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cr5yngpgejw0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-16T15:43:32.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cmde8l07569no?at_medium=RSS&at_campaign=rss",
