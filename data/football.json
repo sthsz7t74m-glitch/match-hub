@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T06:39:59.850Z",
+  "updatedAt": "2026-10-18T11:47:59.676Z",
   "season": "2026",
   "dataSource": "football-data.org",
   "dataMode": "current-free-plan",
@@ -16817,7 +16817,7 @@
     {
       "id": 558574,
       "date": "2026-10-18T10:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "elapsed": null,
       "competition": "Serie A",
       "competitionJa": "セリエA",
@@ -16839,19 +16839,19 @@
         "logo": "https://crests.football-data.org/5890.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         }
       },
       "events": []
@@ -82298,6 +82298,24 @@
         {
           "rank": 11,
           "team": {
+            "id": 5890,
+            "name": "US Lecce",
+            "shortName": "レッチェ",
+            "logo": "https://crests.football-data.org/5890.png"
+          },
+          "played": 7,
+          "win": 3,
+          "draw": 0,
+          "lose": 4,
+          "goalsFor": 8,
+          "goalsAgainst": 12,
+          "goalsDiff": -4,
+          "points": 9,
+          "form": ""
+        },
+        {
+          "rank": 12,
+          "team": {
             "id": 471,
             "name": "US Sassuolo Calcio",
             "shortName": "サッスオーロ",
@@ -82314,7 +82332,7 @@
           "form": ""
         },
         {
-          "rank": 12,
+          "rank": 13,
           "team": {
             "id": 586,
             "name": "Torino FC",
@@ -82329,24 +82347,6 @@
           "goalsAgainst": 9,
           "goalsDiff": -2,
           "points": 7,
-          "form": ""
-        },
-        {
-          "rank": 13,
-          "team": {
-            "id": 5890,
-            "name": "US Lecce",
-            "shortName": "レッチェ",
-            "logo": "https://crests.football-data.org/5890.png"
-          },
-          "played": 6,
-          "win": 2,
-          "draw": 0,
-          "lose": 4,
-          "goalsFor": 6,
-          "goalsAgainst": 12,
-          "goalsDiff": -6,
-          "points": 6,
           "form": ""
         },
         {
@@ -82370,24 +82370,6 @@
         {
           "rank": 15,
           "team": {
-            "id": 115,
-            "name": "Udinese Calcio",
-            "shortName": "ウディネーゼ",
-            "logo": "https://crests.football-data.org/115.png"
-          },
-          "played": 6,
-          "win": 1,
-          "draw": 1,
-          "lose": 4,
-          "goalsFor": 9,
-          "goalsAgainst": 13,
-          "goalsDiff": -4,
-          "points": 4,
-          "form": ""
-        },
-        {
-          "rank": 16,
-          "team": {
             "id": 5911,
             "name": "AC Monza",
             "shortName": "AC Monza",
@@ -82397,6 +82379,24 @@
           "win": 1,
           "draw": 1,
           "lose": 4,
+          "goalsFor": 9,
+          "goalsAgainst": 15,
+          "goalsDiff": -6,
+          "points": 4,
+          "form": ""
+        },
+        {
+          "rank": 15,
+          "team": {
+            "id": 115,
+            "name": "Udinese Calcio",
+            "shortName": "ウディネーゼ",
+            "logo": "https://crests.football-data.org/115.png"
+          },
+          "played": 7,
+          "win": 1,
+          "draw": 1,
+          "lose": 5,
           "goalsFor": 9,
           "goalsAgainst": 15,
           "goalsDiff": -6,
