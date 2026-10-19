@@ -1,9 +1,39 @@
 {
-  "updatedAt": "2026-10-19T13:38:06.729Z",
+  "updatedAt": "2026-10-19T20:38:27.038Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cvze4w57746yo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Building Lionesses 2.0 - Wiegman's new challenge awaits",
+      "titleJa": "移籍情報：Building Lionesses 2.0 - Wiegman's new challenge awaits",
+      "from": "",
+      "to": "",
+      "summaryJa": "Building Lionesses 2.0 - Wiegman's new challenge awaits移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Building Lionesses 2.0 - Wiegman's new challenge awaits",
+      "summary": "England head coach Sarina Wiegman has changed women's football in the country, so what does she face after signing a contract extension?",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvze4w57746yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T20:15:48.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cxyvrndz49v7o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Guehi among players not to take knee - is it time to 'move campaign along'?",
+      "titleJa": "移籍情報：Guehi among players not to take knee - is it time to 'move campaign along'?",
+      "from": "",
+      "to": "",
+      "summaryJa": "Guehi among players not to take knee - is it time to 'move campaign along'?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Guehi among players not to take knee - is it time to 'move campaign along'?",
+      "summary": "Premier League clubs took the knee for the first time this season, but six players chose to remain standing.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cxyvrndz49v7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T16:41:54.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c679plpvellgo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -35,34 +65,19 @@
       "date": "2026-10-19T12:51:44.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/videos/cme8rz8x6pw8o?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c893zd3rge3po?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Bournemouth pick up first league victory with win over Sunderland",
-      "titleJa": "移籍情報：Bournemouth pick up first league victory with win over Sunderland",
+      "player": "I'll give Glentoran everything, vows new boss Ferguson",
+      "titleJa": "移籍情報：I'll give Glentoran everything, vows new boss Ferguson",
       "from": "",
       "to": "",
-      "summaryJa": "Bournemouth pick up first league victory with win over Sunderland移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Bournemouth pick up first league victory with win over Sunderland",
-      "summary": "Bournemouth beat Sunderland 2-0 at the Vitality Stadium to pick up their first league victory of the season and move out of the relegation zone.",
+      "summaryJa": "I'll give Glentoran everything, vows new boss Ferguson移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "I'll give Glentoran everything, vows new boss Ferguson",
+      "summary": "Duncan Ferguson targets a return to the glory days at the Oval after his appointment as the new Glentoran manager.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cme8rz8x6pw8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-18T18:59:15.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cq1kdzp093jwo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Sage feels 'shame' at Palace thrashing with future in doubt",
-      "titleJa": "移籍情報：Sage feels 'shame' at Palace thrashing with future in doubt",
-      "from": "",
-      "to": "",
-      "summaryJa": "Sage feels 'shame' at Palace thrashing with future in doubt移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Sage feels 'shame' at Palace thrashing with future in doubt",
-      "summary": "Crystal Palace manage Pierre Sage says he feels \"shame\" at the Eagles' performance during their 5-0 thrashing by Brighton and does not know if he will be given time to save his job.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq1kdzp093jwo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-18T19:51:22.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c893zd3rge3po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T15:19:49.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sounds/play/p0phbswc?at_medium=RSS&at_campaign=rss",
@@ -80,34 +95,19 @@
       "date": "2026-10-18T22:26:00.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sounds/play/p0ph7nfj?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/videos/cq3dj1ddn83xo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Euro Leagues",
-      "titleJa": "移籍情報：Euro Leagues",
+      "player": "My one feeling is shame - Sage on bruising Palace defeat",
+      "titleJa": "移籍情報：My one feeling is shame - Sage on bruising Palace defeat",
       "from": "",
       "to": "",
-      "summaryJa": "Euro Leagues移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Euro Leagues",
-      "summary": "Mikey Moore is on loan at Cologne from Spurs - and loving life in the Bundesliga.",
+      "summaryJa": "My one feeling is shame - Sage on bruising Palace defeat移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "My one feeling is shame - Sage on bruising Palace defeat",
+      "summary": "Crystal Palace head coach Pierre Sage says he feels \"shame\" after their 5-0 defeat by Brighton.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sounds/play/p0ph7nfj?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T05:00:00.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cjly05yn12w5o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Kirby 'stressed' by abrupt Vidosic exit from Brighton",
-      "titleJa": "移籍情報：Kirby 'stressed' by abrupt Vidosic exit from Brighton",
-      "from": "",
-      "to": "",
-      "summaryJa": "Kirby 'stressed' by abrupt Vidosic exit from Brighton移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Kirby 'stressed' by abrupt Vidosic exit from Brighton",
-      "summary": "Former England striker Fran Kirby says the departure of Brighton head coach Dario Vidosic on the eve of the season left her feeling \"stressed\" and \"disappointed\".",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cjly05yn12w5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-18T05:49:25.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/videos/cq3dj1ddn83xo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T15:41:16.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c9vgr6vj4mnyo?at_medium=RSS&at_campaign=rss",
@@ -125,6 +125,21 @@
       "date": "2026-10-17T18:02:39.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sounds/play/p0ph7nfj?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Euro Leagues",
+      "titleJa": "移籍情報：Euro Leagues",
+      "from": "",
+      "to": "",
+      "summaryJa": "Euro Leagues移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Euro Leagues",
+      "summary": "Mikey Moore is on loan at Cologne from Spurs - and loving life in the Bundesliga.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sounds/play/p0ph7nfj?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T05:00:00.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/ck054652mv07o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Villa's Manzambi shows Newcastle what they missed out on",
@@ -138,21 +153,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck054652mv07o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-17T21:18:26.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/videos/cq3dj1ddn83xo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "My one feeling is shame - Sage on bruising Palace defeat",
-      "titleJa": "移籍情報：My one feeling is shame - Sage on bruising Palace defeat",
-      "from": "",
-      "to": "",
-      "summaryJa": "My one feeling is shame - Sage on bruising Palace defeat移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "My one feeling is shame - Sage on bruising Palace defeat",
-      "summary": "Crystal Palace head coach Pierre Sage says he feels \"shame\" after their 5-0 defeat by Brighton.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cq3dj1ddn83xo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-18T15:41:16.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cmde8l07569no?at_medium=RSS&at_campaign=rss",
