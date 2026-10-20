@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-10-20T08:42:33.224Z",
+  "updatedAt": "2026-10-20T14:23:03.953Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cmx23n4qvnzeo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "What does Celtic's demolition of Hearts mean for Hogh?",
+      "titleJa": "移籍情報：What does Celtic's demolition of Hearts mean for Hogh?",
+      "from": "",
+      "to": "",
+      "summaryJa": "What does Celtic's demolition of Hearts mean for Hogh?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "What does Celtic's demolition of Hearts mean for Hogh?",
+      "summary": "BBC Scotland examines whether Celtic’s 7-1 win over Hearts proved they are better without their record signing.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmx23n4qvnzeo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T11:23:57.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/c9x28pyg05vyo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -48,6 +63,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cvze4w57746yo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-19T20:15:48.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cm93z0x939leo?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "SPFL invites bids for new Scottish Premiership TV deal",
+      "titleJa": "移籍情報：SPFL invites bids for new Scottish Premiership TV deal",
+      "from": "",
+      "to": "",
+      "summaryJa": "SPFL invites bids for new Scottish Premiership TV deal移る可能性について、交渉段階の報道です。",
+      "originalTitle": "SPFL invites bids for new Scottish Premiership TV deal",
+      "summary": "The SPFL expects \"strong interest\" after inviting broadcasters to bid for the UK rights to show Scottish Premiership matches from the 2029-30 campaign.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm93z0x939leo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T10:44:11.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cxyvrndz49v7o?at_medium=RSS&at_campaign=rss",
@@ -123,21 +153,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cq3dj1ddn83xo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-18T15:41:16.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c9vgr6vj4mnyo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Boos and bananas on day of defiance at Man City",
-      "titleJa": "移籍情報：Boos and bananas on day of defiance at Man City",
-      "from": "",
-      "to": "",
-      "summaryJa": "Boos and bananas on day of defiance at Man City移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Boos and bananas on day of defiance at Man City",
-      "summary": "Manchester City fans boo the Premier League anthem before watching their side move six points clear at the top of the table.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9vgr6vj4mnyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T18:02:39.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cmde8l07569no?at_medium=RSS&at_campaign=rss",
