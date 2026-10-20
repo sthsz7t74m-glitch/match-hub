@@ -24,12 +24,21 @@ window.FootballUI = sharedNavigationUI;
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
+    scrollToCalendar() {
+      const panel = document.querySelector('.calendar-panel');
+      if (!panel) return this.scrollToTop();
+      const header = document.querySelector('.topbar');
+      const offset = (header?.getBoundingClientRect().height || 0) + 12;
+      window.scrollTo({ top: Math.max(0, panel.getBoundingClientRect().top + window.scrollY - offset), behavior: 'smooth' });
+    }
+
     handleClick(event) {
       const item = event.target.closest('.nav-item');
       if (!item || !this.root?.contains(item) || !isActiveNavigationItem(item)) return;
       event.preventDefault();
       event.stopImmediatePropagation();
-      this.scrollToTop();
+      if (item.dataset.view === 'schedule' && document.body.dataset.hub === 'five') this.scrollToCalendar();
+      else this.scrollToTop();
     }
 
     bind() {
