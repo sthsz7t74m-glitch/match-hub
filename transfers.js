@@ -2,7 +2,7 @@ let transferData={updatedAt:null,items:[]},transferFilter='all';
 const transferStatusLabel={official:'正式発表',agreed:'合意',talks:'交渉中',rumour:'噂',confirmed:'確定報道'};
 async function loadTransfers(){try{const response=await fetch(`./data/transfers.json?${Date.now()}`,{cache:'no-store'});if(!response.ok)throw new Error('transfer data');transferData=await response.json();}catch(error){transferData={updatedAt:null,items:[]};}renderTransfers();}
 function escapeTransferText(value=''){return String(value).replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));}
-function transferDate(value){if(!value)return'';const date=new Date(value);return Number.isNaN(date.getTime())?'':date.toLocaleString('ja-JP',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'});}
+function transferDate(value){if(!value)return'';const date=new Date(value);return Number.isNaN(date.getTime())?'':date.toLocaleString('ja-JP',{ timeZone: 'Asia/Tokyo', weekday: 'short', month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'});}
 function favoriteText(){let text='';for(let i=0;i<localStorage.length;i++){const key=localStorage.key(i)||'';if(/fav|team|club/i.test(key))text+=` ${localStorage.getItem(key)||''}`;}return text.toLowerCase();}
 function relevance(item,favs){const text=`${item.player||''} ${item.from||''} ${item.to||''} ${item.titleJa||''} ${item.originalTitle||''}`.toLowerCase();return favs&&favs.split(/[^\p{L}\p{N}]+/u).some(word=>word.length>3&&text.includes(word))?1:0;}
 function matchesFilter(item){if(transferFilter==='all')return true;if(transferFilter==='official')return item.status==='official'||item.status==='confirmed';return item.status===transferFilter;}

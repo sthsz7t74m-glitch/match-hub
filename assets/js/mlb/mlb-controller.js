@@ -170,7 +170,7 @@ window.MLBApp = window.MLBApp || {};
     formatUpdatedAt(value) {
       const date = new Date(value);
       if (Number.isNaN(date.getTime())) return '';
-      return date.toLocaleString('ja-JP', {
+      return date.toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo', weekday: 'short', 
         month: 'numeric',
         day: 'numeric',
         hour: '2-digit',

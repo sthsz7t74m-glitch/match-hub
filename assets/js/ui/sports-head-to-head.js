@@ -84,7 +84,7 @@ window.SportsHeadToHead = window.SportsHeadToHead || {};
     <h2>${summary.leftName} vs ${summary.rightName}</h2>
     <div class="sports-h2h-dialog__summary"><strong>${summary.leftWins}勝</strong><span>${summary.draws}分</span><strong>${summary.rightWins}勝</strong></div>
     <div class="sports-h2h-dialog__history">${summary.history.map(item => `<article>
-      <time>${item.date.toLocaleDateString('ja-JP', { year: 'numeric', month: 'numeric', day: 'numeric' })}</time>
+      <time>${item.date.toLocaleDateString('ja-JP', { timeZone: 'Asia/Tokyo', weekday: 'short',  year: 'numeric', month: 'numeric', day: 'numeric' })}</time>
       <strong>${item.homeName} ${item.homeScore}-${item.awayScore} ${item.awayName}</strong>
       ${item.competition ? `<small>${item.competition}</small>` : ''}
     </article>`).join('')}</div>

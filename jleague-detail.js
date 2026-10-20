@@ -127,7 +127,7 @@ class JLeagueDetailController {
   formatKickoff(value) {
     const date = new Date(value);
     if (Number.isNaN(date.getTime())) return '日時未定';
-    return new Intl.DateTimeFormat('ja-JP', {
+    return new Intl.DateTimeFormat('ja-JP', { timeZone: 'Asia/Tokyo', 
       year: 'numeric',
       month: 'numeric',
       day: 'numeric',
@@ -281,7 +281,7 @@ class JLeagueDetailController {
     const availabilityLabel = availability?.matches === false ? '順位データ接続' : '試合データ接続';
     badge.textContent = Number.isNaN(updated.getTime())
       ? availabilityLabel
-      : `${updated.toLocaleDateString('ja-JP', { month: 'numeric', day: 'numeric' })}更新・${availabilityLabel}`;
+      : `${updated.toLocaleDateString('ja-JP', { timeZone: 'Asia/Tokyo', weekday: 'short',  month: 'numeric', day: 'numeric' })}更新・${availabilityLabel}`;
     badge.title = this.metadata.dataSource || 'Jリーグ共通データ';
     badge.className = `detail-badge ${availability?.matches === false ? 'is-limited' : 'is-connected'}`;
   }

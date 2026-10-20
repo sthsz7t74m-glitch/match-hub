@@ -73,7 +73,7 @@ function ensureStandingsToolsV100(){
 function renderStandingsV100(){
   const leagues=[...new Set((state.data?.standings||[]).map(s=>s.leagueId))];if(state.league===null&&leagues.length)state.league=leagues[0];
   document.querySelector('#standingsTabs').innerHTML=leagues.map(id=>`<button class="chip ${state.league===id?'active':''}" data-standing-league="${id}">${leagueNames[id]||id}</button>`).join('');ensureStandingsToolsV100();
-  const table=document.querySelector('#standingsTable');if(!leagueStarted(state.league)){const opening=getOpeningMatch(state.league);table.innerHTML=`<div class="preseason-empty"><strong>シーズン開幕前</strong><span>${opening?`開幕予定 ${new Date(opening.date).toLocaleDateString('ja-JP',{month:'numeric',day:'numeric',weekday:'short'})}`:'開幕日未定'}</span><p>順位表はリーグ戦開始後に表示されます。</p></div>`;return;}
+  const table=document.querySelector('#standingsTable');if(!leagueStarted(state.league)){const opening=getOpeningMatch(state.league);table.innerHTML=`<div class="preseason-empty"><strong>シーズン開幕前</strong><span>${opening?`開幕予定 ${new Date(opening.date).toLocaleDateString('ja-JP',{ timeZone: 'Asia/Tokyo', month:'numeric',day:'numeric',weekday:'short'})}`:'開幕日未定'}</span><p>順位表はリーグ戦開始後に表示されます。</p></div>`;return;}
   let rows=state.data.standings.find(s=>s.leagueId===state.league)?.rows||[];const total=rows.length;
   if(standingsModeV100==='favorites')rows=rows.filter(r=>state.favorites.includes(r.team.id));
   if(standingsModeV100==='europe')rows=rows.filter(r=>r.rank<=6);

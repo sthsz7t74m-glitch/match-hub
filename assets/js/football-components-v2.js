@@ -21,7 +21,7 @@ window.FootballUI = sharedSportsComponents;
   const loadScript = src => {
     if (document.querySelector(`script[src^="${src}"]`)) return;
     const script = document.createElement('script');
-    script.src = `${src}?v=1`;
+    script.src = `${src}?v=119`;
     script.defer = true;
     document.head.appendChild(script);
   };

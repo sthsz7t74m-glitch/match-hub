@@ -175,7 +175,7 @@ class JLeagueHubController {
     const updated = new Date(this.metadata.updatedAt || '');
     const dateText = Number.isNaN(updated.getTime())
       ? '更新時刻不明'
-      : updated.toLocaleString('ja-JP', { month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+      : updated.toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo', weekday: 'short',  month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
     const count = this.metadata.counts?.matches?.[this.activeLeague] ?? this.leagueMatches().length;
     const available = this.leagueAvailability();
     this.nodes.updated.textContent = `最終更新 ${dateText}・${this.activeLeague.toUpperCase()} ${count}試合`;
@@ -281,7 +281,7 @@ class JLeagueHubController {
     const service = new this.core.MatchService(this.calendarMatches());
     const matches = (this.state.selectedDate ? service.byDate(this.state.selectedDate) : service.all()).map(model => model.raw);
     this.nodes.scheduleTitle.textContent = this.state.selectedDate
-      ? `${new Date(`${this.state.selectedDate}T00:00:00`).toLocaleDateString('ja-JP', { month: 'long', day: 'numeric', weekday: 'short' })}の試合`
+      ? `${new Date(`${this.state.selectedDate}T00:00:00`).toLocaleDateString('ja-JP', { timeZone: 'Asia/Tokyo',  month: 'long', day: 'numeric', weekday: 'short' })}の試合`
       : `${this.activeLeague.toUpperCase()} 試合日程`;
     this.nodes.schedule.innerHTML = this.matchRenderer.renderMany(matches)
       || this.scheduleEmpty(this.ui.calendars?.jleague?.favoriteOnly ? 'この日に推しの試合はありません' : 'この日の試合はありません', 'クラブと順位情報は表示できます。');

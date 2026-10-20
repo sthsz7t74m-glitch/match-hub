@@ -86,7 +86,7 @@ function statusText(match) {
 function formatKickoff(value) {
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) return '日時未定';
-  return date.toLocaleString('ja-JP', {
+  return date.toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo', 
     month: 'numeric', day: 'numeric', weekday: 'short', hour: '2-digit', minute: '2-digit'
   });
 }
@@ -95,7 +95,7 @@ function formatStatusDate(value) {
   if (!value) return '';
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) return String(value);
-  return date.toLocaleDateString('ja-JP', { month: 'numeric', day: 'numeric' });
+  return date.toLocaleDateString('ja-JP', { timeZone: 'Asia/Tokyo', weekday: 'short',  month: 'numeric', day: 'numeric' });
 }
 
 function syncUpdatedStatus() {

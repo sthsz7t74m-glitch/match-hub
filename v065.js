@@ -12,7 +12,7 @@ function renderCalendarV065(){
   $('#calendarGrid').innerHTML=html;
   const selectedList=state.calendarSelected?(map[state.calendarSelected]||[]):[];
   const selectedDate=state.calendarSelected?new Date(`${state.calendarSelected}T00:00:00`):null;
-  const heading=selectedDate?`<div class="calendar-selected-head"><strong>${selectedDate.toLocaleDateString('ja-JP',{month:'numeric',day:'numeric',weekday:'short'})}</strong><span>${selectedList.length}試合</span></div>`:'';
+  const heading=selectedDate?`<div class="calendar-selected-head"><strong>${selectedDate.toLocaleDateString('ja-JP',{ timeZone: 'Asia/Tokyo', month:'numeric',day:'numeric',weekday:'short'})}</strong><span>${selectedList.length}試合</span></div>`:'';
   $('#calendarMatches').innerHTML=state.calendarSelected?`${heading}${selectedList.map(f=>matchCard(f,{rich:true})).join('')||'<p class="empty compact-empty">この日の試合はありません</p>'}`:'<div class="calendar-guide"><strong>試合数のある日をタップ</strong><span>お気に入りクラブの試合だけ表示します</span></div>';
 }
 

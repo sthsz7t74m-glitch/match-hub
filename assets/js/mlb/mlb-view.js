@@ -65,12 +65,12 @@ window.MLBView = window.MLBView || {};
       const date = new Date(value);
       if (Number.isNaN(date.getTime())) return '日時未定';
 
-      const dateText = date.toLocaleDateString('ja-JP', {
+      const dateText = date.toLocaleDateString('ja-JP', { timeZone: 'Asia/Tokyo', 
         month: 'numeric',
         day: 'numeric',
         weekday: 'short'
       });
-      const timeText = date.toLocaleTimeString('ja-JP', {
+      const timeText = date.toLocaleTimeString('ja-JP', { timeZone: 'Asia/Tokyo', 
         hour: '2-digit',
         minute: '2-digit'
       });

@@ -168,8 +168,8 @@ window.SportsHubComponents = window.SportsHubComponents || {};
       const match = options.match || {};
       const date = new Date(options.date || match.kickoff || match.date);
       const validDate = !Number.isNaN(date.getTime());
-      const dateText = options.dateText || (validDate ? date.toLocaleDateString('ja-JP', { month: 'numeric', day: 'numeric', weekday: 'short' }) : '日時未定');
-      const kickoffText = options.timeText || (validDate ? date.toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' }) : '');
+      const dateText = options.dateText || (validDate ? date.toLocaleDateString('ja-JP', { timeZone: 'Asia/Tokyo',  month: 'numeric', day: 'numeric', weekday: 'short' }) : '日時未定');
+      const kickoffText = options.timeText || (validDate ? date.toLocaleTimeString('ja-JP', { timeZone: 'Asia/Tokyo',  hour: '2-digit', minute: '2-digit' }) : '');
       const label = statusLabel(match);
       const timeText = ['finished', 'final'].includes(String(match.status || '').toLowerCase())
         ? [kickoffText, label].filter(Boolean).join(' ')
