@@ -46,7 +46,7 @@ render=function(){baseRenderV090();renderDailyOverviewV090();};
 function activateViewV090(target){
   if(target==='schedule'){
     state.view='home';setActiveNav('schedule');render();
-    setTimeout(()=>document.querySelector('.tabs')?.scrollIntoView({behavior:'smooth',block:'start'}),40);
+    setTimeout(()=>window.SportsUI.navigation.scrollToCalendar(),40);
     return;
   }
   state.view=target;setActiveNav(target);render();scrollTopV090();
