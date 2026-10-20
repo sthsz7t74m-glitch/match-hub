@@ -45,9 +45,9 @@ function recentSummaryV100(){
   root.querySelector('.form-summary-v100')?.remove();
   const list=fixturesFor(state.primary).filter(isFinished).slice(-5).reverse();if(!list.length)return;
   let points=0,gf=0,ga=0;const forms=[];
-  list.forEach(f=>{const home=f.home.id===state.primary,own=Number(home?f.goals.home:f.goals.away)||0,opp=Number(home?f.goals.away:f.goals.home)||0;gf+=own;ga+=opp;if(own>opp){points+=3;forms.push('○');}else if(own===opp){points+=1;forms.push('△');}else forms.push('●');});
-  let streak=0,streakType='';for(const mark of forms){const type=mark==='○'?'連勝':mark==='●'?'連敗':'';if(!type||streakType&&streakType!==type)break;streakType=type;streak++;}
-  const div=document.createElement('div');div.className='form-summary-v100';div.innerHTML=`<div><span>直近5試合</span><strong class="form-marks">${forms.join(' ')}</strong></div><div class="form-stats"><span>勝点 <b>${points}</b></span><span>得失点 <b>${gf-ga>0?'+':''}${gf-ga}</b></span>${streak>=2?`<span class="streak">${streak}${streakType}</span>`:''}</div>`;
+  list.forEach(f=>{const home=f.home.id===state.primary,own=Number(home?f.goals.home:f.goals.away)||0,opp=Number(home?f.goals.away:f.goals.home)||0;gf+=own;ga+=opp;if(own>opp){points+=3;forms.push('win');}else if(own===opp){points+=1;forms.push('draw');}else forms.push('loss');});
+  let streak=0,streakType='';for(const mark of forms){const type=mark==='win'?'連勝':mark==='loss'?'連敗':'';if(!type||streakType&&streakType!==type)break;streakType=type;streak++;}
+  const div=document.createElement('div');div.className='form-summary-v100';div.innerHTML=`<div><span>直近5試合</span><strong class="form-marks">${forms.map(result=>`<span class="form-mark form-mark--${result}" role="img" aria-label="${{win:'勝ち',loss:'負け',draw:'引き分け'}[result]}" title="${{win:'勝ち',loss:'負け',draw:'引き分け'}[result]}">${result==='draw'?'-':''}</span>`).join('')}</strong></div><div class="form-stats"><span>勝点 <b>${points}</b></span><span>得失点 <b>${gf-ga>0?'+':''}${gf-ga}</b></span>${streak>=2?`<span class="streak">${streak}${streakType}</span>`:''}</div>`;
   const details=root.querySelector('.recent-details');if(details)details.before(div);else root.appendChild(div);
 }
 const baseRenderHeroV100=renderHero;
