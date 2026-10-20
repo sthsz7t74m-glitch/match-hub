@@ -169,7 +169,11 @@ window.SportsHubComponents = window.SportsHubComponents || {};
       const date = new Date(options.date || match.kickoff || match.date);
       const validDate = !Number.isNaN(date.getTime());
       const dateText = options.dateText || (validDate ? date.toLocaleDateString('ja-JP', { month: 'numeric', day: 'numeric', weekday: 'short' }) : '日時未定');
-      const timeText = options.timeText || statusLabel(match) || (validDate ? date.toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' }) : '');
+      const kickoffText = options.timeText || (validDate ? date.toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' }) : '');
+      const label = statusLabel(match);
+      const timeText = ['finished', 'final'].includes(String(match.status || '').toLowerCase())
+        ? [kickoffText, label].filter(Boolean).join(' ')
+        : options.timeText || label || kickoffText;
       const decision = options.decisionText === false ? '' : options.decisionText ?? decisionLabel(match);
       const status = String(match.status || '').toLowerCase();
       const live = ['in_play', 'in-play', 'live', 'paused'].includes(status);
