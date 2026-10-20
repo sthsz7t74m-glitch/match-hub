@@ -11,7 +11,7 @@ if (!document.querySelector('link[data-calendar-league-filter]')) {
   document.head.appendChild(link);
 }
 const releaseBadge = document.querySelector('.version');
-if (releaseBadge) releaseBadge.textContent = 'v1.1.25';
+if (releaseBadge) releaseBadge.textContent = 'v1.1.26';
 
 (function initializeMatchHubCalendar(namespace) {
   if (document.body.dataset.hub !== 'five' || namespace.calendars?.five) return;

@@ -21,7 +21,14 @@ function renderDailyOverviewV090(){
   const primaryNext=fixturesFor(state.primary).find(f=>new Date(f.date)>now&&!isFinished(f));
   const nextText=primaryNext?countdownText(primaryNext.date).replace(/\s+/g,' '):'未定';
   const transferCount=favoriteTransferCountV090();
-  root.innerHTML=`<div class="overview-head"><div><p class="eyebrow">TODAY'S FOOTBALL</p><h2>今日のサッカー</h2></div><span>${now.toLocaleDateString('ja-JP',{ timeZone: 'Asia/Tokyo', month:'numeric',day:'numeric',weekday:'short'})}</span></div><div class="overview-grid"><button class="overview-item" data-overview-target="schedule"><span>今日の試合</span><strong>${todayMatches.length}</strong><small>試合</small></button><button class="overview-item ${liveMatches.length?'has-live':''}" data-overview-target="live"><span>LIVE中</span><strong>${liveMatches.length}</strong><small>試合</small></button><button class="overview-item wide" data-overview-target="primary"><span>最推しの次戦</span><strong>${nextText}</strong><small>${primaryNext?teamName(primaryNext.home)+' vs '+teamName(primaryNext.away):'日程未定'}</small></button><button class="overview-item wide" data-overview-target="transfers"><span>お気に入り関連の移籍</span><strong>${transferCount}</strong><small>件のニュース</small></button></div>`;
+  const kickoff=primaryNext?new Date(primaryNext.date).toLocaleString('ja-JP',{timeZone:'Asia/Tokyo',month:'numeric',day:'numeric',weekday:'short',hour:'2-digit',minute:'2-digit'}):'';
+  const nextMarkup=primaryNext
+    ? `<button class="overview-next" data-fixture="${primaryNext.id}"><span class="overview-next__label">最推しの次戦 <span>試合詳細</span></span><strong>${teamName(primaryNext.home)}<span class="overview-next__vs">vs</span>${teamName(primaryNext.away)}</strong><span class="overview-next__time">${kickoff} <small>あと ${nextText}</small></span></button>`
+    : '<div class="overview-next overview-next--empty"><span class="overview-next__label">最推しの次戦</span><strong>日程未定</strong></div>';
+  const metric=(label,count,unit,target)=>count>0||target==='schedule'
+    ? `<button class="overview-stat ${target==='live'&&count?'has-live':''}" data-overview-target="${target}"><span>${label}</span><strong>${count}<small>${unit}</small></strong></button>`
+    : `<div class="overview-stat overview-stat--empty"><span>${label}</span><strong>${count}<small>${unit}</small></strong></div>`;
+  root.innerHTML=`${nextMarkup}<div class="overview-head"><h2>今日のサッカー</h2><span>${now.toLocaleDateString('ja-JP',{timeZone:'Asia/Tokyo',month:'numeric',day:'numeric',weekday:'short'})}</span></div><div class="overview-stats">${metric('今日の試合',todayMatches.length,'試合','schedule')}${metric('LIVE',liveMatches.length,'試合','live')}${metric('関連の移籍',transferCount,'件','transfers')}</div>`;
 }
 
 function renderFavoritesV090(){
@@ -40,8 +47,8 @@ function renderFavoritesV090(){
 }
 
 renderFavorites=renderFavoritesV090;
-const baseRenderV090=render;
-render=function(){baseRenderV090();renderDailyOverviewV090();};
+// The minute timer and all render wrappers must use the same compact summary.
+renderDailyOverview=renderDailyOverviewV090;
 
 function activateViewV090(target){
   state.view=target;setActiveNav(target);render();scrollTopV090();

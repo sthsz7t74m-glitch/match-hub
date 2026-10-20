@@ -35,12 +35,10 @@ render=function(){
   renderBeforeChampions();
   const active=state.view==='champions';
   document.querySelector('.cl-entry')?.classList.toggle('hidden',state.view!=='home'&&!active);
-  const switchLink=document.querySelector('.cl-entry a');
-  if(switchLink){
-    switchLink.textContent=active?'クラブ':'チャンピオンズリーグ';
-    switchLink.href=active?'./':'?view=champions';
-    switchLink.toggleAttribute('data-open-champions',!active);
-    switchLink.toggleAttribute('data-cl-home',active);
+  const switcher=document.querySelector('.cl-entry');
+  if(switcher){
+    switcher.setAttribute('aria-label','大会の表示');
+    switcher.innerHTML=`<a class="chip ${!active?'active':''}" href="./" data-cl-home ${!active?'aria-current="page"':''}>クラブ</a><a class="chip ${active?'active':''}" href="?view=champions" data-open-champions ${active?'aria-current="page"':''}>チャンピオンズリーグ</a>`;
   }
   document.querySelector('#championsView')?.classList.toggle('hidden',!active);
   if(active){document.querySelector('#onboarding')?.classList.add('hidden');renderChampions();}
@@ -67,5 +65,5 @@ document.querySelector('#championsView')?.addEventListener('change',event=>{
   renderChampions();
 });
 if(new URLSearchParams(location.search).get('view')==='champions'){state.view='champions';setActiveNav('');}
-const clVersion=document.querySelector('.version');if(clVersion)clVersion.textContent='v1.1.25';
+const clVersion=document.querySelector('.version');if(clVersion)clVersion.textContent='v1.1.26';
 if(state.data)render();
