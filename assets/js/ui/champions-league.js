@@ -67,5 +67,5 @@ document.querySelector('#championsView')?.addEventListener('change',event=>{
   renderChampions();
 });
 if(new URLSearchParams(location.search).get('view')==='champions'){state.view='champions';setActiveNav('');}
-const clVersion=document.querySelector('.version');if(clVersion)clVersion.textContent='v1.1.24';
+const clVersion=document.querySelector('.version');if(clVersion)clVersion.textContent='v1.1.25';
 if(state.data)render();

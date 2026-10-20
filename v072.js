@@ -6,12 +6,8 @@ render=function(){
 };
 
 openTransferView=function(){
-  state.view='transfers';
-  ['#homeView','#teamDetailView','#standingsView','#searchView','#settingsView','#onboarding'].forEach(selector=>document.querySelector(selector)?.classList.add('hidden'));
-  document.querySelector('#transfersView')?.classList.remove('hidden');
-  document.querySelectorAll('.nav-item').forEach(item=>item.classList.toggle('active',item.dataset.view==='transfers'));
-  renderTransfers();
-  window.scrollTo({top:0,behavior:'smooth'});
+  state.view='transfers';setActiveNav('transfers');render();renderTransfers();
+  window.scrollTo({top:0,left:0,behavior:'instant'});
 };
 
 renderFavorites=function(){

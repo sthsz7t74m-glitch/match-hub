@@ -20,8 +20,8 @@ document.addEventListener('click',event=>{
   if(!shortcut)return;
   state.range=shortcut.dataset.rangeShortcut;
   document.querySelectorAll('[data-range]').forEach(button=>button.classList.toggle('active',button.dataset.range===state.range));
-  renderSchedule();
-  document.querySelector('#scheduleList')?.scrollIntoView({behavior:'smooth',block:'start'});
+  activateViewV090('schedule');
+  document.querySelector('#scheduleList')?.scrollIntoView({behavior:'instant',block:'start'});
 });
 
 setInterval(()=>{if(!document.hidden)renderDailyOverview();},60000);

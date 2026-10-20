@@ -21,7 +21,7 @@ window.FootballUI = sharedNavigationUI;
     }
 
     scrollToTop() {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      window.scrollTo({ top: 0, behavior: 'instant' });
     }
 
     scrollToCalendar() {
@@ -29,7 +29,7 @@ window.FootballUI = sharedNavigationUI;
       if (!panel) return this.scrollToTop();
       const header = document.querySelector('.topbar');
       const offset = (header?.getBoundingClientRect().height || 0) + 12;
-      window.scrollTo({ top: Math.max(0, panel.getBoundingClientRect().top + window.scrollY - offset), behavior: 'smooth' });
+      window.scrollTo({ top: Math.max(0, panel.getBoundingClientRect().top + window.scrollY - offset), behavior: 'instant' });
     }
 
     handleClick(event) {
@@ -37,8 +37,7 @@ window.FootballUI = sharedNavigationUI;
       if (!item || !this.root?.contains(item) || !isActiveNavigationItem(item)) return;
       event.preventDefault();
       event.stopImmediatePropagation();
-      if (item.dataset.view === 'schedule' && document.body.dataset.hub === 'five') this.scrollToCalendar();
-      else this.scrollToTop();
+      this.scrollToTop();
     }
 
     bind() {

@@ -9,7 +9,7 @@ selectTeam=function(id,asPrimary){
     state.view='home';
     setActiveNav('home');
     render();
-    window.scrollTo({top:0,behavior:'smooth'});
+    window.scrollTo({top:0,behavior:'instant'});
     return;
   }
 

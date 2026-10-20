@@ -1,8 +1,8 @@
 const favoriteListExpandedV090=()=>localStorage.getItem('matchHubFavoritesExpanded')==='true';
 let favoritesExpandedV090=favoriteListExpandedV090();
 
-function scrollTopV090(behavior='smooth'){
-  requestAnimationFrame(()=>requestAnimationFrame(()=>window.scrollTo({top:0,left:0,behavior})));
+function scrollTopV090(behavior='instant'){
+  window.scrollTo({top:0,left:0,behavior});
 }
 
 function favoriteTransferCountV090(){
@@ -44,11 +44,6 @@ const baseRenderV090=render;
 render=function(){baseRenderV090();renderDailyOverviewV090();};
 
 function activateViewV090(target){
-  if(target==='schedule'){
-    state.view='home';setActiveNav('schedule');render();
-    setTimeout(()=>window.SportsUI.navigation.scrollToCalendar(),40);
-    return;
-  }
   state.view=target;setActiveNav(target);render();scrollTopV090();
 }
 
@@ -59,8 +54,8 @@ document.addEventListener('click',event=>{
   if(overview){
     const target=overview.dataset.overviewTarget;
     if(target==='schedule'){state.range='today';document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x.dataset.range==='today'));renderSchedule();activateViewV090('schedule');}
-    else if(target==='live'){state.view='home';setActiveNav('home');render();setTimeout(()=>document.querySelector('#liveSection')?.scrollIntoView({behavior:'smooth',block:'start'}),40);}
-    else if(target==='primary'){document.querySelector('#favoriteHero')?.scrollIntoView({behavior:'smooth',block:'start'});}
+    else if(target==='live'){state.view='home';setActiveNav('home');render();document.querySelector('#liveSection')?.scrollIntoView({behavior:'instant',block:'start'});}
+    else if(target==='primary'){document.querySelector('#favoriteHero')?.scrollIntoView({behavior:'instant',block:'start'});}
     else if(target==='transfers'){if(typeof openTransferView==='function')openTransferView();}
     return;
   }

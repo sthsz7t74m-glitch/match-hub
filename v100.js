@@ -143,7 +143,7 @@ document.addEventListener('click',event=>{
     state.range='month';document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x.dataset.range==='month'));renderSchedule();return;
   }
   if(emptyAction?.dataset.sportsEmptyAction==='open-search'){
-    state.view='search';setActiveNav('search');render();window.scrollTo({top:0,behavior:'smooth'});return;
+    state.view='search';setActiveNav('search');render();window.scrollTo({top:0,behavior:'instant'});return;
   }
   if(event.target.closest('[data-retry-v100]')){loadData(true);return;}
   const add=event.target.closest('.picker-card-v100 [data-team]');if(add){const id=Number(add.dataset.team);setTimeout(()=>toastV100(state.favorites.includes(id)?`${teamName(getTeam(id))}を追加しました`:`${teamName(getTeam(id))}を解除しました`),0);}
