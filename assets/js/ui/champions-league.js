@@ -34,6 +34,7 @@ const renderBeforeChampions=render;
 render=function(){
   renderBeforeChampions();
   const active=state.view==='champions';
+  document.querySelector('.cl-entry')?.classList.toggle('hidden',state.view!=='home'&&!active);
   const switchLink=document.querySelector('.cl-entry a');
   if(switchLink){
     switchLink.textContent=active?'クラブ':'チャンピオンズリーグ';
@@ -66,5 +67,5 @@ document.querySelector('#championsView')?.addEventListener('change',event=>{
   renderChampions();
 });
 if(new URLSearchParams(location.search).get('view')==='champions'){state.view='champions';setActiveNav('');}
-const clVersion=document.querySelector('.version');if(clVersion)clVersion.textContent='v1.1.23';
+const clVersion=document.querySelector('.version');if(clVersion)clVersion.textContent='v1.1.24';
 if(state.data)render();
