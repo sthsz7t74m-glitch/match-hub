@@ -34,6 +34,13 @@ const renderBeforeChampions=render;
 render=function(){
   renderBeforeChampions();
   const active=state.view==='champions';
+  const switchLink=document.querySelector('.cl-entry a');
+  if(switchLink){
+    switchLink.textContent=active?'クラブ':'チャンピオンズリーグ';
+    switchLink.href=active?'./':'?view=champions';
+    switchLink.toggleAttribute('data-open-champions',!active);
+    switchLink.toggleAttribute('data-cl-home',active);
+  }
   document.querySelector('#championsView')?.classList.toggle('hidden',!active);
   if(active){document.querySelector('#onboarding')?.classList.add('hidden');renderChampions();}
 };
@@ -49,7 +56,7 @@ renderStandingsV100=function(){
 renderStandings=renderStandingsV100;
 document.addEventListener('click',event=>{
   if(event.target.closest('[data-open-champions]')){event.preventDefault();state.view='champions';setActiveNav('');render();window.scrollTo({top:0});}
-  if(event.target.closest('[data-cl-home]')){state.view='home';setActiveNav('home');render();}
+  if(event.target.closest('[data-cl-home]')){event.preventDefault();state.view='home';setActiveNav('home');render();}
   const tab=event.target.closest('[data-cl-tab]');if(tab){championsState.tab=tab.dataset.clTab;renderChampions();}
 });
 document.querySelector('#championsView')?.addEventListener('change',event=>{
@@ -59,5 +66,5 @@ document.querySelector('#championsView')?.addEventListener('change',event=>{
   renderChampions();
 });
 if(new URLSearchParams(location.search).get('view')==='champions'){state.view='champions';setActiveNav('');}
-const clVersion=document.querySelector('.version');if(clVersion)clVersion.textContent='v1.1.21';
+const clVersion=document.querySelector('.version');if(clVersion)clVersion.textContent='v1.1.22';
 if(state.data)render();
