@@ -1,9 +1,39 @@
 {
-  "updatedAt": "2026-10-21T12:03:20.499Z",
+  "updatedAt": "2026-10-21T17:22:57.583Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c98rz0d0l40vo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "The keeper doing 'Premier League' things for EFL's last unbeaten side",
+      "titleJa": "移籍情報：The keeper doing 'Premier League' things for EFL's last unbeaten side",
+      "from": "",
+      "to": "",
+      "summaryJa": "The keeper doing 'Premier League' things for EFL's last unbeaten side移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "The keeper doing 'Premier League' things for EFL's last unbeaten side",
+      "summary": "Walsall goalkeeper Jed Ward is producing \"Premier League\" contributions with his hands and feet, say dazzled team-mates and his manager.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c98rz0d0l40vo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T12:46:12.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sounds/play/p0phvgy3?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "72+: The EFL Podcast",
+      "titleJa": "移籍情報：72+: The EFL Podcast",
+      "from": "",
+      "to": "",
+      "summaryJa": "72+: The EFL Podcast移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "72+: The EFL Podcast",
+      "summary": "Aaron Paul and Jobi McAnuff are joined by Lyle Taylor to discuss the latest in the EFL.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sounds/play/p0phvgy3?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T16:07:00.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/ck62yq0rd0vvo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -65,51 +95,6 @@
       "date": "2026-10-20T11:23:57.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sounds/play/p0phqcz5?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Liverpool, Man City & PSG win on record-breaking night",
-      "titleJa": "移籍情報：Liverpool, Man City & PSG win on record-breaking night",
-      "from": "",
-      "to": "",
-      "summaryJa": "Liverpool, Man City & PSG win on record-breaking night移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Liverpool, Man City & PSG win on record-breaking night",
-      "summary": "Kelly Cates is joined by Stephen Warnock, Ashley Young, Tom Allnutt and Statman Dave.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sounds/play/p0phqcz5?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T22:14:00.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cqvg0vjde20mo?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "Former Norwich and Celtic striker Pukki to retire",
-      "titleJa": "移籍情報：Former Norwich and Celtic striker Pukki to retire",
-      "from": "",
-      "to": "",
-      "summaryJa": "Former Norwich and Celtic striker Pukki to retire移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "Former Norwich and Celtic striker Pukki to retire",
-      "summary": "Former Norwich City and Finland striker Teemu Pukki announces his retirement from football at the age of 36.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqvg0vjde20mo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T14:37:41.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cm93z0x939leo?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "SPFL invites bids for new Scottish Premiership TV deal",
-      "titleJa": "移籍情報：SPFL invites bids for new Scottish Premiership TV deal",
-      "from": "",
-      "to": "",
-      "summaryJa": "SPFL invites bids for new Scottish Premiership TV deal移る可能性について、交渉段階の報道です。",
-      "originalTitle": "SPFL invites bids for new Scottish Premiership TV deal",
-      "summary": "The SPFL expects \"strong interest\" after inviting broadcasters to bid for the UK rights to show Scottish Premiership matches from the 2029-30 campaign.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm93z0x939leo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T10:44:11.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/videos/cq3dj1ddn83xo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "My one feeling is shame - Sage on bruising Palace defeat",
@@ -123,6 +108,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cq3dj1ddn83xo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-18T15:41:16.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sounds/play/p0phqcz5?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Liverpool, Man City & PSG win on record-breaking night",
+      "titleJa": "移籍情報：Liverpool, Man City & PSG win on record-breaking night",
+      "from": "",
+      "to": "",
+      "summaryJa": "Liverpool, Man City & PSG win on record-breaking night移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Liverpool, Man City & PSG win on record-breaking night",
+      "summary": "Kelly Cates is joined by Stephen Warnock, Ashley Young, Tom Allnutt and Statman Dave.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sounds/play/p0phqcz5?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T22:14:00.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cmde8l07569no?at_medium=RSS&at_campaign=rss",
@@ -168,6 +168,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/articles/cmje5wl5ek32o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-13T10:13:34.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cm93z0x939leo?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "SPFL invites bids for new Scottish Premiership TV deal",
+      "titleJa": "移籍情報：SPFL invites bids for new Scottish Premiership TV deal",
+      "from": "",
+      "to": "",
+      "summaryJa": "SPFL invites bids for new Scottish Premiership TV deal移る可能性について、交渉段階の報道です。",
+      "originalTitle": "SPFL invites bids for new Scottish Premiership TV deal",
+      "summary": "The SPFL expects \"strong interest\" after inviting broadcasters to bid for the UK rights to show Scottish Premiership matches from the 2029-30 campaign.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm93z0x939leo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T10:44:11.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c679plpvellgo?at_medium=RSS&at_campaign=rss",
