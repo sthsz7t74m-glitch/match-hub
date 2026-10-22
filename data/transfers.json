@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T21:50:33.810Z",
+  "updatedAt": "2026-10-22T05:03:26.687Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -123,21 +123,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/articles/cmje5wl5ek32o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-13T10:13:34.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cm93z0x939leo?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "SPFL invites bids for new Scottish Premiership TV deal",
-      "titleJa": "移籍情報：SPFL invites bids for new Scottish Premiership TV deal",
-      "from": "",
-      "to": "",
-      "summaryJa": "SPFL invites bids for new Scottish Premiership TV deal移る可能性について、交渉段階の報道です。",
-      "originalTitle": "SPFL invites bids for new Scottish Premiership TV deal",
-      "summary": "The SPFL expects \"strong interest\" after inviting broadcasters to bid for the UK rights to show Scottish Premiership matches from the 2029-30 campaign.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm93z0x939leo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T10:44:11.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cvze4w57746yo?at_medium=RSS&at_campaign=rss",
