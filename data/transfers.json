@@ -1,24 +1,9 @@
 {
-  "updatedAt": "2026-10-22T05:03:26.687Z",
+  "updatedAt": "2026-10-22T12:06:19.205Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cwdr8zxp884mo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Ex-England defender Bertrand eyes £87m AFC Wimbledon deal",
-      "titleJa": "移籍情報：Ex-England defender Bertrand eyes £87m AFC Wimbledon deal",
-      "from": "",
-      "to": "",
-      "summaryJa": "Ex-England defender Bertrand eyes £87m AFC Wimbledon deal移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Ex-England defender Bertrand eyes £87m AFC Wimbledon deal",
-      "summary": "Ryan Bertrand is leading a consortium that has proposed an £87m minority investment into League One side AFC Wimbledon.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwdr8zxp884mo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T20:02:23.000Z"
-    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cme3xk2jkyv0o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -33,6 +18,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cme3xk2jkyv0o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T20:17:45.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cwdr8zxp884mo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Ex-England defender Bertrand eyes £87m AFC Wimbledon deal",
+      "titleJa": "移籍情報：Ex-England defender Bertrand eyes £87m AFC Wimbledon deal",
+      "from": "",
+      "to": "",
+      "summaryJa": "Ex-England defender Bertrand eyes £87m AFC Wimbledon deal移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Ex-England defender Bertrand eyes £87m AFC Wimbledon deal",
+      "summary": "Ryan Bertrand is leading a consortium that has proposed an £87m minority investment into League One side AFC Wimbledon.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwdr8zxp884mo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T20:02:23.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sounds/play/p0phvgy3?at_medium=RSS&at_campaign=rss",
@@ -63,21 +63,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c98rz0d0l40vo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T12:46:12.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sounds/play/p0phqcz5?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Liverpool, Man City & PSG win on record-breaking night",
-      "titleJa": "移籍情報：Liverpool, Man City & PSG win on record-breaking night",
-      "from": "",
-      "to": "",
-      "summaryJa": "Liverpool, Man City & PSG win on record-breaking night移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Liverpool, Man City & PSG win on record-breaking night",
-      "summary": "Kelly Cates is joined by Stephen Warnock, Ashley Young, Tom Allnutt and Statman Dave.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sounds/play/p0phqcz5?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T22:14:00.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cmde8l07569no?at_medium=RSS&at_campaign=rss",
@@ -123,6 +108,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/articles/cmje5wl5ek32o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-13T10:13:34.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sounds/play/p0phyhpt?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Podcast: Is Celta a must-win for Celtic? And what do fans want from new TV deal?",
+      "titleJa": "移籍情報：Podcast: Is Celta a must-win for Celtic? And what do fans want from new TV deal?",
+      "from": "",
+      "to": "",
+      "summaryJa": "Podcast: Is Celta a must-win for Celtic? And what do fans want from new TV deal?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Podcast: Is Celta a must-win for Celtic? And what do fans want from new TV deal?",
+      "summary": "Celtic face a Europa League test in Celta Vigo - can they keep the momentum going?",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sounds/play/p0phyhpt?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T07:00:00.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cvze4w57746yo?at_medium=RSS&at_campaign=rss",
