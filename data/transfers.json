@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T17:17:41.274Z",
+  "updatedAt": "2026-10-23T21:31:15.068Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -35,6 +35,21 @@
       "date": "2026-10-23T14:18:41.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/videos/c9x28pyg05vyo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Spurs beat Coventry to earn first league win of the season",
+      "titleJa": "移籍情報：Spurs beat Coventry to earn first league win of the season",
+      "from": "",
+      "to": "",
+      "summaryJa": "Spurs beat Coventry to earn first league win of the season移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Spurs beat Coventry to earn first league win of the season",
+      "summary": "Tottenham Hotspur record their first Premier League win of the season and move off the bottom of the table with a home victory over Coventry City.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c9x28pyg05vyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T21:33:07.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c6z981p24q1eo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Dream night for Bournemouth - win over Milan a sign of Premier League power",
@@ -63,36 +78,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9gkvrkkjv0lo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-23T07:57:27.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/videos/c9x28pyg05vyo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Spurs beat Coventry to earn first league win of the season",
-      "titleJa": "移籍情報：Spurs beat Coventry to earn first league win of the season",
-      "from": "",
-      "to": "",
-      "summaryJa": "Spurs beat Coventry to earn first league win of the season移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Spurs beat Coventry to earn first league win of the season",
-      "summary": "Tottenham Hotspur record their first Premier League win of the season and move off the bottom of the table with a home victory over Coventry City.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c9x28pyg05vyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T21:33:07.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c63elp2kz4exo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Man Utd chief keen on Howe - Friday's gossip",
-      "titleJa": "移籍情報：Man Utd chief keen on Howe - Friday's gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Man Utd chief keen on Howe - Friday's gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Man Utd chief keen on Howe - Friday's gossip",
-      "summary": "Manchester United linked with Antonio Conte, Unai Emery, Eddie Howe and Julian Nagelsmann among others if they part ways with manager Michael Carrick.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c63elp2kz4exo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T21:53:52.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c9zrdkv775r1o?at_medium=RSS&at_campaign=rss",
