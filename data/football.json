@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T10:10:04.890Z",
+  "updatedAt": "2026-10-23T15:09:54.251Z",
   "season": "2026",
   "dataSource": "football-data.org",
   "dataMode": "current-free-plan",
@@ -20469,48 +20469,6 @@
       "events": []
     },
     {
-      "id": 559648,
-      "date": "2026-10-25T19:45:00Z",
-      "status": "TIMED",
-      "elapsed": null,
-      "competition": "Ligue 1",
-      "competitionJa": "リーグ・アン",
-      "leagueId": 61,
-      "leagueCode": "FL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第8節",
-      "venue": "",
-      "home": {
-        "id": 524,
-        "name": "Paris Saint-Germain FC",
-        "shortName": "パリ・サンジェルマン",
-        "logo": "https://crests.football-data.org/524.png"
-      },
-      "away": {
-        "id": 523,
-        "name": "Olympique Lyonnais",
-        "shortName": "リヨン",
-        "logo": "https://crests.football-data.org/523.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
       "id": 564723,
       "date": "2026-10-25T20:00:00Z",
       "status": "TIMED",
@@ -20533,6 +20491,48 @@
         "name": "Real Madrid CF",
         "shortName": "レアル・マドリード",
         "logo": "https://crests.football-data.org/86.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 559648,
+      "date": "2026-10-26T19:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Ligue 1",
+      "competitionJa": "リーグ・アン",
+      "leagueId": 61,
+      "leagueCode": "FL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第8節",
+      "venue": "",
+      "home": {
+        "id": 524,
+        "name": "Paris Saint-Germain FC",
+        "shortName": "パリ・サンジェルマン",
+        "logo": "https://crests.football-data.org/524.png"
+      },
+      "away": {
+        "id": 523,
+        "name": "Olympique Lyonnais",
+        "shortName": "リヨン",
+        "logo": "https://crests.football-data.org/523.png"
       },
       "goals": {
         "home": null,
