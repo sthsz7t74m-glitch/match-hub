@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T21:45:19.453Z",
+  "updatedAt": "2026-10-23T05:03:35.224Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -32,7 +32,7 @@
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c63elp2kz4exo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T20:38:37.000Z"
+      "date": "2026-10-22T21:53:52.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sounds/play/m0033tlq?at_medium=RSS&at_campaign=rss",
@@ -50,6 +50,21 @@
       "date": "2026-10-22T15:16:00.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/videos/c9x28pyg05vyo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Spurs beat Coventry to earn first league win of the season",
+      "titleJa": "移籍情報：Spurs beat Coventry to earn first league win of the season",
+      "from": "",
+      "to": "",
+      "summaryJa": "Spurs beat Coventry to earn first league win of the season移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Spurs beat Coventry to earn first league win of the season",
+      "summary": "Tottenham Hotspur record their first Premier League win of the season and move off the bottom of the table with a home victory over Coventry City.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c9x28pyg05vyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T21:33:07.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cwdr8zxp884mo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Ex-England defender Bertrand eyes £87m AFC Wimbledon deal",
@@ -63,6 +78,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwdr8zxp884mo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T20:02:23.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/videos/cq3dj1ddn83xo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "My one feeling is shame - Sage on bruising Palace defeat",
+      "titleJa": "移籍情報：My one feeling is shame - Sage on bruising Palace defeat",
+      "from": "",
+      "to": "",
+      "summaryJa": "My one feeling is shame - Sage on bruising Palace defeat移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "My one feeling is shame - Sage on bruising Palace defeat",
+      "summary": "Crystal Palace head coach Pierre Sage says he feels \"shame\" after their 5-0 defeat by Brighton.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cq3dj1ddn83xo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T15:41:16.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c98rz0d0l40vo?at_medium=RSS&at_campaign=rss",
