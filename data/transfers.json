@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T05:03:35.224Z",
+  "updatedAt": "2026-10-23T11:50:38.929Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -20,6 +20,21 @@
       "date": "2026-10-22T21:30:31.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c9gkvrkkjv0lo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "New Victor Moses? How Alonso has transformed Neto",
+      "titleJa": "移籍情報：New Victor Moses? How Alonso has transformed Neto",
+      "from": "",
+      "to": "",
+      "summaryJa": "New Victor Moses? How Alonso has transformed Neto移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "New Victor Moses? How Alonso has transformed Neto",
+      "summary": "Those following Chelsea closely may feel history is repeating itself as Pedro Neto excels at wing-back, much like Victor Moses did a decade ago.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9gkvrkkjv0lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T07:57:27.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c63elp2kz4exo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Man Utd chief keen on Howe - Friday's gossip",
@@ -33,21 +48,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c63elp2kz4exo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-22T21:53:52.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sounds/play/m0033tlq?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Football Daily",
-      "titleJa": "移籍情報：Football Daily",
-      "from": "",
-      "to": "",
-      "summaryJa": "Football Daily移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Football Daily",
-      "summary": "Andy Mitten & Jay Motty join Rick & Lloyd to dissect Man United's disastrous night.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sounds/play/m0033tlq?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T15:16:00.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/c9x28pyg05vyo?at_medium=RSS&at_campaign=rss",
@@ -65,6 +65,21 @@
       "date": "2026-10-19T21:33:07.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c9zrdkv775r1o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Former Man United chief Murtough",
+      "titleJa": "Former Man United chief Murtough、Birminghamへ加入",
+      "from": "",
+      "to": "Birmingham",
+      "summaryJa": "Former Man United chief MurtoughがBirminghamへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Former Man United chief Murtough joins Birmingham",
+      "summary": "Birmingham City appoint ex-Manchester United chief John Murtough as director of football.",
+      "parsed": true,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9zrdkv775r1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T11:20:20.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cwdr8zxp884mo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Ex-England defender Bertrand eyes £87m AFC Wimbledon deal",
@@ -78,6 +93,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwdr8zxp884mo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T20:02:23.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sounds/play/m0033tlq?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Football Daily",
+      "titleJa": "移籍情報：Football Daily",
+      "from": "",
+      "to": "",
+      "summaryJa": "Football Daily移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Football Daily",
+      "summary": "Andy Mitten & Jay Motty join Rick & Lloyd to dissect Man United's disastrous night.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sounds/play/m0033tlq?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T15:16:00.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/cq3dj1ddn83xo?at_medium=RSS&at_campaign=rss",
