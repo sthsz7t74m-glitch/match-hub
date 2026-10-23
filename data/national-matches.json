@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T07:56:43.712Z",
+  "updatedAt": "2026-10-23T07:55:10.842Z",
   "source": "ESPN multi-competition monthly adapter",
   "competitionCount": 0,
   "competitions": [],
@@ -2477,7 +2477,7 @@
     {
       "code": "conmebol.america",
       "dates": "20250301-20250331",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
@@ -2832,7 +2832,7 @@
     {
       "code": "concacaf.gold",
       "dates": "20270201-20270228",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "concacaf.gold",
@@ -2937,7 +2937,7 @@
     {
       "code": "afc.asian.cup",
       "dates": "20241101-20241130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
@@ -3692,7 +3692,7 @@
     {
       "code": "fifa.friendly",
       "dates": "20250601-20250630",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.friendly",
@@ -3702,7 +3702,7 @@
     {
       "code": "fifa.friendly",
       "dates": "20250801-20250831",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.friendly",
@@ -4037,7 +4037,7 @@
     {
       "code": "fifa.olympics",
       "dates": "20270301-20270331",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.olympics",
