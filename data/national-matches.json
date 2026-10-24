@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T07:55:10.842Z",
+  "updatedAt": "2026-10-24T07:35:28.547Z",
   "source": "ESPN multi-competition monthly adapter",
   "competitionCount": 0,
   "competitions": [],
@@ -347,27 +347,27 @@
     {
       "code": "fifa.worldq.uefa",
       "dates": "20250901-20250930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.uefa",
       "dates": "20251001-20251031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.uefa",
       "dates": "20251101-20251130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.uefa",
       "dates": "20251201-20251231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.uefa",
       "dates": "20260101-20260131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.uefa",
@@ -377,7 +377,7 @@
     {
       "code": "fifa.worldq.uefa",
       "dates": "20260301-20260331",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.uefa",
@@ -407,12 +407,12 @@
     {
       "code": "fifa.worldq.uefa",
       "dates": "20260901-20260930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.uefa",
       "dates": "20261001-20261031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.uefa",
@@ -427,22 +427,22 @@
     {
       "code": "fifa.worldq.uefa",
       "dates": "20270101-20270131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.uefa",
       "dates": "20270201-20270228",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.uefa",
       "dates": "20270301-20270331",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.uefa",
       "dates": "20270401-20270430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.uefa",
@@ -457,22 +457,22 @@
     {
       "code": "fifa.worldq.uefa",
       "dates": "20270701-20270731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.uefa",
       "dates": "20270801-20270831",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.uefa",
       "dates": "20270901-20270930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.uefa",
       "dates": "20271001-20271031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.uefa",
@@ -487,27 +487,27 @@
     {
       "code": "fifa.worldq.conmebol",
       "dates": "20240101-20240131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.conmebol",
       "dates": "20240201-20240229",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.conmebol",
       "dates": "20240301-20240331",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.conmebol",
       "dates": "20240401-20240430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.conmebol",
       "dates": "20240501-20240531",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.conmebol",
@@ -517,7 +517,7 @@
     {
       "code": "fifa.worldq.conmebol",
       "dates": "20240701-20240731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.conmebol",
@@ -527,7 +527,7 @@
     {
       "code": "fifa.worldq.conmebol",
       "dates": "20240901-20240930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.conmebol",
@@ -562,12 +562,12 @@
     {
       "code": "fifa.worldq.conmebol",
       "dates": "20250401-20250430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.conmebol",
       "dates": "20250501-20250531",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.conmebol",
@@ -587,22 +587,22 @@
     {
       "code": "fifa.worldq.conmebol",
       "dates": "20250901-20250930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.conmebol",
       "dates": "20251001-20251031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.conmebol",
       "dates": "20251101-20251130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.conmebol",
       "dates": "20251201-20251231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.conmebol",
@@ -612,7 +612,7 @@
     {
       "code": "fifa.worldq.conmebol",
       "dates": "20260201-20260228",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.conmebol",
@@ -622,12 +622,12 @@
     {
       "code": "fifa.worldq.conmebol",
       "dates": "20260401-20260430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.conmebol",
       "dates": "20260501-20260531",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.conmebol",
@@ -637,7 +637,7 @@
     {
       "code": "fifa.worldq.conmebol",
       "dates": "20260701-20260731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.conmebol",
@@ -647,7 +647,7 @@
     {
       "code": "fifa.worldq.conmebol",
       "dates": "20260901-20260930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.conmebol",
@@ -662,12 +662,12 @@
     {
       "code": "fifa.worldq.conmebol",
       "dates": "20261201-20261231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.conmebol",
       "dates": "20270101-20270131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.conmebol",
@@ -677,7 +677,7 @@
     {
       "code": "fifa.worldq.conmebol",
       "dates": "20270301-20270331",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.conmebol",
@@ -697,12 +697,12 @@
     {
       "code": "fifa.worldq.conmebol",
       "dates": "20270701-20270731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.conmebol",
       "dates": "20270801-20270831",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.conmebol",
@@ -712,7 +712,7 @@
     {
       "code": "fifa.worldq.conmebol",
       "dates": "20271001-20271031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.conmebol",
@@ -727,12 +727,12 @@
     {
       "code": "fifa.worldq.concacaf",
       "dates": "20240101-20240131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.concacaf",
       "dates": "20240201-20240229",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.concacaf",
@@ -757,12 +757,12 @@
     {
       "code": "fifa.worldq.concacaf",
       "dates": "20240701-20240731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.concacaf",
       "dates": "20240801-20240831",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.concacaf",
@@ -777,7 +777,7 @@
     {
       "code": "fifa.worldq.concacaf",
       "dates": "20241101-20241130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.concacaf",
@@ -787,7 +787,7 @@
     {
       "code": "fifa.worldq.concacaf",
       "dates": "20250101-20250131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.concacaf",
@@ -797,7 +797,7 @@
     {
       "code": "fifa.worldq.concacaf",
       "dates": "20250301-20250331",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.concacaf",
@@ -807,7 +807,7 @@
     {
       "code": "fifa.worldq.concacaf",
       "dates": "20250501-20250531",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.concacaf",
@@ -847,7 +847,7 @@
     {
       "code": "fifa.worldq.concacaf",
       "dates": "20260101-20260131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.concacaf",
@@ -862,7 +862,7 @@
     {
       "code": "fifa.worldq.concacaf",
       "dates": "20260401-20260430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.concacaf",
@@ -882,12 +882,12 @@
     {
       "code": "fifa.worldq.concacaf",
       "dates": "20260801-20260831",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.concacaf",
       "dates": "20260901-20260930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.concacaf",
@@ -897,7 +897,7 @@
     {
       "code": "fifa.worldq.concacaf",
       "dates": "20261101-20261130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.concacaf",
@@ -907,12 +907,12 @@
     {
       "code": "fifa.worldq.concacaf",
       "dates": "20270101-20270131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.concacaf",
       "dates": "20270201-20270228",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.concacaf",
@@ -922,7 +922,7 @@
     {
       "code": "fifa.worldq.concacaf",
       "dates": "20270401-20270430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.concacaf",
@@ -932,7 +932,7 @@
     {
       "code": "fifa.worldq.concacaf",
       "dates": "20270601-20270630",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.concacaf",
@@ -947,7 +947,7 @@
     {
       "code": "fifa.worldq.concacaf",
       "dates": "20270901-20270930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.concacaf",
@@ -957,7 +957,7 @@
     {
       "code": "fifa.worldq.concacaf",
       "dates": "20271101-20271130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.concacaf",
@@ -967,37 +967,37 @@
     {
       "code": "fifa.worldq.afc",
       "dates": "20240101-20240131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.afc",
       "dates": "20240201-20240229",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.afc",
       "dates": "20240301-20240331",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.afc",
       "dates": "20240401-20240430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.afc",
       "dates": "20240501-20240531",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.afc",
       "dates": "20240601-20240630",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.afc",
       "dates": "20240701-20240731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.afc",
@@ -1022,12 +1022,12 @@
     {
       "code": "fifa.worldq.afc",
       "dates": "20241201-20241231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.afc",
       "dates": "20250101-20250131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.afc",
@@ -1037,7 +1037,7 @@
     {
       "code": "fifa.worldq.afc",
       "dates": "20250301-20250331",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.afc",
@@ -1052,17 +1052,17 @@
     {
       "code": "fifa.worldq.afc",
       "dates": "20250601-20250630",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.afc",
       "dates": "20250701-20250731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.afc",
       "dates": "20250801-20250831",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.afc",
@@ -1087,7 +1087,7 @@
     {
       "code": "fifa.worldq.afc",
       "dates": "20260101-20260131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.afc",
@@ -1102,7 +1102,7 @@
     {
       "code": "fifa.worldq.afc",
       "dates": "20260401-20260430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.afc",
@@ -1117,7 +1117,7 @@
     {
       "code": "fifa.worldq.afc",
       "dates": "20260701-20260731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.afc",
@@ -1132,7 +1132,7 @@
     {
       "code": "fifa.worldq.afc",
       "dates": "20261001-20261031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.afc",
@@ -1147,22 +1147,22 @@
     {
       "code": "fifa.worldq.afc",
       "dates": "20270101-20270131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.afc",
       "dates": "20270201-20270228",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.afc",
       "dates": "20270301-20270331",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.afc",
       "dates": "20270401-20270430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.afc",
@@ -1172,7 +1172,7 @@
     {
       "code": "fifa.worldq.afc",
       "dates": "20270601-20270630",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.afc",
@@ -1182,12 +1182,12 @@
     {
       "code": "fifa.worldq.afc",
       "dates": "20270801-20270831",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.afc",
       "dates": "20270901-20270930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.afc",
@@ -1202,12 +1202,12 @@
     {
       "code": "fifa.worldq.afc",
       "dates": "20271201-20271231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.caf",
       "dates": "20240101-20240131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.caf",
@@ -1232,7 +1232,7 @@
     {
       "code": "fifa.worldq.caf",
       "dates": "20240601-20240630",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.caf",
@@ -1247,12 +1247,12 @@
     {
       "code": "fifa.worldq.caf",
       "dates": "20240901-20240930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.caf",
       "dates": "20241001-20241031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.caf",
@@ -1262,17 +1262,17 @@
     {
       "code": "fifa.worldq.caf",
       "dates": "20241201-20241231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.caf",
       "dates": "20250101-20250131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.caf",
       "dates": "20250201-20250228",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.caf",
@@ -1282,17 +1282,17 @@
     {
       "code": "fifa.worldq.caf",
       "dates": "20250401-20250430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.caf",
       "dates": "20250501-20250531",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.caf",
       "dates": "20250601-20250630",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.caf",
@@ -1302,12 +1302,12 @@
     {
       "code": "fifa.worldq.caf",
       "dates": "20250801-20250831",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.caf",
       "dates": "20250901-20250930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.caf",
@@ -1317,17 +1317,17 @@
     {
       "code": "fifa.worldq.caf",
       "dates": "20251101-20251130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.caf",
       "dates": "20251201-20251231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.caf",
       "dates": "20260101-20260131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.caf",
@@ -1337,7 +1337,7 @@
     {
       "code": "fifa.worldq.caf",
       "dates": "20260301-20260331",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.caf",
@@ -1362,7 +1362,7 @@
     {
       "code": "fifa.worldq.caf",
       "dates": "20260801-20260831",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.caf",
@@ -1372,32 +1372,32 @@
     {
       "code": "fifa.worldq.caf",
       "dates": "20261001-20261031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.caf",
       "dates": "20261101-20261130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.caf",
       "dates": "20261201-20261231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.caf",
       "dates": "20270101-20270131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.caf",
       "dates": "20270201-20270228",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.caf",
       "dates": "20270301-20270331",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.caf",
@@ -1407,7 +1407,7 @@
     {
       "code": "fifa.worldq.caf",
       "dates": "20270501-20270531",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.caf",
@@ -1427,12 +1427,12 @@
     {
       "code": "fifa.worldq.caf",
       "dates": "20270901-20270930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.caf",
       "dates": "20271001-20271031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.caf",
@@ -1457,7 +1457,7 @@
     {
       "code": "fifa.worldq.ofc",
       "dates": "20240301-20240331",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.ofc",
@@ -1492,12 +1492,12 @@
     {
       "code": "fifa.worldq.ofc",
       "dates": "20241001-20241031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.ofc",
       "dates": "20241101-20241130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.ofc",
@@ -1507,7 +1507,7 @@
     {
       "code": "fifa.worldq.ofc",
       "dates": "20250101-20250131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.ofc",
@@ -1532,12 +1532,12 @@
     {
       "code": "fifa.worldq.ofc",
       "dates": "20250601-20250630",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.ofc",
       "dates": "20250701-20250731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.ofc",
@@ -1547,7 +1547,7 @@
     {
       "code": "fifa.worldq.ofc",
       "dates": "20250901-20250930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.ofc",
@@ -1557,12 +1557,12 @@
     {
       "code": "fifa.worldq.ofc",
       "dates": "20251101-20251130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.ofc",
       "dates": "20251201-20251231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.ofc",
@@ -1572,7 +1572,7 @@
     {
       "code": "fifa.worldq.ofc",
       "dates": "20260201-20260228",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.ofc",
@@ -1587,7 +1587,7 @@
     {
       "code": "fifa.worldq.ofc",
       "dates": "20260501-20260531",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.ofc",
@@ -1597,12 +1597,12 @@
     {
       "code": "fifa.worldq.ofc",
       "dates": "20260701-20260731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.ofc",
       "dates": "20260801-20260831",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.ofc",
@@ -1617,12 +1617,12 @@
     {
       "code": "fifa.worldq.ofc",
       "dates": "20261101-20261130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.ofc",
       "dates": "20261201-20261231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.ofc",
@@ -1642,7 +1642,7 @@
     {
       "code": "fifa.worldq.ofc",
       "dates": "20270401-20270430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.ofc",
@@ -1657,7 +1657,7 @@
     {
       "code": "fifa.worldq.ofc",
       "dates": "20270701-20270731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.ofc",
@@ -1667,12 +1667,12 @@
     {
       "code": "fifa.worldq.ofc",
       "dates": "20270901-20270930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.ofc",
       "dates": "20271001-20271031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.worldq.ofc",
@@ -1687,7 +1687,7 @@
     {
       "code": "uefa.euro",
       "dates": "20240101-20240131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.euro",
@@ -1697,12 +1697,12 @@
     {
       "code": "uefa.euro",
       "dates": "20240301-20240331",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.euro",
       "dates": "20240401-20240430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.euro",
@@ -1712,7 +1712,7 @@
     {
       "code": "uefa.euro",
       "dates": "20240601-20240630",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.euro",
@@ -1727,12 +1727,12 @@
     {
       "code": "uefa.euro",
       "dates": "20240901-20240930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.euro",
       "dates": "20241001-20241031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.euro",
@@ -1742,7 +1742,7 @@
     {
       "code": "uefa.euro",
       "dates": "20241201-20241231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.euro",
@@ -1752,7 +1752,7 @@
     {
       "code": "uefa.euro",
       "dates": "20250201-20250228",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.euro",
@@ -1782,7 +1782,7 @@
     {
       "code": "uefa.euro",
       "dates": "20250801-20250831",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.euro",
@@ -1792,12 +1792,12 @@
     {
       "code": "uefa.euro",
       "dates": "20251001-20251031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.euro",
       "dates": "20251101-20251130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.euro",
@@ -1832,12 +1832,12 @@
     {
       "code": "uefa.euro",
       "dates": "20260601-20260630",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.euro",
       "dates": "20260701-20260731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.euro",
@@ -1852,7 +1852,7 @@
     {
       "code": "uefa.euro",
       "dates": "20261001-20261031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.euro",
@@ -1862,7 +1862,7 @@
     {
       "code": "uefa.euro",
       "dates": "20261201-20261231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.euro",
@@ -1872,17 +1872,17 @@
     {
       "code": "uefa.euro",
       "dates": "20270201-20270228",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.euro",
       "dates": "20270301-20270331",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.euro",
       "dates": "20270401-20270430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.euro",
@@ -1897,22 +1897,22 @@
     {
       "code": "uefa.euro",
       "dates": "20270701-20270731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.euro",
       "dates": "20270801-20270831",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.euro",
       "dates": "20270901-20270930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.euro",
       "dates": "20271001-20271031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.euro",
@@ -1922,7 +1922,7 @@
     {
       "code": "uefa.euro",
       "dates": "20271201-20271231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.nations",
@@ -1942,7 +1942,7 @@
     {
       "code": "uefa.nations",
       "dates": "20240401-20240430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.nations",
@@ -1957,7 +1957,7 @@
     {
       "code": "uefa.nations",
       "dates": "20240701-20240731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.nations",
@@ -1967,12 +1967,12 @@
     {
       "code": "uefa.nations",
       "dates": "20240901-20240930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.nations",
       "dates": "20241001-20241031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.nations",
@@ -1982,7 +1982,7 @@
     {
       "code": "uefa.nations",
       "dates": "20241201-20241231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.nations",
@@ -2022,7 +2022,7 @@
     {
       "code": "uefa.nations",
       "dates": "20250801-20250831",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.nations",
@@ -2042,7 +2042,7 @@
     {
       "code": "uefa.nations",
       "dates": "20251201-20251231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.nations",
@@ -2072,12 +2072,12 @@
     {
       "code": "uefa.nations",
       "dates": "20260601-20260630",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.nations",
       "dates": "20260701-20260731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.nations",
@@ -2087,7 +2087,7 @@
     {
       "code": "uefa.nations",
       "dates": "20260901-20260930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.nations",
@@ -2097,12 +2097,12 @@
     {
       "code": "uefa.nations",
       "dates": "20261101-20261130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.nations",
       "dates": "20261201-20261231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.nations",
@@ -2122,7 +2122,7 @@
     {
       "code": "uefa.nations",
       "dates": "20270401-20270430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.nations",
@@ -2142,7 +2142,7 @@
     {
       "code": "uefa.nations",
       "dates": "20270801-20270831",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.nations",
@@ -2152,12 +2152,12 @@
     {
       "code": "uefa.nations",
       "dates": "20271001-20271031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.nations",
       "dates": "20271101-20271130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "uefa.nations",
@@ -2197,7 +2197,7 @@
     {
       "code": "conmebol.copa_america",
       "dates": "20240701-20240731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.copa_america",
@@ -2212,12 +2212,12 @@
     {
       "code": "conmebol.copa_america",
       "dates": "20241001-20241031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.copa_america",
       "dates": "20241101-20241130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.copa_america",
@@ -2257,7 +2257,7 @@
     {
       "code": "conmebol.copa_america",
       "dates": "20250701-20250731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.copa_america",
@@ -2282,7 +2282,7 @@
     {
       "code": "conmebol.copa_america",
       "dates": "20251201-20251231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.copa_america",
@@ -2302,7 +2302,7 @@
     {
       "code": "conmebol.copa_america",
       "dates": "20260401-20260430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.copa_america",
@@ -2312,12 +2312,12 @@
     {
       "code": "conmebol.copa_america",
       "dates": "20260601-20260630",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.copa_america",
       "dates": "20260701-20260731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.copa_america",
@@ -2337,7 +2337,7 @@
     {
       "code": "conmebol.copa_america",
       "dates": "20261101-20261130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.copa_america",
@@ -2362,12 +2362,12 @@
     {
       "code": "conmebol.copa_america",
       "dates": "20270401-20270430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.copa_america",
       "dates": "20270501-20270531",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.copa_america",
@@ -2377,7 +2377,7 @@
     {
       "code": "conmebol.copa_america",
       "dates": "20270701-20270731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.copa_america",
@@ -2387,12 +2387,12 @@
     {
       "code": "conmebol.copa_america",
       "dates": "20270901-20270930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.copa_america",
       "dates": "20271001-20271031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.copa_america",
@@ -2402,7 +2402,7 @@
     {
       "code": "conmebol.copa_america",
       "dates": "20271201-20271231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
@@ -2422,32 +2422,32 @@
     {
       "code": "conmebol.america",
       "dates": "20240401-20240430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
       "dates": "20240501-20240531",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
       "dates": "20240601-20240630",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
       "dates": "20240701-20240731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
       "dates": "20240801-20240831",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
       "dates": "20240901-20240930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
@@ -2467,12 +2467,12 @@
     {
       "code": "conmebol.america",
       "dates": "20250101-20250131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
       "dates": "20250201-20250228",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
@@ -2482,7 +2482,7 @@
     {
       "code": "conmebol.america",
       "dates": "20250401-20250430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
@@ -2492,7 +2492,7 @@
     {
       "code": "conmebol.america",
       "dates": "20250601-20250630",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
@@ -2517,12 +2517,12 @@
     {
       "code": "conmebol.america",
       "dates": "20251101-20251130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
       "dates": "20251201-20251231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
@@ -2532,7 +2532,7 @@
     {
       "code": "conmebol.america",
       "dates": "20260201-20260228",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
@@ -2542,7 +2542,7 @@
     {
       "code": "conmebol.america",
       "dates": "20260401-20260430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
@@ -2552,12 +2552,12 @@
     {
       "code": "conmebol.america",
       "dates": "20260601-20260630",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
       "dates": "20260701-20260731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
@@ -2567,52 +2567,52 @@
     {
       "code": "conmebol.america",
       "dates": "20260901-20260930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
       "dates": "20261001-20261031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
       "dates": "20261101-20261130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
       "dates": "20261201-20261231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
       "dates": "20270101-20270131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
       "dates": "20270201-20270228",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
       "dates": "20270301-20270331",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
       "dates": "20270401-20270430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
       "dates": "20270501-20270531",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
       "dates": "20270601-20270630",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
@@ -2627,22 +2627,22 @@
     {
       "code": "conmebol.america",
       "dates": "20270901-20270930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
       "dates": "20271001-20271031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
       "dates": "20271101-20271130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "conmebol.america",
       "dates": "20271201-20271231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "concacaf.gold",
@@ -2652,7 +2652,7 @@
     {
       "code": "concacaf.gold",
       "dates": "20240201-20240229",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "concacaf.gold",
@@ -2687,17 +2687,17 @@
     {
       "code": "concacaf.gold",
       "dates": "20240901-20240930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "concacaf.gold",
       "dates": "20241001-20241031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "concacaf.gold",
       "dates": "20241101-20241130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "concacaf.gold",
@@ -2707,17 +2707,17 @@
     {
       "code": "concacaf.gold",
       "dates": "20250101-20250131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "concacaf.gold",
       "dates": "20250201-20250228",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "concacaf.gold",
       "dates": "20250301-20250331",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "concacaf.gold",
@@ -2727,17 +2727,17 @@
     {
       "code": "concacaf.gold",
       "dates": "20250501-20250531",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "concacaf.gold",
       "dates": "20250601-20250630",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "concacaf.gold",
       "dates": "20250701-20250731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "concacaf.gold",
@@ -2752,7 +2752,7 @@
     {
       "code": "concacaf.gold",
       "dates": "20251001-20251031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "concacaf.gold",
@@ -2762,17 +2762,17 @@
     {
       "code": "concacaf.gold",
       "dates": "20251201-20251231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "concacaf.gold",
       "dates": "20260101-20260131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "concacaf.gold",
       "dates": "20260201-20260228",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "concacaf.gold",
@@ -2782,7 +2782,7 @@
     {
       "code": "concacaf.gold",
       "dates": "20260401-20260430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "concacaf.gold",
@@ -2812,7 +2812,7 @@
     {
       "code": "concacaf.gold",
       "dates": "20261001-20261031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "concacaf.gold",
@@ -2827,7 +2827,7 @@
     {
       "code": "concacaf.gold",
       "dates": "20270101-20270131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "concacaf.gold",
@@ -2842,12 +2842,12 @@
     {
       "code": "concacaf.gold",
       "dates": "20270401-20270430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "concacaf.gold",
       "dates": "20270501-20270531",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "concacaf.gold",
@@ -2872,7 +2872,7 @@
     {
       "code": "concacaf.gold",
       "dates": "20271001-20271031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "concacaf.gold",
@@ -2882,12 +2882,12 @@
     {
       "code": "concacaf.gold",
       "dates": "20271201-20271231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
       "dates": "20240101-20240131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
@@ -2902,22 +2902,22 @@
     {
       "code": "afc.asian.cup",
       "dates": "20240401-20240430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
       "dates": "20240501-20240531",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
       "dates": "20240601-20240630",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
       "dates": "20240701-20240731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
@@ -2927,7 +2927,7 @@
     {
       "code": "afc.asian.cup",
       "dates": "20240901-20240930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
@@ -2942,22 +2942,22 @@
     {
       "code": "afc.asian.cup",
       "dates": "20241201-20241231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
       "dates": "20250101-20250131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
       "dates": "20250201-20250228",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
       "dates": "20250301-20250331",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
@@ -2967,27 +2967,27 @@
     {
       "code": "afc.asian.cup",
       "dates": "20250501-20250531",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
       "dates": "20250601-20250630",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
       "dates": "20250701-20250731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
       "dates": "20250801-20250831",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
       "dates": "20250901-20250930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
@@ -2997,7 +2997,7 @@
     {
       "code": "afc.asian.cup",
       "dates": "20251101-20251130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
@@ -3007,12 +3007,12 @@
     {
       "code": "afc.asian.cup",
       "dates": "20260101-20260131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
       "dates": "20260201-20260228",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
@@ -3027,17 +3027,17 @@
     {
       "code": "afc.asian.cup",
       "dates": "20260501-20260531",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
       "dates": "20260601-20260630",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
       "dates": "20260701-20260731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
@@ -3047,12 +3047,12 @@
     {
       "code": "afc.asian.cup",
       "dates": "20260901-20260930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
       "dates": "20261001-20261031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
@@ -3067,12 +3067,12 @@
     {
       "code": "afc.asian.cup",
       "dates": "20270101-20270131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
       "dates": "20270201-20270228",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
@@ -3082,7 +3082,7 @@
     {
       "code": "afc.asian.cup",
       "dates": "20270401-20270430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
@@ -3102,12 +3102,12 @@
     {
       "code": "afc.asian.cup",
       "dates": "20270801-20270831",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
       "dates": "20270901-20270930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
@@ -3117,12 +3117,12 @@
     {
       "code": "afc.asian.cup",
       "dates": "20271101-20271130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian.cup",
       "dates": "20271201-20271231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian",
@@ -3142,7 +3142,7 @@
     {
       "code": "afc.asian",
       "dates": "20240401-20240430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian",
@@ -3162,7 +3162,7 @@
     {
       "code": "afc.asian",
       "dates": "20240801-20240831",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian",
@@ -3177,7 +3177,7 @@
     {
       "code": "afc.asian",
       "dates": "20241101-20241130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian",
@@ -3192,7 +3192,7 @@
     {
       "code": "afc.asian",
       "dates": "20250201-20250228",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian",
@@ -3202,22 +3202,22 @@
     {
       "code": "afc.asian",
       "dates": "20250401-20250430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian",
       "dates": "20250501-20250531",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian",
       "dates": "20250601-20250630",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian",
       "dates": "20250701-20250731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian",
@@ -3232,7 +3232,7 @@
     {
       "code": "afc.asian",
       "dates": "20251001-20251031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian",
@@ -3242,32 +3242,32 @@
     {
       "code": "afc.asian",
       "dates": "20251201-20251231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian",
       "dates": "20260101-20260131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian",
       "dates": "20260201-20260228",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian",
       "dates": "20260301-20260331",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian",
       "dates": "20260401-20260430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian",
       "dates": "20260501-20260531",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian",
@@ -3282,7 +3282,7 @@
     {
       "code": "afc.asian",
       "dates": "20260801-20260831",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian",
@@ -3292,12 +3292,12 @@
     {
       "code": "afc.asian",
       "dates": "20261001-20261031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian",
       "dates": "20261101-20261130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian",
@@ -3332,17 +3332,17 @@
     {
       "code": "afc.asian",
       "dates": "20270601-20270630",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian",
       "dates": "20270701-20270731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian",
       "dates": "20270801-20270831",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian",
@@ -3352,12 +3352,12 @@
     {
       "code": "afc.asian",
       "dates": "20271001-20271031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian",
       "dates": "20271101-20271130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "afc.asian",
@@ -3367,22 +3367,22 @@
     {
       "code": "caf.nations",
       "dates": "20240101-20240131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "caf.nations",
       "dates": "20240201-20240229",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "caf.nations",
       "dates": "20240301-20240331",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "caf.nations",
       "dates": "20240401-20240430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "caf.nations",
@@ -3392,7 +3392,7 @@
     {
       "code": "caf.nations",
       "dates": "20240601-20240630",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "caf.nations",
@@ -3402,7 +3402,7 @@
     {
       "code": "caf.nations",
       "dates": "20240801-20240831",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "caf.nations",
@@ -3422,32 +3422,32 @@
     {
       "code": "caf.nations",
       "dates": "20241201-20241231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "caf.nations",
       "dates": "20250101-20250131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "caf.nations",
       "dates": "20250201-20250228",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "caf.nations",
       "dates": "20250301-20250331",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "caf.nations",
       "dates": "20250401-20250430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "caf.nations",
       "dates": "20250501-20250531",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "caf.nations",
@@ -3457,17 +3457,17 @@
     {
       "code": "caf.nations",
       "dates": "20250701-20250731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "caf.nations",
       "dates": "20250801-20250831",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "caf.nations",
       "dates": "20250901-20250930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "caf.nations",
@@ -3477,7 +3477,7 @@
     {
       "code": "caf.nations",
       "dates": "20251101-20251130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "caf.nations",
@@ -3487,7 +3487,7 @@
     {
       "code": "caf.nations",
       "dates": "20260101-20260131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "caf.nations",
@@ -3502,22 +3502,22 @@
     {
       "code": "caf.nations",
       "dates": "20260401-20260430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "caf.nations",
       "dates": "20260501-20260531",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "caf.nations",
       "dates": "20260601-20260630",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "caf.nations",
       "dates": "20260701-20260731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "caf.nations",
@@ -3527,7 +3527,7 @@
     {
       "code": "caf.nations",
       "dates": "20260901-20260930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "caf.nations",
@@ -3547,22 +3547,22 @@
     {
       "code": "caf.nations",
       "dates": "20270101-20270131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "caf.nations",
       "dates": "20270201-20270228",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "caf.nations",
       "dates": "20270301-20270331",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "caf.nations",
       "dates": "20270401-20270430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "caf.nations",
@@ -3582,7 +3582,7 @@
     {
       "code": "caf.nations",
       "dates": "20270801-20270831",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "caf.nations",
@@ -3597,27 +3597,27 @@
     {
       "code": "caf.nations",
       "dates": "20271101-20271130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "caf.nations",
       "dates": "20271201-20271231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.friendly",
       "dates": "20240101-20240131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.friendly",
       "dates": "20240201-20240229",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.friendly",
       "dates": "20240301-20240331",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.friendly",
@@ -3627,7 +3627,7 @@
     {
       "code": "fifa.friendly",
       "dates": "20240501-20240531",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.friendly",
@@ -3657,17 +3657,17 @@
     {
       "code": "fifa.friendly",
       "dates": "20241101-20241130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.friendly",
       "dates": "20241201-20241231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.friendly",
       "dates": "20250101-20250131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.friendly",
@@ -3687,7 +3687,7 @@
     {
       "code": "fifa.friendly",
       "dates": "20250501-20250531",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.friendly",
@@ -3697,12 +3697,12 @@
     {
       "code": "fifa.friendly",
       "dates": "20250701-20250731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.friendly",
       "dates": "20250801-20250831",
-      "reason": "HTTP 403"
+      "reason": "HTTP 400"
     },
     {
       "code": "fifa.friendly",
@@ -3712,12 +3712,12 @@
     {
       "code": "fifa.friendly",
       "dates": "20251001-20251031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.friendly",
       "dates": "20251101-20251130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.friendly",
@@ -3727,22 +3727,22 @@
     {
       "code": "fifa.friendly",
       "dates": "20260101-20260131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.friendly",
       "dates": "20260201-20260228",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.friendly",
       "dates": "20260301-20260331",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.friendly",
       "dates": "20260401-20260430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.friendly",
@@ -3782,12 +3782,12 @@
     {
       "code": "fifa.friendly",
       "dates": "20261201-20261231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.friendly",
       "dates": "20270101-20270131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.friendly",
@@ -3797,7 +3797,7 @@
     {
       "code": "fifa.friendly",
       "dates": "20270301-20270331",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.friendly",
@@ -3812,7 +3812,7 @@
     {
       "code": "fifa.friendly",
       "dates": "20270601-20270630",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.friendly",
@@ -3822,12 +3822,12 @@
     {
       "code": "fifa.friendly",
       "dates": "20270801-20270831",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.friendly",
       "dates": "20270901-20270930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.friendly",
@@ -3842,7 +3842,7 @@
     {
       "code": "fifa.friendly",
       "dates": "20271201-20271231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.olympics",
@@ -3852,7 +3852,7 @@
     {
       "code": "fifa.olympics",
       "dates": "20240201-20240229",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.olympics",
@@ -3867,12 +3867,12 @@
     {
       "code": "fifa.olympics",
       "dates": "20240501-20240531",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.olympics",
       "dates": "20240601-20240630",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.olympics",
@@ -3887,7 +3887,7 @@
     {
       "code": "fifa.olympics",
       "dates": "20240901-20240930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.olympics",
@@ -3897,7 +3897,7 @@
     {
       "code": "fifa.olympics",
       "dates": "20241101-20241130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.olympics",
@@ -3912,7 +3912,7 @@
     {
       "code": "fifa.olympics",
       "dates": "20250201-20250228",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.olympics",
@@ -3942,22 +3942,22 @@
     {
       "code": "fifa.olympics",
       "dates": "20250801-20250831",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.olympics",
       "dates": "20250901-20250930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.olympics",
       "dates": "20251001-20251031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.olympics",
       "dates": "20251101-20251130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.olympics",
@@ -3972,17 +3972,17 @@
     {
       "code": "fifa.olympics",
       "dates": "20260201-20260228",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.olympics",
       "dates": "20260301-20260331",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.olympics",
       "dates": "20260401-20260430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.olympics",
@@ -3997,17 +3997,17 @@
     {
       "code": "fifa.olympics",
       "dates": "20260701-20260731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.olympics",
       "dates": "20260801-20260831",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.olympics",
       "dates": "20260901-20260930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.olympics",
@@ -4032,17 +4032,17 @@
     {
       "code": "fifa.olympics",
       "dates": "20270201-20270228",
-      "reason": "HTTP 400"
-    },
-    {
-      "code": "fifa.olympics",
-      "dates": "20270301-20270331",
       "reason": "HTTP 403"
     },
     {
       "code": "fifa.olympics",
-      "dates": "20270401-20270430",
+      "dates": "20270301-20270331",
       "reason": "HTTP 400"
+    },
+    {
+      "code": "fifa.olympics",
+      "dates": "20270401-20270430",
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.olympics",
@@ -4052,7 +4052,7 @@
     {
       "code": "fifa.olympics",
       "dates": "20270601-20270630",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "fifa.olympics",
@@ -4097,17 +4097,17 @@
     {
       "code": "olympics-mens-soccer",
       "dates": "20240301-20240331",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "olympics-mens-soccer",
       "dates": "20240401-20240430",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "olympics-mens-soccer",
       "dates": "20240501-20240531",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "olympics-mens-soccer",
@@ -4117,7 +4117,7 @@
     {
       "code": "olympics-mens-soccer",
       "dates": "20240701-20240731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "olympics-mens-soccer",
@@ -4132,7 +4132,7 @@
     {
       "code": "olympics-mens-soccer",
       "dates": "20241001-20241031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "olympics-mens-soccer",
@@ -4142,7 +4142,7 @@
     {
       "code": "olympics-mens-soccer",
       "dates": "20241201-20241231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "olympics-mens-soccer",
@@ -4157,7 +4157,7 @@
     {
       "code": "olympics-mens-soccer",
       "dates": "20250301-20250331",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "olympics-mens-soccer",
@@ -4167,12 +4167,12 @@
     {
       "code": "olympics-mens-soccer",
       "dates": "20250501-20250531",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "olympics-mens-soccer",
       "dates": "20250601-20250630",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "olympics-mens-soccer",
@@ -4187,7 +4187,7 @@
     {
       "code": "olympics-mens-soccer",
       "dates": "20250901-20250930",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "olympics-mens-soccer",
@@ -4202,7 +4202,7 @@
     {
       "code": "olympics-mens-soccer",
       "dates": "20251201-20251231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "olympics-mens-soccer",
@@ -4212,12 +4212,12 @@
     {
       "code": "olympics-mens-soccer",
       "dates": "20260201-20260228",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "olympics-mens-soccer",
       "dates": "20260301-20260331",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "olympics-mens-soccer",
@@ -4232,7 +4232,7 @@
     {
       "code": "olympics-mens-soccer",
       "dates": "20260601-20260630",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "olympics-mens-soccer",
@@ -4242,7 +4242,7 @@
     {
       "code": "olympics-mens-soccer",
       "dates": "20260801-20260831",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "olympics-mens-soccer",
@@ -4267,17 +4267,17 @@
     {
       "code": "olympics-mens-soccer",
       "dates": "20270101-20270131",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "olympics-mens-soccer",
       "dates": "20270201-20270228",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "olympics-mens-soccer",
       "dates": "20270301-20270331",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "olympics-mens-soccer",
@@ -4292,12 +4292,12 @@
     {
       "code": "olympics-mens-soccer",
       "dates": "20270601-20270630",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "olympics-mens-soccer",
       "dates": "20270701-20270731",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "olympics-mens-soccer",
@@ -4312,17 +4312,17 @@
     {
       "code": "olympics-mens-soccer",
       "dates": "20271001-20271031",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "olympics-mens-soccer",
       "dates": "20271101-20271130",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     },
     {
       "code": "olympics-mens-soccer",
       "dates": "20271201-20271231",
-      "reason": "HTTP 400"
+      "reason": "HTTP 403"
     }
   ],
   "dateYears": [
