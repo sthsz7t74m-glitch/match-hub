@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T19:52:12.930Z",
+  "updatedAt": "2026-10-24T22:33:03.484Z",
   "season": "2026",
   "dataSource": "football-data.org",
   "dataMode": "current-free-plan",
@@ -19505,7 +19505,7 @@
     {
       "id": 559652,
       "date": "2026-10-24T18:45:00Z",
-      "status": "PAUSED",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -19527,19 +19527,19 @@
         "logo": "https://crests.football-data.org/1045.png"
       },
       "goals": {
-        "home": 0,
-        "away": 1
+        "home": null,
+        "away": null
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": null,
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 1
+          "home": null,
+          "away": null
         },
         "halfTime": {
-          "home": 0,
-          "away": 1
+          "home": null,
+          "away": null
         }
       },
       "events": []
@@ -81773,13 +81773,13 @@
             "logo": "https://crests.football-data.org/78.png"
           },
           "played": 10,
-          "win": 7,
-          "draw": 2,
+          "win": 8,
+          "draw": 1,
           "lose": 1,
-          "goalsFor": 19,
+          "goalsFor": 20,
           "goalsAgainst": 8,
-          "goalsDiff": 11,
-          "points": 23,
+          "goalsDiff": 12,
+          "points": 25,
           "form": ""
         },
         {
@@ -81893,24 +81893,6 @@
         {
           "rank": 9,
           "team": {
-            "id": 560,
-            "name": "RC Deportivo La Coruña",
-            "shortName": "RC Deportivo La Coruña",
-            "logo": "https://crests.football-data.org/560.png"
-          },
-          "played": 10,
-          "win": 2,
-          "draw": 6,
-          "lose": 2,
-          "goalsFor": 13,
-          "goalsAgainst": 12,
-          "goalsDiff": 1,
-          "points": 12,
-          "form": ""
-        },
-        {
-          "rank": 10,
-          "team": {
             "id": 558,
             "name": "RC Celta de Vigo",
             "shortName": "RC Celta de Vigo",
@@ -81923,6 +81905,24 @@
           "goalsFor": 10,
           "goalsAgainst": 7,
           "goalsDiff": 3,
+          "points": 11,
+          "form": ""
+        },
+        {
+          "rank": 10,
+          "team": {
+            "id": 560,
+            "name": "RC Deportivo La Coruña",
+            "shortName": "RC Deportivo La Coruña",
+            "logo": "https://crests.football-data.org/560.png"
+          },
+          "played": 10,
+          "win": 2,
+          "draw": 5,
+          "lose": 3,
+          "goalsFor": 13,
+          "goalsAgainst": 13,
+          "goalsDiff": 0,
           "points": 11,
           "form": ""
         },
@@ -82124,13 +82124,13 @@
             "logo": "https://crests.football-data.org/110.png"
           },
           "played": 8,
-          "win": 6,
-          "draw": 2,
+          "win": 7,
+          "draw": 1,
           "lose": 0,
-          "goalsFor": 14,
-          "goalsAgainst": 4,
-          "goalsDiff": 10,
-          "points": 20,
+          "goalsFor": 16,
+          "goalsAgainst": 5,
+          "goalsDiff": 11,
+          "points": 22,
           "form": ""
         },
         {
@@ -82388,24 +82388,6 @@
         {
           "rank": 16,
           "team": {
-            "id": 112,
-            "name": "Parma Calcio 1913",
-            "shortName": "パルマ",
-            "logo": "https://crests.football-data.org/112.png"
-          },
-          "played": 8,
-          "win": 1,
-          "draw": 2,
-          "lose": 5,
-          "goalsFor": 4,
-          "goalsAgainst": 13,
-          "goalsDiff": -9,
-          "points": 5,
-          "form": ""
-        },
-        {
-          "rank": 17,
-          "team": {
             "id": 115,
             "name": "Udinese Calcio",
             "shortName": "ウディネーゼ",
@@ -82422,7 +82404,7 @@
           "form": ""
         },
         {
-          "rank": 18,
+          "rank": 17,
           "team": {
             "id": 107,
             "name": "Genoa CFC",
@@ -82440,7 +82422,7 @@
           "form": ""
         },
         {
-          "rank": 19,
+          "rank": 18,
           "team": {
             "id": 99,
             "name": "ACF Fiorentina",
@@ -82454,6 +82436,24 @@
           "goalsFor": 8,
           "goalsAgainst": 17,
           "goalsDiff": -9,
+          "points": 4,
+          "form": ""
+        },
+        {
+          "rank": 19,
+          "team": {
+            "id": 112,
+            "name": "Parma Calcio 1913",
+            "shortName": "パルマ",
+            "logo": "https://crests.football-data.org/112.png"
+          },
+          "played": 8,
+          "win": 1,
+          "draw": 1,
+          "lose": 6,
+          "goalsFor": 5,
+          "goalsAgainst": 15,
+          "goalsDiff": -10,
           "points": 4,
           "form": ""
         },
@@ -82820,24 +82820,6 @@
         {
           "rank": 1,
           "team": {
-            "id": 1045,
-            "name": "Paris FC",
-            "shortName": "Paris FC",
-            "logo": "https://crests.football-data.org/1045.png"
-          },
-          "played": 8,
-          "win": 5,
-          "draw": 2,
-          "lose": 1,
-          "goalsFor": 13,
-          "goalsAgainst": 7,
-          "goalsDiff": 6,
-          "points": 17,
-          "form": ""
-        },
-        {
-          "rank": 2,
-          "team": {
             "id": 523,
             "name": "Olympique Lyonnais",
             "shortName": "リヨン",
@@ -82854,7 +82836,7 @@
           "form": ""
         },
         {
-          "rank": 3,
+          "rank": 2,
           "team": {
             "id": 524,
             "name": "Paris Saint-Germain FC",
@@ -82872,7 +82854,7 @@
           "form": ""
         },
         {
-          "rank": 4,
+          "rank": 3,
           "team": {
             "id": 521,
             "name": "Lille OSC",
@@ -82886,6 +82868,24 @@
           "goalsFor": 10,
           "goalsAgainst": 5,
           "goalsDiff": 5,
+          "points": 14,
+          "form": ""
+        },
+        {
+          "rank": 4,
+          "team": {
+            "id": 1045,
+            "name": "Paris FC",
+            "shortName": "Paris FC",
+            "logo": "https://crests.football-data.org/1045.png"
+          },
+          "played": 8,
+          "win": 4,
+          "draw": 2,
+          "lose": 2,
+          "goalsFor": 13,
+          "goalsAgainst": 9,
+          "goalsDiff": 4,
           "points": 14,
           "form": ""
         },
@@ -82910,6 +82910,24 @@
         {
           "rank": 6,
           "team": {
+            "id": 546,
+            "name": "Racing Club de Lens",
+            "shortName": "Racing Club de Lens",
+            "logo": "https://crests.football-data.org/546.png"
+          },
+          "played": 8,
+          "win": 4,
+          "draw": 1,
+          "lose": 3,
+          "goalsFor": 16,
+          "goalsAgainst": 12,
+          "goalsDiff": 4,
+          "points": 13,
+          "form": ""
+        },
+        {
+          "rank": 7,
+          "team": {
             "id": 529,
             "name": "Stade Rennais FC 1901",
             "shortName": "Stade Rennais FC 1901",
@@ -82926,7 +82944,7 @@
           "form": ""
         },
         {
-          "rank": 7,
+          "rank": 8,
           "team": {
             "id": 525,
             "name": "FC Lorient",
@@ -82944,7 +82962,7 @@
           "form": ""
         },
         {
-          "rank": 8,
+          "rank": 9,
           "team": {
             "id": 522,
             "name": "OGC Nice",
@@ -82959,24 +82977,6 @@
           "goalsAgainst": 10,
           "goalsDiff": -2,
           "points": 11,
-          "form": ""
-        },
-        {
-          "rank": 9,
-          "team": {
-            "id": 546,
-            "name": "Racing Club de Lens",
-            "shortName": "Racing Club de Lens",
-            "logo": "https://crests.football-data.org/546.png"
-          },
-          "played": 8,
-          "win": 3,
-          "draw": 1,
-          "lose": 4,
-          "goalsFor": 14,
-          "goalsAgainst": 12,
-          "goalsDiff": 2,
-          "points": 10,
           "form": ""
         },
         {
