@@ -10,14 +10,14 @@
   <link rel="stylesheet" href="./assets/css/sports-shell.css?v=1">
   <link rel="stylesheet" href="./assets/css/match-components.css?v=8">
   <link rel="stylesheet" href="./assets/css/sports-event-interactions.css?v=1">
-  <link rel="stylesheet" href="./national-detail.css?v=242">
+  <link rel="stylesheet" href="./national-detail.css?v=243">
 </head>
 <body class="national-detail-page">
   <header class="app-header national-detail-header">
     <a class="back-link" href="./national.html" aria-label="各国代表へ戻る">←</a>
     <div class="app-header__title">
       <p class="eyebrow">NATIONAL TEAM</p>
-      <h1><span id="headerTeamName">代表詳細</span> <span class="version">v2.4.2</span></h1>
+      <h1><span id="headerTeamName">代表詳細</span> <span class="version">v2.4.3</span></h1>
     </div>
     <button id="themeButton" class="icon-button" type="button" aria-label="テーマ切替">◐</button>
   </header>
@@ -81,6 +81,7 @@
           <button class="match-filter" type="button" data-match-filter="upcoming">今後</button>
           <button class="match-filter" type="button" data-match-filter="finished">結果</button>
         </div>
+        <label class="competition-filter" for="competitionFilter"><span>大会・試合種別</span><select id="competitionFilter"><option value="all">すべての大会・試合</option></select></label>
         <div id="matchesList" class="detail-match-list"><div class="empty-state"><span>⚽</span><strong>日程を確認中</strong><p>データを読み込んでいます。</p></div></div>
       </article>
     </section>
@@ -110,6 +111,6 @@
   <script src="./assets/js/match-components.js?v=119" defer></script>
   <script src="./assets/js/national-data.js?v=312" defer></script>
   <script src="./assets/js/national-service.js?v=312" defer></script>
-  <script src="./national-detail.js?v=242" defer></script>
+  <script src="./national-detail.js?v=243" defer></script>
 </body>
 </html>

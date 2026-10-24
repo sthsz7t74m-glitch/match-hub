@@ -22,6 +22,7 @@ let matchIndex = new Map();
 let rankingLoaded = false;
 let rankingPayload = null;
 let activeMatchFilter = 'all';
+let activeCompetitionFilter = 'all';
 
 const node = selector => document.querySelector(selector);
 const escapeHtml = value => Components?.escapeHtml ? Components.escapeHtml(value) : String(value ?? '');
@@ -254,13 +255,33 @@ function renderOverview() {
   node('#totalCount').textContent = String(teamMatches.length);
 }
 
+function nationalCompetitionKey(match) {
+  return String(match.competitionCode || match.competition || 'other');
+}
+function isNationalFriendly(match) {
+  return /friendly|親善/i.test(`${match.competitionCode || ''} ${match.competition || ''}`);
+}
+function renderCompetitionFilter() {
+  const groups = new Map();
+  teamMatches.forEach(match => {
+    const key = nationalCompetitionKey(match);
+    if (!groups.has(key)) groups.set(key, match.competition || 'その他の代表戦');
+  });
+  if (!['all','official','friendly'].includes(activeCompetitionFilter) && !groups.has(activeCompetitionFilter)) activeCompetitionFilter = 'all';
+  const options = [...groups].sort((a,b)=>a[1].localeCompare(b[1],'ja'));
+  node('#competitionFilter').innerHTML = '<option value="all">すべての大会・試合</option><option value="official">公式戦のみ（親善試合以外）</option><option value="friendly">国際親善試合のみ</option>' + options.filter(([key])=>!teamMatches.some(m=>nationalCompetitionKey(m)===key&&isNationalFriendly(m))).map(([key,name])=>`<option value="${escapeHtml(key)}">${escapeHtml(name)}</option>`).join('');
+  node('#competitionFilter').value = activeCompetitionFilter;
+}
 function matchesForFilter() {
-  if (activeMatchFilter === 'upcoming') return sortedUpcoming();
-  if (activeMatchFilter === 'finished') return sortedFinished();
-  return [...sortedUpcoming(), ...sortedFinished()];
+  const matches = activeMatchFilter === 'upcoming' ? sortedUpcoming() : activeMatchFilter === 'finished' ? sortedFinished() : [...sortedUpcoming(), ...sortedFinished()];
+  return matches.filter(match => activeCompetitionFilter === 'all'
+    || (activeCompetitionFilter === 'friendly' ? isNationalFriendly(match)
+    : activeCompetitionFilter === 'official' ? !isNationalFriendly(match)
+    : nationalCompetitionKey(match) === activeCompetitionFilter));
 }
 
 function renderMatches() {
+  renderCompetitionFilter();
   const visible = matchesForFilter();
   node('#matchesCount').textContent = `${visible.length}試合`;
   node('#matchesList').innerHTML = visible.length
@@ -387,6 +408,11 @@ node('.detail-tabs').addEventListener('click', event => {
   document.querySelectorAll('.detail-tab').forEach(tab => tab.classList.toggle('active', tab === button));
   document.querySelectorAll('.tab-panel').forEach(panel => panel.classList.add('hidden'));
   node(`#${button.dataset.tab}Panel`)?.classList.remove('hidden');
+});
+
+node('#competitionFilter').addEventListener('change', event => {
+  activeCompetitionFilter = event.target.value;
+  renderMatches();
 });
 
 node('#matchFilters').addEventListener('click', event => {
