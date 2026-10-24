@@ -176,7 +176,9 @@ function syncFavorite() {
   const button = node('#favoriteButton');
   const active = readFavoriteIds().includes(String(selected.id));
   button.classList.toggle('is-favorite', active);
-  button.textContent = active ? '★ 推し代表に登録中' : '☆ 推し代表に登録';
+  button.textContent = active ? '★ 推し' : '☆ 推し登録';
+  button.setAttribute('aria-pressed', String(active));
+  button.setAttribute('aria-label', active ? `${selected.name}代表の推し登録を解除` : `${selected.name}代表を推しに登録`);
 }
 
 function toggleFavorite() {

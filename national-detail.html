@@ -10,14 +10,14 @@
   <link rel="stylesheet" href="./assets/css/sports-shell.css?v=1">
   <link rel="stylesheet" href="./assets/css/match-components.css?v=8">
   <link rel="stylesheet" href="./assets/css/sports-event-interactions.css?v=1">
-  <link rel="stylesheet" href="./national-detail.css?v=240">
+  <link rel="stylesheet" href="./national-detail.css?v=242">
 </head>
 <body class="national-detail-page">
   <header class="app-header national-detail-header">
     <a class="back-link" href="./national.html" aria-label="各国代表へ戻る">←</a>
     <div class="app-header__title">
       <p class="eyebrow">NATIONAL TEAM</p>
-      <h1><span id="headerTeamName">代表詳細</span> <span class="version">v2.4.1</span></h1>
+      <h1><span id="headerTeamName">代表詳細</span> <span class="version">v2.4.2</span></h1>
     </div>
     <button id="themeButton" class="icon-button" type="button" aria-label="テーマ切替">◐</button>
   </header>
@@ -33,7 +33,7 @@
           <span id="heroRanking" class="ranking-badge is-loading">FIFA順位 読込中</span>
         </div>
       </div>
-      <div id="teamFlag" class="detail-flag" aria-hidden="true">🌍</div>
+      <div class="team-hero__identity"><div id="teamFlag" class="detail-flag" aria-hidden="true">🌍</div><button id="favoriteButton" class="favorite-badge" type="button" aria-pressed="false">☆ 推し登録</button></div>
     </section>
 
     <nav class="detail-tabs panel" aria-label="代表詳細メニュー">
@@ -100,7 +100,6 @@
       </article>
     </section>
 
-    <button id="favoriteButton" class="primary-action" type="button">☆ 推し代表に登録</button>
   </main>
 
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
@@ -111,6 +110,6 @@
   <script src="./assets/js/match-components.js?v=119" defer></script>
   <script src="./assets/js/national-data.js?v=312" defer></script>
   <script src="./assets/js/national-service.js?v=312" defer></script>
-  <script src="./national-detail.js?v=119" defer></script>
+  <script src="./national-detail.js?v=242" defer></script>
 </body>
 </html>

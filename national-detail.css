@@ -35,7 +35,7 @@ body.national-detail-page {
 .detail-main {
   width: min(780px, 100%);
   margin: 0 auto;
-  padding: 18px 16px calc(112px + env(safe-area-inset-bottom));
+  padding: 18px 16px calc(24px + env(safe-area-inset-bottom));
   display: grid;
   gap: 16px;
   min-width: 0;
@@ -415,30 +415,41 @@ body.national-detail-page {
   border-color: color-mix(in srgb, #3b82f6 48%, var(--line));
 }
 
-.primary-action {
-  position: fixed;
-  z-index: 70;
-  left: 50%;
-  bottom: calc(14px + env(safe-area-inset-bottom));
-  transform: translateX(-50%);
-  width: min(calc(100% - 32px), 748px);
-  min-height: 56px;
-  border: 0;
-  border-radius: 19px;
-  padding: 15px 18px;
-  background: linear-gradient(135deg, #7c3aed, #5b21b6);
-  color: #fff;
-  font-weight: 900;
-  box-shadow: 0 15px 38px rgba(91, 33, 182, .4);
+.team-hero__identity {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  gap: 10px;
+  min-width: 0;
 }
-
-.primary-action.is-favorite {
-  background: linear-gradient(135deg, #f59e0b, #d97706);
+.favorite-badge {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 36px;
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--text);
+  font: inherit;
+  font-size: 11px;
+  font-weight: 800;
+  white-space: nowrap;
+  cursor: pointer;
 }
+.favorite-badge.is-favorite {
+  color: #f59e0b;
+  background: color-mix(in srgb, #f59e0b 12%, var(--surface));
+  border-color: color-mix(in srgb, #f59e0b 48%, var(--line));
+}
+.favorite-badge:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 
 @media (max-width: 560px) {
   .detail-main {
-    padding: 14px 12px calc(108px + env(safe-area-inset-bottom));
+    padding: 14px 12px calc(24px + env(safe-area-inset-bottom));
   }
 
   .team-hero {
@@ -505,4 +516,7 @@ body.national-detail-page {
   .summary-card strong {
     font-size: 1.55rem;
   }
+}
+@media (max-width: 390px) {
+  .team-hero { grid-template-columns: minmax(0, 1fr) 82px; }
 }
