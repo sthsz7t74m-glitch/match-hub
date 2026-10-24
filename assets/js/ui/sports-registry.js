@@ -81,7 +81,7 @@ window.SportsHubRegistry = window.SportsHubRegistry || {};
 
   registry.register('national', {
     ...sharedBack,
-    sport: 'soccer', eyebrow: 'NATIONAL TEAMS', title: '各国代表', version: 'v3.3.3',
+    sport: 'soccer', eyebrow: 'NATIONAL TEAMS', title: '各国代表', version: 'v3.3.4',
     favoriteStorageKey: 'sportsHubFavoriteNationals',
     calendar: { filterStorageKey: 'footballCalendarFavoriteOnly:national', defaultFavoriteOnly: true },
     navigation: {

@@ -162,6 +162,7 @@ const matchRenderer = Components.createMatchCardRenderer({
     };
   }
 });
+window.NationalBroadcasts.decorate(matchRenderer);
 
 function renderTeam() {
   document.title = `${selected.name}代表 | Sports Hub`;

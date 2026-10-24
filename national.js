@@ -169,6 +169,7 @@ const matchRenderer = Components.createMatchCardRenderer({
     };
   }
 });
+window.NationalBroadcasts.decorate(matchRenderer);
 
 function teamCard(country) {
   const selected = isFavorite(country.id);
