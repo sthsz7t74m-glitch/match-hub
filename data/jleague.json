@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T07:48:49.523Z",
+  "updatedAt": "2026-10-24T07:30:33.531Z",
   "dataSource": "ESPN (J1) + J.LEAGUE official site (J2/J3)",
   "sourceDetails": {
     "j1": "ESPN scoreboard / standings",
@@ -47,11 +47,13 @@
       "j2": 20,
       "j3": 20
     },
-    "officialLogos": 40,
+    "officialLogos": 39,
     "officialVenues": 39
   },
   "errors": [
-    "j1 scoreboard: https://site.api.espn.com/apis/site/v2/sports/soccer/jpn.1/scoreboard?dates=20260101-20261231&limit=1000: HTTP 400: {\"code\":400,\"message\":\"Failed to get events endpoint.\"}"
+    "j1 scoreboard: https://site.api.espn.com/apis/site/v2/sports/soccer/jpn.1/scoreboard?dates=20260101-20261231&limit=1000: HTTP 400: {\"code\":400,\"message\":\"Failed to get events endpoint.\"}",
+    "fc-osaka profile(osaka): The operation was aborted due to timeout",
+    "fc-osaka profile(fc-osaka): The operation was aborted due to timeout"
   ],
   "teams": [
     {
@@ -600,8 +602,7 @@
       "name": "FC大阪",
       "shortName": "FC大阪",
       "area": "大阪",
-      "officialSlug": "osaka",
-      "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+      "officialSlug": "osaka"
     },
     {
       "id": "nara",
@@ -1220,8 +1221,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "score": {
         "home": null,
@@ -2383,8 +2383,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "away": {
         "id": "nagano",
@@ -2618,8 +2617,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "away": {
         "id": "ryukyu",
@@ -4414,8 +4412,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "score": {
         "home": null,
@@ -4554,8 +4551,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "score": {
         "home": null,
@@ -6328,8 +6324,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "away": {
         "id": "ehime",
@@ -6421,8 +6416,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "away": {
         "id": "fukushima",
@@ -8123,8 +8117,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "score": {
         "home": null,
@@ -8733,8 +8726,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "score": {
         "home": null,
@@ -9193,8 +9185,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "away": {
         "id": "kanazawa",
@@ -10566,8 +10557,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "score": {
         "home": null,
@@ -11776,8 +11766,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "away": {
         "id": "nara",
@@ -12198,8 +12187,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "away": {
         "id": "kagoshima",
@@ -13524,8 +13512,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "score": {
         "home": null,
@@ -13888,8 +13875,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "away": {
         "id": "kumamoto",
@@ -15167,8 +15153,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "score": {
         "home": null,
@@ -16670,8 +16655,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "score": {
         "home": null,
@@ -17598,8 +17582,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "away": {
         "id": "sanuki",
@@ -18396,8 +18379,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "away": {
         "id": "tochigi-sc",
@@ -18735,8 +18717,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "score": {
         "home": null,
@@ -20191,8 +20172,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "score": {
         "home": null,
@@ -20462,8 +20442,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "away": {
         "id": "sagamihara",
@@ -21223,8 +21202,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "away": {
         "id": "kitakyushu",
@@ -23102,8 +23080,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "score": {
         "home": null,
@@ -24002,8 +23979,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "away": {
         "id": "yamaguchi",
@@ -25212,8 +25188,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "score": {
         "home": null,
@@ -25728,8 +25703,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "score": {
         "home": null,
@@ -26907,8 +26881,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "away": {
         "id": "gunma",
@@ -27685,8 +27658,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "score": {
         "home": null,
@@ -28777,8 +28749,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "away": {
         "id": "shiga",
@@ -29987,8 +29958,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "score": {
         "home": null,
@@ -30647,8 +30617,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "away": {
         "id": "tottori",
@@ -31713,8 +31682,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "score": {
         "home": null,
@@ -32551,8 +32519,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "away": {
         "id": "matsumoto",
@@ -33707,8 +33674,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "score": {
         "home": null,
@@ -34449,8 +34415,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "away": {
         "id": "gifu",
@@ -35413,8 +35378,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "score": {
         "home": null,
@@ -36394,8 +36358,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
+        "officialSlug": "osaka"
       },
       "away": {
         "id": "kochi",
@@ -36681,6 +36644,30 @@
       "league": "j1",
       "rank": 2,
       "team": {
+        "id": "7114",
+        "appId": "hiroshima",
+        "league": "j1",
+        "name": "Sanfrecce Hiroshima",
+        "shortName": "Sanfreece",
+        "area": "広島",
+        "officialSlug": "hiroshima",
+        "tla": "SAN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7114.png"
+      },
+      "played": 12,
+      "win": 8,
+      "draw": 2,
+      "lose": 2,
+      "goalsFor": 29,
+      "goalsAgainst": 10,
+      "goalsDiff": 19,
+      "points": 26,
+      "form": ""
+    },
+    {
+      "league": "j1",
+      "rank": 3,
+      "team": {
         "id": "3384",
         "appId": "fc-tokyo",
         "league": "j1",
@@ -36699,30 +36686,6 @@
       "goalsAgainst": 8,
       "goalsDiff": 13,
       "points": 24,
-      "form": ""
-    },
-    {
-      "league": "j1",
-      "rank": 3,
-      "team": {
-        "id": "7114",
-        "appId": "hiroshima",
-        "league": "j1",
-        "name": "Sanfrecce Hiroshima",
-        "shortName": "Sanfreece",
-        "area": "広島",
-        "officialSlug": "hiroshima",
-        "tla": "SAN",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7114.png"
-      },
-      "played": 11,
-      "win": 7,
-      "draw": 2,
-      "lose": 2,
-      "goalsFor": 25,
-      "goalsAgainst": 10,
-      "goalsDiff": 15,
-      "points": 23,
       "form": ""
     },
     {
@@ -36907,13 +36870,13 @@
         "tla": "SHI",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7104.png"
       },
-      "played": 11,
+      "played": 12,
       "win": 4,
       "draw": 2,
-      "lose": 5,
+      "lose": 6,
       "goalsFor": 10,
-      "goalsAgainst": 16,
-      "goalsDiff": -6,
+      "goalsAgainst": 20,
+      "goalsDiff": -10,
       "points": 14,
       "form": ""
     },
@@ -37222,14 +37185,14 @@
         "logo": "https://www.jleague.jp/image/clubs/yokohama-fc.svg",
         "venue": "ニッパツ三ツ沢球技場 入場可能数 ： 15,442 人 監督 須藤 大輔 試合日程をカレンダーに追加 更新日: 2026/10/20 17:24 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
-      "played": 12,
+      "played": 13,
       "win": 6,
-      "draw": 3,
+      "draw": 4,
       "lose": 3,
-      "goalsFor": 23,
-      "goalsAgainst": 14,
+      "goalsFor": 25,
+      "goalsAgainst": 16,
       "goalsDiff": 9,
-      "points": 21,
+      "points": 22,
       "form": "",
       "provisional": false
     },
@@ -37247,14 +37210,14 @@
         "logo": "https://www.jleague.jp/image/clubs/omiya.svg",
         "venue": "ＮＡＣＫ５スタジアム大宮 入場可能数 ： 15,491 人 監督 ナルシス ペラッチ ナダル 試合日程をカレンダーに追加 更新日: 2026/10/20 17:24 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概"
       },
-      "played": 12,
+      "played": 13,
       "win": 5,
-      "draw": 5,
+      "draw": 6,
       "lose": 2,
-      "goalsFor": 21,
-      "goalsAgainst": 14,
+      "goalsFor": 23,
+      "goalsAgainst": 16,
       "goalsDiff": 7,
-      "points": 20,
+      "points": 21,
       "form": "",
       "provisional": false
     },
@@ -37337,6 +37300,31 @@
       "league": "j2",
       "rank": 9,
       "team": {
+        "id": "tokushima",
+        "appId": "tokushima",
+        "league": "j2",
+        "name": "徳島ヴォルティス",
+        "shortName": "徳島",
+        "area": "徳島",
+        "officialSlug": "tokushima",
+        "logo": "https://www.jleague.jp/image/clubs/tokushima.svg",
+        "venue": "鳴門・大塚スポーツパーク ポカリスエットスタジアム 入場可能数 ： 17,924 人 監督 吉本 岳史 試合日程をカレンダーに追加 更新日: 2026/10/20 17:24 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録に"
+      },
+      "played": 13,
+      "win": 5,
+      "draw": 2,
+      "lose": 6,
+      "goalsFor": 11,
+      "goalsAgainst": 13,
+      "goalsDiff": -2,
+      "points": 17,
+      "form": "",
+      "provisional": false
+    },
+    {
+      "league": "j2",
+      "rank": 10,
+      "team": {
         "id": "iwaki",
         "appId": "iwaki",
         "league": "j2",
@@ -37360,7 +37348,7 @@
     },
     {
       "league": "j2",
-      "rank": 10,
+      "rank": 11,
       "team": {
         "id": "fujieda",
         "appId": "fujieda",
@@ -37372,20 +37360,20 @@
         "logo": "https://www.jleague.jp/image/clubs/fujieda.svg",
         "venue": "藤枝総合運動公園サッカー場 入場可能数 ： 10,057 人 監督 槙野 智章 試合日程をカレンダーに追加 更新日: 2026/10/20 17:24 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果"
       },
-      "played": 12,
+      "played": 13,
       "win": 3,
       "draw": 6,
-      "lose": 3,
+      "lose": 4,
       "goalsFor": 15,
-      "goalsAgainst": 13,
-      "goalsDiff": 2,
+      "goalsAgainst": 14,
+      "goalsDiff": 1,
       "points": 15,
       "form": "",
       "provisional": false
     },
     {
       "league": "j2",
-      "rank": 11,
+      "rank": 12,
       "team": {
         "id": "iwata",
         "appId": "iwata",
@@ -37410,7 +37398,7 @@
     },
     {
       "league": "j2",
-      "rank": 12,
+      "rank": 13,
       "team": {
         "id": "tosu",
         "appId": "tosu",
@@ -37428,31 +37416,6 @@
       "lose": 6,
       "goalsFor": 12,
       "goalsAgainst": 15,
-      "goalsDiff": -3,
-      "points": 14,
-      "form": "",
-      "provisional": false
-    },
-    {
-      "league": "j2",
-      "rank": 13,
-      "team": {
-        "id": "tokushima",
-        "appId": "tokushima",
-        "league": "j2",
-        "name": "徳島ヴォルティス",
-        "shortName": "徳島",
-        "area": "徳島",
-        "officialSlug": "tokushima",
-        "logo": "https://www.jleague.jp/image/clubs/tokushima.svg",
-        "venue": "鳴門・大塚スポーツパーク ポカリスエットスタジアム 入場可能数 ： 17,924 人 監督 吉本 岳史 試合日程をカレンダーに追加 更新日: 2026/10/20 17:24 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録に"
-      },
-      "played": 12,
-      "win": 4,
-      "draw": 2,
-      "lose": 6,
-      "goalsFor": 10,
-      "goalsAgainst": 13,
       "goalsDiff": -3,
       "points": 14,
       "form": "",
@@ -37647,13 +37610,13 @@
         "logo": "https://www.jleague.jp/image/clubs/kagoshima.svg",
         "venue": "白波スタジアム 入場可能数 ： 12,212 人 監督 村主 博正 試合日程をカレンダーに追加 更新日: 2026/10/16 15:13 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一覧 "
       },
-      "played": 12,
+      "played": 13,
       "win": 9,
       "draw": 2,
-      "lose": 1,
-      "goalsFor": 26,
-      "goalsAgainst": 14,
-      "goalsDiff": 12,
+      "lose": 2,
+      "goalsFor": 27,
+      "goalsAgainst": 16,
+      "goalsDiff": 11,
       "points": 29,
       "form": "",
       "provisional": false
@@ -37687,6 +37650,29 @@
       "league": "j3",
       "rank": 3,
       "team": {
+        "id": "fc-osaka",
+        "appId": "fc-osaka",
+        "league": "j3",
+        "name": "FC大阪",
+        "shortName": "FC大阪",
+        "area": "大阪",
+        "officialSlug": "osaka"
+      },
+      "played": 13,
+      "win": 6,
+      "draw": 5,
+      "lose": 2,
+      "goalsFor": 23,
+      "goalsAgainst": 13,
+      "goalsDiff": 10,
+      "points": 23,
+      "form": "",
+      "provisional": false
+    },
+    {
+      "league": "j3",
+      "rank": 4,
+      "team": {
         "id": "yamaguchi",
         "appId": "yamaguchi",
         "league": "j3",
@@ -37710,7 +37696,7 @@
     },
     {
       "league": "j3",
-      "rank": 4,
+      "rank": 5,
       "team": {
         "id": "nara",
         "appId": "nara",
@@ -37722,20 +37708,20 @@
         "logo": "https://www.jleague.jp/image/clubs/nara.svg",
         "venue": "ロートフィールド奈良 入場可能数 ： 5,369 人 監督 大黒 将志 試合日程をカレンダーに追加 更新日: 2026/10/16 15:13 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手一"
       },
-      "played": 12,
+      "played": 13,
       "win": 7,
       "draw": 2,
-      "lose": 3,
-      "goalsFor": 22,
-      "goalsAgainst": 18,
-      "goalsDiff": 4,
+      "lose": 4,
+      "goalsFor": 23,
+      "goalsAgainst": 21,
+      "goalsDiff": 2,
       "points": 23,
       "form": "",
       "provisional": false
     },
     {
       "league": "j3",
-      "rank": 5,
+      "rank": 6,
       "team": {
         "id": "gifu",
         "appId": "gifu",
@@ -37760,7 +37746,7 @@
     },
     {
       "league": "j3",
-      "rank": 6,
+      "rank": 7,
       "team": {
         "id": "sagamihara",
         "appId": "sagamihara",
@@ -37772,38 +37758,14 @@
         "logo": "https://www.jleague.jp/image/clubs/sagamihara.svg",
         "venue": "相模原ギオンスタジアム 入場可能数 ： 6,259 人 監督 シュタルフ 悠紀リヒャルト 試合日程をカレンダーに追加 更新日: 2026/10/20 15:10 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 "
       },
-      "played": 12,
+      "played": 13,
       "win": 6,
-      "draw": 3,
+      "draw": 4,
       "lose": 3,
       "goalsFor": 21,
       "goalsAgainst": 14,
       "goalsDiff": 7,
-      "points": 21,
-      "form": "",
-      "provisional": false
-    },
-    {
-      "league": "j3",
-      "rank": 7,
-      "team": {
-        "id": "fc-osaka",
-        "appId": "fc-osaka",
-        "league": "j3",
-        "name": "FC大阪",
-        "shortName": "FC大阪",
-        "area": "大阪",
-        "officialSlug": "osaka",
-        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
-      },
-      "played": 12,
-      "win": 5,
-      "draw": 5,
-      "lose": 2,
-      "goalsFor": 21,
-      "goalsAgainst": 12,
-      "goalsDiff": 9,
-      "points": 20,
+      "points": 22,
       "form": "",
       "provisional": false
     },
@@ -37836,6 +37798,31 @@
       "league": "j3",
       "rank": 9,
       "team": {
+        "id": "ryukyu",
+        "appId": "ryukyu",
+        "league": "j3",
+        "name": "FC琉球",
+        "shortName": "琉球",
+        "area": "沖縄",
+        "officialSlug": "ryukyu",
+        "logo": "https://www.jleague.jp/image/clubs/ryukyu.svg",
+        "venue": "沖縄県総合運動公園陸上競技場 入場可能数 ： 10,189 人 監督 平川 忠亮 試合日程をカレンダーに追加 更新日: 2026/10/16 15:13 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結"
+      },
+      "played": 13,
+      "win": 6,
+      "draw": 2,
+      "lose": 5,
+      "goalsFor": 16,
+      "goalsAgainst": 15,
+      "goalsDiff": 1,
+      "points": 20,
+      "form": "",
+      "provisional": false
+    },
+    {
+      "league": "j3",
+      "rank": 10,
+      "team": {
         "id": "nagano",
         "appId": "nagano",
         "league": "j3",
@@ -37853,31 +37840,6 @@
       "goalsFor": 16,
       "goalsAgainst": 16,
       "goalsDiff": 0,
-      "points": 17,
-      "form": "",
-      "provisional": false
-    },
-    {
-      "league": "j3",
-      "rank": 10,
-      "team": {
-        "id": "ryukyu",
-        "appId": "ryukyu",
-        "league": "j3",
-        "name": "FC琉球",
-        "shortName": "琉球",
-        "area": "沖縄",
-        "officialSlug": "ryukyu",
-        "logo": "https://www.jleague.jp/image/clubs/ryukyu.svg",
-        "venue": "沖縄県総合運動公園陸上競技場 入場可能数 ： 10,189 人 監督 平川 忠亮 試合日程をカレンダーに追加 更新日: 2026/10/16 15:13 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結"
-      },
-      "played": 12,
-      "win": 5,
-      "draw": 2,
-      "lose": 5,
-      "goalsFor": 13,
-      "goalsAgainst": 14,
-      "goalsDiff": -1,
       "points": 17,
       "form": "",
       "provisional": false
@@ -37961,6 +37923,31 @@
       "league": "j3",
       "rank": 14,
       "team": {
+        "id": "tochigi-sc",
+        "appId": "tochigi-sc",
+        "league": "j3",
+        "name": "栃木SC",
+        "shortName": "栃木SC",
+        "area": "栃木",
+        "officialSlug": "tochigi",
+        "logo": "https://www.jleague.jp/image/clubs/tochigi-sc.svg",
+        "venue": "カンセキスタジアムとちぎ 入場可能数 ： 24,670 人 監督 濱崎 芳己 試合日程をカレンダーに追加 更新日: 2026/10/16 15:14 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+      },
+      "played": 13,
+      "win": 3,
+      "draw": 5,
+      "lose": 5,
+      "goalsFor": 12,
+      "goalsAgainst": 16,
+      "goalsDiff": -4,
+      "points": 14,
+      "form": "",
+      "provisional": false
+    },
+    {
+      "league": "j3",
+      "rank": 15,
+      "team": {
         "id": "tottori",
         "appId": "tottori",
         "league": "j3",
@@ -37979,31 +37966,6 @@
       "goalsAgainst": 23,
       "goalsDiff": -10,
       "points": 14,
-      "form": "",
-      "provisional": false
-    },
-    {
-      "league": "j3",
-      "rank": 15,
-      "team": {
-        "id": "tochigi-sc",
-        "appId": "tochigi-sc",
-        "league": "j3",
-        "name": "栃木SC",
-        "shortName": "栃木SC",
-        "area": "栃木",
-        "officialSlug": "tochigi",
-        "logo": "https://www.jleague.jp/image/clubs/tochigi-sc.svg",
-        "venue": "カンセキスタジアムとちぎ 入場可能数 ： 24,670 人 監督 濱崎 芳己 試合日程をカレンダーに追加 更新日: 2026/10/16 15:14 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
-      },
-      "played": 12,
-      "win": 3,
-      "draw": 4,
-      "lose": 5,
-      "goalsFor": 12,
-      "goalsAgainst": 16,
-      "goalsDiff": -4,
-      "points": 13,
       "form": "",
       "provisional": false
     },
@@ -38036,6 +37998,31 @@
       "league": "j3",
       "rank": 17,
       "team": {
+        "id": "gunma",
+        "appId": "gunma",
+        "league": "j3",
+        "name": "ザスパ群馬",
+        "shortName": "群馬",
+        "area": "群馬",
+        "officialSlug": "gunma",
+        "logo": "https://www.jleague.jp/image/clubs/gunma.svg",
+        "venue": "正田醤油スタジアム群馬 入場可能数 ： 15,190 人 監督 依田 光正 試合日程をカレンダーに追加 更新日: 2026/10/16 15:13 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選"
+      },
+      "played": 13,
+      "win": 4,
+      "draw": 1,
+      "lose": 8,
+      "goalsFor": 12,
+      "goalsAgainst": 22,
+      "goalsDiff": -10,
+      "points": 13,
+      "form": "",
+      "provisional": false
+    },
+    {
+      "league": "j3",
+      "rank": 18,
+      "team": {
         "id": "fukushima",
         "appId": "fukushima",
         "league": "j3",
@@ -38059,31 +38046,6 @@
     },
     {
       "league": "j3",
-      "rank": 18,
-      "team": {
-        "id": "gunma",
-        "appId": "gunma",
-        "league": "j3",
-        "name": "ザスパ群馬",
-        "shortName": "群馬",
-        "area": "群馬",
-        "officialSlug": "gunma",
-        "logo": "https://www.jleague.jp/image/clubs/gunma.svg",
-        "venue": "正田醤油スタジアム群馬 入場可能数 ： 15,190 人 監督 依田 光正 試合日程をカレンダーに追加 更新日: 2026/10/16 15:13 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選"
-      },
-      "played": 12,
-      "win": 3,
-      "draw": 1,
-      "lose": 8,
-      "goalsFor": 11,
-      "goalsAgainst": 22,
-      "goalsDiff": -11,
-      "points": 10,
-      "form": "",
-      "provisional": false
-    },
-    {
-      "league": "j3",
       "rank": 19,
       "team": {
         "id": "sanuki",
@@ -38096,13 +38058,13 @@
         "logo": "https://www.jleague.jp/image/clubs/sanuki.svg",
         "venue": "四国化成ＭＥＧＬＩＯスタジアム 入場可能数 ： 22,338 人 監督 大嶽 直人 試合日程をカレンダーに追加 更新日: 2026/10/16 15:13 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・"
       },
-      "played": 12,
+      "played": 13,
       "win": 2,
       "draw": 2,
-      "lose": 8,
+      "lose": 9,
       "goalsFor": 15,
-      "goalsAgainst": 24,
-      "goalsDiff": -9,
+      "goalsAgainst": 25,
+      "goalsDiff": -10,
       "points": 8,
       "form": "",
       "provisional": false
