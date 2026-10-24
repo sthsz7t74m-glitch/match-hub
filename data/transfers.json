@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T20:58:31.312Z",
+  "updatedAt": "2026-10-24T23:24:08.964Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -50,6 +50,21 @@
       "date": "2026-10-24T10:30:08.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/videos/cmd93enq4z20o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Should Palmer have been sent off earlier than he was?",
+      "titleJa": "移籍情報：Should Palmer have been sent off earlier than he was?",
+      "from": "",
+      "to": "",
+      "summaryJa": "Should Palmer have been sent off earlier than he was?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Should Palmer have been sent off earlier than he was?",
+      "summary": "Match of the Day pundit Martin Keown looks at the red card shown to Cole Palmer during Chelsea's 2-0 defeat to Tottenham, with the former Arsenal defender agreeing with the decision and suggesting Palmer was lucky not to receive a straight red for an early incident.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cmd93enq4z20o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T22:43:33.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cqm2dx312d98o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Barnet condemn racial abuse of Noel-Williams",
@@ -78,21 +93,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c9ly0dgy2r2eo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-23T21:54:54.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/videos/c9x28pyg05vyo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Spurs beat Coventry to earn first league win of the season",
-      "titleJa": "移籍情報：Spurs beat Coventry to earn first league win of the season",
-      "from": "",
-      "to": "",
-      "summaryJa": "Spurs beat Coventry to earn first league win of the season移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Spurs beat Coventry to earn first league win of the season",
-      "summary": "Tottenham Hotspur record their first Premier League win of the season and move off the bottom of the table with a home victory over Coventry City.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c9x28pyg05vyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T21:33:07.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c6z981p24q1eo?at_medium=RSS&at_campaign=rss",
