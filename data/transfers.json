@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T21:31:15.068Z",
+  "updatedAt": "2026-10-24T04:48:12.677Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -20,6 +20,21 @@
       "date": "2026-10-23T12:15:53.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cwn73kzzr8veo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Villa could reconsider Garnacho deal - Saturday's gossip",
+      "titleJa": "移籍情報：Villa could reconsider Garnacho deal - Saturday's gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Villa could reconsider Garnacho deal - Saturday's gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Villa could reconsider Garnacho deal - Saturday's gossip",
+      "summary": "Aston Villa have doubts on making Alejandro Garnacho deal a permanent move, Brighton to stand firm on Diego Gomez amid interest, Manchester United managerial candidates concern over players, plus more.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwn73kzzr8veo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T21:32:04.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cw8rz3eyn26po?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "PSG v Lyon moved as Paris prepares for more protests",
@@ -35,19 +50,19 @@
       "date": "2026-10-23T14:18:41.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/videos/c9x28pyg05vyo?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/videos/c9ly0dgy2r2eo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Spurs beat Coventry to earn first league win of the season",
-      "titleJa": "移籍情報：Spurs beat Coventry to earn first league win of the season",
+      "player": "Forest left frustrated as winless run goes on after draw at Ipswich",
+      "titleJa": "移籍情報：Forest left frustrated as winless run goes on after draw at Ipswich",
       "from": "",
       "to": "",
-      "summaryJa": "Spurs beat Coventry to earn first league win of the season移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Spurs beat Coventry to earn first league win of the season",
-      "summary": "Tottenham Hotspur record their first Premier League win of the season and move off the bottom of the table with a home victory over Coventry City.",
+      "summaryJa": "Forest left frustrated as winless run goes on after draw at Ipswich移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Forest left frustrated as winless run goes on after draw at Ipswich",
+      "summary": "Nottingham Forest ended a run of three successive league defeats but endured another night of missed chances as they drew 1-1 at Ipswich Town in the Premier League, but the result does move the away side out of the relegation zone on goal difference.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c9x28pyg05vyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T21:33:07.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/videos/c9ly0dgy2r2eo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T21:54:54.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c6z981p24q1eo?at_medium=RSS&at_campaign=rss",
@@ -95,19 +110,19 @@
       "date": "2026-10-23T11:20:20.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/videos/cq3dj1ddn83xo?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/videos/c9x28pyg05vyo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "My one feeling is shame - Sage on bruising Palace defeat",
-      "titleJa": "移籍情報：My one feeling is shame - Sage on bruising Palace defeat",
+      "player": "Spurs beat Coventry to earn first league win of the season",
+      "titleJa": "移籍情報：Spurs beat Coventry to earn first league win of the season",
       "from": "",
       "to": "",
-      "summaryJa": "My one feeling is shame - Sage on bruising Palace defeat移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "My one feeling is shame - Sage on bruising Palace defeat",
-      "summary": "Crystal Palace head coach Pierre Sage says he feels \"shame\" after their 5-0 defeat by Brighton.",
+      "summaryJa": "Spurs beat Coventry to earn first league win of the season移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Spurs beat Coventry to earn first league win of the season",
+      "summary": "Tottenham Hotspur record their first Premier League win of the season and move off the bottom of the table with a home victory over Coventry City.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cq3dj1ddn83xo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-18T15:41:16.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/videos/c9x28pyg05vyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T21:33:07.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c98rz0d0l40vo?at_medium=RSS&at_campaign=rss",
