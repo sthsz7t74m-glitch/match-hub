@@ -24,7 +24,8 @@ const aliases={
 const normalize=value=>(value||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
 const slug=value=>normalize(value).replace(/ /g,'_');
 function teamId(name){const value=normalize(name);for(const [id,names] of Object.entries(aliases)){if(names.some(alias=>value===alias||value.includes(alias)))return id;}return slug(value);}
-async function requestJson(url){const response=await fetch(url,{headers:{'User-Agent':'Mozilla/5.0 match-hub/1.0','Accept':'application/json'}});if(!response.ok)throw new Error(`HTTP ${response.status}`);return response.json();}
+let requestCount=0;
+async function requestJson(url){requestCount++;const response=await fetch(url,{signal:AbortSignal.timeout(20000),headers:{'User-Agent':'Mozilla/5.0 match-hub/1.0','Accept':'application/json'}});if(!response.ok)throw new Error(`HTTP ${response.status}`);return response.json();}
 function statusOf(event={}){if(event.status?.type?.completed)return 'finished';const state=event.status?.type?.state;if(state==='in')return'in_play';if(state==='pre')return'scheduled';return String(state||'scheduled').toLowerCase();}
 function monthRanges(year){return Array.from({length:12},(_,index)=>{const month=String(index+1).padStart(2,'0');const lastDay=new Date(Date.UTC(year,index+1,0)).getUTCDate();return `${year}${month}01-${year}${month}${String(lastDay).padStart(2,'0')}`;});}
 function numberOrNull(value){if(value===''||value==null)return null;const number=Number(value);return Number.isFinite(number)?number:null;}
@@ -47,10 +48,34 @@ function normalizeEvent(event,competition,code){
   const decision=decisionOf(event,contest,homeCompetitor,awayCompetitor);
   return {id:`${code}-${event.id}`,kickoff:event.date,status:statusOf(event),competition:event.league?.name||competition.nameJa,competitionCode:code,stage:event.season?.type?.name||event.season?.slug||'',round:contest.type?.text||event.week?.text||'',home:teamId(homeName),away:teamId(awayName),homeName,awayName,homeScore:numberOrNull(homeCompetitor?.score),awayScore:numberOrNull(awayCompetitor?.score),venue:contest.venue?.fullName||'',source:'ESPN',...decision};
 }
+// ESPN soccer accepts YYYY, YYYYMM or YYYYMMDD, not date ranges.
 const matches=[],loaded=[],skipped=[];
-for(const competition of competitions){let selectedCode='',competitionCount=0;for(const code of competition.codes){let codeCount=0;for(const year of years){for(const dates of monthRanges(year)){try{const payload=await requestJson(`${ESPN}/${code}/scoreboard?dates=${dates}&limit=1000`);const events=payload.events||[];for(const event of events){const normalizedEvent=normalizeEvent(event,competition,code);if(normalizedEvent)matches.push(normalizedEvent);}codeCount+=events.length;}catch(error){skipped.push({code,dates,reason:error.message});}}}if(codeCount>0){selectedCode=code;competitionCount=codeCount;break;}}if(competitionCount>0)loaded.push({code:selectedCode,name:competition.nameJa,count:competitionCount});else console.warn(`No ESPN events found for ${competition.nameJa}`);}
-const unique=[...new Map(matches.map(match=>[match.id,match])).values()].sort((a,b)=>new Date(a.kickoff)-new Date(b.kickoff));
-const output={updatedAt:new Date().toISOString(),source:'ESPN multi-competition monthly adapter',competitionCount:loaded.length,competitions:loaded,skippedCompetitions:skipped,dateYears:years,requestCount:competitions.reduce((sum,item)=>sum+item.codes.length*years.length*12,0),matches:unique};
+async function loadCompetition(competition){
+ for(const code of competition.codes){
+  let codeCount=0;
+  await Promise.all(years.map(async year=>{
+   try{
+    const payload=await requestJson(`${ESPN}/${code}/scoreboard?dates=${year}&limit=1000`);
+    let events=payload.events||[];
+    if(events.length>=1000){
+     const monthly=await Promise.all(Array.from({length:12},(_,i)=>requestJson(`${ESPN}/${code}/scoreboard?dates=${year}${String(i+1).padStart(2,'0')}&limit=1000`)));
+     events=monthly.flatMap(p=>p.events||[]);
+    }
+    for(const event of events){const match=normalizeEvent(event,competition,code);if(match)matches.push(match);}
+    codeCount+=events.length;
+   }catch(error){skipped.push({code,year,reason:error.message});}
+  }));
+  if(codeCount){loaded.push({code,name:competition.nameJa,count:codeCount});return;}
+ }
+ console.warn(`No ESPN events found for ${competition.nameJa}`);
+}
+// Bound fan-out to four competitions (16 annual requests) at once.
+for(let i=0;i<competitions.length;i+=4)await Promise.all(competitions.slice(i,i+4).map(loadCompetition));
+if(!matches.length)throw new Error('No national matches fetched; keeping previous data unchanged.');
+let previous=[];
+try{previous=JSON.parse(await fs.readFile('data/national-matches.json','utf8')).matches||[];}catch{}
+const unique=[...new Map([...previous,...matches].map(match=>[match.id,match])).values()].sort((a,b)=>new Date(a.kickoff)-new Date(b.kickoff));
+const output={updatedAt:new Date().toISOString(),source:'ESPN multi-competition annual adapter',competitionCount:loaded.length,competitions:loaded,skippedCompetitions:skipped,dateYears:years,requestCount,matches:unique};
 await fs.mkdir('data',{recursive:true});
 await fs.writeFile('data/national-matches.json',`${JSON.stringify(output,null,2)}\n`);
 console.log(`Saved ${unique.length} national matches from ${loaded.length} ESPN competitions.`);console.log(loaded);
