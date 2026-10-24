@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T11:17:07.121Z",
+  "updatedAt": "2026-10-24T16:05:04.633Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -20,21 +20,6 @@
       "date": "2026-10-24T10:30:08.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cmvg6j8jezn7o?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Conte plays down 'unfounded' Man Utd speculation",
-      "titleJa": "移籍情報：Conte plays down 'unfounded' Man Utd speculation",
-      "from": "",
-      "to": "",
-      "summaryJa": "Conte plays down 'unfounded' Man Utd speculation移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Conte plays down 'unfounded' Man Utd speculation",
-      "summary": "Antonio Conte says he is not in advanced talks with any club, in response to speculation he has held talks with Manchester United.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmvg6j8jezn7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T12:15:53.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/videos/c9ly0dgy2r2eo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Forest left frustrated as winless run goes on after draw at Ipswich",
@@ -48,6 +33,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c9ly0dgy2r2eo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-23T21:54:54.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cmwyqljyyg1lo?at_medium=RSS&at_campaign=rss",
+      "status": "official",
+      "player": "Barnsley legend Barry 'Spud' Murphy dies",
+      "titleJa": "移籍情報：Barnsley legend Barry 'Spud' Murphy dies",
+      "from": "",
+      "to": "",
+      "summaryJa": "Barnsley legend Barry 'Spud' Murphy dies移る可能性について、正式発表段階の報道です。",
+      "originalTitle": "Barnsley legend Barry 'Spud' Murphy dies",
+      "summary": "Barnsley have announced the death of their all-time record appearance holder Barry Murphy at the age of 86.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmwyqljyyg1lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T11:27:40.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cwn73kzzr8veo?at_medium=RSS&at_campaign=rss",
@@ -65,34 +65,19 @@
       "date": "2026-10-23T21:32:04.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cw8rz3eyn26po?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "PSG v Lyon moved as Paris prepares for more protests",
-      "titleJa": "移籍情報：PSG v Lyon moved as Paris prepares for more protests",
+      "id": "https://www.bbc.co.uk/sport/football/articles/cmvg6j8jezn7o?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Conte plays down 'unfounded' Man Utd speculation",
+      "titleJa": "移籍情報：Conte plays down 'unfounded' Man Utd speculation",
       "from": "",
       "to": "",
-      "summaryJa": "PSG v Lyon moved as Paris prepares for more protests移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "PSG v Lyon moved as Paris prepares for more protests",
-      "summary": "Paris St-Germain's Ligue 1 match against Lyon at the Parc des Princes is pushed back 24 hours as the French capital prepares for another weekend of protests.",
+      "summaryJa": "Conte plays down 'unfounded' Man Utd speculation移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Conte plays down 'unfounded' Man Utd speculation",
+      "summary": "Antonio Conte says he is not in advanced talks with any club, in response to speculation he has held talks with Manchester United.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cw8rz3eyn26po?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T14:18:41.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c6z981p24q1eo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Dream night for Bournemouth - win over Milan a sign of Premier League power",
-      "titleJa": "移籍情報：Dream night for Bournemouth - win over Milan a sign of Premier League power",
-      "from": "",
-      "to": "",
-      "summaryJa": "Dream night for Bournemouth - win over Milan a sign of Premier League power移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Dream night for Bournemouth - win over Milan a sign of Premier League power",
-      "summary": "Bournemouth's 3-0 win against AC Milan further illustrated the dominance of Premier League sides against their European counterparts.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6z981p24q1eo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T21:30:31.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmvg6j8jezn7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T12:15:53.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c9gkvrkkjv0lo?at_medium=RSS&at_campaign=rss",
@@ -110,19 +95,19 @@
       "date": "2026-10-23T07:57:27.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c9zrdkv775r1o?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/cw8rz3eyn26po?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Former Man United chief Murtough",
-      "titleJa": "Former Man United chief Murtough、Birminghamへ加入",
+      "player": "PSG v Lyon moved as Paris prepares for more protests",
+      "titleJa": "移籍情報：PSG v Lyon moved as Paris prepares for more protests",
       "from": "",
-      "to": "Birmingham",
-      "summaryJa": "Former Man United chief MurtoughがBirminghamへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Former Man United chief Murtough joins Birmingham",
-      "summary": "Birmingham City appoint ex-Manchester United chief John Murtough as director of football.",
-      "parsed": true,
+      "to": "",
+      "summaryJa": "PSG v Lyon moved as Paris prepares for more protests移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "PSG v Lyon moved as Paris prepares for more protests",
+      "summary": "Paris St-Germain's Ligue 1 match against Lyon at the Parc des Princes is pushed back 24 hours as the French capital prepares for another weekend of protests.",
+      "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9zrdkv775r1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T11:20:20.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/cw8rz3eyn26po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T14:18:41.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/c9x28pyg05vyo?at_medium=RSS&at_campaign=rss",
@@ -138,6 +123,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c9x28pyg05vyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-19T21:33:07.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c6z981p24q1eo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Dream night for Bournemouth - win over Milan a sign of Premier League power",
+      "titleJa": "移籍情報：Dream night for Bournemouth - win over Milan a sign of Premier League power",
+      "from": "",
+      "to": "",
+      "summaryJa": "Dream night for Bournemouth - win over Milan a sign of Premier League power移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Dream night for Bournemouth - win over Milan a sign of Premier League power",
+      "summary": "Bournemouth's 3-0 win against AC Milan further illustrated the dominance of Premier League sides against their European counterparts.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6z981p24q1eo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T21:30:31.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c98rz0d0l40vo?at_medium=RSS&at_campaign=rss",
@@ -198,21 +198,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqwy7x19gw1ro?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T07:16:59.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cvze4w57746yo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Building Lionesses 2.0 - Wiegman's new challenge awaits",
-      "titleJa": "移籍情報：Building Lionesses 2.0 - Wiegman's new challenge awaits",
-      "from": "",
-      "to": "",
-      "summaryJa": "Building Lionesses 2.0 - Wiegman's new challenge awaits移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Building Lionesses 2.0 - Wiegman's new challenge awaits",
-      "summary": "England head coach Sarina Wiegman has changed women's football in the country, so what does she face after signing a contract extension?",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvze4w57746yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T20:15:48.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cz7z09v9pp1o?at_medium=RSS&at_campaign=rss",
