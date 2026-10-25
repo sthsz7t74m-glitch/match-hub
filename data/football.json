@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T20:56:44.523Z",
+  "updatedAt": "2026-10-25T23:20:21.429Z",
   "season": "2026",
   "dataSource": "football-data.org",
   "dataMode": "current-free-plan",
@@ -20429,7 +20429,7 @@
     {
       "id": 558559,
       "date": "2026-10-25T19:45:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Serie A",
       "competitionJa": "セリエA",
@@ -20452,14 +20452,14 @@
       },
       "goals": {
         "home": 0,
-        "away": 1
+        "away": 2
       },
       "score": {
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 1
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -20471,7 +20471,7 @@
     {
       "id": 564723,
       "date": "2026-10-25T20:00:00Z",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -20493,15 +20493,15 @@
         "logo": "https://crests.football-data.org/86.png"
       },
       "goals": {
-        "home": 0,
-        "away": 1
+        "home": 1,
+        "away": 2
       },
       "score": {
         "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 1
+          "home": 1,
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -81758,8 +81758,8 @@
           "win": 9,
           "draw": 0,
           "lose": 1,
-          "goalsFor": 39,
-          "goalsAgainst": 10,
+          "goalsFor": 40,
+          "goalsAgainst": 11,
           "goalsDiff": 29,
           "points": 27,
           "form": ""
@@ -81794,8 +81794,8 @@
           "win": 8,
           "draw": 0,
           "lose": 2,
-          "goalsFor": 24,
-          "goalsAgainst": 9,
+          "goalsFor": 25,
+          "goalsAgainst": 10,
           "goalsDiff": 15,
           "points": 24,
           "form": ""
@@ -82181,9 +82181,9 @@
           "win": 5,
           "draw": 3,
           "lose": 0,
-          "goalsFor": 15,
+          "goalsFor": 16,
           "goalsAgainst": 7,
-          "goalsDiff": 8,
+          "goalsDiff": 9,
           "points": 18,
           "form": ""
         },
@@ -82416,8 +82416,8 @@
           "draw": 1,
           "lose": 6,
           "goalsFor": 9,
-          "goalsAgainst": 17,
-          "goalsDiff": -8,
+          "goalsAgainst": 18,
+          "goalsDiff": -9,
           "points": 4,
           "form": ""
         },
