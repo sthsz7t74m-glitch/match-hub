@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T05:24:20.234Z",
+  "updatedAt": "2026-10-25T10:12:57.213Z",
   "season": "2026",
   "dataSource": "football-data.org",
   "dataMode": "current-free-plan",
@@ -18791,7 +18791,7 @@
     {
       "id": 560614,
       "date": "2026-10-24T11:30:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -18813,19 +18813,19 @@
         "logo": "https://crests.football-data.org/65.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "events": []
@@ -19169,7 +19169,7 @@
     {
       "id": 560616,
       "date": "2026-10-24T14:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -19191,19 +19191,19 @@
         "logo": "https://crests.football-data.org/62.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "events": []
@@ -19211,7 +19211,7 @@
     {
       "id": 560618,
       "date": "2026-10-24T14:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -19233,19 +19233,19 @@
         "logo": "https://crests.football-data.org/63.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "events": []
@@ -19337,7 +19337,7 @@
     {
       "id": 560617,
       "date": "2026-10-24T16:30:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -19359,19 +19359,19 @@
         "logo": "https://crests.football-data.org/73.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "events": []
