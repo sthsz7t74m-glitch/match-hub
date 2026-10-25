@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T10:12:57.213Z",
+  "updatedAt": "2026-10-25T14:26:45.599Z",
   "season": "2026",
   "dataSource": "football-data.org",
   "dataMode": "current-free-plan",
@@ -18833,7 +18833,7 @@
     {
       "id": 564718,
       "date": "2026-10-24T12:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -18855,19 +18855,19 @@
         "logo": "https://crests.football-data.org/285.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 3
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 3
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         }
       },
       "events": []
@@ -18875,7 +18875,7 @@
     {
       "id": 558560,
       "date": "2026-10-24T13:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Serie A",
       "competitionJa": "セリエA",
@@ -18897,19 +18897,19 @@
         "logo": "https://crests.football-data.org/103.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "events": []
@@ -18917,7 +18917,7 @@
     {
       "id": 558561,
       "date": "2026-10-24T13:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Serie A",
       "competitionJa": "セリエA",
@@ -18939,19 +18939,19 @@
         "logo": "https://crests.football-data.org/471.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "events": []
@@ -19253,7 +19253,7 @@
     {
       "id": 564727,
       "date": "2026-10-24T14:15:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -19275,19 +19275,19 @@
         "logo": "https://crests.football-data.org/80.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "events": []
@@ -19295,7 +19295,7 @@
     {
       "id": 558564,
       "date": "2026-10-24T16:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Serie A",
       "competitionJa": "セリエA",
@@ -19317,19 +19317,19 @@
         "logo": "https://crests.football-data.org/100.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 3
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 3
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "events": []
@@ -19379,7 +19379,7 @@
     {
       "id": 564722,
       "date": "2026-10-24T16:30:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -19401,19 +19401,19 @@
         "logo": "https://crests.football-data.org/94.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "events": []
@@ -19463,7 +19463,7 @@
     {
       "id": 558565,
       "date": "2026-10-24T18:45:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Serie A",
       "competitionJa": "セリエA",
@@ -19485,19 +19485,19 @@
         "logo": "https://crests.football-data.org/112.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "events": []
@@ -19505,7 +19505,7 @@
     {
       "id": 559652,
       "date": "2026-10-24T18:45:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -19527,19 +19527,19 @@
         "logo": "https://crests.football-data.org/1045.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "events": []
@@ -19547,7 +19547,7 @@
     {
       "id": 564724,
       "date": "2026-10-24T19:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -19569,19 +19569,19 @@
         "logo": "https://crests.football-data.org/560.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "events": []
@@ -19589,7 +19589,7 @@
     {
       "id": 558563,
       "date": "2026-10-25T11:30:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Serie A",
       "competitionJa": "セリエA",
@@ -19611,19 +19611,19 @@
         "logo": "https://crests.football-data.org/99.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "events": []
@@ -19631,7 +19631,7 @@
     {
       "id": 564720,
       "date": "2026-10-25T13:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -19653,19 +19653,19 @@
         "logo": "https://crests.football-data.org/82.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
       "events": []
@@ -19673,7 +19673,7 @@
     {
       "id": 560612,
       "date": "2026-10-25T14:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -19695,15 +19695,15 @@
         "logo": "https://crests.football-data.org/397.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -19715,7 +19715,7 @@
     {
       "id": 560613,
       "date": "2026-10-25T14:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -19737,15 +19737,15 @@
         "logo": "https://crests.football-data.org/67.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -19757,7 +19757,7 @@
     {
       "id": 560615,
       "date": "2026-10-25T14:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -19779,15 +19779,15 @@
         "logo": "https://crests.football-data.org/bournemouth.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -19799,7 +19799,7 @@
     {
       "id": 560619,
       "date": "2026-10-25T14:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -19821,15 +19821,15 @@
         "logo": "https://crests.football-data.org/402.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -19841,7 +19841,7 @@
     {
       "id": 558562,
       "date": "2026-10-25T14:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "elapsed": null,
       "competition": "Serie A",
       "competitionJa": "セリエA",
@@ -19863,15 +19863,15 @@
         "logo": "https://crests.football-data.org/470.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "halfTime": {
           "home": null,
@@ -19883,7 +19883,7 @@
     {
       "id": 558568,
       "date": "2026-10-25T14:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "elapsed": null,
       "competition": "Serie A",
       "competitionJa": "セリエA",
@@ -19905,15 +19905,15 @@
         "logo": "https://crests.football-data.org/454.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -19925,7 +19925,7 @@
     {
       "id": 559650,
       "date": "2026-10-25T14:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -19947,15 +19947,15 @@
         "logo": "https://crests.football-data.org/521.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "halfTime": {
           "home": null,
@@ -81421,18 +81421,36 @@
             "shortName": "ブライトン",
             "logo": "https://crests.football-data.org/397.png"
           },
-          "played": 7,
+          "played": 8,
           "win": 5,
           "draw": 1,
-          "lose": 1,
+          "lose": 2,
           "goalsFor": 23,
-          "goalsAgainst": 5,
-          "goalsDiff": 18,
+          "goalsAgainst": 6,
+          "goalsDiff": 17,
           "points": 16,
           "form": ""
         },
         {
           "rank": 4,
+          "team": {
+            "id": 64,
+            "name": "Liverpool FC",
+            "shortName": "リヴァプール",
+            "logo": "https://crests.football-data.org/64.png"
+          },
+          "played": 8,
+          "win": 4,
+          "draw": 3,
+          "lose": 1,
+          "goalsFor": 10,
+          "goalsAgainst": 8,
+          "goalsDiff": 2,
+          "points": 15,
+          "form": ""
+        },
+        {
+          "rank": 5,
           "team": {
             "id": 61,
             "name": "Chelsea FC",
@@ -81450,25 +81468,25 @@
           "form": ""
         },
         {
-          "rank": 5,
+          "rank": 6,
           "team": {
-            "id": 64,
-            "name": "Liverpool FC",
-            "shortName": "リヴァプール",
-            "logo": "https://crests.football-data.org/64.png"
+            "id": 402,
+            "name": "Brentford FC",
+            "shortName": "ブレントフォード",
+            "logo": "https://crests.football-data.org/402.png"
           },
-          "played": 7,
-          "win": 3,
-          "draw": 3,
+          "played": 8,
+          "win": 2,
+          "draw": 5,
           "lose": 1,
-          "goalsFor": 9,
+          "goalsFor": 13,
           "goalsAgainst": 8,
-          "goalsDiff": 1,
-          "points": 12,
+          "goalsDiff": 5,
+          "points": 11,
           "form": ""
         },
         {
-          "rank": 6,
+          "rank": 7,
           "team": {
             "id": 58,
             "name": "Aston Villa FC",
@@ -81483,24 +81501,6 @@
           "goalsAgainst": 12,
           "goalsDiff": -3,
           "points": 11,
-          "form": ""
-        },
-        {
-          "rank": 7,
-          "team": {
-            "id": 402,
-            "name": "Brentford FC",
-            "shortName": "ブレントフォード",
-            "logo": "https://crests.football-data.org/402.png"
-          },
-          "played": 7,
-          "win": 2,
-          "draw": 4,
-          "lose": 1,
-          "goalsFor": 13,
-          "goalsAgainst": 8,
-          "goalsDiff": 5,
-          "points": 10,
           "form": ""
         },
         {
@@ -81524,6 +81524,24 @@
         {
           "rank": 9,
           "team": {
+            "id": 322,
+            "name": "Hull City AFC",
+            "shortName": "Hull City AFC",
+            "logo": "https://crests.football-data.org/322.png"
+          },
+          "played": 8,
+          "win": 2,
+          "draw": 4,
+          "lose": 2,
+          "goalsFor": 8,
+          "goalsAgainst": 7,
+          "goalsDiff": 1,
+          "points": 10,
+          "form": ""
+        },
+        {
+          "rank": 10,
+          "team": {
             "id": 62,
             "name": "Everton FC",
             "shortName": "エヴァートン",
@@ -81540,7 +81558,7 @@
           "form": ""
         },
         {
-          "rank": 10,
+          "rank": 11,
           "team": {
             "id": 349,
             "name": "Ipswich Town FC",
@@ -81555,24 +81573,6 @@
           "goalsAgainst": 16,
           "goalsDiff": -4,
           "points": 10,
-          "form": ""
-        },
-        {
-          "rank": 11,
-          "team": {
-            "id": 322,
-            "name": "Hull City AFC",
-            "shortName": "Hull City AFC",
-            "logo": "https://crests.football-data.org/322.png"
-          },
-          "played": 7,
-          "win": 2,
-          "draw": 3,
-          "lose": 2,
-          "goalsFor": 8,
-          "goalsAgainst": 7,
-          "goalsDiff": 1,
-          "points": 9,
           "form": ""
         },
         {
@@ -81596,6 +81596,42 @@
         {
           "rank": 13,
           "team": {
+            "id": 67,
+            "name": "Newcastle United FC",
+            "shortName": "ニューカッスル・ユナイテッド",
+            "logo": "https://crests.football-data.org/67.png"
+          },
+          "played": 8,
+          "win": 2,
+          "draw": 3,
+          "lose": 3,
+          "goalsFor": 10,
+          "goalsAgainst": 14,
+          "goalsDiff": -4,
+          "points": 9,
+          "form": ""
+        },
+        {
+          "rank": 14,
+          "team": {
+            "id": 66,
+            "name": "Manchester United FC",
+            "shortName": "マンチェスター・ユナイテッド",
+            "logo": "https://crests.football-data.org/66.png"
+          },
+          "played": 8,
+          "win": 1,
+          "draw": 5,
+          "lose": 2,
+          "goalsFor": 10,
+          "goalsAgainst": 10,
+          "goalsDiff": 0,
+          "points": 8,
+          "form": ""
+        },
+        {
+          "rank": 15,
+          "team": {
             "id": 63,
             "name": "Fulham FC",
             "shortName": "フラム",
@@ -81612,42 +81648,6 @@
           "form": ""
         },
         {
-          "rank": 14,
-          "team": {
-            "id": 67,
-            "name": "Newcastle United FC",
-            "shortName": "ニューカッスル・ユナイテッド",
-            "logo": "https://crests.football-data.org/67.png"
-          },
-          "played": 7,
-          "win": 2,
-          "draw": 2,
-          "lose": 3,
-          "goalsFor": 10,
-          "goalsAgainst": 14,
-          "goalsDiff": -4,
-          "points": 8,
-          "form": ""
-        },
-        {
-          "rank": 15,
-          "team": {
-            "id": 66,
-            "name": "Manchester United FC",
-            "shortName": "マンチェスター・ユナイテッド",
-            "logo": "https://crests.football-data.org/66.png"
-          },
-          "played": 7,
-          "win": 1,
-          "draw": 4,
-          "lose": 2,
-          "goalsFor": 10,
-          "goalsAgainst": 10,
-          "goalsDiff": 0,
-          "points": 7,
-          "form": ""
-        },
-        {
           "rank": 16,
           "team": {
             "id": 354,
@@ -81655,14 +81655,14 @@
             "shortName": "クリスタル・パレス",
             "logo": "https://crests.football-data.org/354.png"
           },
-          "played": 7,
+          "played": 8,
           "win": 2,
-          "draw": 1,
+          "draw": 2,
           "lose": 4,
           "goalsFor": 9,
           "goalsAgainst": 17,
           "goalsDiff": -8,
-          "points": 7,
+          "points": 8,
           "form": ""
         },
         {
@@ -81673,14 +81673,14 @@
             "shortName": "ボーンマス",
             "logo": "https://crests.football-data.org/bournemouth.png"
           },
-          "played": 7,
+          "played": 8,
           "win": 1,
-          "draw": 3,
+          "draw": 4,
           "lose": 3,
           "goalsFor": 9,
           "goalsAgainst": 13,
           "goalsDiff": -4,
-          "points": 6,
+          "points": 7,
           "form": ""
         },
         {
@@ -81893,6 +81893,24 @@
         {
           "rank": 9,
           "team": {
+            "id": 77,
+            "name": "Athletic Club",
+            "shortName": "アスレティック・ビルバオ",
+            "logo": "https://crests.football-data.org/77.png"
+          },
+          "played": 9,
+          "win": 3,
+          "draw": 3,
+          "lose": 3,
+          "goalsFor": 10,
+          "goalsAgainst": 9,
+          "goalsDiff": 1,
+          "points": 12,
+          "form": ""
+        },
+        {
+          "rank": 10,
+          "team": {
             "id": 558,
             "name": "RC Celta de Vigo",
             "shortName": "RC Celta de Vigo",
@@ -81909,7 +81927,7 @@
           "form": ""
         },
         {
-          "rank": 10,
+          "rank": 11,
           "team": {
             "id": 560,
             "name": "RC Deportivo La Coruña",
@@ -81927,7 +81945,7 @@
           "form": ""
         },
         {
-          "rank": 11,
+          "rank": 12,
           "team": {
             "id": 79,
             "name": "CA Osasuna",
@@ -81945,7 +81963,7 @@
           "form": ""
         },
         {
-          "rank": 12,
+          "rank": 13,
           "team": {
             "id": 5335,
             "name": "Real Racing Club de Santander",
@@ -81963,7 +81981,7 @@
           "form": ""
         },
         {
-          "rank": 13,
+          "rank": 14,
           "team": {
             "id": 88,
             "name": "Levante UD",
@@ -81981,7 +81999,7 @@
           "form": ""
         },
         {
-          "rank": 14,
+          "rank": 15,
           "team": {
             "id": 285,
             "name": "Elche CF",
@@ -81999,43 +82017,7 @@
           "form": ""
         },
         {
-          "rank": 15,
-          "team": {
-            "id": 77,
-            "name": "Athletic Club",
-            "shortName": "アスレティック・ビルバオ",
-            "logo": "https://crests.football-data.org/77.png"
-          },
-          "played": 8,
-          "win": 2,
-          "draw": 3,
-          "lose": 3,
-          "goalsFor": 8,
-          "goalsAgainst": 9,
-          "goalsDiff": -1,
-          "points": 9,
-          "form": ""
-        },
-        {
           "rank": 16,
-          "team": {
-            "id": 82,
-            "name": "Getafe CF",
-            "shortName": "ヘタフェ",
-            "logo": "https://crests.football-data.org/82.png"
-          },
-          "played": 9,
-          "win": 2,
-          "draw": 3,
-          "lose": 4,
-          "goalsFor": 5,
-          "goalsAgainst": 11,
-          "goalsDiff": -6,
-          "points": 9,
-          "form": ""
-        },
-        {
-          "rank": 17,
           "team": {
             "id": 87,
             "name": "Rayo Vallecano de Madrid",
@@ -82048,6 +82030,24 @@
           "lose": 4,
           "goalsFor": 12,
           "goalsAgainst": 20,
+          "goalsDiff": -8,
+          "points": 9,
+          "form": ""
+        },
+        {
+          "rank": 17,
+          "team": {
+            "id": 82,
+            "name": "Getafe CF",
+            "shortName": "ヘタフェ",
+            "logo": "https://crests.football-data.org/82.png"
+          },
+          "played": 10,
+          "win": 2,
+          "draw": 3,
+          "lose": 5,
+          "goalsFor": 5,
+          "goalsAgainst": 13,
           "goalsDiff": -8,
           "points": 9,
           "form": ""
@@ -82118,6 +82118,24 @@
         {
           "rank": 1,
           "team": {
+            "id": 108,
+            "name": "FC Internazionale Milano",
+            "shortName": "FC Internazionale Milano",
+            "logo": "https://crests.football-data.org/108.png"
+          },
+          "played": 8,
+          "win": 7,
+          "draw": 1,
+          "lose": 0,
+          "goalsFor": 23,
+          "goalsAgainst": 10,
+          "goalsDiff": 13,
+          "points": 22,
+          "form": ""
+        },
+        {
+          "rank": 2,
+          "team": {
             "id": 110,
             "name": "SS Lazio",
             "shortName": "ラツィオ",
@@ -82131,24 +82149,6 @@
           "goalsAgainst": 5,
           "goalsDiff": 11,
           "points": 22,
-          "form": ""
-        },
-        {
-          "rank": 2,
-          "team": {
-            "id": 108,
-            "name": "FC Internazionale Milano",
-            "shortName": "FC Internazionale Milano",
-            "logo": "https://crests.football-data.org/108.png"
-          },
-          "played": 7,
-          "win": 6,
-          "draw": 1,
-          "lose": 0,
-          "goalsFor": 21,
-          "goalsAgainst": 9,
-          "goalsDiff": 12,
-          "points": 19,
           "form": ""
         },
         {
@@ -82190,6 +82190,24 @@
         {
           "rank": 5,
           "team": {
+            "id": 470,
+            "name": "Frosinone Calcio",
+            "shortName": "Frosinone Calcio",
+            "logo": "https://crests.football-data.org/470.png"
+          },
+          "played": 8,
+          "win": 5,
+          "draw": 1,
+          "lose": 2,
+          "goalsFor": 15,
+          "goalsAgainst": 10,
+          "goalsDiff": 5,
+          "points": 16,
+          "form": ""
+        },
+        {
+          "rank": 6,
+          "team": {
             "id": 98,
             "name": "AC Milan",
             "shortName": "ACミラン",
@@ -82203,24 +82221,6 @@
           "goalsAgainst": 7,
           "goalsDiff": 7,
           "points": 15,
-          "form": ""
-        },
-        {
-          "rank": 6,
-          "team": {
-            "id": 470,
-            "name": "Frosinone Calcio",
-            "shortName": "Frosinone Calcio",
-            "logo": "https://crests.football-data.org/470.png"
-          },
-          "played": 7,
-          "win": 4,
-          "draw": 1,
-          "lose": 2,
-          "goalsFor": 13,
-          "goalsAgainst": 9,
-          "goalsDiff": 4,
-          "points": 13,
           "form": ""
         },
         {
@@ -82303,13 +82303,13 @@
             "shortName": "アタランタ",
             "logo": "https://crests.football-data.org/102.png"
           },
-          "played": 7,
+          "played": 8,
           "win": 3,
           "draw": 0,
-          "lose": 4,
-          "goalsFor": 10,
-          "goalsAgainst": 11,
-          "goalsDiff": -1,
+          "lose": 5,
+          "goalsFor": 11,
+          "goalsAgainst": 13,
+          "goalsDiff": -2,
           "points": 9,
           "form": ""
         },
@@ -82388,6 +82388,24 @@
         {
           "rank": 16,
           "team": {
+            "id": 107,
+            "name": "Genoa CFC",
+            "shortName": "ジェノア",
+            "logo": "https://crests.football-data.org/107.png"
+          },
+          "played": 8,
+          "win": 1,
+          "draw": 2,
+          "lose": 5,
+          "goalsFor": 5,
+          "goalsAgainst": 13,
+          "goalsDiff": -8,
+          "points": 5,
+          "form": ""
+        },
+        {
+          "rank": 17,
+          "team": {
             "id": 115,
             "name": "Udinese Calcio",
             "shortName": "ウディネーゼ",
@@ -82404,24 +82422,6 @@
           "form": ""
         },
         {
-          "rank": 17,
-          "team": {
-            "id": 107,
-            "name": "Genoa CFC",
-            "shortName": "ジェノア",
-            "logo": "https://crests.football-data.org/107.png"
-          },
-          "played": 7,
-          "win": 1,
-          "draw": 1,
-          "lose": 5,
-          "goalsFor": 5,
-          "goalsAgainst": 13,
-          "goalsDiff": -8,
-          "points": 4,
-          "form": ""
-        },
-        {
           "rank": 18,
           "team": {
             "id": 99,
@@ -82429,18 +82429,36 @@
             "shortName": "フィオレンティーナ",
             "logo": "https://crests.football-data.org/99.png"
           },
-          "played": 7,
+          "played": 8,
           "win": 1,
           "draw": 1,
-          "lose": 5,
-          "goalsFor": 8,
-          "goalsAgainst": 17,
-          "goalsDiff": -9,
+          "lose": 6,
+          "goalsFor": 9,
+          "goalsAgainst": 19,
+          "goalsDiff": -10,
           "points": 4,
           "form": ""
         },
         {
           "rank": 19,
+          "team": {
+            "id": 454,
+            "name": "Venezia FC",
+            "shortName": "Venezia FC",
+            "logo": "https://crests.football-data.org/454.png"
+          },
+          "played": 8,
+          "win": 1,
+          "draw": 1,
+          "lose": 6,
+          "goalsFor": 6,
+          "goalsAgainst": 16,
+          "goalsDiff": -10,
+          "points": 4,
+          "form": ""
+        },
+        {
+          "rank": 20,
           "team": {
             "id": 112,
             "name": "Parma Calcio 1913",
@@ -82455,24 +82473,6 @@
           "goalsAgainst": 15,
           "goalsDiff": -10,
           "points": 4,
-          "form": ""
-        },
-        {
-          "rank": 20,
-          "team": {
-            "id": 454,
-            "name": "Venezia FC",
-            "shortName": "Venezia FC",
-            "logo": "https://crests.football-data.org/454.png"
-          },
-          "played": 7,
-          "win": 1,
-          "draw": 0,
-          "lose": 6,
-          "goalsFor": 6,
-          "goalsAgainst": 16,
-          "goalsDiff": -10,
-          "points": 3,
           "form": ""
         }
       ]
@@ -82820,6 +82820,42 @@
         {
           "rank": 1,
           "team": {
+            "id": 521,
+            "name": "Lille OSC",
+            "shortName": "リール",
+            "logo": "https://crests.football-data.org/521.png"
+          },
+          "played": 8,
+          "win": 4,
+          "draw": 3,
+          "lose": 1,
+          "goalsFor": 10,
+          "goalsAgainst": 5,
+          "goalsDiff": 5,
+          "points": 15,
+          "form": ""
+        },
+        {
+          "rank": 2,
+          "team": {
+            "id": 548,
+            "name": "AS Monaco FC",
+            "shortName": "モナコ",
+            "logo": "https://crests.football-data.org/548.png"
+          },
+          "played": 8,
+          "win": 4,
+          "draw": 3,
+          "lose": 1,
+          "goalsFor": 10,
+          "goalsAgainst": 6,
+          "goalsDiff": 4,
+          "points": 15,
+          "form": ""
+        },
+        {
+          "rank": 3,
+          "team": {
             "id": 523,
             "name": "Olympique Lyonnais",
             "shortName": "リヨン",
@@ -82836,7 +82872,7 @@
           "form": ""
         },
         {
-          "rank": 2,
+          "rank": 4,
           "team": {
             "id": 524,
             "name": "Paris Saint-Germain FC",
@@ -82854,25 +82890,7 @@
           "form": ""
         },
         {
-          "rank": 3,
-          "team": {
-            "id": 521,
-            "name": "Lille OSC",
-            "shortName": "リール",
-            "logo": "https://crests.football-data.org/521.png"
-          },
-          "played": 7,
-          "win": 4,
-          "draw": 2,
-          "lose": 1,
-          "goalsFor": 10,
-          "goalsAgainst": 5,
-          "goalsDiff": 5,
-          "points": 14,
-          "form": ""
-        },
-        {
-          "rank": 4,
+          "rank": 5,
           "team": {
             "id": 1045,
             "name": "Paris FC",
@@ -82885,24 +82903,6 @@
           "lose": 2,
           "goalsFor": 13,
           "goalsAgainst": 9,
-          "goalsDiff": 4,
-          "points": 14,
-          "form": ""
-        },
-        {
-          "rank": 5,
-          "team": {
-            "id": 548,
-            "name": "AS Monaco FC",
-            "shortName": "モナコ",
-            "logo": "https://crests.football-data.org/548.png"
-          },
-          "played": 7,
-          "win": 4,
-          "draw": 2,
-          "lose": 1,
-          "goalsFor": 10,
-          "goalsAgainst": 6,
           "goalsDiff": 4,
           "points": 14,
           "form": ""
