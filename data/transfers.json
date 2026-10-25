@@ -1,24 +1,9 @@
 {
-  "updatedAt": "2026-10-25T11:46:45.357Z",
+  "updatedAt": "2026-10-25T16:35:03.603Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cqvgr87py7zvo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Liverpool among clubs keen on Vuskovic - Sunday's gossip",
-      "titleJa": "移籍情報：Liverpool among clubs keen on Vuskovic - Sunday's gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Liverpool among clubs keen on Vuskovic - Sunday's gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Liverpool among clubs keen on Vuskovic - Sunday's gossip",
-      "summary": "Brighton defender Luka Vuskovic is being looked at by high-profile clubs, Liverpool do not intend to bring Trent Alexander-Arnold back, AC Milan are targeting Manchester United's Leny Yoro, plus more.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqvgr87py7zvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T20:20:30.000Z"
-    },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/cm79pxqdlwelo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -50,6 +35,21 @@
       "date": "2026-10-24T22:43:33.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cqvgr87py7zvo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Liverpool among clubs keen on Vuskovic - Sunday's gossip",
+      "titleJa": "移籍情報：Liverpool among clubs keen on Vuskovic - Sunday's gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Liverpool among clubs keen on Vuskovic - Sunday's gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Liverpool among clubs keen on Vuskovic - Sunday's gossip",
+      "summary": "Brighton defender Luka Vuskovic is being looked at by high-profile clubs, Liverpool do not intend to bring Trent Alexander-Arnold back, AC Milan are targeting Manchester United's Leny Yoro, plus more.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqvgr87py7zvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T20:20:30.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c6q8nd9g9n72o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Infantino says he is backed by 'vast majority'",
@@ -63,21 +63,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6q8nd9g9n72o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T10:30:08.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cqm2dx312d98o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Barnet condemn racial abuse of Noel-Williams",
-      "titleJa": "移籍情報：Barnet condemn racial abuse of Noel-Williams",
-      "from": "",
-      "to": "",
-      "summaryJa": "Barnet condemn racial abuse of Noel-Williams移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Barnet condemn racial abuse of Noel-Williams",
-      "summary": "Barnet condemn racial abuse targeted at Isiah Noel-Williams after the midfielder was sent off in their 1-1 draw with Oldham.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqm2dx312d98o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T18:58:25.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/c9ly0dgy2r2eo?at_medium=RSS&at_campaign=rss",
