@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T20:13:13.219Z",
+  "updatedAt": "2026-10-26T23:57:38.816Z",
   "season": "2026",
   "dataSource": "football-data.org",
   "dataMode": "current-free-plan",
@@ -20513,7 +20513,7 @@
     {
       "id": 559648,
       "date": "2026-10-26T19:30:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -20535,19 +20535,19 @@
         "logo": "https://crests.football-data.org/523.png"
       },
       "goals": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "events": []
@@ -20555,7 +20555,7 @@
     {
       "id": 564721,
       "date": "2026-10-26T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -20577,19 +20577,19 @@
         "logo": "https://crests.football-data.org/79.png"
       },
       "goals": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "events": []
@@ -81845,13 +81845,13 @@
             "logo": "https://crests.football-data.org/559.png"
           },
           "played": 10,
-          "win": 4,
-          "draw": 3,
+          "win": 5,
+          "draw": 2,
           "lose": 3,
-          "goalsFor": 14,
+          "goalsFor": 16,
           "goalsAgainst": 16,
-          "goalsDiff": -2,
-          "points": 15,
+          "goalsDiff": 0,
+          "points": 17,
           "form": ""
         },
         {
@@ -81929,24 +81929,6 @@
         {
           "rank": 11,
           "team": {
-            "id": 79,
-            "name": "CA Osasuna",
-            "shortName": "オサスナ",
-            "logo": "https://crests.football-data.org/79.png"
-          },
-          "played": 10,
-          "win": 3,
-          "draw": 3,
-          "lose": 4,
-          "goalsFor": 10,
-          "goalsAgainst": 18,
-          "goalsDiff": -8,
-          "points": 12,
-          "form": ""
-        },
-        {
-          "rank": 12,
-          "team": {
             "id": 560,
             "name": "RC Deportivo La Coruña",
             "shortName": "RC Deportivo La Coruña",
@@ -81959,6 +81941,24 @@
           "goalsFor": 13,
           "goalsAgainst": 13,
           "goalsDiff": 0,
+          "points": 11,
+          "form": ""
+        },
+        {
+          "rank": 12,
+          "team": {
+            "id": 79,
+            "name": "CA Osasuna",
+            "shortName": "オサスナ",
+            "logo": "https://crests.football-data.org/79.png"
+          },
+          "played": 10,
+          "win": 3,
+          "draw": 2,
+          "lose": 5,
+          "goalsFor": 10,
+          "goalsAgainst": 20,
+          "goalsDiff": -10,
           "points": 11,
           "form": ""
         },
@@ -82820,6 +82820,24 @@
         {
           "rank": 1,
           "team": {
+            "id": 524,
+            "name": "Paris Saint-Germain FC",
+            "shortName": "パリ・サンジェルマン",
+            "logo": "https://crests.football-data.org/524.png"
+          },
+          "played": 8,
+          "win": 5,
+          "draw": 2,
+          "lose": 1,
+          "goalsFor": 16,
+          "goalsAgainst": 9,
+          "goalsDiff": 7,
+          "points": 17,
+          "form": ""
+        },
+        {
+          "rank": 2,
+          "team": {
             "id": 529,
             "name": "Stade Rennais FC 1901",
             "shortName": "Stade Rennais FC 1901",
@@ -82836,43 +82854,7 @@
           "form": ""
         },
         {
-          "rank": 2,
-          "team": {
-            "id": 523,
-            "name": "Olympique Lyonnais",
-            "shortName": "リヨン",
-            "logo": "https://crests.football-data.org/523.png"
-          },
-          "played": 8,
-          "win": 4,
-          "draw": 3,
-          "lose": 1,
-          "goalsFor": 13,
-          "goalsAgainst": 5,
-          "goalsDiff": 8,
-          "points": 15,
-          "form": ""
-        },
-        {
           "rank": 3,
-          "team": {
-            "id": 524,
-            "name": "Paris Saint-Germain FC",
-            "shortName": "パリ・サンジェルマン",
-            "logo": "https://crests.football-data.org/524.png"
-          },
-          "played": 8,
-          "win": 4,
-          "draw": 3,
-          "lose": 1,
-          "goalsFor": 14,
-          "goalsAgainst": 9,
-          "goalsDiff": 5,
-          "points": 15,
-          "form": ""
-        },
-        {
-          "rank": 4,
           "team": {
             "id": 521,
             "name": "Lille OSC",
@@ -82890,7 +82872,7 @@
           "form": ""
         },
         {
-          "rank": 5,
+          "rank": 4,
           "team": {
             "id": 548,
             "name": "AS Monaco FC",
@@ -82905,6 +82887,24 @@
           "goalsAgainst": 7,
           "goalsDiff": 4,
           "points": 15,
+          "form": ""
+        },
+        {
+          "rank": 5,
+          "team": {
+            "id": 523,
+            "name": "Olympique Lyonnais",
+            "shortName": "リヨン",
+            "logo": "https://crests.football-data.org/523.png"
+          },
+          "played": 8,
+          "win": 4,
+          "draw": 2,
+          "lose": 2,
+          "goalsFor": 13,
+          "goalsAgainst": 7,
+          "goalsDiff": 6,
+          "points": 14,
           "form": ""
         },
         {
