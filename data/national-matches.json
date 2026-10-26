@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-10-25T07:47:40.273Z",
+  "updatedAt": "2026-10-26T08:05:01.929Z",
   "source": "ESPN multi-competition annual adapter",
   "competitionCount": 15,
   "competitions": [
     {
+      "code": "fifa.worldq.conmebol",
+      "name": "W杯南米予選",
+      "count": 60
+    },
+    {
       "code": "fifa.world",
       "name": "FIFAワールドカップ",
       "count": 104
-    },
-    {
-      "code": "fifa.worldq.concacaf",
-      "name": "W杯北中米予選",
-      "count": 100
     },
     {
       "code": "fifa.worldq.uefa",
@@ -19,14 +19,9 @@
       "count": 204
     },
     {
-      "code": "fifa.worldq.conmebol",
-      "name": "W杯南米予選",
-      "count": 60
-    },
-    {
-      "code": "fifa.worldq.ofc",
-      "name": "W杯オセアニア予選",
-      "count": 18
+      "code": "fifa.worldq.concacaf",
+      "name": "W杯北中米予選",
+      "count": 100
     },
     {
       "code": "uefa.euro",
@@ -44,6 +39,21 @@
       "count": 170
     },
     {
+      "code": "fifa.worldq.ofc",
+      "name": "W杯オセアニア予選",
+      "count": 18
+    },
+    {
+      "code": "afc.asian.cup",
+      "name": "AFCアジアカップ",
+      "count": 102
+    },
+    {
+      "code": "concacaf.gold",
+      "name": "CONCACAFゴールドカップ",
+      "count": 31
+    },
+    {
       "code": "uefa.nations",
       "name": "UEFAネーションズリーグ",
       "count": 346
@@ -54,19 +64,9 @@
       "count": 32
     },
     {
-      "code": "concacaf.gold",
-      "name": "CONCACAFゴールドカップ",
-      "count": 31
-    },
-    {
-      "code": "afc.asian.cup",
-      "name": "AFCアジアカップ",
-      "count": 102
-    },
-    {
-      "code": "fifa.olympics",
-      "name": "オリンピック男子サッカー",
-      "count": 32
+      "code": "caf.nations",
+      "name": "アフリカネーションズカップ",
+      "count": 104
     },
     {
       "code": "fifa.friendly",
@@ -74,9 +74,9 @@
       "count": 992
     },
     {
-      "code": "caf.nations",
-      "name": "アフリカネーションズカップ",
-      "count": 104
+      "code": "fifa.olympics",
+      "name": "オリンピック男子サッカー",
+      "count": 32
     }
   ],
   "skippedCompetitions": [
@@ -87,12 +87,12 @@
     },
     {
       "code": "conmebol.copa_america",
-      "year": 2025,
+      "year": 2024,
       "reason": "HTTP 400"
     },
     {
       "code": "conmebol.copa_america",
-      "year": 2024,
+      "year": 2025,
       "reason": "HTTP 400"
     },
     {
@@ -50206,6 +50206,26 @@
       "penalties": null
     },
     {
+      "id": "fifa.friendly-401919974",
+      "kickoff": "2026-11-17T16:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "jordan",
+      "away": "australia",
+      "homeName": "Jordan",
+      "awayName": "Australia",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Amman International Stadium",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
       "id": "fifa.friendly-401930978",
       "kickoff": "2026-11-17T17:00Z",
       "status": "scheduled",
@@ -50420,26 +50440,6 @@
       "homeScore": 0,
       "awayScore": 0,
       "venue": "",
-      "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
-      "penalties": null
-    },
-    {
-      "id": "fifa.friendly-401919974",
-      "kickoff": "2026-11-17T20:00Z",
-      "status": "scheduled",
-      "competition": "国際親善試合",
-      "competitionCode": "fifa.friendly",
-      "stage": "2026-international-friendly",
-      "round": "",
-      "home": "jordan",
-      "away": "australia",
-      "homeName": "Jordan",
-      "awayName": "Australia",
-      "homeScore": 0,
-      "awayScore": 0,
-      "venue": "Amman International Stadium",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
