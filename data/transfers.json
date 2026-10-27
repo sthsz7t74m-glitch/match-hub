@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T20:36:40.300Z",
+  "updatedAt": "2026-10-27T00:35:25.201Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -13,41 +13,26 @@
       "to": "",
       "summaryJa": "Kane prematurely announced as Ballon d'Or winner - but he wasn't only one移る可能性について、正式発表段階の報道です。",
       "originalTitle": "Kane prematurely announced as Ballon d'Or winner - but he wasn't only one",
-      "summary": "Harry Kane's dream of winning the Ballon d'Or seemed as if it had come true on Monday when the organisers released an article claiming he had won the award.",
+      "summary": "Harry Kane's dream of winning the Ballon d'Or came true on Monday, but a few hours earlier organisers prematurely released an article claiming he had clinched the award.",
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmly0g2y7q2zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T18:10:26.000Z"
+      "date": "2026-10-26T23:35:27.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cqjdmn0ndxjxo?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "Who should win the men's Ballon d'Or? BBC Sport pundits have their say",
-      "titleJa": "移籍情報：Who should win the men's Ballon d'Or? BBC Sport pundits have their say",
-      "from": "",
-      "to": "",
-      "summaryJa": "Who should win the men's Ballon d'Or? BBC Sport pundits have their say移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "Who should win the men's Ballon d'Or? BBC Sport pundits have their say",
-      "summary": "The Ballon d'Or winner will be announced in London on Monday - but who is going to claim the showpiece award?",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqjdmn0ndxjxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T06:19:12.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cq1j3e889rg8o?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sounds/play/p0pjqwyh?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Howe open to Man Utd talks - Monday's gossip",
-      "titleJa": "移籍情報：Howe open to Man Utd talks - Monday's gossip",
+      "player": "Football Daily",
+      "titleJa": "移籍情報：Football Daily",
       "from": "",
       "to": "",
-      "summaryJa": "Howe open to Man Utd talks - Monday's gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Howe open to Man Utd talks - Monday's gossip",
-      "summary": "Eddie Howe is open to holding talks with Manchester United if they part ways with manager Michael Carrick, three Premier League clubs are monitoring Bayern Munich's Lennart Karl, plus more.",
+      "summaryJa": "Football Daily移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Football Daily",
+      "summary": "Mark Chapman is joined by Chris Sutton, Andros Townsend and Adam Crafton.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq1j3e889rg8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T21:09:37.000Z"
+      "url": "https://www.bbc.co.uk/sounds/play/p0pjqwyh?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T21:18:00.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c804013klnn0o?at_medium=RSS&at_campaign=rss",
@@ -78,21 +63,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckd6dzv7w85go?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-26T16:59:33.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sounds/play/p0phzkpn?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Football Daily",
-      "titleJa": "移籍情報：Football Daily",
-      "from": "",
-      "to": "",
-      "summaryJa": "Football Daily移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Football Daily",
-      "summary": "Rick & Lloyd are joined by Oliver Kay & Joe Smith after a surreal day at Old Trafford.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sounds/play/p0phzkpn?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T00:08:00.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c6d93eeq27gqo?at_medium=RSS&at_campaign=rss",
