@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T10:40:05.291Z",
+  "updatedAt": "2026-10-27T16:05:01.933Z",
   "season": "2026",
   "dataSource": "football-data.org",
   "dataMode": "current-free-plan",
@@ -21057,6 +21057,48 @@
       "events": []
     },
     {
+      "id": 559646,
+      "date": "2026-10-30T18:00:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Ligue 1",
+      "competitionJa": "リーグ・アン",
+      "leagueId": 61,
+      "leagueCode": "FL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第9節",
+      "venue": "",
+      "home": {
+        "id": 522,
+        "name": "OGC Nice",
+        "shortName": "ニース",
+        "logo": "https://crests.football-data.org/522.png"
+      },
+      "away": {
+        "id": 529,
+        "name": "Stade Rennais FC 1901",
+        "shortName": "Stade Rennais FC 1901",
+        "logo": "https://crests.football-data.org/529.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
       "id": 565846,
       "date": "2026-10-30T19:30:00Z",
       "status": "TIMED",
@@ -21771,48 +21813,6 @@
       "events": []
     },
     {
-      "id": 559646,
-      "date": "2026-10-31T16:15:00Z",
-      "status": "TIMED",
-      "elapsed": null,
-      "competition": "Ligue 1",
-      "competitionJa": "リーグ・アン",
-      "leagueId": 61,
-      "leagueCode": "FL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第9節",
-      "venue": "",
-      "home": {
-        "id": 522,
-        "name": "OGC Nice",
-        "shortName": "ニース",
-        "logo": "https://crests.football-data.org/522.png"
-      },
-      "away": {
-        "id": 529,
-        "name": "Stade Rennais FC 1901",
-        "shortName": "Stade Rennais FC 1901",
-        "logo": "https://crests.football-data.org/529.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
       "id": 558542,
       "date": "2026-10-31T17:00:00Z",
       "status": "TIMED",
@@ -22003,90 +22003,6 @@
         "name": "FC Internazionale Milano",
         "shortName": "FC Internazionale Milano",
         "logo": "https://crests.football-data.org/108.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 559640,
-      "date": "2026-10-31T19:45:00Z",
-      "status": "TIMED",
-      "elapsed": null,
-      "competition": "Ligue 1",
-      "competitionJa": "リーグ・アン",
-      "leagueId": 61,
-      "leagueCode": "FL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第9節",
-      "venue": "",
-      "home": {
-        "id": 523,
-        "name": "Olympique Lyonnais",
-        "shortName": "リヨン",
-        "logo": "https://crests.football-data.org/523.png"
-      },
-      "away": {
-        "id": 532,
-        "name": "Angers SCO",
-        "shortName": "Angers SCO",
-        "logo": "https://crests.football-data.org/532.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 559641,
-      "date": "2026-10-31T19:45:00Z",
-      "status": "TIMED",
-      "elapsed": null,
-      "competition": "Ligue 1",
-      "competitionJa": "リーグ・アン",
-      "leagueId": 61,
-      "leagueCode": "FL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第9節",
-      "venue": "",
-      "home": {
-        "id": 525,
-        "name": "FC Lorient",
-        "shortName": "ロリアン",
-        "logo": "https://crests.football-data.org/525.png"
-      },
-      "away": {
-        "id": 512,
-        "name": "Stade Brestois 29",
-        "shortName": "ブレスト",
-        "logo": "https://crests.football-data.org/512.png"
       },
       "goals": {
         "home": null,
@@ -22527,6 +22443,48 @@
       "events": []
     },
     {
+      "id": 559640,
+      "date": "2026-11-01T16:15:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Ligue 1",
+      "competitionJa": "リーグ・アン",
+      "leagueId": 61,
+      "leagueCode": "FL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第9節",
+      "venue": "",
+      "home": {
+        "id": 523,
+        "name": "Olympique Lyonnais",
+        "shortName": "リヨン",
+        "logo": "https://crests.football-data.org/523.png"
+      },
+      "away": {
+        "id": 532,
+        "name": "Angers SCO",
+        "shortName": "Angers SCO",
+        "logo": "https://crests.football-data.org/532.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
       "id": 559642,
       "date": "2026-11-01T16:15:00Z",
       "status": "TIMED",
@@ -22927,6 +22885,48 @@
         "name": "Parma Calcio 1913",
         "shortName": "パルマ",
         "logo": "https://crests.football-data.org/112.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 559641,
+      "date": "2026-11-02T19:45:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Ligue 1",
+      "competitionJa": "リーグ・アン",
+      "leagueId": 61,
+      "leagueCode": "FL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第9節",
+      "venue": "",
+      "home": {
+        "id": 525,
+        "name": "FC Lorient",
+        "shortName": "ロリアン",
+        "logo": "https://crests.football-data.org/525.png"
+      },
+      "away": {
+        "id": 512,
+        "name": "Stade Brestois 29",
+        "shortName": "ブレスト",
+        "logo": "https://crests.football-data.org/512.png"
       },
       "goals": {
         "home": null,
