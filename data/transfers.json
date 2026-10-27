@@ -1,39 +1,9 @@
 {
-  "updatedAt": "2026-10-27T09:10:17.993Z",
+  "updatedAt": "2026-10-27T15:26:31.191Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cmly0g2y7q2zo?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "Kane prematurely announced as Ballon d'Or winner - but he wasn't only one",
-      "titleJa": "移籍情報：Kane prematurely announced as Ballon d'Or winner - but he wasn't only one",
-      "from": "",
-      "to": "",
-      "summaryJa": "Kane prematurely announced as Ballon d'Or winner - but he wasn't only one移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "Kane prematurely announced as Ballon d'Or winner - but he wasn't only one",
-      "summary": "Harry Kane's dream of winning the Ballon d'Or came true on Monday, but a few hours earlier organisers prematurely released an article claiming he had clinched the award.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmly0g2y7q2zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T23:35:27.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sounds/play/p0pjqwyh?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Football Daily",
-      "titleJa": "移籍情報：Football Daily",
-      "from": "",
-      "to": "",
-      "summaryJa": "Football Daily移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Football Daily",
-      "summary": "Mark Chapman is joined by Chris Sutton, Andros Townsend and Adam Crafton.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sounds/play/p0pjqwyh?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T21:18:00.000Z"
-    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c804013klnn0o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -65,19 +35,19 @@
       "date": "2026-10-26T16:59:33.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c6d93eeq27gqo?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sounds/play/p0pjqwyh?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Chaos or concern - Hanley's striker cameo poses questions for Hibs",
-      "titleJa": "移籍情報：Chaos or concern - Hanley's striker cameo poses questions for Hibs",
+      "player": "Football Daily",
+      "titleJa": "移籍情報：Football Daily",
       "from": "",
       "to": "",
-      "summaryJa": "Chaos or concern - Hanley's striker cameo poses questions for Hibs移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Chaos or concern - Hanley's striker cameo poses questions for Hibs",
-      "summary": "Grant Hanley was called upon to be a makeshift striker for Hibs against Celtic, but what does it signal for the Scottish Premiership's bottom side?",
+      "summaryJa": "Football Daily移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Football Daily",
+      "summary": "Mark Chapman is joined by Chris Sutton, Andros Townsend and Adam Crafton.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6d93eeq27gqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T18:14:53.000Z"
+      "url": "https://www.bbc.co.uk/sounds/play/p0pjqwyh?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T21:18:00.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c933xjdzv3j8o?at_medium=RSS&at_campaign=rss",
