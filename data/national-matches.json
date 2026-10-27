@@ -1,13 +1,8 @@
 {
-  "updatedAt": "2026-10-26T08:05:01.929Z",
+  "updatedAt": "2026-10-27T08:21:07.203Z",
   "source": "ESPN multi-competition annual adapter",
   "competitionCount": 15,
   "competitions": [
-    {
-      "code": "fifa.worldq.conmebol",
-      "name": "W杯南米予選",
-      "count": 60
-    },
     {
       "code": "fifa.world",
       "name": "FIFAワールドカップ",
@@ -17,6 +12,11 @@
       "code": "fifa.worldq.uefa",
       "name": "W杯欧州予選",
       "count": 204
+    },
+    {
+      "code": "fifa.worldq.conmebol",
+      "name": "W杯南米予選",
+      "count": 60
     },
     {
       "code": "fifa.worldq.concacaf",
@@ -29,14 +29,14 @@
       "count": 51
     },
     {
-      "code": "fifa.worldq.caf",
-      "name": "W杯アフリカ予選",
-      "count": 219
-    },
-    {
       "code": "fifa.worldq.afc",
       "name": "W杯アジア予選",
       "count": 170
+    },
+    {
+      "code": "fifa.worldq.caf",
+      "name": "W杯アフリカ予選",
+      "count": 219
     },
     {
       "code": "fifa.worldq.ofc",
@@ -49,14 +49,14 @@
       "count": 102
     },
     {
-      "code": "concacaf.gold",
-      "name": "CONCACAFゴールドカップ",
-      "count": 31
-    },
-    {
       "code": "uefa.nations",
       "name": "UEFAネーションズリーグ",
       "count": 346
+    },
+    {
+      "code": "concacaf.gold",
+      "name": "CONCACAFゴールドカップ",
+      "count": 31
     },
     {
       "code": "conmebol.america",
@@ -64,14 +64,14 @@
       "count": 32
     },
     {
+      "code": "fifa.friendly",
+      "name": "国際親善試合",
+      "count": 994
+    },
+    {
       "code": "caf.nations",
       "name": "アフリカネーションズカップ",
       "count": 104
-    },
-    {
-      "code": "fifa.friendly",
-      "name": "国際親善試合",
-      "count": 992
     },
     {
       "code": "fifa.olympics",
@@ -80,6 +80,11 @@
     }
   ],
   "skippedCompetitions": [
+    {
+      "code": "conmebol.copa_america",
+      "year": 2026,
+      "reason": "HTTP 400"
+    },
     {
       "code": "conmebol.copa_america",
       "year": 2027,
@@ -93,11 +98,6 @@
     {
       "code": "conmebol.copa_america",
       "year": 2025,
-      "reason": "HTTP 400"
-    },
-    {
-      "code": "conmebol.copa_america",
-      "year": 2026,
       "reason": "HTTP 400"
     }
   ],
@@ -49446,6 +49446,26 @@
       "penalties": null
     },
     {
+      "id": "fifa.friendly-401931957",
+      "kickoff": "2026-11-13T20:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "uae",
+      "away": "honduras",
+      "homeName": "United Arab Emirates",
+      "awayName": "Honduras",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
       "id": "fifa.friendly-401930879",
       "kickoff": "2026-11-14T06:00Z",
       "status": "scheduled",
@@ -50446,6 +50466,26 @@
       "penalties": null
     },
     {
+      "id": "fifa.friendly-401931956",
+      "kickoff": "2026-11-17T20:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "kuwait",
+      "away": "honduras",
+      "homeName": "Kuwait",
+      "awayName": "Honduras",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
       "id": "fifa.friendly-401921304",
       "kickoff": "2026-11-19T20:00Z",
       "status": "scheduled",
@@ -50547,7 +50587,7 @@
     },
     {
       "id": "afc.asian.cup-401872238",
-      "kickoff": "2027-01-07T20:00Z",
+      "kickoff": "2027-01-07T17:00Z",
       "status": "scheduled",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
@@ -50567,7 +50607,7 @@
     },
     {
       "id": "afc.asian.cup-401872239",
-      "kickoff": "2027-01-08T20:00Z",
+      "kickoff": "2027-01-08T10:30Z",
       "status": "scheduled",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
@@ -50587,7 +50627,7 @@
     },
     {
       "id": "afc.asian.cup-401872240",
-      "kickoff": "2027-01-08T20:00Z",
+      "kickoff": "2027-01-08T13:30Z",
       "status": "scheduled",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
@@ -50607,7 +50647,7 @@
     },
     {
       "id": "afc.asian.cup-401872241",
-      "kickoff": "2027-01-08T20:00Z",
+      "kickoff": "2027-01-08T16:30Z",
       "status": "scheduled",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
@@ -50627,7 +50667,7 @@
     },
     {
       "id": "afc.asian.cup-401872242",
-      "kickoff": "2027-01-09T20:00Z",
+      "kickoff": "2027-01-09T10:30Z",
       "status": "scheduled",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
@@ -50647,7 +50687,7 @@
     },
     {
       "id": "afc.asian.cup-401872244",
-      "kickoff": "2027-01-09T20:00Z",
+      "kickoff": "2027-01-09T13:30Z",
       "status": "scheduled",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
@@ -50667,7 +50707,7 @@
     },
     {
       "id": "afc.asian.cup-401872243",
-      "kickoff": "2027-01-09T20:00Z",
+      "kickoff": "2027-01-09T16:30Z",
       "status": "scheduled",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
@@ -50687,7 +50727,7 @@
     },
     {
       "id": "afc.asian.cup-401872245",
-      "kickoff": "2027-01-10T20:00Z",
+      "kickoff": "2027-01-10T10:30Z",
       "status": "scheduled",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
@@ -50707,7 +50747,7 @@
     },
     {
       "id": "afc.asian.cup-401872246",
-      "kickoff": "2027-01-10T20:00Z",
+      "kickoff": "2027-01-10T13:30Z",
       "status": "scheduled",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
@@ -50727,7 +50767,7 @@
     },
     {
       "id": "afc.asian.cup-401872248",
-      "kickoff": "2027-01-11T20:00Z",
+      "kickoff": "2027-01-11T10:30Z",
       "status": "scheduled",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
@@ -50746,28 +50786,8 @@
       "penalties": null
     },
     {
-      "id": "afc.asian.cup-401872247",
-      "kickoff": "2027-01-11T20:00Z",
-      "status": "scheduled",
-      "competition": "AFCアジアカップ",
-      "competitionCode": "afc.asian.cup",
-      "stage": "group-stage",
-      "round": "",
-      "home": "qatar",
-      "away": "thailand",
-      "homeName": "Qatar",
-      "awayName": "Thailand",
-      "homeScore": 0,
-      "awayScore": 0,
-      "venue": "Imam Mohammed Bin Saud University Stadium",
-      "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
-      "penalties": null
-    },
-    {
       "id": "afc.asian.cup-401872249",
-      "kickoff": "2027-01-11T20:00Z",
+      "kickoff": "2027-01-11T13:30Z",
       "status": "scheduled",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
@@ -50779,6 +50799,26 @@
       "awayName": "Vietnam",
       "homeScore": 0,
       "awayScore": 0,
+      "venue": "Imam Mohammed Bin Saud University Stadium",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
+      "id": "afc.asian.cup-401872247",
+      "kickoff": "2027-01-11T16:30Z",
+      "status": "scheduled",
+      "competition": "AFCアジアカップ",
+      "competitionCode": "afc.asian.cup",
+      "stage": "group-stage",
+      "round": "",
+      "home": "qatar",
+      "away": "thailand",
+      "homeName": "Qatar",
+      "awayName": "Thailand",
+      "homeScore": 0,
+      "awayScore": 0,
       "venue": "Al-Awwal Park",
       "source": "ESPN",
       "decision": null,
@@ -50786,8 +50826,28 @@
       "penalties": null
     },
     {
+      "id": "afc.asian.cup-401872252",
+      "kickoff": "2027-01-12T10:30Z",
+      "status": "scheduled",
+      "competition": "AFCアジアカップ",
+      "competitionCode": "afc.asian.cup",
+      "stage": "group-stage",
+      "round": "",
+      "home": "palestine",
+      "away": "kuwait",
+      "homeName": "Palestine",
+      "awayName": "Kuwait",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Aramco Stadium",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
       "id": "afc.asian.cup-401872250",
-      "kickoff": "2027-01-12T20:00Z",
+      "kickoff": "2027-01-12T13:30Z",
       "status": "scheduled",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
@@ -50807,7 +50867,7 @@
     },
     {
       "id": "afc.asian.cup-401872251",
-      "kickoff": "2027-01-12T20:00Z",
+      "kickoff": "2027-01-12T16:30Z",
       "status": "scheduled",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
@@ -50826,28 +50886,8 @@
       "penalties": null
     },
     {
-      "id": "afc.asian.cup-401872252",
-      "kickoff": "2027-01-12T20:00Z",
-      "status": "scheduled",
-      "competition": "AFCアジアカップ",
-      "competitionCode": "afc.asian.cup",
-      "stage": "group-stage",
-      "round": "",
-      "home": "palestine",
-      "away": "kuwait",
-      "homeName": "Palestine",
-      "awayName": "Kuwait",
-      "homeScore": 0,
-      "awayScore": 0,
-      "venue": "Aramco Stadium",
-      "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
-      "penalties": null
-    },
-    {
       "id": "afc.asian.cup-401872253",
-      "kickoff": "2027-01-13T20:00Z",
+      "kickoff": "2027-01-13T13:30Z",
       "status": "scheduled",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
@@ -50867,7 +50907,7 @@
     },
     {
       "id": "afc.asian.cup-401872254",
-      "kickoff": "2027-01-13T20:00Z",
+      "kickoff": "2027-01-13T16:30Z",
       "status": "scheduled",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
@@ -50886,28 +50926,8 @@
       "penalties": null
     },
     {
-      "id": "afc.asian.cup-401872255",
-      "kickoff": "2027-01-14T20:00Z",
-      "status": "scheduled",
-      "competition": "AFCアジアカップ",
-      "competitionCode": "afc.asian.cup",
-      "stage": "group-stage",
-      "round": "",
-      "home": "china",
-      "away": "syria",
-      "homeName": "China",
-      "awayName": "Syria",
-      "homeScore": 0,
-      "awayScore": 0,
-      "venue": "Prince Abdullah Al-Faisal Stadium",
-      "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
-      "penalties": null
-    },
-    {
       "id": "afc.asian.cup-401872257",
-      "kickoff": "2027-01-14T20:00Z",
+      "kickoff": "2027-01-14T10:30Z",
       "status": "scheduled",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
@@ -50926,8 +50946,28 @@
       "penalties": null
     },
     {
+      "id": "afc.asian.cup-401872255",
+      "kickoff": "2027-01-14T13:30Z",
+      "status": "scheduled",
+      "competition": "AFCアジアカップ",
+      "competitionCode": "afc.asian.cup",
+      "stage": "group-stage",
+      "round": "",
+      "home": "china",
+      "away": "syria",
+      "homeName": "China",
+      "awayName": "Syria",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Prince Abdullah Al-Faisal Stadium",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
       "id": "afc.asian.cup-401872256",
-      "kickoff": "2027-01-14T20:00Z",
+      "kickoff": "2027-01-14T16:30Z",
       "status": "scheduled",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
@@ -50947,7 +50987,7 @@
     },
     {
       "id": "afc.asian.cup-401872259",
-      "kickoff": "2027-01-15T20:00Z",
+      "kickoff": "2027-01-15T10:30Z",
       "status": "scheduled",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
@@ -50967,7 +51007,7 @@
     },
     {
       "id": "afc.asian.cup-401872258",
-      "kickoff": "2027-01-15T20:00Z",
+      "kickoff": "2027-01-15T16:30Z",
       "status": "scheduled",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
@@ -50986,28 +51026,8 @@
       "penalties": null
     },
     {
-      "id": "afc.asian.cup-401872260",
-      "kickoff": "2027-01-16T20:00Z",
-      "status": "scheduled",
-      "competition": "AFCアジアカップ",
-      "competitionCode": "afc.asian.cup",
-      "stage": "group-stage",
-      "round": "",
-      "home": "indonesia",
-      "away": "qatar",
-      "homeName": "Indonesia",
-      "awayName": "Qatar",
-      "homeScore": 0,
-      "awayScore": 0,
-      "venue": "Aramco Stadium",
-      "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
-      "penalties": null
-    },
-    {
       "id": "afc.asian.cup-401872261",
-      "kickoff": "2027-01-16T20:00Z",
+      "kickoff": "2027-01-16T10:30Z",
       "status": "scheduled",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
@@ -51026,8 +51046,28 @@
       "penalties": null
     },
     {
+      "id": "afc.asian.cup-401872260",
+      "kickoff": "2027-01-16T16:30Z",
+      "status": "scheduled",
+      "competition": "AFCアジアカップ",
+      "competitionCode": "afc.asian.cup",
+      "stage": "group-stage",
+      "round": "",
+      "home": "indonesia",
+      "away": "qatar",
+      "homeName": "Indonesia",
+      "awayName": "Qatar",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Aramco Stadium",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
       "id": "afc.asian.cup-401872262",
-      "kickoff": "2027-01-17T20:00Z",
+      "kickoff": "2027-01-17T13:30Z",
       "status": "scheduled",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
@@ -51046,8 +51086,28 @@
       "penalties": null
     },
     {
+      "id": "afc.asian.cup-401872264",
+      "kickoff": "2027-01-17T13:30Z",
+      "status": "scheduled",
+      "competition": "AFCアジアカップ",
+      "competitionCode": "afc.asian.cup",
+      "stage": "group-stage",
+      "round": "",
+      "home": "uzbekistan",
+      "away": "bahrain",
+      "homeName": "Uzbekistan",
+      "awayName": "Bahrain",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Prince Abdullah Al-Faisal Stadium",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
       "id": "afc.asian.cup-401872263",
-      "kickoff": "2027-01-17T20:00Z",
+      "kickoff": "2027-01-17T17:00Z",
       "status": "scheduled",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
@@ -51067,7 +51127,7 @@
     },
     {
       "id": "afc.asian.cup-401872265",
-      "kickoff": "2027-01-17T20:00Z",
+      "kickoff": "2027-01-17T17:00Z",
       "status": "scheduled",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
@@ -51086,28 +51146,8 @@
       "penalties": null
     },
     {
-      "id": "afc.asian.cup-401872264",
-      "kickoff": "2027-01-17T20:00Z",
-      "status": "scheduled",
-      "competition": "AFCアジアカップ",
-      "competitionCode": "afc.asian.cup",
-      "stage": "group-stage",
-      "round": "",
-      "home": "uzbekistan",
-      "away": "bahrain",
-      "homeName": "Uzbekistan",
-      "awayName": "Bahrain",
-      "homeScore": 0,
-      "awayScore": 0,
-      "venue": "Prince Abdullah Al-Faisal Stadium",
-      "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
-      "penalties": null
-    },
-    {
       "id": "afc.asian.cup-401872266",
-      "kickoff": "2027-01-18T20:00Z",
+      "kickoff": "2027-01-18T13:30Z",
       "status": "scheduled",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
@@ -51127,7 +51167,7 @@
     },
     {
       "id": "afc.asian.cup-401872267",
-      "kickoff": "2027-01-18T20:00Z",
+      "kickoff": "2027-01-18T13:30Z",
       "status": "scheduled",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
@@ -51147,7 +51187,7 @@
     },
     {
       "id": "afc.asian.cup-401872268",
-      "kickoff": "2027-01-19T20:00Z",
+      "kickoff": "2027-01-19T10:30Z",
       "status": "scheduled",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
@@ -51167,7 +51207,7 @@
     },
     {
       "id": "afc.asian.cup-401872269",
-      "kickoff": "2027-01-19T20:00Z",
+      "kickoff": "2027-01-19T10:30Z",
       "status": "scheduled",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
@@ -51187,7 +51227,7 @@
     },
     {
       "id": "afc.asian.cup-401872270",
-      "kickoff": "2027-01-20T20:00Z",
+      "kickoff": "2027-01-20T10:30Z",
       "status": "scheduled",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
@@ -51199,26 +51239,6 @@
       "awayName": "Qatar",
       "homeScore": 0,
       "awayScore": 0,
-      "venue": "Imam Mohammed Bin Saud University Stadium",
-      "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
-      "penalties": null
-    },
-    {
-      "id": "afc.asian.cup-401872272",
-      "kickoff": "2027-01-20T20:00Z",
-      "status": "scheduled",
-      "competition": "AFCアジアカップ",
-      "competitionCode": "afc.asian.cup",
-      "stage": "group-stage",
-      "round": "",
-      "home": "korea",
-      "away": "uae",
-      "homeName": "South Korea",
-      "awayName": "United Arab Emirates",
-      "homeScore": 0,
-      "awayScore": 0,
       "venue": "Al-Awwal Park",
       "source": "ESPN",
       "decision": null,
@@ -51227,7 +51247,7 @@
     },
     {
       "id": "afc.asian.cup-401872273",
-      "kickoff": "2027-01-20T20:00Z",
+      "kickoff": "2027-01-20T10:30Z",
       "status": "scheduled",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
@@ -51246,8 +51266,28 @@
       "penalties": null
     },
     {
+      "id": "afc.asian.cup-401872272",
+      "kickoff": "2027-01-20T13:30Z",
+      "status": "scheduled",
+      "competition": "AFCアジアカップ",
+      "competitionCode": "afc.asian.cup",
+      "stage": "group-stage",
+      "round": "",
+      "home": "korea",
+      "away": "uae",
+      "homeName": "South Korea",
+      "awayName": "United Arab Emirates",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Imam Mohammed Bin Saud University Stadium",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
       "id": "afc.asian.cup-401872271",
-      "kickoff": "2027-01-20T20:00Z",
+      "kickoff": "2027-01-20T13:30Z",
       "status": "scheduled",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
