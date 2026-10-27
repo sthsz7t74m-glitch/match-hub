@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T00:35:25.201Z",
+  "updatedAt": "2026-10-27T09:10:17.993Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -93,21 +93,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c933xjdzv3j8o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-26T16:58:55.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/videos/cmd93enq4z20o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Should Palmer have been sent off earlier than he was?",
-      "titleJa": "移籍情報：Should Palmer have been sent off earlier than he was?",
-      "from": "",
-      "to": "",
-      "summaryJa": "Should Palmer have been sent off earlier than he was?移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Should Palmer have been sent off earlier than he was?",
-      "summary": "Match of the Day pundit Martin Keown looks at the red card shown to Cole Palmer during Chelsea's 2-0 defeat to Tottenham, with the former Arsenal defender agreeing with the decision and suggesting Palmer was lucky not to receive a straight red for an early incident.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmd93enq4z20o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T22:43:33.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cvgyxyxplkvo?at_medium=RSS&at_campaign=rss",
