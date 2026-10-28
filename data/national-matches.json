@@ -1,22 +1,17 @@
 {
-  "updatedAt": "2026-10-27T08:21:07.203Z",
+  "updatedAt": "2026-10-28T08:57:21.707Z",
   "source": "ESPN multi-competition annual adapter",
   "competitionCount": 15,
   "competitions": [
     {
-      "code": "fifa.world",
-      "name": "FIFAワールドカップ",
-      "count": 104
-    },
-    {
-      "code": "fifa.worldq.uefa",
-      "name": "W杯欧州予選",
-      "count": 204
-    },
-    {
       "code": "fifa.worldq.conmebol",
       "name": "W杯南米予選",
       "count": 60
+    },
+    {
+      "code": "fifa.world",
+      "name": "FIFAワールドカップ",
+      "count": 104
     },
     {
       "code": "fifa.worldq.concacaf",
@@ -24,9 +19,9 @@
       "count": 100
     },
     {
-      "code": "uefa.euro",
-      "name": "UEFA欧州選手権",
-      "count": 51
+      "code": "fifa.worldq.uefa",
+      "name": "W杯欧州予選",
+      "count": 204
     },
     {
       "code": "fifa.worldq.afc",
@@ -42,6 +37,11 @@
       "code": "fifa.worldq.ofc",
       "name": "W杯オセアニア予選",
       "count": 18
+    },
+    {
+      "code": "uefa.euro",
+      "name": "UEFA欧州選手権",
+      "count": 51
     },
     {
       "code": "afc.asian.cup",
@@ -66,7 +66,7 @@
     {
       "code": "fifa.friendly",
       "name": "国際親善試合",
-      "count": 994
+      "count": 995
     },
     {
       "code": "caf.nations",
@@ -92,12 +92,12 @@
     },
     {
       "code": "conmebol.copa_america",
-      "year": 2024,
+      "year": 2025,
       "reason": "HTTP 400"
     },
     {
       "code": "conmebol.copa_america",
-      "year": 2025,
+      "year": 2024,
       "reason": "HTTP 400"
     }
   ],
@@ -49106,6 +49106,26 @@
       "penalties": null
     },
     {
+      "id": "fifa.friendly-401931978",
+      "kickoff": "2026-11-13T14:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "kuwait",
+      "away": "syria",
+      "homeName": "Kuwait",
+      "awayName": "Syria",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
       "id": "fifa.friendly-401931476",
       "kickoff": "2026-11-13T14:30Z",
       "status": "scheduled",
@@ -49366,26 +49386,6 @@
       "penalties": null
     },
     {
-      "id": "fifa.friendly-401921325",
-      "kickoff": "2026-11-13T20:00Z",
-      "status": "scheduled",
-      "competition": "国際親善試合",
-      "competitionCode": "fifa.friendly",
-      "stage": "2026-international-friendly",
-      "round": "",
-      "home": "colombia",
-      "away": "chile",
-      "homeName": "Colombia",
-      "awayName": "Chile",
-      "homeScore": 0,
-      "awayScore": 0,
-      "venue": "Pascual Guerrero",
-      "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
-      "penalties": null
-    },
-    {
       "id": "fifa.friendly-401930898",
       "kickoff": "2026-11-13T20:00Z",
       "status": "scheduled",
@@ -49460,6 +49460,26 @@
       "homeScore": 0,
       "awayScore": 0,
       "venue": "",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
+      "id": "fifa.friendly-401921325",
+      "kickoff": "2026-11-14T00:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "colombia",
+      "away": "chile",
+      "homeName": "Colombia",
+      "awayName": "Chile",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Pascual Guerrero",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
