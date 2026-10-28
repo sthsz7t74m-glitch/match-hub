@@ -1,9 +1,39 @@
 {
-  "updatedAt": "2026-10-28T05:56:02.396Z",
+  "updatedAt": "2026-10-28T13:13:32.282Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cje36dn5nx36o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Carrick and Fernandes hold clear-the-air talks",
+      "titleJa": "移籍情報：Carrick and Fernandes hold clear-the-air talks",
+      "from": "",
+      "to": "",
+      "summaryJa": "Carrick and Fernandes hold clear-the-air talks移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Carrick and Fernandes hold clear-the-air talks",
+      "summary": "Manchester United head coach Michael Carrick and captain Bruno Fernandes hold clear-the-air talks at the club's training ground.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cje36dn5nx36o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T11:48:28.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cqgkv216dx2no?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Liverpool gambled on Jacquet and it is paying off",
+      "titleJa": "移籍情報：Liverpool gambled on Jacquet and it is paying off",
+      "from": "",
+      "to": "",
+      "summaryJa": "Liverpool gambled on Jacquet and it is paying off移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Liverpool gambled on Jacquet and it is paying off",
+      "summary": "Liverpool beat Chelsea to the signing of Jeremy Jacquet and the defender is thriving at Anfield. Things could have been very different...",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqgkv216dx2no?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T08:36:34.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/ck7vpjqyd4pmo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -20,19 +50,19 @@
       "date": "2026-10-27T21:10:47.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cjr4y51g6zvvo?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c8040xn769xgo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "McInnes admits feeling 'guilt' over leaving Hearts for Rangers",
-      "titleJa": "移籍情報：McInnes admits feeling 'guilt' over leaving Hearts for Rangers",
+      "player": "Why did Fleetwood have to lose player for Arsenal penalty shootout?",
+      "titleJa": "移籍情報：Why did Fleetwood have to lose player for Arsenal penalty shootout?",
       "from": "",
       "to": "",
-      "summaryJa": "McInnes admits feeling 'guilt' over leaving Hearts for Rangers移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "McInnes admits feeling 'guilt' over leaving Hearts for Rangers",
-      "summary": "Rangers manager Derek McInnes admits feeling \"guilt\" about leaving Hearts for Ibrox in the summer and accepts the rough reception that could come his way when he returns to Tynecastle on Wednesday.",
+      "summaryJa": "Why did Fleetwood have to lose player for Arsenal penalty shootout?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Why did Fleetwood have to lose player for Arsenal penalty shootout?",
+      "summary": "Fleetwood Town had to remove a player for their penalty shootout against Arsenal - BBC Sport's Ask Me Anything team explains why.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cjr4y51g6zvvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T15:31:48.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8040xn769xgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T11:23:20.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c804013klnn0o?at_medium=RSS&at_campaign=rss",
@@ -50,34 +80,19 @@
       "date": "2026-10-25T22:16:14.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/ckd6dzv7w85go?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/cjr4y51g6zvvo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Weir 25th in Ballon d'Or and",
-      "titleJa": "Weir 25th in Ballon d'Or and、Olid & Cuthbert in award shortlistへ加入",
-      "from": "",
-      "to": "Olid & Cuthbert in award shortlist",
-      "summaryJa": "Weir 25th in Ballon d'Or andがOlid & Cuthbert in award shortlistへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Weir 25th in Ballon d'Or and joins Olid & Cuthbert in award shortlist",
-      "summary": "Caroline Weir is ranked the 25th best women footballer in the world on the day she also joined fellow Scotland midfielder Erin Cuthbert and Manchester United head coach Eva Olid on the shortlist for the Scottish Women's Football Awards 2026.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckd6dzv7w85go?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T16:59:33.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c933xjdzv3j8o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "FAW sets ambitious 10-year plan but seeks more money",
-      "titleJa": "移籍情報：FAW sets ambitious 10-year plan but seeks more money",
+      "player": "McInnes admits feeling 'guilt' over leaving Hearts for Rangers",
+      "titleJa": "移籍情報：McInnes admits feeling 'guilt' over leaving Hearts for Rangers",
       "from": "",
       "to": "",
-      "summaryJa": "FAW sets ambitious 10-year plan but seeks more money移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "FAW sets ambitious 10-year plan but seeks more money",
-      "summary": "The Football Association of Wales has called for greater funding for Welsh football after setting out ambitious targets for the next decade.",
+      "summaryJa": "McInnes admits feeling 'guilt' over leaving Hearts for Rangers移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "McInnes admits feeling 'guilt' over leaving Hearts for Rangers",
+      "summary": "Rangers manager Derek McInnes admits feeling \"guilt\" about leaving Hearts for Ibrox in the summer and accepts the rough reception that could come his way when he returns to Tynecastle on Wednesday.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c933xjdzv3j8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T16:58:55.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/cjr4y51g6zvvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T15:31:48.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cvgyxyxplkvo?at_medium=RSS&at_campaign=rss",
@@ -123,6 +138,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cjr4y51g6zvvo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T15:31:48.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/ckd6dzv7w85go?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Weir 25th in Ballon d'Or and",
+      "titleJa": "Weir 25th in Ballon d'Or and、Olid & Cuthbert in award shortlistへ加入",
+      "from": "",
+      "to": "Olid & Cuthbert in award shortlist",
+      "summaryJa": "Weir 25th in Ballon d'Or andがOlid & Cuthbert in award shortlistへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Weir 25th in Ballon d'Or and joins Olid & Cuthbert in award shortlist",
+      "summary": "Caroline Weir is ranked the 25th best women footballer in the world on the day she also joined fellow Scotland midfielder Erin Cuthbert and Manchester United head coach Eva Olid on the shortlist for the Scottish Women's Football Awards 2026.",
+      "parsed": true,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckd6dzv7w85go?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T16:59:33.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cz7z09v9pp1o?at_medium=RSS&at_campaign=rss",
