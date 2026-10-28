@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T20:45:58.685Z",
+  "updatedAt": "2026-10-28T00:06:20.905Z",
   "season": "2026",
   "dataSource": "football-data.org",
   "dataMode": "current-free-plan",
@@ -20639,7 +20639,7 @@
     {
       "id": 558555,
       "date": "2026-10-27T19:45:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Serie A",
       "competitionJa": "セリエA",
@@ -20661,15 +20661,15 @@
         "logo": "https://crests.football-data.org/104.png"
       },
       "goals": {
-        "home": 2,
-        "away": 1
+        "home": 4,
+        "away": 2
       },
       "score": {
         "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 2,
-          "away": 1
+          "home": 4,
+          "away": 2
         },
         "halfTime": {
           "home": 2,
@@ -20681,7 +20681,7 @@
     {
       "id": 558557,
       "date": "2026-10-27T19:45:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Serie A",
       "competitionJa": "セリエA",
@@ -20704,14 +20704,14 @@
       },
       "goals": {
         "home": 1,
-        "away": 0
+        "away": 3
       },
       "score": {
-        "winner": "HOME_TEAM",
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
           "home": 1,
-          "away": 0
+          "away": 3
         },
         "halfTime": {
           "home": 1,
@@ -82163,14 +82163,32 @@
           "win": 6,
           "draw": 3,
           "lose": 0,
-          "goalsFor": 21,
-          "goalsAgainst": 7,
-          "goalsDiff": 14,
+          "goalsFor": 23,
+          "goalsAgainst": 8,
+          "goalsDiff": 15,
           "points": 21,
           "form": ""
         },
         {
           "rank": 4,
+          "team": {
+            "id": 7397,
+            "name": "Como 1907",
+            "shortName": "コモ",
+            "logo": "https://crests.football-data.org/7397.png"
+          },
+          "played": 9,
+          "win": 6,
+          "draw": 2,
+          "lose": 1,
+          "goalsFor": 17,
+          "goalsAgainst": 8,
+          "goalsDiff": 9,
+          "points": 20,
+          "form": ""
+        },
+        {
+          "rank": 5,
           "team": {
             "id": 98,
             "name": "AC Milan",
@@ -82188,43 +82206,7 @@
           "form": ""
         },
         {
-          "rank": 5,
-          "team": {
-            "id": 7397,
-            "name": "Como 1907",
-            "shortName": "コモ",
-            "logo": "https://crests.football-data.org/7397.png"
-          },
-          "played": 9,
-          "win": 5,
-          "draw": 2,
-          "lose": 2,
-          "goalsFor": 14,
-          "goalsAgainst": 8,
-          "goalsDiff": 6,
-          "points": 17,
-          "form": ""
-        },
-        {
           "rank": 6,
-          "team": {
-            "id": 586,
-            "name": "Torino FC",
-            "shortName": "トリノ",
-            "logo": "https://crests.football-data.org/586.png"
-          },
-          "played": 9,
-          "win": 5,
-          "draw": 1,
-          "lose": 3,
-          "goalsFor": 14,
-          "goalsAgainst": 11,
-          "goalsDiff": 3,
-          "points": 16,
-          "form": ""
-        },
-        {
-          "rank": 7,
           "team": {
             "id": 470,
             "name": "Frosinone Calcio",
@@ -82242,7 +82224,7 @@
           "form": ""
         },
         {
-          "rank": 8,
+          "rank": 7,
           "team": {
             "id": 109,
             "name": "Juventus FC",
@@ -82260,6 +82242,24 @@
           "form": ""
         },
         {
+          "rank": 8,
+          "team": {
+            "id": 586,
+            "name": "Torino FC",
+            "shortName": "トリノ",
+            "logo": "https://crests.football-data.org/586.png"
+          },
+          "played": 9,
+          "win": 4,
+          "draw": 1,
+          "lose": 4,
+          "goalsFor": 14,
+          "goalsAgainst": 14,
+          "goalsDiff": 0,
+          "points": 13,
+          "form": ""
+        },
+        {
           "rank": 9,
           "team": {
             "id": 104,
@@ -82271,9 +82271,9 @@
           "win": 4,
           "draw": 1,
           "lose": 4,
-          "goalsFor": 7,
-          "goalsAgainst": 11,
-          "goalsDiff": -4,
+          "goalsFor": 8,
+          "goalsAgainst": 13,
+          "goalsDiff": -5,
           "points": 13,
           "form": ""
         },
