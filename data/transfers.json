@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-10-28T20:23:12.126Z",
+  "updatedAt": "2026-10-29T01:03:29.442Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/ckyvr1q72v84o?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Sancho rejects Getafe - Thursday's gossip",
+      "titleJa": "移籍情報：Sancho rejects Getafe - Thursday's gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Sancho rejects Getafe - Thursday's gossip移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Sancho rejects Getafe - Thursday's gossip",
+      "summary": "Free agent Jadon Sancho turns down a move to La Liga, Desire Doue is in talks with Paris St-Germain about a contract extension, and Everton are considering a move for Marcus Rashford.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckyvr1q72v84o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T21:34:36.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cje36dn5nx36o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -48,36 +63,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqgkv216dx2no?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-28T08:36:34.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/ck7vpjqyd4pmo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Liverpool keen on Stuttgart defender Jeltsch - Wednesday's gossip",
-      "titleJa": "移籍情報：Liverpool keen on Stuttgart defender Jeltsch - Wednesday's gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Liverpool keen on Stuttgart defender Jeltsch - Wednesday's gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Liverpool keen on Stuttgart defender Jeltsch - Wednesday's gossip",
-      "summary": "Liverpool are keen on Stuttgart's promising defender Finn Jeltsch, Chelsea still want to sign Bournemouth's Alex Scott; Arsenal, Tottenham and Newcastle are among the clubs keeping tabs on Germany striker Nicolo Tresoldi, plus more.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck7vpjqyd4pmo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T21:10:47.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c8040xn769xgo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Why did Fleetwood have to lose player for Arsenal penalty shootout?",
-      "titleJa": "移籍情報：Why did Fleetwood have to lose player for Arsenal penalty shootout?",
-      "from": "",
-      "to": "",
-      "summaryJa": "Why did Fleetwood have to lose player for Arsenal penalty shootout?移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Why did Fleetwood have to lose player for Arsenal penalty shootout?",
-      "summary": "Fleetwood Town had to remove a player for their penalty shootout against Arsenal - BBC Sport's Ask Me Anything team explains why.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8040xn769xgo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T11:23:20.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cvgyxyxplkvo?at_medium=RSS&at_campaign=rss",
