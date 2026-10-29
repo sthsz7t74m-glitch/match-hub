@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-10-29T01:03:29.442Z",
+  "updatedAt": "2026-10-29T10:12:09.380Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cx05487d6r9vo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Chiellini guidance to Leeds 'rock' - could Muharemovic be signing of season?",
+      "titleJa": "移籍情報：Chiellini guidance to Leeds 'rock' - could Muharemovic be signing of season?",
+      "from": "",
+      "to": "",
+      "summaryJa": "Chiellini guidance to Leeds 'rock' - could Muharemovic be signing of season?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Chiellini guidance to Leeds 'rock' - could Muharemovic be signing of season?",
+      "summary": "Having cost Leeds United an 'eye-watering' fee, Tarik Muharemovic has impressed so much that some fear the club face a battle to keep him.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx05487d6r9vo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-29T06:27:10.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/ckyvr1q72v84o?at_medium=RSS&at_campaign=rss",
       "status": "talks",
@@ -63,6 +78,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqgkv216dx2no?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-28T08:36:34.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c804013klnn0o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Who has made Troy's Premier League team of the week?",
+      "titleJa": "移籍情報：Who has made Troy's Premier League team of the week?",
+      "from": "",
+      "to": "",
+      "summaryJa": "Who has made Troy's Premier League team of the week?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Who has made Troy's Premier League team of the week?",
+      "summary": "After every round of Premier League matches this season, Troy Deeney gives us his team of the week. Do you agree with his choices?",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c804013klnn0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T22:16:14.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cvgyxyxplkvo?at_medium=RSS&at_campaign=rss",
