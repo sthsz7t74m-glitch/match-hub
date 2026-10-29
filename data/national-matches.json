@@ -1,17 +1,12 @@
 {
-  "updatedAt": "2026-10-28T08:57:21.707Z",
+  "updatedAt": "2026-10-29T08:52:19.865Z",
   "source": "ESPN multi-competition annual adapter",
   "competitionCount": 15,
   "competitions": [
     {
-      "code": "fifa.worldq.conmebol",
-      "name": "W杯南米予選",
-      "count": 60
-    },
-    {
-      "code": "fifa.world",
-      "name": "FIFAワールドカップ",
-      "count": 104
+      "code": "fifa.worldq.uefa",
+      "name": "W杯欧州予選",
+      "count": 204
     },
     {
       "code": "fifa.worldq.concacaf",
@@ -19,9 +14,19 @@
       "count": 100
     },
     {
-      "code": "fifa.worldq.uefa",
-      "name": "W杯欧州予選",
-      "count": 204
+      "code": "fifa.world",
+      "name": "FIFAワールドカップ",
+      "count": 104
+    },
+    {
+      "code": "fifa.worldq.conmebol",
+      "name": "W杯南米予選",
+      "count": 60
+    },
+    {
+      "code": "fifa.worldq.ofc",
+      "name": "W杯オセアニア予選",
+      "count": 18
     },
     {
       "code": "fifa.worldq.afc",
@@ -34,14 +39,14 @@
       "count": 219
     },
     {
-      "code": "fifa.worldq.ofc",
-      "name": "W杯オセアニア予選",
-      "count": 18
-    },
-    {
       "code": "uefa.euro",
       "name": "UEFA欧州選手権",
       "count": 51
+    },
+    {
+      "code": "concacaf.gold",
+      "name": "CONCACAFゴールドカップ",
+      "count": 31
     },
     {
       "code": "afc.asian.cup",
@@ -54,19 +59,9 @@
       "count": 346
     },
     {
-      "code": "concacaf.gold",
-      "name": "CONCACAFゴールドカップ",
-      "count": 31
-    },
-    {
       "code": "conmebol.america",
       "name": "コパ・アメリカ",
       "count": 32
-    },
-    {
-      "code": "fifa.friendly",
-      "name": "国際親善試合",
-      "count": 995
     },
     {
       "code": "caf.nations",
@@ -77,6 +72,11 @@
       "code": "fifa.olympics",
       "name": "オリンピック男子サッカー",
       "count": 32
+    },
+    {
+      "code": "fifa.friendly",
+      "name": "国際親善試合",
+      "count": 996
     }
   ],
   "skippedCompetitions": [
@@ -87,7 +87,7 @@
     },
     {
       "code": "conmebol.copa_america",
-      "year": 2027,
+      "year": 2024,
       "reason": "HTTP 400"
     },
     {
@@ -97,7 +97,7 @@
     },
     {
       "code": "conmebol.copa_america",
-      "year": 2024,
+      "year": 2027,
       "reason": "HTTP 400"
     }
   ],
@@ -49066,26 +49066,6 @@
       "penalties": null
     },
     {
-      "id": "fifa.friendly-401930243",
-      "kickoff": "2026-11-13T12:00Z",
-      "status": "scheduled",
-      "competition": "国際親善試合",
-      "competitionCode": "fifa.friendly",
-      "stage": "2026-international-friendly",
-      "round": "",
-      "home": "chinese_taipei",
-      "away": "kyrgyz_republic",
-      "homeName": "Chinese Taipei",
-      "awayName": "Kyrgyz Republic",
-      "homeScore": 0,
-      "awayScore": 0,
-      "venue": "Thien Truong Stadium",
-      "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
-      "penalties": null
-    },
-    {
       "id": "fifa.friendly-401916338",
       "kickoff": "2026-11-13T12:00Z",
       "status": "scheduled",
@@ -49526,6 +49506,26 @@
       "penalties": null
     },
     {
+      "id": "fifa.friendly-401930243",
+      "kickoff": "2026-11-14T12:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "chinese_taipei",
+      "away": "kyrgyz_republic",
+      "homeName": "Chinese Taipei",
+      "awayName": "Kyrgyz Republic",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Thien Truong Stadium",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
       "id": "fifa.friendly-401930236",
       "kickoff": "2026-11-14T12:00Z",
       "status": "scheduled",
@@ -49720,26 +49720,6 @@
       "homeScore": 0,
       "awayScore": 0,
       "venue": "One New Zealand Stadium",
-      "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
-      "penalties": null
-    },
-    {
-      "id": "fifa.friendly-401930242",
-      "kickoff": "2026-11-15T12:00Z",
-      "status": "scheduled",
-      "competition": "国際親善試合",
-      "competitionCode": "fifa.friendly",
-      "stage": "2026-international-friendly",
-      "round": "",
-      "home": "kyrgyz_republic",
-      "away": "vietnam",
-      "homeName": "Kyrgyz Republic",
-      "awayName": "Vietnam",
-      "homeScore": 0,
-      "awayScore": 0,
-      "venue": "Thien Truong Stadium",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
@@ -50166,6 +50146,26 @@
       "penalties": null
     },
     {
+      "id": "fifa.friendly-401930242",
+      "kickoff": "2026-11-17T12:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "kyrgyz_republic",
+      "away": "vietnam",
+      "homeName": "Kyrgyz Republic",
+      "awayName": "Vietnam",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Thien Truong Stadium",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
       "id": "fifa.friendly-401930880",
       "kickoff": "2026-11-17T12:00Z",
       "status": "scheduled",
@@ -50227,7 +50227,7 @@
     },
     {
       "id": "fifa.friendly-401931495",
-      "kickoff": "2026-11-17T15:00Z",
+      "kickoff": "2026-11-17T15:30Z",
       "status": "scheduled",
       "competition": "国際親善試合",
       "competitionCode": "fifa.friendly",
@@ -50500,6 +50500,26 @@
       "homeScore": 0,
       "awayScore": 0,
       "venue": "",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
+      "id": "fifa.friendly-401932215",
+      "kickoff": "2026-11-17T23:30Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "uruguay",
+      "away": "dominican_republic",
+      "homeName": "Uruguay",
+      "awayName": "Dominican Republic",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Estadio Domingo Burgueño Miguel",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
