@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T20:42:12.529Z",
+  "updatedAt": "2026-10-30T00:29:32.415Z",
   "season": "2026",
   "dataSource": "football-data.org",
   "dataMode": "current-free-plan",
@@ -20975,7 +20975,7 @@
     {
       "id": 558551,
       "date": "2026-10-29T19:45:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Serie A",
       "competitionJa": "セリエA",
@@ -20997,15 +20997,15 @@
         "logo": "https://crests.football-data.org/102.png"
       },
       "goals": {
-        "home": 0,
-        "away": 1
+        "home": 2,
+        "away": 2
       },
       "score": {
-        "winner": "AWAY_TEAM",
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 1
+          "home": 2,
+          "away": 2
         },
         "halfTime": {
           "home": 0,
@@ -30593,7 +30593,7 @@
     {
       "id": 560668,
       "date": "2026-12-01T20:00:00Z",
-      "status": "2026-12-02 20:00:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -30635,7 +30635,7 @@
     {
       "id": 560663,
       "date": "2026-12-02T19:30:00Z",
-      "status": "2026-12-02 20:00:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -30677,7 +30677,7 @@
     {
       "id": 560664,
       "date": "2026-12-02T19:30:00Z",
-      "status": "2026-12-02 20:00:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -30719,7 +30719,7 @@
     {
       "id": 560665,
       "date": "2026-12-02T19:30:00Z",
-      "status": "2026-12-02 20:00:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -30761,7 +30761,7 @@
     {
       "id": 560669,
       "date": "2026-12-02T19:30:00Z",
-      "status": "2026-12-02 20:00:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -30803,7 +30803,7 @@
     {
       "id": 560666,
       "date": "2026-12-02T20:15:00Z",
-      "status": "2026-12-02 20:00:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -30845,7 +30845,7 @@
     {
       "id": 560667,
       "date": "2026-12-02T20:15:00Z",
-      "status": "2026-12-02 20:00:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -30887,7 +30887,7 @@
     {
       "id": 560670,
       "date": "2026-12-02T20:15:00Z",
-      "status": "2026-12-02 20:00:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -30929,7 +30929,7 @@
     {
       "id": 560671,
       "date": "2026-12-02T20:15:00Z",
-      "status": "2026-12-02 20:00:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -30971,7 +30971,7 @@
     {
       "id": 560662,
       "date": "2026-12-03T20:00:00Z",
-      "status": "2026-12-02 20:00:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -31475,7 +31475,7 @@
     {
       "id": 560676,
       "date": "2026-12-05T12:30:00Z",
-      "status": "2026-12-05 15:00:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -31811,7 +31811,7 @@
     {
       "id": 560680,
       "date": "2026-12-05T17:30:00Z",
-      "status": "2026-12-05 15:00:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -32063,7 +32063,7 @@
     {
       "id": 560677,
       "date": "2026-12-05T20:00:00Z",
-      "status": "2026-12-05 15:00:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -32567,7 +32567,7 @@
     {
       "id": 560675,
       "date": "2026-12-06T14:00:00Z",
-      "status": "2026-12-05 15:00:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -32609,7 +32609,7 @@
     {
       "id": 560681,
       "date": "2026-12-06T14:00:00Z",
-      "status": "2026-12-05 15:00:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -32777,7 +32777,7 @@
     {
       "id": 560672,
       "date": "2026-12-06T16:30:00Z",
-      "status": "2026-12-05 15:00:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -34499,7 +34499,7 @@
     {
       "id": 560689,
       "date": "2026-12-12T17:30:00Z",
-      "status": "2026-12-12 15:00:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -35213,7 +35213,7 @@
     {
       "id": 560682,
       "date": "2026-12-13T14:00:00Z",
-      "status": "2026-12-12 15:00:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -35255,7 +35255,7 @@
     {
       "id": 560685,
       "date": "2026-12-13T14:00:00Z",
-      "status": "2026-12-12 15:00:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -35297,7 +35297,7 @@
     {
       "id": 560688,
       "date": "2026-12-13T14:00:00Z",
-      "status": "2026-12-12 15:00:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -35465,7 +35465,7 @@
     {
       "id": 560687,
       "date": "2026-12-13T16:30:00Z",
-      "status": "2026-12-12 15:00:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -35549,7 +35549,7 @@
     {
       "id": 560683,
       "date": "2026-12-13T19:00:00Z",
-      "status": "2026-12-12 15:00:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -35759,7 +35759,7 @@
     {
       "id": 560684,
       "date": "2026-12-14T20:00:00Z",
-      "status": "2026-12-12 15:00:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -36263,7 +36263,7 @@
     {
       "id": 560695,
       "date": "2026-12-19T12:30:00Z",
-      "status": "2026-12-19 15:00:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -36557,7 +36557,7 @@
     {
       "id": 560700,
       "date": "2026-12-19T17:30:00Z",
-      "status": "2026-12-19 15:00:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -37103,7 +37103,7 @@
     {
       "id": 560693,
       "date": "2026-12-20T14:00:00Z",
-      "status": "2026-12-19 15:00:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -37145,7 +37145,7 @@
     {
       "id": 560697,
       "date": "2026-12-20T14:00:00Z",
-      "status": "2026-12-19 15:00:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -37271,7 +37271,7 @@
     {
       "id": 560699,
       "date": "2026-12-20T16:30:00Z",
-      "status": "2026-12-19 15:00:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -37397,7 +37397,7 @@
     {
       "id": 560701,
       "date": "2026-12-21T20:00:00Z",
-      "status": "2026-12-19 15:00:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -82262,24 +82262,6 @@
         {
           "rank": 9,
           "team": {
-            "id": 102,
-            "name": "Atalanta BC",
-            "shortName": "アタランタ",
-            "logo": "https://crests.football-data.org/102.png"
-          },
-          "played": 9,
-          "win": 4,
-          "draw": 1,
-          "lose": 4,
-          "goalsFor": 15,
-          "goalsAgainst": 15,
-          "goalsDiff": 0,
-          "points": 13,
-          "form": ""
-        },
-        {
-          "rank": 10,
-          "team": {
             "id": 586,
             "name": "Torino FC",
             "shortName": "トリノ",
@@ -82296,7 +82278,7 @@
           "form": ""
         },
         {
-          "rank": 11,
+          "rank": 10,
           "team": {
             "id": 104,
             "name": "Cagliari Calcio",
@@ -82314,7 +82296,7 @@
           "form": ""
         },
         {
-          "rank": 12,
+          "rank": 11,
           "team": {
             "id": 103,
             "name": "Bologna FC 1909",
@@ -82328,6 +82310,24 @@
           "goalsFor": 12,
           "goalsAgainst": 12,
           "goalsDiff": 0,
+          "points": 11,
+          "form": ""
+        },
+        {
+          "rank": 12,
+          "team": {
+            "id": 102,
+            "name": "Atalanta BC",
+            "shortName": "アタランタ",
+            "logo": "https://crests.football-data.org/102.png"
+          },
+          "played": 9,
+          "win": 3,
+          "draw": 2,
+          "lose": 4,
+          "goalsFor": 16,
+          "goalsAgainst": 17,
+          "goalsDiff": -1,
           "points": 11,
           "form": ""
         },
@@ -82424,6 +82424,24 @@
         {
           "rank": 18,
           "team": {
+            "id": 99,
+            "name": "ACF Fiorentina",
+            "shortName": "フィオレンティーナ",
+            "logo": "https://crests.football-data.org/99.png"
+          },
+          "played": 9,
+          "win": 1,
+          "draw": 2,
+          "lose": 6,
+          "goalsFor": 11,
+          "goalsAgainst": 21,
+          "goalsDiff": -10,
+          "points": 5,
+          "form": ""
+        },
+        {
+          "rank": 19,
+          "team": {
             "id": 112,
             "name": "Parma Calcio 1913",
             "shortName": "パルマ",
@@ -82437,24 +82455,6 @@
           "goalsAgainst": 15,
           "goalsDiff": -10,
           "points": 5,
-          "form": ""
-        },
-        {
-          "rank": 19,
-          "team": {
-            "id": 99,
-            "name": "ACF Fiorentina",
-            "shortName": "フィオレンティーナ",
-            "logo": "https://crests.football-data.org/99.png"
-          },
-          "played": 9,
-          "win": 1,
-          "draw": 1,
-          "lose": 7,
-          "goalsFor": 9,
-          "goalsAgainst": 20,
-          "goalsDiff": -11,
-          "points": 4,
           "form": ""
         },
         {
