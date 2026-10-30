@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-10-29T08:52:19.865Z",
+  "updatedAt": "2026-10-30T08:56:43.721Z",
   "source": "ESPN multi-competition annual adapter",
   "competitionCount": 15,
   "competitions": [
+    {
+      "code": "fifa.worldq.conmebol",
+      "name": "W杯南米予選",
+      "count": 60
+    },
+    {
+      "code": "fifa.world",
+      "name": "FIFAワールドカップ",
+      "count": 104
+    },
     {
       "code": "fifa.worldq.uefa",
       "name": "W杯欧州予選",
@@ -14,29 +24,9 @@
       "count": 100
     },
     {
-      "code": "fifa.world",
-      "name": "FIFAワールドカップ",
-      "count": 104
-    },
-    {
-      "code": "fifa.worldq.conmebol",
-      "name": "W杯南米予選",
-      "count": 60
-    },
-    {
       "code": "fifa.worldq.ofc",
       "name": "W杯オセアニア予選",
       "count": 18
-    },
-    {
-      "code": "fifa.worldq.afc",
-      "name": "W杯アジア予選",
-      "count": 170
-    },
-    {
-      "code": "fifa.worldq.caf",
-      "name": "W杯アフリカ予選",
-      "count": 219
     },
     {
       "code": "uefa.euro",
@@ -44,14 +34,24 @@
       "count": 51
     },
     {
-      "code": "concacaf.gold",
-      "name": "CONCACAFゴールドカップ",
-      "count": 31
+      "code": "fifa.worldq.caf",
+      "name": "W杯アフリカ予選",
+      "count": 219
+    },
+    {
+      "code": "fifa.worldq.afc",
+      "name": "W杯アジア予選",
+      "count": 170
     },
     {
       "code": "afc.asian.cup",
       "name": "AFCアジアカップ",
       "count": 102
+    },
+    {
+      "code": "concacaf.gold",
+      "name": "CONCACAFゴールドカップ",
+      "count": 31
     },
     {
       "code": "uefa.nations",
@@ -69,20 +69,20 @@
       "count": 104
     },
     {
+      "code": "fifa.friendly",
+      "name": "国際親善試合",
+      "count": 997
+    },
+    {
       "code": "fifa.olympics",
       "name": "オリンピック男子サッカー",
       "count": 32
-    },
-    {
-      "code": "fifa.friendly",
-      "name": "国際親善試合",
-      "count": 996
     }
   ],
   "skippedCompetitions": [
     {
       "code": "conmebol.copa_america",
-      "year": 2026,
+      "year": 2025,
       "reason": "HTTP 400"
     },
     {
@@ -92,7 +92,7 @@
     },
     {
       "code": "conmebol.copa_america",
-      "year": 2025,
+      "year": 2026,
       "reason": "HTTP 400"
     },
     {
@@ -49099,7 +49099,7 @@
       "awayName": "Syria",
       "homeScore": 0,
       "awayScore": 0,
-      "venue": "",
+      "venue": "Al-Sadaqua Walsalam Stadium",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
@@ -49339,7 +49339,7 @@
       "awayName": "Switzerland",
       "homeScore": 0,
       "awayScore": 0,
-      "venue": "Stadion Stozice",
+      "venue": "Ljudski vrt",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
@@ -49359,27 +49359,7 @@
       "awayName": "Uruguay",
       "homeScore": 0,
       "awayScore": 0,
-      "venue": "",
-      "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
-      "penalties": null
-    },
-    {
-      "id": "fifa.friendly-401930898",
-      "kickoff": "2026-11-13T20:00Z",
-      "status": "scheduled",
-      "competition": "国際親善試合",
-      "competitionCode": "fifa.friendly",
-      "stage": "2026-international-friendly",
-      "round": "",
-      "home": "ecuador",
-      "away": "costa_rica",
-      "homeName": "Ecuador",
-      "awayName": "Costa Rica",
-      "homeScore": 0,
-      "awayScore": 0,
-      "venue": "",
+      "venue": "Alberto José Armando (La Bombonera)",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
@@ -49440,6 +49420,26 @@
       "homeScore": 0,
       "awayScore": 0,
       "venue": "",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
+      "id": "fifa.friendly-401930898",
+      "kickoff": "2026-11-14T00:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "ecuador",
+      "away": "costa_rica",
+      "homeName": "Ecuador",
+      "awayName": "Costa Rica",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Estadio Olímpico Atahualpa",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
@@ -49700,6 +49700,26 @@
       "homeScore": 0,
       "awayScore": 0,
       "venue": "Friends Arena",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
+      "id": "fifa.friendly-401932237",
+      "kickoff": "2026-11-14T20:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "palestine",
+      "away": "iran",
+      "homeName": "Palestine",
+      "awayName": "Iran",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
@@ -50459,27 +50479,7 @@
       "awayName": "Costa Rica",
       "homeScore": 0,
       "awayScore": 0,
-      "venue": "",
-      "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
-      "penalties": null
-    },
-    {
-      "id": "fifa.friendly-401930899",
-      "kickoff": "2026-11-17T20:00Z",
-      "status": "scheduled",
-      "competition": "国際親善試合",
-      "competitionCode": "fifa.friendly",
-      "stage": "2026-international-friendly",
-      "round": "",
-      "home": "ecuador",
-      "away": "bolivia",
-      "homeName": "Ecuador",
-      "awayName": "Bolivia",
-      "homeScore": 0,
-      "awayScore": 0,
-      "venue": "",
+      "venue": "Mario Alberto Kempes",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
@@ -50500,6 +50500,26 @@
       "homeScore": 0,
       "awayScore": 0,
       "venue": "",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
+      "id": "fifa.friendly-401930899",
+      "kickoff": "2026-11-17T23:30Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "ecuador",
+      "away": "bolivia",
+      "homeName": "Ecuador",
+      "awayName": "Bolivia",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Estadio Banco Pichincha",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
