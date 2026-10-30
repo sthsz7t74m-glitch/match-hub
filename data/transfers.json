@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T18:05:42.421Z",
+  "updatedAt": "2026-10-30T22:29:46.075Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -125,21 +125,6 @@
       "date": "2026-10-29T06:27:10.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sounds/play/m003434t?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Football Daily",
-      "titleJa": "移籍情報：Football Daily",
-      "from": "",
-      "to": "",
-      "summaryJa": "Football Daily移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Football Daily",
-      "summary": "Rick & Lloyd are joined by Julien Laurens to discuss De Zerbi’s quiet transformation.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sounds/play/m003434t?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-29T16:54:00.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cvgyxyxplkvo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "All done deals in September & October 2026",
@@ -183,21 +168,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/articles/cmje5wl5ek32o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-13T10:13:34.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cwx281gzv1xlo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Holsgrove hungry for Scotland chance - gossip",
-      "titleJa": "移籍情報：Holsgrove hungry for Scotland chance - gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Holsgrove hungry for Scotland chance - gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Holsgrove hungry for Scotland chance - gossip",
-      "summary": "Portugal-based midfielder retains Scotland dream as Hibs manager talks of strong bond with Hearts goalkeeper...",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwx281gzv1xlo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T08:08:22.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cz7z09v9pp1o?at_medium=RSS&at_campaign=rss",
