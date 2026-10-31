@@ -1,13 +1,8 @@
 {
-  "updatedAt": "2026-10-30T08:56:43.721Z",
+  "updatedAt": "2026-10-31T08:49:32.771Z",
   "source": "ESPN multi-competition annual adapter",
   "competitionCount": 15,
   "competitions": [
-    {
-      "code": "fifa.worldq.conmebol",
-      "name": "W杯南米予選",
-      "count": 60
-    },
     {
       "code": "fifa.world",
       "name": "FIFAワールドカップ",
@@ -19,19 +14,14 @@
       "count": 204
     },
     {
+      "code": "fifa.worldq.conmebol",
+      "name": "W杯南米予選",
+      "count": 60
+    },
+    {
       "code": "fifa.worldq.concacaf",
       "name": "W杯北中米予選",
       "count": 100
-    },
-    {
-      "code": "fifa.worldq.ofc",
-      "name": "W杯オセアニア予選",
-      "count": 18
-    },
-    {
-      "code": "uefa.euro",
-      "name": "UEFA欧州選手権",
-      "count": 51
     },
     {
       "code": "fifa.worldq.caf",
@@ -39,9 +29,19 @@
       "count": 219
     },
     {
+      "code": "uefa.euro",
+      "name": "UEFA欧州選手権",
+      "count": 51
+    },
+    {
       "code": "fifa.worldq.afc",
       "name": "W杯アジア予選",
       "count": 170
+    },
+    {
+      "code": "fifa.worldq.ofc",
+      "name": "W杯オセアニア予選",
+      "count": 18
     },
     {
       "code": "afc.asian.cup",
@@ -69,17 +69,22 @@
       "count": 104
     },
     {
-      "code": "fifa.friendly",
-      "name": "国際親善試合",
-      "count": 997
-    },
-    {
       "code": "fifa.olympics",
       "name": "オリンピック男子サッカー",
       "count": 32
+    },
+    {
+      "code": "fifa.friendly",
+      "name": "国際親善試合",
+      "count": 999
     }
   ],
   "skippedCompetitions": [
+    {
+      "code": "conmebol.copa_america",
+      "year": 2026,
+      "reason": "HTTP 400"
+    },
     {
       "code": "conmebol.copa_america",
       "year": 2025,
@@ -88,11 +93,6 @@
     {
       "code": "conmebol.copa_america",
       "year": 2024,
-      "reason": "HTTP 400"
-    },
-    {
-      "code": "conmebol.copa_america",
-      "year": 2026,
       "reason": "HTTP 400"
     },
     {
@@ -49386,26 +49386,6 @@
       "penalties": null
     },
     {
-      "id": "fifa.friendly-401930878",
-      "kickoff": "2026-11-13T20:00Z",
-      "status": "scheduled",
-      "competition": "国際親善試合",
-      "competitionCode": "fifa.friendly",
-      "stage": "2026-international-friendly",
-      "round": "",
-      "home": "peru",
-      "away": "bolivia",
-      "homeName": "Peru",
-      "awayName": "Bolivia",
-      "homeScore": 0,
-      "awayScore": 0,
-      "venue": "",
-      "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
-      "penalties": null
-    },
-    {
       "id": "fifa.friendly-401931957",
       "kickoff": "2026-11-13T20:00Z",
       "status": "scheduled",
@@ -49419,7 +49399,7 @@
       "awayName": "Honduras",
       "homeScore": 0,
       "awayScore": 0,
-      "venue": "",
+      "venue": "Mohammed bin Zayed Stadium",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
@@ -49460,6 +49440,26 @@
       "homeScore": 0,
       "awayScore": 0,
       "venue": "Pascual Guerrero",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
+      "id": "fifa.friendly-401930878",
+      "kickoff": "2026-11-14T01:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "peru",
+      "away": "bolivia",
+      "homeName": "Peru",
+      "awayName": "Bolivia",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Estadio Alejandro Villanueva",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
@@ -50506,6 +50506,26 @@
       "penalties": null
     },
     {
+      "id": "fifa.friendly-401932718",
+      "kickoff": "2026-11-17T20:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "uae",
+      "away": "syria",
+      "homeName": "United Arab Emirates",
+      "awayName": "Syria",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Hazza Bin Zayed Stadium",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
       "id": "fifa.friendly-401930899",
       "kickoff": "2026-11-17T23:30Z",
       "status": "scheduled",
@@ -50560,6 +50580,26 @@
       "homeScore": 0,
       "awayScore": 0,
       "venue": "Estadio Nacional Julio Martínez Prádanos",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
+      "id": "fifa.friendly-401932719",
+      "kickoff": "2026-11-28T13:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "spain",
+      "away": "chile",
+      "homeName": "Spain",
+      "awayName": "Chile",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Estadio Reino de León",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
