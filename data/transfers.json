@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-10-31T05:57:17.740Z",
+  "updatedAt": "2026-10-31T12:47:45.520Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c84g15r12xn3o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "'We fell behind' - what does new San Siro deal mean for AC Milan and Inter?",
+      "titleJa": "移籍情報：'We fell behind' - what does new San Siro deal mean for AC Milan and Inter?",
+      "from": "",
+      "to": "",
+      "summaryJa": "'We fell behind' - what does new San Siro deal mean for AC Milan and Inter?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "'We fell behind' - what does new San Siro deal mean for AC Milan and Inter?",
+      "summary": "BBC Sport explores the plans for AC Milan and Inter's new stadium, and how powerful naming rights for new arenas can be",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c84g15r12xn3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T11:18:53.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cr74pd99vwq3o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -18,21 +33,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cr74pd99vwq3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T16:27:13.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cwrkypzzp6xeo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "O'Neill agrees with McGregor about Celtic issues",
-      "titleJa": "移籍情報：O'Neill agrees with McGregor about Celtic issues",
-      "from": "",
-      "to": "",
-      "summaryJa": "O'Neill agrees with McGregor about Celtic issues移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "O'Neill agrees with McGregor about Celtic issues",
-      "summary": "Manager Martin O'Neill says he is in \"full agreement\" with captain Callum McGregor's assessment of Celtic's issues, but insisted they will \"sort it out\".",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwrkypzzp6xeo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T14:22:18.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/ck3r52vn758xo?at_medium=RSS&at_campaign=rss",
@@ -50,19 +50,19 @@
       "date": "2026-10-30T23:08:16.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c6x2w1epxx8yo?at_medium=RSS&at_campaign=rss",
-      "status": "agreed",
-      "player": "Calvert-Lewin set for new Leeds deal",
-      "titleJa": "移籍情報：Calvert-Lewin set for new Leeds deal",
+      "id": "https://www.bbc.co.uk/sport/football/videos/c0q4k74kvy5o?at_medium=RSS&at_campaign=rss",
+      "status": "official",
+      "player": "Why time is running out for Milan's iconic San Siro",
+      "titleJa": "移籍情報：Why time is running out for Milan's iconic San Siro",
       "from": "",
       "to": "",
-      "summaryJa": "Calvert-Lewin set for new Leeds deal移る可能性について、合意段階の報道です。",
-      "originalTitle": "Calvert-Lewin set for new Leeds deal",
-      "summary": "England striker Dominic Calvert-Lewin is set to sign a new contract at Leeds United.",
+      "summaryJa": "Why time is running out for Milan's iconic San Siro移る可能性について、正式発表段階の報道です。",
+      "originalTitle": "Why time is running out for Milan's iconic San Siro",
+      "summary": "With AC Milan and Inter announcing designs for a new stadium to replace their current home, BBC Sport visits San Siro in its centenary year, to find out why time could be running out to visit one of the world's most iconic football grounds.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6x2w1epxx8yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T10:26:53.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/videos/c0q4k74kvy5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-02-04T08:43:06.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cq4g148z2xp2o?at_medium=RSS&at_campaign=rss",
@@ -80,19 +80,34 @@
       "date": "2026-10-30T12:18:28.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/videos/c0q4k74kvy5o?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "Why time is running out for Milan's iconic San Siro",
-      "titleJa": "移籍情報：Why time is running out for Milan's iconic San Siro",
+      "id": "https://www.bbc.co.uk/sport/football/articles/cwrkypzzp6xeo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "O'Neill agrees with McGregor about Celtic issues",
+      "titleJa": "移籍情報：O'Neill agrees with McGregor about Celtic issues",
       "from": "",
       "to": "",
-      "summaryJa": "Why time is running out for Milan's iconic San Siro移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "Why time is running out for Milan's iconic San Siro",
-      "summary": "With AC Milan and Inter announcing designs for a new stadium to replace their current home, BBC Sport visits San Siro in its centenary year, to find out why time could be running out to visit one of the world's most iconic football grounds.",
+      "summaryJa": "O'Neill agrees with McGregor about Celtic issues移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "O'Neill agrees with McGregor about Celtic issues",
+      "summary": "Manager Martin O'Neill says he is in \"full agreement\" with captain Callum McGregor's assessment of Celtic's issues, but insisted they will \"sort it out\".",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c0q4k74kvy5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-04T08:43:06.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwrkypzzp6xeo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T14:22:18.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c6x2w1epxx8yo?at_medium=RSS&at_campaign=rss",
+      "status": "agreed",
+      "player": "Calvert-Lewin set for new Leeds deal",
+      "titleJa": "移籍情報：Calvert-Lewin set for new Leeds deal",
+      "from": "",
+      "to": "",
+      "summaryJa": "Calvert-Lewin set for new Leeds deal移る可能性について、合意段階の報道です。",
+      "originalTitle": "Calvert-Lewin set for new Leeds deal",
+      "summary": "England striker Dominic Calvert-Lewin is set to sign a new contract at Leeds United.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6x2w1epxx8yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T10:26:53.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/crq5n91ly4pxo?at_medium=RSS&at_campaign=rss",
@@ -108,21 +123,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/crq5n91ly4pxo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T09:49:29.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cx05487d6r9vo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Chiellini guidance to Leeds 'rock' - could Muharemovic be signing of season?",
-      "titleJa": "移籍情報：Chiellini guidance to Leeds 'rock' - could Muharemovic be signing of season?",
-      "from": "",
-      "to": "",
-      "summaryJa": "Chiellini guidance to Leeds 'rock' - could Muharemovic be signing of season?移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Chiellini guidance to Leeds 'rock' - could Muharemovic be signing of season?",
-      "summary": "Having cost Leeds United an 'eye-watering' fee, Tarik Muharemovic has impressed so much that some fear the club face a battle to keep him.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx05487d6r9vo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-29T06:27:10.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cvgyxyxplkvo?at_medium=RSS&at_campaign=rss",
