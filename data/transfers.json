@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-11-01T06:25:38.414Z",
+  "updatedAt": "2026-11-01T16:08:29.850Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/ckzd6217j7pgo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Anfield, intensity, rotation - how Iraola is improving Liverpool",
+      "titleJa": "移籍情報：Anfield, intensity, rotation - how Iraola is improving Liverpool",
+      "from": "",
+      "to": "",
+      "summaryJa": "Anfield, intensity, rotation - how Iraola is improving Liverpool移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Anfield, intensity, rotation - how Iraola is improving Liverpool",
+      "summary": "Liverpool fans are finding joy at Anfield again with a feel-good factor around the club before the visit of reigning champions Arsenal on Sunday.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckzd6217j7pgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T07:38:15.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/ck1l3z063n8vo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -33,21 +48,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c60qkyzeqz44o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T18:00:05.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/videos/c0q4k74kvy5o?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "Why time is running out for Milan's iconic San Siro",
-      "titleJa": "移籍情報：Why time is running out for Milan's iconic San Siro",
-      "from": "",
-      "to": "",
-      "summaryJa": "Why time is running out for Milan's iconic San Siro移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "Why time is running out for Milan's iconic San Siro",
-      "summary": "With AC Milan and Inter announcing designs for a new stadium to replace their current home, BBC Sport visits San Siro in its centenary year, to find out why time could be running out to visit one of the world's most iconic football grounds.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c0q4k74kvy5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-04T08:43:06.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c84g15r12xn3o?at_medium=RSS&at_campaign=rss",
@@ -108,21 +108,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/articles/cmje5wl5ek32o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-13T10:13:34.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cwrkypzzp6xeo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "O'Neill agrees with McGregor about Celtic issues",
-      "titleJa": "移籍情報：O'Neill agrees with McGregor about Celtic issues",
-      "from": "",
-      "to": "",
-      "summaryJa": "O'Neill agrees with McGregor about Celtic issues移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "O'Neill agrees with McGregor about Celtic issues",
-      "summary": "Manager Martin O'Neill says he is in \"full agreement\" with captain Callum McGregor's assessment of Celtic's issues, but insisted they will \"sort it out\".",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwrkypzzp6xeo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T14:22:18.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cz7z09v9pp1o?at_medium=RSS&at_campaign=rss",
