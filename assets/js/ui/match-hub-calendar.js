@@ -11,7 +11,7 @@ if (!document.querySelector('link[data-calendar-league-filter]')) {
   document.head.appendChild(link);
 }
 const releaseBadge = document.querySelector('.version');
-if (releaseBadge) releaseBadge.textContent = 'v1.1.27';
+if (releaseBadge) releaseBadge.textContent = 'v1.1.28';
 
 (function initializeMatchHubCalendar(namespace) {
   if (document.body.dataset.hub !== 'five' || namespace.calendars?.five) return;
@@ -81,26 +81,25 @@ if (releaseBadge) releaseBadge.textContent = 'v1.1.27';
     <div class="calendar-league-filter" aria-label="試合の期間で絞り込み">
       <p class="muted">表示する試合</p>
       <div class="chips">
-        <button type="button" class="chip${matchScope === 'day' ? ' active' : ''}" data-calendar-scope="day" aria-pressed="${matchScope === 'day'}">選択日</button>
+        <button type="button" class="chip${matchScope === 'day' ? ' active' : ''}" data-calendar-scope="day" aria-pressed="${matchScope === 'day'}">すべて</button>
         <button type="button" class="chip${matchScope === 'upcoming' ? ' active' : ''}" data-calendar-scope="upcoming" aria-pressed="${matchScope === 'upcoming'}">今後</button>
       </div>
     </div>`;
 
   const renderSelectedMatches = date => {
     if (!selectedMatchesRoot) return;
-    if (!date && matchScope === 'day') {
+    if (!date) {
       selectedLeague = 'all';
       selectedMatchesRoot.innerHTML = renderScopeFilters() + '<p class="calendar-hint">試合がある日付をタップすると詳細を表示</p>';
       return;
     }
 
-    // Use the calendar's visible fixtures so the existing favorite-only setting still applies.
-    // Compare timestamps, not status labels: ongoing and completed games are not future games.
+    // First constrain to the selected calendar day, respecting favorite-only.
+    // "今後" further excludes games whose kickoff has already passed.
+    const dayMatches = matchesOnDate(date);
     const selected = matchScope === 'upcoming'
-      ? (calendar?.getVisibleMatches?.() || matches())
-          .filter(match => Number.isFinite(Date.parse(match.date)) && Date.parse(match.date) > Date.now())
-          .sort((a, b) => Date.parse(a.date) - Date.parse(b.date))
-      : matchesOnDate(date);
+      ? dayMatches.filter(match => Number.isFinite(Date.parse(match.date)) && Date.parse(match.date) > Date.now())
+      : dayMatches;
     const availableLeagues = new Set(selected.map(leagueIdOf));
     if (selectedLeague !== 'all' && !availableLeagues.has(selectedLeague)) selectedLeague = 'all';
     const visible = selectedLeague === 'all' ? selected : selected.filter(match => leagueIdOf(match) === selectedLeague);
@@ -114,7 +113,7 @@ if (releaseBadge) releaseBadge.textContent = 'v1.1.27';
       : calendar?.favoriteOnly ? 'この日に推しの試合はありません' : 'この日の試合はありません';
     selectedMatchesRoot.innerHTML = `${filters}${selected.length
       ? cards
-      : (Core?.SportsScheduleEmptyState?.render({ title: emptyTitle, description: matchScope === 'upcoming' ? '現在取得できている日程に未来の試合がありません。' : '別の日付を選択してください。', className: 'compact-empty' }) || `<p class="empty compact-empty">${emptyTitle}</p>`)}`;
+      : (Core?.SportsScheduleEmptyState?.render({ title: emptyTitle, description: matchScope === 'upcoming' ? '選択した日にこれから始まる試合はありません。' : '別の日付を選択してください。', className: 'compact-empty' }) || `<p class="empty compact-empty">${emptyTitle}</p>`)}`;
   };
 
   selectedMatchesRoot?.addEventListener('click', event => {
@@ -141,7 +140,6 @@ if (releaseBadge) releaseBadge.textContent = 'v1.1.27';
     onSelect: date => {
       if ((date || null) !== state.calendarSelected) {
         selectedLeague = 'all';
-        matchScope = 'day';
       }
       state.calendarSelected = date || null;
       renderSelectedMatches(date);
