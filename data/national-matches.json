@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T08:49:32.771Z",
+  "updatedAt": "2026-11-01T09:39:52.991Z",
   "source": "ESPN multi-competition annual adapter",
   "competitionCount": 15,
   "competitions": [
@@ -24,19 +24,14 @@
       "count": 100
     },
     {
-      "code": "fifa.worldq.caf",
-      "name": "W杯アフリカ予選",
-      "count": 219
-    },
-    {
-      "code": "uefa.euro",
-      "name": "UEFA欧州選手権",
-      "count": 51
-    },
-    {
       "code": "fifa.worldq.afc",
       "name": "W杯アジア予選",
       "count": 170
+    },
+    {
+      "code": "fifa.worldq.caf",
+      "name": "W杯アフリカ予選",
+      "count": 219
     },
     {
       "code": "fifa.worldq.ofc",
@@ -44,14 +39,19 @@
       "count": 18
     },
     {
-      "code": "afc.asian.cup",
-      "name": "AFCアジアカップ",
-      "count": 102
+      "code": "uefa.euro",
+      "name": "UEFA欧州選手権",
+      "count": 51
     },
     {
       "code": "concacaf.gold",
       "name": "CONCACAFゴールドカップ",
       "count": 31
+    },
+    {
+      "code": "afc.asian.cup",
+      "name": "AFCアジアカップ",
+      "count": 102
     },
     {
       "code": "uefa.nations",
@@ -69,20 +69,25 @@
       "count": 104
     },
     {
-      "code": "fifa.olympics",
-      "name": "オリンピック男子サッカー",
-      "count": 32
-    },
-    {
       "code": "fifa.friendly",
       "name": "国際親善試合",
       "count": 999
+    },
+    {
+      "code": "fifa.olympics",
+      "name": "オリンピック男子サッカー",
+      "count": 32
     }
   ],
   "skippedCompetitions": [
     {
       "code": "conmebol.copa_america",
-      "year": 2026,
+      "year": 2024,
+      "reason": "HTTP 400"
+    },
+    {
+      "code": "conmebol.copa_america",
+      "year": 2027,
       "reason": "HTTP 400"
     },
     {
@@ -92,12 +97,7 @@
     },
     {
       "code": "conmebol.copa_america",
-      "year": 2024,
-      "reason": "HTTP 400"
-    },
-    {
-      "code": "conmebol.copa_america",
-      "year": 2027,
+      "year": 2026,
       "reason": "HTTP 400"
     }
   ],
@@ -50587,7 +50587,7 @@
     },
     {
       "id": "fifa.friendly-401932719",
-      "kickoff": "2026-11-28T13:00Z",
+      "kickoff": "2026-11-28T17:00Z",
       "status": "scheduled",
       "competition": "国際親善試合",
       "competitionCode": "fifa.friendly",
