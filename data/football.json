@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T20:53:30.278Z",
+  "updatedAt": "2026-11-02T00:49:44.222Z",
   "season": "2026",
   "dataSource": "football-data.org",
   "dataMode": "current-free-plan",
@@ -22277,7 +22277,7 @@
     {
       "id": 559647,
       "date": "2026-11-01T14:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -22299,19 +22299,19 @@
         "logo": "https://crests.football-data.org/519.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 5,
+        "away": 1
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 5,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "events": []
@@ -22403,7 +22403,7 @@
     {
       "id": 559640,
       "date": "2026-11-01T16:15:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -22425,19 +22425,19 @@
         "logo": "https://crests.football-data.org/532.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "events": []
@@ -22445,7 +22445,7 @@
     {
       "id": 559642,
       "date": "2026-11-01T16:15:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -22467,19 +22467,19 @@
         "logo": "https://crests.football-data.org/548.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 1
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
       "events": []
@@ -22487,7 +22487,7 @@
     {
       "id": 560631,
       "date": "2026-11-01T16:30:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Premier League",
       "competitionJa": "プレミアリーグ",
@@ -22509,19 +22509,19 @@
         "logo": "https://crests.football-data.org/57.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "events": []
@@ -22655,7 +22655,7 @@
     {
       "id": 558547,
       "date": "2026-11-01T19:45:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Serie A",
       "competitionJa": "セリエA",
@@ -22677,14 +22677,14 @@
         "logo": "https://crests.football-data.org/113.png"
       },
       "goals": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
+          "home": 2,
           "away": 0
         },
         "halfTime": {
@@ -22697,7 +22697,7 @@
     {
       "id": 559645,
       "date": "2026-11-01T19:45:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -22719,19 +22719,19 @@
         "logo": "https://crests.football-data.org/511.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
       "events": []
@@ -22739,7 +22739,7 @@
     {
       "id": 564729,
       "date": "2026-11-01T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -22761,19 +22761,19 @@
         "logo": "https://crests.football-data.org/92.png"
       },
       "goals": {
-        "home": 1,
+        "home": 2,
         "away": 1
       },
       "score": {
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": 1,
+          "home": 2,
           "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         }
       },
       "events": []
@@ -81828,12 +81828,12 @@
           },
           "played": 11,
           "win": 6,
-          "draw": 2,
-          "lose": 3,
+          "draw": 1,
+          "lose": 4,
           "goalsFor": 20,
-          "goalsAgainst": 19,
-          "goalsDiff": 1,
-          "points": 20,
+          "goalsAgainst": 20,
+          "goalsDiff": 0,
+          "points": 19,
           "form": ""
         },
         {
@@ -81863,13 +81863,13 @@
             "logo": "https://crests.football-data.org/77.png"
           },
           "played": 10,
-          "win": 3,
-          "draw": 4,
+          "win": 4,
+          "draw": 3,
           "lose": 3,
-          "goalsFor": 13,
+          "goalsFor": 14,
           "goalsAgainst": 10,
-          "goalsDiff": 3,
-          "points": 13,
+          "goalsDiff": 4,
+          "points": 15,
           "form": ""
         },
         {
@@ -82226,6 +82226,24 @@
         {
           "rank": 7,
           "team": {
+            "id": 109,
+            "name": "Juventus FC",
+            "shortName": "ユヴェントス",
+            "logo": "https://crests.football-data.org/109.png"
+          },
+          "played": 10,
+          "win": 5,
+          "draw": 2,
+          "lose": 3,
+          "goalsFor": 13,
+          "goalsAgainst": 10,
+          "goalsDiff": 3,
+          "points": 17,
+          "form": ""
+        },
+        {
+          "rank": 8,
+          "team": {
             "id": 113,
             "name": "SSC Napoli",
             "shortName": "ナポリ",
@@ -82233,30 +82251,12 @@
           },
           "played": 10,
           "win": 4,
-          "draw": 3,
-          "lose": 3,
+          "draw": 2,
+          "lose": 4,
           "goalsFor": 17,
-          "goalsAgainst": 11,
-          "goalsDiff": 6,
-          "points": 15,
-          "form": ""
-        },
-        {
-          "rank": 8,
-          "team": {
-            "id": 109,
-            "name": "Juventus FC",
-            "shortName": "ユヴェントス",
-            "logo": "https://crests.football-data.org/109.png"
-          },
-          "played": 10,
-          "win": 4,
-          "draw": 3,
-          "lose": 3,
-          "goalsFor": 11,
-          "goalsAgainst": 10,
-          "goalsDiff": 1,
-          "points": 15,
+          "goalsAgainst": 13,
+          "goalsDiff": 4,
+          "points": 14,
           "form": ""
         },
         {
