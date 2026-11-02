@@ -1,9 +1,39 @@
 {
-  "updatedAt": "2026-11-02T06:26:47.611Z",
+  "updatedAt": "2026-11-02T19:37:18.950Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/crvg69wn9490o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "To dive or not to dive? Football's big dilemma",
+      "titleJa": "移籍情報：To dive or not to dive? Football's big dilemma",
+      "from": "",
+      "to": "",
+      "summaryJa": "To dive or not to dive? Football's big dilemma移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "To dive or not to dive? Football's big dilemma",
+      "summary": "Liverpool feel Alexander Isak should have been awarded a penalty against Arsenal but with the striker not appealing for the decision and the VAR staying out of it, should he have made more of it?",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crvg69wn9490o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T14:06:47.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cmx285n4l81lo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Villa drop legal action threat against Carragher",
+      "titleJa": "移籍情報：Villa drop legal action threat against Carragher",
+      "from": "",
+      "to": "",
+      "summaryJa": "Villa drop legal action threat against Carragher移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Villa drop legal action threat against Carragher",
+      "summary": "Aston Villa will not move forward with any legal action towards Jamie Carragher.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmx285n4l81lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T11:49:05.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/cmly09yv9xl6o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -65,6 +95,21 @@
       "date": "2026-11-01T22:50:05.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sounds/play/p0pks2xb?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Football Daily",
+      "titleJa": "移籍情報：Football Daily",
+      "from": "",
+      "to": "",
+      "summaryJa": "Football Daily移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Football Daily",
+      "summary": "Rick Edwards is joined by Luke Kempner to reflect on Arsenal’s 1-0 win at Anfield.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sounds/play/p0pks2xb?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T00:59:00.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c820vylvxwxlo?at_medium=RSS&at_campaign=rss",
       "status": "official",
       "player": "Retired Sheff Utd legend Sharp signs for Rushden",
@@ -110,21 +155,6 @@
       "date": "2026-10-17T12:53:04.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/iplayer/episode/m002g7zb?at_mid=93AqQATdig&at_campaign=Unforgivable&at_medium=display_ad&at_campaign_type=owned&at_nation=NET&at_audience_id=SS&at_product=iplayer&at_brand=m002g7zb&at_ptr_name=bbc&at_ptr_type=media&at_format=image&at_objective=consumption&at_link_title=Unforgivable&at_bbc_team=BBC",
-      "status": "rumour",
-      "player": "A stand-alone, critically-acclaimed film by Jimmy McGovern",
-      "titleJa": "移籍情報：A stand-alone, critically-acclaimed film by Jimmy McGovern",
-      "from": "",
-      "to": "",
-      "summaryJa": "A stand-alone, critically-acclaimed film by Jimmy McGovern移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "A stand-alone, critically-acclaimed film by Jimmy McGovern",
-      "summary": "The Mitchell family deal with the devastating aftermath of an act of sexual abuse.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/iplayer/episode/m002g7zb?at_mid=93AqQATdig&at_campaign=Unforgivable&at_medium=display_ad&at_campaign_type=owned&at_nation=NET&at_audience_id=SS&at_product=iplayer&at_brand=m002g7zb&at_ptr_name=bbc&at_ptr_type=media&at_format=image&at_objective=consumption&at_link_title=Unforgivable&at_bbc_team=BBC",
-      "date": "2026-07-24T04:45:00.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/articles/cmje5wl5ek32o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Were any current Man City players signed during charges period?",
@@ -138,6 +168,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/articles/cmje5wl5ek32o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-13T10:13:34.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sounds/play/p0pks275?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Listen: Derby delight for Hibs, fresh questions for Celtic",
+      "titleJa": "移籍情報：Listen: Derby delight for Hibs, fresh questions for Celtic",
+      "from": "",
+      "to": "",
+      "summaryJa": "Listen: Derby delight for Hibs, fresh questions for Celtic移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Listen: Derby delight for Hibs, fresh questions for Celtic",
+      "summary": "A huge weekend of League Cup drama and a significant twist in the Premiership title race.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sounds/play/p0pks275?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T08:00:00.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cz7z09v9pp1o?at_medium=RSS&at_campaign=rss",
