@@ -1,8 +1,13 @@
 {
-  "updatedAt": "2026-11-01T09:39:52.991Z",
+  "updatedAt": "2026-11-02T09:54:50.076Z",
   "source": "ESPN multi-competition annual adapter",
   "competitionCount": 15,
   "competitions": [
+    {
+      "code": "fifa.worldq.concacaf",
+      "name": "W杯北中米予選",
+      "count": 100
+    },
     {
       "code": "fifa.world",
       "name": "FIFAワールドカップ",
@@ -19,9 +24,14 @@
       "count": 60
     },
     {
-      "code": "fifa.worldq.concacaf",
-      "name": "W杯北中米予選",
-      "count": 100
+      "code": "fifa.worldq.ofc",
+      "name": "W杯オセアニア予選",
+      "count": 18
+    },
+    {
+      "code": "uefa.euro",
+      "name": "UEFA欧州選手権",
+      "count": 51
     },
     {
       "code": "fifa.worldq.afc",
@@ -32,16 +42,6 @@
       "code": "fifa.worldq.caf",
       "name": "W杯アフリカ予選",
       "count": 219
-    },
-    {
-      "code": "fifa.worldq.ofc",
-      "name": "W杯オセアニア予選",
-      "count": 18
-    },
-    {
-      "code": "uefa.euro",
-      "name": "UEFA欧州選手権",
-      "count": 51
     },
     {
       "code": "concacaf.gold",
@@ -69,27 +69,17 @@
       "count": 104
     },
     {
-      "code": "fifa.friendly",
-      "name": "国際親善試合",
-      "count": 999
-    },
-    {
       "code": "fifa.olympics",
       "name": "オリンピック男子サッカー",
       "count": 32
+    },
+    {
+      "code": "fifa.friendly",
+      "name": "国際親善試合",
+      "count": 999
     }
   ],
   "skippedCompetitions": [
-    {
-      "code": "conmebol.copa_america",
-      "year": 2024,
-      "reason": "HTTP 400"
-    },
-    {
-      "code": "conmebol.copa_america",
-      "year": 2027,
-      "reason": "HTTP 400"
-    },
     {
       "code": "conmebol.copa_america",
       "year": 2025,
@@ -98,6 +88,16 @@
     {
       "code": "conmebol.copa_america",
       "year": 2026,
+      "reason": "HTTP 400"
+    },
+    {
+      "code": "conmebol.copa_america",
+      "year": 2024,
+      "reason": "HTTP 400"
+    },
+    {
+      "code": "conmebol.copa_america",
+      "year": 2027,
       "reason": "HTTP 400"
     }
   ],
@@ -49539,7 +49539,7 @@
       "awayName": "Malaysia",
       "homeScore": 0,
       "awayScore": 0,
-      "venue": "Tianhe Stadium",
+      "venue": "Zhaoqing New District Sports Center Stadium",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
@@ -50199,7 +50199,7 @@
       "awayName": "Bahrain",
       "homeScore": 0,
       "awayScore": 0,
-      "venue": "Tianhe Stadium",
+      "venue": "Zhaoqing New District Sports Center Stadium",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
