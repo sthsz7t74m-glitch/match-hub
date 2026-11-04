@@ -51,7 +51,7 @@ window.SportsHubRegistry = window.SportsHubRegistry || {};
 
   registry.register('five', {
     ...sharedBack,
-    sport: 'soccer', eyebrow: 'FOOTBALL SCHEDULE', title: 'Match Hub', version: 'v1.1.30',
+    sport: 'soccer', eyebrow: 'FOOTBALL SCHEDULE', title: 'Match Hub', version: 'v1.1.31',
     favoriteStorageKey: 'matchHubFavorites',
     calendar: { filterStorageKey: 'footballCalendarFavoriteOnly:five', defaultFavoriteOnly: true },
     navigation: {
