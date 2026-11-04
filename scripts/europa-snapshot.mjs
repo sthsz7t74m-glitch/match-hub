@@ -1,0 +1,526 @@
+// Curated from UEFA's 2026/27 Europa League league-phase official fixture list (updated 2026-11-04).
+// For historical rows UEFA only provides date in the article; exact kick-off is intentionally unknown.
+export const uefaEuropaSnapshot = [
+  [
+    "2026-09-16",
+    "Ararat-Armenia",
+    "1",
+    "4",
+    "Sparta Praha"
+  ],
+  [
+    "2026-09-16",
+    "Omonia",
+    "1",
+    "0",
+    "Celta"
+  ],
+  [
+    "2026-09-16",
+    "Milan",
+    "0",
+    "2",
+    "Benfica"
+  ],
+  [
+    "2026-09-16",
+    "Leverkusen",
+    "2",
+    "0",
+    "Celje"
+  ],
+  [
+    "2026-09-16",
+    "Hapoel Beer-Sheva",
+    "0",
+    "0",
+    "GNK Dinamo"
+  ],
+  [
+    "2026-09-16",
+    "Olympiacos",
+    "2",
+    "1",
+    "Jagiellonia"
+  ],
+  [
+    "2026-09-16",
+    "Anderlecht",
+    "1",
+    "2",
+    "Lyon"
+  ],
+  [
+    "2026-09-16",
+    "Sturm Graz",
+    "0",
+    "0",
+    "Rennes"
+  ],
+  [
+    "2026-09-16",
+    "Sunderland",
+    "1",
+    "0",
+    "AZ Alkmaar"
+  ],
+  [
+    "2026-09-17",
+    "OFI Crete",
+    "2",
+    "0",
+    "Hoffenheim"
+  ],
+  [
+    "2026-09-17",
+    "Levski Sofia",
+    "0",
+    "1",
+    "Salzburg"
+  ],
+  [
+    "2026-09-17",
+    "Beşiktaş",
+    "4",
+    "1",
+    "Marseille"
+  ],
+  [
+    "2026-09-17",
+    "Celtic",
+    "1",
+    "3",
+    "Ferencváros"
+  ],
+  [
+    "2026-09-17",
+    "Crystal Palace",
+    "4",
+    "0",
+    "Lech Poznań"
+  ],
+  [
+    "2026-09-17",
+    "Viktoria Plzeň",
+    "0",
+    "3",
+    "Union SG"
+  ],
+  [
+    "2026-09-17",
+    "Juventus",
+    "5",
+    "0",
+    "N.E.C. Nijmegen"
+  ],
+  [
+    "2026-09-17",
+    "Lillestrøm",
+    "1",
+    "2",
+    "Torreense"
+  ],
+  [
+    "2026-09-17",
+    "Real Sociedad",
+    "1",
+    "2",
+    "Bournemouth"
+  ],
+  [
+    "2026-10-15",
+    "Sparta Praha",
+    "1",
+    "1",
+    "Lillestrøm"
+  ],
+  [
+    "2026-10-15",
+    "AZ Alkmaar",
+    "2",
+    "1",
+    "Hapoel Beer-Sheva"
+  ],
+  [
+    "2026-10-15",
+    "Salzburg",
+    "0",
+    "4",
+    "Milan"
+  ],
+  [
+    "2026-10-15",
+    "Lech Poznań",
+    "0",
+    "4",
+    "Leverkusen"
+  ],
+  [
+    "2026-10-15",
+    "Celje",
+    "0",
+    "3",
+    "Omonia"
+  ],
+  [
+    "2026-10-15",
+    "Lyon",
+    "3",
+    "2",
+    "Crystal Palace"
+  ],
+  [
+    "2026-10-15",
+    "Union SG",
+    "1",
+    "1",
+    "Real Sociedad"
+  ],
+  [
+    "2026-10-15",
+    "Torreense",
+    "1",
+    "2",
+    "Sunderland"
+  ],
+  [
+    "2026-10-15",
+    "Bournemouth",
+    "3",
+    "0",
+    "Sturm Graz"
+  ],
+  [
+    "2026-10-15",
+    "Ferencváros",
+    "2",
+    "1",
+    "Viktoria Plzeň"
+  ],
+  [
+    "2026-10-15",
+    "GNK Dinamo",
+    "1",
+    "0",
+    "Anderlecht"
+  ],
+  [
+    "2026-10-15",
+    "Jagiellonia",
+    "3",
+    "1",
+    "Ararat-Armenia"
+  ],
+  [
+    "2026-10-15",
+    "N.E.C. Nijmegen",
+    "1",
+    "1",
+    "Levski Sofia"
+  ],
+  [
+    "2026-10-15",
+    "Marseille",
+    "0",
+    "1",
+    "Olympiacos"
+  ],
+  [
+    "2026-10-15",
+    "Celta",
+    "1",
+    "2",
+    "Juventus"
+  ],
+  [
+    "2026-10-15",
+    "Benfica",
+    "4",
+    "1",
+    "Celtic"
+  ],
+  [
+    "2026-10-15",
+    "Rennes",
+    "2",
+    "1",
+    "OFI Crete"
+  ],
+  [
+    "2026-10-15",
+    "Hoffenheim",
+    "2",
+    "3",
+    "Beşiktaş"
+  ],
+  [
+    "2026-10-22",
+    "Ararat-Armenia",
+    "0",
+    "4",
+    "AZ Alkmaar"
+  ],
+  [
+    "2026-10-22",
+    "Ferencváros",
+    "4",
+    "1",
+    "Torreense"
+  ],
+  [
+    "2026-10-22",
+    "GNK Dinamo",
+    "2",
+    "4",
+    "N.E.C. Nijmegen"
+  ],
+  [
+    "2026-10-22",
+    "Juventus",
+    "2",
+    "2",
+    "Rennes"
+  ],
+  [
+    "2026-10-22",
+    "Lech Poznań",
+    "1",
+    "1",
+    "Sunderland"
+  ],
+  [
+    "2026-10-22",
+    "OFI Crete",
+    "0",
+    "2",
+    "Leverkusen"
+  ],
+  [
+    "2026-10-22",
+    "Union SG",
+    "4",
+    "0",
+    "Hapoel Beer-Sheva"
+  ],
+  [
+    "2026-10-22",
+    "Sturm Graz",
+    "1",
+    "0",
+    "Marseille"
+  ],
+  [
+    "2026-10-22",
+    "Bournemouth",
+    "3",
+    "0",
+    "Milan"
+  ],
+  [
+    "2026-10-22",
+    "Beşiktaş",
+    "2",
+    "2",
+    "Crystal Palace"
+  ],
+  [
+    "2026-10-22",
+    "Celtic",
+    "1",
+    "2",
+    "Celta"
+  ],
+  [
+    "2026-10-22",
+    "Viktoria Plzeň",
+    "1",
+    "2",
+    "Levski Sofia"
+  ],
+  [
+    "2026-10-22",
+    "Jagiellonia",
+    "0",
+    "3",
+    "Anderlecht"
+  ],
+  [
+    "2026-10-22",
+    "Lillestrøm",
+    "0",
+    "6",
+    "Real Sociedad"
+  ],
+  [
+    "2026-10-22",
+    "Celje",
+    "2",
+    "2",
+    "Salzburg"
+  ],
+  [
+    "2026-10-22",
+    "Olympiacos",
+    "1",
+    "0",
+    "Sparta Praha"
+  ],
+  [
+    "2026-10-22",
+    "Omonia",
+    "1",
+    "4",
+    "Benfica"
+  ],
+  [
+    "2026-10-22",
+    "Hoffenheim",
+    "3",
+    "0",
+    "Lyon"
+  ],
+  [
+    "2026-11-04",
+    "Rennes",
+    "0",
+    "0",
+    "Olympiacos"
+  ],
+  [
+    "2026-11-05",
+    "Milan",
+    "",
+    "",
+    "Ferencváros",
+    "18:45"
+  ],
+  [
+    "2026-11-05",
+    "Sparta Praha",
+    "",
+    "",
+    "Bournemouth",
+    "18:45"
+  ],
+  [
+    "2026-11-05",
+    "Crystal Palace",
+    "",
+    "",
+    "Hoffenheim",
+    "18:45"
+  ],
+  [
+    "2026-11-05",
+    "Lillestrøm",
+    "",
+    "",
+    "Viktoria Plzeň",
+    "18:45"
+  ],
+  [
+    "2026-11-05",
+    "N.E.C. Nijmegen",
+    "",
+    "",
+    "Omonia",
+    "18:45"
+  ],
+  [
+    "2026-11-05",
+    "Levski Sofia",
+    "",
+    "",
+    "Jagiellonia",
+    "18:45"
+  ],
+  [
+    "2026-11-05",
+    "Real Sociedad",
+    "",
+    "",
+    "Lyon",
+    "18:45"
+  ],
+  [
+    "2026-11-05",
+    "Anderlecht",
+    "",
+    "",
+    "Salzburg",
+    "18:45"
+  ],
+  [
+    "2026-11-05",
+    "AZ Alkmaar",
+    "",
+    "",
+    "Juventus",
+    "21:00"
+  ],
+  [
+    "2026-11-05",
+    "Leverkusen",
+    "",
+    "",
+    "Marseille",
+    "21:00"
+  ],
+  [
+    "2026-11-05",
+    "Celtic",
+    "",
+    "",
+    "Beşiktaş",
+    "21:00"
+  ],
+  [
+    "2026-11-05",
+    "Hapoel Beer-Sheva",
+    "",
+    "",
+    "OFI Crete",
+    "21:00"
+  ],
+  [
+    "2026-11-05",
+    "Celta",
+    "",
+    "",
+    "Union SG",
+    "21:00"
+  ],
+  [
+    "2026-11-05",
+    "Torreense",
+    "",
+    "",
+    "Ararat-Armenia",
+    "21:00"
+  ],
+  [
+    "2026-11-05",
+    "Sturm Graz",
+    "",
+    "",
+    "Celje",
+    "21:00"
+  ],
+  [
+    "2026-11-05",
+    "Benfica",
+    "",
+    "",
+    "Lech Poznań",
+    "21:00"
+  ],
+  [
+    "2026-11-05",
+    "Sunderland",
+    "",
+    "",
+    "GNK Dinamo",
+    "21:00"
+  ]
+];
+export const uefaEuropaSource = 'https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/';
