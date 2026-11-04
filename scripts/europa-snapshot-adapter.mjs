@@ -1,5 +1,6 @@
 import {uefaEuropaSnapshot,uefaEuropaSource} from './europa-snapshot.mjs';
 import {europaLeague} from './competition-data.mjs';
+import {europaCrests,applyEuropaCrests} from './europa-crests.mjs';
 const aliases = {
   'Milan':'AC Milan','Leverkusen':'Bayer 04 Leverkusen','Lyon':'Olympique Lyonnais','Marseille':'Olympique de Marseille',
   'Celta':'RC Celta de Vigo','Real Sociedad':'Real Sociedad de Fútbol','Bournemouth':'AFC Bournemouth',
@@ -10,17 +11,18 @@ const key = s => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLow
 export function addUefaEuropaSnapshot(output) {
   if(output.season && Number(output.season)!==2026) return output;
   // Don't overwrite the API data when the provider has supplied the EL competition.
-  if(output.fixtures.some(f=>f.leagueId===europaLeague.id)) return output;
+  if(output.fixtures.some(f=>f.leagueId===europaLeague.id)) return applyEuropaCrests(output);
   const names=[...new Set(uefaEuropaSnapshot.flatMap(r=>[r[1],r[4]]))];
   const used=new Set(output.teams.map(t=>t.id));
   const map=new Map();
   for(const [index,name] of names.entries()){
     const match=output.teams.find(t=>[t.name,t.shortName,t.englishShortName].some(s=>s&&key(s)===key(aliases[name]||name)));
     const id=match?.id??(900000+index);
-    const team=match || {id,name,shortName:name,englishShortName:name,logo:'',leagueId:europaLeague.id,leagueCode:'EL',color:europaLeague.color,venue:''};
+    const team=match || {id,name,shortName:name,englishShortName:name,logo:europaCrests[name]||'',leagueId:europaLeague.id,leagueCode:'EL',color:europaLeague.color,venue:''};
+    if(!team.logo) team.logo=europaCrests[name]||'';
     if(!match)output.teams.push({...team,competitionIds:[europaLeague.id]});
     else team.competitionIds=[...new Set([...(team.competitionIds||[team.leagueId]),europaLeague.id])];
-    map.set(name,{id:team.id,name:team.name,shortName:team.shortName,logo:team.logo||''});
+    map.set(name,{id:team.id,name:team.name,shortName:team.shortName,snapshotName:name,logo:team.logo||europaCrests[name]||''});
     used.add(id);
   }
   const timezone = (day) => day<'2026-10-25'?2:1;
@@ -52,5 +54,5 @@ export function addUefaEuropaSnapshot(output) {
   output.fixtures.sort((a,b)=>new Date(a.date)-new Date(b.date));
   output.standings.push({leagueId:europaLeague.id,leagueCode:'EL',leagueName:europaLeague.name,leagueNameJa:europaLeague.ja,stage:'LEAGUE_STAGE',provisional:true,rows});
   output.europaSource=uefaEuropaSource;
-  return output;
+  return applyEuropaCrests(output);
 }
