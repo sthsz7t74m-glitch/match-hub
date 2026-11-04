@@ -11,3 +11,18 @@
 .football-hub .sports-sticky-table-heading{box-sizing:border-box;display:block;isolation:isolate;}
 .football-hub .sports-sticky-table-heading__table{margin-top:0!important;table-layout:fixed;border-spacing:0;}
 .football-hub .sports-sticky-table-heading__table thead tr{background:var(--panel,#151f31);}
+
+/* v1.1.36: floating labels are independent of overflowed table ancestors. */
+.football-hub .sports-sticky-table-heading{
+  position:fixed!important;z-index:99!important;display:block;
+  overflow:hidden;pointer-events:none;box-sizing:border-box;
+  border-bottom:2px solid var(--line,#273449);
+  background:var(--panel,#151f31)!important;
+}
+.football-hub .sports-sticky-table-heading[hidden]{display:none!important;}
+.football-hub .sports-sticky-table-heading__cell{
+  position:absolute;top:0;display:flex;align-items:center;justify-content:center;
+  padding:4px 2px;box-sizing:border-box;overflow:hidden;
+  background:var(--panel,#151f31);color:var(--text,#fff);
+  font-size:inherit;font-weight:800;white-space:nowrap;text-align:center;
+}
