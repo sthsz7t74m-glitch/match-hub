@@ -70,5 +70,5 @@ document.querySelector('#championsView')?.addEventListener('change',event=>{
   renderChampions();
 });
 if(['champions','europa'].includes(new URLSearchParams(location.search).get('view'))){state.view=new URLSearchParams(location.search).get('view');setActiveNav('');}
-const clVersion=document.querySelector('.version');if(clVersion)clVersion.textContent='v1.1.35';
+const clVersion=document.querySelector('.version');if(clVersion)clVersion.textContent='v1.1.36';
 if(state.data)render();
