@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises';
+import {addUefaEuropaSnapshot} from './europa-snapshot-adapter.mjs';
 import {championsLeague, europaLeague, roundLabel, mergeCompetitionTeams, totalStanding} from './competition-data.mjs';
 
 const API='https://api.football-data.org/v4';
@@ -48,5 +49,6 @@ for(const league of leagues){
 }
 const output={updatedAt:new Date().toISOString(),season,dataSource:'football-data.org',dataMode:'current-free-plan',leagues,teams:mergeCompetitionTeams(teams),fixtures:fixtures.sort((a,b)=>new Date(a.date)-new Date(b.date)),standings};
 await fs.mkdir('data',{recursive:true});
+addUefaEuropaSnapshot(output);
 await fs.writeFile('data/football.json',`${JSON.stringify(output,null,2)}\n`);
 console.log(`Saved ${teams.length} teams and ${fixtures.length} fixtures.`);
