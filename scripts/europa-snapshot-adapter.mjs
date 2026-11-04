@@ -8,6 +8,7 @@ const aliases = {
 };
 const key = s => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
 export function addUefaEuropaSnapshot(output) {
+  if(output.season && Number(output.season)!==2026) return output;
   // Don't overwrite the API data when the provider has supplied the EL competition.
   if(output.fixtures.some(f=>f.leagueId===europaLeague.id)) return output;
   const names=[...new Set(uefaEuropaSnapshot.flatMap(r=>[r[1],r[4]]))];
