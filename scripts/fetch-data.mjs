@@ -1,5 +1,5 @@
 import fs from 'node:fs/promises';
-import {championsLeague, roundLabel, mergeCompetitionTeams, totalStanding} from './competition-data.mjs';
+import {championsLeague, europaLeague, roundLabel, mergeCompetitionTeams, totalStanding} from './competition-data.mjs';
 
 const API='https://api.football-data.org/v4';
 const token=process.env.FOOTBALL_DATA_TOKEN;
@@ -11,7 +11,8 @@ const leagues=[
   {code:'SA',id:135,name:'Serie A',ja:'セリエA',color:'#2563eb'},
   {code:'BL1',id:78,name:'Bundesliga',ja:'ブンデスリーガ',color:'#dc2626'},
   {code:'FL1',id:61,name:'Ligue 1',ja:'リーグ・アン',color:'#0891b2'},
-  championsLeague
+  championsLeague,
+  europaLeague
 ];
 
 const japaneseNames={
