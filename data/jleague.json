@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T09:48:57.585Z",
+  "updatedAt": "2026-11-04T09:35:30.690Z",
   "dataSource": "ESPN (J1) + J.LEAGUE official site (J2/J3)",
   "sourceDetails": {
     "j1": "ESPN scoreboard / standings",
@@ -37725,6 +37725,29 @@
       "league": "j3",
       "rank": 6,
       "team": {
+        "id": "fc-osaka",
+        "appId": "fc-osaka",
+        "league": "j3",
+        "name": "FC大阪",
+        "shortName": "FC大阪",
+        "area": "大阪",
+        "officialSlug": "osaka"
+      },
+      "played": 15,
+      "win": 7,
+      "draw": 5,
+      "lose": 3,
+      "goalsFor": 25,
+      "goalsAgainst": 15,
+      "goalsDiff": 10,
+      "points": 26,
+      "form": "",
+      "provisional": false
+    },
+    {
+      "league": "j3",
+      "rank": 7,
+      "team": {
         "id": "ehime",
         "appId": "ehime",
         "league": "j3",
@@ -37748,7 +37771,7 @@
     },
     {
       "league": "j3",
-      "rank": 7,
+      "rank": 8,
       "team": {
         "id": "kumamoto",
         "appId": "kumamoto",
@@ -37760,37 +37783,14 @@
         "logo": "https://www.jleague.jp/image/clubs/kumamoto.svg",
         "venue": "えがお健康スタジアム 入場可能数 ： 30,275 人 監督 片野坂 知宏 試合日程をカレンダーに追加 更新日: 2026/11/2 15:08 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 選手"
       },
-      "played": 14,
+      "played": 15,
       "win": 6,
       "draw": 6,
-      "lose": 2,
-      "goalsFor": 16,
-      "goalsAgainst": 8,
-      "goalsDiff": 8,
-      "points": 24,
-      "form": "",
-      "provisional": false
-    },
-    {
-      "league": "j3",
-      "rank": 8,
-      "team": {
-        "id": "fc-osaka",
-        "appId": "fc-osaka",
-        "league": "j3",
-        "name": "FC大阪",
-        "shortName": "FC大阪",
-        "area": "大阪",
-        "officialSlug": "osaka"
-      },
-      "played": 14,
-      "win": 6,
-      "draw": 5,
       "lose": 3,
-      "goalsFor": 23,
-      "goalsAgainst": 14,
-      "goalsDiff": 9,
-      "points": 23,
+      "goalsFor": 17,
+      "goalsAgainst": 10,
+      "goalsDiff": 7,
+      "points": 24,
       "form": "",
       "provisional": false
     },
