@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T09:59:30.287Z",
+  "updatedAt": "2026-11-04T09:47:54.529Z",
   "source": "ESPN multi-competition annual adapter",
   "competitionCount": 15,
   "competitions": [
@@ -9,14 +9,14 @@
       "count": 104
     },
     {
-      "code": "fifa.worldq.uefa",
-      "name": "W杯欧州予選",
-      "count": 204
-    },
-    {
       "code": "fifa.worldq.conmebol",
       "name": "W杯南米予選",
       "count": 60
+    },
+    {
+      "code": "fifa.worldq.uefa",
+      "name": "W杯欧州予選",
+      "count": 204
     },
     {
       "code": "fifa.worldq.concacaf",
@@ -24,9 +24,9 @@
       "count": 100
     },
     {
-      "code": "fifa.worldq.caf",
-      "name": "W杯アフリカ予選",
-      "count": 219
+      "code": "fifa.worldq.ofc",
+      "name": "W杯オセアニア予選",
+      "count": 18
     },
     {
       "code": "fifa.worldq.afc",
@@ -39,14 +39,14 @@
       "count": 51
     },
     {
-      "code": "fifa.worldq.ofc",
-      "name": "W杯オセアニア予選",
-      "count": 18
+      "code": "fifa.worldq.caf",
+      "name": "W杯アフリカ予選",
+      "count": 219
     },
     {
-      "code": "uefa.nations",
-      "name": "UEFAネーションズリーグ",
-      "count": 346
+      "code": "afc.asian.cup",
+      "name": "AFCアジアカップ",
+      "count": 91
     },
     {
       "code": "concacaf.gold",
@@ -54,14 +54,14 @@
       "count": 31
     },
     {
-      "code": "afc.asian.cup",
-      "name": "AFCアジアカップ",
-      "count": 102
-    },
-    {
       "code": "conmebol.america",
       "name": "コパ・アメリカ",
       "count": 32
+    },
+    {
+      "code": "uefa.nations",
+      "name": "UEFAネーションズリーグ",
+      "count": 346
     },
     {
       "code": "caf.nations",
@@ -76,18 +76,18 @@
     {
       "code": "fifa.friendly",
       "name": "国際親善試合",
-      "count": 999
+      "count": 1000
     }
   ],
   "skippedCompetitions": [
     {
       "code": "conmebol.copa_america",
-      "year": 2024,
+      "year": 2025,
       "reason": "HTTP 400"
     },
     {
       "code": "conmebol.copa_america",
-      "year": 2025,
+      "year": 2027,
       "reason": "HTTP 400"
     },
     {
@@ -97,7 +97,7 @@
     },
     {
       "code": "conmebol.copa_america",
-      "year": 2027,
+      "year": 2024,
       "reason": "HTTP 400"
     }
   ],
@@ -48866,6 +48866,26 @@
       "penalties": null
     },
     {
+      "id": "fifa.friendly-401930962",
+      "kickoff": "2026-11-12T15:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "uzbekistan",
+      "away": "russia",
+      "homeName": "Uzbekistan",
+      "awayName": "Russia",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Pakhtakor Markaziy Stadium",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
       "id": "uefa.nations-401861146",
       "kickoff": "2026-11-12T17:00Z",
       "status": "scheduled",
@@ -48900,6 +48920,26 @@
       "homeScore": 0,
       "awayScore": 0,
       "venue": "Göztepe Gürsel Aksel Stadi",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
+      "id": "fifa.friendly-401933115",
+      "kickoff": "2026-11-12T17:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "lithuania",
+      "away": "suriname",
+      "homeName": "Lithuania",
+      "awayName": "Suriname",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "S. Darius and S. Gireno Stadium",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
@@ -49040,26 +49080,6 @@
       "homeScore": 0,
       "awayScore": 0,
       "venue": "San Marino Stadium",
-      "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
-      "penalties": null
-    },
-    {
-      "id": "fifa.friendly-401930962",
-      "kickoff": "2026-11-12T20:00Z",
-      "status": "scheduled",
-      "competition": "国際親善試合",
-      "competitionCode": "fifa.friendly",
-      "stage": "2026-international-friendly",
-      "round": "",
-      "home": "uzbekistan",
-      "away": "russia",
-      "homeName": "Uzbekistan",
-      "awayName": "Russia",
-      "homeScore": 0,
-      "awayScore": 0,
-      "venue": "Pakhtakor Markaziy Stadium",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
@@ -49566,6 +49586,26 @@
       "penalties": null
     },
     {
+      "id": "fifa.friendly-401932237",
+      "kickoff": "2026-11-14T16:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "palestine",
+      "away": "iran",
+      "homeName": "Palestine",
+      "awayName": "Iran",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
       "id": "uefa.nations-401861164",
       "kickoff": "2026-11-14T17:00Z",
       "status": "scheduled",
@@ -49700,26 +49740,6 @@
       "homeScore": 0,
       "awayScore": 0,
       "venue": "Friends Arena",
-      "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
-      "penalties": null
-    },
-    {
-      "id": "fifa.friendly-401932237",
-      "kickoff": "2026-11-14T20:00Z",
-      "status": "scheduled",
-      "competition": "国際親善試合",
-      "competitionCode": "fifa.friendly",
-      "stage": "2026-international-friendly",
-      "round": "",
-      "home": "palestine",
-      "away": "iran",
-      "homeName": "Palestine",
-      "awayName": "Iran",
-      "homeScore": 0,
-      "awayScore": 0,
-      "venue": "",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
@@ -50287,7 +50307,7 @@
     },
     {
       "id": "fifa.friendly-401930978",
-      "kickoff": "2026-11-17T17:00Z",
+      "kickoff": "2026-11-17T16:00Z",
       "status": "scheduled",
       "competition": "国際親善試合",
       "competitionCode": "fifa.friendly",
