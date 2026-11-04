@@ -1,116 +1,98 @@
-/* Shared fixed standings header for league and UEFA tables.
- * Render the floating header outside overflow-x containers, while mirroring
- * real cell widths and horizontal scroll offsets. Supports iOS Safari.
+/* Shared viewport-fixed headings for every Match Hub standings table.
+ * Do not use position:sticky inside an overflow-x:auto table wrapper: on iOS
+ * that wrapper becomes the sticky scroll container even when only page scrolls.
+ * Align each floating heading cell directly to its live column coordinates.
  */
-(function initializeStickyStandings() {
-  const SELECTOR = '#championsView .cl-table, #standingsTable table';
-  const bar = document.createElement('div');
-  bar.className = 'sports-sticky-table-heading';
-  bar.setAttribute('aria-hidden', 'true');
-  bar.hidden = true;
-  document.body.appendChild(bar);
-  let current = null, mirror = null, frame = 0;
-
-  const headerBottom = () => {
+(() => {
+  const selector = '#championsView .cl-table, #standingsTable table';
+  const layer = document.createElement('div');
+  layer.className = 'sports-sticky-table-heading';
+  layer.setAttribute('aria-hidden', 'true');
+  layer.hidden = true;
+  document.body.appendChild(layer);
+  let tableShown = null;
+  let raf = 0;
+  const topOfHeader = () => {
     const header = document.querySelector('.football-hub .topbar, .football-hub .sports-header');
-    return Math.max(0, header ? header.getBoundingClientRect().bottom : 0);
+    return Math.max(0, header?.getBoundingClientRect().bottom || 0);
   };
-  const active = element => {
-    for (let node = element; node && node !== document.body; node = node.parentElement) {
-      if (node.hidden || node.classList.contains('hidden')) return false;
-      const style = getComputedStyle(node);
+  const isVisible = element => {
+    for (let el = element; el && el !== document.body; el = el.parentElement) {
+      if (el.hidden || el.classList.contains('hidden')) return false;
+      const style = getComputedStyle(el);
       if (style.display === 'none' || style.visibility === 'hidden') return false;
     }
     return true;
   };
-  const scrollBox = table => {
-    for (let node = table.parentElement; node && node !== document.body; node = node.parentElement) {
-      const style = getComputedStyle(node);
-      if (/(auto|scroll)/.test(style.overflowX)) return node;
+  const horizontalBounds = table => {
+    let box = table.parentElement;
+    while (box && box !== document.body) {
+      if (/(auto|scroll)/.test(getComputedStyle(box).overflowX)) break;
+      box = box.parentElement;
     }
-    return table.parentElement;
+    return (box && box !== document.body ? box : table.parentElement).getBoundingClientRect();
   };
-  function clear() {
-    bar.hidden = true;
-    current = null;
-    mirror = null;
-  }
-  function paint() {
-    const top = headerBottom();
-    const tables = [...document.querySelectorAll(SELECTOR)].filter(t => t.tHead && t.tHead.rows.length && active(t));
-    const table = tables.find(t => {
+  const hide = () => { layer.hidden = true; tableShown = null; };
+  function update() {
+    const top = topOfHeader();
+    const table = [...document.querySelectorAll(selector)].find(t => {
+      if (!isVisible(t) || !t.tHead?.rows?.length) return false;
       const rect = t.getBoundingClientRect();
-      const h = t.tHead.getBoundingClientRect();
-      return rect.width > 0 && rect.height > 0 && h.top < top && rect.bottom > top + h.height;
+      // Switch on as soon as the first table header would pass under the topbar.
+      return rect.width > 0 && rect.height > 0 && rect.top < top && rect.bottom > top + 30;
     });
-    if (!table) return clear();
+    if (!table) return hide();
+    const firstRow = table.tHead.rows[0];
+    const cells = [...firstRow.cells];
+    const rowRect = firstRow.getBoundingClientRect();
+    if (cells.length === 0 || rowRect.height <= 0) return hide();
 
-    const box = scrollBox(table);
-    const boxRect = box.getBoundingClientRect();
-    const rect = table.getBoundingClientRect();
-    const head = table.tHead.getBoundingClientRect();
-    if (current !== table || !mirror) {
-      bar.replaceChildren();
-      mirror = document.createElement('table');
-      mirror.className = table.className + ' sports-sticky-table-heading__table';
-      mirror.setAttribute('role', 'presentation');
-      mirror.appendChild(table.tHead.cloneNode(true));
-      bar.appendChild(mirror);
-      current = table;
+    if (tableShown !== table || layer.childElementCount !== cells.length) {
+      layer.replaceChildren(...cells.map(cell => {
+        const label = document.createElement('span');
+        label.className = 'sports-sticky-table-heading__cell';
+        label.textContent = cell.textContent.trim();
+        return label;
+      }));
+      tableShown = table;
     }
-
-    // Table headers can reflow when data, fonts or browser zoom change.
-    const sourceCells = [...table.tHead.rows[0].cells];
-    const targetCells = [...mirror.tHead.rows[0].cells];
-    if (sourceCells.length !== targetCells.length) {
-      current = null;
-      return paint();
-    }
-    const widths = sourceCells.map(cell => cell.getBoundingClientRect().width);
-    const total = widths.reduce((sum, width) => sum + width, 0);
-    targetCells.forEach((cell, i) => {
-      cell.style.boxSizing = 'border-box';
-      cell.style.width = widths[i] + 'px';
-      cell.style.minWidth = widths[i] + 'px';
-      cell.style.maxWidth = widths[i] + 'px';
-      cell.style.paddingLeft = getComputedStyle(sourceCells[i]).paddingLeft;
-      cell.style.paddingRight = getComputedStyle(sourceCells[i]).paddingRight;
+    const bounds = horizontalBounds(table);
+    const left = Math.max(0, bounds.left);
+    const right = Math.min(window.innerWidth, bounds.right);
+    if (right <= left) return hide();
+    Object.assign(layer.style, {
+      top: top + 'px', left: left + 'px', width: (right - left) + 'px',
+      height: Math.ceil(rowRect.height) + 'px'
     });
-
-    const left = Math.max(0, boxRect.left);
-    const right = Math.min(window.innerWidth, boxRect.right);
-    if (right <= left) return clear();
-    Object.assign(bar.style, {
-      top: top + 'px',
-      left: left + 'px',
-      width: (right - left) + 'px',
-      height: head.height + 'px'
+    cells.forEach((cell, i) => {
+      const rect = cell.getBoundingClientRect();
+      const target = layer.children[i];
+      // Follow both horizontal scrolling and table column widths exactly.
+      target.style.left = (rect.left - left) + 'px';
+      target.style.width = rect.width + 'px';
+      target.style.height = Math.ceil(rowRect.height) + 'px';
+      target.textContent = cell.textContent.trim();
     });
-    // Use source table's actual viewport position, including horizontal scrolling.
-    mirror.style.width = Math.max(total, rect.width) + 'px';
-    mirror.style.minWidth = Math.max(total, rect.width) + 'px';
-    mirror.style.marginLeft = (rect.left - left) + 'px';
-    bar.hidden = false;
+    layer.hidden = false;
   }
-  function schedule() {
-    if (frame) return;
-    frame = requestAnimationFrame(() => { frame = 0; paint(); });
-  }
+  const schedule = () => {
+    if (raf) return;
+    raf = requestAnimationFrame(() => { raf = 0; update(); });
+  };
   const observer = new MutationObserver(schedule);
-  ['#championsView', '#standingsView'].forEach(selector => {
-    const node = document.querySelector(selector);
-    if (node) observer.observe(node, { childList: true, subtree: true, attributes: true, attributeFilter: ['class', 'hidden'] });
-  });
+  for (const id of ['championsView', 'standingsView']) {
+    const root = document.getElementById(id);
+    if (root) observer.observe(root, { childList: true, subtree: true, attributes: true, attributeFilter: ['class', 'hidden'] });
+  }
   window.addEventListener('scroll', schedule, { passive: true });
   window.addEventListener('resize', schedule, { passive: true });
-  window.addEventListener('orientationchange', schedule);
   document.addEventListener('scroll', schedule, { capture: true, passive: true });
-  document.addEventListener('click', schedule, { capture: true });
+  document.addEventListener('click', schedule, true);
   document.addEventListener('change', schedule);
   if (window.visualViewport) {
-    visualViewport.addEventListener('scroll', schedule, { passive: true });
-    visualViewport.addEventListener('resize', schedule, { passive: true });
+    window.visualViewport.addEventListener('scroll', schedule, { passive: true });
+    window.visualViewport.addEventListener('resize', schedule, { passive: true });
   }
-  if (document.fonts?.ready) document.fonts.ready.then(schedule);
+  document.fonts?.ready.then(schedule);
   schedule();
 })();
