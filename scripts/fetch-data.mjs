@@ -30,9 +30,16 @@ async function request(path,attempt=0){const response=await fetch(`${API}${path}
 const teams=[],fixtures=[],standings=[];let season=null;
 for(const league of leagues){
   console.log(`Fetching ${league.name}`);
-  const teamResponse=await request(`/competitions/${league.code}/teams`);
-  const matchResponse=await request(`/competitions/${league.code}/matches`);
-  const standingResponse=await request(`/competitions/${league.code}/standings`);
+  let teamResponse,matchResponse,standingResponse;
+  try {
+    teamResponse=await request(`/competitions/${league.code}/teams`);
+    matchResponse=await request(`/competitions/${league.code}/matches`);
+    standingResponse=await request(`/competitions/${league.code}/standings`);
+  } catch(error) {
+    if(league.code!=='EL')throw error;
+    console.warn(`Europa League unavailable from current API subscription: ${error.message}`);
+    continue;
+  }
   season||=teamResponse.season?.startDate?.slice(0,4)||null;
   for(const team of teamResponse.teams||[])teams.push({id:team.id,name:team.name,shortName:japaneseName(team.name,team.shortName),englishShortName:team.shortName||team.name,tla:team.tla||'',logo:team.crest||'',leagueId:league.id,leagueCode:league.code,color:league.color,venue:team.venue||''});
   for(const match of matchResponse.matches||[])fixtures.push({id:match.id,date:match.utcDate,status:match.status,elapsed:null,competition:match.competition?.name||league.name,competitionJa:league.ja,leagueId:league.id,leagueCode:league.code,stage:match.stage||'',round:roundLabel(match,league),venue:'',home:{id:match.homeTeam.id,name:match.homeTeam.name,shortName:japaneseName(match.homeTeam.name,match.homeTeam.shortName),logo:match.homeTeam.crest||''},away:{id:match.awayTeam.id,name:match.awayTeam.name,shortName:japaneseName(match.awayTeam.name,match.awayTeam.shortName),logo:match.awayTeam.crest||''},goals:{home:match.score?.fullTime?.home??null,away:match.score?.fullTime?.away??null},score:match.score||{},events:[]});
