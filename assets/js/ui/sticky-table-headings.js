@@ -1,86 +1,116 @@
-/* Shared pinned table headers for football standings.
- * A horizontal overflow ancestor prevents CSS sticky from following page scroll on iOS.
- * This shared viewport overlay tracks header, columns and horizontal scroll instead.
+/* Shared fixed standings header for league and UEFA tables.
+ * Render the floating header outside overflow-x containers, while mirroring
+ * real cell widths and horizontal scroll offsets. Supports iOS Safari.
  */
-(function initializeStickyStandings(){
-  const selectors=['#championsView .cl-table','#standingsTable table'];
-  const overlay=document.createElement('div');
-  overlay.className='sports-sticky-table-heading';
-  overlay.setAttribute('aria-hidden','true');
-  overlay.hidden=true;
-  document.body.appendChild(overlay);
-  let activeTable=null,activeHead=null;
-  let frame=0;
-  function schedule(){
-    if(frame)return;
-    frame=requestAnimationFrame(()=>{frame=0;update();});
-  }
-  function visible(table){
-    if(!table||!table.isConnected||!table.tHead||!table.tHead.rows.length)return false;
-    if(table.closest('.hidden,[hidden]'))return false;
-    if(getComputedStyle(table).display==='none')return false;
-    const rect=table.getBoundingClientRect();
-    return rect.width>0&&rect.height>0;
-  }
-  function horizontalContainer(table){
-    let el=table.parentElement;
-    while(el&&el!==document.body){
-      const overflow=getComputedStyle(el).overflowX;
-      if((overflow==='auto'||overflow==='scroll')&&el.scrollWidth>el.clientWidth+1)return el;
-      el=el.parentElement;
+(function initializeStickyStandings() {
+  const SELECTOR = '#championsView .cl-table, #standingsTable table';
+  const bar = document.createElement('div');
+  bar.className = 'sports-sticky-table-heading';
+  bar.setAttribute('aria-hidden', 'true');
+  bar.hidden = true;
+  document.body.appendChild(bar);
+  let current = null, mirror = null, frame = 0;
+
+  const headerBottom = () => {
+    const header = document.querySelector('.football-hub .topbar, .football-hub .sports-header');
+    return Math.max(0, header ? header.getBoundingClientRect().bottom : 0);
+  };
+  const active = element => {
+    for (let node = element; node && node !== document.body; node = node.parentElement) {
+      if (node.hidden || node.classList.contains('hidden')) return false;
+      const style = getComputedStyle(node);
+      if (style.display === 'none' || style.visibility === 'hidden') return false;
+    }
+    return true;
+  };
+  const scrollBox = table => {
+    for (let node = table.parentElement; node && node !== document.body; node = node.parentElement) {
+      const style = getComputedStyle(node);
+      if (/(auto|scroll)/.test(style.overflowX)) return node;
     }
     return table.parentElement;
+  };
+  function clear() {
+    bar.hidden = true;
+    current = null;
+    mirror = null;
   }
-  function hide(){overlay.hidden=true;activeTable=null;activeHead=null;}
-  function update(){
-    const topbar=document.querySelector('.football-hub .topbar,.football-hub .sports-header');
-    const top=Math.max(0,topbar?.getBoundingClientRect().bottom||0);
-    const table=selectors.flatMap(selector=>[...document.querySelectorAll(selector)])
-      .find(candidate=>{
-        if(!visible(candidate))return false;
-        const r=candidate.getBoundingClientRect(),head=candidate.tHead.getBoundingClientRect();
-        return head.bottom<=top+1&&r.bottom>top+head.height+1;
-      });
-    if(!table){hide();return;}
-    const wrap=horizontalContainer(table);
-    const wr=wrap.getBoundingClientRect(),tr=table.getBoundingClientRect();
-    const head=table.tHead,headHeight=head.getBoundingClientRect().height;
-    if(table!==activeTable||head!==activeHead){
-      overlay.replaceChildren();
-      const mirror=document.createElement('table');
-      mirror.className=table.className;
-      mirror.appendChild(head.cloneNode(true));
-      overlay.appendChild(mirror);
-      activeTable=table;activeHead=head;
-    }
-    const mirror=overlay.firstElementChild;
-    const originalCells=[...head.rows[0].cells],mirrorCells=[...mirror.tHead.rows[0].cells];
-    originalCells.forEach((cell,i)=>{
-      if(!mirrorCells[i])return;
-      const w=cell.getBoundingClientRect().width;
-      mirrorCells[i].style.width=w+'px';
-      mirrorCells[i].style.minWidth=w+'px';
-      mirrorCells[i].style.maxWidth=w+'px';
-      mirrorCells[i].style.boxSizing='border-box';
+  function paint() {
+    const top = headerBottom();
+    const tables = [...document.querySelectorAll(SELECTOR)].filter(t => t.tHead && t.tHead.rows.length && active(t));
+    const table = tables.find(t => {
+      const rect = t.getBoundingClientRect();
+      const h = t.tHead.getBoundingClientRect();
+      return rect.width > 0 && rect.height > 0 && h.top < top && rect.bottom > top + h.height;
     });
-    overlay.style.top=top+'px';
-    overlay.style.left=Math.max(0,wr.left)+'px';
-    overlay.style.width=Math.min(wr.width,window.innerWidth-Math.max(0,wr.left))+'px';
-    overlay.style.height=headHeight+'px';
-    mirror.style.width=tr.width+'px';
-    mirror.style.minWidth=tr.width+'px';
-    mirror.style.marginLeft=(tr.left-Math.max(0,wr.left))+'px';
-    overlay.hidden=false;
+    if (!table) return clear();
+
+    const box = scrollBox(table);
+    const boxRect = box.getBoundingClientRect();
+    const rect = table.getBoundingClientRect();
+    const head = table.tHead.getBoundingClientRect();
+    if (current !== table || !mirror) {
+      bar.replaceChildren();
+      mirror = document.createElement('table');
+      mirror.className = table.className + ' sports-sticky-table-heading__table';
+      mirror.setAttribute('role', 'presentation');
+      mirror.appendChild(table.tHead.cloneNode(true));
+      bar.appendChild(mirror);
+      current = table;
+    }
+
+    // Table headers can reflow when data, fonts or browser zoom change.
+    const sourceCells = [...table.tHead.rows[0].cells];
+    const targetCells = [...mirror.tHead.rows[0].cells];
+    if (sourceCells.length !== targetCells.length) {
+      current = null;
+      return paint();
+    }
+    const widths = sourceCells.map(cell => cell.getBoundingClientRect().width);
+    const total = widths.reduce((sum, width) => sum + width, 0);
+    targetCells.forEach((cell, i) => {
+      cell.style.boxSizing = 'border-box';
+      cell.style.width = widths[i] + 'px';
+      cell.style.minWidth = widths[i] + 'px';
+      cell.style.maxWidth = widths[i] + 'px';
+      cell.style.paddingLeft = getComputedStyle(sourceCells[i]).paddingLeft;
+      cell.style.paddingRight = getComputedStyle(sourceCells[i]).paddingRight;
+    });
+
+    const left = Math.max(0, boxRect.left);
+    const right = Math.min(window.innerWidth, boxRect.right);
+    if (right <= left) return clear();
+    Object.assign(bar.style, {
+      top: top + 'px',
+      left: left + 'px',
+      width: (right - left) + 'px',
+      height: head.height + 'px'
+    });
+    // Use source table's actual viewport position, including horizontal scrolling.
+    mirror.style.width = Math.max(total, rect.width) + 'px';
+    mirror.style.minWidth = Math.max(total, rect.width) + 'px';
+    mirror.style.marginLeft = (rect.left - left) + 'px';
+    bar.hidden = false;
   }
-  const observer=new MutationObserver(schedule);
-  ['#championsView','#standingsTable'].forEach(selector=>{
-    const root=document.querySelector(selector);
-    if(root)observer.observe(root,{subtree:true,childList:true,attributes:true,attributeFilter:['class','hidden']});
+  function schedule() {
+    if (frame) return;
+    frame = requestAnimationFrame(() => { frame = 0; paint(); });
+  }
+  const observer = new MutationObserver(schedule);
+  ['#championsView', '#standingsView'].forEach(selector => {
+    const node = document.querySelector(selector);
+    if (node) observer.observe(node, { childList: true, subtree: true, attributes: true, attributeFilter: ['class', 'hidden'] });
   });
-  window.addEventListener('scroll',schedule,{passive:true});
-  window.addEventListener('resize',schedule,{passive:true});
-  document.addEventListener('scroll',schedule,{capture:true,passive:true});
-  document.addEventListener('click',schedule);
-  if(document.fonts?.ready)document.fonts.ready.then(schedule);
+  window.addEventListener('scroll', schedule, { passive: true });
+  window.addEventListener('resize', schedule, { passive: true });
+  window.addEventListener('orientationchange', schedule);
+  document.addEventListener('scroll', schedule, { capture: true, passive: true });
+  document.addEventListener('click', schedule, { capture: true });
+  document.addEventListener('change', schedule);
+  if (window.visualViewport) {
+    visualViewport.addEventListener('scroll', schedule, { passive: true });
+    visualViewport.addEventListener('resize', schedule, { passive: true });
+  }
+  if (document.fonts?.ready) document.fonts.ready.then(schedule);
   schedule();
 })();
