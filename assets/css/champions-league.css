@@ -6,3 +6,8 @@
 .football-hub .sports-sticky-table-heading table{border-collapse:collapse;table-layout:fixed;border-spacing:0;max-width:none;}
 .football-hub .sports-sticky-table-heading thead{background:var(--panel,#151f31);}
 .football-hub .sports-sticky-table-heading th{background:var(--panel,#151f31);color:var(--text);white-space:nowrap;}
+
+/* The clone is fixed to the viewport; it must not inherit table overflow sizing. */
+.football-hub .sports-sticky-table-heading{box-sizing:border-box;display:block;isolation:isolate;}
+.football-hub .sports-sticky-table-heading__table{margin-top:0!important;table-layout:fixed;border-spacing:0;}
+.football-hub .sports-sticky-table-heading__table thead tr{background:var(--panel,#151f31);}
