@@ -11,7 +11,7 @@ if (!document.querySelector('link[data-calendar-league-filter]')) {
   document.head.appendChild(link);
 }
 const releaseBadge = document.querySelector('.version');
-if (releaseBadge) releaseBadge.textContent = 'v1.1.28';
+if (releaseBadge) releaseBadge.textContent = 'v1.1.31';
 
 (function initializeMatchHubCalendar(namespace) {
   if (document.body.dataset.hub !== 'five' || namespace.calendars?.five) return;
@@ -46,7 +46,9 @@ if (releaseBadge) releaseBadge.textContent = 'v1.1.28';
     '140': 'ラ・リーガ',
     '135': 'セリエA',
     '78': 'ブンデスリーガ',
-    '61': 'リーグ・アン'
+    '61': 'リーグ・アン',
+    '2': 'CL',
+    '2146': 'EL'
   };
   let selectedLeague = 'all';
   let matchScope = 'day';
@@ -60,7 +62,7 @@ if (releaseBadge) releaseBadge.textContent = 'v1.1.28';
   };
 
   const leagueIdOf = match => String(match?.leagueId ?? match?.competitionId ?? 'other');
-  const leagueLabelOf = match => match?.competitionJa || leagueLabels[leagueIdOf(match)] || match?.competition || 'その他';
+  const leagueLabelOf = match => leagueLabels[leagueIdOf(match)] || match?.competitionJa || match?.competition || 'その他';
 
   const renderLeagueFilters = selected => {
     const groups = new Map();
