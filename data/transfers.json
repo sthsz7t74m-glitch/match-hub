@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-11-05T01:31:22.932Z",
+  "updatedAt": "2026-11-05T11:12:12.185Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cmjweqpv8vj1o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Kane signs new Bayern contract",
+      "titleJa": "移籍情報：Kane signs new Bayern contract",
+      "from": "",
+      "to": "",
+      "summaryJa": "Kane signs new Bayern contract移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Kane signs new Bayern contract",
+      "summary": "England captain Harry Kane signs a new deal with Bayern Munich that runs until 2029.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmjweqpv8vj1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T08:39:18.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cwkgjv582vj0o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -20,21 +35,6 @@
       "date": "2026-11-04T21:41:04.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cq146dnrn541o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Real Madrid reach verbal agreement to sign Gabriel",
-      "titleJa": "移籍情報：Real Madrid reach verbal agreement to sign Gabriel",
-      "from": "",
-      "to": "",
-      "summaryJa": "Real Madrid reach verbal agreement to sign Gabriel移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Real Madrid reach verbal agreement to sign Gabriel",
-      "summary": "Real Madrid are confident of winning the race to sign Manchester United forward JJ Gabriel after reaching a verbal agreement with the teenager.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq146dnrn541o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T11:49:23.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/videos/cq5ynd70vlx3o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Everton hold off Newcastle to move into seventh",
@@ -48,6 +48,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cq5ynd70vlx3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T22:44:30.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cq146dnrn541o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Real Madrid reach verbal agreement to sign Gabriel",
+      "titleJa": "移籍情報：Real Madrid reach verbal agreement to sign Gabriel",
+      "from": "",
+      "to": "",
+      "summaryJa": "Real Madrid reach verbal agreement to sign Gabriel移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Real Madrid reach verbal agreement to sign Gabriel",
+      "summary": "Real Madrid are confident of winning the race to sign Manchester United forward JJ Gabriel after reaching a verbal agreement with the teenager.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq146dnrn541o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T11:49:23.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/articles/cmy56zekeneqo?at_medium=RSS&at_campaign=rss",
@@ -78,36 +93,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwly45r47917o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T16:38:41.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cjvgxyn49rq4o?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "Ex-Burnley striker Rodriguez announces retirement",
-      "titleJa": "移籍情報：Ex-Burnley striker Rodriguez announces retirement",
-      "from": "",
-      "to": "",
-      "summaryJa": "Ex-Burnley striker Rodriguez announces retirement移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "Ex-Burnley striker Rodriguez announces retirement",
-      "summary": "Former Burnley striker Jay Rodriguez announces his retirement from playing career.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cjvgxyn49rq4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T17:28:52.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cmp8g4jy2pgpo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "What are rules on loan players in Champions League?",
-      "titleJa": "移籍情報：What are rules on loan players in Champions League?",
-      "from": "",
-      "to": "",
-      "summaryJa": "What are rules on loan players in Champions League?移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "What are rules on loan players in Champions League?",
-      "summary": "BBC Sport's Ask Me Anything team explains the Champions League rules on loan players facing their parent clubs",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmp8g4jy2pgpo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T16:02:08.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c8dx37n11kv2o?at_medium=RSS&at_campaign=rss",
@@ -183,6 +168,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwly45r47917o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T16:38:41.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c699zd2g5343o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Ferguson harbours Rangers ambition - gossip",
+      "titleJa": "移籍情報：Ferguson harbours Rangers ambition - gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Ferguson harbours Rangers ambition - gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Ferguson harbours Rangers ambition - gossip",
+      "summary": "Midfielder expects Rangers move one day as Celtic willing to sell right-back.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c699zd2g5343o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T07:27:38.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c8dx37gxzvgyo?at_medium=RSS&at_campaign=rss",
