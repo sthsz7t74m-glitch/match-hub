@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T09:35:30.690Z",
+  "updatedAt": "2026-11-05T09:41:55.818Z",
   "dataSource": "ESPN (J1) + J.LEAGUE official site (J2/J3)",
   "sourceDetails": {
     "j1": "ESPN scoreboard / standings",
@@ -47,13 +47,12 @@
       "j2": 20,
       "j3": 20
     },
-    "officialLogos": 39,
+    "officialLogos": 40,
     "officialVenues": 39
   },
   "errors": [
     "j1 scoreboard: https://site.api.espn.com/apis/site/v2/sports/soccer/jpn.1/scoreboard?dates=20260101-20261231&limit=1000: HTTP 400: {\"code\":400,\"message\":\"Failed to get events endpoint.\"}",
-    "fc-osaka profile(osaka): The operation was aborted due to timeout",
-    "fc-osaka profile(fc-osaka): The operation was aborted due to timeout"
+    "fc-osaka profile(osaka): The operation was aborted due to timeout"
   ],
   "teams": [
     {
@@ -602,7 +601,8 @@
       "name": "FC大阪",
       "shortName": "FC大阪",
       "area": "大阪",
-      "officialSlug": "osaka"
+      "officialSlug": "fc-osaka",
+      "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
     },
     {
       "id": "nara",
@@ -1221,7 +1221,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
         "home": null,
@@ -2383,7 +2384,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
         "id": "nagano",
@@ -2617,7 +2619,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
         "id": "ryukyu",
@@ -4412,7 +4415,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
         "home": null,
@@ -4551,7 +4555,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
         "home": null,
@@ -6324,7 +6329,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
         "id": "ehime",
@@ -6416,7 +6422,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
         "id": "fukushima",
@@ -8117,7 +8124,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
         "home": null,
@@ -8726,7 +8734,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
         "home": null,
@@ -9185,7 +9194,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
         "id": "kanazawa",
@@ -10557,7 +10567,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
         "home": null,
@@ -11766,7 +11777,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
         "id": "nara",
@@ -12187,7 +12199,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
         "id": "kagoshima",
@@ -13512,7 +13525,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
         "home": null,
@@ -13875,7 +13889,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
         "id": "kumamoto",
@@ -15153,7 +15168,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
         "home": null,
@@ -16655,7 +16671,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
         "home": null,
@@ -17582,7 +17599,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
         "id": "sanuki",
@@ -18379,7 +18397,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
         "id": "tochigi-sc",
@@ -18717,7 +18736,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
         "home": null,
@@ -20172,7 +20192,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
         "home": null,
@@ -20442,7 +20463,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
         "id": "sagamihara",
@@ -21202,7 +21224,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
         "id": "kitakyushu",
@@ -23080,7 +23103,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
         "home": null,
@@ -23979,7 +24003,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
         "id": "yamaguchi",
@@ -25188,7 +25213,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
         "home": null,
@@ -25703,7 +25729,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
         "home": null,
@@ -26881,7 +26908,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
         "id": "gunma",
@@ -27658,7 +27686,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
         "home": null,
@@ -28749,7 +28778,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
         "id": "shiga",
@@ -29958,7 +29988,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
         "home": null,
@@ -30617,7 +30648,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
         "id": "tottori",
@@ -31682,7 +31714,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
         "home": null,
@@ -32519,7 +32552,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
         "id": "matsumoto",
@@ -33674,7 +33708,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
         "home": null,
@@ -34415,7 +34450,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
         "id": "gifu",
@@ -35378,7 +35414,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
         "home": null,
@@ -36358,7 +36395,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
         "id": "kochi",
@@ -37731,7 +37769,8 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka"
+        "officialSlug": "fc-osaka",
+        "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "played": 15,
       "win": 7,
