@@ -1,8 +1,13 @@
 {
-  "updatedAt": "2026-11-04T09:47:54.529Z",
+  "updatedAt": "2026-11-05T09:48:58.623Z",
   "source": "ESPN multi-competition annual adapter",
   "competitionCount": 15,
   "competitions": [
+    {
+      "code": "fifa.worldq.uefa",
+      "name": "W杯欧州予選",
+      "count": 204
+    },
     {
       "code": "fifa.world",
       "name": "FIFAワールドカップ",
@@ -14,24 +19,14 @@
       "count": 60
     },
     {
-      "code": "fifa.worldq.uefa",
-      "name": "W杯欧州予選",
-      "count": 204
-    },
-    {
       "code": "fifa.worldq.concacaf",
       "name": "W杯北中米予選",
       "count": 100
     },
     {
-      "code": "fifa.worldq.ofc",
-      "name": "W杯オセアニア予選",
-      "count": 18
-    },
-    {
-      "code": "fifa.worldq.afc",
-      "name": "W杯アジア予選",
-      "count": 170
+      "code": "fifa.worldq.caf",
+      "name": "W杯アフリカ予選",
+      "count": 219
     },
     {
       "code": "uefa.euro",
@@ -39,9 +34,14 @@
       "count": 51
     },
     {
-      "code": "fifa.worldq.caf",
-      "name": "W杯アフリカ予選",
-      "count": 219
+      "code": "fifa.worldq.afc",
+      "name": "W杯アジア予選",
+      "count": 170
+    },
+    {
+      "code": "fifa.worldq.ofc",
+      "name": "W杯オセアニア予選",
+      "count": 18
     },
     {
       "code": "afc.asian.cup",
@@ -54,14 +54,14 @@
       "count": 31
     },
     {
-      "code": "conmebol.america",
-      "name": "コパ・アメリカ",
-      "count": 32
-    },
-    {
       "code": "uefa.nations",
       "name": "UEFAネーションズリーグ",
       "count": 346
+    },
+    {
+      "code": "conmebol.america",
+      "name": "コパ・アメリカ",
+      "count": 32
     },
     {
       "code": "caf.nations",
@@ -82,17 +82,17 @@
   "skippedCompetitions": [
     {
       "code": "conmebol.copa_america",
+      "year": 2026,
+      "reason": "HTTP 400"
+    },
+    {
+      "code": "conmebol.copa_america",
       "year": 2025,
       "reason": "HTTP 400"
     },
     {
       "code": "conmebol.copa_america",
       "year": 2027,
-      "reason": "HTTP 400"
-    },
-    {
-      "code": "conmebol.copa_america",
-      "year": 2026,
       "reason": "HTTP 400"
     },
     {
@@ -49366,26 +49366,6 @@
       "penalties": null
     },
     {
-      "id": "fifa.friendly-401930876",
-      "kickoff": "2026-11-13T20:00Z",
-      "status": "scheduled",
-      "competition": "国際親善試合",
-      "competitionCode": "fifa.friendly",
-      "stage": "2026-international-friendly",
-      "round": "",
-      "home": "argentina",
-      "away": "uruguay",
-      "homeName": "Argentina",
-      "awayName": "Uruguay",
-      "homeScore": 0,
-      "awayScore": 0,
-      "venue": "Alberto José Armando (La Bombonera)",
-      "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
-      "penalties": null
-    },
-    {
       "id": "fifa.friendly-401919975",
       "kickoff": "2026-11-13T20:00Z",
       "status": "scheduled",
@@ -49420,6 +49400,26 @@
       "homeScore": 0,
       "awayScore": 0,
       "venue": "Mohammed bin Zayed Stadium",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
+      "id": "fifa.friendly-401930876",
+      "kickoff": "2026-11-13T23:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "argentina",
+      "away": "uruguay",
+      "homeName": "Argentina",
+      "awayName": "Uruguay",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Alberto José Armando (La Bombonera)",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
