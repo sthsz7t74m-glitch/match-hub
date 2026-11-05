@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T22:54:23.177Z",
+  "updatedAt": "2026-11-05T02:35:39.370Z",
   "season": "2026",
   "dataSource": "football-data.org",
   "dataMode": "current-free-plan",
@@ -1764,7 +1764,7 @@
       "name": "Ararat-Armenia",
       "shortName": "Ararat-Armenia",
       "englishShortName": "Ararat-Armenia",
-      "logo": "",
+      "logo": "https://assets.footylogos.com/previews/fc-ararat-armenia/fc-ararat-armenia-logo-footylogos-320.webp",
       "leagueId": 2146,
       "leagueCode": "EL",
       "color": "#ea580c",
@@ -1778,7 +1778,7 @@
       "name": "Sparta Praha",
       "shortName": "Sparta Praha",
       "englishShortName": "Sparta Praha",
-      "logo": "",
+      "logo": "https://assets.footylogos.com/previews/sparta-praha/sparta-praha-logo-footylogos-320.webp",
       "leagueId": 2146,
       "leagueCode": "EL",
       "color": "#ea580c",
@@ -1792,7 +1792,7 @@
       "name": "Omonia",
       "shortName": "Omonia",
       "englishShortName": "Omonia",
-      "logo": "",
+      "logo": "https://assets.footylogos.com/previews/ac-omonia-nicosia/ac-omonia-nicosia-logo-footylogos-320.webp",
       "leagueId": 2146,
       "leagueCode": "EL",
       "color": "#ea580c",
@@ -1806,7 +1806,7 @@
       "name": "Benfica",
       "shortName": "Benfica",
       "englishShortName": "Benfica",
-      "logo": "",
+      "logo": "https://assets.footylogos.com/previews/sl-benfica/sl-benfica-logo-footylogos-320.webp",
       "leagueId": 2146,
       "leagueCode": "EL",
       "color": "#ea580c",
@@ -1820,7 +1820,7 @@
       "name": "Celje",
       "shortName": "Celje",
       "englishShortName": "Celje",
-      "logo": "",
+      "logo": "https://assets.footylogos.com/previews/nk-celje/nk-celje-logo-footylogos-320.webp",
       "leagueId": 2146,
       "leagueCode": "EL",
       "color": "#ea580c",
@@ -1834,7 +1834,7 @@
       "name": "Hapoel Beer-Sheva",
       "shortName": "Hapoel Beer-Sheva",
       "englishShortName": "Hapoel Beer-Sheva",
-      "logo": "",
+      "logo": "https://assets.footylogos.com/previews/hapoel-beer-sheva/hapoel-beer-sheva-logo-footylogos-320.webp",
       "leagueId": 2146,
       "leagueCode": "EL",
       "color": "#ea580c",
@@ -1848,7 +1848,7 @@
       "name": "GNK Dinamo",
       "shortName": "GNK Dinamo",
       "englishShortName": "GNK Dinamo",
-      "logo": "",
+      "logo": "https://assets.footylogos.com/previews/gnk-dinamo-zagreb/gnk-dinamo-zagreb-logo-footylogos-320.webp",
       "leagueId": 2146,
       "leagueCode": "EL",
       "color": "#ea580c",
@@ -1862,7 +1862,7 @@
       "name": "Olympiacos",
       "shortName": "Olympiacos",
       "englishShortName": "Olympiacos",
-      "logo": "",
+      "logo": "https://assets.footylogos.com/previews/olympiacos/olympiacos-logo-footylogos-320.webp",
       "leagueId": 2146,
       "leagueCode": "EL",
       "color": "#ea580c",
@@ -1876,7 +1876,7 @@
       "name": "Jagiellonia",
       "shortName": "Jagiellonia",
       "englishShortName": "Jagiellonia",
-      "logo": "",
+      "logo": "https://assets.footylogos.com/previews/jagiellonia-bialystok/jagiellonia-bialystok-logo-footylogos-320.webp",
       "leagueId": 2146,
       "leagueCode": "EL",
       "color": "#ea580c",
@@ -1890,7 +1890,7 @@
       "name": "Anderlecht",
       "shortName": "Anderlecht",
       "englishShortName": "Anderlecht",
-      "logo": "",
+      "logo": "https://assets.footylogos.com/previews/rsc-anderlecht/rsc-anderlecht-logo-footylogos-320.webp",
       "leagueId": 2146,
       "leagueCode": "EL",
       "color": "#ea580c",
@@ -1904,7 +1904,7 @@
       "name": "Sturm Graz",
       "shortName": "Sturm Graz",
       "englishShortName": "Sturm Graz",
-      "logo": "",
+      "logo": "https://assets.footylogos.com/previews/sk-sturm-graz/sk-sturm-graz-logo-footylogos-320.webp",
       "leagueId": 2146,
       "leagueCode": "EL",
       "color": "#ea580c",
@@ -1918,7 +1918,7 @@
       "name": "Rennes",
       "shortName": "Rennes",
       "englishShortName": "Rennes",
-      "logo": "",
+      "logo": "https://assets.footylogos.com/previews/stade-rennais/stade-rennais-logo-footylogos-320.webp",
       "leagueId": 2146,
       "leagueCode": "EL",
       "color": "#ea580c",
@@ -1932,7 +1932,7 @@
       "name": "AZ Alkmaar",
       "shortName": "AZ Alkmaar",
       "englishShortName": "AZ Alkmaar",
-      "logo": "",
+      "logo": "https://assets.footylogos.com/previews/az-alkmaar/az-alkmaar-logo-footylogos-320.webp",
       "leagueId": 2146,
       "leagueCode": "EL",
       "color": "#ea580c",
@@ -1946,7 +1946,7 @@
       "name": "OFI Crete",
       "shortName": "OFI Crete",
       "englishShortName": "OFI Crete",
-      "logo": "",
+      "logo": "https://assets.footylogos.com/previews/ofi-crete/ofi-crete-logo-footylogos-320.webp",
       "leagueId": 2146,
       "leagueCode": "EL",
       "color": "#ea580c",
@@ -1960,7 +1960,7 @@
       "name": "Levski Sofia",
       "shortName": "Levski Sofia",
       "englishShortName": "Levski Sofia",
-      "logo": "",
+      "logo": "https://assets.footylogos.com/previews/levski-sofia/levski-sofia-logo-footylogos-320.webp",
       "leagueId": 2146,
       "leagueCode": "EL",
       "color": "#ea580c",
@@ -1974,7 +1974,7 @@
       "name": "Salzburg",
       "shortName": "Salzburg",
       "englishShortName": "Salzburg",
-      "logo": "",
+      "logo": "https://assets.footylogos.com/previews/red-bull-salzburg/red-bull-salzburg-logo-footylogos-320.webp",
       "leagueId": 2146,
       "leagueCode": "EL",
       "color": "#ea580c",
@@ -1988,7 +1988,7 @@
       "name": "Beşiktaş",
       "shortName": "Beşiktaş",
       "englishShortName": "Beşiktaş",
-      "logo": "",
+      "logo": "https://assets.footylogos.com/previews/besiktas/besiktas-logo-footylogos-320.webp",
       "leagueId": 2146,
       "leagueCode": "EL",
       "color": "#ea580c",
@@ -2002,7 +2002,7 @@
       "name": "Celtic",
       "shortName": "Celtic",
       "englishShortName": "Celtic",
-      "logo": "",
+      "logo": "https://assets.footylogos.com/previews/celtic/celtic-logo-footylogos-320.webp",
       "leagueId": 2146,
       "leagueCode": "EL",
       "color": "#ea580c",
@@ -2016,7 +2016,7 @@
       "name": "Ferencváros",
       "shortName": "Ferencváros",
       "englishShortName": "Ferencváros",
-      "logo": "",
+      "logo": "https://assets.footylogos.com/previews/ferencvaros-tc/ferencvaros-tc-logo-footylogos-320.webp",
       "leagueId": 2146,
       "leagueCode": "EL",
       "color": "#ea580c",
@@ -2030,7 +2030,7 @@
       "name": "Lech Poznań",
       "shortName": "Lech Poznań",
       "englishShortName": "Lech Poznań",
-      "logo": "",
+      "logo": "https://assets.footylogos.com/previews/lech-poznan/lech-poznan-logo-footylogos-320.webp",
       "leagueId": 2146,
       "leagueCode": "EL",
       "color": "#ea580c",
@@ -2044,7 +2044,7 @@
       "name": "Viktoria Plzeň",
       "shortName": "Viktoria Plzeň",
       "englishShortName": "Viktoria Plzeň",
-      "logo": "",
+      "logo": "https://assets.footylogos.com/previews/viktoria-plzen/viktoria-plzen-logo-footylogos-320.webp",
       "leagueId": 2146,
       "leagueCode": "EL",
       "color": "#ea580c",
@@ -2058,7 +2058,7 @@
       "name": "Union SG",
       "shortName": "Union SG",
       "englishShortName": "Union SG",
-      "logo": "",
+      "logo": "https://assets.footylogos.com/previews/union-saint-gilloise/union-saint-gilloise-logo-footylogos-320.webp",
       "leagueId": 2146,
       "leagueCode": "EL",
       "color": "#ea580c",
@@ -2072,7 +2072,7 @@
       "name": "N.E.C. Nijmegen",
       "shortName": "N.E.C. Nijmegen",
       "englishShortName": "N.E.C. Nijmegen",
-      "logo": "",
+      "logo": "https://assets.footylogos.com/previews/nec-nijmegen/nec-nijmegen-logo-footylogos-320.webp",
       "leagueId": 2146,
       "leagueCode": "EL",
       "color": "#ea580c",
@@ -2086,7 +2086,7 @@
       "name": "Lillestrøm",
       "shortName": "Lillestrøm",
       "englishShortName": "Lillestrøm",
-      "logo": "",
+      "logo": "https://assets.footylogos.com/previews/lillestrom-sk/lillestrom-sk-logo-footylogos-320.webp",
       "leagueId": 2146,
       "leagueCode": "EL",
       "color": "#ea580c",
@@ -2100,7 +2100,7 @@
       "name": "Torreense",
       "shortName": "Torreense",
       "englishShortName": "Torreense",
-      "logo": "",
+      "logo": "https://assets.footylogos.com/previews/scu-torreense/scu-torreense-logo-footylogos-320.webp",
       "leagueId": 2146,
       "leagueCode": "EL",
       "color": "#ea580c",
@@ -11158,13 +11158,15 @@
         "id": 900000,
         "name": "Ararat-Armenia",
         "shortName": "Ararat-Armenia",
-        "logo": ""
+        "snapshotName": "Ararat-Armenia",
+        "logo": "https://assets.footylogos.com/previews/fc-ararat-armenia/fc-ararat-armenia-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900001,
         "name": "Sparta Praha",
         "shortName": "Sparta Praha",
-        "logo": ""
+        "snapshotName": "Sparta Praha",
+        "logo": "https://assets.footylogos.com/previews/sparta-praha/sparta-praha-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 1,
@@ -11191,12 +11193,14 @@
         "id": 900002,
         "name": "Omonia",
         "shortName": "Omonia",
-        "logo": ""
+        "snapshotName": "Omonia",
+        "logo": "https://assets.footylogos.com/previews/ac-omonia-nicosia/ac-omonia-nicosia-logo-footylogos-320.webp"
       },
       "away": {
         "id": 558,
         "name": "RC Celta de Vigo",
         "shortName": "RC Celta de Vigo",
+        "snapshotName": "Celta",
         "logo": "https://crests.football-data.org/558.png"
       },
       "goals": {
@@ -11224,13 +11228,15 @@
         "id": 98,
         "name": "AC Milan",
         "shortName": "ACミラン",
+        "snapshotName": "Milan",
         "logo": "https://crests.football-data.org/98.png"
       },
       "away": {
         "id": 900005,
         "name": "Benfica",
         "shortName": "Benfica",
-        "logo": ""
+        "snapshotName": "Benfica",
+        "logo": "https://assets.footylogos.com/previews/sl-benfica/sl-benfica-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 0,
@@ -11257,13 +11263,15 @@
         "id": 3,
         "name": "Bayer 04 Leverkusen",
         "shortName": "Bayer 04 Leverkusen",
+        "snapshotName": "Leverkusen",
         "logo": "https://crests.football-data.org/3.png"
       },
       "away": {
         "id": 900007,
         "name": "Celje",
         "shortName": "Celje",
-        "logo": ""
+        "snapshotName": "Celje",
+        "logo": "https://assets.footylogos.com/previews/nk-celje/nk-celje-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 2,
@@ -11290,13 +11298,15 @@
         "id": 900008,
         "name": "Hapoel Beer-Sheva",
         "shortName": "Hapoel Beer-Sheva",
-        "logo": ""
+        "snapshotName": "Hapoel Beer-Sheva",
+        "logo": "https://assets.footylogos.com/previews/hapoel-beer-sheva/hapoel-beer-sheva-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900009,
         "name": "GNK Dinamo",
         "shortName": "GNK Dinamo",
-        "logo": ""
+        "snapshotName": "GNK Dinamo",
+        "logo": "https://assets.footylogos.com/previews/gnk-dinamo-zagreb/gnk-dinamo-zagreb-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 0,
@@ -11323,13 +11333,15 @@
         "id": 900010,
         "name": "Olympiacos",
         "shortName": "Olympiacos",
-        "logo": ""
+        "snapshotName": "Olympiacos",
+        "logo": "https://assets.footylogos.com/previews/olympiacos/olympiacos-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900011,
         "name": "Jagiellonia",
         "shortName": "Jagiellonia",
-        "logo": ""
+        "snapshotName": "Jagiellonia",
+        "logo": "https://assets.footylogos.com/previews/jagiellonia-bialystok/jagiellonia-bialystok-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 2,
@@ -11356,12 +11368,14 @@
         "id": 900012,
         "name": "Anderlecht",
         "shortName": "Anderlecht",
-        "logo": ""
+        "snapshotName": "Anderlecht",
+        "logo": "https://assets.footylogos.com/previews/rsc-anderlecht/rsc-anderlecht-logo-footylogos-320.webp"
       },
       "away": {
         "id": 523,
         "name": "Olympique Lyonnais",
         "shortName": "リヨン",
+        "snapshotName": "Lyon",
         "logo": "https://crests.football-data.org/523.png"
       },
       "goals": {
@@ -11389,13 +11403,15 @@
         "id": 900014,
         "name": "Sturm Graz",
         "shortName": "Sturm Graz",
-        "logo": ""
+        "snapshotName": "Sturm Graz",
+        "logo": "https://assets.footylogos.com/previews/sk-sturm-graz/sk-sturm-graz-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900015,
         "name": "Rennes",
         "shortName": "Rennes",
-        "logo": ""
+        "snapshotName": "Rennes",
+        "logo": "https://assets.footylogos.com/previews/stade-rennais/stade-rennais-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 0,
@@ -11422,13 +11438,15 @@
         "id": 71,
         "name": "Sunderland AFC",
         "shortName": "サンダーランド",
+        "snapshotName": "Sunderland",
         "logo": "https://crests.football-data.org/71.png"
       },
       "away": {
         "id": 900017,
         "name": "AZ Alkmaar",
         "shortName": "AZ Alkmaar",
-        "logo": ""
+        "snapshotName": "AZ Alkmaar",
+        "logo": "https://assets.footylogos.com/previews/az-alkmaar/az-alkmaar-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 1,
@@ -11581,12 +11599,14 @@
         "id": 900018,
         "name": "OFI Crete",
         "shortName": "OFI Crete",
-        "logo": ""
+        "snapshotName": "OFI Crete",
+        "logo": "https://assets.footylogos.com/previews/ofi-crete/ofi-crete-logo-footylogos-320.webp"
       },
       "away": {
         "id": 2,
         "name": "TSG 1899 Hoffenheim",
         "shortName": "ホッフェンハイム",
+        "snapshotName": "Hoffenheim",
         "logo": "https://crests.football-data.org/2.png"
       },
       "goals": {
@@ -11614,13 +11634,15 @@
         "id": 900020,
         "name": "Levski Sofia",
         "shortName": "Levski Sofia",
-        "logo": ""
+        "snapshotName": "Levski Sofia",
+        "logo": "https://assets.footylogos.com/previews/levski-sofia/levski-sofia-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900021,
         "name": "Salzburg",
         "shortName": "Salzburg",
-        "logo": ""
+        "snapshotName": "Salzburg",
+        "logo": "https://assets.footylogos.com/previews/red-bull-salzburg/red-bull-salzburg-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 0,
@@ -11647,12 +11669,14 @@
         "id": 900022,
         "name": "Beşiktaş",
         "shortName": "Beşiktaş",
-        "logo": ""
+        "snapshotName": "Beşiktaş",
+        "logo": "https://assets.footylogos.com/previews/besiktas/besiktas-logo-footylogos-320.webp"
       },
       "away": {
         "id": 516,
         "name": "Olympique de Marseille",
         "shortName": "マルセイユ",
+        "snapshotName": "Marseille",
         "logo": "https://crests.football-data.org/516.png"
       },
       "goals": {
@@ -11680,13 +11704,15 @@
         "id": 900024,
         "name": "Celtic",
         "shortName": "Celtic",
-        "logo": ""
+        "snapshotName": "Celtic",
+        "logo": "https://assets.footylogos.com/previews/celtic/celtic-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900025,
         "name": "Ferencváros",
         "shortName": "Ferencváros",
-        "logo": ""
+        "snapshotName": "Ferencváros",
+        "logo": "https://assets.footylogos.com/previews/ferencvaros-tc/ferencvaros-tc-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 1,
@@ -11713,13 +11739,15 @@
         "id": 354,
         "name": "Crystal Palace FC",
         "shortName": "クリスタル・パレス",
+        "snapshotName": "Crystal Palace",
         "logo": "https://crests.football-data.org/354.png"
       },
       "away": {
         "id": 900027,
         "name": "Lech Poznań",
         "shortName": "Lech Poznań",
-        "logo": ""
+        "snapshotName": "Lech Poznań",
+        "logo": "https://assets.footylogos.com/previews/lech-poznan/lech-poznan-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 4,
@@ -11746,13 +11774,15 @@
         "id": 900028,
         "name": "Viktoria Plzeň",
         "shortName": "Viktoria Plzeň",
-        "logo": ""
+        "snapshotName": "Viktoria Plzeň",
+        "logo": "https://assets.footylogos.com/previews/viktoria-plzen/viktoria-plzen-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900029,
         "name": "Union SG",
         "shortName": "Union SG",
-        "logo": ""
+        "snapshotName": "Union SG",
+        "logo": "https://assets.footylogos.com/previews/union-saint-gilloise/union-saint-gilloise-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 0,
@@ -11779,13 +11809,15 @@
         "id": 109,
         "name": "Juventus FC",
         "shortName": "ユヴェントス",
+        "snapshotName": "Juventus",
         "logo": "https://crests.football-data.org/109.png"
       },
       "away": {
         "id": 900031,
         "name": "N.E.C. Nijmegen",
         "shortName": "N.E.C. Nijmegen",
-        "logo": ""
+        "snapshotName": "N.E.C. Nijmegen",
+        "logo": "https://assets.footylogos.com/previews/nec-nijmegen/nec-nijmegen-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 5,
@@ -11812,13 +11844,15 @@
         "id": 900032,
         "name": "Lillestrøm",
         "shortName": "Lillestrøm",
-        "logo": ""
+        "snapshotName": "Lillestrøm",
+        "logo": "https://assets.footylogos.com/previews/lillestrom-sk/lillestrom-sk-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900033,
         "name": "Torreense",
         "shortName": "Torreense",
-        "logo": ""
+        "snapshotName": "Torreense",
+        "logo": "https://assets.footylogos.com/previews/scu-torreense/scu-torreense-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 1,
@@ -11845,12 +11879,14 @@
         "id": 92,
         "name": "Real Sociedad de Fútbol",
         "shortName": "レアル・ソシエダ",
+        "snapshotName": "Real Sociedad",
         "logo": "https://crests.football-data.org/92.png"
       },
       "away": {
         "id": 1044,
         "name": "AFC Bournemouth",
         "shortName": "ボーンマス",
+        "snapshotName": "Bournemouth",
         "logo": "https://crests.football-data.org/bournemouth.png"
       },
       "goals": {
@@ -16708,13 +16744,15 @@
         "id": 900001,
         "name": "Sparta Praha",
         "shortName": "Sparta Praha",
-        "logo": ""
+        "snapshotName": "Sparta Praha",
+        "logo": "https://assets.footylogos.com/previews/sparta-praha/sparta-praha-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900032,
         "name": "Lillestrøm",
         "shortName": "Lillestrøm",
-        "logo": ""
+        "snapshotName": "Lillestrøm",
+        "logo": "https://assets.footylogos.com/previews/lillestrom-sk/lillestrom-sk-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 1,
@@ -16741,13 +16779,15 @@
         "id": 900017,
         "name": "AZ Alkmaar",
         "shortName": "AZ Alkmaar",
-        "logo": ""
+        "snapshotName": "AZ Alkmaar",
+        "logo": "https://assets.footylogos.com/previews/az-alkmaar/az-alkmaar-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900008,
         "name": "Hapoel Beer-Sheva",
         "shortName": "Hapoel Beer-Sheva",
-        "logo": ""
+        "snapshotName": "Hapoel Beer-Sheva",
+        "logo": "https://assets.footylogos.com/previews/hapoel-beer-sheva/hapoel-beer-sheva-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 2,
@@ -16774,12 +16814,14 @@
         "id": 900021,
         "name": "Salzburg",
         "shortName": "Salzburg",
-        "logo": ""
+        "snapshotName": "Salzburg",
+        "logo": "https://assets.footylogos.com/previews/red-bull-salzburg/red-bull-salzburg-logo-footylogos-320.webp"
       },
       "away": {
         "id": 98,
         "name": "AC Milan",
         "shortName": "ACミラン",
+        "snapshotName": "Milan",
         "logo": "https://crests.football-data.org/98.png"
       },
       "goals": {
@@ -16807,12 +16849,14 @@
         "id": 900027,
         "name": "Lech Poznań",
         "shortName": "Lech Poznań",
-        "logo": ""
+        "snapshotName": "Lech Poznań",
+        "logo": "https://assets.footylogos.com/previews/lech-poznan/lech-poznan-logo-footylogos-320.webp"
       },
       "away": {
         "id": 3,
         "name": "Bayer 04 Leverkusen",
         "shortName": "Bayer 04 Leverkusen",
+        "snapshotName": "Leverkusen",
         "logo": "https://crests.football-data.org/3.png"
       },
       "goals": {
@@ -16840,13 +16884,15 @@
         "id": 900007,
         "name": "Celje",
         "shortName": "Celje",
-        "logo": ""
+        "snapshotName": "Celje",
+        "logo": "https://assets.footylogos.com/previews/nk-celje/nk-celje-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900002,
         "name": "Omonia",
         "shortName": "Omonia",
-        "logo": ""
+        "snapshotName": "Omonia",
+        "logo": "https://assets.footylogos.com/previews/ac-omonia-nicosia/ac-omonia-nicosia-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 0,
@@ -16873,12 +16919,14 @@
         "id": 523,
         "name": "Olympique Lyonnais",
         "shortName": "リヨン",
+        "snapshotName": "Lyon",
         "logo": "https://crests.football-data.org/523.png"
       },
       "away": {
         "id": 354,
         "name": "Crystal Palace FC",
         "shortName": "クリスタル・パレス",
+        "snapshotName": "Crystal Palace",
         "logo": "https://crests.football-data.org/354.png"
       },
       "goals": {
@@ -16906,12 +16954,14 @@
         "id": 900029,
         "name": "Union SG",
         "shortName": "Union SG",
-        "logo": ""
+        "snapshotName": "Union SG",
+        "logo": "https://assets.footylogos.com/previews/union-saint-gilloise/union-saint-gilloise-logo-footylogos-320.webp"
       },
       "away": {
         "id": 92,
         "name": "Real Sociedad de Fútbol",
         "shortName": "レアル・ソシエダ",
+        "snapshotName": "Real Sociedad",
         "logo": "https://crests.football-data.org/92.png"
       },
       "goals": {
@@ -16939,12 +16989,14 @@
         "id": 900033,
         "name": "Torreense",
         "shortName": "Torreense",
-        "logo": ""
+        "snapshotName": "Torreense",
+        "logo": "https://assets.footylogos.com/previews/scu-torreense/scu-torreense-logo-footylogos-320.webp"
       },
       "away": {
         "id": 71,
         "name": "Sunderland AFC",
         "shortName": "サンダーランド",
+        "snapshotName": "Sunderland",
         "logo": "https://crests.football-data.org/71.png"
       },
       "goals": {
@@ -16972,13 +17024,15 @@
         "id": 1044,
         "name": "AFC Bournemouth",
         "shortName": "ボーンマス",
+        "snapshotName": "Bournemouth",
         "logo": "https://crests.football-data.org/bournemouth.png"
       },
       "away": {
         "id": 900014,
         "name": "Sturm Graz",
         "shortName": "Sturm Graz",
-        "logo": ""
+        "snapshotName": "Sturm Graz",
+        "logo": "https://assets.footylogos.com/previews/sk-sturm-graz/sk-sturm-graz-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 3,
@@ -17005,13 +17059,15 @@
         "id": 900025,
         "name": "Ferencváros",
         "shortName": "Ferencváros",
-        "logo": ""
+        "snapshotName": "Ferencváros",
+        "logo": "https://assets.footylogos.com/previews/ferencvaros-tc/ferencvaros-tc-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900028,
         "name": "Viktoria Plzeň",
         "shortName": "Viktoria Plzeň",
-        "logo": ""
+        "snapshotName": "Viktoria Plzeň",
+        "logo": "https://assets.footylogos.com/previews/viktoria-plzen/viktoria-plzen-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 2,
@@ -17038,13 +17094,15 @@
         "id": 900009,
         "name": "GNK Dinamo",
         "shortName": "GNK Dinamo",
-        "logo": ""
+        "snapshotName": "GNK Dinamo",
+        "logo": "https://assets.footylogos.com/previews/gnk-dinamo-zagreb/gnk-dinamo-zagreb-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900012,
         "name": "Anderlecht",
         "shortName": "Anderlecht",
-        "logo": ""
+        "snapshotName": "Anderlecht",
+        "logo": "https://assets.footylogos.com/previews/rsc-anderlecht/rsc-anderlecht-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 1,
@@ -17071,13 +17129,15 @@
         "id": 900011,
         "name": "Jagiellonia",
         "shortName": "Jagiellonia",
-        "logo": ""
+        "snapshotName": "Jagiellonia",
+        "logo": "https://assets.footylogos.com/previews/jagiellonia-bialystok/jagiellonia-bialystok-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900000,
         "name": "Ararat-Armenia",
         "shortName": "Ararat-Armenia",
-        "logo": ""
+        "snapshotName": "Ararat-Armenia",
+        "logo": "https://assets.footylogos.com/previews/fc-ararat-armenia/fc-ararat-armenia-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 3,
@@ -17104,13 +17164,15 @@
         "id": 900031,
         "name": "N.E.C. Nijmegen",
         "shortName": "N.E.C. Nijmegen",
-        "logo": ""
+        "snapshotName": "N.E.C. Nijmegen",
+        "logo": "https://assets.footylogos.com/previews/nec-nijmegen/nec-nijmegen-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900020,
         "name": "Levski Sofia",
         "shortName": "Levski Sofia",
-        "logo": ""
+        "snapshotName": "Levski Sofia",
+        "logo": "https://assets.footylogos.com/previews/levski-sofia/levski-sofia-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 1,
@@ -17137,13 +17199,15 @@
         "id": 516,
         "name": "Olympique de Marseille",
         "shortName": "マルセイユ",
+        "snapshotName": "Marseille",
         "logo": "https://crests.football-data.org/516.png"
       },
       "away": {
         "id": 900010,
         "name": "Olympiacos",
         "shortName": "Olympiacos",
-        "logo": ""
+        "snapshotName": "Olympiacos",
+        "logo": "https://assets.footylogos.com/previews/olympiacos/olympiacos-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 0,
@@ -17170,12 +17234,14 @@
         "id": 558,
         "name": "RC Celta de Vigo",
         "shortName": "RC Celta de Vigo",
+        "snapshotName": "Celta",
         "logo": "https://crests.football-data.org/558.png"
       },
       "away": {
         "id": 109,
         "name": "Juventus FC",
         "shortName": "ユヴェントス",
+        "snapshotName": "Juventus",
         "logo": "https://crests.football-data.org/109.png"
       },
       "goals": {
@@ -17203,13 +17269,15 @@
         "id": 900005,
         "name": "Benfica",
         "shortName": "Benfica",
-        "logo": ""
+        "snapshotName": "Benfica",
+        "logo": "https://assets.footylogos.com/previews/sl-benfica/sl-benfica-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900024,
         "name": "Celtic",
         "shortName": "Celtic",
-        "logo": ""
+        "snapshotName": "Celtic",
+        "logo": "https://assets.footylogos.com/previews/celtic/celtic-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 4,
@@ -17236,13 +17304,15 @@
         "id": 900015,
         "name": "Rennes",
         "shortName": "Rennes",
-        "logo": ""
+        "snapshotName": "Rennes",
+        "logo": "https://assets.footylogos.com/previews/stade-rennais/stade-rennais-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900018,
         "name": "OFI Crete",
         "shortName": "OFI Crete",
-        "logo": ""
+        "snapshotName": "OFI Crete",
+        "logo": "https://assets.footylogos.com/previews/ofi-crete/ofi-crete-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 2,
@@ -17269,13 +17339,15 @@
         "id": 2,
         "name": "TSG 1899 Hoffenheim",
         "shortName": "ホッフェンハイム",
+        "snapshotName": "Hoffenheim",
         "logo": "https://crests.football-data.org/2.png"
       },
       "away": {
         "id": 900022,
         "name": "Beşiktaş",
         "shortName": "Beşiktaş",
-        "logo": ""
+        "snapshotName": "Beşiktaş",
+        "logo": "https://assets.footylogos.com/previews/besiktas/besiktas-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 2,
@@ -20116,13 +20188,15 @@
         "id": 900000,
         "name": "Ararat-Armenia",
         "shortName": "Ararat-Armenia",
-        "logo": ""
+        "snapshotName": "Ararat-Armenia",
+        "logo": "https://assets.footylogos.com/previews/fc-ararat-armenia/fc-ararat-armenia-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900017,
         "name": "AZ Alkmaar",
         "shortName": "AZ Alkmaar",
-        "logo": ""
+        "snapshotName": "AZ Alkmaar",
+        "logo": "https://assets.footylogos.com/previews/az-alkmaar/az-alkmaar-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 0,
@@ -20149,13 +20223,15 @@
         "id": 900025,
         "name": "Ferencváros",
         "shortName": "Ferencváros",
-        "logo": ""
+        "snapshotName": "Ferencváros",
+        "logo": "https://assets.footylogos.com/previews/ferencvaros-tc/ferencvaros-tc-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900033,
         "name": "Torreense",
         "shortName": "Torreense",
-        "logo": ""
+        "snapshotName": "Torreense",
+        "logo": "https://assets.footylogos.com/previews/scu-torreense/scu-torreense-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 4,
@@ -20182,13 +20258,15 @@
         "id": 900009,
         "name": "GNK Dinamo",
         "shortName": "GNK Dinamo",
-        "logo": ""
+        "snapshotName": "GNK Dinamo",
+        "logo": "https://assets.footylogos.com/previews/gnk-dinamo-zagreb/gnk-dinamo-zagreb-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900031,
         "name": "N.E.C. Nijmegen",
         "shortName": "N.E.C. Nijmegen",
-        "logo": ""
+        "snapshotName": "N.E.C. Nijmegen",
+        "logo": "https://assets.footylogos.com/previews/nec-nijmegen/nec-nijmegen-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 2,
@@ -20215,13 +20293,15 @@
         "id": 109,
         "name": "Juventus FC",
         "shortName": "ユヴェントス",
+        "snapshotName": "Juventus",
         "logo": "https://crests.football-data.org/109.png"
       },
       "away": {
         "id": 900015,
         "name": "Rennes",
         "shortName": "Rennes",
-        "logo": ""
+        "snapshotName": "Rennes",
+        "logo": "https://assets.footylogos.com/previews/stade-rennais/stade-rennais-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 2,
@@ -20248,12 +20328,14 @@
         "id": 900027,
         "name": "Lech Poznań",
         "shortName": "Lech Poznań",
-        "logo": ""
+        "snapshotName": "Lech Poznań",
+        "logo": "https://assets.footylogos.com/previews/lech-poznan/lech-poznan-logo-footylogos-320.webp"
       },
       "away": {
         "id": 71,
         "name": "Sunderland AFC",
         "shortName": "サンダーランド",
+        "snapshotName": "Sunderland",
         "logo": "https://crests.football-data.org/71.png"
       },
       "goals": {
@@ -20281,12 +20363,14 @@
         "id": 900018,
         "name": "OFI Crete",
         "shortName": "OFI Crete",
-        "logo": ""
+        "snapshotName": "OFI Crete",
+        "logo": "https://assets.footylogos.com/previews/ofi-crete/ofi-crete-logo-footylogos-320.webp"
       },
       "away": {
         "id": 3,
         "name": "Bayer 04 Leverkusen",
         "shortName": "Bayer 04 Leverkusen",
+        "snapshotName": "Leverkusen",
         "logo": "https://crests.football-data.org/3.png"
       },
       "goals": {
@@ -20314,13 +20398,15 @@
         "id": 900029,
         "name": "Union SG",
         "shortName": "Union SG",
-        "logo": ""
+        "snapshotName": "Union SG",
+        "logo": "https://assets.footylogos.com/previews/union-saint-gilloise/union-saint-gilloise-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900008,
         "name": "Hapoel Beer-Sheva",
         "shortName": "Hapoel Beer-Sheva",
-        "logo": ""
+        "snapshotName": "Hapoel Beer-Sheva",
+        "logo": "https://assets.footylogos.com/previews/hapoel-beer-sheva/hapoel-beer-sheva-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 4,
@@ -20347,12 +20433,14 @@
         "id": 900014,
         "name": "Sturm Graz",
         "shortName": "Sturm Graz",
-        "logo": ""
+        "snapshotName": "Sturm Graz",
+        "logo": "https://assets.footylogos.com/previews/sk-sturm-graz/sk-sturm-graz-logo-footylogos-320.webp"
       },
       "away": {
         "id": 516,
         "name": "Olympique de Marseille",
         "shortName": "マルセイユ",
+        "snapshotName": "Marseille",
         "logo": "https://crests.football-data.org/516.png"
       },
       "goals": {
@@ -20380,12 +20468,14 @@
         "id": 1044,
         "name": "AFC Bournemouth",
         "shortName": "ボーンマス",
+        "snapshotName": "Bournemouth",
         "logo": "https://crests.football-data.org/bournemouth.png"
       },
       "away": {
         "id": 98,
         "name": "AC Milan",
         "shortName": "ACミラン",
+        "snapshotName": "Milan",
         "logo": "https://crests.football-data.org/98.png"
       },
       "goals": {
@@ -20413,12 +20503,14 @@
         "id": 900022,
         "name": "Beşiktaş",
         "shortName": "Beşiktaş",
-        "logo": ""
+        "snapshotName": "Beşiktaş",
+        "logo": "https://assets.footylogos.com/previews/besiktas/besiktas-logo-footylogos-320.webp"
       },
       "away": {
         "id": 354,
         "name": "Crystal Palace FC",
         "shortName": "クリスタル・パレス",
+        "snapshotName": "Crystal Palace",
         "logo": "https://crests.football-data.org/354.png"
       },
       "goals": {
@@ -20446,12 +20538,14 @@
         "id": 900024,
         "name": "Celtic",
         "shortName": "Celtic",
-        "logo": ""
+        "snapshotName": "Celtic",
+        "logo": "https://assets.footylogos.com/previews/celtic/celtic-logo-footylogos-320.webp"
       },
       "away": {
         "id": 558,
         "name": "RC Celta de Vigo",
         "shortName": "RC Celta de Vigo",
+        "snapshotName": "Celta",
         "logo": "https://crests.football-data.org/558.png"
       },
       "goals": {
@@ -20479,13 +20573,15 @@
         "id": 900028,
         "name": "Viktoria Plzeň",
         "shortName": "Viktoria Plzeň",
-        "logo": ""
+        "snapshotName": "Viktoria Plzeň",
+        "logo": "https://assets.footylogos.com/previews/viktoria-plzen/viktoria-plzen-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900020,
         "name": "Levski Sofia",
         "shortName": "Levski Sofia",
-        "logo": ""
+        "snapshotName": "Levski Sofia",
+        "logo": "https://assets.footylogos.com/previews/levski-sofia/levski-sofia-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 1,
@@ -20512,13 +20608,15 @@
         "id": 900011,
         "name": "Jagiellonia",
         "shortName": "Jagiellonia",
-        "logo": ""
+        "snapshotName": "Jagiellonia",
+        "logo": "https://assets.footylogos.com/previews/jagiellonia-bialystok/jagiellonia-bialystok-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900012,
         "name": "Anderlecht",
         "shortName": "Anderlecht",
-        "logo": ""
+        "snapshotName": "Anderlecht",
+        "logo": "https://assets.footylogos.com/previews/rsc-anderlecht/rsc-anderlecht-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 0,
@@ -20545,12 +20643,14 @@
         "id": 900032,
         "name": "Lillestrøm",
         "shortName": "Lillestrøm",
-        "logo": ""
+        "snapshotName": "Lillestrøm",
+        "logo": "https://assets.footylogos.com/previews/lillestrom-sk/lillestrom-sk-logo-footylogos-320.webp"
       },
       "away": {
         "id": 92,
         "name": "Real Sociedad de Fútbol",
         "shortName": "レアル・ソシエダ",
+        "snapshotName": "Real Sociedad",
         "logo": "https://crests.football-data.org/92.png"
       },
       "goals": {
@@ -20578,13 +20678,15 @@
         "id": 900007,
         "name": "Celje",
         "shortName": "Celje",
-        "logo": ""
+        "snapshotName": "Celje",
+        "logo": "https://assets.footylogos.com/previews/nk-celje/nk-celje-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900021,
         "name": "Salzburg",
         "shortName": "Salzburg",
-        "logo": ""
+        "snapshotName": "Salzburg",
+        "logo": "https://assets.footylogos.com/previews/red-bull-salzburg/red-bull-salzburg-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 2,
@@ -20611,13 +20713,15 @@
         "id": 900010,
         "name": "Olympiacos",
         "shortName": "Olympiacos",
-        "logo": ""
+        "snapshotName": "Olympiacos",
+        "logo": "https://assets.footylogos.com/previews/olympiacos/olympiacos-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900001,
         "name": "Sparta Praha",
         "shortName": "Sparta Praha",
-        "logo": ""
+        "snapshotName": "Sparta Praha",
+        "logo": "https://assets.footylogos.com/previews/sparta-praha/sparta-praha-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 1,
@@ -20644,13 +20748,15 @@
         "id": 900002,
         "name": "Omonia",
         "shortName": "Omonia",
-        "logo": ""
+        "snapshotName": "Omonia",
+        "logo": "https://assets.footylogos.com/previews/ac-omonia-nicosia/ac-omonia-nicosia-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900005,
         "name": "Benfica",
         "shortName": "Benfica",
-        "logo": ""
+        "snapshotName": "Benfica",
+        "logo": "https://assets.footylogos.com/previews/sl-benfica/sl-benfica-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 1,
@@ -20677,12 +20783,14 @@
         "id": 2,
         "name": "TSG 1899 Hoffenheim",
         "shortName": "ホッフェンハイム",
+        "snapshotName": "Hoffenheim",
         "logo": "https://crests.football-data.org/2.png"
       },
       "away": {
         "id": 523,
         "name": "Olympique Lyonnais",
         "shortName": "リヨン",
+        "snapshotName": "Lyon",
         "logo": "https://crests.football-data.org/523.png"
       },
       "goals": {
@@ -25540,13 +25648,15 @@
         "id": 900015,
         "name": "Rennes",
         "shortName": "Rennes",
-        "logo": ""
+        "snapshotName": "Rennes",
+        "logo": "https://assets.footylogos.com/previews/stade-rennais/stade-rennais-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900010,
         "name": "Olympiacos",
         "shortName": "Olympiacos",
-        "logo": ""
+        "snapshotName": "Olympiacos",
+        "logo": "https://assets.footylogos.com/previews/olympiacos/olympiacos-logo-footylogos-320.webp"
       },
       "goals": {
         "home": 0,
@@ -25951,13 +26061,15 @@
         "id": 98,
         "name": "AC Milan",
         "shortName": "ACミラン",
+        "snapshotName": "Milan",
         "logo": "https://crests.football-data.org/98.png"
       },
       "away": {
         "id": 900025,
         "name": "Ferencváros",
         "shortName": "Ferencváros",
-        "logo": ""
+        "snapshotName": "Ferencváros",
+        "logo": "https://assets.footylogos.com/previews/ferencvaros-tc/ferencvaros-tc-logo-footylogos-320.webp"
       },
       "goals": {
         "home": null,
@@ -25984,12 +26096,14 @@
         "id": 900001,
         "name": "Sparta Praha",
         "shortName": "Sparta Praha",
-        "logo": ""
+        "snapshotName": "Sparta Praha",
+        "logo": "https://assets.footylogos.com/previews/sparta-praha/sparta-praha-logo-footylogos-320.webp"
       },
       "away": {
         "id": 1044,
         "name": "AFC Bournemouth",
         "shortName": "ボーンマス",
+        "snapshotName": "Bournemouth",
         "logo": "https://crests.football-data.org/bournemouth.png"
       },
       "goals": {
@@ -26017,12 +26131,14 @@
         "id": 354,
         "name": "Crystal Palace FC",
         "shortName": "クリスタル・パレス",
+        "snapshotName": "Crystal Palace",
         "logo": "https://crests.football-data.org/354.png"
       },
       "away": {
         "id": 2,
         "name": "TSG 1899 Hoffenheim",
         "shortName": "ホッフェンハイム",
+        "snapshotName": "Hoffenheim",
         "logo": "https://crests.football-data.org/2.png"
       },
       "goals": {
@@ -26050,13 +26166,15 @@
         "id": 900032,
         "name": "Lillestrøm",
         "shortName": "Lillestrøm",
-        "logo": ""
+        "snapshotName": "Lillestrøm",
+        "logo": "https://assets.footylogos.com/previews/lillestrom-sk/lillestrom-sk-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900028,
         "name": "Viktoria Plzeň",
         "shortName": "Viktoria Plzeň",
-        "logo": ""
+        "snapshotName": "Viktoria Plzeň",
+        "logo": "https://assets.footylogos.com/previews/viktoria-plzen/viktoria-plzen-logo-footylogos-320.webp"
       },
       "goals": {
         "home": null,
@@ -26083,13 +26201,15 @@
         "id": 900031,
         "name": "N.E.C. Nijmegen",
         "shortName": "N.E.C. Nijmegen",
-        "logo": ""
+        "snapshotName": "N.E.C. Nijmegen",
+        "logo": "https://assets.footylogos.com/previews/nec-nijmegen/nec-nijmegen-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900002,
         "name": "Omonia",
         "shortName": "Omonia",
-        "logo": ""
+        "snapshotName": "Omonia",
+        "logo": "https://assets.footylogos.com/previews/ac-omonia-nicosia/ac-omonia-nicosia-logo-footylogos-320.webp"
       },
       "goals": {
         "home": null,
@@ -26116,13 +26236,15 @@
         "id": 900020,
         "name": "Levski Sofia",
         "shortName": "Levski Sofia",
-        "logo": ""
+        "snapshotName": "Levski Sofia",
+        "logo": "https://assets.footylogos.com/previews/levski-sofia/levski-sofia-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900011,
         "name": "Jagiellonia",
         "shortName": "Jagiellonia",
-        "logo": ""
+        "snapshotName": "Jagiellonia",
+        "logo": "https://assets.footylogos.com/previews/jagiellonia-bialystok/jagiellonia-bialystok-logo-footylogos-320.webp"
       },
       "goals": {
         "home": null,
@@ -26149,12 +26271,14 @@
         "id": 92,
         "name": "Real Sociedad de Fútbol",
         "shortName": "レアル・ソシエダ",
+        "snapshotName": "Real Sociedad",
         "logo": "https://crests.football-data.org/92.png"
       },
       "away": {
         "id": 523,
         "name": "Olympique Lyonnais",
         "shortName": "リヨン",
+        "snapshotName": "Lyon",
         "logo": "https://crests.football-data.org/523.png"
       },
       "goals": {
@@ -26182,13 +26306,15 @@
         "id": 900012,
         "name": "Anderlecht",
         "shortName": "Anderlecht",
-        "logo": ""
+        "snapshotName": "Anderlecht",
+        "logo": "https://assets.footylogos.com/previews/rsc-anderlecht/rsc-anderlecht-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900021,
         "name": "Salzburg",
         "shortName": "Salzburg",
-        "logo": ""
+        "snapshotName": "Salzburg",
+        "logo": "https://assets.footylogos.com/previews/red-bull-salzburg/red-bull-salzburg-logo-footylogos-320.webp"
       },
       "goals": {
         "home": null,
@@ -26215,12 +26341,14 @@
         "id": 900017,
         "name": "AZ Alkmaar",
         "shortName": "AZ Alkmaar",
-        "logo": ""
+        "snapshotName": "AZ Alkmaar",
+        "logo": "https://assets.footylogos.com/previews/az-alkmaar/az-alkmaar-logo-footylogos-320.webp"
       },
       "away": {
         "id": 109,
         "name": "Juventus FC",
         "shortName": "ユヴェントス",
+        "snapshotName": "Juventus",
         "logo": "https://crests.football-data.org/109.png"
       },
       "goals": {
@@ -26248,12 +26376,14 @@
         "id": 3,
         "name": "Bayer 04 Leverkusen",
         "shortName": "Bayer 04 Leverkusen",
+        "snapshotName": "Leverkusen",
         "logo": "https://crests.football-data.org/3.png"
       },
       "away": {
         "id": 516,
         "name": "Olympique de Marseille",
         "shortName": "マルセイユ",
+        "snapshotName": "Marseille",
         "logo": "https://crests.football-data.org/516.png"
       },
       "goals": {
@@ -26281,13 +26411,15 @@
         "id": 900024,
         "name": "Celtic",
         "shortName": "Celtic",
-        "logo": ""
+        "snapshotName": "Celtic",
+        "logo": "https://assets.footylogos.com/previews/celtic/celtic-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900022,
         "name": "Beşiktaş",
         "shortName": "Beşiktaş",
-        "logo": ""
+        "snapshotName": "Beşiktaş",
+        "logo": "https://assets.footylogos.com/previews/besiktas/besiktas-logo-footylogos-320.webp"
       },
       "goals": {
         "home": null,
@@ -26314,13 +26446,15 @@
         "id": 900008,
         "name": "Hapoel Beer-Sheva",
         "shortName": "Hapoel Beer-Sheva",
-        "logo": ""
+        "snapshotName": "Hapoel Beer-Sheva",
+        "logo": "https://assets.footylogos.com/previews/hapoel-beer-sheva/hapoel-beer-sheva-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900018,
         "name": "OFI Crete",
         "shortName": "OFI Crete",
-        "logo": ""
+        "snapshotName": "OFI Crete",
+        "logo": "https://assets.footylogos.com/previews/ofi-crete/ofi-crete-logo-footylogos-320.webp"
       },
       "goals": {
         "home": null,
@@ -26347,13 +26481,15 @@
         "id": 558,
         "name": "RC Celta de Vigo",
         "shortName": "RC Celta de Vigo",
+        "snapshotName": "Celta",
         "logo": "https://crests.football-data.org/558.png"
       },
       "away": {
         "id": 900029,
         "name": "Union SG",
         "shortName": "Union SG",
-        "logo": ""
+        "snapshotName": "Union SG",
+        "logo": "https://assets.footylogos.com/previews/union-saint-gilloise/union-saint-gilloise-logo-footylogos-320.webp"
       },
       "goals": {
         "home": null,
@@ -26380,13 +26516,15 @@
         "id": 900033,
         "name": "Torreense",
         "shortName": "Torreense",
-        "logo": ""
+        "snapshotName": "Torreense",
+        "logo": "https://assets.footylogos.com/previews/scu-torreense/scu-torreense-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900000,
         "name": "Ararat-Armenia",
         "shortName": "Ararat-Armenia",
-        "logo": ""
+        "snapshotName": "Ararat-Armenia",
+        "logo": "https://assets.footylogos.com/previews/fc-ararat-armenia/fc-ararat-armenia-logo-footylogos-320.webp"
       },
       "goals": {
         "home": null,
@@ -26413,13 +26551,15 @@
         "id": 900014,
         "name": "Sturm Graz",
         "shortName": "Sturm Graz",
-        "logo": ""
+        "snapshotName": "Sturm Graz",
+        "logo": "https://assets.footylogos.com/previews/sk-sturm-graz/sk-sturm-graz-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900007,
         "name": "Celje",
         "shortName": "Celje",
-        "logo": ""
+        "snapshotName": "Celje",
+        "logo": "https://assets.footylogos.com/previews/nk-celje/nk-celje-logo-footylogos-320.webp"
       },
       "goals": {
         "home": null,
@@ -26446,13 +26586,15 @@
         "id": 900005,
         "name": "Benfica",
         "shortName": "Benfica",
-        "logo": ""
+        "snapshotName": "Benfica",
+        "logo": "https://assets.footylogos.com/previews/sl-benfica/sl-benfica-logo-footylogos-320.webp"
       },
       "away": {
         "id": 900027,
         "name": "Lech Poznań",
         "shortName": "Lech Poznań",
-        "logo": ""
+        "snapshotName": "Lech Poznań",
+        "logo": "https://assets.footylogos.com/previews/lech-poznan/lech-poznan-logo-footylogos-320.webp"
       },
       "goals": {
         "home": null,
@@ -26479,13 +26621,15 @@
         "id": 71,
         "name": "Sunderland AFC",
         "shortName": "サンダーランド",
+        "snapshotName": "Sunderland",
         "logo": "https://crests.football-data.org/71.png"
       },
       "away": {
         "id": 900009,
         "name": "GNK Dinamo",
         "shortName": "GNK Dinamo",
-        "logo": ""
+        "snapshotName": "GNK Dinamo",
+        "logo": "https://assets.footylogos.com/previews/gnk-dinamo-zagreb/gnk-dinamo-zagreb-logo-footylogos-320.webp"
       },
       "goals": {
         "home": null,
@@ -31282,6 +31426,636 @@
         }
       },
       "events": []
+    },
+    {
+      "id": 950072,
+      "date": "2026-11-26T17:45:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900022,
+        "name": "Beşiktaş",
+        "shortName": "Beşiktaş",
+        "snapshotName": "Beşiktaş",
+        "logo": "https://assets.footylogos.com/previews/besiktas/besiktas-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900008,
+        "name": "Hapoel Beer-Sheva",
+        "shortName": "Hapoel Beer-Sheva",
+        "snapshotName": "Hapoel Beer-Sheva",
+        "logo": "https://assets.footylogos.com/previews/hapoel-beer-sheva/hapoel-beer-sheva-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950073,
+      "date": "2026-11-26T17:45:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900021,
+        "name": "Salzburg",
+        "shortName": "Salzburg",
+        "snapshotName": "Salzburg",
+        "logo": "https://assets.footylogos.com/previews/red-bull-salzburg/red-bull-salzburg-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900000,
+        "name": "Ararat-Armenia",
+        "shortName": "Ararat-Armenia",
+        "snapshotName": "Ararat-Armenia",
+        "logo": "https://assets.footylogos.com/previews/fc-ararat-armenia/fc-ararat-armenia-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950074,
+      "date": "2026-11-26T17:45:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900028,
+        "name": "Viktoria Plzeň",
+        "shortName": "Viktoria Plzeň",
+        "snapshotName": "Viktoria Plzeň",
+        "logo": "https://assets.footylogos.com/previews/viktoria-plzen/viktoria-plzen-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900005,
+        "name": "Benfica",
+        "shortName": "Benfica",
+        "snapshotName": "Benfica",
+        "logo": "https://assets.footylogos.com/previews/sl-benfica/sl-benfica-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950075,
+      "date": "2026-11-26T17:45:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900009,
+        "name": "GNK Dinamo",
+        "shortName": "GNK Dinamo",
+        "snapshotName": "GNK Dinamo",
+        "logo": "https://assets.footylogos.com/previews/gnk-dinamo-zagreb/gnk-dinamo-zagreb-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 3,
+        "name": "Bayer 04 Leverkusen",
+        "shortName": "Bayer 04 Leverkusen",
+        "snapshotName": "Leverkusen",
+        "logo": "https://crests.football-data.org/3.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950076,
+      "date": "2026-11-26T17:45:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900010,
+        "name": "Olympiacos",
+        "shortName": "Olympiacos",
+        "snapshotName": "Olympiacos",
+        "logo": "https://assets.footylogos.com/previews/olympiacos/olympiacos-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 98,
+        "name": "AC Milan",
+        "shortName": "ACミラン",
+        "snapshotName": "Milan",
+        "logo": "https://crests.football-data.org/98.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950077,
+      "date": "2026-11-26T17:45:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 516,
+        "name": "Olympique de Marseille",
+        "shortName": "マルセイユ",
+        "snapshotName": "Marseille",
+        "logo": "https://crests.football-data.org/516.png"
+      },
+      "away": {
+        "id": 900020,
+        "name": "Levski Sofia",
+        "shortName": "Levski Sofia",
+        "snapshotName": "Levski Sofia",
+        "logo": "https://assets.footylogos.com/previews/levski-sofia/levski-sofia-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950078,
+      "date": "2026-11-26T17:45:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900029,
+        "name": "Union SG",
+        "shortName": "Union SG",
+        "snapshotName": "Union SG",
+        "logo": "https://assets.footylogos.com/previews/union-saint-gilloise/union-saint-gilloise-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900027,
+        "name": "Lech Poznań",
+        "shortName": "Lech Poznań",
+        "snapshotName": "Lech Poznań",
+        "logo": "https://assets.footylogos.com/previews/lech-poznan/lech-poznan-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950079,
+      "date": "2026-11-26T17:45:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 558,
+        "name": "RC Celta de Vigo",
+        "shortName": "RC Celta de Vigo",
+        "snapshotName": "Celta",
+        "logo": "https://crests.football-data.org/558.png"
+      },
+      "away": {
+        "id": 1044,
+        "name": "AFC Bournemouth",
+        "shortName": "ボーンマス",
+        "snapshotName": "Bournemouth",
+        "logo": "https://crests.football-data.org/bournemouth.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950080,
+      "date": "2026-11-26T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900001,
+        "name": "Sparta Praha",
+        "shortName": "Sparta Praha",
+        "snapshotName": "Sparta Praha",
+        "logo": "https://assets.footylogos.com/previews/sparta-praha/sparta-praha-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900017,
+        "name": "AZ Alkmaar",
+        "shortName": "AZ Alkmaar",
+        "snapshotName": "AZ Alkmaar",
+        "logo": "https://assets.footylogos.com/previews/az-alkmaar/az-alkmaar-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950081,
+      "date": "2026-11-26T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 354,
+        "name": "Crystal Palace FC",
+        "shortName": "クリスタル・パレス",
+        "snapshotName": "Crystal Palace",
+        "logo": "https://crests.football-data.org/354.png"
+      },
+      "away": {
+        "id": 92,
+        "name": "Real Sociedad de Fútbol",
+        "shortName": "レアル・ソシエダ",
+        "snapshotName": "Real Sociedad",
+        "logo": "https://crests.football-data.org/92.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950082,
+      "date": "2026-11-26T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900025,
+        "name": "Ferencváros",
+        "shortName": "Ferencváros",
+        "snapshotName": "Ferencváros",
+        "logo": "https://assets.footylogos.com/previews/ferencvaros-tc/ferencvaros-tc-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900007,
+        "name": "Celje",
+        "shortName": "Celje",
+        "snapshotName": "Celje",
+        "logo": "https://assets.footylogos.com/previews/nk-celje/nk-celje-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950083,
+      "date": "2026-11-26T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 109,
+        "name": "Juventus FC",
+        "shortName": "ユヴェントス",
+        "snapshotName": "Juventus",
+        "logo": "https://crests.football-data.org/109.png"
+      },
+      "away": {
+        "id": 900002,
+        "name": "Omonia",
+        "shortName": "Omonia",
+        "snapshotName": "Omonia",
+        "logo": "https://assets.footylogos.com/previews/ac-omonia-nicosia/ac-omonia-nicosia-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950084,
+      "date": "2026-11-26T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900031,
+        "name": "N.E.C. Nijmegen",
+        "shortName": "N.E.C. Nijmegen",
+        "snapshotName": "N.E.C. Nijmegen",
+        "logo": "https://assets.footylogos.com/previews/nec-nijmegen/nec-nijmegen-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900015,
+        "name": "Rennes",
+        "shortName": "Rennes",
+        "snapshotName": "Rennes",
+        "logo": "https://assets.footylogos.com/previews/stade-rennais/stade-rennais-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950085,
+      "date": "2026-11-26T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900018,
+        "name": "OFI Crete",
+        "shortName": "OFI Crete",
+        "snapshotName": "OFI Crete",
+        "logo": "https://assets.footylogos.com/previews/ofi-crete/ofi-crete-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900012,
+        "name": "Anderlecht",
+        "shortName": "Anderlecht",
+        "snapshotName": "Anderlecht",
+        "logo": "https://assets.footylogos.com/previews/rsc-anderlecht/rsc-anderlecht-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950086,
+      "date": "2026-11-26T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 523,
+        "name": "Olympique Lyonnais",
+        "shortName": "リヨン",
+        "snapshotName": "Lyon",
+        "logo": "https://crests.football-data.org/523.png"
+      },
+      "away": {
+        "id": 900032,
+        "name": "Lillestrøm",
+        "shortName": "Lillestrøm",
+        "snapshotName": "Lillestrøm",
+        "logo": "https://assets.footylogos.com/previews/lillestrom-sk/lillestrom-sk-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950087,
+      "date": "2026-11-26T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900033,
+        "name": "Torreense",
+        "shortName": "Torreense",
+        "snapshotName": "Torreense",
+        "logo": "https://assets.footylogos.com/previews/scu-torreense/scu-torreense-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900024,
+        "name": "Celtic",
+        "shortName": "Celtic",
+        "snapshotName": "Celtic",
+        "logo": "https://assets.footylogos.com/previews/celtic/celtic-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950088,
+      "date": "2026-11-26T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 71,
+        "name": "Sunderland AFC",
+        "shortName": "サンダーランド",
+        "snapshotName": "Sunderland",
+        "logo": "https://crests.football-data.org/71.png"
+      },
+      "away": {
+        "id": 900011,
+        "name": "Jagiellonia",
+        "shortName": "Jagiellonia",
+        "snapshotName": "Jagiellonia",
+        "logo": "https://assets.footylogos.com/previews/jagiellonia-bialystok/jagiellonia-bialystok-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950089,
+      "date": "2026-11-26T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 2,
+        "name": "TSG 1899 Hoffenheim",
+        "shortName": "ホッフェンハイム",
+        "snapshotName": "Hoffenheim",
+        "logo": "https://crests.football-data.org/2.png"
+      },
+      "away": {
+        "id": 900014,
+        "name": "Sturm Graz",
+        "shortName": "Sturm Graz",
+        "snapshotName": "Sturm Graz",
+        "logo": "https://assets.footylogos.com/previews/sk-sturm-graz/sk-sturm-graz-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
     },
     {
       "id": 565869,
@@ -36532,6 +37306,636 @@
         }
       },
       "events": []
+    },
+    {
+      "id": 950090,
+      "date": "2026-12-10T17:45:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900017,
+        "name": "AZ Alkmaar",
+        "shortName": "AZ Alkmaar",
+        "snapshotName": "AZ Alkmaar",
+        "logo": "https://assets.footylogos.com/previews/az-alkmaar/az-alkmaar-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900014,
+        "name": "Sturm Graz",
+        "shortName": "Sturm Graz",
+        "snapshotName": "Sturm Graz",
+        "logo": "https://assets.footylogos.com/previews/sk-sturm-graz/sk-sturm-graz-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950091,
+      "date": "2026-12-10T17:45:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900000,
+        "name": "Ararat-Armenia",
+        "shortName": "Ararat-Armenia",
+        "snapshotName": "Ararat-Armenia",
+        "logo": "https://assets.footylogos.com/previews/fc-ararat-armenia/fc-ararat-armenia-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900031,
+        "name": "N.E.C. Nijmegen",
+        "shortName": "N.E.C. Nijmegen",
+        "snapshotName": "N.E.C. Nijmegen",
+        "logo": "https://assets.footylogos.com/previews/nec-nijmegen/nec-nijmegen-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950092,
+      "date": "2026-12-10T17:45:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900008,
+        "name": "Hapoel Beer-Sheva",
+        "shortName": "Hapoel Beer-Sheva",
+        "snapshotName": "Hapoel Beer-Sheva",
+        "logo": "https://assets.footylogos.com/previews/hapoel-beer-sheva/hapoel-beer-sheva-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 109,
+        "name": "Juventus FC",
+        "shortName": "ユヴェントス",
+        "snapshotName": "Juventus",
+        "logo": "https://crests.football-data.org/109.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950093,
+      "date": "2026-12-10T17:45:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900011,
+        "name": "Jagiellonia",
+        "shortName": "Jagiellonia",
+        "snapshotName": "Jagiellonia",
+        "logo": "https://assets.footylogos.com/previews/jagiellonia-bialystok/jagiellonia-bialystok-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 354,
+        "name": "Crystal Palace FC",
+        "shortName": "クリスタル・パレス",
+        "snapshotName": "Crystal Palace",
+        "logo": "https://crests.football-data.org/354.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950094,
+      "date": "2026-12-10T17:45:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 516,
+        "name": "Olympique de Marseille",
+        "shortName": "マルセイユ",
+        "snapshotName": "Marseille",
+        "logo": "https://crests.football-data.org/516.png"
+      },
+      "away": {
+        "id": 558,
+        "name": "RC Celta de Vigo",
+        "shortName": "RC Celta de Vigo",
+        "snapshotName": "Celta",
+        "logo": "https://crests.football-data.org/558.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950095,
+      "date": "2026-12-10T17:45:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900002,
+        "name": "Omonia",
+        "shortName": "Omonia",
+        "snapshotName": "Omonia",
+        "logo": "https://assets.footylogos.com/previews/ac-omonia-nicosia/ac-omonia-nicosia-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900024,
+        "name": "Celtic",
+        "shortName": "Celtic",
+        "snapshotName": "Celtic",
+        "logo": "https://assets.footylogos.com/previews/celtic/celtic-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950096,
+      "date": "2026-12-10T17:45:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900012,
+        "name": "Anderlecht",
+        "shortName": "Anderlecht",
+        "snapshotName": "Anderlecht",
+        "logo": "https://assets.footylogos.com/previews/rsc-anderlecht/rsc-anderlecht-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 2,
+        "name": "TSG 1899 Hoffenheim",
+        "shortName": "ホッフェンハイム",
+        "snapshotName": "Hoffenheim",
+        "logo": "https://crests.football-data.org/2.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950097,
+      "date": "2026-12-10T17:45:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900015,
+        "name": "Rennes",
+        "shortName": "Rennes",
+        "snapshotName": "Rennes",
+        "logo": "https://assets.footylogos.com/previews/stade-rennais/stade-rennais-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900009,
+        "name": "GNK Dinamo",
+        "shortName": "GNK Dinamo",
+        "snapshotName": "GNK Dinamo",
+        "logo": "https://assets.footylogos.com/previews/gnk-dinamo-zagreb/gnk-dinamo-zagreb-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950098,
+      "date": "2026-12-10T17:45:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900007,
+        "name": "Celje",
+        "shortName": "Celje",
+        "snapshotName": "Celje",
+        "logo": "https://assets.footylogos.com/previews/nk-celje/nk-celje-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900010,
+        "name": "Olympiacos",
+        "shortName": "Olympiacos",
+        "snapshotName": "Olympiacos",
+        "logo": "https://assets.footylogos.com/previews/olympiacos/olympiacos-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950099,
+      "date": "2026-12-10T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 98,
+        "name": "AC Milan",
+        "shortName": "ACミラン",
+        "snapshotName": "Milan",
+        "logo": "https://crests.football-data.org/98.png"
+      },
+      "away": {
+        "id": 71,
+        "name": "Sunderland AFC",
+        "shortName": "サンダーランド",
+        "snapshotName": "Sunderland",
+        "logo": "https://crests.football-data.org/71.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950100,
+      "date": "2026-12-10T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 1044,
+        "name": "AFC Bournemouth",
+        "shortName": "ボーンマス",
+        "snapshotName": "Bournemouth",
+        "logo": "https://crests.football-data.org/bournemouth.png"
+      },
+      "away": {
+        "id": 900028,
+        "name": "Viktoria Plzeň",
+        "shortName": "Viktoria Plzeň",
+        "snapshotName": "Viktoria Plzeň",
+        "logo": "https://assets.footylogos.com/previews/viktoria-plzen/viktoria-plzen-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950101,
+      "date": "2026-12-10T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 3,
+        "name": "Bayer 04 Leverkusen",
+        "shortName": "Bayer 04 Leverkusen",
+        "snapshotName": "Leverkusen",
+        "logo": "https://crests.football-data.org/3.png"
+      },
+      "away": {
+        "id": 900022,
+        "name": "Beşiktaş",
+        "shortName": "Beşiktaş",
+        "snapshotName": "Beşiktaş",
+        "logo": "https://assets.footylogos.com/previews/besiktas/besiktas-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950102,
+      "date": "2026-12-10T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900021,
+        "name": "Salzburg",
+        "shortName": "Salzburg",
+        "snapshotName": "Salzburg",
+        "logo": "https://assets.footylogos.com/previews/red-bull-salzburg/red-bull-salzburg-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900001,
+        "name": "Sparta Praha",
+        "shortName": "Sparta Praha",
+        "snapshotName": "Sparta Praha",
+        "logo": "https://assets.footylogos.com/previews/sparta-praha/sparta-praha-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950103,
+      "date": "2026-12-10T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900027,
+        "name": "Lech Poznań",
+        "shortName": "Lech Poznań",
+        "snapshotName": "Lech Poznań",
+        "logo": "https://assets.footylogos.com/previews/lech-poznan/lech-poznan-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900025,
+        "name": "Ferencváros",
+        "shortName": "Ferencváros",
+        "snapshotName": "Ferencváros",
+        "logo": "https://assets.footylogos.com/previews/ferencvaros-tc/ferencvaros-tc-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950104,
+      "date": "2026-12-10T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 523,
+        "name": "Olympique Lyonnais",
+        "shortName": "リヨン",
+        "snapshotName": "Lyon",
+        "logo": "https://crests.football-data.org/523.png"
+      },
+      "away": {
+        "id": 900029,
+        "name": "Union SG",
+        "shortName": "Union SG",
+        "snapshotName": "Union SG",
+        "logo": "https://assets.footylogos.com/previews/union-saint-gilloise/union-saint-gilloise-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950105,
+      "date": "2026-12-10T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900020,
+        "name": "Levski Sofia",
+        "shortName": "Levski Sofia",
+        "snapshotName": "Levski Sofia",
+        "logo": "https://assets.footylogos.com/previews/levski-sofia/levski-sofia-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900032,
+        "name": "Lillestrøm",
+        "shortName": "Lillestrøm",
+        "snapshotName": "Lillestrøm",
+        "logo": "https://assets.footylogos.com/previews/lillestrom-sk/lillestrom-sk-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950106,
+      "date": "2026-12-10T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 92,
+        "name": "Real Sociedad de Fútbol",
+        "shortName": "レアル・ソシエダ",
+        "snapshotName": "Real Sociedad",
+        "logo": "https://crests.football-data.org/92.png"
+      },
+      "away": {
+        "id": 900033,
+        "name": "Torreense",
+        "shortName": "Torreense",
+        "snapshotName": "Torreense",
+        "logo": "https://assets.footylogos.com/previews/scu-torreense/scu-torreense-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950107,
+      "date": "2026-12-10T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900005,
+        "name": "Benfica",
+        "shortName": "Benfica",
+        "snapshotName": "Benfica",
+        "logo": "https://assets.footylogos.com/previews/sl-benfica/sl-benfica-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900018,
+        "name": "OFI Crete",
+        "shortName": "OFI Crete",
+        "snapshotName": "OFI Crete",
+        "logo": "https://assets.footylogos.com/previews/ofi-crete/ofi-crete-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
     },
     {
       "id": 558491,
@@ -47874,6 +49278,636 @@
       "events": []
     },
     {
+      "id": 950108,
+      "date": "2027-01-21T17:45:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900022,
+        "name": "Beşiktaş",
+        "shortName": "Beşiktaş",
+        "snapshotName": "Beşiktaş",
+        "logo": "https://assets.footylogos.com/previews/besiktas/besiktas-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900029,
+        "name": "Union SG",
+        "shortName": "Union SG",
+        "snapshotName": "Union SG",
+        "logo": "https://assets.footylogos.com/previews/union-saint-gilloise/union-saint-gilloise-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950109,
+      "date": "2027-01-21T17:45:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900000,
+        "name": "Ararat-Armenia",
+        "shortName": "Ararat-Armenia",
+        "snapshotName": "Ararat-Armenia",
+        "logo": "https://assets.footylogos.com/previews/fc-ararat-armenia/fc-ararat-armenia-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900007,
+        "name": "Celje",
+        "shortName": "Celje",
+        "snapshotName": "Celje",
+        "logo": "https://assets.footylogos.com/previews/nk-celje/nk-celje-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950110,
+      "date": "2027-01-21T17:45:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900025,
+        "name": "Ferencváros",
+        "shortName": "Ferencváros",
+        "snapshotName": "Ferencváros",
+        "logo": "https://assets.footylogos.com/previews/ferencvaros-tc/ferencvaros-tc-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 109,
+        "name": "Juventus FC",
+        "shortName": "ユヴェントス",
+        "snapshotName": "Juventus",
+        "logo": "https://crests.football-data.org/109.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950111,
+      "date": "2027-01-21T17:45:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900011,
+        "name": "Jagiellonia",
+        "shortName": "Jagiellonia",
+        "snapshotName": "Jagiellonia",
+        "logo": "https://assets.footylogos.com/previews/jagiellonia-bialystok/jagiellonia-bialystok-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 523,
+        "name": "Olympique Lyonnais",
+        "shortName": "リヨン",
+        "snapshotName": "Lyon",
+        "logo": "https://crests.football-data.org/523.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950112,
+      "date": "2027-01-21T17:45:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900032,
+        "name": "Lillestrøm",
+        "shortName": "Lillestrøm",
+        "snapshotName": "Lillestrøm",
+        "logo": "https://assets.footylogos.com/previews/lillestrom-sk/lillestrom-sk-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 1044,
+        "name": "AFC Bournemouth",
+        "shortName": "ボーンマス",
+        "snapshotName": "Bournemouth",
+        "logo": "https://crests.football-data.org/bournemouth.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950113,
+      "date": "2027-01-21T17:45:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900031,
+        "name": "N.E.C. Nijmegen",
+        "shortName": "N.E.C. Nijmegen",
+        "snapshotName": "N.E.C. Nijmegen",
+        "logo": "https://assets.footylogos.com/previews/nec-nijmegen/nec-nijmegen-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900005,
+        "name": "Benfica",
+        "shortName": "Benfica",
+        "snapshotName": "Benfica",
+        "logo": "https://assets.footylogos.com/previews/sl-benfica/sl-benfica-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950114,
+      "date": "2027-01-21T17:45:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900010,
+        "name": "Olympiacos",
+        "shortName": "Olympiacos",
+        "snapshotName": "Olympiacos",
+        "logo": "https://assets.footylogos.com/previews/olympiacos/olympiacos-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 2,
+        "name": "TSG 1899 Hoffenheim",
+        "shortName": "ホッフェンハイム",
+        "snapshotName": "Hoffenheim",
+        "logo": "https://crests.football-data.org/2.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950115,
+      "date": "2027-01-21T17:45:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 92,
+        "name": "Real Sociedad de Fútbol",
+        "shortName": "レアル・ソシエダ",
+        "snapshotName": "Real Sociedad",
+        "logo": "https://crests.football-data.org/92.png"
+      },
+      "away": {
+        "id": 900028,
+        "name": "Viktoria Plzeň",
+        "shortName": "Viktoria Plzeň",
+        "snapshotName": "Viktoria Plzeň",
+        "logo": "https://assets.footylogos.com/previews/viktoria-plzen/viktoria-plzen-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950116,
+      "date": "2027-01-21T17:45:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900014,
+        "name": "Sturm Graz",
+        "shortName": "Sturm Graz",
+        "snapshotName": "Sturm Graz",
+        "logo": "https://assets.footylogos.com/previews/sk-sturm-graz/sk-sturm-graz-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900018,
+        "name": "OFI Crete",
+        "shortName": "OFI Crete",
+        "snapshotName": "OFI Crete",
+        "logo": "https://assets.footylogos.com/previews/ofi-crete/ofi-crete-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950117,
+      "date": "2027-01-21T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900017,
+        "name": "AZ Alkmaar",
+        "shortName": "AZ Alkmaar",
+        "snapshotName": "AZ Alkmaar",
+        "logo": "https://assets.footylogos.com/previews/az-alkmaar/az-alkmaar-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900009,
+        "name": "GNK Dinamo",
+        "shortName": "GNK Dinamo",
+        "snapshotName": "GNK Dinamo",
+        "logo": "https://assets.footylogos.com/previews/gnk-dinamo-zagreb/gnk-dinamo-zagreb-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950118,
+      "date": "2027-01-21T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 3,
+        "name": "Bayer 04 Leverkusen",
+        "shortName": "Bayer 04 Leverkusen",
+        "snapshotName": "Leverkusen",
+        "logo": "https://crests.football-data.org/3.png"
+      },
+      "away": {
+        "id": 900021,
+        "name": "Salzburg",
+        "shortName": "Salzburg",
+        "snapshotName": "Salzburg",
+        "logo": "https://assets.footylogos.com/previews/red-bull-salzburg/red-bull-salzburg-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950119,
+      "date": "2027-01-21T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900024,
+        "name": "Celtic",
+        "shortName": "Celtic",
+        "snapshotName": "Celtic",
+        "logo": "https://assets.footylogos.com/previews/celtic/celtic-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 516,
+        "name": "Olympique de Marseille",
+        "shortName": "マルセイユ",
+        "snapshotName": "Marseille",
+        "logo": "https://crests.football-data.org/516.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950120,
+      "date": "2027-01-21T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 354,
+        "name": "Crystal Palace FC",
+        "shortName": "クリスタル・パレス",
+        "snapshotName": "Crystal Palace",
+        "logo": "https://crests.football-data.org/354.png"
+      },
+      "away": {
+        "id": 900001,
+        "name": "Sparta Praha",
+        "shortName": "Sparta Praha",
+        "snapshotName": "Sparta Praha",
+        "logo": "https://assets.footylogos.com/previews/sparta-praha/sparta-praha-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950121,
+      "date": "2027-01-21T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900008,
+        "name": "Hapoel Beer-Sheva",
+        "shortName": "Hapoel Beer-Sheva",
+        "snapshotName": "Hapoel Beer-Sheva",
+        "logo": "https://assets.footylogos.com/previews/hapoel-beer-sheva/hapoel-beer-sheva-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 558,
+        "name": "RC Celta de Vigo",
+        "shortName": "RC Celta de Vigo",
+        "snapshotName": "Celta",
+        "logo": "https://crests.football-data.org/558.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950122,
+      "date": "2027-01-21T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900027,
+        "name": "Lech Poznań",
+        "shortName": "Lech Poznań",
+        "snapshotName": "Lech Poznań",
+        "logo": "https://assets.footylogos.com/previews/lech-poznan/lech-poznan-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900033,
+        "name": "Torreense",
+        "shortName": "Torreense",
+        "snapshotName": "Torreense",
+        "logo": "https://assets.footylogos.com/previews/scu-torreense/scu-torreense-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950123,
+      "date": "2027-01-21T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900020,
+        "name": "Levski Sofia",
+        "shortName": "Levski Sofia",
+        "snapshotName": "Levski Sofia",
+        "logo": "https://assets.footylogos.com/previews/levski-sofia/levski-sofia-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 98,
+        "name": "AC Milan",
+        "shortName": "ACミラン",
+        "snapshotName": "Milan",
+        "logo": "https://crests.football-data.org/98.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950124,
+      "date": "2027-01-21T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900012,
+        "name": "Anderlecht",
+        "shortName": "Anderlecht",
+        "snapshotName": "Anderlecht",
+        "logo": "https://assets.footylogos.com/previews/rsc-anderlecht/rsc-anderlecht-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 71,
+        "name": "Sunderland AFC",
+        "shortName": "サンダーランド",
+        "snapshotName": "Sunderland",
+        "logo": "https://crests.football-data.org/71.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950125,
+      "date": "2027-01-21T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900015,
+        "name": "Rennes",
+        "shortName": "Rennes",
+        "snapshotName": "Rennes",
+        "logo": "https://assets.footylogos.com/previews/stade-rennais/stade-rennais-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900002,
+        "name": "Omonia",
+        "shortName": "Omonia",
+        "snapshotName": "Omonia",
+        "logo": "https://assets.footylogos.com/previews/ac-omonia-nicosia/ac-omonia-nicosia-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
       "id": 559572,
       "date": "2027-01-22T19:45:00Z",
       "status": "TIMED",
@@ -50644,6 +52678,636 @@
         }
       },
       "events": []
+    },
+    {
+      "id": 950126,
+      "date": "2027-01-28T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 98,
+        "name": "AC Milan",
+        "shortName": "ACミラン",
+        "snapshotName": "Milan",
+        "logo": "https://crests.football-data.org/98.png"
+      },
+      "away": {
+        "id": 900000,
+        "name": "Ararat-Armenia",
+        "shortName": "Ararat-Armenia",
+        "snapshotName": "Ararat-Armenia",
+        "logo": "https://assets.footylogos.com/previews/fc-ararat-armenia/fc-ararat-armenia-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950127,
+      "date": "2027-01-28T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900001,
+        "name": "Sparta Praha",
+        "shortName": "Sparta Praha",
+        "snapshotName": "Sparta Praha",
+        "logo": "https://assets.footylogos.com/previews/sparta-praha/sparta-praha-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900015,
+        "name": "Rennes",
+        "shortName": "Rennes",
+        "snapshotName": "Rennes",
+        "logo": "https://assets.footylogos.com/previews/stade-rennais/stade-rennais-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950128,
+      "date": "2027-01-28T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 1044,
+        "name": "AFC Bournemouth",
+        "shortName": "ボーンマス",
+        "snapshotName": "Bournemouth",
+        "logo": "https://crests.football-data.org/bournemouth.png"
+      },
+      "away": {
+        "id": 900008,
+        "name": "Hapoel Beer-Sheva",
+        "shortName": "Hapoel Beer-Sheva",
+        "snapshotName": "Hapoel Beer-Sheva",
+        "logo": "https://assets.footylogos.com/previews/hapoel-beer-sheva/hapoel-beer-sheva-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950129,
+      "date": "2027-01-28T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900021,
+        "name": "Salzburg",
+        "shortName": "Salzburg",
+        "snapshotName": "Salzburg",
+        "logo": "https://assets.footylogos.com/previews/red-bull-salzburg/red-bull-salzburg-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 354,
+        "name": "Crystal Palace FC",
+        "shortName": "クリスタル・パレス",
+        "snapshotName": "Crystal Palace",
+        "logo": "https://crests.football-data.org/354.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950130,
+      "date": "2027-01-28T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900028,
+        "name": "Viktoria Plzeň",
+        "shortName": "Viktoria Plzeň",
+        "snapshotName": "Viktoria Plzeň",
+        "logo": "https://assets.footylogos.com/previews/viktoria-plzen/viktoria-plzen-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900011,
+        "name": "Jagiellonia",
+        "shortName": "Jagiellonia",
+        "snapshotName": "Jagiellonia",
+        "logo": "https://assets.footylogos.com/previews/jagiellonia-bialystok/jagiellonia-bialystok-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950131,
+      "date": "2027-01-28T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900009,
+        "name": "GNK Dinamo",
+        "shortName": "GNK Dinamo",
+        "snapshotName": "GNK Dinamo",
+        "logo": "https://assets.footylogos.com/previews/gnk-dinamo-zagreb/gnk-dinamo-zagreb-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900014,
+        "name": "Sturm Graz",
+        "shortName": "Sturm Graz",
+        "snapshotName": "Sturm Graz",
+        "logo": "https://assets.footylogos.com/previews/sk-sturm-graz/sk-sturm-graz-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950132,
+      "date": "2027-01-28T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 109,
+        "name": "Juventus FC",
+        "shortName": "ユヴェントス",
+        "snapshotName": "Juventus",
+        "logo": "https://crests.football-data.org/109.png"
+      },
+      "away": {
+        "id": 92,
+        "name": "Real Sociedad de Fútbol",
+        "shortName": "レアル・ソシエダ",
+        "snapshotName": "Real Sociedad",
+        "logo": "https://crests.football-data.org/92.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950133,
+      "date": "2027-01-28T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900007,
+        "name": "Celje",
+        "shortName": "Celje",
+        "snapshotName": "Celje",
+        "logo": "https://assets.footylogos.com/previews/nk-celje/nk-celje-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900031,
+        "name": "N.E.C. Nijmegen",
+        "shortName": "N.E.C. Nijmegen",
+        "snapshotName": "N.E.C. Nijmegen",
+        "logo": "https://assets.footylogos.com/previews/nec-nijmegen/nec-nijmegen-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950134,
+      "date": "2027-01-28T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900018,
+        "name": "OFI Crete",
+        "shortName": "OFI Crete",
+        "snapshotName": "OFI Crete",
+        "logo": "https://assets.footylogos.com/previews/ofi-crete/ofi-crete-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900027,
+        "name": "Lech Poznań",
+        "shortName": "Lech Poznań",
+        "snapshotName": "Lech Poznań",
+        "logo": "https://assets.footylogos.com/previews/lech-poznan/lech-poznan-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950135,
+      "date": "2027-01-28T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 516,
+        "name": "Olympique de Marseille",
+        "shortName": "マルセイユ",
+        "snapshotName": "Marseille",
+        "logo": "https://crests.football-data.org/516.png"
+      },
+      "away": {
+        "id": 900012,
+        "name": "Anderlecht",
+        "shortName": "Anderlecht",
+        "snapshotName": "Anderlecht",
+        "logo": "https://assets.footylogos.com/previews/rsc-anderlecht/rsc-anderlecht-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950136,
+      "date": "2027-01-28T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 523,
+        "name": "Olympique Lyonnais",
+        "shortName": "リヨン",
+        "snapshotName": "Lyon",
+        "logo": "https://crests.football-data.org/523.png"
+      },
+      "away": {
+        "id": 3,
+        "name": "Bayer 04 Leverkusen",
+        "shortName": "Bayer 04 Leverkusen",
+        "snapshotName": "Leverkusen",
+        "logo": "https://crests.football-data.org/3.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950137,
+      "date": "2027-01-28T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900002,
+        "name": "Omonia",
+        "shortName": "Omonia",
+        "snapshotName": "Omonia",
+        "logo": "https://assets.footylogos.com/previews/ac-omonia-nicosia/ac-omonia-nicosia-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900022,
+        "name": "Beşiktaş",
+        "shortName": "Beşiktaş",
+        "snapshotName": "Beşiktaş",
+        "logo": "https://assets.footylogos.com/previews/besiktas/besiktas-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950138,
+      "date": "2027-01-28T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900029,
+        "name": "Union SG",
+        "shortName": "Union SG",
+        "snapshotName": "Union SG",
+        "logo": "https://assets.footylogos.com/previews/union-saint-gilloise/union-saint-gilloise-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900024,
+        "name": "Celtic",
+        "shortName": "Celtic",
+        "snapshotName": "Celtic",
+        "logo": "https://assets.footylogos.com/previews/celtic/celtic-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950139,
+      "date": "2027-01-28T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 558,
+        "name": "RC Celta de Vigo",
+        "shortName": "RC Celta de Vigo",
+        "snapshotName": "Celta",
+        "logo": "https://crests.football-data.org/558.png"
+      },
+      "away": {
+        "id": 900032,
+        "name": "Lillestrøm",
+        "shortName": "Lillestrøm",
+        "snapshotName": "Lillestrøm",
+        "logo": "https://assets.footylogos.com/previews/lillestrom-sk/lillestrom-sk-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950140,
+      "date": "2027-01-28T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900033,
+        "name": "Torreense",
+        "shortName": "Torreense",
+        "snapshotName": "Torreense",
+        "logo": "https://assets.footylogos.com/previews/scu-torreense/scu-torreense-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900010,
+        "name": "Olympiacos",
+        "shortName": "Olympiacos",
+        "snapshotName": "Olympiacos",
+        "logo": "https://assets.footylogos.com/previews/olympiacos/olympiacos-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950141,
+      "date": "2027-01-28T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 900005,
+        "name": "Benfica",
+        "shortName": "Benfica",
+        "snapshotName": "Benfica",
+        "logo": "https://assets.footylogos.com/previews/sl-benfica/sl-benfica-logo-footylogos-320.webp"
+      },
+      "away": {
+        "id": 900017,
+        "name": "AZ Alkmaar",
+        "shortName": "AZ Alkmaar",
+        "snapshotName": "AZ Alkmaar",
+        "logo": "https://assets.footylogos.com/previews/az-alkmaar/az-alkmaar-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950142,
+      "date": "2027-01-28T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 71,
+        "name": "Sunderland AFC",
+        "shortName": "サンダーランド",
+        "snapshotName": "Sunderland",
+        "logo": "https://crests.football-data.org/71.png"
+      },
+      "away": {
+        "id": 900020,
+        "name": "Levski Sofia",
+        "shortName": "Levski Sofia",
+        "snapshotName": "Levski Sofia",
+        "logo": "https://assets.footylogos.com/previews/levski-sofia/levski-sofia-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+    },
+    {
+      "id": 950143,
+      "date": "2027-01-28T20:00:00Z",
+      "kickoffKnown": true,
+      "status": "SCHEDULED",
+      "elapsed": null,
+      "competition": "UEFA Europa League",
+      "competitionJa": "ヨーロッパリーグ",
+      "leagueId": 2146,
+      "leagueCode": "EL",
+      "round": "リーグフェーズ",
+      "stage": "LEAGUE_STAGE",
+      "venue": "",
+      "home": {
+        "id": 2,
+        "name": "TSG 1899 Hoffenheim",
+        "shortName": "ホッフェンハイム",
+        "snapshotName": "Hoffenheim",
+        "logo": "https://crests.football-data.org/2.png"
+      },
+      "away": {
+        "id": 900025,
+        "name": "Ferencváros",
+        "shortName": "Ferencváros",
+        "snapshotName": "Ferencváros",
+        "logo": "https://assets.footylogos.com/previews/ferencvaros-tc/ferencvaros-tc-logo-footylogos-320.webp"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {},
+      "events": [],
+      "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
     },
     {
       "id": 559564,
@@ -86564,7 +89228,8 @@
             "id": 900010,
             "name": "Olympiacos",
             "shortName": "Olympiacos",
-            "logo": ""
+            "snapshotName": "Olympiacos",
+            "logo": "https://assets.footylogos.com/previews/olympiacos/olympiacos-logo-footylogos-320.webp"
           },
           "played": 4,
           "win": 3,
@@ -86582,7 +89247,8 @@
             "id": 900005,
             "name": "Benfica",
             "shortName": "Benfica",
-            "logo": ""
+            "snapshotName": "Benfica",
+            "logo": "https://assets.footylogos.com/previews/sl-benfica/sl-benfica-logo-footylogos-320.webp"
           },
           "played": 3,
           "win": 3,
@@ -86600,6 +89266,7 @@
             "id": 3,
             "name": "Bayer 04 Leverkusen",
             "shortName": "Bayer 04 Leverkusen",
+            "snapshotName": "Leverkusen",
             "logo": "https://crests.football-data.org/3.png"
           },
           "played": 3,
@@ -86618,6 +89285,7 @@
             "id": 1044,
             "name": "AFC Bournemouth",
             "shortName": "ボーンマス",
+            "snapshotName": "Bournemouth",
             "logo": "https://crests.football-data.org/bournemouth.png"
           },
           "played": 3,
@@ -86636,7 +89304,8 @@
             "id": 900025,
             "name": "Ferencváros",
             "shortName": "Ferencváros",
-            "logo": ""
+            "snapshotName": "Ferencváros",
+            "logo": "https://assets.footylogos.com/previews/ferencvaros-tc/ferencvaros-tc-logo-footylogos-320.webp"
           },
           "played": 3,
           "win": 3,
@@ -86654,7 +89323,8 @@
             "id": 900029,
             "name": "Union SG",
             "shortName": "Union SG",
-            "logo": ""
+            "snapshotName": "Union SG",
+            "logo": "https://assets.footylogos.com/previews/union-saint-gilloise/union-saint-gilloise-logo-footylogos-320.webp"
           },
           "played": 3,
           "win": 2,
@@ -86672,6 +89342,7 @@
             "id": 109,
             "name": "Juventus FC",
             "shortName": "ユヴェントス",
+            "snapshotName": "Juventus",
             "logo": "https://crests.football-data.org/109.png"
           },
           "played": 3,
@@ -86690,7 +89361,8 @@
             "id": 900022,
             "name": "Beşiktaş",
             "shortName": "Beşiktaş",
-            "logo": ""
+            "snapshotName": "Beşiktaş",
+            "logo": "https://assets.footylogos.com/previews/besiktas/besiktas-logo-footylogos-320.webp"
           },
           "played": 3,
           "win": 2,
@@ -86708,6 +89380,7 @@
             "id": 71,
             "name": "Sunderland AFC",
             "shortName": "サンダーランド",
+            "snapshotName": "Sunderland",
             "logo": "https://crests.football-data.org/71.png"
           },
           "played": 3,
@@ -86726,7 +89399,8 @@
             "id": 900017,
             "name": "AZ Alkmaar",
             "shortName": "AZ Alkmaar",
-            "logo": ""
+            "snapshotName": "AZ Alkmaar",
+            "logo": "https://assets.footylogos.com/previews/az-alkmaar/az-alkmaar-logo-footylogos-320.webp"
           },
           "played": 3,
           "win": 2,
@@ -86744,7 +89418,8 @@
             "id": 900002,
             "name": "Omonia",
             "shortName": "Omonia",
-            "logo": ""
+            "snapshotName": "Omonia",
+            "logo": "https://assets.footylogos.com/previews/ac-omonia-nicosia/ac-omonia-nicosia-logo-footylogos-320.webp"
           },
           "played": 3,
           "win": 2,
@@ -86762,7 +89437,8 @@
             "id": 900015,
             "name": "Rennes",
             "shortName": "Rennes",
-            "logo": ""
+            "snapshotName": "Rennes",
+            "logo": "https://assets.footylogos.com/previews/stade-rennais/stade-rennais-logo-footylogos-320.webp"
           },
           "played": 4,
           "win": 1,
@@ -86780,6 +89456,7 @@
             "id": 523,
             "name": "Olympique Lyonnais",
             "shortName": "リヨン",
+            "snapshotName": "Lyon",
             "logo": "https://crests.football-data.org/523.png"
           },
           "played": 3,
@@ -86798,6 +89475,7 @@
             "id": 92,
             "name": "Real Sociedad de Fútbol",
             "shortName": "レアル・ソシエダ",
+            "snapshotName": "Real Sociedad",
             "logo": "https://crests.football-data.org/92.png"
           },
           "played": 3,
@@ -86816,6 +89494,7 @@
             "id": 354,
             "name": "Crystal Palace FC",
             "shortName": "クリスタル・パレス",
+            "snapshotName": "Crystal Palace",
             "logo": "https://crests.football-data.org/354.png"
           },
           "played": 3,
@@ -86834,7 +89513,8 @@
             "id": 900001,
             "name": "Sparta Praha",
             "shortName": "Sparta Praha",
-            "logo": ""
+            "snapshotName": "Sparta Praha",
+            "logo": "https://assets.footylogos.com/previews/sparta-praha/sparta-praha-logo-footylogos-320.webp"
           },
           "played": 3,
           "win": 1,
@@ -86852,7 +89532,8 @@
             "id": 900020,
             "name": "Levski Sofia",
             "shortName": "Levski Sofia",
-            "logo": ""
+            "snapshotName": "Levski Sofia",
+            "logo": "https://assets.footylogos.com/previews/levski-sofia/levski-sofia-logo-footylogos-320.webp"
           },
           "played": 3,
           "win": 1,
@@ -86870,7 +89551,8 @@
             "id": 900009,
             "name": "GNK Dinamo",
             "shortName": "GNK Dinamo",
-            "logo": ""
+            "snapshotName": "GNK Dinamo",
+            "logo": "https://assets.footylogos.com/previews/gnk-dinamo-zagreb/gnk-dinamo-zagreb-logo-footylogos-320.webp"
           },
           "played": 3,
           "win": 1,
@@ -86888,7 +89570,8 @@
             "id": 900014,
             "name": "Sturm Graz",
             "shortName": "Sturm Graz",
-            "logo": ""
+            "snapshotName": "Sturm Graz",
+            "logo": "https://assets.footylogos.com/previews/sk-sturm-graz/sk-sturm-graz-logo-footylogos-320.webp"
           },
           "played": 3,
           "win": 1,
@@ -86906,7 +89589,8 @@
             "id": 900031,
             "name": "N.E.C. Nijmegen",
             "shortName": "N.E.C. Nijmegen",
-            "logo": ""
+            "snapshotName": "N.E.C. Nijmegen",
+            "logo": "https://assets.footylogos.com/previews/nec-nijmegen/nec-nijmegen-logo-footylogos-320.webp"
           },
           "played": 3,
           "win": 1,
@@ -86924,7 +89608,8 @@
             "id": 900021,
             "name": "Salzburg",
             "shortName": "Salzburg",
-            "logo": ""
+            "snapshotName": "Salzburg",
+            "logo": "https://assets.footylogos.com/previews/red-bull-salzburg/red-bull-salzburg-logo-footylogos-320.webp"
           },
           "played": 3,
           "win": 1,
@@ -86942,7 +89627,8 @@
             "id": 900012,
             "name": "Anderlecht",
             "shortName": "Anderlecht",
-            "logo": ""
+            "snapshotName": "Anderlecht",
+            "logo": "https://assets.footylogos.com/previews/rsc-anderlecht/rsc-anderlecht-logo-footylogos-320.webp"
           },
           "played": 3,
           "win": 1,
@@ -86960,6 +89646,7 @@
             "id": 2,
             "name": "TSG 1899 Hoffenheim",
             "shortName": "ホッフェンハイム",
+            "snapshotName": "Hoffenheim",
             "logo": "https://crests.football-data.org/2.png"
           },
           "played": 3,
@@ -86978,6 +89665,7 @@
             "id": 98,
             "name": "AC Milan",
             "shortName": "ACミラン",
+            "snapshotName": "Milan",
             "logo": "https://crests.football-data.org/98.png"
           },
           "played": 3,
@@ -86996,7 +89684,8 @@
             "id": 900018,
             "name": "OFI Crete",
             "shortName": "OFI Crete",
-            "logo": ""
+            "snapshotName": "OFI Crete",
+            "logo": "https://assets.footylogos.com/previews/ofi-crete/ofi-crete-logo-footylogos-320.webp"
           },
           "played": 3,
           "win": 1,
@@ -87014,6 +89703,7 @@
             "id": 558,
             "name": "RC Celta de Vigo",
             "shortName": "RC Celta de Vigo",
+            "snapshotName": "Celta",
             "logo": "https://crests.football-data.org/558.png"
           },
           "played": 3,
@@ -87032,7 +89722,8 @@
             "id": 900011,
             "name": "Jagiellonia",
             "shortName": "Jagiellonia",
-            "logo": ""
+            "snapshotName": "Jagiellonia",
+            "logo": "https://assets.footylogos.com/previews/jagiellonia-bialystok/jagiellonia-bialystok-logo-footylogos-320.webp"
           },
           "played": 3,
           "win": 1,
@@ -87050,7 +89741,8 @@
             "id": 900033,
             "name": "Torreense",
             "shortName": "Torreense",
-            "logo": ""
+            "snapshotName": "Torreense",
+            "logo": "https://assets.footylogos.com/previews/scu-torreense/scu-torreense-logo-footylogos-320.webp"
           },
           "played": 3,
           "win": 1,
@@ -87068,7 +89760,8 @@
             "id": 900007,
             "name": "Celje",
             "shortName": "Celje",
-            "logo": ""
+            "snapshotName": "Celje",
+            "logo": "https://assets.footylogos.com/previews/nk-celje/nk-celje-logo-footylogos-320.webp"
           },
           "played": 3,
           "win": 0,
@@ -87086,7 +89779,8 @@
             "id": 900008,
             "name": "Hapoel Beer-Sheva",
             "shortName": "Hapoel Beer-Sheva",
-            "logo": ""
+            "snapshotName": "Hapoel Beer-Sheva",
+            "logo": "https://assets.footylogos.com/previews/hapoel-beer-sheva/hapoel-beer-sheva-logo-footylogos-320.webp"
           },
           "played": 3,
           "win": 0,
@@ -87104,7 +89798,8 @@
             "id": 900032,
             "name": "Lillestrøm",
             "shortName": "Lillestrøm",
-            "logo": ""
+            "snapshotName": "Lillestrøm",
+            "logo": "https://assets.footylogos.com/previews/lillestrom-sk/lillestrom-sk-logo-footylogos-320.webp"
           },
           "played": 3,
           "win": 0,
@@ -87122,7 +89817,8 @@
             "id": 900027,
             "name": "Lech Poznań",
             "shortName": "Lech Poznań",
-            "logo": ""
+            "snapshotName": "Lech Poznań",
+            "logo": "https://assets.footylogos.com/previews/lech-poznan/lech-poznan-logo-footylogos-320.webp"
           },
           "played": 3,
           "win": 0,
@@ -87140,7 +89836,8 @@
             "id": 900028,
             "name": "Viktoria Plzeň",
             "shortName": "Viktoria Plzeň",
-            "logo": ""
+            "snapshotName": "Viktoria Plzeň",
+            "logo": "https://assets.footylogos.com/previews/viktoria-plzen/viktoria-plzen-logo-footylogos-320.webp"
           },
           "played": 3,
           "win": 0,
@@ -87158,6 +89855,7 @@
             "id": 516,
             "name": "Olympique de Marseille",
             "shortName": "マルセイユ",
+            "snapshotName": "Marseille",
             "logo": "https://crests.football-data.org/516.png"
           },
           "played": 3,
@@ -87176,7 +89874,8 @@
             "id": 900024,
             "name": "Celtic",
             "shortName": "Celtic",
-            "logo": ""
+            "snapshotName": "Celtic",
+            "logo": "https://assets.footylogos.com/previews/celtic/celtic-logo-footylogos-320.webp"
           },
           "played": 3,
           "win": 0,
@@ -87194,7 +89893,8 @@
             "id": 900000,
             "name": "Ararat-Armenia",
             "shortName": "Ararat-Armenia",
-            "logo": ""
+            "snapshotName": "Ararat-Armenia",
+            "logo": "https://assets.footylogos.com/previews/fc-ararat-armenia/fc-ararat-armenia-logo-footylogos-320.webp"
           },
           "played": 3,
           "win": 0,
