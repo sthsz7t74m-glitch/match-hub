@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T09:54:11.984Z",
+  "updatedAt": "2026-11-05T18:05:11.033Z",
   "season": "2026",
   "dataSource": "football-data.org",
   "dataMode": "current-free-plan",
@@ -34494,6 +34494,48 @@
       "events": []
     },
     {
+      "id": 565882,
+      "date": "2026-12-04T19:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第12節",
+      "venue": "",
+      "home": {
+        "id": 5,
+        "name": "FC Bayern München",
+        "shortName": "バイエルン・ミュンヘン",
+        "logo": "https://crests.football-data.org/5.png"
+      },
+      "away": {
+        "id": 29,
+        "name": "SC Paderborn 07",
+        "shortName": "SC Paderborn 07",
+        "logo": "https://crests.football-data.org/29.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
       "id": 558502,
       "date": "2026-12-04T19:45:00Z",
       "status": "TIMED",
@@ -34578,384 +34620,6 @@
       "events": []
     },
     {
-      "id": 565875,
-      "date": "2026-12-05T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第12節",
-      "venue": "",
-      "home": {
-        "id": 28,
-        "name": "1. FC Union Berlin",
-        "shortName": "ウニオン・ベルリン",
-        "logo": "https://crests.football-data.org/28.png"
-      },
-      "away": {
-        "id": 7,
-        "name": "Hamburger SV",
-        "shortName": "ハンブルガーSV",
-        "logo": "https://crests.football-data.org/7.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565876,
-      "date": "2026-12-05T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第12節",
-      "venue": "",
-      "home": {
-        "id": 6,
-        "name": "FC Schalke 04",
-        "shortName": "FC Schalke 04",
-        "logo": "https://crests.football-data.org/6.png"
-      },
-      "away": {
-        "id": 4,
-        "name": "Borussia Dortmund",
-        "shortName": "ボルシア・ドルトムント",
-        "logo": "https://crests.football-data.org/4.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565877,
-      "date": "2026-12-05T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第12節",
-      "venue": "",
-      "home": {
-        "id": 3,
-        "name": "Bayer 04 Leverkusen",
-        "shortName": "Bayer 04 Leverkusen",
-        "logo": "https://crests.football-data.org/3.png"
-      },
-      "away": {
-        "id": 18,
-        "name": "Borussia Mönchengladbach",
-        "shortName": "ボルシアMG",
-        "logo": "https://crests.football-data.org/18.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565878,
-      "date": "2026-12-05T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第12節",
-      "venue": "",
-      "home": {
-        "id": 19,
-        "name": "Eintracht Frankfurt",
-        "shortName": "アイントラハト・フランクフルト",
-        "logo": "https://crests.football-data.org/19.png"
-      },
-      "away": {
-        "id": 12,
-        "name": "SV Werder Bremen",
-        "shortName": "SV Werder Bremen",
-        "logo": "https://crests.football-data.org/12.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565879,
-      "date": "2026-12-05T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第12節",
-      "venue": "",
-      "home": {
-        "id": 721,
-        "name": "RB Leipzig",
-        "shortName": "RBライプツィヒ",
-        "logo": "https://crests.football-data.org/721.png"
-      },
-      "away": {
-        "id": 15,
-        "name": "1. FSV Mainz 05",
-        "shortName": "1. FSV Mainz 05",
-        "logo": "https://crests.football-data.org/15.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565880,
-      "date": "2026-12-05T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第12節",
-      "venue": "",
-      "home": {
-        "id": 719,
-        "name": "SV 07 Elversberg",
-        "shortName": "SV 07 Elversberg",
-        "logo": "https://crests.football-data.org/719.png"
-      },
-      "away": {
-        "id": 10,
-        "name": "VfB Stuttgart",
-        "shortName": "シュトゥットガルト",
-        "logo": "https://crests.football-data.org/10.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565881,
-      "date": "2026-12-05T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第12節",
-      "venue": "",
-      "home": {
-        "id": 17,
-        "name": "SC Freiburg",
-        "shortName": "フライブルク",
-        "logo": "https://crests.football-data.org/17.png"
-      },
-      "away": {
-        "id": 2,
-        "name": "TSG 1899 Hoffenheim",
-        "shortName": "ホッフェンハイム",
-        "logo": "https://crests.football-data.org/2.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565882,
-      "date": "2026-12-05T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第12節",
-      "venue": "",
-      "home": {
-        "id": 5,
-        "name": "FC Bayern München",
-        "shortName": "バイエルン・ミュンヘン",
-        "logo": "https://crests.football-data.org/5.png"
-      },
-      "away": {
-        "id": 29,
-        "name": "SC Paderborn 07",
-        "shortName": "SC Paderborn 07",
-        "logo": "https://crests.football-data.org/29.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565883,
-      "date": "2026-12-05T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第12節",
-      "venue": "",
-      "home": {
-        "id": 16,
-        "name": "FC Augsburg",
-        "shortName": "アウクスブルク",
-        "logo": "https://crests.football-data.org/16.png"
-      },
-      "away": {
-        "id": 1,
-        "name": "1. FC Köln",
-        "shortName": "1. FC Köln",
-        "logo": "https://crests.football-data.org/1.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
       "id": 560676,
       "date": "2026-12-05T12:30:00Z",
       "status": "TIMED",
@@ -35020,6 +34684,216 @@
         "name": "Como 1907",
         "shortName": "コモ",
         "logo": "https://crests.football-data.org/7397.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 565875,
+      "date": "2026-12-05T14:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第12節",
+      "venue": "",
+      "home": {
+        "id": 28,
+        "name": "1. FC Union Berlin",
+        "shortName": "ウニオン・ベルリン",
+        "logo": "https://crests.football-data.org/28.png"
+      },
+      "away": {
+        "id": 7,
+        "name": "Hamburger SV",
+        "shortName": "ハンブルガーSV",
+        "logo": "https://crests.football-data.org/7.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 565877,
+      "date": "2026-12-05T14:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第12節",
+      "venue": "",
+      "home": {
+        "id": 3,
+        "name": "Bayer 04 Leverkusen",
+        "shortName": "Bayer 04 Leverkusen",
+        "logo": "https://crests.football-data.org/3.png"
+      },
+      "away": {
+        "id": 18,
+        "name": "Borussia Mönchengladbach",
+        "shortName": "ボルシアMG",
+        "logo": "https://crests.football-data.org/18.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 565879,
+      "date": "2026-12-05T14:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第12節",
+      "venue": "",
+      "home": {
+        "id": 721,
+        "name": "RB Leipzig",
+        "shortName": "RBライプツィヒ",
+        "logo": "https://crests.football-data.org/721.png"
+      },
+      "away": {
+        "id": 15,
+        "name": "1. FSV Mainz 05",
+        "shortName": "1. FSV Mainz 05",
+        "logo": "https://crests.football-data.org/15.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 565881,
+      "date": "2026-12-05T14:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第12節",
+      "venue": "",
+      "home": {
+        "id": 17,
+        "name": "SC Freiburg",
+        "shortName": "フライブルク",
+        "logo": "https://crests.football-data.org/17.png"
+      },
+      "away": {
+        "id": 2,
+        "name": "TSG 1899 Hoffenheim",
+        "shortName": "ホッフェンハイム",
+        "logo": "https://crests.football-data.org/2.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 565883,
+      "date": "2026-12-05T14:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第12節",
+      "venue": "",
+      "home": {
+        "id": 16,
+        "name": "FC Augsburg",
+        "shortName": "アウクスブルク",
+        "logo": "https://crests.football-data.org/16.png"
+      },
+      "away": {
+        "id": 1,
+        "name": "1. FC Köln",
+        "shortName": "1. FC Köln",
+        "logo": "https://crests.football-data.org/1.png"
       },
       "goals": {
         "home": null,
@@ -35314,6 +35188,48 @@
         "name": "Brighton & Hove Albion FC",
         "shortName": "ブライトン",
         "logo": "https://crests.football-data.org/397.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 565878,
+      "date": "2026-12-05T17:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第12節",
+      "venue": "",
+      "home": {
+        "id": 19,
+        "name": "Eintracht Frankfurt",
+        "shortName": "アイントラハト・フランクフルト",
+        "logo": "https://crests.football-data.org/19.png"
+      },
+      "away": {
+        "id": 12,
+        "name": "SV Werder Bremen",
+        "shortName": "SV Werder Bremen",
+        "logo": "https://crests.football-data.org/12.png"
       },
       "goals": {
         "home": null,
@@ -36216,6 +36132,48 @@
       "events": []
     },
     {
+      "id": 565876,
+      "date": "2026-12-06T14:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第12節",
+      "venue": "",
+      "home": {
+        "id": 6,
+        "name": "FC Schalke 04",
+        "shortName": "FC Schalke 04",
+        "logo": "https://crests.football-data.org/6.png"
+      },
+      "away": {
+        "id": 4,
+        "name": "Borussia Dortmund",
+        "shortName": "ボルシア・ドルトムント",
+        "logo": "https://crests.football-data.org/4.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
       "id": 559608,
       "date": "2026-12-06T16:15:00Z",
       "status": "TIMED",
@@ -36280,6 +36238,48 @@
         "name": "Arsenal FC",
         "shortName": "アーセナル",
         "logo": "https://crests.football-data.org/57.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 565880,
+      "date": "2026-12-06T16:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第12節",
+      "venue": "",
+      "home": {
+        "id": 719,
+        "name": "SV 07 Elversberg",
+        "shortName": "SV 07 Elversberg",
+        "logo": "https://crests.football-data.org/719.png"
+      },
+      "away": {
+        "id": 10,
+        "name": "VfB Stuttgart",
+        "shortName": "シュトゥットガルト",
+        "logo": "https://crests.football-data.org/10.png"
       },
       "goals": {
         "home": null,
@@ -37938,6 +37938,48 @@
       "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
     },
     {
+      "id": 565888,
+      "date": "2026-12-11T19:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第13節",
+      "venue": "",
+      "home": {
+        "id": 7,
+        "name": "Hamburger SV",
+        "shortName": "ハンブルガーSV",
+        "logo": "https://crests.football-data.org/7.png"
+      },
+      "away": {
+        "id": 6,
+        "name": "FC Schalke 04",
+        "shortName": "FC Schalke 04",
+        "logo": "https://crests.football-data.org/6.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
       "id": 558491,
       "date": "2026-12-11T19:45:00Z",
       "status": "TIMED",
@@ -38022,9 +38064,51 @@
       "events": []
     },
     {
+      "id": 558494,
+      "date": "2026-12-12T14:00:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Serie A",
+      "competitionJa": "セリエA",
+      "leagueId": 135,
+      "leagueCode": "SA",
+      "stage": "REGULAR_SEASON",
+      "round": "第15節",
+      "venue": "",
+      "home": {
+        "id": 104,
+        "name": "Cagliari Calcio",
+        "shortName": "カリアリ",
+        "logo": "https://crests.football-data.org/104.png"
+      },
+      "away": {
+        "id": 454,
+        "name": "Venezia FC",
+        "shortName": "Venezia FC",
+        "logo": "https://crests.football-data.org/454.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
       "id": 565884,
-      "date": "2026-12-12T00:00:00Z",
-      "status": "SCHEDULED",
+      "date": "2026-12-12T14:30:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Bundesliga",
       "competitionJa": "ブンデスリーガ",
@@ -38064,51 +38148,9 @@
       "events": []
     },
     {
-      "id": 565885,
-      "date": "2026-12-12T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第13節",
-      "venue": "",
-      "home": {
-        "id": 12,
-        "name": "SV Werder Bremen",
-        "shortName": "SV Werder Bremen",
-        "logo": "https://crests.football-data.org/12.png"
-      },
-      "away": {
-        "id": 3,
-        "name": "Bayer 04 Leverkusen",
-        "shortName": "Bayer 04 Leverkusen",
-        "logo": "https://crests.football-data.org/3.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
       "id": 565886,
-      "date": "2026-12-12T00:00:00Z",
-      "status": "SCHEDULED",
+      "date": "2026-12-12T14:30:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Bundesliga",
       "competitionJa": "ブンデスリーガ",
@@ -38149,8 +38191,8 @@
     },
     {
       "id": 565887,
-      "date": "2026-12-12T00:00:00Z",
-      "status": "SCHEDULED",
+      "date": "2026-12-12T14:30:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Bundesliga",
       "competitionJa": "ブンデスリーガ",
@@ -38190,93 +38232,9 @@
       "events": []
     },
     {
-      "id": 565888,
-      "date": "2026-12-12T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第13節",
-      "venue": "",
-      "home": {
-        "id": 7,
-        "name": "Hamburger SV",
-        "shortName": "ハンブルガーSV",
-        "logo": "https://crests.football-data.org/7.png"
-      },
-      "away": {
-        "id": 6,
-        "name": "FC Schalke 04",
-        "shortName": "FC Schalke 04",
-        "logo": "https://crests.football-data.org/6.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565889,
-      "date": "2026-12-12T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第13節",
-      "venue": "",
-      "home": {
-        "id": 15,
-        "name": "1. FSV Mainz 05",
-        "shortName": "1. FSV Mainz 05",
-        "logo": "https://crests.football-data.org/15.png"
-      },
-      "away": {
-        "id": 17,
-        "name": "SC Freiburg",
-        "shortName": "フライブルク",
-        "logo": "https://crests.football-data.org/17.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
       "id": 565890,
-      "date": "2026-12-12T00:00:00Z",
-      "status": "SCHEDULED",
+      "date": "2026-12-12T14:30:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Bundesliga",
       "competitionJa": "ブンデスリーガ",
@@ -38296,132 +38254,6 @@
         "name": "RB Leipzig",
         "shortName": "RBライプツィヒ",
         "logo": "https://crests.football-data.org/721.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565891,
-      "date": "2026-12-12T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第13節",
-      "venue": "",
-      "home": {
-        "id": 2,
-        "name": "TSG 1899 Hoffenheim",
-        "shortName": "ホッフェンハイム",
-        "logo": "https://crests.football-data.org/2.png"
-      },
-      "away": {
-        "id": 5,
-        "name": "FC Bayern München",
-        "shortName": "バイエルン・ミュンヘン",
-        "logo": "https://crests.football-data.org/5.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565892,
-      "date": "2026-12-12T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第13節",
-      "venue": "",
-      "home": {
-        "id": 18,
-        "name": "Borussia Mönchengladbach",
-        "shortName": "ボルシアMG",
-        "logo": "https://crests.football-data.org/18.png"
-      },
-      "away": {
-        "id": 19,
-        "name": "Eintracht Frankfurt",
-        "shortName": "アイントラハト・フランクフルト",
-        "logo": "https://crests.football-data.org/19.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 558494,
-      "date": "2026-12-12T14:00:00Z",
-      "status": "TIMED",
-      "elapsed": null,
-      "competition": "Serie A",
-      "competitionJa": "セリエA",
-      "leagueId": 135,
-      "leagueCode": "SA",
-      "stage": "REGULAR_SEASON",
-      "round": "第15節",
-      "venue": "",
-      "home": {
-        "id": 104,
-        "name": "Cagliari Calcio",
-        "shortName": "カリアリ",
-        "logo": "https://crests.football-data.org/104.png"
-      },
-      "away": {
-        "id": 454,
-        "name": "Venezia FC",
-        "shortName": "Venezia FC",
-        "logo": "https://crests.football-data.org/454.png"
       },
       "goals": {
         "home": null,
@@ -38674,6 +38506,48 @@
         "name": "Chelsea FC",
         "shortName": "チェルシー",
         "logo": "https://crests.football-data.org/61.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 565892,
+      "date": "2026-12-12T17:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第13節",
+      "venue": "",
+      "home": {
+        "id": 18,
+        "name": "Borussia Mönchengladbach",
+        "shortName": "ボルシアMG",
+        "logo": "https://crests.football-data.org/18.png"
+      },
+      "away": {
+        "id": 19,
+        "name": "Eintracht Frankfurt",
+        "shortName": "アイントラハト・フランクフルト",
+        "logo": "https://crests.football-data.org/19.png"
       },
       "goals": {
         "home": null,
@@ -39576,6 +39450,48 @@
       "events": []
     },
     {
+      "id": 565889,
+      "date": "2026-12-13T14:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第13節",
+      "venue": "",
+      "home": {
+        "id": 15,
+        "name": "1. FSV Mainz 05",
+        "shortName": "1. FSV Mainz 05",
+        "logo": "https://crests.football-data.org/15.png"
+      },
+      "away": {
+        "id": 17,
+        "name": "SC Freiburg",
+        "shortName": "フライブルク",
+        "logo": "https://crests.football-data.org/17.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
       "id": 559600,
       "date": "2026-12-13T16:15:00Z",
       "status": "TIMED",
@@ -39660,6 +39576,48 @@
       "events": []
     },
     {
+      "id": 565891,
+      "date": "2026-12-13T16:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第13節",
+      "venue": "",
+      "home": {
+        "id": 2,
+        "name": "TSG 1899 Hoffenheim",
+        "shortName": "ホッフェンハイム",
+        "logo": "https://crests.football-data.org/2.png"
+      },
+      "away": {
+        "id": 5,
+        "name": "FC Bayern München",
+        "shortName": "バイエルン・ミュンヘン",
+        "logo": "https://crests.football-data.org/5.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
       "id": 558493,
       "date": "2026-12-13T17:00:00Z",
       "status": "TIMED",
@@ -39682,6 +39640,48 @@
         "name": "ACF Fiorentina",
         "shortName": "フィオレンティーナ",
         "logo": "https://crests.football-data.org/99.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 565885,
+      "date": "2026-12-13T18:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第13節",
+      "venue": "",
+      "home": {
+        "id": 12,
+        "name": "SV Werder Bremen",
+        "shortName": "SV Werder Bremen",
+        "logo": "https://crests.football-data.org/12.png"
+      },
+      "away": {
+        "id": 3,
+        "name": "Bayer 04 Leverkusen",
+        "shortName": "Bayer 04 Leverkusen",
+        "logo": "https://crests.football-data.org/3.png"
       },
       "goals": {
         "home": null,
@@ -39996,93 +39996,9 @@
       "events": []
     },
     {
-      "id": 558486,
-      "date": "2026-12-18T19:45:00Z",
-      "status": "TIMED",
-      "elapsed": null,
-      "competition": "Serie A",
-      "competitionJa": "セリエA",
-      "leagueId": 135,
-      "leagueCode": "SA",
-      "stage": "REGULAR_SEASON",
-      "round": "第16節",
-      "venue": "",
-      "home": {
-        "id": 5890,
-        "name": "US Lecce",
-        "shortName": "レッチェ",
-        "logo": "https://crests.football-data.org/5890.png"
-      },
-      "away": {
-        "id": 108,
-        "name": "FC Internazionale Milano",
-        "shortName": "FC Internazionale Milano",
-        "logo": "https://crests.football-data.org/108.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565893,
-      "date": "2026-12-19T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第14節",
-      "venue": "",
-      "home": {
-        "id": 6,
-        "name": "FC Schalke 04",
-        "shortName": "FC Schalke 04",
-        "logo": "https://crests.football-data.org/6.png"
-      },
-      "away": {
-        "id": 18,
-        "name": "Borussia Mönchengladbach",
-        "shortName": "ボルシアMG",
-        "logo": "https://crests.football-data.org/18.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
       "id": 565894,
-      "date": "2026-12-19T00:00:00Z",
-      "status": "SCHEDULED",
+      "date": "2026-12-18T19:30:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Bundesliga",
       "competitionJa": "ブンデスリーガ",
@@ -40122,280 +40038,28 @@
       "events": []
     },
     {
-      "id": 565895,
-      "date": "2026-12-19T00:00:00Z",
-      "status": "SCHEDULED",
+      "id": 558486,
+      "date": "2026-12-18T19:45:00Z",
+      "status": "TIMED",
       "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
+      "competition": "Serie A",
+      "competitionJa": "セリエA",
+      "leagueId": 135,
+      "leagueCode": "SA",
       "stage": "REGULAR_SEASON",
-      "round": "第14節",
+      "round": "第16節",
       "venue": "",
       "home": {
-        "id": 719,
-        "name": "SV 07 Elversberg",
-        "shortName": "SV 07 Elversberg",
-        "logo": "https://crests.football-data.org/719.png"
+        "id": 5890,
+        "name": "US Lecce",
+        "shortName": "レッチェ",
+        "logo": "https://crests.football-data.org/5890.png"
       },
       "away": {
-        "id": 7,
-        "name": "Hamburger SV",
-        "shortName": "ハンブルガーSV",
-        "logo": "https://crests.football-data.org/7.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565896,
-      "date": "2026-12-19T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第14節",
-      "venue": "",
-      "home": {
-        "id": 3,
-        "name": "Bayer 04 Leverkusen",
-        "shortName": "Bayer 04 Leverkusen",
-        "logo": "https://crests.football-data.org/3.png"
-      },
-      "away": {
-        "id": 19,
-        "name": "Eintracht Frankfurt",
-        "shortName": "アイントラハト・フランクフルト",
-        "logo": "https://crests.football-data.org/19.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565897,
-      "date": "2026-12-19T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第14節",
-      "venue": "",
-      "home": {
-        "id": 17,
-        "name": "SC Freiburg",
-        "shortName": "フライブルク",
-        "logo": "https://crests.football-data.org/17.png"
-      },
-      "away": {
-        "id": 10,
-        "name": "VfB Stuttgart",
-        "shortName": "シュトゥットガルト",
-        "logo": "https://crests.football-data.org/10.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565898,
-      "date": "2026-12-19T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第14節",
-      "venue": "",
-      "home": {
-        "id": 721,
-        "name": "RB Leipzig",
-        "shortName": "RBライプツィヒ",
-        "logo": "https://crests.football-data.org/721.png"
-      },
-      "away": {
-        "id": 4,
-        "name": "Borussia Dortmund",
-        "shortName": "ボルシア・ドルトムント",
-        "logo": "https://crests.football-data.org/4.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565899,
-      "date": "2026-12-19T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第14節",
-      "venue": "",
-      "home": {
-        "id": 15,
-        "name": "1. FSV Mainz 05",
-        "shortName": "1. FSV Mainz 05",
-        "logo": "https://crests.football-data.org/15.png"
-      },
-      "away": {
-        "id": 1,
-        "name": "1. FC Köln",
-        "shortName": "1. FC Köln",
-        "logo": "https://crests.football-data.org/1.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565900,
-      "date": "2026-12-19T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第14節",
-      "venue": "",
-      "home": {
-        "id": 28,
-        "name": "1. FC Union Berlin",
-        "shortName": "ウニオン・ベルリン",
-        "logo": "https://crests.football-data.org/28.png"
-      },
-      "away": {
-        "id": 2,
-        "name": "TSG 1899 Hoffenheim",
-        "shortName": "ホッフェンハイム",
-        "logo": "https://crests.football-data.org/2.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565901,
-      "date": "2026-12-19T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第14節",
-      "venue": "",
-      "home": {
-        "id": 16,
-        "name": "FC Augsburg",
-        "shortName": "アウクスブルク",
-        "logo": "https://crests.football-data.org/16.png"
-      },
-      "away": {
-        "id": 29,
-        "name": "SC Paderborn 07",
-        "shortName": "SC Paderborn 07",
-        "logo": "https://crests.football-data.org/29.png"
+        "id": 108,
+        "name": "FC Internazionale Milano",
+        "shortName": "FC Internazionale Milano",
+        "logo": "https://crests.football-data.org/108.png"
       },
       "goals": {
         "home": null,
@@ -40480,6 +40144,174 @@
         "name": "Parma Calcio 1913",
         "shortName": "パルマ",
         "logo": "https://crests.football-data.org/112.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 565895,
+      "date": "2026-12-19T14:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第14節",
+      "venue": "",
+      "home": {
+        "id": 719,
+        "name": "SV 07 Elversberg",
+        "shortName": "SV 07 Elversberg",
+        "logo": "https://crests.football-data.org/719.png"
+      },
+      "away": {
+        "id": 7,
+        "name": "Hamburger SV",
+        "shortName": "ハンブルガーSV",
+        "logo": "https://crests.football-data.org/7.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 565896,
+      "date": "2026-12-19T14:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第14節",
+      "venue": "",
+      "home": {
+        "id": 3,
+        "name": "Bayer 04 Leverkusen",
+        "shortName": "Bayer 04 Leverkusen",
+        "logo": "https://crests.football-data.org/3.png"
+      },
+      "away": {
+        "id": 19,
+        "name": "Eintracht Frankfurt",
+        "shortName": "アイントラハト・フランクフルト",
+        "logo": "https://crests.football-data.org/19.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 565899,
+      "date": "2026-12-19T14:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第14節",
+      "venue": "",
+      "home": {
+        "id": 15,
+        "name": "1. FSV Mainz 05",
+        "shortName": "1. FSV Mainz 05",
+        "logo": "https://crests.football-data.org/15.png"
+      },
+      "away": {
+        "id": 1,
+        "name": "1. FC Köln",
+        "shortName": "1. FC Köln",
+        "logo": "https://crests.football-data.org/1.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 565901,
+      "date": "2026-12-19T14:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第14節",
+      "venue": "",
+      "home": {
+        "id": 16,
+        "name": "FC Augsburg",
+        "shortName": "アウクスブルク",
+        "logo": "https://crests.football-data.org/16.png"
+      },
+      "away": {
+        "id": 29,
+        "name": "SC Paderborn 07",
+        "shortName": "SC Paderborn 07",
+        "logo": "https://crests.football-data.org/29.png"
       },
       "goals": {
         "home": null,
@@ -40690,6 +40522,48 @@
         "name": "Tottenham Hotspur FC",
         "shortName": "トッテナム・ホットスパー",
         "logo": "https://crests.football-data.org/73.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 565898,
+      "date": "2026-12-19T17:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第14節",
+      "venue": "",
+      "home": {
+        "id": 721,
+        "name": "RB Leipzig",
+        "shortName": "RBライプツィヒ",
+        "logo": "https://crests.football-data.org/721.png"
+      },
+      "away": {
+        "id": 4,
+        "name": "Borussia Dortmund",
+        "shortName": "ボルシア・ドルトムント",
+        "logo": "https://crests.football-data.org/4.png"
       },
       "goals": {
         "home": null,
@@ -41424,6 +41298,48 @@
       "events": []
     },
     {
+      "id": 565897,
+      "date": "2026-12-20T14:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第14節",
+      "venue": "",
+      "home": {
+        "id": 17,
+        "name": "SC Freiburg",
+        "shortName": "フライブルク",
+        "logo": "https://crests.football-data.org/17.png"
+      },
+      "away": {
+        "id": 10,
+        "name": "VfB Stuttgart",
+        "shortName": "シュトゥットガルト",
+        "logo": "https://crests.football-data.org/10.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
       "id": 560699,
       "date": "2026-12-20T16:30:00Z",
       "status": "TIMED",
@@ -41466,6 +41382,48 @@
       "events": []
     },
     {
+      "id": 565900,
+      "date": "2026-12-20T16:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第14節",
+      "venue": "",
+      "home": {
+        "id": 28,
+        "name": "1. FC Union Berlin",
+        "shortName": "ウニオン・ベルリン",
+        "logo": "https://crests.football-data.org/28.png"
+      },
+      "away": {
+        "id": 2,
+        "name": "TSG 1899 Hoffenheim",
+        "shortName": "ホッフェンハイム",
+        "logo": "https://crests.football-data.org/2.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
       "id": 558485,
       "date": "2026-12-20T17:00:00Z",
       "status": "TIMED",
@@ -41488,6 +41446,48 @@
         "name": "Udinese Calcio",
         "shortName": "ウディネーゼ",
         "logo": "https://crests.football-data.org/115.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 565893,
+      "date": "2026-12-20T18:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第14節",
+      "venue": "",
+      "home": {
+        "id": 6,
+        "name": "FC Schalke 04",
+        "shortName": "FC Schalke 04",
+        "logo": "https://crests.football-data.org/6.png"
+      },
+      "away": {
+        "id": 18,
+        "name": "Borussia Mönchengladbach",
+        "shortName": "ボルシアMG",
+        "logo": "https://crests.football-data.org/18.png"
       },
       "goals": {
         "home": null,
@@ -44910,261 +44910,9 @@
       "events": []
     },
     {
-      "id": 565902,
-      "date": "2027-01-09T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第15節",
-      "venue": "",
-      "home": {
-        "id": 10,
-        "name": "VfB Stuttgart",
-        "shortName": "シュトゥットガルト",
-        "logo": "https://crests.football-data.org/10.png"
-      },
-      "away": {
-        "id": 16,
-        "name": "FC Augsburg",
-        "shortName": "アウクスブルク",
-        "logo": "https://crests.football-data.org/16.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565903,
-      "date": "2027-01-09T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第15節",
-      "venue": "",
-      "home": {
-        "id": 7,
-        "name": "Hamburger SV",
-        "shortName": "ハンブルガーSV",
-        "logo": "https://crests.football-data.org/7.png"
-      },
-      "away": {
-        "id": 3,
-        "name": "Bayer 04 Leverkusen",
-        "shortName": "Bayer 04 Leverkusen",
-        "logo": "https://crests.football-data.org/3.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565904,
-      "date": "2027-01-09T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第15節",
-      "venue": "",
-      "home": {
-        "id": 1,
-        "name": "1. FC Köln",
-        "shortName": "1. FC Köln",
-        "logo": "https://crests.football-data.org/1.png"
-      },
-      "away": {
-        "id": 17,
-        "name": "SC Freiburg",
-        "shortName": "フライブルク",
-        "logo": "https://crests.football-data.org/17.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565905,
-      "date": "2027-01-09T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第15節",
-      "venue": "",
-      "home": {
-        "id": 19,
-        "name": "Eintracht Frankfurt",
-        "shortName": "アイントラハト・フランクフルト",
-        "logo": "https://crests.football-data.org/19.png"
-      },
-      "away": {
-        "id": 6,
-        "name": "FC Schalke 04",
-        "shortName": "FC Schalke 04",
-        "logo": "https://crests.football-data.org/6.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565906,
-      "date": "2027-01-09T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第15節",
-      "venue": "",
-      "home": {
-        "id": 2,
-        "name": "TSG 1899 Hoffenheim",
-        "shortName": "ホッフェンハイム",
-        "logo": "https://crests.football-data.org/2.png"
-      },
-      "away": {
-        "id": 719,
-        "name": "SV 07 Elversberg",
-        "shortName": "SV 07 Elversberg",
-        "logo": "https://crests.football-data.org/719.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565907,
-      "date": "2027-01-09T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第15節",
-      "venue": "",
-      "home": {
-        "id": 18,
-        "name": "Borussia Mönchengladbach",
-        "shortName": "ボルシアMG",
-        "logo": "https://crests.football-data.org/18.png"
-      },
-      "away": {
-        "id": 5,
-        "name": "FC Bayern München",
-        "shortName": "バイエルン・ミュンヘン",
-        "logo": "https://crests.football-data.org/5.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
       "id": 565908,
-      "date": "2027-01-09T00:00:00Z",
-      "status": "SCHEDULED",
+      "date": "2027-01-08T19:30:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Bundesliga",
       "competitionJa": "ブンデスリーガ",
@@ -45184,90 +44932,6 @@
         "name": "1. FSV Mainz 05",
         "shortName": "1. FSV Mainz 05",
         "logo": "https://crests.football-data.org/15.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565909,
-      "date": "2027-01-09T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第15節",
-      "venue": "",
-      "home": {
-        "id": 12,
-        "name": "SV Werder Bremen",
-        "shortName": "SV Werder Bremen",
-        "logo": "https://crests.football-data.org/12.png"
-      },
-      "away": {
-        "id": 28,
-        "name": "1. FC Union Berlin",
-        "shortName": "ウニオン・ベルリン",
-        "logo": "https://crests.football-data.org/28.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565910,
-      "date": "2027-01-09T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第15節",
-      "venue": "",
-      "home": {
-        "id": 29,
-        "name": "SC Paderborn 07",
-        "shortName": "SC Paderborn 07",
-        "logo": "https://crests.football-data.org/29.png"
-      },
-      "away": {
-        "id": 721,
-        "name": "RB Leipzig",
-        "shortName": "RBライプツィヒ",
-        "logo": "https://crests.football-data.org/721.png"
       },
       "goals": {
         "home": null,
@@ -45330,6 +44994,216 @@
       "events": []
     },
     {
+      "id": 565902,
+      "date": "2027-01-09T14:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第15節",
+      "venue": "",
+      "home": {
+        "id": 10,
+        "name": "VfB Stuttgart",
+        "shortName": "シュトゥットガルト",
+        "logo": "https://crests.football-data.org/10.png"
+      },
+      "away": {
+        "id": 16,
+        "name": "FC Augsburg",
+        "shortName": "アウクスブルク",
+        "logo": "https://crests.football-data.org/16.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 565904,
+      "date": "2027-01-09T14:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第15節",
+      "venue": "",
+      "home": {
+        "id": 1,
+        "name": "1. FC Köln",
+        "shortName": "1. FC Köln",
+        "logo": "https://crests.football-data.org/1.png"
+      },
+      "away": {
+        "id": 17,
+        "name": "SC Freiburg",
+        "shortName": "フライブルク",
+        "logo": "https://crests.football-data.org/17.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 565905,
+      "date": "2027-01-09T14:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第15節",
+      "venue": "",
+      "home": {
+        "id": 19,
+        "name": "Eintracht Frankfurt",
+        "shortName": "アイントラハト・フランクフルト",
+        "logo": "https://crests.football-data.org/19.png"
+      },
+      "away": {
+        "id": 6,
+        "name": "FC Schalke 04",
+        "shortName": "FC Schalke 04",
+        "logo": "https://crests.football-data.org/6.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 565906,
+      "date": "2027-01-09T14:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第15節",
+      "venue": "",
+      "home": {
+        "id": 2,
+        "name": "TSG 1899 Hoffenheim",
+        "shortName": "ホッフェンハイム",
+        "logo": "https://crests.football-data.org/2.png"
+      },
+      "away": {
+        "id": 719,
+        "name": "SV 07 Elversberg",
+        "shortName": "SV 07 Elversberg",
+        "logo": "https://crests.football-data.org/719.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 565910,
+      "date": "2027-01-09T14:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第15節",
+      "venue": "",
+      "home": {
+        "id": 29,
+        "name": "SC Paderborn 07",
+        "shortName": "SC Paderborn 07",
+        "logo": "https://crests.football-data.org/29.png"
+      },
+      "away": {
+        "id": 721,
+        "name": "RB Leipzig",
+        "shortName": "RBライプツィヒ",
+        "logo": "https://crests.football-data.org/721.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
       "id": 558458,
       "date": "2027-01-09T17:00:00Z",
       "status": "TIMED",
@@ -45352,6 +45226,48 @@
         "name": "AC Milan",
         "shortName": "ACミラン",
         "logo": "https://crests.football-data.org/98.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 565907,
+      "date": "2027-01-09T17:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第15節",
+      "venue": "",
+      "home": {
+        "id": 18,
+        "name": "Borussia Mönchengladbach",
+        "shortName": "ボルシアMG",
+        "logo": "https://crests.football-data.org/18.png"
+      },
+      "away": {
+        "id": 5,
+        "name": "FC Bayern München",
+        "shortName": "バイエルン・ミュンヘン",
+        "logo": "https://crests.football-data.org/5.png"
       },
       "goals": {
         "home": null,
@@ -45960,6 +45876,90 @@
       "events": []
     },
     {
+      "id": 565909,
+      "date": "2027-01-10T14:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第15節",
+      "venue": "",
+      "home": {
+        "id": 12,
+        "name": "SV Werder Bremen",
+        "shortName": "SV Werder Bremen",
+        "logo": "https://crests.football-data.org/12.png"
+      },
+      "away": {
+        "id": 28,
+        "name": "1. FC Union Berlin",
+        "shortName": "ウニオン・ベルリン",
+        "logo": "https://crests.football-data.org/28.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 565903,
+      "date": "2027-01-10T16:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第15節",
+      "venue": "",
+      "home": {
+        "id": 7,
+        "name": "Hamburger SV",
+        "shortName": "ハンブルガーSV",
+        "logo": "https://crests.football-data.org/7.png"
+      },
+      "away": {
+        "id": 3,
+        "name": "Bayer 04 Leverkusen",
+        "shortName": "Bayer 04 Leverkusen",
+        "logo": "https://crests.football-data.org/3.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
       "id": 558451,
       "date": "2027-01-10T17:00:00Z",
       "status": "TIMED",
@@ -46128,135 +46128,9 @@
       "events": []
     },
     {
-      "id": 565911,
-      "date": "2027-01-13T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第16節",
-      "venue": "",
-      "home": {
-        "id": 15,
-        "name": "1. FSV Mainz 05",
-        "shortName": "1. FSV Mainz 05",
-        "logo": "https://crests.football-data.org/15.png"
-      },
-      "away": {
-        "id": 2,
-        "name": "TSG 1899 Hoffenheim",
-        "shortName": "ホッフェンハイム",
-        "logo": "https://crests.football-data.org/2.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565912,
-      "date": "2027-01-13T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第16節",
-      "venue": "",
-      "home": {
-        "id": 17,
-        "name": "SC Freiburg",
-        "shortName": "フライブルク",
-        "logo": "https://crests.football-data.org/17.png"
-      },
-      "away": {
-        "id": 7,
-        "name": "Hamburger SV",
-        "shortName": "ハンブルガーSV",
-        "logo": "https://crests.football-data.org/7.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565913,
-      "date": "2027-01-13T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第16節",
-      "venue": "",
-      "home": {
-        "id": 6,
-        "name": "FC Schalke 04",
-        "shortName": "FC Schalke 04",
-        "logo": "https://crests.football-data.org/6.png"
-      },
-      "away": {
-        "id": 12,
-        "name": "SV Werder Bremen",
-        "shortName": "SV Werder Bremen",
-        "logo": "https://crests.football-data.org/12.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
       "id": 565914,
-      "date": "2027-01-13T00:00:00Z",
-      "status": "SCHEDULED",
+      "date": "2027-01-12T17:30:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Bundesliga",
       "competitionJa": "ブンデスリーガ",
@@ -46296,9 +46170,219 @@
       "events": []
     },
     {
+      "id": 565911,
+      "date": "2027-01-12T19:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第16節",
+      "venue": "",
+      "home": {
+        "id": 15,
+        "name": "1. FSV Mainz 05",
+        "shortName": "1. FSV Mainz 05",
+        "logo": "https://crests.football-data.org/15.png"
+      },
+      "away": {
+        "id": 2,
+        "name": "TSG 1899 Hoffenheim",
+        "shortName": "ホッフェンハイム",
+        "logo": "https://crests.football-data.org/2.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 565917,
+      "date": "2027-01-12T19:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第16節",
+      "venue": "",
+      "home": {
+        "id": 16,
+        "name": "FC Augsburg",
+        "shortName": "アウクスブルク",
+        "logo": "https://crests.football-data.org/16.png"
+      },
+      "away": {
+        "id": 18,
+        "name": "Borussia Mönchengladbach",
+        "shortName": "ボルシアMG",
+        "logo": "https://crests.football-data.org/18.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 565919,
+      "date": "2027-01-12T19:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第16節",
+      "venue": "",
+      "home": {
+        "id": 1,
+        "name": "1. FC Köln",
+        "shortName": "1. FC Köln",
+        "logo": "https://crests.football-data.org/1.png"
+      },
+      "away": {
+        "id": 4,
+        "name": "Borussia Dortmund",
+        "shortName": "ボルシア・ドルトムント",
+        "logo": "https://crests.football-data.org/4.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 565918,
+      "date": "2027-01-13T17:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第16節",
+      "venue": "",
+      "home": {
+        "id": 719,
+        "name": "SV 07 Elversberg",
+        "shortName": "SV 07 Elversberg",
+        "logo": "https://crests.football-data.org/719.png"
+      },
+      "away": {
+        "id": 19,
+        "name": "Eintracht Frankfurt",
+        "shortName": "アイントラハト・フランクフルト",
+        "logo": "https://crests.football-data.org/19.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 565912,
+      "date": "2027-01-13T19:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第16節",
+      "venue": "",
+      "home": {
+        "id": 17,
+        "name": "SC Freiburg",
+        "shortName": "フライブルク",
+        "logo": "https://crests.football-data.org/17.png"
+      },
+      "away": {
+        "id": 7,
+        "name": "Hamburger SV",
+        "shortName": "ハンブルガーSV",
+        "logo": "https://crests.football-data.org/7.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
       "id": 565915,
-      "date": "2027-01-13T00:00:00Z",
-      "status": "SCHEDULED",
+      "date": "2027-01-13T19:30:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Bundesliga",
       "competitionJa": "ブンデスリーガ",
@@ -46339,8 +46423,8 @@
     },
     {
       "id": 565916,
-      "date": "2027-01-13T00:00:00Z",
-      "status": "SCHEDULED",
+      "date": "2027-01-13T19:30:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Bundesliga",
       "competitionJa": "ブンデスリーガ",
@@ -46380,9 +46464,9 @@
       "events": []
     },
     {
-      "id": 565917,
-      "date": "2027-01-13T00:00:00Z",
-      "status": "SCHEDULED",
+      "id": 565913,
+      "date": "2027-01-14T19:30:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Bundesliga",
       "competitionJa": "ブンデスリーガ",
@@ -46392,16 +46476,16 @@
       "round": "第16節",
       "venue": "",
       "home": {
-        "id": 16,
-        "name": "FC Augsburg",
-        "shortName": "アウクスブルク",
-        "logo": "https://crests.football-data.org/16.png"
+        "id": 6,
+        "name": "FC Schalke 04",
+        "shortName": "FC Schalke 04",
+        "logo": "https://crests.football-data.org/6.png"
       },
       "away": {
-        "id": 18,
-        "name": "Borussia Mönchengladbach",
-        "shortName": "ボルシアMG",
-        "logo": "https://crests.football-data.org/18.png"
+        "id": 12,
+        "name": "SV Werder Bremen",
+        "shortName": "SV Werder Bremen",
+        "logo": "https://crests.football-data.org/12.png"
       },
       "goals": {
         "home": null,
@@ -46422,70 +46506,28 @@
       "events": []
     },
     {
-      "id": 565918,
-      "date": "2027-01-13T00:00:00Z",
-      "status": "SCHEDULED",
+      "id": 565925,
+      "date": "2027-01-15T19:30:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Bundesliga",
       "competitionJa": "ブンデスリーガ",
       "leagueId": 78,
       "leagueCode": "BL1",
       "stage": "REGULAR_SEASON",
-      "round": "第16節",
+      "round": "第17節",
       "venue": "",
       "home": {
-        "id": 719,
-        "name": "SV 07 Elversberg",
-        "shortName": "SV 07 Elversberg",
-        "logo": "https://crests.football-data.org/719.png"
+        "id": 10,
+        "name": "VfB Stuttgart",
+        "shortName": "シュトゥットガルト",
+        "logo": "https://crests.football-data.org/10.png"
       },
       "away": {
-        "id": 19,
-        "name": "Eintracht Frankfurt",
-        "shortName": "アイントラハト・フランクフルト",
-        "logo": "https://crests.football-data.org/19.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565919,
-      "date": "2027-01-13T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第16節",
-      "venue": "",
-      "home": {
-        "id": 1,
-        "name": "1. FC Köln",
-        "shortName": "1. FC Köln",
-        "logo": "https://crests.football-data.org/1.png"
-      },
-      "away": {
-        "id": 4,
-        "name": "Borussia Dortmund",
-        "shortName": "ボルシア・ドルトムント",
-        "logo": "https://crests.football-data.org/4.png"
+        "id": 15,
+        "name": "1. FSV Mainz 05",
+        "shortName": "1. FSV Mainz 05",
+        "logo": "https://crests.football-data.org/15.png"
       },
       "goals": {
         "home": null,
@@ -46548,93 +46590,9 @@
       "events": []
     },
     {
-      "id": 565920,
-      "date": "2027-01-16T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第17節",
-      "venue": "",
-      "home": {
-        "id": 12,
-        "name": "SV Werder Bremen",
-        "shortName": "SV Werder Bremen",
-        "logo": "https://crests.football-data.org/12.png"
-      },
-      "away": {
-        "id": 719,
-        "name": "SV 07 Elversberg",
-        "shortName": "SV 07 Elversberg",
-        "logo": "https://crests.football-data.org/719.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565921,
-      "date": "2027-01-16T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第17節",
-      "venue": "",
-      "home": {
-        "id": 19,
-        "name": "Eintracht Frankfurt",
-        "shortName": "アイントラハト・フランクフルト",
-        "logo": "https://crests.football-data.org/19.png"
-      },
-      "away": {
-        "id": 5,
-        "name": "FC Bayern München",
-        "shortName": "バイエルン・ミュンヘン",
-        "logo": "https://crests.football-data.org/5.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
       "id": 565922,
-      "date": "2027-01-16T00:00:00Z",
-      "status": "SCHEDULED",
+      "date": "2027-01-16T14:30:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Bundesliga",
       "competitionJa": "ブンデスリーガ",
@@ -46675,8 +46633,8 @@
     },
     {
       "id": 565923,
-      "date": "2027-01-16T00:00:00Z",
-      "status": "SCHEDULED",
+      "date": "2027-01-16T14:30:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Bundesliga",
       "competitionJa": "ブンデスリーガ",
@@ -46716,93 +46674,9 @@
       "events": []
     },
     {
-      "id": 565924,
-      "date": "2027-01-16T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第17節",
-      "venue": "",
-      "home": {
-        "id": 3,
-        "name": "Bayer 04 Leverkusen",
-        "shortName": "Bayer 04 Leverkusen",
-        "logo": "https://crests.football-data.org/3.png"
-      },
-      "away": {
-        "id": 6,
-        "name": "FC Schalke 04",
-        "shortName": "FC Schalke 04",
-        "logo": "https://crests.football-data.org/6.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565925,
-      "date": "2027-01-16T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第17節",
-      "venue": "",
-      "home": {
-        "id": 10,
-        "name": "VfB Stuttgart",
-        "shortName": "シュトゥットガルト",
-        "logo": "https://crests.football-data.org/10.png"
-      },
-      "away": {
-        "id": 15,
-        "name": "1. FSV Mainz 05",
-        "shortName": "1. FSV Mainz 05",
-        "logo": "https://crests.football-data.org/15.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
       "id": 565926,
-      "date": "2027-01-16T00:00:00Z",
-      "status": "SCHEDULED",
+      "date": "2027-01-16T14:30:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Bundesliga",
       "competitionJa": "ブンデスリーガ",
@@ -46843,8 +46717,8 @@
     },
     {
       "id": 565927,
-      "date": "2027-01-16T00:00:00Z",
-      "status": "SCHEDULED",
+      "date": "2027-01-16T14:30:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Bundesliga",
       "competitionJa": "ブンデスリーガ",
@@ -46885,8 +46759,8 @@
     },
     {
       "id": 565928,
-      "date": "2027-01-16T00:00:00Z",
-      "status": "SCHEDULED",
+      "date": "2027-01-16T14:30:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Bundesliga",
       "competitionJa": "ブンデスリーガ",
@@ -47368,6 +47242,48 @@
         "name": "Paris Saint-Germain FC",
         "shortName": "パリ・サンジェルマン",
         "logo": "https://crests.football-data.org/524.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 565921,
+      "date": "2027-01-16T17:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第17節",
+      "venue": "",
+      "home": {
+        "id": 19,
+        "name": "Eintracht Frankfurt",
+        "shortName": "アイントラハト・フランクフルト",
+        "logo": "https://crests.football-data.org/19.png"
+      },
+      "away": {
+        "id": 5,
+        "name": "FC Bayern München",
+        "shortName": "バイエルン・ミュンヘン",
+        "logo": "https://crests.football-data.org/5.png"
       },
       "goals": {
         "home": null,
@@ -48438,6 +48354,48 @@
       "events": []
     },
     {
+      "id": 565920,
+      "date": "2027-01-17T14:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第17節",
+      "venue": "",
+      "home": {
+        "id": 12,
+        "name": "SV Werder Bremen",
+        "shortName": "SV Werder Bremen",
+        "logo": "https://crests.football-data.org/12.png"
+      },
+      "away": {
+        "id": 719,
+        "name": "SV 07 Elversberg",
+        "shortName": "SV 07 Elversberg",
+        "logo": "https://crests.football-data.org/719.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
       "id": 559583,
       "date": "2027-01-17T16:15:00Z",
       "status": "TIMED",
@@ -48460,6 +48418,48 @@
         "name": "Stade Brestois 29",
         "shortName": "ブレスト",
         "logo": "https://crests.football-data.org/512.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 565924,
+      "date": "2027-01-17T16:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第17節",
+      "venue": "",
+      "home": {
+        "id": 3,
+        "name": "Bayer 04 Leverkusen",
+        "shortName": "Bayer 04 Leverkusen",
+        "logo": "https://crests.football-data.org/3.png"
+      },
+      "away": {
+        "id": 6,
+        "name": "FC Schalke 04",
+        "shortName": "FC Schalke 04",
+        "logo": "https://crests.football-data.org/6.png"
       },
       "goals": {
         "home": null,
@@ -49908,6 +49908,48 @@
       "source": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
     },
     {
+      "id": 565929,
+      "date": "2027-01-22T19:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第18節",
+      "venue": "",
+      "home": {
+        "id": 12,
+        "name": "SV Werder Bremen",
+        "shortName": "SV Werder Bremen",
+        "logo": "https://crests.football-data.org/12.png"
+      },
+      "away": {
+        "id": 17,
+        "name": "SC Freiburg",
+        "shortName": "フライブルク",
+        "logo": "https://crests.football-data.org/17.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
       "id": 559572,
       "date": "2027-01-22T19:45:00Z",
       "status": "TIMED",
@@ -49950,93 +49992,9 @@
       "events": []
     },
     {
-      "id": 565929,
-      "date": "2027-01-23T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第18節",
-      "venue": "",
-      "home": {
-        "id": 12,
-        "name": "SV Werder Bremen",
-        "shortName": "SV Werder Bremen",
-        "logo": "https://crests.football-data.org/12.png"
-      },
-      "away": {
-        "id": 17,
-        "name": "SC Freiburg",
-        "shortName": "フライブルク",
-        "logo": "https://crests.football-data.org/17.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565930,
-      "date": "2027-01-23T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第18節",
-      "venue": "",
-      "home": {
-        "id": 7,
-        "name": "Hamburger SV",
-        "shortName": "ハンブルガーSV",
-        "logo": "https://crests.football-data.org/7.png"
-      },
-      "away": {
-        "id": 4,
-        "name": "Borussia Dortmund",
-        "shortName": "ボルシア・ドルトムント",
-        "logo": "https://crests.football-data.org/4.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
       "id": 565931,
-      "date": "2027-01-23T00:00:00Z",
-      "status": "SCHEDULED",
+      "date": "2027-01-23T14:30:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Bundesliga",
       "competitionJa": "ブンデスリーガ",
@@ -50077,8 +50035,8 @@
     },
     {
       "id": 565932,
-      "date": "2027-01-23T00:00:00Z",
-      "status": "SCHEDULED",
+      "date": "2027-01-23T14:30:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Bundesliga",
       "competitionJa": "ブンデスリーガ",
@@ -50118,51 +50076,9 @@
       "events": []
     },
     {
-      "id": 565933,
-      "date": "2027-01-23T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第18節",
-      "venue": "",
-      "home": {
-        "id": 2,
-        "name": "TSG 1899 Hoffenheim",
-        "shortName": "ホッフェンハイム",
-        "logo": "https://crests.football-data.org/2.png"
-      },
-      "away": {
-        "id": 1,
-        "name": "1. FC Köln",
-        "shortName": "1. FC Köln",
-        "logo": "https://crests.football-data.org/1.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
       "id": 565934,
-      "date": "2027-01-23T00:00:00Z",
-      "status": "SCHEDULED",
+      "date": "2027-01-23T14:30:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Bundesliga",
       "competitionJa": "ブンデスリーガ",
@@ -50203,8 +50119,8 @@
     },
     {
       "id": 565935,
-      "date": "2027-01-23T00:00:00Z",
-      "status": "SCHEDULED",
+      "date": "2027-01-23T14:30:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Bundesliga",
       "competitionJa": "ブンデスリーガ",
@@ -50224,90 +50140,6 @@
         "name": "RB Leipzig",
         "shortName": "RBライプツィヒ",
         "logo": "https://crests.football-data.org/721.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565936,
-      "date": "2027-01-23T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第18節",
-      "venue": "",
-      "home": {
-        "id": 19,
-        "name": "Eintracht Frankfurt",
-        "shortName": "アイントラハト・フランクフルト",
-        "logo": "https://crests.football-data.org/19.png"
-      },
-      "away": {
-        "id": 28,
-        "name": "1. FC Union Berlin",
-        "shortName": "ウニオン・ベルリン",
-        "logo": "https://crests.football-data.org/28.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 565937,
-      "date": "2027-01-23T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Bundesliga",
-      "competitionJa": "ブンデスリーガ",
-      "leagueId": 78,
-      "leagueCode": "BL1",
-      "stage": "REGULAR_SEASON",
-      "round": "第18節",
-      "venue": "",
-      "home": {
-        "id": 3,
-        "name": "Bayer 04 Leverkusen",
-        "shortName": "Bayer 04 Leverkusen",
-        "logo": "https://crests.football-data.org/3.png"
-      },
-      "away": {
-        "id": 719,
-        "name": "SV 07 Elversberg",
-        "shortName": "SV 07 Elversberg",
-        "logo": "https://crests.football-data.org/719.png"
       },
       "goals": {
         "home": null,
@@ -50770,6 +50602,48 @@
         "name": "Paris FC",
         "shortName": "Paris FC",
         "logo": "https://crests.football-data.org/1045.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 565930,
+      "date": "2027-01-23T17:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第18節",
+      "venue": "",
+      "home": {
+        "id": 7,
+        "name": "Hamburger SV",
+        "shortName": "ハンブルガーSV",
+        "logo": "https://crests.football-data.org/7.png"
+      },
+      "away": {
+        "id": 4,
+        "name": "Borussia Dortmund",
+        "shortName": "ボルシア・ドルトムント",
+        "logo": "https://crests.football-data.org/4.png"
       },
       "goals": {
         "home": null,
@@ -51840,6 +51714,48 @@
       "events": []
     },
     {
+      "id": 565936,
+      "date": "2027-01-24T14:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第18節",
+      "venue": "",
+      "home": {
+        "id": 19,
+        "name": "Eintracht Frankfurt",
+        "shortName": "アイントラハト・フランクフルト",
+        "logo": "https://crests.football-data.org/19.png"
+      },
+      "away": {
+        "id": 28,
+        "name": "1. FC Union Berlin",
+        "shortName": "ウニオン・ベルリン",
+        "logo": "https://crests.football-data.org/28.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
       "id": 559573,
       "date": "2027-01-24T16:15:00Z",
       "status": "TIMED",
@@ -51862,6 +51778,90 @@
         "name": "Olympique de Marseille",
         "shortName": "マルセイユ",
         "logo": "https://crests.football-data.org/516.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 565937,
+      "date": "2027-01-24T16:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第18節",
+      "venue": "",
+      "home": {
+        "id": 3,
+        "name": "Bayer 04 Leverkusen",
+        "shortName": "Bayer 04 Leverkusen",
+        "logo": "https://crests.football-data.org/3.png"
+      },
+      "away": {
+        "id": 719,
+        "name": "SV 07 Elversberg",
+        "shortName": "SV 07 Elversberg",
+        "logo": "https://crests.football-data.org/719.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 565933,
+      "date": "2027-01-24T18:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Bundesliga",
+      "competitionJa": "ブンデスリーガ",
+      "leagueId": 78,
+      "leagueCode": "BL1",
+      "stage": "REGULAR_SEASON",
+      "round": "第18節",
+      "venue": "",
+      "home": {
+        "id": 2,
+        "name": "TSG 1899 Hoffenheim",
+        "shortName": "ホッフェンハイム",
+        "logo": "https://crests.football-data.org/2.png"
+      },
+      "away": {
+        "id": 1,
+        "name": "1. FC Köln",
+        "shortName": "1. FC Köln",
+        "logo": "https://crests.football-data.org/1.png"
       },
       "goals": {
         "home": null,
