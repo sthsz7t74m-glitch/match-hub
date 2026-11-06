@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-11-06T01:38:52.154Z",
+  "updatedAt": "2026-11-06T11:10:28.609Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cm93zvzzl33zo?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/cr20w943gvl5o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "What new Kane deal means for England and the Premier League record",
-      "titleJa": "移籍情報：What new Kane deal means for England and the Premier League record",
+      "player": "Lampard looks for Coventry progress as belief grows",
+      "titleJa": "移籍情報：Lampard looks for Coventry progress as belief grows",
       "from": "",
       "to": "",
-      "summaryJa": "What new Kane deal means for England and the Premier League record移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "What new Kane deal means for England and the Premier League record",
-      "summary": "Harry Kane's new deal at Bayern Munich may end his Premier League career but offers fresh hope he can lead England to glory, writes Phil McNulty.",
+      "summaryJa": "Lampard looks for Coventry progress as belief grows移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Lampard looks for Coventry progress as belief grows",
+      "summary": "Coventry City could move 11th in the Premier League with victory at Everton on Friday as Frank Lampard returns to the Toffees with his side growing in confidence.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm93zvzzl33zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T14:44:34.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/cr20w943gvl5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T08:11:03.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/cq5ynd70vlx3o?at_medium=RSS&at_campaign=rss",
@@ -35,6 +35,21 @@
       "date": "2026-11-02T22:44:30.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cm93zvzzl33zo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "What new Kane deal means for England and the Premier League record",
+      "titleJa": "移籍情報：What new Kane deal means for England and the Premier League record",
+      "from": "",
+      "to": "",
+      "summaryJa": "What new Kane deal means for England and the Premier League record移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "What new Kane deal means for England and the Premier League record",
+      "summary": "Harry Kane's new deal at Bayern Munich may end his Premier League career but offers fresh hope he can lead England to glory, writes Phil McNulty.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm93zvzzl33zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T14:44:34.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cw99zde82nmno?at_medium=RSS&at_campaign=rss",
       "status": "talks",
       "player": "Emery close to agreeing new Aston Villa contract",
@@ -48,6 +63,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cw99zde82nmno?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-05T15:45:22.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c8y56z50k95xo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Good to feel club are committed to me - Jaissle",
+      "titleJa": "移籍情報：Good to feel club are committed to me - Jaissle",
+      "from": "",
+      "to": "",
+      "summaryJa": "Good to feel club are committed to me - Jaissle移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Good to feel club are committed to me - Jaissle",
+      "summary": "Newcastle United manager Matthias Jaissle says he has \"got more of a feeling from within the club\" about how \"committed\" they are to him amid his side's struggling form.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8y56z50k95xo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T17:25:41.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cwvgdyd80g9do?at_medium=RSS&at_campaign=rss",
@@ -78,21 +108,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sounds/play/m003434x?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-05T16:31:00.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c8y56z50k95xo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Good to feel club are committed to me - Jaissle",
-      "titleJa": "移籍情報：Good to feel club are committed to me - Jaissle",
-      "from": "",
-      "to": "",
-      "summaryJa": "Good to feel club are committed to me - Jaissle移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Good to feel club are committed to me - Jaissle",
-      "summary": "Newcastle United manager Matthias Jaissle says he has \"got more of a feeling from within the club\" about how \"committed\" they are to him amid his side's struggling form.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8y56z50k95xo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T17:25:41.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/cmly09yv9xl6o?at_medium=RSS&at_campaign=rss",
@@ -213,6 +228,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/articles/cmje5wl5ek32o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-13T10:13:34.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c8wy9z99we1yo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Goodwin keen but realistic over Cameron move - gossip",
+      "titleJa": "移籍情報：Goodwin keen but realistic over Cameron move - gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Goodwin keen but realistic over Cameron move - gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Goodwin keen but realistic over Cameron move - gossip",
+      "summary": "Dundee United manager addresses possibility of formalising move for loan player as Dundee set for stadium public consultation.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8wy9z99we1yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T07:27:05.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cwly45r47917o?at_medium=RSS&at_campaign=rss",
