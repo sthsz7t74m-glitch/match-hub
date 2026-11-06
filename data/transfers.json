@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-11-06T11:10:28.609Z",
+  "updatedAt": "2026-11-06T19:33:18.715Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cr20w943gvl5o?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/cqde8w0k2pz1o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Lampard looks for Coventry progress as belief grows",
-      "titleJa": "移籍情報：Lampard looks for Coventry progress as belief grows",
+      "player": "Has Anderson lived up to the hype after Man City move?",
+      "titleJa": "移籍情報：Has Anderson lived up to the hype after Man City move?",
       "from": "",
       "to": "",
-      "summaryJa": "Lampard looks for Coventry progress as belief grows移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Lampard looks for Coventry progress as belief grows",
-      "summary": "Coventry City could move 11th in the Premier League with victory at Everton on Friday as Frank Lampard returns to the Toffees with his side growing in confidence.",
+      "summaryJa": "Has Anderson lived up to the hype after Man City move?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Has Anderson lived up to the hype after Man City move?",
+      "summary": "As Elliot Anderson returns to Nottingham Forest after his £116m move to Manchester City, has he lived up to the price tag?",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cr20w943gvl5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T08:11:03.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqde8w0k2pz1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T12:00:18.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/cq5ynd70vlx3o?at_medium=RSS&at_campaign=rss",
@@ -33,6 +33,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cq5ynd70vlx3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T22:44:30.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cxvgdd7q2dm3o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Harborough sign 6ft 9in striker Hudlin before FA Cup tie",
+      "titleJa": "移籍情報：Harborough sign 6ft 9in striker Hudlin before FA Cup tie",
+      "from": "",
+      "to": "",
+      "summaryJa": "Harborough sign 6ft 9in striker Hudlin before FA Cup tie移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Harborough sign 6ft 9in striker Hudlin before FA Cup tie",
+      "summary": "Non-league Harborough Town sign striker Kyle Hudlin, one of the world's tallest professional players, in time for their FA Cup trip to Leyton Orient.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cxvgdd7q2dm3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T13:54:50.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cm93zvzzl33zo?at_medium=RSS&at_campaign=rss",
@@ -80,36 +95,6 @@
       "date": "2026-11-05T17:25:41.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cwvgdyd80g9do?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "Japan's Tashima to stand against Infantino for Fifa presidency",
-      "titleJa": "移籍情報：Japan's Tashima to stand against Infantino for Fifa presidency",
-      "from": "",
-      "to": "",
-      "summaryJa": "Japan's Tashima to stand against Infantino for Fifa presidency移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "Japan's Tashima to stand against Infantino for Fifa presidency",
-      "summary": "Japan's Kozo Tashima has announced his candidacy for Fifa's upcoming presidential election.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwvgdyd80g9do?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T12:55:13.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sounds/play/m003434x?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Football Daily",
-      "titleJa": "移籍情報：Football Daily",
-      "from": "",
-      "to": "",
-      "summaryJa": "Football Daily移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Football Daily",
-      "summary": "Charlie Adam & Nedum Onuoha join Rick to discuss Ronaldo’s international retirement.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sounds/play/m003434x?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T16:31:00.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/videos/cmly09yv9xl6o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Arsenal move clear at the top with a rare win at Liverpool",
@@ -155,21 +140,6 @@
       "date": "2026-11-02T00:00:11.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/videos/cxly47pyy8j6o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Rice relishing title race 'anxiety' after win at Liverpool",
-      "titleJa": "移籍情報：Rice relishing title race 'anxiety' after win at Liverpool",
-      "from": "",
-      "to": "",
-      "summaryJa": "Rice relishing title race 'anxiety' after win at Liverpool移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Rice relishing title race 'anxiety' after win at Liverpool",
-      "summary": "Declan Rice joins BBC Sport's Kelly Cates, Danny Murphy and Micah Richards to analyse how Arsenal earned their first Premier League victory at Liverpool in 14 years.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cxly47pyy8j6o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T22:50:05.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c8dx37n11kv2o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Who has made Troy's Premier League team of the week?",
@@ -183,21 +153,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c8dx37n11kv2o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T23:09:36.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c84g15r12xn3o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "'We fell behind' - what does new San Siro deal mean for AC Milan and Inter?",
-      "titleJa": "移籍情報：'We fell behind' - what does new San Siro deal mean for AC Milan and Inter?",
-      "from": "",
-      "to": "",
-      "summaryJa": "'We fell behind' - what does new San Siro deal mean for AC Milan and Inter?移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "'We fell behind' - what does new San Siro deal mean for AC Milan and Inter?",
-      "summary": "BBC Sport explores the plans for AC Milan and Inter's new stadium, and how powerful naming rights for new arenas can be",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c84g15r12xn3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T11:18:53.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cvgyxyxplkvo?at_medium=RSS&at_campaign=rss",
@@ -243,21 +198,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c8wy9z99we1yo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T07:27:05.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cwly45r47917o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Upward path for Penrice has McInnes eager for Rangers deal",
-      "titleJa": "移籍情報：Upward path for Penrice has McInnes eager for Rangers deal",
-      "from": "",
-      "to": "",
-      "summaryJa": "Upward path for Penrice has McInnes eager for Rangers deal移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Upward path for Penrice has McInnes eager for Rangers deal",
-      "summary": "Rangers boss Derek McInnes stresses his desire to sign James Penrice on a permanent deal, with the full-back's impact leading to a first Scotland call.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwly45r47917o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T16:38:41.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c8dx37gxzvgyo?at_medium=RSS&at_campaign=rss",
