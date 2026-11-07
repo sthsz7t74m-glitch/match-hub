@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T09:48:02.187Z",
+  "updatedAt": "2026-11-07T09:12:03.270Z",
   "source": "ESPN multi-competition annual adapter",
   "competitionCount": 15,
   "competitions": [
@@ -9,14 +9,14 @@
       "count": 104
     },
     {
-      "code": "fifa.worldq.conmebol",
-      "name": "W杯南米予選",
-      "count": 60
-    },
-    {
       "code": "fifa.worldq.uefa",
       "name": "W杯欧州予選",
       "count": 204
+    },
+    {
+      "code": "fifa.worldq.conmebol",
+      "name": "W杯南米予選",
+      "count": 60
     },
     {
       "code": "fifa.worldq.concacaf",
@@ -34,14 +34,14 @@
       "count": 170
     },
     {
-      "code": "fifa.worldq.caf",
-      "name": "W杯アフリカ予選",
-      "count": 219
-    },
-    {
       "code": "fifa.worldq.ofc",
       "name": "W杯オセアニア予選",
       "count": 18
+    },
+    {
+      "code": "fifa.worldq.caf",
+      "name": "W杯アフリカ予選",
+      "count": 219
     },
     {
       "code": "concacaf.gold",
@@ -64,9 +64,9 @@
       "count": 32
     },
     {
-      "code": "caf.nations",
-      "name": "アフリカネーションズカップ",
-      "count": 104
+      "code": "fifa.olympics",
+      "name": "オリンピック男子サッカー",
+      "count": 32
     },
     {
       "code": "fifa.friendly",
@@ -74,15 +74,20 @@
       "count": 1000
     },
     {
-      "code": "fifa.olympics",
-      "name": "オリンピック男子サッカー",
-      "count": 32
+      "code": "caf.nations",
+      "name": "アフリカネーションズカップ",
+      "count": 104
     }
   ],
   "skippedCompetitions": [
     {
       "code": "conmebol.copa_america",
-      "year": 2027,
+      "year": 2026,
+      "reason": "HTTP 400"
+    },
+    {
+      "code": "conmebol.copa_america",
+      "year": 2025,
       "reason": "HTTP 400"
     },
     {
@@ -92,12 +97,7 @@
     },
     {
       "code": "conmebol.copa_america",
-      "year": 2026,
-      "reason": "HTTP 400"
-    },
-    {
-      "code": "conmebol.copa_america",
-      "year": 2025,
+      "year": 2027,
       "reason": "HTTP 400"
     }
   ],
@@ -49139,7 +49139,7 @@
       "awayName": "South Korea",
       "homeScore": 0,
       "awayScore": 0,
-      "venue": "",
+      "venue": "Jassim Bin Hamad Stadium",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
