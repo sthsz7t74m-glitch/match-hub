@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-11-07T00:59:00.056Z",
+  "updatedAt": "2026-11-07T10:27:33.445Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/ckly00wq495zo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Not playing was horrendous, I left Man City for mental wellbeing - Trafford",
+      "titleJa": "移籍情報：Not playing was horrendous, I left Man City for mental wellbeing - Trafford",
+      "from": "",
+      "to": "",
+      "summaryJa": "Not playing was horrendous, I left Man City for mental wellbeing - Trafford移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Not playing was horrendous, I left Man City for mental wellbeing - Trafford",
+      "summary": "James Trafford says not playing for Manchester City last season was \"horrendous\" and left him with no choice but to leave the club and join Leeds United in the summer.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckly00wq495zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T07:16:37.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cr15jj0yy8xeo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -18,21 +33,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cr15jj0yy8xeo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T23:22:21.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/videos/c62l44geqvlyo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Barry scores twice as Everton fight back to beat Coventry",
-      "titleJa": "移籍情報：Barry scores twice as Everton fight back to beat Coventry",
-      "from": "",
-      "to": "",
-      "summaryJa": "Barry scores twice as Everton fight back to beat Coventry移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Barry scores twice as Everton fight back to beat Coventry",
-      "summary": "In-form Thierno Barry scores twice as Everton came from behind to beat Coventry as the Toffees move into fifth in the Premier League table.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c62l44geqvlyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T22:30:12.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c98rzz0rjjvdo?at_medium=RSS&at_campaign=rss",
@@ -63,6 +63,36 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqde8w0k2pz1o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T12:00:18.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/videos/cq62yyveznrro?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "I had to play regularly for my mental wellbeing - Trafford on summer move",
+      "titleJa": "移籍情報：I had to play regularly for my mental wellbeing - Trafford on summer move",
+      "from": "",
+      "to": "",
+      "summaryJa": "I had to play regularly for my mental wellbeing - Trafford on summer move移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "I had to play regularly for my mental wellbeing - Trafford on summer move",
+      "summary": "Leeds United's James Trafford opens up on his struggles at Manchester City last season that were behind his summer transfer.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cq62yyveznrro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T07:27:40.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/videos/c62l44geqvlyo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Barry scores twice as Everton fight back to beat Coventry",
+      "titleJa": "移籍情報：Barry scores twice as Everton fight back to beat Coventry",
+      "from": "",
+      "to": "",
+      "summaryJa": "Barry scores twice as Everton fight back to beat Coventry移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Barry scores twice as Everton fight back to beat Coventry",
+      "summary": "In-form Thierno Barry scores twice as Everton came from behind to beat Coventry as the Toffees move into fifth in the Premier League table.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c62l44geqvlyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T22:30:12.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cxvgdd7q2dm3o?at_medium=RSS&at_campaign=rss",
@@ -170,19 +200,34 @@
       "date": "2026-10-13T10:13:34.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c8wy9z99we1yo?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c6kg55rxxrzlo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Goodwin keen but realistic over Cameron move - gossip",
-      "titleJa": "移籍情報：Goodwin keen but realistic over Cameron move - gossip",
+      "player": "Vega plea for Scottish FA backing against Infantino - gossip",
+      "titleJa": "移籍情報：Vega plea for Scottish FA backing against Infantino - gossip",
       "from": "",
       "to": "",
-      "summaryJa": "Goodwin keen but realistic over Cameron move - gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Goodwin keen but realistic over Cameron move - gossip",
-      "summary": "Dundee United manager addresses possibility of formalising move for loan player as Dundee set for stadium public consultation.",
+      "summaryJa": "Vega plea for Scottish FA backing against Infantino - gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Vega plea for Scottish FA backing against Infantino - gossip",
+      "summary": "Former Celtic centre-half Ramon Vega urges the Scottish FA to support his bid to oust Fifa president Gianni Infantino as Stephen Robinson admits he has no funds to add free agents to Aberdeen's squad.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8wy9z99we1yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T07:27:05.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6kg55rxxrzlo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T09:11:29.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cq8ezzx6pz6yo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Preston sign ex-Charlton captain Docherty",
+      "titleJa": "移籍情報：Preston sign ex-Charlton captain Docherty",
+      "from": "",
+      "to": "",
+      "summaryJa": "Preston sign ex-Charlton captain Docherty移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Preston sign ex-Charlton captain Docherty",
+      "summary": "Preston North End sign experienced midfielder Greg Docherty on a deal until the end of the season.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq8ezzx6pz6yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T12:02:35.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c8dx37gxzvgyo?at_medium=RSS&at_campaign=rss",
