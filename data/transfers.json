@@ -1,24 +1,9 @@
 {
-  "updatedAt": "2026-11-07T17:47:34.510Z",
+  "updatedAt": "2026-11-07T22:01:23.906Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
-    {
-      "id": "https://www.bbc.co.uk/sport/football/videos/cq62yyveznrro?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "I had to play regularly for my mental wellbeing - Trafford on summer move",
-      "titleJa": "移籍情報：I had to play regularly for my mental wellbeing - Trafford on summer move",
-      "from": "",
-      "to": "",
-      "summaryJa": "I had to play regularly for my mental wellbeing - Trafford on summer move移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "I had to play regularly for my mental wellbeing - Trafford on summer move",
-      "summary": "Leeds United's James Trafford opens up on his struggles at Manchester City last season that were behind his summer transfer.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cq62yyveznrro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T07:27:40.000Z"
-    },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/c62l44geqvlyo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -33,6 +18,36 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c62l44geqvlyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T22:30:12.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c6rmyg7xpnj1o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Another 1-0 for relentless Arsenal - but did Odegaard spare VAR blushes?",
+      "titleJa": "移籍情報：Another 1-0 for relentless Arsenal - but did Odegaard spare VAR blushes?",
+      "from": "",
+      "to": "",
+      "summaryJa": "Another 1-0 for relentless Arsenal - but did Odegaard spare VAR blushes?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Another 1-0 for relentless Arsenal - but did Odegaard spare VAR blushes?",
+      "summary": "Arsenal move six points clear at the top of the Premier League after beating Hull City - but did Martin Odegaard's goal save the blushes of the VAR?",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6rmyg7xpnj1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T19:34:32.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/videos/cmly0d6r6pggo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Maresca looking to understand Man City's 'lack of intensity'",
+      "titleJa": "移籍情報：Maresca looking to understand Man City's 'lack of intensity'",
+      "from": "",
+      "to": "",
+      "summaryJa": "Maresca looking to understand Man City's 'lack of intensity'移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Maresca looking to understand Man City's 'lack of intensity'",
+      "summary": "Enzo Maresca feels his side \"lacked intensity\" as Manchester City suffered their third Premier League defeat in a row, losing 3-1 to Nottingham Forest at the City Ground.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cmly0d6r6pggo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T20:42:23.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/ckly00wq495zo?at_medium=RSS&at_campaign=rss",
@@ -50,21 +65,6 @@
       "date": "2026-11-07T07:16:37.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c98rzz0rjjvdo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Real Madrid and PSG keen on Suzuki - Saturday's gossip",
-      "titleJa": "移籍情報：Real Madrid and PSG keen on Suzuki - Saturday's gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Real Madrid and PSG keen on Suzuki - Saturday's gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Real Madrid and PSG keen on Suzuki - Saturday's gossip",
-      "summary": "Paris St-Germain and Real Madrid interested in Aston Villa keeper Zion Suzuki, Inter Milan weighing up move for Crystal Palace's Chris Richards, plus more.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c98rzz0rjjvdo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T21:08:04.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cmy4x9yq3xg3o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "My dream is to win Ballon d'Or - Gabriel",
@@ -78,21 +78,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmy4x9yq3xg3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T12:25:14.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cr15jj0yy8xeo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Lampard feels hair pull should have led to Coventry penalty",
-      "titleJa": "移籍情報：Lampard feels hair pull should have led to Coventry penalty",
-      "from": "",
-      "to": "",
-      "summaryJa": "Lampard feels hair pull should have led to Coventry penalty移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Lampard feels hair pull should have led to Coventry penalty",
-      "summary": "Coventry had a trio of decisions go against them in defeat at Everton, with Frank Lampard suggesting a hair pull should have been a penalty.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cr15jj0yy8xeo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T23:22:21.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cm93zvzzl33zo?at_medium=RSS&at_campaign=rss",
@@ -138,36 +123,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/articles/cmje5wl5ek32o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-13T10:13:34.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c6kg55rxxrzlo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Vega plea for Scottish FA backing against Infantino - gossip",
-      "titleJa": "移籍情報：Vega plea for Scottish FA backing against Infantino - gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Vega plea for Scottish FA backing against Infantino - gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Vega plea for Scottish FA backing against Infantino - gossip",
-      "summary": "Former Celtic centre-half Ramon Vega urges the Scottish FA to support his bid to oust Fifa president Gianni Infantino as Stephen Robinson admits he has no funds to add free agents to Aberdeen's squad.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6kg55rxxrzlo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T09:11:29.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c8dx37gxzvgyo?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "Shaw among big names to miss out on FifPro World XI",
-      "titleJa": "移籍情報：Shaw among big names to miss out on FifPro World XI",
-      "from": "",
-      "to": "",
-      "summaryJa": "Shaw among big names to miss out on FifPro World XI移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "Shaw among big names to miss out on FifPro World XI",
-      "summary": "Eyebrows are raised at the announcement of the FifPro Women's World XI shortlist with several big names missing.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8dx37gxzvgyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T12:28:26.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cz7z09v9pp1o?at_medium=RSS&at_campaign=rss",
