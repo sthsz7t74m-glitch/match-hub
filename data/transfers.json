@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T22:01:23.906Z",
+  "updatedAt": "2026-11-08T06:19:47.263Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -35,19 +35,19 @@
       "date": "2026-11-07T19:34:32.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/videos/cmly0d6r6pggo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Maresca looking to understand Man City's 'lack of intensity'",
-      "titleJa": "移籍情報：Maresca looking to understand Man City's 'lack of intensity'",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c54g1nepgr28o?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Liverpool considering Verbruggen move - Sunday's gossip",
+      "titleJa": "移籍情報：Liverpool considering Verbruggen move - Sunday's gossip",
       "from": "",
       "to": "",
-      "summaryJa": "Maresca looking to understand Man City's 'lack of intensity'移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Maresca looking to understand Man City's 'lack of intensity'",
-      "summary": "Enzo Maresca feels his side \"lacked intensity\" as Manchester City suffered their third Premier League defeat in a row, losing 3-1 to Nottingham Forest at the City Ground.",
+      "summaryJa": "Liverpool considering Verbruggen move - Sunday's gossip移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Liverpool considering Verbruggen move - Sunday's gossip",
+      "summary": "Liverpool consider move for Brighton keeper Bart Verbruggen, Bayern Munich remain in talks with Rio Ngumoha's camp, Tottenham midfielder Conor Gallagher monitored by rival Premier League clubs, plus more.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmly0d6r6pggo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T20:42:23.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c54g1nepgr28o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T22:05:40.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/ckly00wq495zo?at_medium=RSS&at_campaign=rss",
@@ -123,6 +123,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/articles/cmje5wl5ek32o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-13T10:13:34.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/crlyk582kpn1o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "'Curtains for Robinson' or can floundering Aberdeen boss survive?",
+      "titleJa": "移籍情報：'Curtains for Robinson' or can floundering Aberdeen boss survive?",
+      "from": "",
+      "to": "",
+      "summaryJa": "'Curtains for Robinson' or can floundering Aberdeen boss survive?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "'Curtains for Robinson' or can floundering Aberdeen boss survive?",
+      "summary": "Will the \"unacceptable\" 4-0 home defeat to fellow strugglers Hibernian signal the end of Stephen Robinson's Aberdeen tenure?",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crlyk582kpn1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T00:04:00.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cz7z09v9pp1o?at_medium=RSS&at_campaign=rss",
