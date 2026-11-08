@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-07T09:12:03.270Z",
+  "updatedAt": "2026-11-08T09:25:49.586Z",
   "source": "ESPN multi-competition annual adapter",
   "competitionCount": 15,
   "competitions": [
     {
-      "code": "fifa.world",
-      "name": "FIFAワールドカップ",
-      "count": 104
+      "code": "fifa.worldq.concacaf",
+      "name": "W杯北中米予選",
+      "count": 100
     },
     {
       "code": "fifa.worldq.uefa",
@@ -14,19 +14,14 @@
       "count": 204
     },
     {
+      "code": "fifa.world",
+      "name": "FIFAワールドカップ",
+      "count": 104
+    },
+    {
       "code": "fifa.worldq.conmebol",
       "name": "W杯南米予選",
       "count": 60
-    },
-    {
-      "code": "fifa.worldq.concacaf",
-      "name": "W杯北中米予選",
-      "count": 100
-    },
-    {
-      "code": "uefa.euro",
-      "name": "UEFA欧州選手権",
-      "count": 51
     },
     {
       "code": "fifa.worldq.afc",
@@ -34,24 +29,19 @@
       "count": 170
     },
     {
-      "code": "fifa.worldq.ofc",
-      "name": "W杯オセアニア予選",
-      "count": 18
-    },
-    {
       "code": "fifa.worldq.caf",
       "name": "W杯アフリカ予選",
       "count": 219
     },
     {
-      "code": "concacaf.gold",
-      "name": "CONCACAFゴールドカップ",
-      "count": 31
+      "code": "uefa.euro",
+      "name": "UEFA欧州選手権",
+      "count": 51
     },
     {
-      "code": "uefa.nations",
-      "name": "UEFAネーションズリーグ",
-      "count": 346
+      "code": "fifa.worldq.ofc",
+      "name": "W杯オセアニア予選",
+      "count": 18
     },
     {
       "code": "afc.asian.cup",
@@ -59,24 +49,34 @@
       "count": 91
     },
     {
+      "code": "uefa.nations",
+      "name": "UEFAネーションズリーグ",
+      "count": 346
+    },
+    {
+      "code": "concacaf.gold",
+      "name": "CONCACAFゴールドカップ",
+      "count": 31
+    },
+    {
       "code": "conmebol.america",
       "name": "コパ・アメリカ",
       "count": 32
     },
     {
-      "code": "fifa.olympics",
-      "name": "オリンピック男子サッカー",
-      "count": 32
+      "code": "caf.nations",
+      "name": "アフリカネーションズカップ",
+      "count": 104
     },
     {
       "code": "fifa.friendly",
       "name": "国際親善試合",
-      "count": 1000
+      "count": 1003
     },
     {
-      "code": "caf.nations",
-      "name": "アフリカネーションズカップ",
-      "count": 104
+      "code": "fifa.olympics",
+      "name": "オリンピック男子サッカー",
+      "count": 32
     }
   ],
   "skippedCompetitions": [
@@ -87,12 +87,12 @@
     },
     {
       "code": "conmebol.copa_america",
-      "year": 2025,
+      "year": 2024,
       "reason": "HTTP 400"
     },
     {
       "code": "conmebol.copa_america",
-      "year": 2024,
+      "year": 2025,
       "reason": "HTTP 400"
     },
     {
@@ -49126,6 +49126,26 @@
       "penalties": null
     },
     {
+      "id": "fifa.friendly-401931957",
+      "kickoff": "2026-11-13T14:10Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "uae",
+      "away": "honduras",
+      "homeName": "United Arab Emirates",
+      "awayName": "Honduras",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Mohammed bin Zayed Stadium",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
       "id": "fifa.friendly-401931476",
       "kickoff": "2026-11-13T14:30Z",
       "status": "scheduled",
@@ -49160,6 +49180,26 @@
       "homeScore": 0,
       "awayScore": 0,
       "venue": "Abdullah bin Khalifa Stadium",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
+      "id": "fifa.friendly-401933636",
+      "kickoff": "2026-11-13T15:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "iraq",
+      "away": "lebanon",
+      "homeName": "Iraq",
+      "awayName": "Lebanon",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Basra International Stadium",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
@@ -49386,26 +49426,6 @@
       "penalties": null
     },
     {
-      "id": "fifa.friendly-401931957",
-      "kickoff": "2026-11-13T20:00Z",
-      "status": "scheduled",
-      "competition": "国際親善試合",
-      "competitionCode": "fifa.friendly",
-      "stage": "2026-international-friendly",
-      "round": "",
-      "home": "uae",
-      "away": "honduras",
-      "homeName": "United Arab Emirates",
-      "awayName": "Honduras",
-      "homeScore": 0,
-      "awayScore": 0,
-      "venue": "Mohammed bin Zayed Stadium",
-      "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
-      "penalties": null
-    },
-    {
       "id": "fifa.friendly-401930876",
       "kickoff": "2026-11-13T23:00Z",
       "status": "scheduled",
@@ -49587,7 +49607,7 @@
     },
     {
       "id": "fifa.friendly-401932237",
-      "kickoff": "2026-11-14T16:00Z",
+      "kickoff": "2026-11-14T15:00Z",
       "status": "scheduled",
       "competition": "国際親善試合",
       "competitionCode": "fifa.friendly",
@@ -49599,7 +49619,7 @@
       "awayName": "Iran",
       "homeScore": 0,
       "awayScore": 0,
-      "venue": "",
+      "venue": "Basra International Stadium",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
@@ -50226,6 +50246,26 @@
       "penalties": null
     },
     {
+      "id": "fifa.friendly-401933635",
+      "kickoff": "2026-11-17T13:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "lebanon",
+      "away": "palestine",
+      "homeName": "Lebanon",
+      "awayName": "Palestine",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Basra International Stadium",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
       "id": "fifa.friendly-401916336",
       "kickoff": "2026-11-17T13:10Z",
       "status": "scheduled",
@@ -50260,6 +50300,26 @@
       "homeScore": 0,
       "awayScore": 0,
       "venue": "Abdullah bin Khalifa Stadium",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
+      "id": "fifa.friendly-401932718",
+      "kickoff": "2026-11-17T14:10Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "uae",
+      "away": "syria",
+      "homeName": "United Arab Emirates",
+      "awayName": "Syria",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Hazza Bin Zayed Stadium",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
@@ -50320,6 +50380,26 @@
       "homeScore": 0,
       "awayScore": 0,
       "venue": "Krasnodar Stadium",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
+      "id": "fifa.friendly-401933615",
+      "kickoff": "2026-11-17T16:15Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "iraq",
+      "away": "iran",
+      "homeName": "Iraq",
+      "awayName": "Iran",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Basra International Stadium",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
@@ -50520,26 +50600,6 @@
       "homeScore": 0,
       "awayScore": 0,
       "venue": "",
-      "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
-      "penalties": null
-    },
-    {
-      "id": "fifa.friendly-401932718",
-      "kickoff": "2026-11-17T20:00Z",
-      "status": "scheduled",
-      "competition": "国際親善試合",
-      "competitionCode": "fifa.friendly",
-      "stage": "2026-international-friendly",
-      "round": "",
-      "home": "uae",
-      "away": "syria",
-      "homeName": "United Arab Emirates",
-      "awayName": "Syria",
-      "homeScore": 0,
-      "awayScore": 0,
-      "venue": "Hazza Bin Zayed Stadium",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
