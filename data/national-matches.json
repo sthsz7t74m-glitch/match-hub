@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-11-08T09:25:49.586Z",
+  "updatedAt": "2026-11-09T10:15:50.238Z",
   "source": "ESPN multi-competition annual adapter",
   "competitionCount": 15,
   "competitions": [
     {
+      "code": "fifa.worldq.conmebol",
+      "name": "W杯南米予選",
+      "count": 60
+    },
+    {
       "code": "fifa.worldq.concacaf",
       "name": "W杯北中米予選",
       "count": 100
-    },
-    {
-      "code": "fifa.worldq.uefa",
-      "name": "W杯欧州予選",
-      "count": 204
     },
     {
       "code": "fifa.world",
@@ -19,24 +19,9 @@
       "count": 104
     },
     {
-      "code": "fifa.worldq.conmebol",
-      "name": "W杯南米予選",
-      "count": 60
-    },
-    {
-      "code": "fifa.worldq.afc",
-      "name": "W杯アジア予選",
-      "count": 170
-    },
-    {
-      "code": "fifa.worldq.caf",
-      "name": "W杯アフリカ予選",
-      "count": 219
-    },
-    {
-      "code": "uefa.euro",
-      "name": "UEFA欧州選手権",
-      "count": 51
+      "code": "fifa.worldq.uefa",
+      "name": "W杯欧州予選",
+      "count": 204
     },
     {
       "code": "fifa.worldq.ofc",
@@ -44,14 +29,29 @@
       "count": 18
     },
     {
-      "code": "afc.asian.cup",
-      "name": "AFCアジアカップ",
-      "count": 91
+      "code": "uefa.euro",
+      "name": "UEFA欧州選手権",
+      "count": 51
+    },
+    {
+      "code": "fifa.worldq.caf",
+      "name": "W杯アフリカ予選",
+      "count": 219
+    },
+    {
+      "code": "fifa.worldq.afc",
+      "name": "W杯アジア予選",
+      "count": 170
     },
     {
       "code": "uefa.nations",
       "name": "UEFAネーションズリーグ",
       "count": 346
+    },
+    {
+      "code": "afc.asian.cup",
+      "name": "AFCアジアカップ",
+      "count": 91
     },
     {
       "code": "concacaf.gold",
@@ -69,14 +69,14 @@
       "count": 104
     },
     {
-      "code": "fifa.friendly",
-      "name": "国際親善試合",
-      "count": 1003
-    },
-    {
       "code": "fifa.olympics",
       "name": "オリンピック男子サッカー",
       "count": 32
+    },
+    {
+      "code": "fifa.friendly",
+      "name": "国際親善試合",
+      "count": 1003
     }
   ],
   "skippedCompetitions": [
@@ -87,7 +87,7 @@
     },
     {
       "code": "conmebol.copa_america",
-      "year": 2024,
+      "year": 2027,
       "reason": "HTTP 400"
     },
     {
@@ -97,7 +97,7 @@
     },
     {
       "code": "conmebol.copa_america",
-      "year": 2027,
+      "year": 2024,
       "reason": "HTTP 400"
     }
   ],
