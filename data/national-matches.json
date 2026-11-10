@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-09T10:15:50.238Z",
+  "updatedAt": "2026-11-10T10:19:34.597Z",
   "source": "ESPN multi-competition annual adapter",
   "competitionCount": 15,
   "competitions": [
     {
-      "code": "fifa.worldq.conmebol",
-      "name": "W杯南米予選",
-      "count": 60
+      "code": "fifa.world",
+      "name": "FIFAワールドカップ",
+      "count": 104
     },
     {
       "code": "fifa.worldq.concacaf",
@@ -14,19 +14,14 @@
       "count": 100
     },
     {
-      "code": "fifa.world",
-      "name": "FIFAワールドカップ",
-      "count": 104
+      "code": "fifa.worldq.conmebol",
+      "name": "W杯南米予選",
+      "count": 60
     },
     {
       "code": "fifa.worldq.uefa",
       "name": "W杯欧州予選",
       "count": 204
-    },
-    {
-      "code": "fifa.worldq.ofc",
-      "name": "W杯オセアニア予選",
-      "count": 18
     },
     {
       "code": "uefa.euro",
@@ -39,9 +34,19 @@
       "count": 219
     },
     {
+      "code": "fifa.worldq.ofc",
+      "name": "W杯オセアニア予選",
+      "count": 18
+    },
+    {
       "code": "fifa.worldq.afc",
       "name": "W杯アジア予選",
       "count": 170
+    },
+    {
+      "code": "concacaf.gold",
+      "name": "CONCACAFゴールドカップ",
+      "count": 31
     },
     {
       "code": "uefa.nations",
@@ -54,19 +59,9 @@
       "count": 91
     },
     {
-      "code": "concacaf.gold",
-      "name": "CONCACAFゴールドカップ",
-      "count": 31
-    },
-    {
       "code": "conmebol.america",
       "name": "コパ・アメリカ",
       "count": 32
-    },
-    {
-      "code": "caf.nations",
-      "name": "アフリカネーションズカップ",
-      "count": 104
     },
     {
       "code": "fifa.olympics",
@@ -77,14 +72,14 @@
       "code": "fifa.friendly",
       "name": "国際親善試合",
       "count": 1003
+    },
+    {
+      "code": "caf.nations",
+      "name": "アフリカネーションズカップ",
+      "count": 104
     }
   ],
   "skippedCompetitions": [
-    {
-      "code": "conmebol.copa_america",
-      "year": 2026,
-      "reason": "HTTP 400"
-    },
     {
       "code": "conmebol.copa_america",
       "year": 2027,
@@ -98,6 +93,11 @@
     {
       "code": "conmebol.copa_america",
       "year": 2024,
+      "reason": "HTTP 400"
+    },
+    {
+      "code": "conmebol.copa_america",
+      "year": 2026,
       "reason": "HTTP 400"
     }
   ],
@@ -50566,26 +50566,6 @@
       "penalties": null
     },
     {
-      "id": "fifa.friendly-401930895",
-      "kickoff": "2026-11-17T20:00Z",
-      "status": "scheduled",
-      "competition": "国際親善試合",
-      "competitionCode": "fifa.friendly",
-      "stage": "2026-international-friendly",
-      "round": "",
-      "home": "argentina",
-      "away": "costa_rica",
-      "homeName": "Argentina",
-      "awayName": "Costa Rica",
-      "homeScore": 0,
-      "awayScore": 0,
-      "venue": "Mario Alberto Kempes",
-      "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
-      "penalties": null
-    },
-    {
       "id": "fifa.friendly-401931956",
       "kickoff": "2026-11-17T20:00Z",
       "status": "scheduled",
@@ -50600,6 +50580,26 @@
       "homeScore": 0,
       "awayScore": 0,
       "venue": "",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
+      "id": "fifa.friendly-401930895",
+      "kickoff": "2026-11-17T23:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "argentina",
+      "away": "costa_rica",
+      "homeName": "Argentina",
+      "awayName": "Costa Rica",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Mario Alberto Kempes",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
@@ -50768,7 +50768,7 @@
     {
       "id": "afc.asian.cup-401872238",
       "kickoff": "2027-01-07T17:00Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -50788,7 +50788,7 @@
     {
       "id": "afc.asian.cup-401872239",
       "kickoff": "2027-01-08T10:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -50808,7 +50808,7 @@
     {
       "id": "afc.asian.cup-401872240",
       "kickoff": "2027-01-08T13:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -50828,7 +50828,7 @@
     {
       "id": "afc.asian.cup-401872241",
       "kickoff": "2027-01-08T16:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -50848,7 +50848,7 @@
     {
       "id": "afc.asian.cup-401872242",
       "kickoff": "2027-01-09T10:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -50868,7 +50868,7 @@
     {
       "id": "afc.asian.cup-401872244",
       "kickoff": "2027-01-09T13:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -50888,7 +50888,7 @@
     {
       "id": "afc.asian.cup-401872243",
       "kickoff": "2027-01-09T16:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -50908,7 +50908,7 @@
     {
       "id": "afc.asian.cup-401872245",
       "kickoff": "2027-01-10T10:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -50928,7 +50928,7 @@
     {
       "id": "afc.asian.cup-401872246",
       "kickoff": "2027-01-10T13:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -50948,7 +50948,7 @@
     {
       "id": "afc.asian.cup-401872248",
       "kickoff": "2027-01-11T10:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -50968,7 +50968,7 @@
     {
       "id": "afc.asian.cup-401872249",
       "kickoff": "2027-01-11T13:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -50988,7 +50988,7 @@
     {
       "id": "afc.asian.cup-401872247",
       "kickoff": "2027-01-11T16:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -51008,7 +51008,7 @@
     {
       "id": "afc.asian.cup-401872252",
       "kickoff": "2027-01-12T10:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -51028,7 +51028,7 @@
     {
       "id": "afc.asian.cup-401872250",
       "kickoff": "2027-01-12T13:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -51048,7 +51048,7 @@
     {
       "id": "afc.asian.cup-401872251",
       "kickoff": "2027-01-12T16:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -51068,7 +51068,7 @@
     {
       "id": "afc.asian.cup-401872253",
       "kickoff": "2027-01-13T13:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -51088,7 +51088,7 @@
     {
       "id": "afc.asian.cup-401872254",
       "kickoff": "2027-01-13T16:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -51108,7 +51108,7 @@
     {
       "id": "afc.asian.cup-401872257",
       "kickoff": "2027-01-14T10:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -51128,7 +51128,7 @@
     {
       "id": "afc.asian.cup-401872255",
       "kickoff": "2027-01-14T13:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -51148,7 +51148,7 @@
     {
       "id": "afc.asian.cup-401872256",
       "kickoff": "2027-01-14T16:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -51168,7 +51168,7 @@
     {
       "id": "afc.asian.cup-401872259",
       "kickoff": "2027-01-15T10:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -51188,7 +51188,7 @@
     {
       "id": "afc.asian.cup-401872258",
       "kickoff": "2027-01-15T16:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -51208,7 +51208,7 @@
     {
       "id": "afc.asian.cup-401872261",
       "kickoff": "2027-01-16T10:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -51228,7 +51228,7 @@
     {
       "id": "afc.asian.cup-401872260",
       "kickoff": "2027-01-16T16:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -51248,7 +51248,7 @@
     {
       "id": "afc.asian.cup-401872262",
       "kickoff": "2027-01-17T13:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -51268,7 +51268,7 @@
     {
       "id": "afc.asian.cup-401872264",
       "kickoff": "2027-01-17T13:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -51288,7 +51288,7 @@
     {
       "id": "afc.asian.cup-401872263",
       "kickoff": "2027-01-17T17:00Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -51308,7 +51308,7 @@
     {
       "id": "afc.asian.cup-401872265",
       "kickoff": "2027-01-17T17:00Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -51328,7 +51328,7 @@
     {
       "id": "afc.asian.cup-401872266",
       "kickoff": "2027-01-18T13:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -51348,7 +51348,7 @@
     {
       "id": "afc.asian.cup-401872267",
       "kickoff": "2027-01-18T13:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -51368,7 +51368,7 @@
     {
       "id": "afc.asian.cup-401872268",
       "kickoff": "2027-01-19T10:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -51388,7 +51388,7 @@
     {
       "id": "afc.asian.cup-401872269",
       "kickoff": "2027-01-19T10:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -51408,7 +51408,7 @@
     {
       "id": "afc.asian.cup-401872270",
       "kickoff": "2027-01-20T10:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -51428,7 +51428,7 @@
     {
       "id": "afc.asian.cup-401872273",
       "kickoff": "2027-01-20T10:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -51448,7 +51448,7 @@
     {
       "id": "afc.asian.cup-401872272",
       "kickoff": "2027-01-20T13:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
@@ -51468,7 +51468,7 @@
     {
       "id": "afc.asian.cup-401872271",
       "kickoff": "2027-01-20T13:30Z",
-      "status": "scheduled",
+      "status": "post",
       "competition": "AFCアジアカップ",
       "competitionCode": "afc.asian.cup",
       "stage": "group-stage",
