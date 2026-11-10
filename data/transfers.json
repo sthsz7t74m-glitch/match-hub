@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T17:09:15.078Z",
+  "updatedAt": "2026-11-10T23:33:02.930Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -20,19 +20,49 @@
       "date": "2026-11-10T14:36:21.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cjn5v5xypez2o?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/cjqlnllkyzd5o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Atletico target Zubimendi move - Tuesday's gossip",
-      "titleJa": "移籍情報：Atletico target Zubimendi move - Tuesday's gossip",
+      "player": "Leicester and Brentford U21 into EFL Trophy knockout stages",
+      "titleJa": "移籍情報：Leicester and Brentford U21 into EFL Trophy knockout stages",
       "from": "",
       "to": "",
-      "summaryJa": "Atletico target Zubimendi move - Tuesday's gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Atletico target Zubimendi move - Tuesday's gossip",
-      "summary": "Arsenal midfielder Martin Zubimendi is a target for Atletico Madrid, Leeds United plan to step up contract talks with striker Dominic Calvert-Lewin, Barcelona are keen on Bayern Munich defender Jonathan Tah, plus more.",
+      "summaryJa": "Leicester and Brentford U21 into EFL Trophy knockout stages移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Leicester and Brentford U21 into EFL Trophy knockout stages",
+      "summary": "Brentford U21 and League One side Leicester City move into the knockout stages of the Jersey Mike's Trophy with vital victories.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cjn5v5xypez2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T21:13:37.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/cjqlnllkyzd5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-10T22:17:53.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sounds/play/p0pmc96j?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "72+: The EFL Podcast",
+      "titleJa": "移籍情報：72+: The EFL Podcast",
+      "from": "",
+      "to": "",
+      "summaryJa": "72+: The EFL Podcast移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "72+: The EFL Podcast",
+      "summary": "Former Bromley boss Andy Woodman joins Aaron and Jobi.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sounds/play/p0pmc96j?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-10T22:29:00.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cjy5656p79elo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Lecturer's bid to challenge Fifa president Infantino",
+      "titleJa": "移籍情報：Lecturer's bid to challenge Fifa president Infantino",
+      "from": "",
+      "to": "",
+      "summaryJa": "Lecturer's bid to challenge Fifa president Infantino移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Lecturer's bid to challenge Fifa president Infantino",
+      "summary": "University lecturer Peter Auf der Heyde is seeking to be nominated to take on Gianni Infantino for the Fifa presidency.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cjy5656p79elo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-10T19:14:14.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sounds/play/w3ct9tpb?at_medium=RSS&at_campaign=rss",
@@ -48,21 +78,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sounds/play/w3ct9tpb?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-10T06:30:00.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/ck3r5rwdpjj7o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Wilson eyeing survival step as Wales tackle Norway",
-      "titleJa": "移籍情報：Wilson eyeing survival step as Wales tackle Norway",
-      "from": "",
-      "to": "",
-      "summaryJa": "Wilson eyeing survival step as Wales tackle Norway移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Wilson eyeing survival step as Wales tackle Norway",
-      "summary": "Harry Wilson believes Wales can shock Norway again in Oslo on Saturday and move a step closer to survival in Nations League A.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck3r5rwdpjj7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T17:21:28.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cw98z7vdg546o?at_medium=RSS&at_campaign=rss",
