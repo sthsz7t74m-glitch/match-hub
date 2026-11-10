@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-11-10T07:29:56.034Z",
+  "updatedAt": "2026-11-10T17:09:15.078Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c615je0lgleqo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Birthdays and broken lamps - at home with the Charles brothers",
+      "titleJa": "移籍情報：Birthdays and broken lamps - at home with the Charles brothers",
+      "from": "",
+      "to": "",
+      "summaryJa": "Birthdays and broken lamps - at home with the Charles brothers移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Birthdays and broken lamps - at home with the Charles brothers",
+      "summary": "Before Northern Ireland's Nations League matches, BBC Sport joins Shea and Pierce Charles at their London home to discuss birthdays, steak sandwiches and starring for Michael O'Neill's young team.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c615je0lgleqo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-10T14:36:21.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cjn5v5xypez2o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -20,19 +35,19 @@
       "date": "2026-11-09T21:13:37.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cw62ypepq2m7o?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Alisson wants to sign new Liverpool contract",
-      "titleJa": "移籍情報：Alisson wants to sign new Liverpool contract",
+      "id": "https://www.bbc.co.uk/sounds/play/w3ct9tpb?at_medium=RSS&at_campaign=rss",
+      "status": "official",
+      "player": "More than the Score",
+      "titleJa": "移籍情報：More than the Score",
       "from": "",
       "to": "",
-      "summaryJa": "Alisson wants to sign new Liverpool contract移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Alisson wants to sign new Liverpool contract",
-      "summary": "Liverpool goalkeeper Alisson Becker wants to stay at the club beyond the end of the season, when his current contract is set to expire.",
+      "summaryJa": "More than the Score移る可能性について、正式発表段階の報道です。",
+      "originalTitle": "More than the Score",
+      "summary": "The five nominees have been announced for the BBC World Service award",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cw62ypepq2m7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T12:00:11.000Z"
+      "url": "https://www.bbc.co.uk/sounds/play/w3ct9tpb?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-10T06:30:00.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/ck3r5rwdpjj7o?at_medium=RSS&at_campaign=rss",
@@ -63,36 +78,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cw98z7vdg546o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T20:18:01.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cmp3g31gvxkgo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Szoboszlai a doubt for Nations League conclusion",
-      "titleJa": "移籍情報：Szoboszlai a doubt for Nations League conclusion",
-      "from": "",
-      "to": "",
-      "summaryJa": "Szoboszlai a doubt for Nations League conclusion移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Szoboszlai a doubt for Nations League conclusion",
-      "summary": "Liverpool midfielder Dominik Szoboszlai will undergo tests on a knee injury to ascertain his readiness to join up with the Hungarian national side for Nations League fixtures against Georgia and Northern Ireland.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmp3g31gvxkgo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T16:25:33.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c9p8grpdpp2go?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Friedel group completes Shrewsbury Town takeover",
-      "titleJa": "移籍情報：Friedel group completes Shrewsbury Town takeover",
-      "from": "",
-      "to": "",
-      "summaryJa": "Friedel group completes Shrewsbury Town takeover移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Friedel group completes Shrewsbury Town takeover",
-      "summary": "Shrewsbury Town's American takeover deal is done, allowing owner Roland Wycherley to retire, reports BBC Radio Shropshire.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9p8grpdpp2go?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T13:07:29.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cm93zvzzl33zo?at_medium=RSS&at_campaign=rss",
@@ -163,7 +148,7 @@
       "to": "",
       "summaryJa": "Listen: Who is your BBC Women's Footballer of the Year?移る可能性について、正式発表段階の報道です。",
       "originalTitle": "Listen: Who is your BBC Women's Footballer of the Year?",
-      "summary": "The five nominees have been announced for the BBC award",
+      "summary": "The five nominees have been announced for the BBC World Service award",
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sounds/play/w3ct9tpb?at_medium=RSS&at_campaign=rss",
