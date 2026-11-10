@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T11:19:05.622Z",
+  "updatedAt": "2026-11-10T18:45:18.952Z",
   "season": "2026",
   "dataSource": "football-data.org",
   "dataMode": "current-free-plan",
@@ -23366,7 +23366,7 @@
     {
       "id": 564737,
       "date": "2026-10-30T20:00:00Z",
-      "status": "FINISHED",
+      "status": "2026-10-30 20:00:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -23492,7 +23492,7 @@
     {
       "id": 564730,
       "date": "2026-10-31T13:00:00Z",
-      "status": "FINISHED",
+      "status": "2026-10-31 13:00:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -23996,7 +23996,7 @@
     {
       "id": 564735,
       "date": "2026-10-31T15:15:00Z",
-      "status": "FINISHED",
+      "status": "2026-10-31 15:15:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -24122,7 +24122,7 @@
     {
       "id": 564736,
       "date": "2026-10-31T17:30:00Z",
-      "status": "FINISHED",
+      "status": "2026-10-31 17:30:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -24332,7 +24332,7 @@
     {
       "id": 564732,
       "date": "2026-10-31T20:00:00Z",
-      "status": "FINISHED",
+      "status": "2026-10-31 20:00:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -24416,7 +24416,7 @@
     {
       "id": 564733,
       "date": "2026-11-01T13:00:00Z",
-      "status": "FINISHED",
+      "status": "2026-11-01 13:00:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -24626,7 +24626,7 @@
     {
       "id": 564734,
       "date": "2026-11-01T15:15:00Z",
-      "status": "FINISHED",
+      "status": "2026-11-01 15:15:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -24878,7 +24878,7 @@
     {
       "id": 564728,
       "date": "2026-11-01T17:30:00Z",
-      "status": "FINISHED",
+      "status": "2026-11-01 17:30:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -25004,7 +25004,7 @@
     {
       "id": 564729,
       "date": "2026-11-01T20:00:00Z",
-      "status": "FINISHED",
+      "status": "2026-11-01 20:00:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -25214,7 +25214,7 @@
     {
       "id": 564731,
       "date": "2026-11-02T20:00:00Z",
-      "status": "FINISHED",
+      "status": "2026-11-02 20:00:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -26810,7 +26810,7 @@
     {
       "id": 564740,
       "date": "2026-11-06T20:00:00Z",
-      "status": "FINISHED",
+      "status": "2026-11-06 20:00:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -26894,7 +26894,7 @@
     {
       "id": 564744,
       "date": "2026-11-07T13:00:00Z",
-      "status": "FINISHED",
+      "status": "2026-11-07 13:00:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -27272,7 +27272,7 @@
     {
       "id": 564745,
       "date": "2026-11-07T15:15:00Z",
-      "status": "FINISHED",
+      "status": "2026-11-07 15:15:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -27398,7 +27398,7 @@
     {
       "id": 564739,
       "date": "2026-11-07T17:30:00Z",
-      "status": "FINISHED",
+      "status": "2026-11-07 17:30:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -27566,7 +27566,7 @@
     {
       "id": 564741,
       "date": "2026-11-07T20:00:00Z",
-      "status": "FINISHED",
+      "status": "2026-11-07 20:00:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -27692,7 +27692,7 @@
     {
       "id": 564738,
       "date": "2026-11-08T13:00:00Z",
-      "status": "FINISHED",
+      "status": "2026-11-08 13:00:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -28070,7 +28070,7 @@
     {
       "id": 564743,
       "date": "2026-11-08T15:15:00Z",
-      "status": "FINISHED",
+      "status": "2026-11-08 15:15:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -28406,7 +28406,7 @@
     {
       "id": 564742,
       "date": "2026-11-08T17:30:00Z",
-      "status": "FINISHED",
+      "status": "2026-11-08 17:30:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -28448,7 +28448,7 @@
     {
       "id": 564747,
       "date": "2026-11-08T17:30:00Z",
-      "status": "FINISHED",
+      "status": "2026-11-08 17:30:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -28616,7 +28616,7 @@
     {
       "id": 564746,
       "date": "2026-11-08T20:00:00Z",
-      "status": "FINISHED",
+      "status": "2026-11-08 20:00:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -32228,7 +32228,7 @@
     {
       "id": 564765,
       "date": "2026-11-27T20:00:00Z",
-      "status": "TIMED",
+      "status": "2026-11-29 16:00:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -32270,7 +32270,7 @@
     {
       "id": 564760,
       "date": "2026-11-28T13:00:00Z",
-      "status": "TIMED",
+      "status": "2026-11-29 16:00:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -32606,7 +32606,7 @@
     {
       "id": 564767,
       "date": "2026-11-28T15:15:00Z",
-      "status": "TIMED",
+      "status": "2026-11-29 16:00:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -32774,7 +32774,7 @@
     {
       "id": 564759,
       "date": "2026-11-28T17:30:00Z",
-      "status": "TIMED",
+      "status": "2026-11-29 16:00:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -33068,7 +33068,7 @@
     {
       "id": 564762,
       "date": "2026-11-28T20:00:00Z",
-      "status": "TIMED",
+      "status": "2026-11-29 16:00:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -33194,7 +33194,7 @@
     {
       "id": 564761,
       "date": "2026-11-29T13:00:00Z",
-      "status": "TIMED",
+      "status": "2026-11-29 16:00:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -33530,7 +33530,7 @@
     {
       "id": 564766,
       "date": "2026-11-29T15:15:00Z",
-      "status": "TIMED",
+      "status": "2026-11-29 16:00:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -33740,7 +33740,7 @@
     {
       "id": 564758,
       "date": "2026-11-29T17:30:00Z",
-      "status": "TIMED",
+      "status": "2026-11-29 16:00:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -33908,7 +33908,7 @@
     {
       "id": 564764,
       "date": "2026-11-29T20:00:00Z",
-      "status": "TIMED",
+      "status": "2026-11-29 16:00:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -34034,7 +34034,7 @@
     {
       "id": 564763,
       "date": "2026-11-30T20:00:00Z",
-      "status": "TIMED",
+      "status": "2026-11-29 16:00:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -34118,7 +34118,7 @@
     {
       "id": 564855,
       "date": "2026-12-02T18:00:00Z",
-      "status": "TIMED",
+      "status": "2027-02-07 12:00:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -34496,7 +34496,7 @@
     {
       "id": 564857,
       "date": "2026-12-02T20:30:00Z",
-      "status": "TIMED",
+      "status": "2027-02-07 12:00:00Z",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
