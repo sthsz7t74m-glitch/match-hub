@@ -1,9 +1,39 @@
 {
-  "updatedAt": "2026-11-11T06:46:46.340Z",
+  "updatedAt": "2026-11-11T17:17:17.895Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cwj3462yz21lo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Wayne Rooney leads I'm A Celebrity... Get Me Out of Here! line-up",
+      "titleJa": "移籍情報：Wayne Rooney leads I'm A Celebrity... Get Me Out of Here! line-up",
+      "from": "",
+      "to": "",
+      "summaryJa": "Wayne Rooney leads I'm A Celebrity... Get Me Out of Here! line-up移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Wayne Rooney leads I'm A Celebrity... Get Me Out of Here! line-up",
+      "summary": "The football star will be joined by Gavin and Stacey star Joanna Page and YouTuber Sharky among others.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/news/articles/cwj3462yz21lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T10:17:09.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c5x2wle9nnvzo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Bromley signings 'not good enough' - ex-boss Woodman",
+      "titleJa": "移籍情報：Bromley signings 'not good enough' - ex-boss Woodman",
+      "from": "",
+      "to": "",
+      "summaryJa": "Bromley signings 'not good enough' - ex-boss Woodman移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Bromley signings 'not good enough' - ex-boss Woodman",
+      "summary": "Ex-Bromley boss Andy Woodman criticises the club's summer recruitment and says he is looking forward to his next challenge.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5x2wle9nnvzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T10:32:23.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c615je0lgleqo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -95,21 +125,6 @@
       "date": "2026-11-08T20:18:01.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cm93zvzzl33zo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "What new Kane deal means for England and the Premier League record",
-      "titleJa": "移籍情報：What new Kane deal means for England and the Premier League record",
-      "from": "",
-      "to": "",
-      "summaryJa": "What new Kane deal means for England and the Premier League record移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "What new Kane deal means for England and the Premier League record",
-      "summary": "Harry Kane's new deal at Bayern Munich may end his Premier League career but offers fresh hope he can lead England to glory, writes Phil McNulty.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm93zvzzl33zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T14:44:34.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cvgyxyxplkvo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "All done deals from September-November 2026",
@@ -138,21 +153,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/articles/cmje5wl5ek32o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-13T10:13:34.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c8ly0y5q34pno?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Caldwell & McGlynn",
-      "titleJa": "Caldwell & McGlynnにAberdeen job - gossip移籍の可能性",
-      "from": "",
-      "to": "Aberdeen job - gossip",
-      "summaryJa": "Caldwell & McGlynnがAberdeen job - gossipへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Caldwell & McGlynn linked with Aberdeen job - gossip",
-      "summary": "Early names in the frame for Aberdeen job as Celtic midfielder withdraws from international duty.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8ly0y5q34pno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T07:25:56.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sounds/play/w3ct9tpb?at_medium=RSS&at_campaign=rss",
