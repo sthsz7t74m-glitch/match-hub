@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-11-10T10:19:34.597Z",
+  "updatedAt": "2026-11-11T09:49:02.203Z",
   "source": "ESPN multi-competition annual adapter",
   "competitionCount": 15,
   "competitions": [
     {
+      "code": "fifa.worldq.uefa",
+      "name": "W杯欧州予選",
+      "count": 204
+    },
+    {
       "code": "fifa.world",
       "name": "FIFAワールドカップ",
       "count": 104
-    },
-    {
-      "code": "fifa.worldq.concacaf",
-      "name": "W杯北中米予選",
-      "count": 100
     },
     {
       "code": "fifa.worldq.conmebol",
@@ -19,9 +19,9 @@
       "count": 60
     },
     {
-      "code": "fifa.worldq.uefa",
-      "name": "W杯欧州予選",
-      "count": 204
+      "code": "fifa.worldq.concacaf",
+      "name": "W杯北中米予選",
+      "count": 100
     },
     {
       "code": "uefa.euro",
@@ -29,9 +29,9 @@
       "count": 51
     },
     {
-      "code": "fifa.worldq.caf",
-      "name": "W杯アフリカ予選",
-      "count": 219
+      "code": "fifa.worldq.afc",
+      "name": "W杯アジア予選",
+      "count": 170
     },
     {
       "code": "fifa.worldq.ofc",
@@ -39,9 +39,14 @@
       "count": 18
     },
     {
-      "code": "fifa.worldq.afc",
-      "name": "W杯アジア予選",
-      "count": 170
+      "code": "fifa.worldq.caf",
+      "name": "W杯アフリカ予選",
+      "count": 219
+    },
+    {
+      "code": "afc.asian.cup",
+      "name": "AFCアジアカップ",
+      "count": 91
     },
     {
       "code": "concacaf.gold",
@@ -54,14 +59,14 @@
       "count": 346
     },
     {
-      "code": "afc.asian.cup",
-      "name": "AFCアジアカップ",
-      "count": 91
-    },
-    {
       "code": "conmebol.america",
       "name": "コパ・アメリカ",
       "count": 32
+    },
+    {
+      "code": "caf.nations",
+      "name": "アフリカネーションズカップ",
+      "count": 104
     },
     {
       "code": "fifa.olympics",
@@ -71,23 +76,18 @@
     {
       "code": "fifa.friendly",
       "name": "国際親善試合",
-      "count": 1003
-    },
-    {
-      "code": "caf.nations",
-      "name": "アフリカネーションズカップ",
-      "count": 104
+      "count": 1006
     }
   ],
   "skippedCompetitions": [
     {
       "code": "conmebol.copa_america",
-      "year": 2027,
+      "year": 2026,
       "reason": "HTTP 400"
     },
     {
       "code": "conmebol.copa_america",
-      "year": 2025,
+      "year": 2027,
       "reason": "HTTP 400"
     },
     {
@@ -97,7 +97,7 @@
     },
     {
       "code": "conmebol.copa_america",
-      "year": 2026,
+      "year": 2025,
       "reason": "HTTP 400"
     }
   ],
@@ -48847,7 +48847,7 @@
     },
     {
       "id": "fifa.friendly-401906458",
-      "kickoff": "2026-11-12T06:00Z",
+      "kickoff": "2026-11-12T06:10Z",
       "status": "scheduled",
       "competition": "国際親善試合",
       "competitionCode": "fifa.friendly",
@@ -49127,7 +49127,7 @@
     },
     {
       "id": "fifa.friendly-401931957",
-      "kickoff": "2026-11-13T14:10Z",
+      "kickoff": "2026-11-13T14:15Z",
       "status": "scheduled",
       "competition": "国際親善試合",
       "competitionCode": "fifa.friendly",
@@ -49506,6 +49506,26 @@
       "penalties": null
     },
     {
+      "id": "fifa.friendly-401933864",
+      "kickoff": "2026-11-14T05:30Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "tahiti",
+      "away": "cook_islands",
+      "homeName": "Tahiti",
+      "awayName": "Cook Islands",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
       "id": "fifa.friendly-401930879",
       "kickoff": "2026-11-14T06:00Z",
       "status": "scheduled",
@@ -49767,7 +49787,7 @@
     },
     {
       "id": "fifa.friendly-401906463",
-      "kickoff": "2026-11-15T03:00Z",
+      "kickoff": "2026-11-15T03:10Z",
       "status": "scheduled",
       "competition": "国際親善試合",
       "competitionCode": "fifa.friendly",
@@ -49860,6 +49880,26 @@
       "homeScore": 0,
       "awayScore": 0,
       "venue": "Bolt Arena",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
+      "id": "fifa.friendly-401933837",
+      "kickoff": "2026-11-15T17:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "suriname",
+      "away": "eswatini",
+      "homeName": "Suriname",
+      "awayName": "Eswatini",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Stadion De Vliert",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
@@ -50160,6 +50200,26 @@
       "homeScore": 0,
       "awayScore": 0,
       "venue": "Kybunpark",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
+      "id": "fifa.friendly-401933879",
+      "kickoff": "2026-11-17T05:30Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "tahiti",
+      "away": "cook_islands",
+      "homeName": "Tahiti",
+      "awayName": "Cook Islands",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
