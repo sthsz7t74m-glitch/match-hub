@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-11-12T00:51:24.137Z",
+  "updatedAt": "2026-11-12T11:30:03.746Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cm0rl4kwn8vqo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "The chaos that took Carrick from two-year deal to sacked within 15 games",
+      "titleJa": "移籍情報：The chaos that took Carrick from two-year deal to sacked within 15 games",
+      "from": "",
+      "to": "",
+      "summaryJa": "The chaos that took Carrick from two-year deal to sacked within 15 games移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "The chaos that took Carrick from two-year deal to sacked within 15 games",
+      "summary": "Michael Carrick becomes the third Manchester United manager to be sacked in three seasons - where did it go wrong?",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm0rl4kwn8vqo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T10:21:29.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c62l51xyl98no?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -35,21 +50,6 @@
       "date": "2026-11-11T23:08:00.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c5x2wle9nnvzo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Bromley signings 'not good enough' - ex-boss Woodman",
-      "titleJa": "移籍情報：Bromley signings 'not good enough' - ex-boss Woodman",
-      "from": "",
-      "to": "",
-      "summaryJa": "Bromley signings 'not good enough' - ex-boss Woodman移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Bromley signings 'not good enough' - ex-boss Woodman",
-      "summary": "Ex-Bromley boss Andy Woodman criticises the club's summer recruitment and says he is looking forward to his next challenge.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5x2wle9nnvzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T10:32:23.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c615je0lgleqo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Birthdays and broken lamps - at home with the Charles brothers",
@@ -65,19 +65,19 @@
       "date": "2026-11-10T14:36:21.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cjy5656p79elo?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c5x2wle9nnvzo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Lecturer's bid to challenge Fifa president Infantino",
-      "titleJa": "移籍情報：Lecturer's bid to challenge Fifa president Infantino",
+      "player": "Bromley signings 'not good enough' - ex-boss Woodman",
+      "titleJa": "移籍情報：Bromley signings 'not good enough' - ex-boss Woodman",
       "from": "",
       "to": "",
-      "summaryJa": "Lecturer's bid to challenge Fifa president Infantino移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Lecturer's bid to challenge Fifa president Infantino",
-      "summary": "University lecturer Peter Auf der Heyde is seeking to be nominated to take on Gianni Infantino for the Fifa presidency.",
+      "summaryJa": "Bromley signings 'not good enough' - ex-boss Woodman移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Bromley signings 'not good enough' - ex-boss Woodman",
+      "summary": "Ex-Bromley boss Andy Woodman criticises the club's summer recruitment and says he is looking forward to his next challenge.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cjy5656p79elo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T19:14:14.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5x2wle9nnvzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T10:32:23.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cw98z7vdg546o?at_medium=RSS&at_campaign=rss",
