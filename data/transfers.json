@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T11:16:45.110Z",
+  "updatedAt": "2026-11-13T19:53:06.348Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -95,51 +95,6 @@
       "date": "2026-11-12T21:16:56.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sounds/play/m0034dz1?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Football Daily",
-      "titleJa": "移籍情報：Football Daily",
-      "from": "",
-      "to": "",
-      "summaryJa": "Football Daily移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Football Daily",
-      "summary": "Simon Stone, Jay Motty & Tom Allnutt join Rick & Lloyd for reaction to Carrick’s sacking.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sounds/play/m0034dz1?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T16:31:00.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c61md0mldvdgo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Ghana kick-start Afcon 2027 bid despite Ayew penalty miss",
-      "titleJa": "移籍情報：Ghana kick-start Afcon 2027 bid despite Ayew penalty miss",
-      "from": "",
-      "to": "",
-      "summaryJa": "Ghana kick-start Afcon 2027 bid despite Ayew penalty miss移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Ghana kick-start Afcon 2027 bid despite Ayew penalty miss",
-      "summary": "Ghana kick-start their Afcon 2027 qualifying campaign despite Jordan Ayew having a penalty saved, while Cameroon, Ivory Coast and Senegal register wins.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c61md0mldvdgo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T21:28:06.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/ckm2mn2lvld9o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Police investigation into Vigar's death ongoing",
-      "titleJa": "移籍情報：Police investigation into Vigar's death ongoing",
-      "from": "",
-      "to": "",
-      "summaryJa": "Police investigation into Vigar's death ongoing移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Police investigation into Vigar's death ongoing",
-      "summary": "The police investigation into Billy Vigar's death from a \"significant brain injury\" is unlikely to conclude for at least another two months.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckm2mn2lvld9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T13:11:49.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c615je0lgleqo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Birthdays and broken lamps - at home with the Charles brothers",
@@ -167,7 +122,7 @@
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cvgyxyxplkvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T12:53:04.000Z"
+      "date": "2026-11-13T17:21:23.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/articles/cmje5wl5ek32o?at_medium=RSS&at_campaign=rss",
