@@ -1,8 +1,13 @@
 {
-  "updatedAt": "2026-11-12T10:13:45.839Z",
+  "updatedAt": "2026-11-13T09:55:45.681Z",
   "source": "ESPN multi-competition annual adapter",
   "competitionCount": 15,
   "competitions": [
+    {
+      "code": "fifa.worldq.uefa",
+      "name": "W杯欧州予選",
+      "count": 204
+    },
     {
       "code": "fifa.worldq.conmebol",
       "name": "W杯南米予選",
@@ -19,14 +24,9 @@
       "count": 104
     },
     {
-      "code": "fifa.worldq.uefa",
-      "name": "W杯欧州予選",
-      "count": 204
-    },
-    {
-      "code": "fifa.worldq.ofc",
-      "name": "W杯オセアニア予選",
-      "count": 18
+      "code": "fifa.worldq.caf",
+      "name": "W杯アフリカ予選",
+      "count": 219
     },
     {
       "code": "uefa.euro",
@@ -39,14 +39,19 @@
       "count": 170
     },
     {
-      "code": "fifa.worldq.caf",
-      "name": "W杯アフリカ予選",
-      "count": 219
+      "code": "fifa.worldq.ofc",
+      "name": "W杯オセアニア予選",
+      "count": 18
     },
     {
       "code": "afc.asian.cup",
       "name": "AFCアジアカップ",
       "count": 91
+    },
+    {
+      "code": "uefa.nations",
+      "name": "UEFAネーションズリーグ",
+      "count": 346
     },
     {
       "code": "concacaf.gold",
@@ -59,14 +64,9 @@
       "count": 32
     },
     {
-      "code": "uefa.nations",
-      "name": "UEFAネーションズリーグ",
-      "count": 346
-    },
-    {
-      "code": "caf.nations",
-      "name": "アフリカネーションズカップ",
-      "count": 104
+      "code": "fifa.friendly",
+      "name": "国際親善試合",
+      "count": 1006
     },
     {
       "code": "fifa.olympics",
@@ -74,9 +74,9 @@
       "count": 32
     },
     {
-      "code": "fifa.friendly",
-      "name": "国際親善試合",
-      "count": 1006
+      "code": "caf.nations",
+      "name": "アフリカネーションズカップ",
+      "count": 104
     }
   ],
   "skippedCompetitions": [
@@ -92,12 +92,12 @@
     },
     {
       "code": "conmebol.copa_america",
-      "year": 2024,
+      "year": 2027,
       "reason": "HTTP 400"
     },
     {
       "code": "conmebol.copa_america",
-      "year": 2027,
+      "year": 2024,
       "reason": "HTTP 400"
     }
   ],
@@ -48868,7 +48868,7 @@
     {
       "id": "fifa.friendly-401930962",
       "kickoff": "2026-11-12T15:00Z",
-      "status": "scheduled",
+      "status": "finished",
       "competition": "国際親善試合",
       "competitionCode": "fifa.friendly",
       "stage": "2026-international-friendly",
@@ -48877,18 +48877,18 @@
       "away": "russia",
       "homeName": "Uzbekistan",
       "awayName": "Russia",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 3,
       "venue": "Pakhtakor Markaziy Stadium",
       "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
+      "decision": "regular",
+      "decisionLabel": "通常決着",
       "penalties": null
     },
     {
       "id": "uefa.nations-401861146",
       "kickoff": "2026-11-12T17:00Z",
-      "status": "scheduled",
+      "status": "finished",
       "competition": "UEFAネーションズリーグ",
       "competitionCode": "uefa.nations",
       "stage": "league-phase",
@@ -48897,18 +48897,18 @@
       "away": "cyprus",
       "homeName": "Armenia",
       "awayName": "Cyprus",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "venue": "Vazgen Sargsyan Republican Stadium",
       "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
+      "decision": "regular",
+      "decisionLabel": "通常決着",
       "penalties": null
     },
     {
       "id": "uefa.nations-401861145",
       "kickoff": "2026-11-12T17:00Z",
-      "status": "scheduled",
+      "status": "finished",
       "competition": "UEFAネーションズリーグ",
       "competitionCode": "uefa.nations",
       "stage": "league-phase",
@@ -48917,18 +48917,18 @@
       "away": "belgium",
       "homeName": "Türkiye",
       "awayName": "Belgium",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 2,
       "venue": "Göztepe Gürsel Aksel Stadi",
       "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
+      "decision": "regular",
+      "decisionLabel": "通常決着",
       "penalties": null
     },
     {
       "id": "fifa.friendly-401933115",
       "kickoff": "2026-11-12T17:00Z",
-      "status": "scheduled",
+      "status": "finished",
       "competition": "国際親善試合",
       "competitionCode": "fifa.friendly",
       "stage": "2026-international-friendly",
@@ -48941,14 +48941,14 @@
       "awayScore": 0,
       "venue": "S. Darius and S. Gireno Stadium",
       "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
+      "decision": "regular",
+      "decisionLabel": "通常決着",
       "penalties": null
     },
     {
       "id": "fifa.friendly-401931296",
       "kickoff": "2026-11-12T17:30Z",
-      "status": "scheduled",
+      "status": "finished",
       "competition": "国際親善試合",
       "competitionCode": "fifa.friendly",
       "stage": "2026-international-friendly",
@@ -48957,18 +48957,18 @@
       "away": "eswatini",
       "homeName": "Malta",
       "awayName": "Eswatini",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "venue": "Ta' Qali National Stadium",
       "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
+      "decision": "regular",
+      "decisionLabel": "通常決着",
       "penalties": null
     },
     {
       "id": "uefa.nations-401861147",
       "kickoff": "2026-11-12T19:45Z",
-      "status": "scheduled",
+      "status": "finished",
       "competition": "UEFAネーションズリーグ",
       "competitionCode": "uefa.nations",
       "stage": "league-phase",
@@ -48977,18 +48977,18 @@
       "away": "finland",
       "homeName": "Albania",
       "awayName": "Finland",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
       "venue": "Air Albania Stadium",
       "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
+      "decision": "regular",
+      "decisionLabel": "通常決着",
       "penalties": null
     },
     {
       "id": "uefa.nations-401861148",
       "kickoff": "2026-11-12T19:45Z",
-      "status": "scheduled",
+      "status": "finished",
       "competition": "UEFAネーションズリーグ",
       "competitionCode": "uefa.nations",
       "stage": "league-phase",
@@ -48998,17 +48998,17 @@
       "homeName": "Czechia",
       "awayName": "Spain",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 2,
       "venue": "Generali Arena",
       "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
+      "decision": "regular",
+      "decisionLabel": "通常決着",
       "penalties": null
     },
     {
       "id": "uefa.nations-401861150",
       "kickoff": "2026-11-12T19:45Z",
-      "status": "scheduled",
+      "status": "finished",
       "competition": "UEFAネーションズリーグ",
       "competitionCode": "uefa.nations",
       "stage": "league-phase",
@@ -49017,18 +49017,18 @@
       "away": "croatia",
       "homeName": "England",
       "awayName": "Croatia",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 1,
       "venue": "Wembley Stadium",
       "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
+      "decision": "regular",
+      "decisionLabel": "通常決着",
       "penalties": null
     },
     {
       "id": "uefa.nations-401861151",
       "kickoff": "2026-11-12T19:45Z",
-      "status": "scheduled",
+      "status": "finished",
       "competition": "UEFAネーションズリーグ",
       "competitionCode": "uefa.nations",
       "stage": "league-phase",
@@ -49037,18 +49037,18 @@
       "away": "france",
       "homeName": "Italy",
       "awayName": "France",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 3,
+      "awayScore": 1,
       "venue": "San Siro",
       "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
+      "decision": "regular",
+      "decisionLabel": "通常決着",
       "penalties": null
     },
     {
       "id": "uefa.nations-401861152",
       "kickoff": "2026-11-12T19:45Z",
-      "status": "scheduled",
+      "status": "finished",
       "competition": "UEFAネーションズリーグ",
       "competitionCode": "uefa.nations",
       "stage": "league-phase",
@@ -49057,18 +49057,18 @@
       "away": "latvia",
       "homeName": "Montenegro",
       "awayName": "Latvia",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 1,
       "venue": "Podgorica City Stadium",
       "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
+      "decision": "regular",
+      "decisionLabel": "通常決着",
       "penalties": null
     },
     {
       "id": "uefa.nations-401861149",
       "kickoff": "2026-11-12T19:45Z",
-      "status": "scheduled",
+      "status": "finished",
       "competition": "UEFAネーションズリーグ",
       "competitionCode": "uefa.nations",
       "stage": "league-phase",
@@ -49078,11 +49078,11 @@
       "homeName": "San Marino",
       "awayName": "Belarus",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 2,
       "venue": "San Marino Stadium",
       "source": "ESPN",
-      "decision": null,
-      "decisionLabel": "",
+      "decision": "regular",
+      "decisionLabel": "通常決着",
       "penalties": null
     },
     {
@@ -49107,7 +49107,7 @@
     },
     {
       "id": "fifa.friendly-401931957",
-      "kickoff": "2026-11-13T14:15Z",
+      "kickoff": "2026-11-13T14:10Z",
       "status": "scheduled",
       "competition": "国際親善試合",
       "competitionCode": "fifa.friendly",
@@ -50419,7 +50419,7 @@
       "awayName": "Australia",
       "homeScore": 0,
       "awayScore": 0,
-      "venue": "Amman International Stadium",
+      "venue": "",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
