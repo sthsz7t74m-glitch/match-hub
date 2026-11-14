@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T18:18:09.436Z",
+  "updatedAt": "2026-11-14T22:35:21.246Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -20,49 +20,19 @@
       "date": "2026-11-14T16:26:49.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cq39glw42xkjo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Man Utd want Paz, Chelsea target Kounde - Saturday's gossip",
-      "titleJa": "移籍情報：Man Utd want Paz, Chelsea target Kounde - Saturday's gossip",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c6e9kgn532gxo?at_medium=RSS&at_campaign=rss",
+      "status": "talks",
+      "player": "Arsenal target Nusa could cost £66m - Sunday's gossip",
+      "titleJa": "移籍情報：Arsenal target Nusa could cost £66m - Sunday's gossip",
       "from": "",
       "to": "",
-      "summaryJa": "Man Utd want Paz, Chelsea target Kounde - Saturday's gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Man Utd want Paz, Chelsea target Kounde - Saturday's gossip",
-      "summary": "Manchester United are targeting Como midfielder Nico Paz as new manager Mauricio Pochettino prepares to receive backing in the transfer market at Old Trafford.",
+      "summaryJa": "Arsenal target Nusa could cost £66m - Sunday's gossip移る可能性について、交渉段階の報道です。",
+      "originalTitle": "Arsenal target Nusa could cost £66m - Sunday's gossip",
+      "summary": "Arsenal could have to pay £66m for RB Leipzig's Antonio Nusa, Real Betis reject Chelsea's bid for Jose Morante, plus more.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq39glw42xkjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T22:05:14.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/videos/crlye55q790yo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Arsenal dig in for draw at Barcelona to extend unbeaten start",
-      "titleJa": "移籍情報：Arsenal dig in for draw at Barcelona to extend unbeaten start",
-      "from": "",
-      "to": "",
-      "summaryJa": "Arsenal dig in for draw at Barcelona to extend unbeaten start移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Arsenal dig in for draw at Barcelona to extend unbeaten start",
-      "summary": "Arsenal extend their unbeaten start to four matches in the Uefa Women's Champions League, as they produce a dogged display to hold Barcelona to a 1-1 draw at the Camp Nou. \nThe point moves Renee Slegers' side into the top four, putting them in a great position to automatically qualify for the knockout stages.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/crlye55q790yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T20:09:07.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cwx2e0dzvy0vo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "NI target challenge of Nations League promotion",
-      "titleJa": "移籍情報：NI target challenge of Nations League promotion",
-      "from": "",
-      "to": "",
-      "summaryJa": "NI target challenge of Nations League promotion移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "NI target challenge of Nations League promotion",
-      "summary": "A win against Ukraine on Saturday night would leave Northern Ireland needing only a point away to Hungary next week to secure promotion to Nations League A for the first time.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwx2e0dzvy0vo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-14T09:57:20.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6e9kgn532gxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-14T21:48:45.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cm782d4pz9jyo?at_medium=RSS&at_campaign=rss",
@@ -80,19 +50,19 @@
       "date": "2026-11-13T09:55:01.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/ck4gnd2pgd06o?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/videos/crlye55q790yo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Liverpool and Van Dijk have a decision to make",
-      "titleJa": "移籍情報：Liverpool and Van Dijk have a decision to make",
+      "player": "Arsenal dig in for draw at Barcelona to extend unbeaten start",
+      "titleJa": "移籍情報：Arsenal dig in for draw at Barcelona to extend unbeaten start",
       "from": "",
       "to": "",
-      "summaryJa": "Liverpool and Van Dijk have a decision to make移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Liverpool and Van Dijk have a decision to make",
-      "summary": "Virgil van Dijk says he is in no panic about his contract situation at Liverpool - BBC Sport takes a look at what could happen with his future.",
+      "summaryJa": "Arsenal dig in for draw at Barcelona to extend unbeaten start移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Arsenal dig in for draw at Barcelona to extend unbeaten start",
+      "summary": "Arsenal extend their unbeaten start to four matches in the Uefa Women's Champions League, as they produce a dogged display to hold Barcelona to a 1-1 draw at the Camp Nou. \nThe point moves Renee Slegers' side into the top four, putting them in a great position to automatically qualify for the knockout stages.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck4gnd2pgd06o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T06:57:25.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/videos/crlye55q790yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T20:09:07.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cve8716dg46xo?at_medium=RSS&at_campaign=rss",
@@ -108,21 +78,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cve8716dg46xo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-13T08:13:19.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/news/articles/cqdr1jd5mpp5o?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "SFA in talks with Boston officials over biennial friendly match",
-      "titleJa": "移籍情報：SFA in talks with Boston officials over biennial friendly match",
-      "from": "",
-      "to": "",
-      "summaryJa": "SFA in talks with Boston officials over biennial friendly match移る可能性について、交渉段階の報道です。",
-      "originalTitle": "SFA in talks with Boston officials over biennial friendly match",
-      "summary": "Discussions take place between Scottish football governing's body and a delegation of state senators to build on bonds forged during the World Cup.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/news/articles/cqdr1jd5mpp5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T21:16:56.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cvgyxyxplkvo?at_medium=RSS&at_campaign=rss",
