@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-11-14T01:29:35.495Z",
+  "updatedAt": "2026-11-14T10:41:07.053Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cwx2e0dzvy0vo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "NI target challenge of Nations League promotion",
+      "titleJa": "移籍情報：NI target challenge of Nations League promotion",
+      "from": "",
+      "to": "",
+      "summaryJa": "NI target challenge of Nations League promotion移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "NI target challenge of Nations League promotion",
+      "summary": "A win against Ukraine on Saturday night would leave Northern Ireland needing only a point away to Hungary next week to secure promotion to Nations League A for the first time.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwx2e0dzvy0vo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-14T09:57:20.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cm782d4pz9jyo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -33,6 +48,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq39glw42xkjo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-13T22:05:14.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/videos/crlye55q790yo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Arsenal dig in for draw at Barcelona to extend unbeaten start",
+      "titleJa": "移籍情報：Arsenal dig in for draw at Barcelona to extend unbeaten start",
+      "from": "",
+      "to": "",
+      "summaryJa": "Arsenal dig in for draw at Barcelona to extend unbeaten start移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Arsenal dig in for draw at Barcelona to extend unbeaten start",
+      "summary": "Arsenal extend their unbeaten start to four matches in the Uefa Women's Champions League, as they produce a dogged display to hold Barcelona to a 1-1 draw at the Camp Nou. \nThe point moves Renee Slegers' side into the top four, putting them in a great position to automatically qualify for the knockout stages.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/crlye55q790yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T20:09:07.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/ck4gnd2pgd06o?at_medium=RSS&at_campaign=rss",
@@ -65,21 +95,6 @@
       "date": "2026-11-13T08:13:19.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/videos/crlye55q790yo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Arsenal dig in for draw at Barcelona to extend unbeaten start",
-      "titleJa": "移籍情報：Arsenal dig in for draw at Barcelona to extend unbeaten start",
-      "from": "",
-      "to": "",
-      "summaryJa": "Arsenal dig in for draw at Barcelona to extend unbeaten start移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Arsenal dig in for draw at Barcelona to extend unbeaten start",
-      "summary": "Arsenal extend their unbeaten start to four matches in the Uefa Women's Champions League, as they produce a dogged display to hold Barcelona to a 1-1 draw at the Camp Nou. \nThe point moves Renee Slegers' side into the top four, putting them in a great position to automatically qualify for the knockout stages.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/crlye55q790yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T20:09:07.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cm0rl4kwn8vqo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "The chaos that took Carrick from two-year deal to sacked within 15 games",
@@ -108,36 +123,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/news/articles/cqdr1jd5mpp5o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T21:16:56.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c61md0mldvdgo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Ghana kick-start Afcon 2027 bid despite Ayew penalty miss",
-      "titleJa": "移籍情報：Ghana kick-start Afcon 2027 bid despite Ayew penalty miss",
-      "from": "",
-      "to": "",
-      "summaryJa": "Ghana kick-start Afcon 2027 bid despite Ayew penalty miss移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Ghana kick-start Afcon 2027 bid despite Ayew penalty miss",
-      "summary": "Ghana kick-start their Afcon 2027 qualifying campaign despite Jordan Ayew having a penalty saved, while Cameroon, Ivory Coast and Senegal register wins.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c61md0mldvdgo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T21:28:06.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/ckm2mn2lvld9o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Police investigation into Vigar's death ongoing",
-      "titleJa": "移籍情報：Police investigation into Vigar's death ongoing",
-      "from": "",
-      "to": "",
-      "summaryJa": "Police investigation into Vigar's death ongoing移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Police investigation into Vigar's death ongoing",
-      "summary": "The police investigation into Billy Vigar's death from a \"significant brain injury\" is unlikely to conclude for at least another two months.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckm2mn2lvld9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T13:11:49.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cvgyxyxplkvo?at_medium=RSS&at_campaign=rss",
