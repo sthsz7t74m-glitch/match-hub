@@ -1,38 +1,23 @@
 {
-  "updatedAt": "2026-11-14T10:41:07.053Z",
+  "updatedAt": "2026-11-14T18:18:09.436Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cwx2e0dzvy0vo?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/cmjeq0x815zko?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "NI target challenge of Nations League promotion",
-      "titleJa": "移籍情報：NI target challenge of Nations League promotion",
+      "player": "Tenerife boss says Owono's 12-match ban 'feels light'",
+      "titleJa": "移籍情報：Tenerife boss says Owono's 12-match ban 'feels light'",
       "from": "",
       "to": "",
-      "summaryJa": "NI target challenge of Nations League promotion移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "NI target challenge of Nations League promotion",
-      "summary": "A win against Ukraine on Saturday night would leave Northern Ireland needing only a point away to Hungary next week to secure promotion to Nations League A for the first time.",
+      "summaryJa": "Tenerife boss says Owono's 12-match ban 'feels light'移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Tenerife boss says Owono's 12-match ban 'feels light'",
+      "summary": "Tenerife boss Alvaro Cervera reacts to goalkeeper Jesus Owono's 12-match ban as the club prepare for their first game since the death of Jesus de Miguel.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwx2e0dzvy0vo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-14T09:57:20.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cm782d4pz9jyo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Fernandes rejects second Man Utd contract offer",
-      "titleJa": "移籍情報：Fernandes rejects second Man Utd contract offer",
-      "from": "",
-      "to": "",
-      "summaryJa": "Fernandes rejects second Man Utd contract offer移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Fernandes rejects second Man Utd contract offer",
-      "summary": "Manchester United captain Bruno Fernandes rejects the club's second contract offer, with his current deal due to expire at the end of the season.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm782d4pz9jyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T09:55:01.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmjeq0x815zko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-14T16:26:49.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cq39glw42xkjo?at_medium=RSS&at_campaign=rss",
@@ -65,6 +50,36 @@
       "date": "2026-11-12T20:09:07.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cwx2e0dzvy0vo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "NI target challenge of Nations League promotion",
+      "titleJa": "移籍情報：NI target challenge of Nations League promotion",
+      "from": "",
+      "to": "",
+      "summaryJa": "NI target challenge of Nations League promotion移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "NI target challenge of Nations League promotion",
+      "summary": "A win against Ukraine on Saturday night would leave Northern Ireland needing only a point away to Hungary next week to secure promotion to Nations League A for the first time.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwx2e0dzvy0vo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-14T09:57:20.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cm782d4pz9jyo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Fernandes rejects second Man Utd contract offer",
+      "titleJa": "移籍情報：Fernandes rejects second Man Utd contract offer",
+      "from": "",
+      "to": "",
+      "summaryJa": "Fernandes rejects second Man Utd contract offer移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Fernandes rejects second Man Utd contract offer",
+      "summary": "Manchester United captain Bruno Fernandes rejects the club's second contract offer, with his current deal due to expire at the end of the season.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm782d4pz9jyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T09:55:01.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/ck4gnd2pgd06o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Liverpool and Van Dijk have a decision to make",
@@ -93,21 +108,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cve8716dg46xo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-13T08:13:19.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cm0rl4kwn8vqo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "The chaos that took Carrick from two-year deal to sacked within 15 games",
-      "titleJa": "移籍情報：The chaos that took Carrick from two-year deal to sacked within 15 games",
-      "from": "",
-      "to": "",
-      "summaryJa": "The chaos that took Carrick from two-year deal to sacked within 15 games移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "The chaos that took Carrick from two-year deal to sacked within 15 games",
-      "summary": "Michael Carrick becomes the third Manchester United manager to be sacked in three seasons - where did it go wrong?",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm0rl4kwn8vqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T10:21:29.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/news/articles/cqdr1jd5mpp5o?at_medium=RSS&at_campaign=rss",
