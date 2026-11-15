@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T17:15:49.318Z",
+  "updatedAt": "2026-11-15T21:54:15.896Z",
   "season": "2026",
   "dataSource": "football-data.org",
   "dataMode": "current-free-plan",
@@ -34704,6 +34704,48 @@
       "events": []
     },
     {
+      "id": 564770,
+      "date": "2026-12-04T20:00:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Primera Division",
+      "competitionJa": "ラ・リーガ",
+      "leagueId": 140,
+      "leagueCode": "PD",
+      "stage": "REGULAR_SEASON",
+      "round": "第15節",
+      "venue": "",
+      "home": {
+        "id": 263,
+        "name": "Deportivo Alavés",
+        "shortName": "アラベス",
+        "logo": "https://crests.football-data.org/263.png"
+      },
+      "away": {
+        "id": 80,
+        "name": "RCD Espanyol de Barcelona",
+        "shortName": "エスパニョール",
+        "logo": "https://crests.football-data.org/80.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
       "id": 560676,
       "date": "2026-12-05T12:30:00Z",
       "status": "TIMED",
@@ -34726,6 +34768,48 @@
         "name": "Liverpool FC",
         "shortName": "リヴァプール",
         "logo": "https://crests.football-data.org/64.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 564772,
+      "date": "2026-12-05T13:00:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Primera Division",
+      "competitionJa": "ラ・リーガ",
+      "leagueId": 140,
+      "leagueCode": "PD",
+      "stage": "REGULAR_SEASON",
+      "round": "第15節",
+      "venue": "",
+      "home": {
+        "id": 5335,
+        "name": "Real Racing Club de Santander",
+        "shortName": "Real Racing Club de Santander",
+        "logo": "https://crests.football-data.org/5335.png"
+      },
+      "away": {
+        "id": 560,
+        "name": "RC Deportivo La Coruña",
+        "shortName": "RC Deportivo La Coruña",
+        "logo": "https://crests.football-data.org/560.png"
       },
       "goals": {
         "home": null,
@@ -35166,6 +35250,48 @@
       "events": []
     },
     {
+      "id": 564777,
+      "date": "2026-12-05T15:15:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Primera Division",
+      "competitionJa": "ラ・リーガ",
+      "leagueId": 140,
+      "leagueCode": "PD",
+      "stage": "REGULAR_SEASON",
+      "round": "第15節",
+      "venue": "",
+      "home": {
+        "id": 87,
+        "name": "Rayo Vallecano de Madrid",
+        "shortName": "ラージョ・バジェカーノ",
+        "logo": "https://crests.football-data.org/87.png"
+      },
+      "away": {
+        "id": 88,
+        "name": "Levante UD",
+        "shortName": "レバンテ",
+        "logo": "https://crests.football-data.org/88.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
       "id": 559606,
       "date": "2026-12-05T16:15:00Z",
       "status": "TIMED",
@@ -35272,6 +35398,48 @@
         "name": "Brighton & Hove Albion FC",
         "shortName": "ブライトン",
         "logo": "https://crests.football-data.org/397.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 564776,
+      "date": "2026-12-05T17:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Primera Division",
+      "competitionJa": "ラ・リーガ",
+      "leagueId": 140,
+      "leagueCode": "PD",
+      "stage": "REGULAR_SEASON",
+      "round": "第15節",
+      "venue": "",
+      "home": {
+        "id": 94,
+        "name": "Villarreal CF",
+        "shortName": "ビジャレアル",
+        "logo": "https://crests.football-data.org/94.png"
+      },
+      "away": {
+        "id": 92,
+        "name": "Real Sociedad de Fútbol",
+        "shortName": "レアル・ソシエダ",
+        "logo": "https://crests.football-data.org/92.png"
       },
       "goals": {
         "home": null,
@@ -35586,9 +35754,9 @@
       "events": []
     },
     {
-      "id": 564768,
-      "date": "2026-12-06T00:00:00Z",
-      "status": "SCHEDULED",
+      "id": 564773,
+      "date": "2026-12-05T20:00:00Z",
+      "status": "TIMED",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -35598,16 +35766,16 @@
       "round": "第15節",
       "venue": "",
       "home": {
-        "id": 79,
-        "name": "CA Osasuna",
-        "shortName": "オサスナ",
-        "logo": "https://crests.football-data.org/79.png"
+        "id": 81,
+        "name": "FC Barcelona",
+        "shortName": "バルセロナ",
+        "logo": "https://crests.football-data.org/81.png"
       },
       "away": {
-        "id": 285,
-        "name": "Elche CF",
-        "shortName": "エルチェ",
-        "logo": "https://crests.football-data.org/285.png"
+        "id": 558,
+        "name": "RC Celta de Vigo",
+        "shortName": "RC Celta de Vigo",
+        "logo": "https://crests.football-data.org/558.png"
       },
       "goals": {
         "home": null,
@@ -35670,48 +35838,6 @@
       "events": []
     },
     {
-      "id": 564770,
-      "date": "2026-12-06T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Primera Division",
-      "competitionJa": "ラ・リーガ",
-      "leagueId": 140,
-      "leagueCode": "PD",
-      "stage": "REGULAR_SEASON",
-      "round": "第15節",
-      "venue": "",
-      "home": {
-        "id": 263,
-        "name": "Deportivo Alavés",
-        "shortName": "アラベス",
-        "logo": "https://crests.football-data.org/263.png"
-      },
-      "away": {
-        "id": 80,
-        "name": "RCD Espanyol de Barcelona",
-        "shortName": "エスパニョール",
-        "logo": "https://crests.football-data.org/80.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
       "id": 564771,
       "date": "2026-12-06T00:00:00Z",
       "status": "SCHEDULED",
@@ -35734,90 +35860,6 @@
         "name": "Real Betis Balompié",
         "shortName": "レアル・ベティス",
         "logo": "https://crests.football-data.org/90.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 564772,
-      "date": "2026-12-06T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Primera Division",
-      "competitionJa": "ラ・リーガ",
-      "leagueId": 140,
-      "leagueCode": "PD",
-      "stage": "REGULAR_SEASON",
-      "round": "第15節",
-      "venue": "",
-      "home": {
-        "id": 5335,
-        "name": "Real Racing Club de Santander",
-        "shortName": "Real Racing Club de Santander",
-        "logo": "https://crests.football-data.org/5335.png"
-      },
-      "away": {
-        "id": 560,
-        "name": "RC Deportivo La Coruña",
-        "shortName": "RC Deportivo La Coruña",
-        "logo": "https://crests.football-data.org/560.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 564773,
-      "date": "2026-12-06T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Primera Division",
-      "competitionJa": "ラ・リーガ",
-      "leagueId": 140,
-      "leagueCode": "PD",
-      "stage": "REGULAR_SEASON",
-      "round": "第15節",
-      "venue": "",
-      "home": {
-        "id": 81,
-        "name": "FC Barcelona",
-        "shortName": "バルセロナ",
-        "logo": "https://crests.football-data.org/81.png"
-      },
-      "away": {
-        "id": 558,
-        "name": "RC Celta de Vigo",
-        "shortName": "RC Celta de Vigo",
-        "logo": "https://crests.football-data.org/558.png"
       },
       "goals": {
         "home": null,
@@ -35880,132 +35922,6 @@
       "events": []
     },
     {
-      "id": 564775,
-      "date": "2026-12-06T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Primera Division",
-      "competitionJa": "ラ・リーガ",
-      "leagueId": 140,
-      "leagueCode": "PD",
-      "stage": "REGULAR_SEASON",
-      "round": "第15節",
-      "venue": "",
-      "home": {
-        "id": 77,
-        "name": "Athletic Club",
-        "shortName": "アスレティック・ビルバオ",
-        "logo": "https://crests.football-data.org/77.png"
-      },
-      "away": {
-        "id": 86,
-        "name": "Real Madrid CF",
-        "shortName": "レアル・マドリード",
-        "logo": "https://crests.football-data.org/86.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 564776,
-      "date": "2026-12-06T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Primera Division",
-      "competitionJa": "ラ・リーガ",
-      "leagueId": 140,
-      "leagueCode": "PD",
-      "stage": "REGULAR_SEASON",
-      "round": "第15節",
-      "venue": "",
-      "home": {
-        "id": 94,
-        "name": "Villarreal CF",
-        "shortName": "ビジャレアル",
-        "logo": "https://crests.football-data.org/94.png"
-      },
-      "away": {
-        "id": 92,
-        "name": "Real Sociedad de Fútbol",
-        "shortName": "レアル・ソシエダ",
-        "logo": "https://crests.football-data.org/92.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 564777,
-      "date": "2026-12-06T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Primera Division",
-      "competitionJa": "ラ・リーガ",
-      "leagueId": 140,
-      "leagueCode": "PD",
-      "stage": "REGULAR_SEASON",
-      "round": "第15節",
-      "venue": "",
-      "home": {
-        "id": 87,
-        "name": "Rayo Vallecano de Madrid",
-        "shortName": "ラージョ・バジェカーノ",
-        "logo": "https://crests.football-data.org/87.png"
-      },
-      "away": {
-        "id": 88,
-        "name": "Levante UD",
-        "shortName": "レバンテ",
-        "logo": "https://crests.football-data.org/88.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
       "id": 558499,
       "date": "2026-12-06T11:30:00Z",
       "status": "TIMED",
@@ -36028,6 +35944,48 @@
         "name": "Torino FC",
         "shortName": "トリノ",
         "logo": "https://crests.football-data.org/586.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 564768,
+      "date": "2026-12-06T13:00:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Primera Division",
+      "competitionJa": "ラ・リーガ",
+      "leagueId": 140,
+      "leagueCode": "PD",
+      "stage": "REGULAR_SEASON",
+      "round": "第15節",
+      "venue": "",
+      "home": {
+        "id": 79,
+        "name": "CA Osasuna",
+        "shortName": "オサスナ",
+        "logo": "https://crests.football-data.org/79.png"
+      },
+      "away": {
+        "id": 285,
+        "name": "Elche CF",
+        "shortName": "エルチェ",
+        "logo": "https://crests.football-data.org/285.png"
       },
       "goals": {
         "home": null,
@@ -36238,6 +36196,48 @@
         "name": "Borussia Dortmund",
         "shortName": "ボルシア・ドルトムント",
         "logo": "https://crests.football-data.org/4.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 564775,
+      "date": "2026-12-06T15:15:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Primera Division",
+      "competitionJa": "ラ・リーガ",
+      "leagueId": 140,
+      "leagueCode": "PD",
+      "stage": "REGULAR_SEASON",
+      "round": "第15節",
+      "venue": "",
+      "home": {
+        "id": 77,
+        "name": "Athletic Club",
+        "shortName": "アスレティック・ビルバオ",
+        "logo": "https://crests.football-data.org/77.png"
+      },
+      "away": {
+        "id": 86,
+        "name": "Real Madrid CF",
+        "shortName": "レアル・マドリード",
+        "logo": "https://crests.football-data.org/86.png"
       },
       "goals": {
         "home": null,
