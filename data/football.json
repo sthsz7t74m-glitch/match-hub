@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T21:54:15.896Z",
+  "updatedAt": "2026-11-16T02:14:31.916Z",
   "season": "2026",
   "dataSource": "football-data.org",
   "dataMode": "current-free-plan",
@@ -35880,48 +35880,6 @@
       "events": []
     },
     {
-      "id": 564774,
-      "date": "2026-12-06T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Primera Division",
-      "competitionJa": "ラ・リーガ",
-      "leagueId": 140,
-      "leagueCode": "PD",
-      "stage": "REGULAR_SEASON",
-      "round": "第15節",
-      "venue": "",
-      "home": {
-        "id": 82,
-        "name": "Getafe CF",
-        "shortName": "ヘタフェ",
-        "logo": "https://crests.football-data.org/82.png"
-      },
-      "away": {
-        "id": 95,
-        "name": "Valencia CF",
-        "shortName": "バレンシア",
-        "logo": "https://crests.football-data.org/95.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
       "id": 558499,
       "date": "2026-12-06T11:30:00Z",
       "status": "TIMED",
@@ -36406,6 +36364,48 @@
         "name": "Udinese Calcio",
         "shortName": "ウディネーゼ",
         "logo": "https://crests.football-data.org/115.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 564774,
+      "date": "2026-12-06T17:30:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Primera Division",
+      "competitionJa": "ラ・リーガ",
+      "leagueId": 140,
+      "leagueCode": "PD",
+      "stage": "REGULAR_SEASON",
+      "round": "第15節",
+      "venue": "",
+      "home": {
+        "id": 82,
+        "name": "Getafe CF",
+        "shortName": "ヘタフェ",
+        "logo": "https://crests.football-data.org/82.png"
+      },
+      "away": {
+        "id": 95,
+        "name": "Valencia CF",
+        "shortName": "バレンシア",
+        "logo": "https://crests.football-data.org/95.png"
       },
       "goals": {
         "home": null,
