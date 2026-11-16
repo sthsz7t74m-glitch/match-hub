@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T09:51:07.770Z",
+  "updatedAt": "2026-11-16T20:33:14.885Z",
   "season": "2026",
   "dataSource": "football-data.org",
   "dataMode": "current-free-plan",
@@ -35796,90 +35796,6 @@
       "events": []
     },
     {
-      "id": 564769,
-      "date": "2026-12-06T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Primera Division",
-      "competitionJa": "ラ・リーガ",
-      "leagueId": 140,
-      "leagueCode": "PD",
-      "stage": "REGULAR_SEASON",
-      "round": "第15節",
-      "venue": "",
-      "home": {
-        "id": 559,
-        "name": "Sevilla FC",
-        "shortName": "セビージャ",
-        "logo": "https://crests.football-data.org/559.png"
-      },
-      "away": {
-        "id": 84,
-        "name": "Málaga CF",
-        "shortName": "Málaga CF",
-        "logo": "https://crests.football-data.org/84.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
-      "id": 564771,
-      "date": "2026-12-06T00:00:00Z",
-      "status": "SCHEDULED",
-      "elapsed": null,
-      "competition": "Primera Division",
-      "competitionJa": "ラ・リーガ",
-      "leagueId": 140,
-      "leagueCode": "PD",
-      "stage": "REGULAR_SEASON",
-      "round": "第15節",
-      "venue": "",
-      "home": {
-        "id": 78,
-        "name": "Club Atlético de Madrid",
-        "shortName": "アトレティコ・マドリード",
-        "logo": "https://crests.football-data.org/78.png"
-      },
-      "away": {
-        "id": 90,
-        "name": "Real Betis Balompié",
-        "shortName": "レアル・ベティス",
-        "logo": "https://crests.football-data.org/90.png"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "winner": null,
-        "duration": "REGULAR",
-        "fullTime": {
-          "home": null,
-          "away": null
-        },
-        "halfTime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "events": []
-    },
-    {
       "id": 558499,
       "date": "2026-12-06T11:30:00Z",
       "status": "TIMED",
@@ -36510,6 +36426,48 @@
       "events": []
     },
     {
+      "id": 564771,
+      "date": "2026-12-06T20:00:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Primera Division",
+      "competitionJa": "ラ・リーガ",
+      "leagueId": 140,
+      "leagueCode": "PD",
+      "stage": "REGULAR_SEASON",
+      "round": "第15節",
+      "venue": "",
+      "home": {
+        "id": 78,
+        "name": "Club Atlético de Madrid",
+        "shortName": "アトレティコ・マドリード",
+        "logo": "https://crests.football-data.org/78.png"
+      },
+      "away": {
+        "id": 90,
+        "name": "Real Betis Balompié",
+        "shortName": "レアル・ベティス",
+        "logo": "https://crests.football-data.org/90.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
       "id": 558506,
       "date": "2026-12-07T17:30:00Z",
       "status": "TIMED",
@@ -36574,6 +36532,48 @@
         "name": "Cagliari Calcio",
         "shortName": "カリアリ",
         "logo": "https://crests.football-data.org/104.png"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "id": 564769,
+      "date": "2026-12-07T20:00:00Z",
+      "status": "TIMED",
+      "elapsed": null,
+      "competition": "Primera Division",
+      "competitionJa": "ラ・リーガ",
+      "leagueId": 140,
+      "leagueCode": "PD",
+      "stage": "REGULAR_SEASON",
+      "round": "第15節",
+      "venue": "",
+      "home": {
+        "id": 559,
+        "name": "Sevilla FC",
+        "shortName": "セビージャ",
+        "logo": "https://crests.football-data.org/559.png"
+      },
+      "away": {
+        "id": 84,
+        "name": "Málaga CF",
+        "shortName": "Málaga CF",
+        "logo": "https://crests.football-data.org/84.png"
       },
       "goals": {
         "home": null,
