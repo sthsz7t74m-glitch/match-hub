@@ -1,23 +1,38 @@
 {
-  "updatedAt": "2026-11-18T01:01:58.176Z",
+  "updatedAt": "2026-11-18T11:56:26.086Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cqvg2e4208zmo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Madrid-bound Gabriel posts farewell Man Utd message",
-      "titleJa": "移籍情報：Madrid-bound Gabriel posts farewell Man Utd message",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c8p3vwe1rrzqo?at_medium=RSS&at_campaign=rss",
+      "status": "official",
+      "player": "Former Spain midfielder Mata retires aged 38",
+      "titleJa": "移籍情報：Former Spain midfielder Mata retires aged 38",
       "from": "",
       "to": "",
-      "summaryJa": "Madrid-bound Gabriel posts farewell Man Utd message移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Madrid-bound Gabriel posts farewell Man Utd message",
-      "summary": "TeenagerJJ Gabriel posts a farewell message saying Manchester United will always be part of his story, as he prepares for a likely move to Real Madrid.",
+      "summaryJa": "Former Spain midfielder Mata retires aged 38移る可能性について、正式発表段階の報道です。",
+      "originalTitle": "Former Spain midfielder Mata retires aged 38",
+      "summary": "Former Spain midfielder Juan Mata, who had spells at Chelsea and Manchester United in the Premier League, announces his retirement from playing at the age of 38.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqvg2e4208zmo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T19:35:06.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8p3vwe1rrzqo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T10:12:46.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c63rgqrz9jgqo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Record crowds, legends - Bordeaux bid to escape amateur game",
+      "titleJa": "移籍情報：Record crowds, legends - Bordeaux bid to escape amateur game",
+      "from": "",
+      "to": "",
+      "summaryJa": "Record crowds, legends - Bordeaux bid to escape amateur game移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Record crowds, legends - Bordeaux bid to escape amateur game",
+      "summary": "Bordeaux fans thought things could not get any worse, then they were demoted to France's amateur sixth tier.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c63rgqrz9jgqo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T10:51:37.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cvx2xwx604y0o?at_medium=RSS&at_campaign=rss",
@@ -33,6 +48,36 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cvx2xwx604y0o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-17T22:25:16.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c5lyk9rp0vjgo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Williams to",
+      "titleJa": "Williams to、temporary Swansea coaching teamへ加入",
+      "from": "",
+      "to": "temporary Swansea coaching team",
+      "summaryJa": "Williams toがtemporary Swansea coaching teamへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Williams to join temporary Swansea coaching team",
+      "summary": "Ashley Williams is set to join a temporary Swansea City coaching team as the Championship club attempt to fill the void left by Vitor Matos.",
+      "parsed": true,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5lyk9rp0vjgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T10:48:39.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cqvg2e4208zmo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Madrid-bound Gabriel posts farewell Man Utd message",
+      "titleJa": "移籍情報：Madrid-bound Gabriel posts farewell Man Utd message",
+      "from": "",
+      "to": "",
+      "summaryJa": "Madrid-bound Gabriel posts farewell Man Utd message移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Madrid-bound Gabriel posts farewell Man Utd message",
+      "summary": "TeenagerJJ Gabriel posts a farewell message saying Manchester United will always be part of his story, as he prepares for a likely move to Real Madrid.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqvg2e4208zmo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-17T19:35:06.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c8wy53z3ygypo?at_medium=RSS&at_campaign=rss",
@@ -123,6 +168,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/articles/cmje5wl5ek32o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-13T10:13:34.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cq702kr3xd38o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Rangers explore return for Cerny - gossip",
+      "titleJa": "移籍情報：Rangers explore return for Cerny - gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Rangers explore return for Cerny - gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Rangers explore return for Cerny - gossip",
+      "summary": "Two familiar wingers linked with Rangers returns in January as SFA redraft proposals to address youth development crisis...",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq702kr3xd38o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T08:15:37.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cwnv432qy0l1o?at_medium=RSS&at_campaign=rss",
