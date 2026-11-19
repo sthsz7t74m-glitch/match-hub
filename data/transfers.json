@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-11-19T02:39:46.998Z",
+  "updatedAt": "2026-11-19T11:53:32.101Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cr930l71z5ejo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Ukrainian FA to blame for failed drugs test - Mudryk",
-      "titleJa": "移籍情報：Ukrainian FA to blame for failed drugs test - Mudryk",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c8wy53z3ygypo?at_medium=RSS&at_campaign=rss",
+      "status": "official",
+      "player": "Will Infantino feel he's already won as Fifa challengers confirmed?",
+      "titleJa": "移籍情報：Will Infantino feel he's already won as Fifa challengers confirmed?",
       "from": "",
       "to": "",
-      "summaryJa": "Ukrainian FA to blame for failed drugs test - Mudryk移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Ukrainian FA to blame for failed drugs test - Mudryk",
-      "summary": "Tottenham's on-loan Chelsea winger Mykhailo Mudryk says he blames the Ukrainian Association of Football for his failed drugs test and subsequent ban.",
+      "summaryJa": "Will Infantino feel he's already won as Fifa challengers confirmed?移る可能性について、正式発表段階の報道です。",
+      "originalTitle": "Will Infantino feel he's already won as Fifa challengers confirmed?",
+      "summary": "Fifa has confirmed Philippe Diallo and Kozo Tashima will also stand in next year's presidential election - but can either stop Gianni Infantino from winning?",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cr930l71z5ejo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T21:22:18.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8wy53z3ygypo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-19T10:21:10.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c69q8jy924y4o?at_medium=RSS&at_campaign=rss",
@@ -35,6 +35,21 @@
       "date": "2026-11-18T12:38:38.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c6174epxv1p4o?at_medium=RSS&at_campaign=rss",
+      "status": "official",
+      "player": "Strasbourg appoint Swansea boss Matos",
+      "titleJa": "移籍情報：Strasbourg appoint Swansea boss Matos",
+      "from": "",
+      "to": "",
+      "summaryJa": "Strasbourg appoint Swansea boss Matos移る可能性について、正式発表段階の報道です。",
+      "originalTitle": "Strasbourg appoint Swansea boss Matos",
+      "summary": "Strasbourg announce the appointment of Vitor Matos as the club's head coach - though Swansea City are yet to confirm the move.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6174epxv1p4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T20:57:54.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cxnv4q2qnvjvo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Man Utd pursuing Como's Paz - Thursday's gossip",
@@ -48,6 +63,36 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cxnv4q2qnvjvo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T22:34:05.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cr930l71z5ejo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Ukrainian FA to blame for failed drugs test - Mudryk",
+      "titleJa": "移籍情報：Ukrainian FA to blame for failed drugs test - Mudryk",
+      "from": "",
+      "to": "",
+      "summaryJa": "Ukrainian FA to blame for failed drugs test - Mudryk移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Ukrainian FA to blame for failed drugs test - Mudryk",
+      "summary": "Tottenham's on-loan Chelsea winger Mykhailo Mudryk says he blames the Ukrainian Association of Football for his failed drugs test and subsequent ban.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cr930l71z5ejo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T21:22:18.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/videos/cjy5xkq5wwrgo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Buurman rescues late Chelsea win against PSG",
+      "titleJa": "移籍情報：Buurman rescues late Chelsea win against PSG",
+      "from": "",
+      "to": "",
+      "summaryJa": "Buurman rescues late Chelsea win against PSG移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Buurman rescues late Chelsea win against PSG",
+      "summary": "Veerle Buurman scores an 87th-minute winner for Chelsea as they edge past Paris St-Germain 1-0 in the Women's Champions League to move top of the table.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cjy5xkq5wwrgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T22:13:49.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c8p3vwe1rrzqo?at_medium=RSS&at_campaign=rss",
@@ -95,21 +140,6 @@
       "date": "2026-11-18T18:06:04.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/ck5y169v1262o?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "England defender Carter",
-      "titleJa": "England defender Carter、Bay FC after Gotham exitへ加入",
-      "from": "",
-      "to": "Bay FC after Gotham exit",
-      "summaryJa": "England defender CarterがBay FC after Gotham exitへ移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "England defender Carter joins Bay FC after Gotham exit",
-      "summary": "England defender Jess Carter completes a move to Bay FC after leaving Gotham FC as a free agent.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck5y169v1262o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T21:07:26.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/news/articles/ckm2m1899mqyo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Toney loses bid to avoid Euro 2028 court clash",
@@ -125,34 +155,19 @@
       "date": "2026-11-18T12:46:12.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/videos/cjy5xkq5wwrgo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Buurman rescues late Chelsea win against PSG",
-      "titleJa": "移籍情報：Buurman rescues late Chelsea win against PSG",
-      "from": "",
-      "to": "",
-      "summaryJa": "Buurman rescues late Chelsea win against PSG移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Buurman rescues late Chelsea win against PSG",
-      "summary": "Veerle Buurman scores an 87th-minute winner for Chelsea as they edge past Paris St-Germain 1-0 in the Women's Champions League to move top of the table.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cjy5xkq5wwrgo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T22:13:49.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c5lyk9rp0vjgo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Williams to",
-      "titleJa": "Williams to、temporary Swansea coaching teamへ加入",
+      "player": "Allen to",
+      "titleJa": "Allen to、Williams in interim Swans coaching teamへ加入",
       "from": "",
-      "to": "temporary Swansea coaching team",
-      "summaryJa": "Williams toがtemporary Swansea coaching teamへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Williams to join temporary Swansea coaching team",
+      "to": "Williams in interim Swans coaching team",
+      "summaryJa": "Allen toがWilliams in interim Swans coaching teamへ移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Allen to join Williams in interim Swans coaching team",
       "summary": "Ashley Williams is set to join a temporary Swansea City coaching team as the Championship club attempt to fill the void left by Vitor Matos.",
       "parsed": true,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c5lyk9rp0vjgo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T10:48:39.000Z"
+      "date": "2026-11-19T09:43:08.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cqvg2e4208zmo?at_medium=RSS&at_campaign=rss",
@@ -168,21 +183,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqvg2e4208zmo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-17T19:35:06.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c8wy53z3ygypo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Will Infantino feel he's already won as Fifa challengers are revealed?",
-      "titleJa": "移籍情報：Will Infantino feel he's already won as Fifa challengers are revealed?",
-      "from": "",
-      "to": "",
-      "summaryJa": "Will Infantino feel he's already won as Fifa challengers are revealed?移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Will Infantino feel he's already won as Fifa challengers are revealed?",
-      "summary": "Uefa has finally identified a candidate next year's Fifa presidential election, but can anyone stop Gianni Infantino from winning?",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8wy53z3ygypo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T10:32:07.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cvgyxyxplkvo?at_medium=RSS&at_campaign=rss",
@@ -228,6 +228,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/crx20q47ljl7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T13:55:58.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/ck5y169v1262o?at_medium=RSS&at_campaign=rss",
+      "status": "official",
+      "player": "England defender Carter",
+      "titleJa": "England defender Carter、Bay FC after Gotham exitへ加入",
+      "from": "",
+      "to": "Bay FC after Gotham exit",
+      "summaryJa": "England defender CarterがBay FC after Gotham exitへ移る可能性について、正式発表段階の報道です。",
+      "originalTitle": "England defender Carter joins Bay FC after Gotham exit",
+      "summary": "England defender Jess Carter completes a move to Bay FC after leaving Gotham FC as a free agent.",
+      "parsed": true,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck5y169v1262o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T21:07:26.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c6782xedd985o?at_medium=RSS&at_campaign=rss",
