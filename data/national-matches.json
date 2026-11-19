@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T10:39:23.824Z",
+  "updatedAt": "2026-11-19T10:43:02.696Z",
   "source": "ESPN multi-competition annual adapter",
   "competitionCount": 15,
   "competitions": [
@@ -14,14 +14,14 @@
       "count": 100
     },
     {
-      "code": "fifa.worldq.uefa",
-      "name": "W杯欧州予選",
-      "count": 204
-    },
-    {
       "code": "fifa.world",
       "name": "FIFAワールドカップ",
       "count": 104
+    },
+    {
+      "code": "fifa.worldq.uefa",
+      "name": "W杯欧州予選",
+      "count": 204
     },
     {
       "code": "fifa.worldq.ofc",
@@ -34,14 +34,14 @@
       "count": 219
     },
     {
-      "code": "fifa.worldq.afc",
-      "name": "W杯アジア予選",
-      "count": 170
-    },
-    {
       "code": "uefa.euro",
       "name": "UEFA欧州選手権",
       "count": 51
+    },
+    {
+      "code": "fifa.worldq.afc",
+      "name": "W杯アジア予選",
+      "count": 170
     },
     {
       "code": "concacaf.gold",
@@ -54,13 +54,18 @@
       "count": 91
     },
     {
+      "code": "conmebol.america",
+      "name": "コパ・アメリカ",
+      "count": 32
+    },
+    {
       "code": "uefa.nations",
       "name": "UEFAネーションズリーグ",
       "count": 346
     },
     {
-      "code": "conmebol.america",
-      "name": "コパ・アメリカ",
+      "code": "fifa.olympics",
+      "name": "オリンピック男子サッカー",
       "count": 32
     },
     {
@@ -71,23 +76,13 @@
     {
       "code": "fifa.friendly",
       "name": "国際親善試合",
-      "count": 1006
-    },
-    {
-      "code": "fifa.olympics",
-      "name": "オリンピック男子サッカー",
-      "count": 32
+      "count": 1005
     }
   ],
   "skippedCompetitions": [
     {
       "code": "conmebol.copa_america",
-      "year": 2027,
-      "reason": "HTTP 400"
-    },
-    {
-      "code": "conmebol.copa_america",
-      "year": 2026,
+      "year": 2025,
       "reason": "HTTP 400"
     },
     {
@@ -97,7 +92,12 @@
     },
     {
       "code": "conmebol.copa_america",
-      "year": 2025,
+      "year": 2027,
+      "reason": "HTTP 400"
+    },
+    {
+      "code": "conmebol.copa_america",
+      "year": 2026,
       "reason": "HTTP 400"
     }
   ],
