@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-11-19T11:53:32.101Z",
+  "updatedAt": "2026-11-19T20:48:59.115Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cmgqx908lk44o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Shevchenko accuses Mudryk camp of 'baseless slander'",
+      "titleJa": "移籍情報：Shevchenko accuses Mudryk camp of 'baseless slander'",
+      "from": "",
+      "to": "",
+      "summaryJa": "Shevchenko accuses Mudryk camp of 'baseless slander'移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Shevchenko accuses Mudryk camp of 'baseless slander'",
+      "summary": "Ukraine great Andriy Shevchenko accuses Mykhailo Mudryk of a \"baseless slander\" after the on-loan Tottenham winger blamed his failed drugs test on the nation's football association.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmgqx908lk44o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-19T20:44:11.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c8wy53z3ygypo?at_medium=RSS&at_campaign=rss",
       "status": "official",
@@ -18,6 +33,36 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c8wy53z3ygypo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-19T10:21:10.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/videos/cjy5xkq5wwrgo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Buurman rescues late Chelsea win against PSG",
+      "titleJa": "移籍情報：Buurman rescues late Chelsea win against PSG",
+      "from": "",
+      "to": "",
+      "summaryJa": "Buurman rescues late Chelsea win against PSG移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Buurman rescues late Chelsea win against PSG",
+      "summary": "Veerle Buurman scores an 87th-minute winner for Chelsea as they edge past Paris St-Germain 1-0 in the Women's Champions League to move top of the table.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cjy5xkq5wwrgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T22:13:49.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sounds/play/m003501m?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Football Daily",
+      "titleJa": "移籍情報：Football Daily",
+      "from": "",
+      "to": "",
+      "summaryJa": "Football Daily移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Football Daily",
+      "summary": "Ellen White joins Rick & Lloyd to discuss the BBC Men’s Footballer of the Year shortlist.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sounds/play/m003501m?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-19T16:42:00.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c69q8jy924y4o?at_medium=RSS&at_campaign=rss",
@@ -35,21 +80,6 @@
       "date": "2026-11-18T12:38:38.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c6174epxv1p4o?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "Strasbourg appoint Swansea boss Matos",
-      "titleJa": "移籍情報：Strasbourg appoint Swansea boss Matos",
-      "from": "",
-      "to": "",
-      "summaryJa": "Strasbourg appoint Swansea boss Matos移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "Strasbourg appoint Swansea boss Matos",
-      "summary": "Strasbourg announce the appointment of Vitor Matos as the club's head coach - though Swansea City are yet to confirm the move.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6174epxv1p4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T20:57:54.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cxnv4q2qnvjvo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Man Utd pursuing Como's Paz - Thursday's gossip",
@@ -65,34 +95,19 @@
       "date": "2026-11-18T22:34:05.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cr930l71z5ejo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Ukrainian FA to blame for failed drugs test - Mudryk",
-      "titleJa": "移籍情報：Ukrainian FA to blame for failed drugs test - Mudryk",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c6174epxv1p4o?at_medium=RSS&at_campaign=rss",
+      "status": "official",
+      "player": "Strasbourg appoint Swansea boss Matos",
+      "titleJa": "移籍情報：Strasbourg appoint Swansea boss Matos",
       "from": "",
       "to": "",
-      "summaryJa": "Ukrainian FA to blame for failed drugs test - Mudryk移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Ukrainian FA to blame for failed drugs test - Mudryk",
-      "summary": "Tottenham's on-loan Chelsea winger Mykhailo Mudryk says he blames the Ukrainian Association of Football for his failed drugs test and subsequent ban.",
+      "summaryJa": "Strasbourg appoint Swansea boss Matos移る可能性について、正式発表段階の報道です。",
+      "originalTitle": "Strasbourg appoint Swansea boss Matos",
+      "summary": "Strasbourg announce the appointment of Vitor Matos as the club's head coach - though Swansea City are yet to confirm the move.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cr930l71z5ejo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T21:22:18.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/videos/cjy5xkq5wwrgo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Buurman rescues late Chelsea win against PSG",
-      "titleJa": "移籍情報：Buurman rescues late Chelsea win against PSG",
-      "from": "",
-      "to": "",
-      "summaryJa": "Buurman rescues late Chelsea win against PSG移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Buurman rescues late Chelsea win against PSG",
-      "summary": "Veerle Buurman scores an 87th-minute winner for Chelsea as they edge past Paris St-Germain 1-0 in the Women's Champions League to move top of the table.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cjy5xkq5wwrgo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T22:13:49.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6174epxv1p4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T20:57:54.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c8p3vwe1rrzqo?at_medium=RSS&at_campaign=rss",
@@ -140,51 +155,6 @@
       "date": "2026-11-18T18:06:04.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/news/articles/ckm2m1899mqyo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Toney loses bid to avoid Euro 2028 court clash",
-      "titleJa": "移籍情報：Toney loses bid to avoid Euro 2028 court clash",
-      "from": "",
-      "to": "",
-      "summaryJa": "Toney loses bid to avoid Euro 2028 court clash移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Toney loses bid to avoid Euro 2028 court clash",
-      "summary": "Ivan Toney's trial, for an alleged assault which he denies, is due to take place during the Euro 2028 tournament.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/news/articles/ckm2m1899mqyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T12:46:12.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c5lyk9rp0vjgo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Allen to",
-      "titleJa": "Allen to、Williams in interim Swans coaching teamへ加入",
-      "from": "",
-      "to": "Williams in interim Swans coaching team",
-      "summaryJa": "Allen toがWilliams in interim Swans coaching teamへ移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Allen to join Williams in interim Swans coaching team",
-      "summary": "Ashley Williams is set to join a temporary Swansea City coaching team as the Championship club attempt to fill the void left by Vitor Matos.",
-      "parsed": true,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5lyk9rp0vjgo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T09:43:08.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cqvg2e4208zmo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Madrid-bound Gabriel posts farewell Man Utd message",
-      "titleJa": "移籍情報：Madrid-bound Gabriel posts farewell Man Utd message",
-      "from": "",
-      "to": "",
-      "summaryJa": "Madrid-bound Gabriel posts farewell Man Utd message移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Madrid-bound Gabriel posts farewell Man Utd message",
-      "summary": "TeenagerJJ Gabriel posts a farewell message saying Manchester United will always be part of his story, as he prepares for a likely move to Real Madrid.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqvg2e4208zmo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T19:35:06.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cvgyxyxplkvo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "All done deals from September-November 2026",
@@ -197,7 +167,7 @@
       "parsed": false,
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cvgyxyxplkvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T17:21:23.000Z"
+      "date": "2026-11-19T17:54:30.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/articles/cmje5wl5ek32o?at_medium=RSS&at_campaign=rss",
@@ -258,21 +228,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6782xedd985o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T18:06:04.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sounds/play/p0pnb81q?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "BBC Women's Football Weekly",
-      "titleJa": "移籍情報：BBC Women's Football Weekly",
-      "from": "",
-      "to": "",
-      "summaryJa": "BBC Women's Football Weekly移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "BBC Women's Football Weekly",
-      "summary": "Manchester City star Vivianne Miedema joins Ellen and Ben to discuss her WSL comeback.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sounds/play/p0pnb81q?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-16T19:58:00.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cz7z09v9pp1o?at_medium=RSS&at_campaign=rss",
