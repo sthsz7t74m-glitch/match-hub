@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T20:48:59.115Z",
+  "updatedAt": "2026-11-20T02:25:14.867Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -20,19 +20,34 @@
       "date": "2026-11-19T20:44:11.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c8wy53z3ygypo?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "Will Infantino feel he's already won as Fifa challengers confirmed?",
-      "titleJa": "移籍情報：Will Infantino feel he's already won as Fifa challengers confirmed?",
+      "id": "https://www.bbc.co.uk/sport/football/articles/cj5y14g2wppko?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Barcelona target Man Utd's Martinez - Friday's gossip",
+      "titleJa": "移籍情報：Barcelona target Man Utd's Martinez - Friday's gossip",
       "from": "",
       "to": "",
-      "summaryJa": "Will Infantino feel he's already won as Fifa challengers confirmed?移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "Will Infantino feel he's already won as Fifa challengers confirmed?",
-      "summary": "Fifa has confirmed Philippe Diallo and Kozo Tashima will also stand in next year's presidential election - but can either stop Gianni Infantino from winning?",
+      "summaryJa": "Barcelona target Man Utd's Martinez - Friday's gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Barcelona target Man Utd's Martinez - Friday's gossip",
+      "summary": "Barcelona interested in Lisandro Martinez, while Manchester United target Fulham defensive pair and Liverpool scout Serie A top scorer, plus more.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8wy53z3ygypo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T10:21:10.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/cj5y14g2wppko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-19T21:57:22.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/videos/c3dx1n4xp1xxo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Lyon outclass Arsenal for Champions League win",
+      "titleJa": "移籍情報：Lyon outclass Arsenal for Champions League win",
+      "from": "",
+      "to": "",
+      "summaryJa": "Lyon outclass Arsenal for Champions League win移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Lyon outclass Arsenal for Champions League win",
+      "summary": "Arsenal fall to a 2-0 defeat against a superior Lyon side in the Women's Champions League, dealing a blow to their hopes of automatic quarter-final qualification.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c3dx1n4xp1xxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-19T22:56:07.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/cjy5xkq5wwrgo?at_medium=RSS&at_campaign=rss",
@@ -48,6 +63,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cjy5xkq5wwrgo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T22:13:49.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c8wy53z3ygypo?at_medium=RSS&at_campaign=rss",
+      "status": "official",
+      "player": "Will Infantino feel he's already won as Fifa challengers confirmed?",
+      "titleJa": "移籍情報：Will Infantino feel he's already won as Fifa challengers confirmed?",
+      "from": "",
+      "to": "",
+      "summaryJa": "Will Infantino feel he's already won as Fifa challengers confirmed?移る可能性について、正式発表段階の報道です。",
+      "originalTitle": "Will Infantino feel he's already won as Fifa challengers confirmed?",
+      "summary": "Fifa has confirmed Philippe Diallo and Kozo Tashima will also stand in next year's presidential election - but can either stop Gianni Infantino from winning?",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8wy53z3ygypo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-19T10:21:10.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sounds/play/m003501m?at_medium=RSS&at_campaign=rss",
@@ -78,21 +108,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c69q8jy924y4o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T12:38:38.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cxnv4q2qnvjvo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Man Utd pursuing Como's Paz - Thursday's gossip",
-      "titleJa": "移籍情報：Man Utd pursuing Como's Paz - Thursday's gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Man Utd pursuing Como's Paz - Thursday's gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Man Utd pursuing Como's Paz - Thursday's gossip",
-      "summary": "Manchester United pursuing Nico Paz, Besiktas plot move for Amad Diallo, Barcelona to rebuff offers for Alejandro Balde, plus more.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cxnv4q2qnvjvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T22:34:05.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c6174epxv1p4o?at_medium=RSS&at_campaign=rss",
@@ -213,21 +228,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck5y169v1262o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T21:07:26.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c6782xedd985o?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Ward close to new deal as Noonan returns to squad",
-      "titleJa": "移籍情報：Ward close to new deal as Noonan returns to squad",
-      "from": "",
-      "to": "",
-      "summaryJa": "Ward close to new deal as Noonan returns to squad移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Ward close to new deal as Noonan returns to squad",
-      "summary": "Republic of Ireland manager Carla Ward says she is close to agreeing a new contract as she names her squad for the World Cup play-off final.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6782xedd985o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T18:06:04.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cz7z09v9pp1o?at_medium=RSS&at_campaign=rss",
