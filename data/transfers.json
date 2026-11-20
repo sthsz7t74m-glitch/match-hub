@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-11-20T02:25:14.867Z",
+  "updatedAt": "2026-11-20T11:54:58.229Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cq0k65pyp4jvo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Moore eyes Kane shirt as Spurs' past and future stars meet",
+      "titleJa": "移籍情報：Moore eyes Kane shirt as Spurs' past and future stars meet",
+      "from": "",
+      "to": "",
+      "summaryJa": "Moore eyes Kane shirt as Spurs' past and future stars meet移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Moore eyes Kane shirt as Spurs' past and future stars meet",
+      "summary": "Cologne loanee Mikey Moore says he hopes to exchange shirts with former Spurs team-mate Harry Kane when they face Bayern Munich on Friday.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq0k65pyp4jvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T07:26:36.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cmgqx908lk44o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -110,21 +125,6 @@
       "date": "2026-11-18T12:38:38.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c6174epxv1p4o?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "Strasbourg appoint Swansea boss Matos",
-      "titleJa": "移籍情報：Strasbourg appoint Swansea boss Matos",
-      "from": "",
-      "to": "",
-      "summaryJa": "Strasbourg appoint Swansea boss Matos移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "Strasbourg appoint Swansea boss Matos",
-      "summary": "Strasbourg announce the appointment of Vitor Matos as the club's head coach - though Swansea City are yet to confirm the move.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6174epxv1p4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T20:57:54.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c8p3vwe1rrzqo?at_medium=RSS&at_campaign=rss",
       "status": "official",
       "player": "Former Spain midfielder Mata retires aged 38",
@@ -153,21 +153,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c63rgqrz9jgqo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T10:51:37.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c6782xedd985o?at_medium=RSS&at_campaign=rss",
-      "status": "talks",
-      "player": "Ward close to new Republic of Ireland deal as World Cup chance beckons",
-      "titleJa": "移籍情報：Ward close to new Republic of Ireland deal as World Cup chance beckons",
-      "from": "",
-      "to": "",
-      "summaryJa": "Ward close to new Republic of Ireland deal as World Cup chance beckons移る可能性について、交渉段階の報道です。",
-      "originalTitle": "Ward close to new Republic of Ireland deal as World Cup chance beckons",
-      "summary": "Republic of Ireland manager Carla Ward says she is close to agreeing a new contract as she names her squad for the World Cup play-off final.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6782xedd985o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T18:06:04.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cvgyxyxplkvo?at_medium=RSS&at_campaign=rss",
