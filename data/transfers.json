@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-11-21T11:25:41.317Z",
+  "updatedAt": "2026-11-21T19:29:42.699Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c9x2evr1rg85o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Fifpro criticises Bayern Munich for Musiala comments",
+      "titleJa": "移籍情報：Fifpro criticises Bayern Munich for Musiala comments",
+      "from": "",
+      "to": "",
+      "summaryJa": "Fifpro criticises Bayern Munich for Musiala comments移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Fifpro criticises Bayern Munich for Musiala comments",
+      "summary": "Football players' union Fifpro says it is concerned by German club Bayern Munich's comments about Jamal Musiala's contract.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9x2evr1rg85o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-21T17:43:44.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c60qj1924wyeo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -18,21 +33,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c60qj1924wyeo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-20T20:06:51.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c6d91xj9vee3o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "The Chelsea loanee turning heads and Championship defenders at 17",
-      "titleJa": "移籍情報：The Chelsea loanee turning heads and Championship defenders at 17",
-      "from": "",
-      "to": "",
-      "summaryJa": "The Chelsea loanee turning heads and Championship defenders at 17移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "The Chelsea loanee turning heads and Championship defenders at 17",
-      "summary": "Ryan Kavuma-McQueen has been \"unplayable\" at times since joining Portsmouth from Chelsea, says boss John Mousinho.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6d91xj9vee3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-21T08:05:46.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/c3dx1n4xp1xxo?at_medium=RSS&at_campaign=rss",
@@ -65,19 +65,19 @@
       "date": "2026-11-18T22:13:49.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cwm25yx3kj5lo?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c6d91xj9vee3o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Southampton give head coach Eckert new deal",
-      "titleJa": "移籍情報：Southampton give head coach Eckert new deal",
+      "player": "The Chelsea loanee turning heads and Championship defenders at 17",
+      "titleJa": "移籍情報：The Chelsea loanee turning heads and Championship defenders at 17",
       "from": "",
       "to": "",
-      "summaryJa": "Southampton give head coach Eckert new deal移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Southampton give head coach Eckert new deal",
-      "summary": "Southampton head coach Tonda Eckert signs a new contract at the club through until 2029.",
+      "summaryJa": "The Chelsea loanee turning heads and Championship defenders at 17移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "The Chelsea loanee turning heads and Championship defenders at 17",
+      "summary": "Ryan Kavuma-McQueen has been \"unplayable\" at times since joining Portsmouth from Chelsea, says boss John Mousinho.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwm25yx3kj5lo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-20T13:10:33.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6d91xj9vee3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-21T08:05:46.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c8wy53z3ygypo?at_medium=RSS&at_campaign=rss",
