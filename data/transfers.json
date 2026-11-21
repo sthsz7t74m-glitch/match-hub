@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T20:32:16.883Z",
+  "updatedAt": "2026-11-21T02:32:01.956Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
@@ -78,36 +78,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cjy5xkq5wwrgo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T22:13:49.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cq0k65pyp4jvo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Moore eyes Kane shirt as Spurs' past and future stars meet",
-      "titleJa": "移籍情報：Moore eyes Kane shirt as Spurs' past and future stars meet",
-      "from": "",
-      "to": "",
-      "summaryJa": "Moore eyes Kane shirt as Spurs' past and future stars meet移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Moore eyes Kane shirt as Spurs' past and future stars meet",
-      "summary": "Cologne loanee Mikey Moore says he hopes to exchange shirts with former Spurs team-mate Harry Kane when they face Bayern Munich on Friday.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq0k65pyp4jvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-20T07:26:36.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cmgqx908lk44o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Shevchenko accuses Mudryk camp of 'baseless slander'",
-      "titleJa": "移籍情報：Shevchenko accuses Mudryk camp of 'baseless slander'",
-      "from": "",
-      "to": "",
-      "summaryJa": "Shevchenko accuses Mudryk camp of 'baseless slander'移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Shevchenko accuses Mudryk camp of 'baseless slander'",
-      "summary": "Ukraine great Andriy Shevchenko accuses Mykhailo Mudryk of a \"baseless slander\" after the on-loan Tottenham winger blamed his failed drugs test on the nation's football association.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmgqx908lk44o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T20:44:11.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c8wy53z3ygypo?at_medium=RSS&at_campaign=rss",
