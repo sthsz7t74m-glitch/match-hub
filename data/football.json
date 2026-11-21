@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T17:53:17.645Z",
+  "updatedAt": "2026-11-21T00:01:56.618Z",
   "season": "2026",
   "dataSource": "football-data.org",
   "dataMode": "current-free-plan",
@@ -28658,7 +28658,7 @@
     {
       "id": 565859,
       "date": "2026-11-20T19:30:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Bundesliga",
       "competitionJa": "ブンデスリーガ",
@@ -28680,19 +28680,19 @@
         "logo": "https://crests.football-data.org/1.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "score": {
-        "winner": null,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         }
       },
       "events": []
@@ -28742,7 +28742,7 @@
     {
       "id": 564748,
       "date": "2026-11-20T20:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Primera Division",
       "competitionJa": "ラ・リーガ",
@@ -28764,19 +28764,19 @@
         "logo": "https://crests.football-data.org/80.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "score": {
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "events": []
@@ -87277,13 +87277,13 @@
             "shortName": "アスレティック・ビルバオ",
             "logo": "https://crests.football-data.org/77.png"
           },
-          "played": 11,
+          "played": 12,
           "win": 4,
           "draw": 4,
-          "lose": 3,
+          "lose": 4,
           "goalsFor": 15,
-          "goalsAgainst": 11,
-          "goalsDiff": 4,
+          "goalsAgainst": 12,
+          "goalsDiff": 3,
           "points": 16,
           "form": ""
         },
@@ -87326,6 +87326,24 @@
         {
           "rank": 10,
           "team": {
+            "id": 80,
+            "name": "RCD Espanyol de Barcelona",
+            "shortName": "エスパニョール",
+            "logo": "https://crests.football-data.org/80.png"
+          },
+          "played": 13,
+          "win": 4,
+          "draw": 3,
+          "lose": 6,
+          "goalsFor": 14,
+          "goalsAgainst": 14,
+          "goalsDiff": 0,
+          "points": 15,
+          "form": ""
+        },
+        {
+          "rank": 11,
+          "team": {
             "id": 5335,
             "name": "Real Racing Club de Santander",
             "shortName": "Real Racing Club de Santander",
@@ -87342,7 +87360,7 @@
           "form": ""
         },
         {
-          "rank": 11,
+          "rank": 12,
           "team": {
             "id": 558,
             "name": "RC Celta de Vigo",
@@ -87360,7 +87378,7 @@
           "form": ""
         },
         {
-          "rank": 12,
+          "rank": 13,
           "team": {
             "id": 263,
             "name": "Deportivo Alavés",
@@ -87375,24 +87393,6 @@
           "goalsAgainst": 17,
           "goalsDiff": -2,
           "points": 13,
-          "form": ""
-        },
-        {
-          "rank": 13,
-          "team": {
-            "id": 80,
-            "name": "RCD Espanyol de Barcelona",
-            "shortName": "エスパニョール",
-            "logo": "https://crests.football-data.org/80.png"
-          },
-          "played": 12,
-          "win": 3,
-          "draw": 3,
-          "lose": 6,
-          "goalsFor": 13,
-          "goalsAgainst": 14,
-          "goalsDiff": -1,
-          "points": 12,
           "form": ""
         },
         {
@@ -87907,14 +87907,14 @@
             "shortName": "バイエルン・ミュンヘン",
             "logo": "https://crests.football-data.org/5.png"
           },
-          "played": 9,
+          "played": 10,
           "win": 6,
-          "draw": 3,
+          "draw": 4,
           "lose": 0,
-          "goalsFor": 29,
-          "goalsAgainst": 9,
+          "goalsFor": 30,
+          "goalsAgainst": 10,
           "goalsDiff": 20,
-          "points": 21,
+          "points": 22,
           "form": ""
         },
         {
@@ -88136,6 +88136,24 @@
         {
           "rank": 14,
           "team": {
+            "id": 1,
+            "name": "1. FC Köln",
+            "shortName": "1. FC Köln",
+            "logo": "https://crests.football-data.org/1.png"
+          },
+          "played": 10,
+          "win": 2,
+          "draw": 4,
+          "lose": 4,
+          "goalsFor": 11,
+          "goalsAgainst": 15,
+          "goalsDiff": -4,
+          "points": 10,
+          "form": ""
+        },
+        {
+          "rank": 15,
+          "team": {
             "id": 16,
             "name": "FC Augsburg",
             "shortName": "アウクスブルク",
@@ -88148,24 +88166,6 @@
           "goalsFor": 20,
           "goalsAgainst": 20,
           "goalsDiff": 0,
-          "points": 9,
-          "form": ""
-        },
-        {
-          "rank": 15,
-          "team": {
-            "id": 1,
-            "name": "1. FC Köln",
-            "shortName": "1. FC Köln",
-            "logo": "https://crests.football-data.org/1.png"
-          },
-          "played": 9,
-          "win": 2,
-          "draw": 3,
-          "lose": 4,
-          "goalsFor": 10,
-          "goalsAgainst": 14,
-          "goalsDiff": -4,
           "points": 9,
           "form": ""
         },
@@ -88451,6 +88451,24 @@
         {
           "rank": 13,
           "team": {
+            "id": 531,
+            "name": "ES Troyes AC",
+            "shortName": "ES Troyes AC",
+            "logo": "https://crests.football-data.org/531.png"
+          },
+          "played": 11,
+          "win": 3,
+          "draw": 2,
+          "lose": 6,
+          "goalsFor": 10,
+          "goalsAgainst": 18,
+          "goalsDiff": -8,
+          "points": 11,
+          "form": ""
+        },
+        {
+          "rank": 14,
+          "team": {
             "id": 576,
             "name": "RC Strasbourg Alsace",
             "shortName": "ストラスブール",
@@ -88467,7 +88485,7 @@
           "form": ""
         },
         {
-          "rank": 14,
+          "rank": 15,
           "team": {
             "id": 519,
             "name": "AJ Auxerre",
@@ -88485,7 +88503,7 @@
           "form": ""
         },
         {
-          "rank": 15,
+          "rank": 16,
           "team": {
             "id": 535,
             "name": "Le Mans FC",
@@ -88503,7 +88521,7 @@
           "form": ""
         },
         {
-          "rank": 16,
+          "rank": 17,
           "team": {
             "id": 532,
             "name": "Angers SCO",
@@ -88521,24 +88539,6 @@
           "form": ""
         },
         {
-          "rank": 17,
-          "team": {
-            "id": 531,
-            "name": "ES Troyes AC",
-            "shortName": "ES Troyes AC",
-            "logo": "https://crests.football-data.org/531.png"
-          },
-          "played": 10,
-          "win": 2,
-          "draw": 2,
-          "lose": 6,
-          "goalsFor": 7,
-          "goalsAgainst": 17,
-          "goalsDiff": -10,
-          "points": 8,
-          "form": ""
-        },
-        {
           "rank": 18,
           "team": {
             "id": 533,
@@ -88546,13 +88546,13 @@
             "shortName": "ル・アーヴル",
             "logo": "https://crests.football-data.org/533.png"
           },
-          "played": 10,
+          "played": 11,
           "win": 0,
           "draw": 2,
-          "lose": 8,
-          "goalsFor": 9,
-          "goalsAgainst": 22,
-          "goalsDiff": -13,
+          "lose": 9,
+          "goalsFor": 10,
+          "goalsAgainst": 25,
+          "goalsDiff": -15,
           "points": 2,
           "form": ""
         }
