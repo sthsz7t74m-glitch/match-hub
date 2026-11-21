@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T00:01:56.618Z",
+  "updatedAt": "2026-11-21T07:17:03.617Z",
   "season": "2026",
   "dataSource": "football-data.org",
   "dataMode": "current-free-plan",
@@ -28700,7 +28700,7 @@
     {
       "id": 559622,
       "date": "2026-11-20T19:45:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "elapsed": null,
       "competition": "Ligue 1",
       "competitionJa": "リーグ・アン",
@@ -28722,19 +28722,19 @@
         "logo": "https://crests.football-data.org/533.png"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 1
       },
       "score": {
-        "winner": null,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 1
         },
         "halfTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         }
       },
       "events": []
