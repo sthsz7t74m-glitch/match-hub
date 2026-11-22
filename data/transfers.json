@@ -1,9 +1,39 @@
 {
-  "updatedAt": "2026-11-22T01:25:52.186Z",
+  "updatedAt": "2026-11-22T11:40:59.753Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c6x2e8devk1po?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "'Not the right time' - Fernandes pauses Man Utd contract talks",
+      "titleJa": "移籍情報：'Not the right time' - Fernandes pauses Man Utd contract talks",
+      "from": "",
+      "to": "",
+      "summaryJa": "'Not the right time' - Fernandes pauses Man Utd contract talks移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "'Not the right time' - Fernandes pauses Man Utd contract talks",
+      "summary": "Manchester United captain Bruno Fernandes says he has been offered a new contract by the club but feels it \"is not the right time\" for discussions about his future.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6x2e8devk1po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T08:41:20.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cm9d7jg50e12o?at_medium=RSS&at_campaign=rss",
+      "status": "official",
+      "player": "'The world got to see today' - Williams-Barnett announces himself as Spurs star",
+      "titleJa": "移籍情報：'The world got to see today' - Williams-Barnett announces himself as Spurs star",
+      "from": "",
+      "to": "",
+      "summaryJa": "'The world got to see today' - Williams-Barnett announces himself as Spurs star移る可能性について、正式発表段階の報道です。",
+      "originalTitle": "'The world got to see today' - Williams-Barnett announces himself as Spurs star",
+      "summary": "BBC Sport looks at Tottenham's new teenage star after Luca Williams-Barnett makes a superb full Premier League debut for Spurs",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm9d7jg50e12o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-21T19:21:01.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/c3ewvkk4qgxjo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -48,21 +78,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c8wy5ddky5n9o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-21T19:58:52.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cm9d7jg50e12o?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "'The world got to see today' - Williams-Barnett announces himself as Spurs star",
-      "titleJa": "移籍情報：'The world got to see today' - Williams-Barnett announces himself as Spurs star",
-      "from": "",
-      "to": "",
-      "summaryJa": "'The world got to see today' - Williams-Barnett announces himself as Spurs star移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "'The world got to see today' - Williams-Barnett announces himself as Spurs star",
-      "summary": "BBC Sport looks at Tottenham's new teenage star after Luca Williams-Barnett makes a superb full Premier League debut for Spurs",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm9d7jg50e12o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-21T19:21:01.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cq8j4e8nlvm1o?at_medium=RSS&at_campaign=rss",
@@ -110,21 +125,6 @@
       "date": "2026-11-21T17:43:44.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c6d91xj9vee3o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "The Chelsea loanee turning heads and Championship defenders at 17",
-      "titleJa": "移籍情報：The Chelsea loanee turning heads and Championship defenders at 17",
-      "from": "",
-      "to": "",
-      "summaryJa": "The Chelsea loanee turning heads and Championship defenders at 17移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "The Chelsea loanee turning heads and Championship defenders at 17",
-      "summary": "Ryan Kavuma-McQueen has been \"unplayable\" at times since joining Portsmouth from Chelsea, says boss John Mousinho.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6d91xj9vee3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-21T08:05:46.000Z"
-    },
-    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c8wy53z3ygypo?at_medium=RSS&at_campaign=rss",
       "status": "official",
       "player": "Will Infantino feel he's already won as Fifa challengers confirmed?",
@@ -168,6 +168,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/articles/cmje5wl5ek32o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-13T10:13:34.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/ckdd1epzz60eo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Armstrong plays down talk of Rangers transfer - gossip",
+      "titleJa": "移籍情報：Armstrong plays down talk of Rangers transfer - gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Armstrong plays down talk of Rangers transfer - gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Armstrong plays down talk of Rangers transfer - gossip",
+      "summary": "Dinamo Bucharest winger Danny Armstrong says he has not talked with Rangers manager Derek McInnes about a move to Ibrox, while the chances of Jack Grealish joining Celtic are played down.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckdd1epzz60eo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T09:10:02.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cz7z09v9pp1o?at_medium=RSS&at_campaign=rss",
