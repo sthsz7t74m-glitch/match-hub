@@ -1,8 +1,13 @@
 {
-  "updatedAt": "2026-11-21T10:09:18.796Z",
+  "updatedAt": "2026-11-22T10:13:05.650Z",
   "source": "ESPN multi-competition annual adapter",
   "competitionCount": 15,
   "competitions": [
+    {
+      "code": "fifa.world",
+      "name": "FIFAワールドカップ",
+      "count": 104
+    },
     {
       "code": "fifa.worldq.conmebol",
       "name": "W杯南米予選",
@@ -19,19 +24,9 @@
       "count": 204
     },
     {
-      "code": "fifa.world",
-      "name": "FIFAワールドカップ",
-      "count": 104
-    },
-    {
       "code": "fifa.worldq.afc",
       "name": "W杯アジア予選",
       "count": 170
-    },
-    {
-      "code": "fifa.worldq.caf",
-      "name": "W杯アフリカ予選",
-      "count": 219
     },
     {
       "code": "fifa.worldq.ofc",
@@ -39,14 +34,14 @@
       "count": 18
     },
     {
+      "code": "fifa.worldq.caf",
+      "name": "W杯アフリカ予選",
+      "count": 219
+    },
+    {
       "code": "uefa.euro",
       "name": "UEFA欧州選手権",
       "count": 51
-    },
-    {
-      "code": "uefa.nations",
-      "name": "UEFAネーションズリーグ",
-      "count": 370
     },
     {
       "code": "afc.asian.cup",
@@ -54,9 +49,9 @@
       "count": 91
     },
     {
-      "code": "concacaf.gold",
-      "name": "CONCACAFゴールドカップ",
-      "count": 31
+      "code": "uefa.nations",
+      "name": "UEFAネーションズリーグ",
+      "count": 370
     },
     {
       "code": "conmebol.america",
@@ -64,9 +59,14 @@
       "count": 32
     },
     {
-      "code": "fifa.friendly",
-      "name": "国際親善試合",
-      "count": 1005
+      "code": "concacaf.gold",
+      "name": "CONCACAFゴールドカップ",
+      "count": 31
+    },
+    {
+      "code": "fifa.olympics",
+      "name": "オリンピック男子サッカー",
+      "count": 32
     },
     {
       "code": "caf.nations",
@@ -74,15 +74,15 @@
       "count": 104
     },
     {
-      "code": "fifa.olympics",
-      "name": "オリンピック男子サッカー",
-      "count": 32
+      "code": "fifa.friendly",
+      "name": "国際親善試合",
+      "count": 1006
     }
   ],
   "skippedCompetitions": [
     {
       "code": "conmebol.copa_america",
-      "year": 2024,
+      "year": 2025,
       "reason": "HTTP 400"
     },
     {
@@ -92,12 +92,12 @@
     },
     {
       "code": "conmebol.copa_america",
-      "year": 2026,
+      "year": 2024,
       "reason": "HTTP 400"
     },
     {
       "code": "conmebol.copa_america",
-      "year": 2025,
+      "year": 2026,
       "reason": "HTTP 400"
     }
   ],
@@ -50760,6 +50760,26 @@
       "homeScore": 0,
       "awayScore": 0,
       "venue": "Wembley Stadium",
+      "source": "ESPN",
+      "decision": null,
+      "decisionLabel": "",
+      "penalties": null
+    },
+    {
+      "id": "fifa.friendly-401936213",
+      "kickoff": "2026-12-09T23:00Z",
+      "status": "scheduled",
+      "competition": "国際親善試合",
+      "competitionCode": "fifa.friendly",
+      "stage": "2026-international-friendly",
+      "round": "",
+      "home": "peru",
+      "away": "panama",
+      "homeName": "Peru",
+      "awayName": "Panama",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Estadio Inca Garcilaso de la Vega",
       "source": "ESPN",
       "decision": null,
       "decisionLabel": "",
