@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-11-23T01:49:52.235Z",
+  "updatedAt": "2026-11-23T13:14:42.239Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c6p9dym309nxo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "One of football's most-hyped 16-year-olds - what next for JJ Gabriel?",
+      "titleJa": "移籍情報：One of football's most-hyped 16-year-olds - what next for JJ Gabriel?",
+      "from": "",
+      "to": "",
+      "summaryJa": "One of football's most-hyped 16-year-olds - what next for JJ Gabriel?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "One of football's most-hyped 16-year-olds - what next for JJ Gabriel?",
+      "summary": "BBC Sport looks at why JJ Gabriel's move from Manchester United to Real Madrid has caused such a stir.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6p9dym309nxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-23T06:17:59.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/ck053nyl6399o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -18,36 +33,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck053nyl6399o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-22T21:04:15.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sounds/play/p0ppcw2v?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Football Daily",
-      "titleJa": "移籍情報：Football Daily",
-      "from": "",
-      "to": "",
-      "summaryJa": "Football Daily移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Football Daily",
-      "summary": "Dale Johnson & Umir Irfan join Rick & Lloyd after Man Utd’s 4-0 defeat at Liverpool.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sounds/play/p0ppcw2v?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-22T23:14:00.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cwj05z6npze4o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "'Rolls-Royce' Iqbal's 'dream' journey from Old Trafford to Tannadice",
-      "titleJa": "移籍情報：'Rolls-Royce' Iqbal's 'dream' journey from Old Trafford to Tannadice",
-      "from": "",
-      "to": "",
-      "summaryJa": "'Rolls-Royce' Iqbal's 'dream' journey from Old Trafford to Tannadice移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "'Rolls-Royce' Iqbal's 'dream' journey from Old Trafford to Tannadice",
-      "summary": "Zidane Iqbal is starting to live up to his famous name and wowing Scottish Premiership fans after his move to Dundee United.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwj05z6npze4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-22T17:00:01.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/c3ewvkk4qgxjo?at_medium=RSS&at_campaign=rss",
@@ -95,6 +80,21 @@
       "date": "2026-11-21T19:58:52.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cwj05z6npze4o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "'Rolls-Royce' Iqbal's 'dream' journey from Old Trafford to Tannadice",
+      "titleJa": "移籍情報：'Rolls-Royce' Iqbal's 'dream' journey from Old Trafford to Tannadice",
+      "from": "",
+      "to": "",
+      "summaryJa": "'Rolls-Royce' Iqbal's 'dream' journey from Old Trafford to Tannadice移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "'Rolls-Royce' Iqbal's 'dream' journey from Old Trafford to Tannadice",
+      "summary": "Zidane Iqbal is starting to live up to his famous name and wowing Scottish Premiership fans after his move to Dundee United.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwj05z6npze4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T17:00:01.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/c6x2e8devk1po?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "'Not the right time' - Fernandes pauses Man Utd contract talks",
@@ -110,34 +110,19 @@
       "date": "2026-11-22T08:41:20.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cm9d7jg50e12o?at_medium=RSS&at_campaign=rss",
-      "status": "official",
-      "player": "'The world got to see today' - Williams-Barnett announces himself as Spurs star",
-      "titleJa": "移籍情報：'The world got to see today' - Williams-Barnett announces himself as Spurs star",
-      "from": "",
-      "to": "",
-      "summaryJa": "'The world got to see today' - Williams-Barnett announces himself as Spurs star移る可能性について、正式発表段階の報道です。",
-      "originalTitle": "'The world got to see today' - Williams-Barnett announces himself as Spurs star",
-      "summary": "BBC Sport looks at Tottenham's new teenage star after Luca Williams-Barnett makes a superb full Premier League debut for Spurs",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm9d7jg50e12o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-21T19:21:01.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c9x2evr1rg85o?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sounds/play/p0ppcw2v?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Fifpro criticises Bayern Munich for Musiala comments",
-      "titleJa": "移籍情報：Fifpro criticises Bayern Munich for Musiala comments",
+      "player": "Football Daily",
+      "titleJa": "移籍情報：Football Daily",
       "from": "",
       "to": "",
-      "summaryJa": "Fifpro criticises Bayern Munich for Musiala comments移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Fifpro criticises Bayern Munich for Musiala comments",
-      "summary": "Football players' union Fifpro says it is concerned by German club Bayern Munich's comments about Jamal Musiala's contract.",
+      "summaryJa": "Football Daily移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Football Daily",
+      "summary": "Dale Johnson & Umir Irfan join Rick & Lloyd after Man Utd’s 4-0 defeat at Liverpool.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9x2evr1rg85o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-21T17:43:44.000Z"
+      "url": "https://www.bbc.co.uk/sounds/play/p0ppcw2v?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T23:14:00.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c8wy53z3ygypo?at_medium=RSS&at_campaign=rss",
@@ -183,21 +168,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/articles/cmje5wl5ek32o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-13T10:13:34.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/ckdd1epzz60eo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Armstrong plays down talk of Rangers transfer - gossip",
-      "titleJa": "移籍情報：Armstrong plays down talk of Rangers transfer - gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Armstrong plays down talk of Rangers transfer - gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Armstrong plays down talk of Rangers transfer - gossip",
-      "summary": "Dinamo Bucharest winger Danny Armstrong says he has not talked with Rangers manager Derek McInnes about a move to Ibrox, while the chances of Jack Grealish joining Celtic are played down.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckdd1epzz60eo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-22T09:10:02.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cz7z09v9pp1o?at_medium=RSS&at_campaign=rss",
