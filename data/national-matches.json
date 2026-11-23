@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T10:13:05.650Z",
+  "updatedAt": "2026-11-23T11:11:41.219Z",
   "source": "ESPN multi-competition annual adapter",
   "competitionCount": 15,
   "competitions": [
@@ -14,19 +14,19 @@
       "count": 60
     },
     {
-      "code": "fifa.worldq.concacaf",
-      "name": "W杯北中米予選",
-      "count": 100
-    },
-    {
       "code": "fifa.worldq.uefa",
       "name": "W杯欧州予選",
       "count": 204
     },
     {
-      "code": "fifa.worldq.afc",
-      "name": "W杯アジア予選",
-      "count": 170
+      "code": "fifa.worldq.concacaf",
+      "name": "W杯北中米予選",
+      "count": 100
+    },
+    {
+      "code": "uefa.euro",
+      "name": "UEFA欧州選手権",
+      "count": 51
     },
     {
       "code": "fifa.worldq.ofc",
@@ -39,14 +39,19 @@
       "count": 219
     },
     {
-      "code": "uefa.euro",
-      "name": "UEFA欧州選手権",
-      "count": 51
+      "code": "fifa.worldq.afc",
+      "name": "W杯アジア予選",
+      "count": 170
     },
     {
       "code": "afc.asian.cup",
       "name": "AFCアジアカップ",
       "count": 91
+    },
+    {
+      "code": "concacaf.gold",
+      "name": "CONCACAFゴールドカップ",
+      "count": 31
     },
     {
       "code": "uefa.nations",
@@ -57,11 +62,6 @@
       "code": "conmebol.america",
       "name": "コパ・アメリカ",
       "count": 32
-    },
-    {
-      "code": "concacaf.gold",
-      "name": "CONCACAFゴールドカップ",
-      "count": 31
     },
     {
       "code": "fifa.olympics",
@@ -92,12 +92,12 @@
     },
     {
       "code": "conmebol.copa_america",
-      "year": 2024,
+      "year": 2026,
       "reason": "HTTP 400"
     },
     {
       "code": "conmebol.copa_america",
-      "year": 2026,
+      "year": 2024,
       "reason": "HTTP 400"
     }
   ],
