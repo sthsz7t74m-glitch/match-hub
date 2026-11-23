@@ -1,9 +1,39 @@
 {
-  "updatedAt": "2026-11-22T19:50:53.486Z",
+  "updatedAt": "2026-11-23T01:49:52.235Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/ck053nyl6399o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Man Utd plotting Toney move - Monday's gossip",
+      "titleJa": "移籍情報：Man Utd plotting Toney move - Monday's gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Man Utd plotting Toney move - Monday's gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Man Utd plotting Toney move - Monday's gossip",
+      "summary": "Manchester United eye move for Al-Ahli striker Ivan Toney, Fulham hold contract talks with Calvin Bassey and PSG could step up pursuit of Eli Junior Kroupi.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck053nyl6399o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T21:04:15.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sounds/play/p0ppcw2v?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Football Daily",
+      "titleJa": "移籍情報：Football Daily",
+      "from": "",
+      "to": "",
+      "summaryJa": "Football Daily移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Football Daily",
+      "summary": "Dale Johnson & Umir Irfan join Rick & Lloyd after Man Utd’s 4-0 defeat at Liverpool.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sounds/play/p0ppcw2v?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T23:14:00.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cwj05z6npze4o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -18,21 +48,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwj05z6npze4o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-22T17:00:01.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c6x2e8devk1po?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "'Not the right time' - Fernandes pauses Man Utd contract talks",
-      "titleJa": "移籍情報：'Not the right time' - Fernandes pauses Man Utd contract talks",
-      "from": "",
-      "to": "",
-      "summaryJa": "'Not the right time' - Fernandes pauses Man Utd contract talks移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "'Not the right time' - Fernandes pauses Man Utd contract talks",
-      "summary": "Manchester United captain Bruno Fernandes says he has been offered a new contract by the club but feels it \"is not the right time\" for discussions about his future.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6x2e8devk1po?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-22T08:41:20.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/videos/c3ewvkk4qgxjo?at_medium=RSS&at_campaign=rss",
@@ -80,6 +95,21 @@
       "date": "2026-11-21T19:58:52.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c6x2e8devk1po?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "'Not the right time' - Fernandes pauses Man Utd contract talks",
+      "titleJa": "移籍情報：'Not the right time' - Fernandes pauses Man Utd contract talks",
+      "from": "",
+      "to": "",
+      "summaryJa": "'Not the right time' - Fernandes pauses Man Utd contract talks移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "'Not the right time' - Fernandes pauses Man Utd contract talks",
+      "summary": "Manchester United captain Bruno Fernandes says he has been offered a new contract by the club but feels it \"is not the right time\" for discussions about his future.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6x2e8devk1po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T08:41:20.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/football/articles/cm9d7jg50e12o?at_medium=RSS&at_campaign=rss",
       "status": "official",
       "player": "'The world got to see today' - Williams-Barnett announces himself as Spurs star",
@@ -93,36 +123,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm9d7jg50e12o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-21T19:21:01.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cq8j4e8nlvm1o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "AC Milan monitoring Man Utd's Fernandes - Sunday's gossip",
-      "titleJa": "移籍情報：AC Milan monitoring Man Utd's Fernandes - Sunday's gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "AC Milan monitoring Man Utd's Fernandes - Sunday's gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "AC Milan monitoring Man Utd's Fernandes - Sunday's gossip",
-      "summary": "AC Milan monitoring Manchester United midfielder Bruno Fernandes, Arsenal pair yet to start talks on new deals and Trabzonspor renew interest in Tottenham forward Richarlison, plus more.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq8j4e8nlvm1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-21T20:35:12.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/videos/cme3dvk1kzgqo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "I wish referee had opportunity to see 'handball' again - Hart",
-      "titleJa": "移籍情報：I wish referee had opportunity to see 'handball' again - Hart",
-      "from": "",
-      "to": "",
-      "summaryJa": "I wish referee had opportunity to see 'handball' again - Hart移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "I wish referee had opportunity to see 'handball' again - Hart",
-      "summary": "Match of the Day pundits Joe Hart and Alan Shearer disagree with Morgan Rogers being penalised for handball, as the Chelsea forward \"didn't make himself bigger\" with the use of his arms in his side's 4-1 defeat to Leeds United in the Premier League.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cme3dvk1kzgqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-22T00:08:13.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c9x2evr1rg85o?at_medium=RSS&at_campaign=rss",
