@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T11:11:41.219Z",
+  "updatedAt": "2026-11-24T12:53:53.595Z",
   "source": "ESPN multi-competition annual adapter",
   "competitionCount": 15,
   "competitions": [
@@ -14,29 +14,14 @@
       "count": 60
     },
     {
-      "code": "fifa.worldq.uefa",
-      "name": "W杯欧州予選",
-      "count": 204
-    },
-    {
       "code": "fifa.worldq.concacaf",
       "name": "W杯北中米予選",
       "count": 100
     },
     {
-      "code": "uefa.euro",
-      "name": "UEFA欧州選手権",
-      "count": 51
-    },
-    {
-      "code": "fifa.worldq.ofc",
-      "name": "W杯オセアニア予選",
-      "count": 18
-    },
-    {
-      "code": "fifa.worldq.caf",
-      "name": "W杯アフリカ予選",
-      "count": 219
+      "code": "fifa.worldq.uefa",
+      "name": "W杯欧州予選",
+      "count": 204
     },
     {
       "code": "fifa.worldq.afc",
@@ -44,9 +29,19 @@
       "count": 170
     },
     {
-      "code": "afc.asian.cup",
-      "name": "AFCアジアカップ",
-      "count": 91
+      "code": "uefa.euro",
+      "name": "UEFA欧州選手権",
+      "count": 51
+    },
+    {
+      "code": "fifa.worldq.caf",
+      "name": "W杯アフリカ予選",
+      "count": 219
+    },
+    {
+      "code": "fifa.worldq.ofc",
+      "name": "W杯オセアニア予選",
+      "count": 18
     },
     {
       "code": "concacaf.gold",
@@ -57,6 +52,11 @@
       "code": "uefa.nations",
       "name": "UEFAネーションズリーグ",
       "count": 370
+    },
+    {
+      "code": "afc.asian.cup",
+      "name": "AFCアジアカップ",
+      "count": 91
     },
     {
       "code": "conmebol.america",
@@ -82,7 +82,7 @@
   "skippedCompetitions": [
     {
       "code": "conmebol.copa_america",
-      "year": 2025,
+      "year": 2024,
       "reason": "HTTP 400"
     },
     {
@@ -97,7 +97,7 @@
     },
     {
       "code": "conmebol.copa_america",
-      "year": 2024,
+      "year": 2025,
       "reason": "HTTP 400"
     }
   ],
