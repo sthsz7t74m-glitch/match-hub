@@ -1,13 +1,8 @@
 {
-  "updatedAt": "2026-11-24T12:53:53.595Z",
+  "updatedAt": "2026-11-25T11:40:06.322Z",
   "source": "ESPN multi-competition annual adapter",
   "competitionCount": 15,
   "competitions": [
-    {
-      "code": "fifa.world",
-      "name": "FIFAワールドカップ",
-      "count": 104
-    },
     {
       "code": "fifa.worldq.conmebol",
       "name": "W杯南米予選",
@@ -24,6 +19,21 @@
       "count": 204
     },
     {
+      "code": "fifa.world",
+      "name": "FIFAワールドカップ",
+      "count": 104
+    },
+    {
+      "code": "fifa.worldq.ofc",
+      "name": "W杯オセアニア予選",
+      "count": 18
+    },
+    {
+      "code": "fifa.worldq.caf",
+      "name": "W杯アフリカ予選",
+      "count": 219
+    },
+    {
       "code": "fifa.worldq.afc",
       "name": "W杯アジア予選",
       "count": 170
@@ -34,14 +44,9 @@
       "count": 51
     },
     {
-      "code": "fifa.worldq.caf",
-      "name": "W杯アフリカ予選",
-      "count": 219
-    },
-    {
-      "code": "fifa.worldq.ofc",
-      "name": "W杯オセアニア予選",
-      "count": 18
+      "code": "afc.asian.cup",
+      "name": "AFCアジアカップ",
+      "count": 91
     },
     {
       "code": "concacaf.gold",
@@ -54,24 +59,19 @@
       "count": 370
     },
     {
-      "code": "afc.asian.cup",
-      "name": "AFCアジアカップ",
-      "count": 91
-    },
-    {
       "code": "conmebol.america",
       "name": "コパ・アメリカ",
-      "count": 32
-    },
-    {
-      "code": "fifa.olympics",
-      "name": "オリンピック男子サッカー",
       "count": 32
     },
     {
       "code": "caf.nations",
       "name": "アフリカネーションズカップ",
       "count": 104
+    },
+    {
+      "code": "fifa.olympics",
+      "name": "オリンピック男子サッカー",
+      "count": 32
     },
     {
       "code": "fifa.friendly",
@@ -82,7 +82,7 @@
   "skippedCompetitions": [
     {
       "code": "conmebol.copa_america",
-      "year": 2024,
+      "year": 2026,
       "reason": "HTTP 400"
     },
     {
@@ -92,7 +92,7 @@
     },
     {
       "code": "conmebol.copa_america",
-      "year": 2026,
+      "year": 2024,
       "reason": "HTTP 400"
     },
     {
@@ -37092,8 +37092,8 @@
       "away": "morocco",
       "homeName": "Senegal",
       "awayName": "Morocco",
-      "homeScore": 0,
-      "awayScore": 3,
+      "homeScore": 1,
+      "awayScore": 0,
       "venue": "Stade Prince Moulay Abdallah",
       "source": "ESPN",
       "decision": "regular",
