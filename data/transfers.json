@@ -1,24 +1,9 @@
 {
-  "updatedAt": "2026-11-24T23:57:06.047Z",
+  "updatedAt": "2026-11-25T08:51:27.005Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c9x2ejnypp8jo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Bayern hold 'constructive' talks over Musiala's health",
-      "titleJa": "移籍情報：Bayern hold 'constructive' talks over Musiala's health",
-      "from": "",
-      "to": "",
-      "summaryJa": "Bayern hold 'constructive' talks over Musiala's health移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Bayern hold 'constructive' talks over Musiala's health",
-      "summary": "Bayern Munich are only focused on getting Jamal Musiala back from injury and not interested in the comments made regarding his contract, the club's sporting director Max Eberl insists.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9x2ejnypp8jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T19:58:58.000Z"
-    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cm15en5je9eko?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -33,6 +18,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm15en5je9eko?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-24T20:51:44.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c9x2ejnypp8jo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Bayern hold 'constructive' talks over Musiala's health",
+      "titleJa": "移籍情報：Bayern hold 'constructive' talks over Musiala's health",
+      "from": "",
+      "to": "",
+      "summaryJa": "Bayern hold 'constructive' talks over Musiala's health移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Bayern hold 'constructive' talks over Musiala's health",
+      "summary": "Bayern Munich are only focused on getting Jamal Musiala back from injury and not interested in the comments made regarding his contract, the club's sporting director Max Eberl insists.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9x2ejnypp8jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-24T19:58:58.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c69w91k0j9zeo?at_medium=RSS&at_campaign=rss",
@@ -80,19 +80,19 @@
       "date": "2026-11-24T16:34:18.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/crd61gy4ednvo?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/articles/c6p9dym309nxo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Defender Heaven open to leaving Man Utd",
-      "titleJa": "移籍情報：Defender Heaven open to leaving Man Utd",
+      "player": "One of football's most-hyped 16-year-olds - what next for JJ Gabriel?",
+      "titleJa": "移籍情報：One of football's most-hyped 16-year-olds - what next for JJ Gabriel?",
       "from": "",
       "to": "",
-      "summaryJa": "Defender Heaven open to leaving Man Utd移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Defender Heaven open to leaving Man Utd",
-      "summary": "Manchester United defender Ayden Heaven is open to a loan move in January amid concerns over his game time as his side battles in the Premier League relegation zone.",
+      "summaryJa": "One of football's most-hyped 16-year-olds - what next for JJ Gabriel?移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "One of football's most-hyped 16-year-olds - what next for JJ Gabriel?",
+      "summary": "BBC Sport looks at why JJ Gabriel's move from Manchester United to Real Madrid has caused such a stir.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crd61gy4ednvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T15:56:55.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6p9dym309nxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-23T06:17:59.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c8wy53z3ygypo?at_medium=RSS&at_campaign=rss",
@@ -138,6 +138,21 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/articles/cmje5wl5ek32o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-13T10:13:34.000Z"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c6lymzn0lx02o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Celtic consider move for midfielder Ashour - gossip",
+      "titleJa": "移籍情報：Celtic consider move for midfielder Ashour - gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Celtic consider move for midfielder Ashour - gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Celtic consider move for midfielder Ashour - gossip",
+      "summary": "Celtic linked with Egypt midfielder as Rangers prepare to offload striker...",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6lymzn0lx02o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-25T07:54:58.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cz7z09v9pp1o?at_medium=RSS&at_campaign=rss",
