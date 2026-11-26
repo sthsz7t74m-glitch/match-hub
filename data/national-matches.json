@@ -1,13 +1,8 @@
 {
-  "updatedAt": "2026-11-25T11:40:06.322Z",
+  "updatedAt": "2026-11-26T11:26:49.201Z",
   "source": "ESPN multi-competition annual adapter",
   "competitionCount": 15,
   "competitions": [
-    {
-      "code": "fifa.worldq.conmebol",
-      "name": "W杯南米予選",
-      "count": 60
-    },
     {
       "code": "fifa.worldq.concacaf",
       "name": "W杯北中米予選",
@@ -19,14 +14,14 @@
       "count": 204
     },
     {
+      "code": "fifa.worldq.conmebol",
+      "name": "W杯南米予選",
+      "count": 60
+    },
+    {
       "code": "fifa.world",
       "name": "FIFAワールドカップ",
       "count": 104
-    },
-    {
-      "code": "fifa.worldq.ofc",
-      "name": "W杯オセアニア予選",
-      "count": 18
     },
     {
       "code": "fifa.worldq.caf",
@@ -34,14 +29,19 @@
       "count": 219
     },
     {
+      "code": "uefa.euro",
+      "name": "UEFA欧州選手権",
+      "count": 51
+    },
+    {
       "code": "fifa.worldq.afc",
       "name": "W杯アジア予選",
       "count": 170
     },
     {
-      "code": "uefa.euro",
-      "name": "UEFA欧州選手権",
-      "count": 51
+      "code": "fifa.worldq.ofc",
+      "name": "W杯オセアニア予選",
+      "count": 18
     },
     {
       "code": "afc.asian.cup",
@@ -49,14 +49,14 @@
       "count": 91
     },
     {
-      "code": "concacaf.gold",
-      "name": "CONCACAFゴールドカップ",
-      "count": 31
-    },
-    {
       "code": "uefa.nations",
       "name": "UEFAネーションズリーグ",
       "count": 370
+    },
+    {
+      "code": "concacaf.gold",
+      "name": "CONCACAFゴールドカップ",
+      "count": 31
     },
     {
       "code": "conmebol.america",
@@ -82,22 +82,22 @@
   "skippedCompetitions": [
     {
       "code": "conmebol.copa_america",
-      "year": 2026,
-      "reason": "HTTP 400"
-    },
-    {
-      "code": "conmebol.copa_america",
       "year": 2027,
       "reason": "HTTP 400"
     },
     {
       "code": "conmebol.copa_america",
-      "year": 2024,
+      "year": 2026,
       "reason": "HTTP 400"
     },
     {
       "code": "conmebol.copa_america",
       "year": 2025,
+      "reason": "HTTP 400"
+    },
+    {
+      "code": "conmebol.copa_america",
+      "year": 2024,
       "reason": "HTTP 400"
     }
   ],
