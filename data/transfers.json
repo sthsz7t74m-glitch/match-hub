@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-11-26T03:39:13.675Z",
+  "updatedAt": "2026-11-26T17:06:02.488Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cq20x16zxxzeo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Why KMI Panel frustrates referees too - and impacts their salary",
+      "titleJa": "移籍情報：Why KMI Panel frustrates referees too - and impacts their salary",
+      "from": "",
+      "to": "",
+      "summaryJa": "Why KMI Panel frustrates referees too - and impacts their salary移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Why KMI Panel frustrates referees too - and impacts their salary",
+      "summary": "For Premier League referees, the KMI Panel is more important than you might realise. It determines a significant portion of their salary.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq20x16zxxzeo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-26T07:28:18.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c6n831jk3x4mo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -18,21 +33,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6n831jk3x4mo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-25T20:57:48.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cmglrzg3zx9no?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Lincoln sack head coach duo Cohen and Shaw after only six months",
-      "titleJa": "移籍情報：Lincoln sack head coach duo Cohen and Shaw after only six months",
-      "from": "",
-      "to": "",
-      "summaryJa": "Lincoln sack head coach duo Cohen and Shaw after only six months移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Lincoln sack head coach duo Cohen and Shaw after only six months",
-      "summary": "Lincoln sack head coaches Chris Cohen and Tom Shaw just six months after they took joint charge of the Championship side.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmglrzg3zx9no?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-25T11:32:28.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c6p9dym309nxo?at_medium=RSS&at_campaign=rss",
@@ -80,6 +80,21 @@
       "date": "2026-11-19T17:54:30.000Z"
     },
     {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cwlyl36my6m7o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "SFA to deliver revised proposal after young player vote delayed",
+      "titleJa": "移籍情報：SFA to deliver revised proposal after young player vote delayed",
+      "from": "",
+      "to": "",
+      "summaryJa": "SFA to deliver revised proposal after young player vote delayed移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "SFA to deliver revised proposal after young player vote delayed",
+      "summary": "The Scottish FA will continue consulting with SPFL clubs in a bid to get more game time for homegrown talent after initial plans put forward by the governing body failed to reach a member vote.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwlyl36my6m7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-26T16:49:44.000Z"
+    },
+    {
       "id": "https://www.bbc.co.uk/sport/articles/c6792q7gzeg8o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
       "player": "Murrell flourishing at high-flying Falkirk after 'random' move",
@@ -95,19 +110,19 @@
       "date": "2026-11-25T12:03:34.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c6lymzn0lx02o?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sounds/play/p0pq0m9k?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Celtic consider move for midfielder Ashour - gossip",
-      "titleJa": "移籍情報：Celtic consider move for midfielder Ashour - gossip",
+      "player": "BBC Women's Football Weekly",
+      "titleJa": "移籍情報：BBC Women's Football Weekly",
       "from": "",
       "to": "",
-      "summaryJa": "Celtic consider move for midfielder Ashour - gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Celtic consider move for midfielder Ashour - gossip",
-      "summary": "Celtic linked with Egypt midfielder as Rangers prepare to offload striker...",
+      "summaryJa": "BBC Women's Football Weekly移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "BBC Women's Football Weekly",
+      "summary": "Three Lionesses join Ellen, Ben & Em ahead of their 2027 World Cup play-off final.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6lymzn0lx02o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-25T07:54:58.000Z"
+      "url": "https://www.bbc.co.uk/sounds/play/p0pq0m9k?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-26T11:18:00.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c8wy5vy160kpo?at_medium=RSS&at_campaign=rss",
