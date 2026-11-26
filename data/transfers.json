@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-11-25T19:26:17.501Z",
+  "updatedAt": "2026-11-26T03:39:13.675Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/c6n831jk3x4mo?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Liverpool mull Quansah return - Thursday's gossip",
+      "titleJa": "移籍情報：Liverpool mull Quansah return - Thursday's gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Liverpool mull Quansah return - Thursday's gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Liverpool mull Quansah return - Thursday's gossip",
+      "summary": "Liverpool consider return for Jarrell Quansah, Tottenham scout Vangelis Pavlidis and Paris St-Germain target Estevao Willian, plus more",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6n831jk3x4mo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-25T20:57:48.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cmglrzg3zx9no?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -18,51 +33,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmglrzg3zx9no?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-25T11:32:28.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cm15en5je9eko?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Man Utd target Collins - Wednesday's gossip",
-      "titleJa": "移籍情報：Man Utd target Collins - Wednesday's gossip",
-      "from": "",
-      "to": "",
-      "summaryJa": "Man Utd target Collins - Wednesday's gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Man Utd target Collins - Wednesday's gossip",
-      "summary": "Manchester United target Brentford defender Nathan Collins, Bournemouth price forward Eli Junior Kroupi at £100m and Liverpool close in on new Rio Ngumoha contract.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm15en5je9eko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T20:51:44.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c9x2ejnypp8jo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Bayern hold 'constructive' talks over Musiala's health",
-      "titleJa": "移籍情報：Bayern hold 'constructive' talks over Musiala's health",
-      "from": "",
-      "to": "",
-      "summaryJa": "Bayern hold 'constructive' talks over Musiala's health移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Bayern hold 'constructive' talks over Musiala's health",
-      "summary": "Bayern Munich are only focused on getting Jamal Musiala back from injury and not interested in the comments made regarding his contract, the club's sporting director Max Eberl insists.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9x2ejnypp8jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T19:58:58.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/c69w91k0j9zeo?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Klopp advice and Iraola confidence boosts Wirtz",
-      "titleJa": "移籍情報：Klopp advice and Iraola confidence boosts Wirtz",
-      "from": "",
-      "to": "",
-      "summaryJa": "Klopp advice and Iraola confidence boosts Wirtz移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Klopp advice and Iraola confidence boosts Wirtz",
-      "summary": "Florian Wirtz opens up on why it's the best he has felt since joining Liverpool.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c69w91k0j9zeo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T17:19:08.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c6p9dym309nxo?at_medium=RSS&at_campaign=rss",
