@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T11:14:12.074Z",
+  "updatedAt": "2026-11-27T11:07:04.279Z",
   "dataSource": "ESPN (J1) + J.LEAGUE official site (J2/J3)",
   "sourceDetails": {
     "j1": "ESPN scoreboard / standings",
@@ -51,7 +51,8 @@
     "officialVenues": 39
   },
   "errors": [
-    "j1 scoreboard: https://site.api.espn.com/apis/site/v2/sports/soccer/jpn.1/scoreboard?dates=20260101-20261231&limit=1000: HTTP 400: {\"code\":400,\"message\":\"Failed to get events endpoint.\"}"
+    "j1 scoreboard: https://site.api.espn.com/apis/site/v2/sports/soccer/jpn.1/scoreboard?dates=20260101-20261231&limit=1000: HTTP 400: {\"code\":400,\"message\":\"Failed to get events endpoint.\"}",
+    "fc-osaka profile(osaka): The operation was aborted due to timeout"
   ],
   "teams": [
     {
@@ -327,7 +328,7 @@
       "area": "山形",
       "officialSlug": "yamagata",
       "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-      "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+      "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
     },
     {
       "id": "iwaki",
@@ -600,7 +601,7 @@
       "name": "FC大阪",
       "shortName": "FC大阪",
       "area": "大阪",
-      "officialSlug": "osaka",
+      "officialSlug": "fc-osaka",
       "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
     },
     {
@@ -1220,7 +1221,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
@@ -1539,7 +1540,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "away": {
         "id": "tochigi-city",
@@ -1973,7 +1974,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "score": {
         "home": null,
@@ -2383,7 +2384,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
@@ -2618,7 +2619,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
@@ -2948,7 +2949,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "away": {
         "id": "yokohama-fc",
@@ -4181,7 +4182,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "score": {
         "home": null,
@@ -4414,7 +4415,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
@@ -4554,7 +4555,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
@@ -4732,7 +4733,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "away": {
         "id": "kofu",
@@ -6059,7 +6060,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "score": {
         "home": null,
@@ -6328,7 +6329,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
@@ -6421,7 +6422,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
@@ -6657,7 +6658,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "away": {
         "id": "toyama",
@@ -7503,7 +7504,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "away": {
         "id": "tosu",
@@ -8123,7 +8124,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
@@ -8688,7 +8689,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "score": {
         "home": null,
@@ -8733,7 +8734,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
@@ -9193,7 +9194,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
@@ -9758,7 +9759,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "away": {
         "id": "sendai",
@@ -10286,7 +10287,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "score": {
         "home": null,
@@ -10566,7 +10567,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
@@ -11073,7 +11074,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "away": {
         "id": "sapporo",
@@ -11776,7 +11777,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
@@ -12198,7 +12199,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
@@ -12434,7 +12435,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "away": {
         "id": "miyazaki",
@@ -13009,7 +13010,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "score": {
         "home": null,
@@ -13524,7 +13525,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
@@ -13888,7 +13889,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
@@ -13983,7 +13984,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "away": {
         "id": "tokushima",
@@ -14887,7 +14888,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "score": {
         "home": null,
@@ -15167,7 +15168,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
@@ -15779,7 +15780,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "score": {
         "home": null,
@@ -16670,7 +16671,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
@@ -16718,7 +16719,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "score": {
         "home": null,
@@ -17598,7 +17599,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
@@ -17975,7 +17976,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "away": {
         "id": "iwata",
@@ -18396,7 +18397,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
@@ -18735,7 +18736,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
@@ -18783,7 +18784,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "score": {
         "home": null,
@@ -19994,7 +19995,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "away": {
         "id": "iwaki",
@@ -20191,7 +20192,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
@@ -20462,7 +20463,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
@@ -21223,7 +21224,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
@@ -21516,7 +21517,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "away": {
         "id": "hachinohe",
@@ -22336,7 +22337,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "score": {
         "home": null,
@@ -22576,7 +22577,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "score": {
         "home": null,
@@ -23102,7 +23103,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
@@ -23775,7 +23776,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "score": {
         "home": null,
@@ -24002,7 +24003,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
@@ -24435,7 +24436,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "away": {
         "id": "niigata",
@@ -25212,7 +25213,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
@@ -25401,7 +25402,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "score": {
         "home": null,
@@ -25728,7 +25729,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
@@ -26200,7 +26201,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "score": {
         "home": null,
@@ -26907,7 +26908,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
@@ -27244,7 +27245,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "away": {
         "id": "imabari",
@@ -27685,7 +27686,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
@@ -28454,7 +28455,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "score": {
         "home": null,
@@ -28777,7 +28778,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
@@ -29125,7 +29126,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "score": {
         "home": null,
@@ -29987,7 +29988,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
@@ -30121,7 +30122,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "away": {
         "id": "oita",
@@ -30647,7 +30648,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
@@ -31080,7 +31081,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "away": {
         "id": "fujieda",
@@ -31713,7 +31714,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
@@ -32282,7 +32283,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "score": {
         "home": null,
@@ -32551,7 +32552,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
@@ -32978,7 +32979,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "away": {
         "id": "shonan",
@@ -33707,7 +33708,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
@@ -33887,7 +33888,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "away": {
         "id": "akita",
@@ -34449,7 +34450,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
@@ -35079,7 +35080,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "score": {
         "home": null,
@@ -35413,7 +35414,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "score": {
@@ -35832,7 +35833,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "away": {
         "id": "omiya",
@@ -36394,7 +36395,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "away": {
@@ -37495,7 +37496,7 @@
         "area": "山形",
         "officialSlug": "yamagata",
         "logo": "https://www.jleague.jp/image/clubs/yamagata.svg",
-        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/19 15:07 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
+        "venue": "ＮＤソフトスタジアム山形 入場可能数 ： 20,638 人 監督 横内 昭展 試合日程をカレンダーに追加 更新日: 2026/11/27 15:34 クラブ公式サイト お気に入りクラブ登録 お気に入りクラブの登録について 概要 日程・結果 "
       },
       "played": 19,
       "win": 7,
@@ -37668,7 +37669,7 @@
         "name": "FC大阪",
         "shortName": "FC大阪",
         "area": "大阪",
-        "officialSlug": "osaka",
+        "officialSlug": "fc-osaka",
         "logo": "https://www.jleague.jp/_next/image/?url=%2Fimage%2Flogo%2Fja%2Fj1--v--w.webp&amp;w=256&amp;q=75"
       },
       "played": 19,
