@@ -1,9 +1,24 @@
 {
-  "updatedAt": "2026-11-27T23:33:54.470Z",
+  "updatedAt": "2026-11-28T08:05:37.459Z",
   "source": "BBC Sport Football RSS",
   "sourceUrl": "https://feeds.bbci.co.uk/sport/football/rss.xml",
   "translationMode": "free-rule-based",
   "items": [
+    {
+      "id": "https://www.bbc.co.uk/sport/football/articles/cqvg23jg6x78o?at_medium=RSS&at_campaign=rss",
+      "status": "rumour",
+      "player": "Champions League to be a factor in Paz move - Saturday's gossip",
+      "titleJa": "移籍情報：Champions League to be a factor in Paz move - Saturday's gossip",
+      "from": "",
+      "to": "",
+      "summaryJa": "Champions League to be a factor in Paz move - Saturday's gossip移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "Champions League to be a factor in Paz move - Saturday's gossip",
+      "summary": "Manchester United may lose the chance to sign Nico Paz without Champions League qualification, Arsenal also want the Como midfielder and Liverpool eye Lamine Camara.",
+      "parsed": false,
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqvg23jg6x78o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-27T21:19:27.000Z"
+    },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/c6d91j5geepqo?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
@@ -20,19 +35,19 @@
       "date": "2026-11-27T15:08:41.000Z"
     },
     {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cqvg23jg6x78o?at_medium=RSS&at_campaign=rss",
+      "id": "https://www.bbc.co.uk/sport/football/videos/cw5y1e747375o?at_medium=RSS&at_campaign=rss",
       "status": "rumour",
-      "player": "Champions League to be a factor in Paz move - Saturday's gossip",
-      "titleJa": "移籍情報：Champions League to be a factor in Paz move - Saturday's gossip",
+      "player": "I watched every Brighton game at Dortmund - Gross",
+      "titleJa": "移籍情報：I watched every Brighton game at Dortmund - Gross",
       "from": "",
       "to": "",
-      "summaryJa": "Champions League to be a factor in Paz move - Saturday's gossip移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Champions League to be a factor in Paz move - Saturday's gossip",
-      "summary": "Manchester United may lose the chance to sign Nico Paz without Champions League qualification, Arsenal also want the Como midfielder and Liverpool eye Lamine Camara.",
+      "summaryJa": "I watched every Brighton game at Dortmund - Gross移る可能性について、関心・噂段階の報道です。",
+      "originalTitle": "I watched every Brighton game at Dortmund - Gross",
+      "summary": "Brighton's Pascal Gross shares why he returned after getting his move to Borussia Dortmund.",
       "parsed": false,
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqvg23jg6x78o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-27T21:19:27.000Z"
+      "url": "https://www.bbc.co.uk/sport/football/videos/cw5y1e747375o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-28T07:29:50.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cmly5j49ypzqo?at_medium=RSS&at_campaign=rss",
@@ -63,21 +78,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmq5v84vw818o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-26T22:27:52.000Z"
-    },
-    {
-      "id": "https://www.bbc.co.uk/sport/football/articles/cx62pnz1evv4o?at_medium=RSS&at_campaign=rss",
-      "status": "rumour",
-      "player": "Calvert-Lewin signs new Leeds deal until 2029",
-      "titleJa": "移籍情報：Calvert-Lewin signs new Leeds deal until 2029",
-      "from": "",
-      "to": "",
-      "summaryJa": "Calvert-Lewin signs new Leeds deal until 2029移る可能性について、関心・噂段階の報道です。",
-      "originalTitle": "Calvert-Lewin signs new Leeds deal until 2029",
-      "summary": "England international Dominic Calvert-Lewin signs a new contract to stay with Leeds United until 2029.",
-      "parsed": false,
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx62pnz1evv4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-26T18:00:31.000Z"
     },
     {
       "id": "https://www.bbc.co.uk/sport/football/articles/cq20x16zxxzeo?at_medium=RSS&at_campaign=rss",
